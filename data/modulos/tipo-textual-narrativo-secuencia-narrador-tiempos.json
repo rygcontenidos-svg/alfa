@@ -3,7 +3,9 @@
   "materia": "lengua",
   "titulo": "Tipo textual narrativo. Secuencia. Tipos de narrador. Uso de tiempos verbales en la narración",
   "descripcion": "Marco narrativo, núcleos narrativos y secuencia. Narrador protagonista, testigo y omnisciente. Tiempos verbales en la narración: pretérito perfecto simple, imperfecto, pluscuamperfecto y condicional simple.",
-  "textos_ids": ["el-leon-y-la-liebre"],
+  "textos_ids": [
+    "el-leon-y-la-liebre"
+  ],
   "estado": "completo",
   "ejercicios": [
     {
@@ -18,20 +20,49 @@
       "id": "vf_leon_liebre",
       "tipo": "verdadero_falso",
       "consigna": "Marcar V o F según la fábula 'El león y la liebre'.",
-      "labels": { "verdadero": "V", "falso": "F" },
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
       "items": [
-        { "id": "i1", "afirmacion": "La decisión de enviar cada día un animal al león fue para evitar una matanza indiscriminada.", "respuesta": true },
-        { "id": "i2", "afirmacion": "La liebre vieja temía su destino ante el león y por eso obedeció rápidamente.", "respuesta": false, "correccion": "La liebre vieja no temía: pensó que si había de morir, obedecer no le serviría de nada, y decidió tomarse el asunto con calma." },
-        { "id": "i3", "afirmacion": "La liebre vieja se encontró con otro león con quien se entretuvo charlando.", "respuesta": false, "correccion": "La liebre inventó la historia del otro león para engañar al león Durdanta y llevarlo al pozo." },
-        { "id": "i4", "afirmacion": "El león Durdanta encontró la muerte al precipitarse en el pozo persiguiendo su propia imagen.", "respuesta": true },
-        { "id": "i5", "afirmacion": "La historia busca dejar una enseñanza: la inteligencia es más importante que la fuerza.", "respuesta": true }
+        {
+          "id": "i1",
+          "afirmacion": "La decisión de enviar cada día un animal al león fue para evitar una matanza indiscriminada.",
+          "respuesta": true
+        },
+        {
+          "id": "i2",
+          "afirmacion": "La liebre vieja temía su destino ante el león y por eso obedeció rápidamente.",
+          "respuesta": false,
+          "correccion": "La liebre vieja no temía: pensó que si había de morir, obedecer no le serviría de nada, y decidió tomarse el asunto con calma."
+        },
+        {
+          "id": "i3",
+          "afirmacion": "La liebre vieja se encontró con otro león con quien se entretuvo charlando.",
+          "respuesta": false,
+          "correccion": "La liebre inventó la historia del otro león para engañar al león Durdanta y llevarlo al pozo."
+        },
+        {
+          "id": "i4",
+          "afirmacion": "El león Durdanta encontró la muerte al precipitarse en el pozo persiguiendo su propia imagen.",
+          "respuesta": true
+        },
+        {
+          "id": "i5",
+          "afirmacion": "La historia busca dejar una enseñanza: la inteligencia es más importante que la fuerza.",
+          "respuesta": true
+        }
       ]
     },
     {
       "id": "narrador_leon_liebre",
       "tipo": "tipo_narrador",
       "consigna": "Marcá el tipo de narrador de 'El león y la liebre' y justificá con una cita del texto.",
-      "opciones": ["Narrador Protagonista", "Narrador Testigo", "Narrador Omnisciente"],
+      "opciones": [
+        "Narrador Protagonista",
+        "Narrador Testigo",
+        "Narrador Omnisciente"
+      ],
       "correcta": "Narrador Omnisciente",
       "cita_justificacion": "esta se dijo para sus adentros: 'Solamente se obedece a aquel a quien se teme…' (conoce los pensamientos íntimos de la liebre, algo que un narrador testigo no podría saber)"
     },
@@ -40,12 +71,36 @@
       "tipo": "ordenar_secuencia",
       "consigna": "Ordená los núcleos narrativos de 'El león y la liebre' según la secuencia temporal del relato.",
       "eventos": [
-        { "id": "e1", "texto": "Asamblea de los animales para decidir qué hacer con el león.", "orden": 1 },
-        { "id": "e2", "texto": "Acuerdo de los animales: enviar uno cada día para que el león se alimente.", "orden": 2 },
-        { "id": "e3", "texto": "Marcha lenta de la liebre vieja hacia donde está el león.", "orden": 3 },
-        { "id": "e4", "texto": "Mentira de la liebre sobre la existencia de otro león.", "orden": 4 },
-        { "id": "e5", "texto": "Visión del león de su propia imagen reflejada en el pozo.", "orden": 5 },
-        { "id": "e6", "texto": "Muerte del león al precipitarse en el pozo.", "orden": 6 }
+        {
+          "id": "e1",
+          "texto": "Asamblea de los animales para decidir qué hacer con el león.",
+          "orden": 1
+        },
+        {
+          "id": "e2",
+          "texto": "Acuerdo de los animales: enviar uno cada día para que el león se alimente.",
+          "orden": 2
+        },
+        {
+          "id": "e3",
+          "texto": "Marcha lenta de la liebre vieja hacia donde está el león.",
+          "orden": 3
+        },
+        {
+          "id": "e4",
+          "texto": "Mentira de la liebre sobre la existencia de otro león.",
+          "orden": 4
+        },
+        {
+          "id": "e5",
+          "texto": "Visión del león de su propia imagen reflejada en el pozo.",
+          "orden": 5
+        },
+        {
+          "id": "e6",
+          "texto": "Muerte del león al precipitarse en el pozo.",
+          "orden": 6
+        }
       ]
     },
     {
@@ -53,9 +108,18 @@
       "tipo": "tipo_textual",
       "consigna": "Completá las características del tipo textual narrativo con ejemplos extraídos de 'El león y la liebre'.",
       "filas": [
-        { "caracteristica": "Uso de tiempos verbales del pasado", "ejemplo": "Vivía / decidió / se puso / llegó / respondió / se precipitó" },
-        { "caracteristica": "Presencia de un narrador", "ejemplo": "El narrador omnisciente cuenta la historia en 3ª persona" },
-        { "caracteristica": "Secuencia temporal y núcleos narrativos", "ejemplo": "Asamblea → acuerdo → marcha de la liebre → mentira → pozo → muerte" }
+        {
+          "caracteristica": "Uso de tiempos verbales del pasado",
+          "ejemplo": "Vivía / decidió / se puso / llegó / respondió / se precipitó"
+        },
+        {
+          "caracteristica": "Presencia de un narrador",
+          "ejemplo": "El narrador omnisciente cuenta la historia en 3ª persona"
+        },
+        {
+          "caracteristica": "Secuencia temporal y núcleos narrativos",
+          "ejemplo": "Asamblea → acuerdo → marcha de la liebre → mentira → pozo → muerte"
+        }
       ]
     },
     {
@@ -63,10 +127,26 @@
       "tipo": "tiempos_verbales",
       "consigna": "Relacioná cada verbo conjugado de 'El león y la liebre' con el uso que le corresponde en la narración.",
       "filas": [
-        { "ejemplo": "Vivía en una montaña un león…", "tiempo": "Pretérito imperfecto", "uso": "Descripción" },
-        { "ejemplo": "Un buen día estos se reunieron en asamblea…", "tiempo": "Pretérito perfecto simple", "uso": "Acción principal puntual terminada" },
-        { "ejemplo": "que había estado esperando muchos días…", "tiempo": "Pretérito pluscuamperfecto", "uso": "Acción anterior a otra del pasado" },
-        { "ejemplo": "No puede costarme más que la vida", "tiempo": "Presente (modo indicativo)", "uso": "Comentario del narrador" }
+        {
+          "ejemplo": "Vivía en una montaña un león…",
+          "tiempo": "Pretérito imperfecto",
+          "uso": "Descripción"
+        },
+        {
+          "ejemplo": "Un buen día estos se reunieron en asamblea…",
+          "tiempo": "Pretérito perfecto simple",
+          "uso": "Acción principal puntual terminada"
+        },
+        {
+          "ejemplo": "que había estado esperando muchos días…",
+          "tiempo": "Pretérito pluscuamperfecto",
+          "uso": "Acción anterior a otra del pasado"
+        },
+        {
+          "ejemplo": "No puede costarme más que la vida",
+          "tiempo": "Presente (modo indicativo)",
+          "uso": "Comentario del narrador"
+        }
       ],
       "usos_para_relacionar": [
         "Acción principal puntual terminada",
@@ -75,11 +155,212 @@
         "Comentario del narrador",
         "Acción futura en el pasado"
       ]
+    },
+    {
+      "id": "completar_tiempos_verbales",
+      "tipo": "completar",
+      "consigna": "Completá sobre el uso de tiempos verbales en la narración.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Qué tiempo verbal se usa para narrar las acciones principales de una historia? Dá un ejemplo.",
+          "respuesta": "Pretérito perfecto simple (o pretérito indefinido). Ejemplo: «Caminó, miró, decidió volver»."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Para qué se usa el pretérito imperfecto en una narración? Dá un ejemplo.",
+          "respuesta": "Para describir situaciones, circunstancias o acciones habituales en el pasado. Ejemplo: «El pueblo era pequeño y todos se conocían»."
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Qué expresa el pretérito pluscuamperfecto? Construí un ejemplo.",
+          "respuesta": "Una acción pasada anterior a otra también pasada. Ejemplo: «Cuando llegó, ella ya se había ido»."
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "¿Qué tiempo verbal se usa para las descripciones dentro de una narración?",
+          "respuesta": "Pretérito imperfecto y presente (para descripciones atemporales)."
+        }
+      ]
+    },
+    {
+      "id": "sm_tiempos_verbales_fragmento",
+      "tipo": "seleccion_multiple",
+      "consigna": "Leé el siguiente fragmento e identificá los tiempos verbales usados: «El cazador había salido antes del amanecer. Caminaba entre los árboles cuando, de repente, escuchó un ruido extraño. El bosque, que siempre le parecía seguro, esa mañana tenía algo ominoso. Decidió volver.»",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Todos los verbos están en pretérito perfecto simple."
+        },
+        {
+          "id": "b",
+          "texto": "Hay pretérito pluscuamperfecto (había salido), pretérito imperfecto (caminaba, parecía, tenía) y pretérito perfecto simple (escuchó, decidió)."
+        },
+        {
+          "id": "c",
+          "texto": "Todos los verbos están en pretérito imperfecto."
+        },
+        {
+          "id": "d",
+          "texto": "Hay presente, pretérito perfecto simple y pretérito imperfecto."
+        }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "ordenar_secuencia_extendida",
+      "tipo": "ordenar_secuencia",
+      "consigna": "Ordená los siguientes núcleos narrativos de la fábula «El león y la liebre» según la secuencia en que ocurren. En tu cuaderno, escribí un breve resumen que conecte los eventos.",
+      "eventos": [
+        {
+          "id": "e1",
+          "texto": "El león, rey de la selva, mataba animales sin control.",
+          "orden": 1
+        },
+        {
+          "id": "e2",
+          "texto": "Los animales, preocupados, se reunieron para buscar una solución.",
+          "orden": 2
+        },
+        {
+          "id": "e3",
+          "texto": "Decidieron ofrecerle al león un animal por día para que no los mate a todos.",
+          "orden": 3
+        },
+        {
+          "id": "e4",
+          "texto": "Le tocó el turno a la liebre más vieja del grupo.",
+          "orden": 4
+        },
+        {
+          "id": "e5",
+          "texto": "La liebre, para salvarse, ideó un plan: le dijo al león que otro león se había metido en su territorio.",
+          "orden": 5
+        },
+        {
+          "id": "e6",
+          "texto": "La liebre llevó al león hasta un pozo de agua y le mostró su propio reflejo.",
+          "orden": 6
+        },
+        {
+          "id": "e7",
+          "texto": "El león, creyendo que era su rival, saltó al pozo y se ahogó.",
+          "orden": 7
+        },
+        {
+          "id": "e8",
+          "texto": "Los animales celebraron la astucia de la liebre y vivieron en paz.",
+          "orden": 8
+        }
+      ]
+    },
+    {
+      "id": "completar_narrador_analisis",
+      "tipo": "completar",
+      "consigna": "Analizá los tipos de narrador con tus palabras. Dá ejemplos inventados por vos.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Qué tipo de narrador es el más común en las fábulas? ¿Por qué?",
+          "respuesta": "Narrador omnisciente en 3ª persona, porque conoce los pensamientos de los personajes y suele terminar con una moraleja o enseñanza que revela un conocimiento superior de la situación."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Inventá dos oraciones narradas por un narrador protagonista.",
+          "respuesta": "(Ejemplo) «Esa mañana desperté con la certeza de que algo malo iba a pasar. Me vestí rápido y salí sin desayunar»."
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Qué diferencia hay entre narrador omnisciente y narrador testigo?",
+          "respuesta": "El omnisciente sabe TODO (pensamientos, pasado, futuro de todos los personajes). El testigo solo cuenta lo que VE o ESCUCHA desde afuera, como un observador."
+        }
+      ]
+    },
+    {
+      "id": "vf_tiempos_complejo",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcá V o F. Estos enunciados requieren comprensión profunda de los tiempos verbales en la narración.",
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
+      "items": [
+        {
+          "id": "a",
+          "afirmacion": "El pretérito perfecto simple (cantó, salió, dijo) se usa para narrar acciones puntuales que hacen avanzar la historia.",
+          "respuesta": true
+        },
+        {
+          "id": "b",
+          "afirmacion": "El pretérito imperfecto (cantaba, salía, decía) puede usarse para describir el contexto o las circunstancias en las que ocurren las acciones principales.",
+          "respuesta": true
+        },
+        {
+          "id": "c",
+          "afirmacion": "El pretérito pluscuamperfecto (había cantado) expresa una acción futura dentro del relato.",
+          "respuesta": false,
+          "correccion": "Expresa una acción PASADA anterior a otra también pasada. Es el pasado del pasado."
+        },
+        {
+          "id": "d",
+          "afirmacion": "En la oración «Cuando llegué a la fiesta, todos se habían ido», «habían ido» es una acción posterior a «llegué».",
+          "respuesta": false,
+          "correccion": "«Habían ido» es ANTERIOR a «llegué». Primero se fueron, después llegué."
+        },
+        {
+          "id": "e",
+          "afirmacion": "El presente puede usarse en una narración en pasado para crear efecto de cercanía o actualidad.",
+          "respuesta": true
+        }
+      ]
+    },
+    {
+      "id": "cohesion_narrativa_leon",
+      "tipo": "coherencia_cohesion",
+      "consigna": "Identificá qué recurso de cohesión se usa en cada fragmento extraído de la adaptación de «El león y la liebre».",
+      "fragmento": "El león era el rey de la selva. Este animal mataba sin control a todos los demás. Un día, los animales se reunieron y decidieron hacer algo. La criatura más astuta del grupo, la liebre, ideó un plan.",
+      "recursos_opciones": [
+        "Sinonimia",
+        "Elipsis",
+        "Sustitución pronominal",
+        "Conector temporal"
+      ],
+      "items": [
+        {
+          "id": "coh1",
+          "fragmento_destacado": "Este animal",
+          "recurso_correcto": "Sinonimia"
+        },
+        {
+          "id": "coh2",
+          "fragmento_destacado": "decidieron",
+          "recurso_correcto": "Elipsis"
+        },
+        {
+          "id": "coh3",
+          "fragmento_destacado": "La criatura",
+          "recurso_correcto": "Sinonimia"
+        },
+        {
+          "id": "coh4",
+          "fragmento_destacado": "Un día",
+          "recurso_correcto": "Conector temporal"
+        }
+      ]
     }
   ],
   "metodo": {
     "calentamiento": {
-      "textos_ids": ["el-leon-y-la-liebre"]
+      "textos_ids": [
+        "el-leon-y-la-liebre"
+      ]
     },
     "entender": {
       "diapositivas": [
@@ -98,9 +379,18 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "⏳", "texto": "Uso de tiempos verbales del pasado" },
-                { "icono": "🗣️", "texto": "Presencia de un narrador" },
-                { "icono": "🔗", "texto": "Secuencia temporal y núcleos narrativos" }
+                {
+                  "icono": "⏳",
+                  "texto": "Uso de tiempos verbales del pasado"
+                },
+                {
+                  "icono": "🗣️",
+                  "texto": "Presencia de un narrador"
+                },
+                {
+                  "icono": "🔗",
+                  "texto": "Secuencia temporal y núcleos narrativos"
+                }
               ]
             }
           ]
@@ -118,9 +408,18 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🧑", "texto": "Personajes: quiénes participan en la historia" },
-                { "icono": "📍", "texto": "Lugar: dónde suceden los hechos" },
-                { "icono": "⏰", "texto": "Tiempo: cuándo transcurre la historia" }
+                {
+                  "icono": "🧑",
+                  "texto": "Personajes: quiénes participan en la historia"
+                },
+                {
+                  "icono": "📍",
+                  "texto": "Lugar: dónde suceden los hechos"
+                },
+                {
+                  "icono": "⏰",
+                  "texto": "Tiempo: cuándo transcurre la historia"
+                }
               ]
             },
             {
@@ -139,9 +438,18 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🟢", "texto": "PROTAGONISTA: es el personaje principal. Solo conoce los hechos en los que participó. Relata en 1ª persona." },
-                { "icono": "🟠", "texto": "TESTIGO: solo sabe aquello que le contaron, vio o escuchó. No es protagonista, es secundario. 1ª o 3ª persona." },
-                { "icono": "🔵", "texto": "OMNISCIENTE: conoce todo sobre los personajes, sus acciones, sentimientos y pensamientos. No es personaje, usa 3ª persona." }
+                {
+                  "icono": "🟢",
+                  "texto": "PROTAGONISTA: es el personaje principal. Solo conoce los hechos en los que participó. Relata en 1ª persona."
+                },
+                {
+                  "icono": "🟠",
+                  "texto": "TESTIGO: solo sabe aquello que le contaron, vio o escuchó. No es protagonista, es secundario. 1ª o 3ª persona."
+                },
+                {
+                  "icono": "🔵",
+                  "texto": "OMNISCIENTE: conoce todo sobre los personajes, sus acciones, sentimientos y pensamientos. No es personaje, usa 3ª persona."
+                }
               ]
             },
             {
@@ -187,11 +495,26 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "⚡", "texto": "PRETÉRITO PERFECTO SIMPLE: acciones principales, puntuales, terminadas. (llegó, dijo, se precipitó)" },
-                { "icono": "🔄", "texto": "PRETÉRITO IMPERFECTO: descripciones, acciones secundarias en desarrollo o habituales. (vivía, se entretenía)" },
-                { "icono": "⏮️", "texto": "PRETÉRITO PLUSCUAMPERFECTO: acciones anteriores a otras del pasado. (había estado esperando)" },
-                { "icono": "🔜", "texto": "CONDICIONAL SIMPLE: acciones futuras en el pasado. (desaparecería)" },
-                { "icono": "💬", "texto": "PRESENTE: comentarios del narrador. (No puede costarme más que la vida)" }
+                {
+                  "icono": "⚡",
+                  "texto": "PRETÉRITO PERFECTO SIMPLE: acciones principales, puntuales, terminadas. (llegó, dijo, se precipitó)"
+                },
+                {
+                  "icono": "🔄",
+                  "texto": "PRETÉRITO IMPERFECTO: descripciones, acciones secundarias en desarrollo o habituales. (vivía, se entretenía)"
+                },
+                {
+                  "icono": "⏮️",
+                  "texto": "PRETÉRITO PLUSCUAMPERFECTO: acciones anteriores a otras del pasado. (había estado esperando)"
+                },
+                {
+                  "icono": "🔜",
+                  "texto": "CONDICIONAL SIMPLE: acciones futuras en el pasado. (desaparecería)"
+                },
+                {
+                  "icono": "💬",
+                  "texto": "PRESENTE: comentarios del narrador. (No puede costarme más que la vida)"
+                }
               ]
             }
           ]
@@ -226,9 +549,18 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🔍", "texto": "Descripciones: caracterizan personajes, espacios u objetos." },
-                { "icono": "🔗", "texto": "Conectores temporales: marcan la sucesión de hechos ('a partir de entonces', 'por fin', 'un buen día')." },
-                { "icono": "💬", "texto": "Diálogos: introducen las palabras de los personajes." }
+                {
+                  "icono": "🔍",
+                  "texto": "Descripciones: caracterizan personajes, espacios u objetos."
+                },
+                {
+                  "icono": "🔗",
+                  "texto": "Conectores temporales: marcan la sucesión de hechos ('a partir de entonces', 'por fin', 'un buen día')."
+                },
+                {
+                  "icono": "💬",
+                  "texto": "Diálogos: introducen las palabras de los personajes."
+                }
               ]
             }
           ]
@@ -278,10 +610,22 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🖼️", "texto": "Marco narrativo: personajes, lugar y tiempo." },
-                { "icono": "🗣️", "texto": "3 tipos de narrador: protagonista (1ª), testigo (1ª o 3ª), omnisciente (3ª)." },
-                { "icono": "🔗", "texto": "Núcleos narrativos: eventos principales que estructuran la narración." },
-                { "icono": "⏳", "texto": "Tiempos: PPS (acciones), imperfecto (descripciones), pluscuamperfecto (anterior), condicional (futuro del pasado)." }
+                {
+                  "icono": "🖼️",
+                  "texto": "Marco narrativo: personajes, lugar y tiempo."
+                },
+                {
+                  "icono": "🗣️",
+                  "texto": "3 tipos de narrador: protagonista (1ª), testigo (1ª o 3ª), omnisciente (3ª)."
+                },
+                {
+                  "icono": "🔗",
+                  "texto": "Núcleos narrativos: eventos principales que estructuran la narración."
+                },
+                {
+                  "icono": "⏳",
+                  "texto": "Tiempos: PPS (acciones), imperfecto (descripciones), pluscuamperfecto (anterior), condicional (futuro del pasado)."
+                }
               ]
             }
           ]
@@ -290,32 +634,93 @@
     },
     "recordar": {
       "flashcards": [
-        { "pregunta": "¿Qué es el marco narrativo?", "respuesta": "Los tres elementos que conforman el marco: personajes, lugar y tiempo." },
-        { "pregunta": "Narrador protagonista: ¿qué lo caracteriza?", "respuesta": "Es el personaje principal. Solo conoce los hechos en los que participó. Relata en 1ª persona." },
-        { "pregunta": "Narrador testigo: ¿qué lo caracteriza?", "respuesta": "Solo sabe lo que le contaron, vio o escuchó. Es un personaje secundario. Usa 1ª o 3ª persona." },
-        { "pregunta": "Narrador omnisciente: ¿qué lo caracteriza?", "respuesta": "Conoce todo sobre los personajes: acciones, sentimientos y pensamientos. No es personaje, usa 3ª persona." },
-        { "pregunta": "¿Qué son los núcleos narrativos?", "respuesta": "Los eventos principales imprescindibles para el desarrollo de la historia. Unidades mínimas que estructuran la narración." },
-        { "pregunta": "PPS: ¿qué uso tiene en la narración?", "respuesta": "Pretérito perfecto simple: acciones principales, puntuales, terminadas. (llegó, dijo)" },
-        { "pregunta": "Pretérito imperfecto: ¿qué uso tiene?", "respuesta": "Descripciones, acciones secundarias en desarrollo o habituales. (vivía, se entretenía)" },
-        { "pregunta": "Pretérito pluscuamperfecto: ¿qué uso tiene?", "respuesta": "Acciones anteriores a otras del pasado. (había estado esperando)" },
-        { "pregunta": "Condicional simple: ¿qué uso tiene?", "respuesta": "Acciones futuras en el pasado. (desaparecería)" },
-        { "pregunta": "¿Diferencia entre autor y narrador?", "respuesta": "El autor escribe la obra y crea al narrador. El narrador es la voz que cuenta la historia." }
+        {
+          "pregunta": "¿Qué es el marco narrativo?",
+          "respuesta": "Los tres elementos que conforman el marco: personajes, lugar y tiempo."
+        },
+        {
+          "pregunta": "Narrador protagonista: ¿qué lo caracteriza?",
+          "respuesta": "Es el personaje principal. Solo conoce los hechos en los que participó. Relata en 1ª persona."
+        },
+        {
+          "pregunta": "Narrador testigo: ¿qué lo caracteriza?",
+          "respuesta": "Solo sabe lo que le contaron, vio o escuchó. Es un personaje secundario. Usa 1ª o 3ª persona."
+        },
+        {
+          "pregunta": "Narrador omnisciente: ¿qué lo caracteriza?",
+          "respuesta": "Conoce todo sobre los personajes: acciones, sentimientos y pensamientos. No es personaje, usa 3ª persona."
+        },
+        {
+          "pregunta": "¿Qué son los núcleos narrativos?",
+          "respuesta": "Los eventos principales imprescindibles para el desarrollo de la historia. Unidades mínimas que estructuran la narración."
+        },
+        {
+          "pregunta": "PPS: ¿qué uso tiene en la narración?",
+          "respuesta": "Pretérito perfecto simple: acciones principales, puntuales, terminadas. (llegó, dijo)"
+        },
+        {
+          "pregunta": "Pretérito imperfecto: ¿qué uso tiene?",
+          "respuesta": "Descripciones, acciones secundarias en desarrollo o habituales. (vivía, se entretenía)"
+        },
+        {
+          "pregunta": "Pretérito pluscuamperfecto: ¿qué uso tiene?",
+          "respuesta": "Acciones anteriores a otras del pasado. (había estado esperando)"
+        },
+        {
+          "pregunta": "Condicional simple: ¿qué uso tiene?",
+          "respuesta": "Acciones futuras en el pasado. (desaparecería)"
+        },
+        {
+          "pregunta": "¿Diferencia entre autor y narrador?",
+          "respuesta": "El autor escribe la obra y crea al narrador. El narrador es la voz que cuenta la historia."
+        }
       ]
     },
     "practicar": {
-      "ejercicios_ids": ["marco_leon_liebre", "vf_leon_liebre", "narrador_leon_liebre", "tipo_textual_leon"]
+      "ejercicios_ids": [
+        "marco_leon_liebre",
+        "vf_leon_liebre",
+        "narrador_leon_liebre",
+        "tipo_textual_leon",
+        "completar_tiempos_verbales",
+        "sm_tiempos_verbales_fragmento",
+        "ordenar_secuencia_extendida",
+        "completar_narrador_analisis",
+        "vf_tiempos_complejo",
+        "cohesion_narrativa_leon"
+      ]
     },
     "ponerse_a_prueba": {
-      "ejercicios_ids": ["secuencia_leon_liebre", "tiempos_verbales_leon", "narrador_leon_liebre", "vf_leon_liebre"],
+      "ejercicios_ids": [
+        "secuencia_leon_liebre",
+        "tiempos_verbales_leon",
+        "narrador_leon_liebre",
+        "vf_leon_liebre"
+      ],
       "duracion_min": 20
     },
     "mejorar": {
       "explicaciones": [
-        { "titulo": "Error frecuente: confundir autor con narrador", "detalle": "El autor es quien escribe la obra (puede ser anónimo, como en 'El león y la liebre'). El narrador es la voz que cuenta la historia, creada por el autor." },
-        { "titulo": "Narrador omnisciente en 'El león y la liebre'", "detalle": "El narrador sabe lo que la liebre piensa 'para sus adentros'. Ese conocimiento de los pensamientos íntimos es exclusivo del narrador omnisciente." },
-        { "titulo": "PPS vs. imperfecto", "detalle": "El PPS marca acciones puntuales y terminadas que hacen avanzar la trama (se reunió, decidió, llegó). El imperfecto describe situaciones en curso o habituales (vivía, se entretenía, se iba deteniendo)." },
-        { "titulo": "Pluscuamperfecto: el pasado del pasado", "detalle": "El pluscuamperfecto marca una acción anterior a otra ya pasada. 'había estado esperando muchos días': el león ya estaba esperando antes de que llegara la liebre." },
-        { "titulo": "Núcleos narrativos vs. detalles", "detalle": "Los núcleos narrativos son los eventos imprescindibles. Detalles como 'se iba deteniendo para contemplar el paisaje' no son núcleos: son descripciones que enriquecen pero no estructuran la historia." }
+        {
+          "titulo": "Error frecuente: confundir autor con narrador",
+          "detalle": "El autor es quien escribe la obra (puede ser anónimo, como en 'El león y la liebre'). El narrador es la voz que cuenta la historia, creada por el autor."
+        },
+        {
+          "titulo": "Narrador omnisciente en 'El león y la liebre'",
+          "detalle": "El narrador sabe lo que la liebre piensa 'para sus adentros'. Ese conocimiento de los pensamientos íntimos es exclusivo del narrador omnisciente."
+        },
+        {
+          "titulo": "PPS vs. imperfecto",
+          "detalle": "El PPS marca acciones puntuales y terminadas que hacen avanzar la trama (se reunió, decidió, llegó). El imperfecto describe situaciones en curso o habituales (vivía, se entretenía, se iba deteniendo)."
+        },
+        {
+          "titulo": "Pluscuamperfecto: el pasado del pasado",
+          "detalle": "El pluscuamperfecto marca una acción anterior a otra ya pasada. 'había estado esperando muchos días': el león ya estaba esperando antes de que llegara la liebre."
+        },
+        {
+          "titulo": "Núcleos narrativos vs. detalles",
+          "detalle": "Los núcleos narrativos son los eventos imprescindibles. Detalles como 'se iba deteniendo para contemplar el paisaje' no son núcleos: son descripciones que enriquecen pero no estructuran la historia."
+        }
       ]
     }
   }

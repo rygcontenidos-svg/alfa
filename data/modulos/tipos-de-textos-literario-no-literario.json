@@ -3,7 +3,12 @@
   "materia": "lengua",
   "titulo": "Tipos de textos. Texto literario y no literario",
   "descripcion": "Qué es un texto. Tipos textuales: narrativo, descriptivo, dialogal y explicativo. Diferencia entre texto literario y no literario.",
-  "textos_ids": ["memoria-historica", "entrevista-nora", "cien-anos-soledad", "esma-visita"],
+  "textos_ids": [
+    "memoria-historica",
+    "entrevista-nora",
+    "cien-anos-soledad",
+    "esma-visita"
+  ],
   "estado": "completo",
   "ejercicios": [
     {
@@ -11,9 +16,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué es un texto?",
       "opciones": [
-        { "id": "a", "texto": "Un conjunto ordenado de enunciados, con una unidad temática y recursos que lo vuelven comprensible, ya que transmite un mensaje total." },
-        { "id": "b", "texto": "Una sola oración larga que contiene toda la información necesaria." },
-        { "id": "c", "texto": "Una lista de palabras sueltas que el lector debe ordenar para entender el mensaje." }
+        {
+          "id": "a",
+          "texto": "Un conjunto ordenado de enunciados, con una unidad temática y recursos que lo vuelven comprensible, ya que transmite un mensaje total."
+        },
+        {
+          "id": "b",
+          "texto": "Una sola oración larga que contiene toda la información necesaria."
+        },
+        {
+          "id": "c",
+          "texto": "Una lista de palabras sueltas que el lector debe ordenar para entender el mensaje."
+        }
       ],
       "correcta": "a"
     },
@@ -21,14 +35,43 @@
       "id": "vf_tipos_textuales",
       "tipo": "verdadero_falso",
       "consigna": "Marcar V o F según la teoría de tipos textuales.",
-      "labels": { "verdadero": "V", "falso": "F" },
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
       "items": [
-        { "id": "i1", "afirmacion": "Cada tipo textual tiene una intencionalidad predominante.", "respuesta": true },
-        { "id": "i2", "afirmacion": "El tipo textual narrativo se caracteriza por presentar un intercambio comunicativo entre dos o más personas.", "respuesta": false, "correccion": "Ese es el tipo textual dialogal. El narrativo se caracteriza por la presencia de un narrador que cuenta una historia." },
-        { "id": "i3", "afirmacion": "El tipo textual descriptivo detalla aspectos y características de algo o alguien para que el receptor se haga una idea mental.", "respuesta": true },
-        { "id": "i4", "afirmacion": "El tipo textual explicativo da a conocer de manera clara y objetiva algo que posiblemente no es conocido por el receptor.", "respuesta": true },
-        { "id": "i5", "afirmacion": "En un mismo texto puede haber un solo tipo textual, nunca se combinan.", "respuesta": false, "correccion": "Los textos pueden combinar varios tipos textuales, aunque siempre predomina uno." },
-        { "id": "i6", "afirmacion": "El tipo textual dialogal se reconoce por la alternancia de voces y las marcas tipográficas.", "respuesta": true }
+        {
+          "id": "i1",
+          "afirmacion": "Cada tipo textual tiene una intencionalidad predominante.",
+          "respuesta": true
+        },
+        {
+          "id": "i2",
+          "afirmacion": "El tipo textual narrativo se caracteriza por presentar un intercambio comunicativo entre dos o más personas.",
+          "respuesta": false,
+          "correccion": "Ese es el tipo textual dialogal. El narrativo se caracteriza por la presencia de un narrador que cuenta una historia."
+        },
+        {
+          "id": "i3",
+          "afirmacion": "El tipo textual descriptivo detalla aspectos y características de algo o alguien para que el receptor se haga una idea mental.",
+          "respuesta": true
+        },
+        {
+          "id": "i4",
+          "afirmacion": "El tipo textual explicativo da a conocer de manera clara y objetiva algo que posiblemente no es conocido por el receptor.",
+          "respuesta": true
+        },
+        {
+          "id": "i5",
+          "afirmacion": "En un mismo texto puede haber un solo tipo textual, nunca se combinan.",
+          "respuesta": false,
+          "correccion": "Los textos pueden combinar varios tipos textuales, aunque siempre predomina uno."
+        },
+        {
+          "id": "i6",
+          "afirmacion": "El tipo textual dialogal se reconoce por la alternancia de voces y las marcas tipográficas.",
+          "respuesta": true
+        }
       ]
     },
     {
@@ -36,10 +79,22 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Cuál de los cuatro textos leídos en la clase pertenece al tipo textual narrativo?",
       "opciones": [
-        { "id": "a", "texto": "El primer texto (definición de 'memoria histórica' del blog de Cervantes)." },
-        { "id": "b", "texto": "El segundo texto (entrevista a Pierre Nora en La Nación)." },
-        { "id": "c", "texto": "El tercer texto (fragmento de 'Cien años de soledad' de García Márquez), porque un narrador cuenta una historia con personajes en un tiempo y espacio." },
-        { "id": "d", "texto": "El cuarto texto (crónica de la visita al Sitio ESMA)." }
+        {
+          "id": "a",
+          "texto": "El primer texto (definición de 'memoria histórica' del blog de Cervantes)."
+        },
+        {
+          "id": "b",
+          "texto": "El segundo texto (entrevista a Pierre Nora en La Nación)."
+        },
+        {
+          "id": "c",
+          "texto": "El tercer texto (fragmento de 'Cien años de soledad' de García Márquez), porque un narrador cuenta una historia con personajes en un tiempo y espacio."
+        },
+        {
+          "id": "d",
+          "texto": "El cuarto texto (crónica de la visita al Sitio ESMA)."
+        }
       ],
       "correcta": "c"
     },
@@ -48,9 +103,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Cuál de los cuatro textos pertenece al tipo textual explicativo?",
       "opciones": [
-        { "id": "a", "texto": "El primer texto (definición de 'memoria histórica'), porque da a conocer de manera clara y objetiva un concepto." },
-        { "id": "b", "texto": "El tercer texto (fragmento de 'Cien años de soledad')." },
-        { "id": "c", "texto": "El cuarto texto (crónica del Sitio ESMA)." }
+        {
+          "id": "a",
+          "texto": "El primer texto (definición de 'memoria histórica'), porque da a conocer de manera clara y objetiva un concepto."
+        },
+        {
+          "id": "b",
+          "texto": "El tercer texto (fragmento de 'Cien años de soledad')."
+        },
+        {
+          "id": "c",
+          "texto": "El cuarto texto (crónica del Sitio ESMA)."
+        }
       ],
       "correcta": "a"
     },
@@ -59,9 +123,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Cuál de los cuatro textos pertenece al tipo textual dialogal?",
       "opciones": [
-        { "id": "a", "texto": "El primer texto (definición de 'memoria histórica')." },
-        { "id": "b", "texto": "El segundo texto (entrevista a Pierre Nora), porque presenta un intercambio comunicativo entre dos personas con alternancia de voces." },
-        { "id": "c", "texto": "El tercer texto (fragmento de 'Cien años de soledad')." }
+        {
+          "id": "a",
+          "texto": "El primer texto (definición de 'memoria histórica')."
+        },
+        {
+          "id": "b",
+          "texto": "El segundo texto (entrevista a Pierre Nora), porque presenta un intercambio comunicativo entre dos personas con alternancia de voces."
+        },
+        {
+          "id": "c",
+          "texto": "El tercer texto (fragmento de 'Cien años de soledad')."
+        }
       ],
       "correcta": "b"
     },
@@ -69,15 +142,49 @@
       "id": "vf_literario_no_literario",
       "tipo": "verdadero_falso",
       "consigna": "Marcar V o F sobre la diferencia entre texto literario y no literario.",
-      "labels": { "verdadero": "V", "falso": "F" },
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
       "items": [
-        { "id": "i1", "afirmacion": "El texto literario se construye en un mundo ficcional.", "respuesta": true },
-        { "id": "i2", "afirmacion": "El texto literario se compromete con la verdad fuera de él.", "respuesta": false, "correccion": "El texto literario no persigue copiar una realidad, sino construir un mundo del relato creíble (verosimilitud). El texto no literario sí se compromete con la verdad." },
-        { "id": "i3", "afirmacion": "En el texto literario predomina la función poética del lenguaje.", "respuesta": true },
-        { "id": "i4", "afirmacion": "En el texto no literario las palabras buscan ser claras, precisas y lo menos ambiguo posible.", "respuesta": true },
-        { "id": "i5", "afirmacion": "El lenguaje del texto literario es solo denotativo (literal).", "respuesta": false, "correccion": "El lenguaje del texto literario es tanto denotativo como connotativo: permite interpretaciones más allá de la literal." },
-        { "id": "i6", "afirmacion": "La entrevista a Pierre Nora es un texto no literario.", "respuesta": true },
-        { "id": "i7", "afirmacion": "El fragmento de 'Cien años de soledad' es un texto no literario.", "respuesta": false, "correccion": "Es un texto literario: construye un mundo ficcional, busca generar un placer estético y predomina la función poética." }
+        {
+          "id": "i1",
+          "afirmacion": "El texto literario se construye en un mundo ficcional.",
+          "respuesta": true
+        },
+        {
+          "id": "i2",
+          "afirmacion": "El texto literario se compromete con la verdad fuera de él.",
+          "respuesta": false,
+          "correccion": "El texto literario no persigue copiar una realidad, sino construir un mundo del relato creíble (verosimilitud). El texto no literario sí se compromete con la verdad."
+        },
+        {
+          "id": "i3",
+          "afirmacion": "En el texto literario predomina la función poética del lenguaje.",
+          "respuesta": true
+        },
+        {
+          "id": "i4",
+          "afirmacion": "En el texto no literario las palabras buscan ser claras, precisas y lo menos ambiguo posible.",
+          "respuesta": true
+        },
+        {
+          "id": "i5",
+          "afirmacion": "El lenguaje del texto literario es solo denotativo (literal).",
+          "respuesta": false,
+          "correccion": "El lenguaje del texto literario es tanto denotativo como connotativo: permite interpretaciones más allá de la literal."
+        },
+        {
+          "id": "i6",
+          "afirmacion": "La entrevista a Pierre Nora es un texto no literario.",
+          "respuesta": true
+        },
+        {
+          "id": "i7",
+          "afirmacion": "El fragmento de 'Cien años de soledad' es un texto no literario.",
+          "respuesta": false,
+          "correccion": "Es un texto literario: construye un mundo ficcional, busca generar un placer estético y predomina la función poética."
+        }
       ]
     },
     {
@@ -85,16 +192,219 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué es la verosimilitud en un texto literario?",
       "opciones": [
-        { "id": "a", "texto": "Es la verdad o falsedad del mundo fuera de la historia." },
-        { "id": "b", "texto": "Es la creación de un mundo del relato creíble para poder contar la historia, sin que importe si es verdadero o falso fuera de la ficción." },
-        { "id": "c", "texto": "Es la obligación del autor de contar solo hechos reales." }
+        {
+          "id": "a",
+          "texto": "Es la verdad o falsedad del mundo fuera de la historia."
+        },
+        {
+          "id": "b",
+          "texto": "Es la creación de un mundo del relato creíble para poder contar la historia, sin que importe si es verdadero o falso fuera de la ficción."
+        },
+        {
+          "id": "c",
+          "texto": "Es la obligación del autor de contar solo hechos reales."
+        }
       ],
       "correcta": "b"
+    },
+    {
+      "id": "completar_tipos_fragmentos",
+      "tipo": "completar",
+      "consigna": "Leé con atención cada fragmento e identificá el tipo textual que predomina. Justificá tu respuesta con al menos un elemento del texto.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "«La casa era grande, de dos plantas, con un jardín salvaje que trepaba por las paredes blancas. Las ventanas, siempre abiertas, dejaban entrar el olor a jazmín.» — Tipo textual:",
+          "respuesta": "Descriptivo: detalla cómo es la casa, sus características físicas y sensoriales."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "«—¿Ya hiciste la tarea? —le preguntó la mamá. —Todavía no, es para el viernes —respondió sin levantar la vista del celular.» — Tipo textual:",
+          "respuesta": "Dialogal: hay un intercambio comunicativo con alternancia de voces entre dos personas."
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "«Llovió toda la noche. A la mañana siguiente, el río había crecido dos metros. Los vecinos evacuaron sus casas antes del mediodía.» — Tipo textual:",
+          "respuesta": "Narrativo: un narrador cuenta una sucesión de hechos en el tiempo (llovió, había crecido, evacuaron)."
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "«Los murciélagos son los únicos mamíferos capaces de volar. Utilizan un sistema de ecolocalización que les permite orientarse en la oscuridad emitiendo sonidos de alta frecuencia.» — Tipo textual:",
+          "respuesta": "Explicativo: da a conocer información de manera clara y objetiva sobre los murciélagos."
+        }
+      ]
+    },
+    {
+      "id": "unir_tipos_caracteristicas",
+      "tipo": "unir_flechas",
+      "consigna": "Uní cada tipo textual con sus características principales.",
+      "izquierda": [
+        {
+          "id": "narrativo",
+          "texto": "Tipo textual narrativo"
+        },
+        {
+          "id": "descriptivo",
+          "texto": "Tipo textual descriptivo"
+        },
+        {
+          "id": "dialogal",
+          "texto": "Tipo textual dialogal"
+        },
+        {
+          "id": "explicativo",
+          "texto": "Tipo textual explicativo"
+        }
+      ],
+      "derecha": [
+        {
+          "id": "car1",
+          "texto": "Cuenta una historia con personajes en un tiempo y espacio."
+        },
+        {
+          "id": "car2",
+          "texto": "Detalla cómo es algo para que el receptor se haga una imagen mental."
+        },
+        {
+          "id": "car3",
+          "texto": "Presenta un intercambio entre dos o más personas que alternan sus voces."
+        },
+        {
+          "id": "car4",
+          "texto": "Da a conocer información de manera clara y objetiva."
+        }
+      ],
+      "pares": [
+        {
+          "izquierda_id": "narrativo",
+          "derecha_id": "car1"
+        },
+        {
+          "izquierda_id": "descriptivo",
+          "derecha_id": "car2"
+        },
+        {
+          "izquierda_id": "dialogal",
+          "derecha_id": "car3"
+        },
+        {
+          "izquierda_id": "explicativo",
+          "derecha_id": "car4"
+        }
+      ]
+    },
+    {
+      "id": "vf_literario_casos_dificiles",
+      "tipo": "verdadero_falso",
+      "consigna": "Determiná si los siguientes enunciados sobre textos literarios y no literarios son verdaderos (V) o falsos (F). ¡Atención: hay casos complejos!",
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
+      "items": [
+        {
+          "id": "a",
+          "afirmacion": "Una crónica periodística que usa figuras retóricas y tiene una prosa cuidada deja de ser no literaria y pasa a ser texto literario.",
+          "respuesta": false,
+          "correccion": "Aunque use lenguaje elaborado, la crónica periodística sigue siendo no literaria porque su intención principal es informar sobre hechos reales, no crear un mundo ficcional."
+        },
+        {
+          "id": "b",
+          "afirmacion": "Un poema puede ser texto no literario si su propósito principal no es el placer estético.",
+          "respuesta": false,
+          "correccion": "El poema, por su forma (verso, rima, ritmo), pertenece al ámbito literario. La intención estética es inherente al género lírico."
+        },
+        {
+          "id": "c",
+          "afirmacion": "Un texto puede ser literario en su totalidad aunque incluya fragmentos no literarios en su interior.",
+          "respuesta": true
+        },
+        {
+          "id": "d",
+          "afirmacion": "La verosimilitud significa que la historia que se cuenta es verdadera o podría haber ocurrido realmente.",
+          "respuesta": false,
+          "correccion": "La verosimilitud es la creación de un mundo del relato creíble DENTRO de la ficción. No importa si es verdad o no fuera de ella."
+        },
+        {
+          "id": "e",
+          "afirmacion": "Un mismo texto puede combinar los cuatro tipos textuales (narrativo, descriptivo, dialogal y explicativo).",
+          "respuesta": true
+        },
+        {
+          "id": "f",
+          "afirmacion": "La definición del diccionario es un texto explicativo.",
+          "respuesta": true
+        }
+      ]
+    },
+    {
+      "id": "completar_literario_no_literario",
+      "tipo": "completar",
+      "consigna": "Completá con tus palabras las diferencias fundamentales entre texto literario y no literario.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es la intención principal del texto literario?",
+          "respuesta": "Generar un placer estético en el lector. Construye un mundo ficcional verosímil."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es la intención principal del texto no literario?",
+          "respuesta": "Informar, explicar o transmitir datos de manera objetiva. Se compromete con la verdad externa."
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Qué función del lenguaje predomina en cada uno?",
+          "respuesta": "Literario: función poética. No literario: función referencial."
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "¿Qué tipo de lenguaje usa cada uno?",
+          "respuesta": "Literario: denotativo y connotativo (permite múltiples interpretaciones). No literario: predominantemente denotativo (claro y preciso)."
+        }
+      ]
+    },
+    {
+      "id": "sm_tipo_predominante",
+      "tipo": "seleccion_multiple",
+      "consigna": "Leé el siguiente fragmento e indicá el tipo textual que PREDOMINA. Justificá en tu cuaderno por qué los otros tipos, aunque puedan aparecer, no son los predominantes.\n\n«Aquella tarde de otoño, las hojas crujían bajo sus pies mientras caminaba por el parque. El banco de madera, desgastado por los años, estaba vacío. Se sentó y miró el cielo. —Hace frío —murmuró. El viento helado anunciaba la llegada del invierno, esa estación en la que todo parece detenerse y la naturaleza entra en un letargo profundo.»",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Descriptivo, porque hay muchas referencias a las hojas, el banco y el cielo."
+        },
+        {
+          "id": "b",
+          "texto": "Dialogal, porque el personaje dice «Hace frío»."
+        },
+        {
+          "id": "c",
+          "texto": "Explicativo, porque explica qué es el invierno."
+        },
+        {
+          "id": "d",
+          "texto": "Narrativo, porque un narrador cuenta una sucesión de acciones de un personaje en un tiempo y espacio determinados, aunque incluya descripciones y una breve intervención dialogada."
+        }
+      ],
+      "correcta": "d"
     }
   ],
   "metodo": {
     "calentamiento": {
-      "textos_ids": ["memoria-historica", "entrevista-nora", "cien-anos-soledad", "esma-visita"]
+      "textos_ids": [
+        "memoria-historica",
+        "entrevista-nora",
+        "cien-anos-soledad",
+        "esma-visita"
+      ]
     },
     "entender": {
       "diapositivas": [
@@ -129,10 +439,22 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "📖", "texto": "NARRATIVO: un narrador cuenta una historia con personajes en tiempo y espacio." },
-                { "icono": "🔍", "texto": "DESCRIPTIVO: detalla aspectos y características para que el receptor se haga una idea mental." },
-                { "icono": "💬", "texto": "DIALOGAL: presenta un intercambio comunicativo entre dos o más personas." },
-                { "icono": "📚", "texto": "EXPLICATIVO: da a conocer de manera clara y objetiva algo que posiblemente no es conocido por el receptor." }
+                {
+                  "icono": "📖",
+                  "texto": "NARRATIVO: un narrador cuenta una historia con personajes en tiempo y espacio."
+                },
+                {
+                  "icono": "🔍",
+                  "texto": "DESCRIPTIVO: detalla aspectos y características para que el receptor se haga una idea mental."
+                },
+                {
+                  "icono": "💬",
+                  "texto": "DIALOGAL: presenta un intercambio comunicativo entre dos o más personas."
+                },
+                {
+                  "icono": "📚",
+                  "texto": "EXPLICATIVO: da a conocer de manera clara y objetiva algo que posiblemente no es conocido por el receptor."
+                }
               ]
             },
             {
@@ -152,9 +474,18 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "⏳", "texto": "Uso de tiempos verbales del pasado" },
-                { "icono": "🗣️", "texto": "Presencia de un narrador" },
-                { "icono": "🔗", "texto": "Secuencia temporal y núcleos narrativos" }
+                {
+                  "icono": "⏳",
+                  "texto": "Uso de tiempos verbales del pasado"
+                },
+                {
+                  "icono": "🗣️",
+                  "texto": "Presencia de un narrador"
+                },
+                {
+                  "icono": "🔗",
+                  "texto": "Secuencia temporal y núcleos narrativos"
+                }
               ]
             },
             {
@@ -173,9 +504,18 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "💭", "texto": "En la descripción subjetiva, uso de lenguaje expresivo" },
-                { "icono": "⏰", "texto": "Uso del tiempo presente o del pretérito imperfecto del indicativo" },
-                { "icono": "✨", "texto": "Predominio de la función poética en la descripción subjetiva" }
+                {
+                  "icono": "💭",
+                  "texto": "En la descripción subjetiva, uso de lenguaje expresivo"
+                },
+                {
+                  "icono": "⏰",
+                  "texto": "Uso del tiempo presente o del pretérito imperfecto del indicativo"
+                },
+                {
+                  "icono": "✨",
+                  "texto": "Predominio de la función poética en la descripción subjetiva"
+                }
               ]
             },
             {
@@ -193,8 +533,14 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🔁", "texto": "Alternancia de voces" },
-                { "icono": "🏷️", "texto": "Marcas tipográficas (rayas, comillas, guiones)" }
+                {
+                  "icono": "🔁",
+                  "texto": "Alternancia de voces"
+                },
+                {
+                  "icono": "🏷️",
+                  "texto": "Marcas tipográficas (rayas, comillas, guiones)"
+                }
               ]
             },
             {
@@ -213,10 +559,22 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🧩", "texto": "Presentación de un conjunto organizado de conocimientos" },
-                { "icono": "✏️", "texto": "Oraciones breves y claras" },
-                { "icono": "🔬", "texto": "Lenguaje claro y riguroso" },
-                { "icono": "⏰", "texto": "Predominio del tiempo presente" }
+                {
+                  "icono": "🧩",
+                  "texto": "Presentación de un conjunto organizado de conocimientos"
+                },
+                {
+                  "icono": "✏️",
+                  "texto": "Oraciones breves y claras"
+                },
+                {
+                  "icono": "🔬",
+                  "texto": "Lenguaje claro y riguroso"
+                },
+                {
+                  "icono": "⏰",
+                  "texto": "Predominio del tiempo presente"
+                }
               ]
             },
             {
@@ -297,10 +655,22 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "📄", "texto": "Un texto es un conjunto ordenado de enunciados con unidad temática." },
-                { "icono": "🗂️", "texto": "4 tipos textuales: narrativo, descriptivo, dialogal y explicativo." },
-                { "icono": "⚖️", "texto": "Literario: mundo ficcional, función poética, verosimilitud." },
-                { "icono": "📰", "texto": "No literario: compromiso con la verdad, función referencial, claridad." }
+                {
+                  "icono": "📄",
+                  "texto": "Un texto es un conjunto ordenado de enunciados con unidad temática."
+                },
+                {
+                  "icono": "🗂️",
+                  "texto": "4 tipos textuales: narrativo, descriptivo, dialogal y explicativo."
+                },
+                {
+                  "icono": "⚖️",
+                  "texto": "Literario: mundo ficcional, función poética, verosimilitud."
+                },
+                {
+                  "icono": "📰",
+                  "texto": "No literario: compromiso con la verdad, función referencial, claridad."
+                }
               ]
             }
           ]
@@ -309,31 +679,89 @@
     },
     "recordar": {
       "flashcards": [
-        { "pregunta": "¿Qué es un texto?", "respuesta": "Un conjunto ordenado de enunciados, con una unidad temática y recursos que lo vuelven comprensible, que transmite un mensaje total." },
-        { "pregunta": "¿Cuáles son los 4 tipos textuales?", "respuesta": "Narrativo, descriptivo, dialogal y explicativo." },
-        { "pregunta": "Tipo narrativo: ¿qué intención tiene?", "respuesta": "Un narrador cuenta una historia con personajes en tiempo y espacio." },
-        { "pregunta": "Tipo descriptivo: ¿qué intención tiene?", "respuesta": "Detallar aspectos y características de algo o alguien para que el receptor se haga una idea mental." },
-        { "pregunta": "Tipo dialogal: ¿qué intención tiene?", "respuesta": "Mostrar un intercambio comunicativo entre dos o más personas." },
-        { "pregunta": "Tipo explicativo: ¿qué intención tiene?", "respuesta": "Dar a conocer de manera clara y objetiva algo que posiblemente no es conocido por el receptor." },
-        { "pregunta": "¿Qué función del lenguaje predomina en el texto literario?", "respuesta": "La función poética." },
-        { "pregunta": "¿Qué función del lenguaje predomina en el texto no literario?", "respuesta": "La función referencial." },
-        { "pregunta": "¿Qué es la verosimilitud?", "respuesta": "La creación de un mundo del relato creíble. No es lo mismo que la verdad o falsedad fuera de la ficción." },
-        { "pregunta": "¿El texto literario usa lenguaje denotativo o connotativo?", "respuesta": "Ambos: denotativo (literal) y connotativo (otras interpretaciones)." }
+        {
+          "pregunta": "¿Qué es un texto?",
+          "respuesta": "Un conjunto ordenado de enunciados, con una unidad temática y recursos que lo vuelven comprensible, que transmite un mensaje total."
+        },
+        {
+          "pregunta": "¿Cuáles son los 4 tipos textuales?",
+          "respuesta": "Narrativo, descriptivo, dialogal y explicativo."
+        },
+        {
+          "pregunta": "Tipo narrativo: ¿qué intención tiene?",
+          "respuesta": "Un narrador cuenta una historia con personajes en tiempo y espacio."
+        },
+        {
+          "pregunta": "Tipo descriptivo: ¿qué intención tiene?",
+          "respuesta": "Detallar aspectos y características de algo o alguien para que el receptor se haga una idea mental."
+        },
+        {
+          "pregunta": "Tipo dialogal: ¿qué intención tiene?",
+          "respuesta": "Mostrar un intercambio comunicativo entre dos o más personas."
+        },
+        {
+          "pregunta": "Tipo explicativo: ¿qué intención tiene?",
+          "respuesta": "Dar a conocer de manera clara y objetiva algo que posiblemente no es conocido por el receptor."
+        },
+        {
+          "pregunta": "¿Qué función del lenguaje predomina en el texto literario?",
+          "respuesta": "La función poética."
+        },
+        {
+          "pregunta": "¿Qué función del lenguaje predomina en el texto no literario?",
+          "respuesta": "La función referencial."
+        },
+        {
+          "pregunta": "¿Qué es la verosimilitud?",
+          "respuesta": "La creación de un mundo del relato creíble. No es lo mismo que la verdad o falsedad fuera de la ficción."
+        },
+        {
+          "pregunta": "¿El texto literario usa lenguaje denotativo o connotativo?",
+          "respuesta": "Ambos: denotativo (literal) y connotativo (otras interpretaciones)."
+        }
       ]
     },
     "practicar": {
-      "ejercicios_ids": ["sm_tipos_textuales", "vf_tipos_textuales", "sm_texto_narrativo", "sm_texto_explicativo", "sm_texto_dialogal"]
+      "ejercicios_ids": [
+        "sm_tipos_textuales",
+        "vf_tipos_textuales",
+        "sm_texto_narrativo",
+        "sm_texto_explicativo",
+        "sm_texto_dialogal",
+        "completar_tipos_fragmentos",
+        "unir_tipos_caracteristicas",
+        "vf_literario_casos_dificiles",
+        "completar_literario_no_literario",
+        "sm_tipo_predominante"
+      ]
     },
     "ponerse_a_prueba": {
-      "ejercicios_ids": ["vf_literario_no_literario", "sm_verosimilitud", "sm_tipos_textuales", "vf_tipos_textuales"],
+      "ejercicios_ids": [
+        "vf_literario_no_literario",
+        "sm_verosimilitud",
+        "sm_tipos_textuales",
+        "vf_tipos_textuales"
+      ],
       "duracion_min": 15
     },
     "mejorar": {
       "explicaciones": [
-        { "titulo": "Error frecuente: confundir tipo textual con género literario", "detalle": "El tipo textual (narrativo, descriptivo, dialogal, explicativo) se define por la intencionalidad predominante. El género literario (narrativo, lírico, dramático) es una clasificación dentro de la literatura. No es lo mismo." },
-        { "titulo": "Error frecuente: pensar que un texto tiene un solo tipo textual", "detalle": "Un texto puede combinar varios tipos textuales. Por ejemplo, una novela (narrativo) puede tener descripciones (descriptivo) y diálogos (dialogal). Lo que define al texto es el tipo que PREDOMINA." },
-        { "titulo": "Verosimilitud ≠ verdad", "detalle": "La verosimilitud no significa que la historia sea verdadera. Significa que el mundo del relato es creíble dentro de la ficción. 'Cien años de soledad' es verosímil aunque no sea real." },
-        { "titulo": "Literario: función poética + placer estético", "detalle": "Lo que distingue al texto literario no es solo el uso de lenguaje connotativo, sino que su intención principal es generar un placer estético en el lector." }
+        {
+          "titulo": "Error frecuente: confundir tipo textual con género literario",
+          "detalle": "El tipo textual (narrativo, descriptivo, dialogal, explicativo) se define por la intencionalidad predominante. El género literario (narrativo, lírico, dramático) es una clasificación dentro de la literatura. No es lo mismo."
+        },
+        {
+          "titulo": "Error frecuente: pensar que un texto tiene un solo tipo textual",
+          "detalle": "Un texto puede combinar varios tipos textuales. Por ejemplo, una novela (narrativo) puede tener descripciones (descriptivo) y diálogos (dialogal). Lo que define al texto es el tipo que PREDOMINA."
+        },
+        {
+          "titulo": "Verosimilitud ≠ verdad",
+          "detalle": "La verosimilitud no significa que la historia sea verdadera. Significa que el mundo del relato es creíble dentro de la ficción. 'Cien años de soledad' es verosímil aunque no sea real."
+        },
+        {
+          "titulo": "Literario: función poética + placer estético",
+          "detalle": "Lo que distingue al texto literario no es solo el uso de lenguaje connotativo, sino que su intención principal es generar un placer estético en el lector."
+        }
       ]
     }
   }
