@@ -24,8 +24,10 @@ export default async function ModuloPage({
 
   return (
     <SiteLayout>
-      <ModuloCliente modulo={modulo} />
-      {textos.length > 0 && <TextosModulo textos={textos} />}
+      <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-[120px] py-8">
+        <ModuloCliente modulo={modulo} />
+        {textos.length > 0 && <TextosModulo textos={textos} />}
+      </div>
     </SiteLayout>
   );
 }
