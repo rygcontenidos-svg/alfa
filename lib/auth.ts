@@ -1,65 +1,60 @@
-export type Usuario = { username: string; password: string };
-export type Sesion = { username: string };
+import { supabase } from "./supabase";
 
-const USUARIOS_KEY = "oi_usuarios";
-const SESION_KEY = "oi_sesion";
+export async function registrar(username: string, password: string): Promise<string | null> {
+  const email = `${username}@alfa.local`;
 
-function leerUsuarios(): Usuario[] {
-  if (typeof window === "undefined") return [];
-  try {
-    const raw = localStorage.getItem(USUARIOS_KEY);
-    return raw ? (JSON.parse(raw) as Usuario[]) : [];
-  } catch {
-    return [];
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+  });
+
+  if (error || !data.user) return error?.message ?? "Error al registrar";
+
+  // Guardar el username en la tabla profiles
+  const { error: profileError } = await supabase
+    .from("profiles")
+    .insert({ id: data.user.id, username });
+
+  if (profileError) {
+    return profileError.message;
   }
+
+  return null; // éxito
 }
 
-function guardarUsuarios(us: Usuario[]) {
-  if (typeof window === "undefined") return;
-  try {
-    localStorage.setItem(USUARIOS_KEY, JSON.stringify(us));
-  } catch {
-    /* noop */
-  }
+export async function iniciarSesion(username: string, password: string): Promise<string | null> {
+  const email = `${username}@alfa.local`;
+
+  const { data, error } = await supabase.auth.signInWithPassword({
+    email,
+    password,
+  });
+
+  if (error || !data.user) return error?.message ?? "Credenciales incorrectas";
+
+  // Obtener el username real desde profiles
+  const { data: profile } = await supabase
+    .from("profiles")
+    .select("username")
+    .eq("id", data.user.id)
+    .single();
+
+  return profile?.username ?? username; // éxito, devuelve el username
 }
 
-export function registrar(username: string, password: string): boolean {
-  const usuarios = leerUsuarios();
-  if (usuarios.some((u) => u.username === username)) return false;
-  usuarios.push({ username, password });
-  guardarUsuarios(usuarios);
-  return true;
+export async function cerrarSesion() {
+  await supabase.auth.signOut();
 }
 
-export function iniciarSesion(username: string, password: string): boolean {
-  const usuarios = leerUsuarios();
-  const encontrado = usuarios.find(
-    (u) => u.username === username && u.password === password
-  );
-  if (!encontrado) return false;
-  try {
-    localStorage.setItem(SESION_KEY, JSON.stringify({ username }));
-  } catch {
-    /* noop */
-  }
-  return true;
-}
+export async function sesionActual(): Promise<string | null> {
+  const { data } = await supabase.auth.getSession();
+  if (!data.session) return null;
 
-export function cerrarSesion() {
-  if (typeof window === "undefined") return;
-  try {
-    localStorage.removeItem(SESION_KEY);
-  } catch {
-    /* noop */
-  }
-}
+  const { data: profile } = await supabase
+    .from("profiles")
+    .select("username")
+    .eq("id", data.session.user.id)
+    .single();
 
-export function sesionActual(): Sesion | null {
-  if (typeof window === "undefined") return null;
-  try {
-    const raw = localStorage.getItem(SESION_KEY);
-    return raw ? (JSON.parse(raw) as Sesion) : null;
-  } catch {
-    return null;
-  }
+  return profile?.username ?? null;
 }

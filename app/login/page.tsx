@@ -12,8 +12,9 @@ export default function LoginPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [enviando, setEnviando] = useState(false);
 
-  function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     setError("");
 
@@ -22,16 +23,15 @@ export default function LoginPage() {
       return;
     }
 
-    let ok: boolean;
-    if (modo === "login") {
-      ok = login(username, password);
-      if (!ok) setError("Usuario o contraseña incorrectos.");
-    } else {
-      ok = register(username, password);
-      if (!ok) setError("El usuario ya existe. Elegí otro nombre.");
-    }
+    setEnviando(true);
+    const err = modo === "login" ? await login(username, password) : await register(username, password);
+    setEnviando(false);
 
-    if (ok) router.push("/");
+    if (err) {
+      setError(err);
+    } else {
+      router.push("/");
+    }
   }
 
   return (
@@ -85,7 +85,8 @@ export default function LoginPage() {
 
           <button
             type="submit"
-            className="w-full rounded-lg bg-azul text-white font-semibold py-2.5 hover:bg-azul-claro transition-colors"
+            disabled={enviando}
+            className="w-full rounded-lg bg-azul text-white font-semibold py-2.5 hover:bg-azul-claro transition-colors disabled:opacity-50"
           >
             {modo === "login" ? "Iniciar sesión" : "Crear cuenta"}
           </button>

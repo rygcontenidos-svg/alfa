@@ -1,4 +1,5 @@
 import { ORDEN_PASOS, type PasoMetodo } from "./tipos";
+import { supabase } from "./supabase";
 
 export type EstadoModulo = {
   completados: PasoMetodo[];
@@ -8,27 +9,73 @@ export type EstadoModulo = {
 
 export type Progreso = Record<string, EstadoModulo>;
 
-function claveBase(username?: string | null): string {
+function claveLocal(username?: string | null): string {
   return username ? `oi_progreso_${username}` : "oi_progreso";
 }
 
-function leerTodo(username?: string | null): Progreso {
+function leerLocal(username?: string | null): Progreso {
   if (typeof window === "undefined") return {};
   try {
-    const raw = window.localStorage.getItem(claveBase(username));
+    const raw = window.localStorage.getItem(claveLocal(username));
     return raw ? (JSON.parse(raw) as Progreso) : {};
   } catch {
     return {};
   }
 }
 
-function guardarTodo(p: Progreso, username?: string | null) {
+function guardarLocal(p: Progreso, username?: string | null) {
   if (typeof window === "undefined") return;
   try {
-    window.localStorage.setItem(claveBase(username), JSON.stringify(p));
+    window.localStorage.setItem(claveLocal(username), JSON.stringify(p));
   } catch {
     /* noop */
   }
+}
+
+// Sync from Supabase to localStorage
+export async function sincronizarDesdeSupabase(username: string) {
+  if (typeof window === "undefined") return;
+
+  const { data: session } = await supabase.auth.getSession();
+  if (!session.session) return;
+
+  const userId = session.session.user.id;
+
+  const { data: rows } = await supabase
+    .from("progress")
+    .select("*")
+    .eq("user_id", userId);
+
+  if (!rows || rows.length === 0) return;
+
+  const p = leerLocal(username);
+  for (const row of rows) {
+    p[row.module_id] = {
+      completados: (row.completados ?? []) as PasoMetodo[],
+      actual: (row.paso_actual ?? "calentamiento") as PasoMetodo,
+      checks: (row.checks ?? {}) as Record<string, "bien" | "repasar">,
+    };
+  }
+  guardarLocal(p, username);
+}
+
+// Sync from localStorage to Supabase (for a specific module)
+async function guardarSupabase(
+  moduleId: string,
+  estado: EstadoModulo,
+  userId: string
+) {
+  await supabase.from("progress").upsert(
+    {
+      user_id: userId,
+      module_id: moduleId,
+      completados: estado.completados,
+      paso_actual: estado.actual,
+      checks: estado.checks,
+      updated_at: new Date().toISOString(),
+    },
+    { onConflict: "user_id, module_id" }
+  );
 }
 
 export function estadoInicial(): EstadoModulo {
@@ -39,7 +86,7 @@ export function estadoDe(
   moduloId: string,
   username?: string | null
 ): EstadoModulo {
-  return leerTodo(username)[moduloId] ?? estadoInicial();
+  return leerLocal(username)[moduloId] ?? estadoInicial();
 }
 
 export function pasoDesbloqueado(
@@ -63,13 +110,20 @@ export function completarPaso(
   return { ...estado, completados, actual };
 }
 
-export function persistirEstado(
+export async function persistirEstado(
   moduloId: string,
   estado: EstadoModulo,
   username?: string | null
 ) {
-  const p = leerTodo(username);
-  guardarTodo({ ...p, [moduloId]: estado }, username);
+  if (!username) return;
+  const p = leerLocal(username);
+  guardarLocal({ ...p, [moduloId]: estado }, username);
+
+  // Sync to Supabase
+  const { data: session } = await supabase.auth.getSession();
+  if (session.session) {
+    await guardarSupabase(moduloId, estado, session.session.user.id);
+  }
 }
 
 export function progresoPct(estado: EstadoModulo): number {
@@ -85,21 +139,25 @@ export function leerCheck(
   return e.checks[ejId] ?? null;
 }
 
-export function setCheck(
+export async function setCheck(
   moduloId: string,
   ejId: string,
   val: "bien" | "repasar" | null,
   username?: string | null
 ) {
-  const p = leerTodo(username);
+  const p = leerLocal(username);
   const e = estadoDe(moduloId, username);
   const checks = { ...e.checks };
   if (val === null) delete checks[ejId];
   else checks[ejId] = val;
-  guardarTodo(
-    { ...p, [moduloId]: { ...e, checks } },
-    username
-  );
+  const nuevoE = { ...e, checks };
+  guardarLocal({ ...p, [moduloId]: nuevoE }, username);
+
+  // Sync to Supabase
+  const { data: session } = await supabase.auth.getSession();
+  if (session.session) {
+    await guardarSupabase(moduloId, nuevoE, session.session.user.id);
+  }
 }
 
 export function listarRepasar(
@@ -110,40 +168,4 @@ export function listarRepasar(
   return Object.entries(e.checks)
     .filter(([, v]) => v === "repasar")
     .map(([k]) => k);
-}
-
-export function progresoGeneral(username?: string | null): {
-  totalCompletados: number;
-  totalPasos: number;
-  modulosPorMateria: Record<
-    string,
-    { id: string; titulo: string; pct: number; completados: string[] }[]
-  >;
-} {
-  const p = leerTodo(username);
-  const ids = Object.keys(p);
-  let totalCompletados = 0;
-  const totalPasos = ids.length * ORDEN_PASOS.length;
-
-  const materias: Record<string, any[]> = {};
-
-  for (const id of ids) {
-    const e = p[id];
-    const pct = progresoPct(e);
-    const sujeto = id.startsWith("mate-")
-      ? "matematica"
-      : id.startsWith("historia-")
-        ? "historia"
-        : "lengua";
-    if (!materias[sujeto]) materias[sujeto] = [];
-    materias[sujeto].push({
-      id,
-      titulo: id,
-      pct,
-      completados: e.completados,
-    });
-    totalCompletados += e.completados.length;
-  }
-
-  return { totalCompletados, totalPasos, modulosPorMateria: materias };
 }
