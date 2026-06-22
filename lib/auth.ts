@@ -1,45 +1,56 @@
 import { supabase } from "./supabase";
 
-export async function registrar(username: string, password: string): Promise<string | null> {
-  const email = `${username}@alfa.local`;
-
+export async function registrar(email: string, password: string): Promise<string | null> {
   const { data, error } = await supabase.auth.signUp({
     email,
     password,
+    options: {
+      data: { display_name: email.split("@")[0] },
+    },
   });
 
-  if (error || !data.user) return error?.message ?? "Error al registrar";
-
-  // Guardar el username en la tabla profiles
-  const { error: profileError } = await supabase
-    .from("profiles")
-    .insert({ id: data.user.id, username });
-
-  if (profileError) {
-    return profileError.message;
+  if (error) {
+    if (error.message.includes("already registered")) return "Este email ya está registrado.";
+    return error.message;
   }
 
-  return null; // éxito
+  if (!data.user) return "Error al registrar.";
+
+  const username = email.split("@")[0];
+
+  // Guardar perfil
+  await supabase.from("profiles").insert({ id: data.user.id, username });
+
+  if (data.session) {
+    // Email confirmation está deshabilitado = sesión inmediata
+    return username;
+  }
+
+  // Email confirmation habilitado = hay que verificar
+  return "verify";
 }
 
-export async function iniciarSesion(username: string, password: string): Promise<string | null> {
-  const email = `${username}@alfa.local`;
-
+export async function iniciarSesion(email: string, password: string): Promise<string | null> {
   const { data, error } = await supabase.auth.signInWithPassword({
     email,
     password,
   });
 
-  if (error || !data.user) return error?.message ?? "Credenciales incorrectas";
+  if (error) {
+    if (error.message.includes("Invalid login")) return "Email o contraseña incorrectos.";
+    if (error.message.includes("Email not confirmed")) return "Confirmá tu email primero. Revisá tu casilla.";
+    return error.message;
+  }
 
-  // Obtener el username real desde profiles
+  if (!data.user) return "Error al iniciar sesión.";
+
   const { data: profile } = await supabase
     .from("profiles")
     .select("username")
     .eq("id", data.user.id)
     .single();
 
-  return profile?.username ?? username; // éxito, devuelve el username
+  return profile?.username ?? email;
 }
 
 export async function cerrarSesion() {

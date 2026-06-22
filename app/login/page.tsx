@@ -53,15 +53,15 @@ export default function LoginPage() {
         >
           <div>
             <label className="block text-sm font-medium text-grafito mb-1">
-              Usuario
+              Email
             </label>
             <input
-              type="text"
+              type="email"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               className="w-full rounded-lg border border-borde px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-azul/30 focus:border-azul"
-              placeholder="Tu nombre de usuario"
-              autoComplete="username"
+              placeholder="tu@email.com"
+              autoComplete="email"
             />
           </div>
 

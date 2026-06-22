@@ -54,12 +54,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const register = useCallback(async (u: string, p: string) => {
-    const error = await authRegister(u, p);
-    if (!error) {
-      setUsuario(u);
+    const result = await authRegister(u, p);
+    if (result === "verify") {
+      return "Te enviamos un email de confirmación. Revisá tu casilla y luego iniciá sesión.";
+    }
+    if (result && !result.includes("Error")) {
+      setUsuario(result);
       return null;
     }
-    return error;
+    return result ?? "Error al registrar";
   }, []);
 
   const logout = useCallback(async () => {
