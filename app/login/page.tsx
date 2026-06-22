@@ -4,6 +4,7 @@ import { useState, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useAuth } from "@/app/AuthProvider";
+import { supabase } from "@/lib/supabase";
 
 export default function LoginPage() {
   const { login, register } = useAuth();
@@ -100,6 +101,22 @@ export default function LoginPage() {
           </button>
 
           <p className="text-center text-[13px]" style={{ color: "#6B7280" }}>
+            {modo === "login" && (
+              <button
+                type="button"
+                onClick={async () => {
+                  if (!email.trim()) { setError("Poné tu email primero."); return; }
+                  setEnviando(true);
+                  const { error: err } = await supabase.auth.resetPasswordForEmail(email);
+                  setEnviando(false);
+                  setError(err ? err.message : "Te enviamos un link para restablecer la contraseña.");
+                }}
+                className="block w-full text-center mb-3 hover:underline"
+                style={{ color: "#5657FF" }}
+              >
+                ¿Olvidaste tu contraseña?
+              </button>
+            )}
             {modo === "login" ? (
               <>
                 ¿No tenés cuenta?{" "}
