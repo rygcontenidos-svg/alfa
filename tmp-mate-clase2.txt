@@ -1,0 +1,112 @@
+
+--- PAGINA 1 ---
+UBA
+CIEEM 202 6 /202 7
+Matemática - Clase n° 2 - 11 de abril de 2026
+Clase n° 2 - 11 / 4 /202 6
+5
+Desigualdades. Traducción de enunciados. Representación de los números naturales en la
+recta numérica.
+1. a ) En cada caso, completá las líneas de puntos con <, > o =, sin resolver las cuentas.
+i . ( 56 – 12 ) . 11 ............ ( 56 – 12 ) : 11
+ii . 2 3 . 1 7 + 23 . 45 ........... 2 3 . ( 1 7 + 45)
+iii . 1729 – 15 . 73 ............ 172 9 – 82 . 18
+iv . 24 . 1000 . 5 ............ 240 . 1 00 . 50
+v . 683 8 ............ 683 6 . 683 3
+b) Escribí to dos los números naturales m que cumplan lo que se indica en cada caso.
+i . m . 20 < 8 . ( 9 + 3)
+ii . 41 < 3 m ≤ √ 36 . 9
+2. Traducí al lenguaje simbólico las siguientes expresiones coloquiale s .
+a) El cuádruple de nueve disminuido en siete.
+b) La suma entre el doble de trece y la tercera parte de veintisiete.
+c) La cuarta parte del cuadrado de dieciséis incrementad a en ocho .
+d ) El doble de t aumentado en el siguiente a ocho .
+e ) El doble de: t aumentado en el siguiente a o cho .
+f) La diferencia entre el doble del cuadrado de t y el cubo del anterior a cinco.
+En la traducción de un enunciado que es verdadero para cualquier número o para un número
+que no conocemos, es posible reemplazar los números por letras. Entonces, podemos leer:
+ n – 1 como “el anterior a n ” ;
+ n + 1 como “el siguiente a n ” , “el consecutivo de n ” o “el sucesor de n ” ;
+ 2 n como “el doble de n ” ;
+ 3 n como “el triple de n ” .
+Para leer la expresión 110 > 25, podemos hacerlo:
+ de izquierda a derecha así: 110 es mayor que 25.
+ de derecha a izquierda como: 25 es menor que 110.
+Si leemos la expresión 0 < 18, podemos hacerlo:
+ de izquierda a derecha así: 0 es menor que 18.
+ de derecha a izquierda como: 18 es mayor que 0.
+Para expresar las relaciones de orden
+entre números naturales también
+podemos usar estos símbolos:
+ significa menor o igual que;
+ significa mayor o igual que.
+
+--- PAGINA 2 ---
+UBA
+CIEEM 202 6 /202 7
+Matemática - Clase n° 2 - 11 de abril de 2026
+Clase n° 2 - 11 / 4 /202 6
+6
+3. En la tabla colocá un par de paréntesis en cada expresión simbólica p ara que la traducción
+de la expresión coloquial correspondiente sea correcta.
+Expresión coloquial Expresión simbólica
+El triple del siguiente a l número u . 3 . u + 1
+La tercera parte del anterior a l número d . d – 1 : 3
+La cuarta parte de: el anterior a l número q aumentado en tres. q – 1 + 3 : 4
+El consecutivo de la tercera parte del anterior al número a . a – 1 : 3 + 1
+El anterior al cuadrado del cuádruple del número f . 4 . f 2 – 1
+4 . Considerá que h y z representan números naturales y uní con una flecha cada expresión
+coloquial con su correspondiente traducción simbólica.
+El triple de h es mayor que el anterior a z .
+El triple de h es menor que el siguiente a z .
+El triple de h es a lo sumo el anterior a z .
+El triple de h supera al siguiente a z .
+El triple de h es por lo menos el anterior a z .
+El triple de h no supera al siguiente a z .
+5 . Brenda , Noelia y Francisco fueron autores de un libro de Matemática. Brenda escribió 47
+páginas de ese libro y supera en 13 a la cantidad de páginas escritas por Francisco. La
+cantidad de páginas que escribió Noeli a no supera las 7 3 páginas y es m ayor que el doble de
+la cantidad de páginas escritas por Francisco.
+a) Si llamamos n a la cantidad de páginas que escribió Noelia, ¿cuál o cuáles de las siguientes
+expresiones indican esa cantidad?
+Marcá con una X en el correspondiente la o las respuestas .
+n > 6 8 y n  72 6 8 < n  7 3 69  n  7 3 6 9 < n < 72
+b) ¿Cuál es la menor cantidad de págin as del libro de Matemática que pudieron haber escrito
+en t otal Brenda, Noelia y Francisco? ¿Y la mayor cantidad de páginas de ese libro ?
+3 h ≤ z – 1
+3 h > z + 1
+3 h ≥ z + 1
+3 h > z – 1
+3 h < z + 1
+3 h ≤ z + 1
+3 h < z – 1
+3 h ≥ z – 1
+
+--- PAGINA 3 ---
+UBA
+CIEEM 202 6 /202 7
+Matemática - Clase n° 2 - 11 de abril de 2026
+Clase n° 2 - 11 / 4 /202 6
+7
+6 . Representá en la recta numérica cada uno de los números naturales definidos por las frases
+siguientes. Marcalos con una X en la recta numérica y escribí los números correspondientes
+debajo de cada marca.
+a) El consecutivo de 5.
+b) El anterior al doble de seis .
+c) El doble del siguiente a 3.
+d) Los números naturales comprendidos entre el cuadrado de 3 y la mita d de 2 2 .
+7. En cada caso, represent á en la recta numérica lo que se indica. Marcalo con una X en la
+recta y escribilo debajo de cada marca.
+a) 26 7
+b) i. g + 12 ii. El anterior al número g .
+c ) ¿Qué números naturales representan las letras a y b en la siguiente recta numérica?
+Tarea: resolvé los problemas del 1 al 10 de la sección de Matemática del libro del CIEEM
+202 6 que corresponde a “Desigualdades”, “Traducción de enunciados” y “Representación de
+los números naturales” del apartado Números Naturales.
+Encontrarás los problemas de tarea e n:
+https://www.cnba.uba.ar/curso - de - ingreso/clases
+https://www.cpel.uba.ar/index.php/clases - y - materiales - de - e studio
+g + 8 g
+5 a 15 120 9 b
+0 1
+291 243

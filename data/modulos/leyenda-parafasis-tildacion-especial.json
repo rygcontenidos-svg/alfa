@@ -1,0 +1,507 @@
+{
+  "id": "leyenda-parafasis-tildacion-especial",
+  "materia": "lengua",
+  "titulo": "Leyenda. Paráfrasis. Tildación (casos especiales): hiato y tilde diacrítica de los monosílabos",
+  "descripcion": "La leyenda como género. Paráfrasis. Hiato y tilde diacrítica en monosílabos (él/el, más/mas, sí/si, tú/tu).",
+  "textos_ids": ["sakura-y-yohiro"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "marco_sakura",
+      "tipo": "marco_narrativo",
+      "consigna": "Completá el marco narrativo de la leyenda \"Sakura y Yohiro\".",
+      "personajes": "Yohiro (el árbol), Sakura, el hada del bosque",
+      "lugar": "Un bosque en Japón, un arroyo cristalino, una aldea cercana",
+      "tiempo": "Hace cientos de años, en una época de guerras entre señores feudales"
+    },
+    {
+      "id": "vf_leyenda",
+      "tipo": "verdadero_falso",
+      "consigna": "Determiná si los siguientes enunciados sobre la leyenda \"Sakura y Yohiro\" son verdaderos (V) o falsos (F).",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        {
+          "id": "a",
+          "afirmacion": "El bosque era un lugar completamente aislado donde nunca llegaban las consecuencias de la guerra.",
+          "respuesta": false,
+          "correccion": "Aunque la guerra no llegaba al bosque, este no estaba 'completamente aislado': los desolados japoneses iban allí a buscar consuelo."
+        },
+        {
+          "id": "b",
+          "afirmacion": "El árbol extraño florecía y era visitado por los animales y las plantas del lugar.",
+          "respuesta": false,
+          "correccion": "Era lo contrario: el árbol no florecía, los animales no se acercaban y ni la hierba crecía a su alrededor."
+        },
+        {
+          "id": "c",
+          "afirmacion": "Yohiro encontró en los humanos, desde el principio, sentimientos positivos que lo ayudaron a cambiar.",
+          "respuesta": false,
+          "correccion": "Al principio solo encontraba odio, guerra y desencuentros entre los humanos, lo que fue una decepción."
+        },
+        {
+          "id": "d",
+          "afirmacion": "Sakura inmediatamente abrazó a Yohiro cuando él le confesó su amor.",
+          "respuesta": false,
+          "correccion": "Sakura se mantuvo en silencio y no fue capaz de responderle en ese momento."
+        },
+        {
+          "id": "e",
+          "afirmacion": "El hada le dio a Sakura la opción de elegir entre su vida humana o unirse al árbol.",
+          "respuesta": true
+        },
+        {
+          "id": "f",
+          "afirmacion": "En el texto \"Sakura y Yohiro\" que hemos leído aparece el nombre y apellido del autor.",
+          "respuesta": false,
+          "correccion": "No aparece el nombre del autor; es una leyenda de tradición japonesa, de autor anónimo."
+        }
+      ]
+    },
+    {
+      "id": "sm_por_que_leyenda",
+      "tipo": "seleccion_multiple",
+      "consigna": "Subrayá el enunciado que justifique por qué \"Sakura y Yohiro\" es una leyenda.",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Es una leyenda porque es una historia de carácter sagrado que sucede en el universo greco romano en la que intervienen dioses y héroes para explicar la naturaleza humana."
+        },
+        {
+          "id": "b",
+          "texto": "Es una leyenda porque es un texto dialogal que da cuenta de un intercambio comunicativo entre Sakura y Yohiro sobre la flor del cerezo."
+        },
+        {
+          "id": "c",
+          "texto": "Es una leyenda porque intenta, mediante una historia fabulosa o sobrenatural, presentar el origen de un elemento de la naturaleza de Japón, en este caso, la flor del cerezo."
+        }
+      ],
+      "correcta": "c"
+    },
+    {
+      "id": "parafasis_subrayar",
+      "tipo": "coherencia_cohesion",
+      "consigna": "Subrayá los casos de paráfrasis que identifiques en el siguiente fragmento de la leyenda.",
+      "fragmento": "Sakura no solo era bonita. La amable muchacha tenía un don mucho más poderoso: siempre se preocupaba por los demás. Yohiro y la joven doncella mantuvieron una conversación de lo más agradable aquel día; así que el hombre árbol quiso ayudarla a cargar con el agua que ella se proponía llevar hasta su casa.",
+      "recursos_opciones": ["Paráfrasis", "Sustitución pronominal", "Elipsis", "Repetición", "Conector"],
+      "items": [
+        { "id": "p1", "fragmento_destacado": "La amable muchacha", "recurso_correcto": "Paráfrasis" },
+        { "id": "p2", "fragmento_destacado": "la joven doncella", "recurso_correcto": "Paráfrasis" },
+        { "id": "p3", "fragmento_destacado": "el hombre árbol", "recurso_correcto": "Paráfrasis" }
+      ]
+    },
+    {
+      "id": "parafasis_reemplazo",
+      "tipo": "parafasis_sinonimos_elision",
+      "consigna": "Inventá una construcción de palabras (paráfrasis) que sirva para reemplazar a cada fragmento destacado.",
+      "items": [
+        {
+          "id": "r1",
+          "subtipo": "parafasis",
+          "pregunta": "Era el árbol diferente (...); ni los animales eran capaces de acercarse, temerosos de que algún extraño mal o enfermedad tuviera lugar en él.",
+          "respuesta": "Era el árbol distinto a los demás; ni los animales se animaban a aproximarse, asustados de que algún raro padecimiento o dolencia existiera en él."
+        },
+        {
+          "id": "r2",
+          "subtipo": "parafasis",
+          "pregunta": "Desde aquel día, el amor de ambos colorea y perfuma los campos de Japón cada primavera.",
+          "respuesta": "A partir de ese momento, el afecto de los dos tiñe y aromatiza las tierras niponas todas las temporadas de floración."
+        }
+      ]
+    },
+    {
+      "id": "tildacion_cuadro",
+      "tipo": "tildacion_general",
+      "consigna": "Releé la leyenda \"Sakura y Yohiro\" y transcribí las palabras subrayadas en la columna que corresponda. Justificá con la normativa trabajada.",
+      "columnas": ["Aguda", "Grave", "Esdrújula", "Monosílabo", "Hiato"],
+      "palabras": [
+        {
+          "id": "t1",
+          "palabra": "corazón",
+          "columna_correcta": "Aguda",
+          "justificacion": "Aguda terminada en n → lleva tilde"
+        },
+        {
+          "id": "t2",
+          "palabra": "tempestad",
+          "columna_correcta": "Aguda",
+          "justificacion": "Aguda terminada en d → no lleva tilde"
+        },
+        {
+          "id": "t3",
+          "palabra": "árbol",
+          "columna_correcta": "Grave",
+          "justificacion": "Grave no terminada en n, s o vocal → lleva tilde"
+        },
+        {
+          "id": "t4",
+          "palabra": "tiempo",
+          "columna_correcta": "Grave",
+          "justificacion": "Grave terminada en vocal → no lleva tilde"
+        },
+        {
+          "id": "t5",
+          "palabra": "hermosísima",
+          "columna_correcta": "Esdrújula",
+          "justificacion": "Esdrújula → siempre lleva tilde"
+        },
+        {
+          "id": "t6",
+          "palabra": "fue",
+          "columna_correcta": "Monosílabo",
+          "justificacion": "Monosílabo → no lleva tilde por regla general"
+        },
+        {
+          "id": "t7",
+          "palabra": "él",
+          "columna_correcta": "Monosílabo",
+          "justificacion": "Monosílabo con tilde diacrítica → pronombre personal"
+        },
+        {
+          "id": "t8",
+          "palabra": "había",
+          "columna_correcta": "Hiato",
+          "justificacion": "Hiato: i acentuada para separar el diptongo ia"
+        },
+        {
+          "id": "t9",
+          "palabra": "día",
+          "columna_correcta": "Hiato",
+          "justificacion": "Hiato: i acentuada para separar el diptongo ia"
+        }
+      ]
+    },
+    {
+      "id": "tildacion_diacritica",
+      "tipo": "tildacion_diacritica",
+      "consigna": "Completá el cuadro con los pares de monosílabos con y sin tilde diacrítica. Reponé la tilde donde corresponda y justificá.",
+      "filas": [
+        {
+          "palabra": "él / el",
+          "clase": "Pronombre personal / Artículo",
+          "ejemplo": "Se detuvo junto a él / El bosque era un remanso de paz"
+        },
+        {
+          "palabra": "tú / tu",
+          "clase": "Pronombre personal / Adjetivo posesivo",
+          "ejemplo": "Tú tienes la respuesta / Tu leyenda favorita es esa"
+        },
+        {
+          "palabra": "mí / mi",
+          "clase": "Pronombre personal / Adjetivo posesivo",
+          "ejemplo": "Para mí, la leyenda es muy linda / Mi leyenda favorita es la flor del cerezo"
+        },
+        {
+          "palabra": "sí / si",
+          "clase": "Adverbio de afirmación / Conjunción condicional",
+          "ejemplo": "Estudiar sí es importante / Si estudiás, te va a ir bien"
+        },
+        {
+          "palabra": "más / mas",
+          "clase": "Adverbio de cantidad / Conjunción adversativa (pero)",
+          "ejemplo": "El árbol más solo del mundo / Quiso ayudarle, mas ella guardó silencio"
+        },
+        {
+          "palabra": "té / te",
+          "clase": "Sustantivo (infusión) / Pronombre personal",
+          "ejemplo": "Prefiero el té / Te quiero contar un secreto"
+        },
+        {
+          "palabra": "dé / de",
+          "clase": "Forma del verbo dar / Preposición",
+          "ejemplo": "Espero que me dé una oportunidad / El árbol más solo del mundo"
+        },
+        {
+          "palabra": "sé / se",
+          "clase": "Forma del verbo saber o ser / Pronombre personal",
+          "ejemplo": "Sé que es una leyenda / Se detuvo junto a él"
+        }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["sakura-y-yohiro"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "que-es-la-leyenda",
+          "titulo": "¿Qué es la leyenda?",
+          "icono": "📜",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Definición",
+              "texto": "La leyenda es un relato de origen oral y anónimo que narra hechos maravillosos o sobrenaturales, ambientados en un contexto histórico y geográfico real, con el objetivo de explicar el origen de algún elemento de la naturaleza o de la cultura.",
+              "color": "azul"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🗣️", "texto": "Origen oral y anónimo (tradición popular)." },
+                { "icono": "👻", "texto": "Presencia de elementos sobrenaturales o mágicos." },
+                { "icono": "🗺️", "texto": "Ambientación en un lugar y tiempo históricos reales." },
+                { "icono": "🌱", "texto": "Intenta explicar el origen de algo (un fenómeno natural, un lugar, una costumbre)." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Sakura y Yohiro: leyenda japonesa que explica el origen de la flor del cerezo.",
+              "explicacion": "La historia sucede en el Japón feudal (contexto histórico real) y cuenta el origen mágico de los cerezos en flor."
+            }
+          ]
+        },
+        {
+          "id": "mito-vs-leyenda",
+          "titulo": "Diferencia entre mito y leyenda",
+          "icono": "⚔️",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Mito 🏛️",
+                  "items": [
+                    "Carácter sagrado y religioso",
+                    "Protagonistas: dioses, semidioses, héroes",
+                    "Explica el origen del universo, la humanidad o fuerzas de la naturaleza",
+                    "Ambientación: tiempo primordial, fuera de la historia",
+                    "Los dioses son inmortales"
+                  ]
+                },
+                {
+                  "titulo": "Leyenda 📜",
+                  "items": [
+                    "Carácter profano, puede incluir elementos fantásticos",
+                    "Protagonistas: seres humanos o seres con poderes limitados",
+                    "Explica el origen de un lugar, una costumbre o un fenómeno local",
+                    "Ambientación: contexto histórico y geográfico real",
+                    "Final aleccionador o explicativo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "parafrasis-intro",
+          "titulo": "Paráfrasis como recurso cohesivo",
+          "icono": "🔄",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "¿Qué es la paráfrasis?",
+              "texto": "La paráfrasis es un recurso cohesivo que consiste en volver a decir algo con otras palabras, manteniendo el mismo significado. Permite evitar repeticiones y enriquecer el texto.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "A diferencia de la elipsis (que omite información) o la sustitución pronominal (que reemplaza por un pronombre), la paráfrasis expande o reformula la idea con nuevas palabras, sin cambiar el sentido."
+            }
+          ]
+        },
+        {
+          "id": "parafasis-ejemplos",
+          "titulo": "Ejemplos de paráfrasis",
+          "icono": "✍️",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "En el fragmento de la leyenda encontramos varios casos de paráfrasis:"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Sakura no solo era bonita. La amable muchacha tenía un don mucho más poderoso…",
+              "explicacion": "\"La amable muchacha\" es una paráfrasis de \"Sakura\": dice lo mismo con otras palabras."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Yohiro y la joven doncella mantuvieron una conversación…",
+              "explicacion": "\"La joven doncella\" es una paráfrasis de \"Sakura\". \"El hombre árbol\" es una paráfrasis de \"Yohiro\"."
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Recursos de la paráfrasis",
+              "texto": "Sinónimos, hipónimos, hiperónimos, descripciones equivalentes o construcciones con el mismo sentido.",
+              "color": "verde"
+            }
+          ]
+        },
+        {
+          "id": "diptongo-hiato",
+          "titulo": "Diptongo vs. hiato",
+          "icono": "🔤",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Diptongo",
+              "texto": "Combinación de dos vocales en una misma sílaba: vocal abierta + cerrada átona (ei, eu, ai, oi), cerrada átona + abierta (ie, ua, io) o dos cerradas distintas (iu, ui).",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Ejemplos: tiempo (tien-po), guerra (gue-rra), bosque (bos-que), luego (lue-go)."
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Hiato",
+              "texto": "Secuencia de dos vocales que se pronuncian en sílabas diferentes. Ocurre cuando hay dos vocales abiertas (ca-er) o una vocal cerrada tónica + abierta átona (ha-bí-a, dí-a).",
+              "color": "verde"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Ejemplos: había (ha-bí-a), día (dí-a), poesía (po-e-sí-a), sandía (san-dí-a)."
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Regla de tildación para el hiato",
+              "texto": "Cuando una vocal cerrada (i, u) es tónica y está al lado de una vocal abierta (a, e, o), se acentúa siempre, aunque las reglas generales digan lo contrario. Así rompe el diptongo y marca el hiato.",
+              "color": "amarillo"
+            }
+          ]
+        },
+        {
+          "id": "tilde-diacritica-monosilabos",
+          "titulo": "Tilde diacrítica en monosílabos",
+          "icono": "❗",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "¿Qué es la tilde diacrítica?",
+              "texto": "Es una tilde que se coloca sobre una palabra para diferenciarla de otra que se escribe igual pero tiene distinta función gramatical y significado.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Los monosílabos por regla general NO llevan tilde. Sin embargo, algunos la llevan cuando cumplen ciertas funciones (tilde diacrítica)."
+            },
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Con tilde",
+                  "items": [
+                    "él (pronombre personal)",
+                    "tú (pronombre personal)",
+                    "mí (pronombre personal)",
+                    "sí (adverbio de afirmación / pronombre)",
+                    "más (adverbio de cantidad)",
+                    "té (sustantivo: infusión)",
+                    "dé (verbo dar)",
+                    "sé (verbo saber / ser)"
+                  ]
+                },
+                {
+                  "titulo": "Sin tilde",
+                  "items": [
+                    "el (artículo)",
+                    "tu (adjetivo posesivo)",
+                    "mi (adjetivo posesivo / nota musical)",
+                    "si (conjunción condicional / nota musical)",
+                    "mas (conjunción adversativa = pero)",
+                    "te (pronombre personal)",
+                    "de (preposición)",
+                    "se (pronombre personal)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "casos-especiales-resumen",
+          "titulo": "Casos especiales de tildación: resumen",
+          "icono": "📋",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Hiato",
+              "texto": "Toda vocal cerrada tónica (i, u) seguida o precedida de vocal abierta (a, e, o) lleva tilde para marcar el hiato, sin importar las reglas generales: había, raíz, caída, sonreír.",
+              "color": "verde"
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Tilde diacrítica en monosílabos",
+              "texto": "Los monosílabos no llevan tilde, excepto cuando se necesita distinguir significados: él/el, tú/tu, mí/mi, sí/si, más/mas, té/te, dé/de, sé/se.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Ejemplo de la leyenda: \"Se detuvo junto a él\" → él (pronombre, con tilde) vs. \"El bosque era un remanso\" → el (artículo, sin tilde)."
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        {
+          "pregunta": "¿Qué es la leyenda?",
+          "respuesta": "Relato de origen oral y anónimo, con elementos sobrenaturales, ambientado en un contexto histórico y geográfico real, que explica el origen de algo."
+        },
+        {
+          "pregunta": "¿Cuál es la diferencia entre mito y leyenda?",
+          "respuesta": "El mito es sagrado, con dioses, y explica el origen del universo. La leyenda es profana, con humanos, y explica el origen de elementos locales en un contexto histórico real."
+        },
+        {
+          "pregunta": "¿Qué es la paráfrasis?",
+          "respuesta": "Recurso cohesivo que consiste en volver a decir algo con otras palabras, manteniendo el mismo significado. Ej.: 'Sakura' → 'la amable muchacha'."
+        },
+        {
+          "pregunta": "¿Qué es un hiato?",
+          "respuesta": "Secuencia de dos vocales que se pronuncian en sílabas diferentes. Una vocal cerrada tónica (i, u) + abierta siempre lleva tilde: había, día, raíz."
+        },
+        {
+          "pregunta": "¿Qué es un diptongo?",
+          "respuesta": "Combinación de dos vocales en una misma sílaba: abierta + cerrada átona (guerra, tiempo), cerrada átona + abierta (bosque) o dos cerradas distintas (ciudad)."
+        },
+        {
+          "pregunta": "¿Qué es la tilde diacrítica?",
+          "respuesta": "Tilde que se coloca sobre una palabra para diferenciarla de otra idéntica con distinta función gramatical. Se usa en monosílabos: él/el, tú/tu, mí/mi, sí/si, más/mas."
+        },
+        {
+          "pregunta": "¿Cuándo lleva tilde 'él'?",
+          "respuesta": "Lleva tilde cuando es pronombre personal ('Se detuvo junto a él'). No lleva tilde cuando es artículo ('El bosque')."
+        },
+        {
+          "pregunta": "¿Cuándo lleva tilde 'más'?",
+          "respuesta": "Lleva tilde cuando es adverbio de cantidad ('El árbol más solo del mundo'). No lleva tildo cuando es conjunción adversativa 'mas' (= pero)."
+        }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": ["marco_sakura", "vf_leyenda", "sm_por_que_leyenda", "parafasis_subrayar", "parafasis_reemplazo"]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": ["tildacion_cuadro", "tildacion_diacritica"],
+      "duracion_min": 20
+    },
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Mito vs. leyenda: no son lo mismo",
+          "detalle": "El mito es de carácter sagrado, con dioses como protagonistas, y explica el origen del universo o la humanidad (ej.: mito de Prometeo). La leyenda es de carácter profano, con seres humanos o seres sobrenaturales menores, y explica el origen de algo local (una flor, un río, una montaña) en un contexto histórico real."
+        },
+        {
+          "titulo": "Hiato vs. diptongo",
+          "detalle": "No confundir hiato con diptongo. En el diptongo, dos vocales están en la misma sílaba (tien-po, gue-rra). En el hiato, están en sílabas diferentes. Si hay una vocal cerrada tónica (i, u) al lado de una abierta (a, e, o), siempre es hiato y lleva tilde en la cerrada, aunque las reglas generales digan lo contrario: ha-bí-a, dí-a, son-re-ír, ca-í-da."
+        },
+        {
+          "titulo": "Tilde diacrítica: 'sí' y 'si' no son lo mismo",
+          "detalle": "'Sí' con tilde es adverbio de afirmación ('Sí, quiero estudiar') o pronombre reflexivo ('Pensó para sí mismo'). 'Si' sin tilde es conjunción condicional ('Si estudiás, te va a ir bien') o nota musical. Lo mismo aplica a 'mí/mi', 'tú/tu', 'él/el', 'más/mas'."
+        },
+        {
+          "titulo": "Paráfrasis no es repetición exacta",
+          "detalle": "La paráfrasis reformula una idea con otras palabras (sinónimos, hipónimos, descripciones equivalentes). No es copiar lo mismo ni repetir exactamente. Por ejemplo: 'Sakura' → 'la amable muchacha' → 'la joven doncella'. Son tres maneras distintas de referirse al mismo personaje sin repetir el nombre."
+        }
+      ]
+    }
+  }
+}

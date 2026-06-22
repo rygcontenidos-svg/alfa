@@ -1,0 +1,133 @@
+
+--- PAGINA 1 ---
+División Entera
+18 .04.202 6
+─
+CLASE 3
+
+--- PAGINA 2 ---
+Introducción
+En esta clase abordaremos e l concepto de división entera y t rabajaremos con los conceptos
+derivados de múltiplos y divisores para luego desarrollar actividades relacionadas con los
+mismos. También enunciaremos algunos de los criterios de divisibilidad que nos permiten
+saber si un número es divisible por otro sin realizar la operación de divisió n y los aplicaremos a
+diversas situaciones problemáticas.
+Contenidos
+1. División entera
+Actividades
+2. Múltiplos y divisores
+Actividades
+3. Criterios de divisibilidad
+Actividades
+
+--- PAGINA 3 ---
+División entera. Múltiplos y divisores. Criterios de
+divisibilidad.
+1. Astor compró 384 bombones para preparar
+cajas con 13 bombones cada una.
+a) ¿Cuál es la mayor cantidad de cajas con bombones que Astor podrá preparar?
+b) ¿Cuántos bombones le sobrarán a Astor luego de preparar las cajas?
+c) Considerá el problema anterior y completá los casilleros con lo s números que corresponden
+a la siguiente división y con estas palabras: cociente , resto, divisor.
+d) Completá la línea de puntos de la siguiente igualdad considerando los números de la
+división anterior.
+13
+Dividendo
+
+--- PAGINA 4 ---
+2. Astor quiere preparar cajas para regalar con 14 bombones en cada una. Si compró 448
+bombones para preparar las cajas,
+a) ¿cuál es la mayor cantidad de cajas que podrá preparar Astor?
+b) ¿cuántos bombones le sobrarán a Astor luego de preparar las cajas?
+45 = …….. · …….. + ……..
+…………. = 13 . ..…. + ……
+Efectuar la división entera de un número a natural o cero
+por otro número natural b ,
+significa encontrar los dos únicos números c y r naturales o cero
+que cumplen que: a = b . c + r y 0  r < b .
+Dividendo a b Divisor
+Resto r c Cociente
+Si al hacer la división entera de un número a natural o cero
+por otro número natural b ,
+el resto es 0 , o sea,
+a = b . c ,
+se dice que a es divisible por b .
+o también que: b es un divisor de a ,
+b divide a a ,
+b es un factor de a ,
+a es múltiplo de b .
+
+--- PAGINA 5 ---
+3. a) ¿Cuál es el resto de dividir 75 por 5? ¿Y el de dividir 93 por 4?
+b) ¿Puede ser 6 el resto de dividir un número natural por 4?
+c) ¿Qué condición debe cumplir el resto en cualquier división entera?
+d) ¿Cuál es el cociente entre 40 y 52?
+e) ¿Por qué en una división entera el divisor no puede ser cero?
+4. Considerá que 102 = 17 . 6 y decidí si cada una de las siguientes afirmaciones es verdadera
+(V) o falsa (F). Marcá con una X en el casillero correspondiente.
+V F
+102 es múltiplo de 6.
+6 es divisible por 102.
+17 es factor de 6.
+17 es divisor de 102.
+17 y 6 dividen a 102.
+0 es múltiplo de 102.
+1 no es factor de 102.
+El 1 es divisor de todos los
+números naturales y cero, y
+múltiplo solo de 1.
+El 0 es múltiplo de todos los
+números naturales y cero, y
+divisor de ninguno.
+
+--- PAGINA 6 ---
+5. En un taller sobre Tecnología del que participan
+36 estudiantes, la profesora desea organizarlos en grupos de
+trabajo de igual cantidad de integrantes cada uno.
+a) Si la profesora quiere armar 4 grupos, ¿cuántos estudiantes habrá en cada grupo?
+¿Sobra algún estudiante ?
+b) ¿Se puede agrupar de otra forma a los 36 estudiantes sin que sobre ninguno? Indicá todas
+las posibilidades.
+c) La profesora descarta la posibilidad de agrupar a los estudiantes de a 5. ¿Por qué?
+Los criterios de divisibilidad permiten saber si un número es divisible por otro sin hacer la
+división.
+En la siguiente tabla, figuran algunos de los criterios de divisibilidad.
+Un número
+natural es
+C uando Por ejemplo:
+divisible por 2 termina en 0, 2, 4, 6 u 8 .
+184 es divisible por 2, porque 184 termina
+en 4.
+divisible por 3
+la suma de sus cifras es
+múltiplo de 3.
+1284 es divisible por 3, pues
+1 + 2 + 8 + 4 = 15 y 15 es múltiplo de 3.
+divisible por 4 el número formado por sus 7548 es divisible por 4, porque 48 es
+
+--- PAGINA 7 ---
+dos últimas cifras es
+múltiplo de 4.
+múltiplo de 4.
+5300 es divisible por 4, pues sus dos últimas
+cifras son 0 y 0 es múltiplo de 4.
+divisible por 5 termina en 0 o 5.
+12025 es divisible por 5, porque 12025
+termina en 5.
+divisible por 9
+la suma de sus cifras es
+múltiplo de 9.
+27018 es divisible por 9, pues
+2 + 7 + 0 + 1 + 8 = 18
+y 18 es múltiplo de 9.
+divisible por 10 termina en 0.
+38570 es divisible por 10, porque 38570
+termina en 0.
+6. ¿Cuál es el menor número que hay que sumarle a cada uno de los siguientes números para
+obtener un múltiplo de 7 ?
+a) 9 4 b) 21 2 c) 453 d) 678
+7. Sin realizar la división hallá el resto de dividir 8537 por cada uno de los siguientes números:
+a) 2 b) 5 c) 10 d) 3
+
+--- PAGINA 8 ---
+

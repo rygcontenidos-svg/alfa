@@ -1,0 +1,161 @@
+
+--- PAGINA 1 ---
+División entera
+18 .04.202 6
+─
+CLASE 3
+
+--- PAGINA 2 ---
+1
+Claves de
+Autocorrección
+División entera. Múltiplos y divisores. Criterios de divisibilidad.
+Ejercicio 1
+Astor compró 384 bombones para preparar cajas con 13 bombones cada una.
+a) ¿Cuál es la mayor cantidad de cajas con bombones que Astor podrá preparar?
+Una forma de resolver el problema es realizar la división entera entre 384 y 13. Al
+hacerlo se obtiene 29 como cociente y 7 como resto, es decir que:
+Por lo tanto, la mayor cantidad de cajas que Astor podrá preparar es 29.
+b) ¿Cuántos bombones le sobrarán a Astor luego de preparar las cajas?
+El resto de la división anterior es 7 y ese resto representa los bombones que Astor no
+pudo incluir en una caja, es decir, la cantidad de bombones que no fueron suficientes
+para preparar u na caja.
+Por lo tanto, a Astor le sobrarán 7 bombones luego de preparar las cajas.
+c) Considerá el problema anterior y completá los casilleros con los números que
+corresponden a la siguiente división y con estas palabras: cociente, resto, divisor.
+384 13
+7 29
+Dividendo
+Divisor
+384 13
+7
+29 Cociente Resto
+
+--- PAGINA 3 ---
+d) Completá la línea de puntos de la siguiente igualdad considerando los números de
+la división anterior.
+… 384 … = 13 . … 29… + … 7…
+Teniendo en cuenta los nombres y la relación entre los números, podemos escribir en
+símbolos y en lenguaje coloquial:
+Si a b y b ≠ 0, entonces a = b . c + r
+r c
+En una división entera se cumple que el dividendo es igual a la suma del producto entre
+el divisor y el cociente, y el resto.
+Ejercicio 2
+Astor quiere preparar cajas para regalar con 14 bombones en cada una. Si compró 448
+bombones para preparar las cajas ,
+a) ¿ cuál es la mayor cantidad de cajas que podrá preparar Astor?
+Al realizar la división entera entre 448 y 14, se obtiene 32 como cociente y 0 como resto,
+es decir:
+Por lo tanto, la mayor cantidad de cajas con bombones que Astor podrá preparar es 32.
+b) ¿Cuántos bombones le sobrarán a Astor luego de preparar las cajas?
+El resto de la división es 0, con lo cual a Astor no le sobrarán bombones luego de
+preparar las cajas.
+Como 448 = 14 . 32 + 0, es decir que 448 = 14 . 32, entonces 448 es divisible por 14.
+Ejercicio 3
+a) ¿Cuál es el resto de dividir 75 por 5? ¿Y el de div idir 93 por 4?
+448 14
+0 32
+
+--- PAGINA 4 ---
+75 5
+0 15 El resto de dividir 75 por 5 es 0.
+Como 75 = 5 . 15 + 0, es decir que 75 = 5 . 15, con lo cual 75 = 15. 5 po r la propiedad
+conmutativa de la multiplicación, entonces 75 es divisible por 15 y 5.
+93 4
+1 23 El resto de dividir 93 por 4 es 1.
+Luego, 93 = 4 . 23 + 1. Como el resto no es 0, entonces 93 no es divisible por 4.
+b) ¿Puede ser 6 el resto de dividir un número natural por 4?
+No, porque 6 es mayor que 4 que es el divisor, con lo cual se podría continuar con la división.
+c) ¿Qué condic ión debe cumplir el resto en cualquier división entera?
+En cualquier división entera, el resto debe ser mayor o igual que cero y menor que el divisor. Es decir
+que:
+si a b y b ≠ 0, entonces r ≥ 0 y r < b , con lo cual 0 ≤ r < b .
+r c
+d) ¿Cuál es el cociente entre 40 y 52?
+Como 40 52 entonces el cociente entre 40 y 52 es 0.
+40 0
+e) ¿Por qué en una división entera el divisor no puede ser cero?
+Como cualquier número multiplicado por 0 es 0, en a 0
+r c
+hay infini tos valores para “c”, o sea que hay infinitos cocientes. Además, como r < b (divisor) si
+b = 0, el valor de r no existe ya que no existe un número natural menor que cero.
+Ejercicio 4
+Considerá que 102 = 17 . 6 y decidí si cada una de las siguientes afirmaciones es verdadera (V) o falsa
+(F). Marcá con una X en el casillero correspondiente.
+
+--- PAGINA 5 ---
+V F
+102 es múltiplo de 6 X
+6 es divisible por 102 X
+17 es factor de 6 X
+17 es divisor de 102 X
+17 y 6 dividen a 102 X
+0 es múltiplo de 102. X
+1 no es factor de 102 X
+Ejercicio 5
+En un taller sobre Tecnología del que participan 36 estudiantes, la profesora desea
+organizarlos en grupos de trabajo de igual cantidad de integrantes cada uno.
+a) Si la profesora quiere armar 4 grupos ¿cuántos estudiantes habrá en cada grupo?
+¿Sobra algún estudiante?
+Al realizar la división entera entre 36 y 4, se obtiene 9 como cociente y 0 como resto, es
+decir:
+Por lo tanto, la profesora puede armar 4 grupos de trabajo con 9 estudiantes en cada
+uno.
+Como el resto de la división es 0, no sobra ningún estudiante.
+b) ¿Se puede agrupar de otra forma a los 36 estudiantes sin que sobre ninguno?
+Indicá todas las posibilidades.
+La profesora podría armar 2 grupos de 18 estudiantes, 3 grupos de 12 estudiantes, 4
+grupos de 9 estudiantes, 6 grupos de 6 estudiantes, 9 grupos de 4 estudiantes, 12
+grupos de 3 estudiantes y 18 grupos de 2 estudiantes cada uno. (En la respuesta no
+conside ramos 1 grupo de 36 estudiantes porque la consigna se refiere a grupos. En la
+respuesta tampoco consideramos 36 grupos de 1 estudiante cada uno porque un grupo está
+formado por dos o más personas)
+36 4
+0 9
+
+--- PAGINA 6 ---
+c) La profesora descarta la posibilidad de agruparlos de a 5 . ¿Por qué?
+La profesora descarta la posibilidad de agruparlos de a 5 porque habría estudiantes
+que no pertenecerían a ningún grupo es decir que no se pueden formar grupos de 5
+estudiantes cada uno sin que sobre ningún estudiante.
+Ejercicio 6
+¿Cuál es el menor número que hay que sumarle a cada uno de los siguientes números
+para obtener un múltiplo de 7 ?
+a) 94 b) 212 c) 453 d) 678
+Una estrategia sería buscar un múltiplo de 7 “cercano” al número que nos dieron y
+luego buscar el múl tiplo de 7 siguiente a ese, como en los dos casos que se dan a
+continuación.
+a) Como 91 es múltiplo de 7, entonces el siguiente múltiplo de 7 es 98. Luego, debemos
+sumar 4 a 94 para obtener un múltiplo de 7.
+b) Como 210 es múltiplo de 7, el siguiente múlt iplo de 7 es 217. Luego, tenemos que
+sumar 5 a 212 para obtener un múltiplo de 7.
+Otra estrategia para resolver el problema es hacer la división entre el número que nos
+dieron y 7, y trabajar con el resto, como en los siguientes dos casos.
+c) Al dividir 453 por 7 resulta que:
+Como el resto es 5, debemos sumarle 2 para obtener 7 .
+d) Al realizar la división entre 678 y 7 se obtiene que:
+Como el resto es 6, entonces tenemos que sumar 1 para obtener 7.
+453 7
+5 64
+678 7
+6 96
+
+--- PAGINA 7 ---
+Ejercicio 7
+Sin realizar la división, hallá el resto de dividir 8537 por cada uno de los siguientes
+números:
+a) 2 b) 5 c) 10 d) 3
+a) Como 8537 es un número impar y los números pares e impares son consecutivos,
+entonces el resto de dividir 8537 por 2 es 1.
+b) Como 8535 es el mayor múltiplo de 5 menor que 8537, el resto de dividir 8537 por 5
+es 2.
+c) Como 8530 es el mayor múltiplo de 10 menor que 8537, entonces el resto de dividir
+8537 por 10 es 7.
+d) Si sumamos las cifras del número 8537 obtenemos 23 (8 + 5 + 3 + 7 = 23) y el mayor
+múltiplo de 3 menor que 23 es 21, entonces el mayor múltiplo de 3 menor que 8537 es
+8535, ya que
+8 + 5 + 3 + 5 = 21. Luego, el resto de dividir 8537 por 3 es 2.
+
+--- PAGINA 8 ---
+

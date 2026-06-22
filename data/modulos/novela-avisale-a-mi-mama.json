@@ -1,0 +1,680 @@
+{
+  "id": "novela-avisale-a-mi-mama",
+  "materia": "lengua",
+  "titulo": "La novela. Avisale a mi mam\u00e1, de M\u00f3nica Zwaig",
+  "descripcion": "La novela como texto literario del g\u00e9nero narrativo. Caracter\u00edsticas: extensi\u00f3n, personajes, conflictos, cap\u00edtulos, tiempos, inclusi\u00f3n de otros g\u00e9neros. Registros ling\u00fc\u00edsticos. Ciencia ficci\u00f3n. Memoria personal y colectiva.",
+  "textos_ids": ["avisale-a-mi-mama"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "act1_titulo",
+      "tipo": "seleccion_multiple",
+      "consigna": "Observ\u00e1 la tapa del libro. Despu\u00e9s de haber le\u00eddo la novela, \u00bfa qu\u00e9 hace referencia el t\u00edtulo \u2018Avisale a mi mam\u00e1\u2019?",
+      "opciones": [
+        { "id": "a", "texto": "A la intenci\u00f3n de Walter de mandarle un mensaje a su madre desde el centro clandestino." },
+        { "id": "b", "texto": "A la advertencia que Teo le hace a su mam\u00e1 sobre los peligros de la IA." },
+        { "id": "c", "texto": "Al pedido de Mora para que Teo le avise a su madre que llega tarde." },
+        { "id": "d", "texto": "A la indicaci\u00f3n del profesor de que los estudiantes avisen a sus familias sobre la monograf\u00eda." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "act2_ficcion",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00bfPor qu\u00e9 podemos afirmar que \u2018Avisale a mi mam\u00e1\u2019 es una ficci\u00f3n y no un texto hist\u00f3rico?",
+      "opciones": [
+        { "id": "a", "texto": "Porque inventa personajes, di\u00e1logos y situaciones que no son reales, aunque est\u00e9 ambientada en un contexto hist\u00f3rico real." },
+        { "id": "b", "texto": "Porque la dictadura de 1976 nunca existi\u00f3 realmente." },
+        { "id": "c", "texto": "Porque todos los personajes existieron y los hechos son ver\u00eddicos." },
+        { "id": "d", "texto": "Porque est\u00e1 escrita en prosa y no en verso." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "act3a_prosa",
+      "tipo": "seleccion_multiple",
+      "consigna": "Los textos narrativos, como la novela, \u00bfen qu\u00e9 forma est\u00e1n escritos generalmente?",
+      "opciones": [
+        { "id": "a", "texto": "En verso" },
+        { "id": "b", "texto": "En prosa" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "act3b_marco",
+      "tipo": "marco_narrativo",
+      "consigna": "Complet\u00e1 el marco del relato de \u2018Avisale a mi mam\u00e1\u2019.",
+      "personajes": "Teo Rodr\u00edguez (protagonista, 15 a\u00f1os), Mora Segundo Llanes, Beltr\u00e1n, Laura, Mirko, Ana (mam\u00e1 de Teo), Sebasti\u00e1n Rodr\u00edguez (pap\u00e1), Lucio (hermano menor), Walter Arz\u00f3n (sobreviviente), Saba (IA)",
+      "lugar": "Buenos Aires, Argentina. Alterna entre la escuela, la casa de Teo y los mensajes de chat.",
+      "tiempo": "Presente (2025\u20132026), con flashbacks a 1978 durante la \u00faltima dictadura c\u00edvico-militar argentina."
+    },
+    {
+      "id": "act3c_narrador",
+      "tipo": "tipo_narrador",
+      "consigna": "\u00bfQu\u00e9 tipo de narrador se presenta en los primeros once cap\u00edtulos de la novela? Justific\u00e1 tu respuesta.",
+      "opciones": ["Narrador protagonista", "Narrador testigo", "Narrador omnisciente"],
+      "correcta": "Narrador omnisciente",
+      "cita_justificacion": "El narrador conoce lo que hacen, sienten y piensan los personajes, incluso sus pensamientos \u00edntimos, algo que solo un narrador omnisciente puede saber."
+    },
+    {
+      "id": "act3d_recursos",
+      "tipo": "seleccion_multiple",
+      "consigna": "Seleccion\u00e1 los recursos que son propios de la narraci\u00f3n.",
+      "opciones": [
+        { "id": "a", "texto": "Descripciones" },
+        { "id": "b", "texto": "Definiciones" },
+        { "id": "c", "texto": "Clasificaciones" },
+        { "id": "d", "texto": "Di\u00e1logos" },
+        { "id": "e", "texto": "Citas de autoridad" },
+        { "id": "f", "texto": "Uso de conectores temporales" }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "act4_caracteristicas",
+      "tipo": "tipo_textual",
+      "consigna": "Complet\u00e1 con ejemplos de la novela de Zwaig cada caracter\u00edstica del g\u00e9nero novela.",
+      "filas": [
+        { "caracteristica": "Varios personajes", "ejemplo": "Teo, Mora, Beltr\u00e1n, Laura, Ana, Sebasti\u00e1n, Lucio, Walter, Saba, el profesor de \u00c9tica" },
+        { "caracteristica": "Varios conflictos", "ejemplo": "La monograf\u00eda sobre la dictadura, la relaci\u00f3n de Teo con Mora, los mensajes extra\u00f1os de la IA, la fiesta de 15 de Mora" },
+        { "caracteristica": "Divisi\u00f3n en cap\u00edtulos o partes", "ejemplo": "La novela est\u00e1 dividida en cap\u00edtulos que alternan entre el presente y los mensajes del pasado." },
+        { "caracteristica": "Diversos lugares", "ejemplo": "La escuela, la casa de Teo, la casa de Mora, el centro clandestino de detenci\u00f3n (evocado), la Plaza de Mayo" },
+        { "caracteristica": "Diversos tiempos o extensi\u00f3n temporal", "ejemplo": "El presente de Teo (2025\u20132026) y el pasado de Walter (1978), con saltos temporales constantes." },
+        { "caracteristica": "Inclusi\u00f3n de otros textos o g\u00e9neros", "ejemplo": "Chats de WhatsApp, respuestas de la IA, fragmentos del informe \u2018Nunca m\u00e1s\u2019, di\u00e1logos teatrales" }
+      ]
+    },
+    {
+      "id": "act5a_registro",
+      "tipo": "seleccion_multiple",
+      "consigna": "Clasific\u00e1 este ejemplo de registro ling\u00fc\u00edstico extra\u00eddo de la novela: Di\u00e1logo entre Teo y sus amigos: \u2018\u2014\u00bfY tus viejos pueden pagar la fiesta? \u2014No tienen tanta, tanta guita, pero me imagino que un viaje es m\u00e1s caro que una fiesta.\u2019",
+      "opciones": [
+        { "id": "a", "texto": "Formal, elaborado, con normativa gr\u00e1fica" },
+        { "id": "b", "texto": "Informal, espont\u00e1neo, sin normativa gr\u00e1fica" },
+        { "id": "c", "texto": "Formal, espont\u00e1neo, con normativa gr\u00e1fica" },
+        { "id": "d", "texto": "Informal, elaborado, sin normativa gr\u00e1fica" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "act5b_registro",
+      "tipo": "seleccion_multiple",
+      "consigna": "Clasific\u00e1 este ejemplo de registro ling\u00fc\u00edstico extra\u00eddo de la novela: Respuestas de Saba: \u2018Buen d\u00eda\u2019, \u2018\u00a1Qu\u00e9 interesante!\u2019, \u2018\u00a1Qu\u00e9 buena pregunta!\u2019",
+      "opciones": [
+        { "id": "a", "texto": "Informal, espont\u00e1neo, sin normativa gr\u00e1fica" },
+        { "id": "b", "texto": "Informal, elaborado, con normativa gr\u00e1fica" },
+        { "id": "c", "texto": "Formal, elaborado, con normativa gr\u00e1fica" },
+        { "id": "d", "texto": "Formal, espont\u00e1neo, sin normativa gr\u00e1fica" }
+      ],
+      "correcta": "c"
+    },
+    {
+      "id": "act5c_registro",
+      "tipo": "seleccion_multiple",
+      "consigna": "Clasific\u00e1 este ejemplo de registro ling\u00fc\u00edstico extra\u00eddo de la novela: Chat entre Teo y Mora: \u2018hola Teo, ac\u00e1 Mora Llanes, c\u00f3mo va? me dijo beltr\u00e1n que ibas a escribir la monograf\u00eda sobre la dictadura.\u2019",
+      "opciones": [
+        { "id": "a", "texto": "Formal, elaborado, con normativa gr\u00e1fica" },
+        { "id": "b", "texto": "Informal, espont\u00e1neo, sin normativa gr\u00e1fica" },
+        { "id": "c", "texto": "Formal, espont\u00e1neo, sin normativa gr\u00e1fica" },
+        { "id": "d", "texto": "Informal, elaborado, con normativa gr\u00e1fica" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "act5d_registro",
+      "tipo": "seleccion_multiple",
+      "consigna": "Clasific\u00e1 este ejemplo de registro ling\u00fc\u00edstico extra\u00eddo de la novela: Trabajo final de Teo: \u2018Para hacer este trabajo tuve la posibilidad de hablar con una v\u00edctima de la dictadura. Fue una casualidad realmente, no hubiese sabido c\u00f3mo hacer para llegar a un sobreviviente si el azar no lo hubiese puesto en mi camino.\u2019",
+      "opciones": [
+        { "id": "a", "texto": "Informal, espont\u00e1neo, sin normativa gr\u00e1fica" },
+        { "id": "b", "texto": "Informal, elaborado, con normativa gr\u00e1fica" },
+        { "id": "c", "texto": "Formal, espont\u00e1neo, sin normativa gr\u00e1fica" },
+        { "id": "d", "texto": "Formal, elaborado, con normativa gr\u00e1fica" }
+      ],
+      "correcta": "d"
+    },
+    {
+      "id": "act6_personajes",
+      "tipo": "normativa_grafica",
+      "consigna": "Un\u00ed cada personaje con su caracter\u00edstica correcta.",
+      "items": [
+        { "id": "p1", "modo": "completar", "texto": "Teo Rodr\u00edguez:", "opciones": ["Mejor amigo de Teo, descendiente de yugoslavos", "Mam\u00e1 de Teo, odont\u00f3loga", "Estudiante de 2\u00b0 a\u00f1o A, de 15 a\u00f1os, hincha de Col\u00f3n, es alto y parece m\u00e1s grande", "Sobreviviente de un centro clandestino de detenci\u00f3n"], "correcta": "Estudiante de 2\u00b0 a\u00f1o A, de 15 a\u00f1os, hincha de Col\u00f3n, es alto y parece m\u00e1s grande" },
+        { "id": "p2", "modo": "completar", "texto": "Beltr\u00e1n:", "opciones": ["Mejor amigo de Teo, descendiente de yugoslavos", "Compa\u00f1era de Teo, de 14 a\u00f1os, que ansiaba festejar sus 15", "Hermano menor de Teo, de 10 a\u00f1os", "Pap\u00e1 de Teo, contador"], "correcta": "Mejor amigo de Teo, descendiente de yugoslavos" },
+        { "id": "p3", "modo": "completar", "texto": "Mirko:", "opciones": ["Mejor amiga de Teo", "Sobreviviente de un centro clandestino de detenci\u00f3n", "Profesor de Historia, de unos 50 a\u00f1os, tiene distintas zapatillas", "Mam\u00e1 de Teo, odont\u00f3loga"], "correcta": "Profesor de Historia, de unos 50 a\u00f1os, tiene distintas zapatillas" },
+        { "id": "p4", "modo": "completar", "texto": "Mora Segundo Llanes:", "opciones": ["Mejor amiga de Teo", "Compa\u00f1era de Teo, de 14 a\u00f1os, que ansiaba festejar sus 15 con una fiesta", "Hermano menor de Teo, de 10 a\u00f1os", "Pap\u00e1 de Teo, contador"], "correcta": "Compa\u00f1era de Teo, de 14 a\u00f1os, que ansiaba festejar sus 15 con una fiesta" },
+        { "id": "p5", "modo": "completar", "texto": "Ana:", "opciones": ["Mam\u00e1 de Teo, odont\u00f3loga", "Mejor amiga de Teo", "Sobreviviente de un centro clandestino de detenci\u00f3n", "Profesora de Historia"], "correcta": "Mam\u00e1 de Teo, odont\u00f3loga" },
+        { "id": "p6", "modo": "completar", "texto": "Sebasti\u00e1n Rodr\u00edguez:", "opciones": ["Hermano menor de Teo, de 10 a\u00f1os", "Pap\u00e1 de Teo, contador que trabaja en una empresa", "Mejor amigo de Teo", "Profesor de Historia"], "correcta": "Pap\u00e1 de Teo, contador que trabaja en una empresa" },
+        { "id": "p7", "modo": "completar", "texto": "Laura:", "opciones": ["Compa\u00f1era de Teo", "Mejor amiga de Teo", "Hermana menor de Teo", "Mam\u00e1 de Teo"], "correcta": "Mejor amiga de Teo" },
+        { "id": "p8", "modo": "completar", "texto": "Lucio:", "opciones": ["Hermano menor de Teo, de 10 a\u00f1os", "Mejor amigo de Teo", "Pap\u00e1 de Teo", "Compa\u00f1ero de Teo"], "correcta": "Hermano menor de Teo, de 10 a\u00f1os" },
+        { "id": "p9", "modo": "completar", "texto": "Walter Arz\u00f3n:", "opciones": ["Mejor amigo de Teo", "Sobreviviente de un centro clandestino de detenci\u00f3n", "Profesor de Historia", "Pap\u00e1 de Teo"], "correcta": "Sobreviviente de un centro clandestino de detenci\u00f3n" }
+      ]
+    },
+    {
+      "id": "act7a_teo_mora",
+      "tipo": "seleccion_multiple",
+      "consigna": "Con respecto a la relaci\u00f3n entre Teo y Mora en la novela, \u00bfqu\u00e9 tema eligen para su monograf\u00eda y c\u00f3mo evoluciona su v\u00ednculo?",
+      "opciones": [
+        { "id": "a", "texto": "Eligieron \u2018El f\u00fatbol durante la dictadura\u2019 y pasan de ser desconocidos a tener una amistad que trasciende lo escolar." },
+        { "id": "b", "texto": "Eligieron \u2018La \u00faltima dictadura c\u00edvico-militar argentina\u2019 y pasan de ser compa\u00f1eros a construir una relaci\u00f3n de confianza y apoyo mutuo." },
+        { "id": "c", "texto": "Eligieron \u2018Los centros clandestinos de detenci\u00f3n\u2019 y su relaci\u00f3n se vuelve conflictiva porque Mora no quiere investigar ese tema." },
+        { "id": "d", "texto": "Eligieron \u2018La inteligencia artificial en la educaci\u00f3n\u2019 y compiten por ver qui\u00e9n escribe mejor la monograf\u00eda." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "act7b_teo_walter",
+      "tipo": "seleccion_multiple",
+      "consigna": "Seleccion\u00e1 las semejanzas que se perciben entre Teo y Walter en el transcurso de la novela.",
+      "opciones": [
+        { "id": "a", "texto": "Tienen casi la misma edad, quieren comunicarse con su mam\u00e1 y tienen vocaci\u00f3n solidaria." },
+        { "id": "b", "texto": "Ambos estudian en la misma escuela y tienen los mismos amigos." },
+        { "id": "c", "texto": "Los dos nacieron en Santa Fe y se mudaron a Buenos Aires." },
+        { "id": "d", "texto": "Ambos usan la inteligencia artificial para investigar." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "act7c_infiltracion",
+      "tipo": "normativa_grafica",
+      "consigna": "En la novela, la IA Saba empieza a recibir mensajes \u2018infiltrados\u2019 del pasado. Identific\u00e1 a qu\u00e9 personaje pertenece cada cita y qu\u00e9 sentimiento expresa.",
+      "items": [
+        { "id": "c1", "modo": "completar", "texto": "\u2018Decile a mi mam\u00e1 que estoy bien, que no se preocupe.\u2019 \u00bfQui\u00e9n habla y qu\u00e9 sentimiento expresa?", "opciones": ["Teo / alegr\u00eda", "Walter / angustia y necesidad de consolar", "Mora / entusiasmo", "Saba / indiferencia"], "correcta": "Walter / angustia y necesidad de consolar" },
+        { "id": "c2", "modo": "completar", "texto": "\u2018\u00bfSab\u00e9s lo que es tener quince a\u00f1os y que te arranquen de tu casa?\u2019 \u00bfQui\u00e9n habla y qu\u00e9 sentimiento expresa?", "opciones": ["Teo / curiosidad", "Beltr\u00e1n / enojo", "Walter / dolor e indignaci\u00f3n", "Mora / miedo"], "correcta": "Walter / dolor e indignaci\u00f3n" },
+        { "id": "c3", "modo": "completar", "texto": "\u2018No te puedo contar m\u00e1s, me est\u00e1n llamando.\u2019 \u00bfQui\u00e9n habla y qu\u00e9 sentimiento expresa?", "opciones": ["Walter / miedo y urgencia", "Saba / error del sistema", "Teo / frustraci\u00f3n", "Mirko / apuro"], "correcta": "Walter / miedo y urgencia" }
+      ]
+    },
+    {
+      "id": "act8_vf",
+      "tipo": "verdadero_falso",
+      "consigna": "Indic\u00e1 si las siguientes afirmaciones sobre la novela son verdaderas (V) o falsas (F).",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "a", "afirmacion": "Teo naci\u00f3 en Santa Fe y vino a Buenos Aires a causa del trabajo de su pap\u00e1.", "respuesta": true },
+        { "id": "b", "afirmacion": "Los temas de monograf\u00eda de Ana y Mirko son calentamiento global e IA respectivamente.", "respuesta": true },
+        { "id": "c", "afirmacion": "Mora recomienda el libro \u2018Nunca m\u00e1s\u2019 y la pel\u00edcula \u2018Infancia clandestina\u2019.", "respuesta": false, "correccion": "Mora recomienda el libro \u2018Nunca m\u00e1s\u2019 pero no la pel\u00edcula \u2018Infancia clandestina\u2019, que es falsa." },
+        { "id": "d", "afirmacion": "Teo tiene el \u2018Nunca m\u00e1s\u2019 en su biblioteca y conversa sobre eso con su madre.", "respuesta": false, "correccion": "Teo no tiene el \u2018Nunca m\u00e1s\u2019 en su casa; es Mora quien lo menciona." },
+        { "id": "e", "afirmacion": "La mam\u00e1 de Walter va a la Plaza de Mayo a reunirse con las otras Madres.", "respuesta": true },
+        { "id": "f", "afirmacion": "La aplicaci\u00f3n NN era muy popular entre sus amigos.", "respuesta": true },
+        { "id": "g", "afirmacion": "Walter sent\u00eda que algunos lo ve\u00edan como un traidor por haber sobrevivido.", "respuesta": true },
+        { "id": "h", "afirmacion": "Teo entiende que el pasado de la dictadura se puede seguir discutiendo en el presente.", "respuesta": true },
+        { "id": "i", "afirmacion": "Tanto en el 78 como hoy, Walter tiene vocaci\u00f3n solidaria.", "respuesta": true },
+        { "id": "j", "afirmacion": "Mora considera que las fotos de desaparecidos tienen que estar en blanco y negro.", "respuesta": false, "correccion": "Mora no opina eso; es una afirmaci\u00f3n incorrecta sobre su postura." }
+      ]
+    },
+    {
+      "id": "act9_ciencia_ficcion",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00bfCu\u00e1l es el motivo cient\u00edfico que atraviesa la novela y qu\u00e9 es lo necesariamente imposible fuera del universo literario?",
+      "opciones": [
+        { "id": "a", "texto": "Los viajes en el tiempo: Teo viaja f\u00edsicamente a 1978 para conocer a Walter." },
+        { "id": "b", "texto": "La inteligencia artificial que se \u2018infiltra\u2019 con voces del pasado: una IA no puede realmente recibir mensajes de personas fallecidas." },
+        { "id": "c", "texto": "La clonaci\u00f3n de personas: Walter es clonado a partir de restos \u00f3seos." },
+        { "id": "d", "texto": "La telepat\u00eda: los personajes se comunican mentalmente a trav\u00e9s de la IA." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "act10a_dialogo",
+      "tipo": "normativa_grafica",
+      "consigna": "Complet\u00e1 los nombres de los interlocutores en el siguiente di\u00e1logo sobre la dictadura que aparece en la novela.",
+      "items": [
+        { "id": "d1", "modo": "completar", "texto": "\u2014\u00bfVos sab\u00edas que hubo un golpe de Estado en el 76? \u2014dijo ______.", "opciones": ["Teo", "Mora", "Walter", "Beltr\u00e1n"], "correcta": "Teo" },
+        { "id": "d2", "modo": "completar", "texto": "\u2014S\u00ed, pero en mi casa no se habla mucho del tema \u2014respondi\u00f3 ______.", "opciones": ["Teo", "Mora", "Ana", "Sebasti\u00e1n"], "correcta": "Mora" },
+        { "id": "d3", "modo": "completar", "texto": "\u2014A veces es mejor saber la verdad, por m\u00e1s que duela \u2014intervino ______.", "opciones": ["Walter", "Mirko", "Laura", "Saba"], "correcta": "Walter" }
+      ]
+    },
+    {
+      "id": "act10b_demonios",
+      "tipo": "seleccion_multiple",
+      "consigna": "Sobre la \u2018teor\u00eda de los dos demonios\u2019 que aparece en la novela, \u00bfcu\u00e1l de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        { "id": "a", "texto": "Sostiene que hubo dos bandos igualmente responsables durante la dictadura: el Estado y los grupos guerrilleros, equiparando sus acciones." },
+        { "id": "b", "texto": "Plantea que los militares y los desaparecidos eran v\u00edctimas de un mismo conflicto." },
+        { "id": "c", "texto": "Afirma que la dictadura fue un invento de la oposici\u00f3n pol\u00edtica." },
+        { "id": "d", "texto": "Sostiene que solo hubo un \u2018demonio\u2019: la guerrilla, y que el Estado actu\u00f3 legalmente." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "act11a_recuerdo",
+      "tipo": "seleccion_multiple",
+      "consigna": "En la novela se explora la memoria personal y la memoria colectiva. \u00bfEn qu\u00e9 consiste el recuerdo de Walter y por qu\u00e9 es valioso?",
+      "opciones": [
+        { "id": "a", "texto": "Walter recuerda su infancia en Santa Fe; es valioso porque muestra c\u00f3mo era la vida antes de la dictadura." },
+        { "id": "b", "texto": "Walter recuerda su secuestro y su paso por un centro clandestino; es valioso porque su testimonio contribuye a la memoria colectiva y a la reconstrucci\u00f3n de lo ocurrido." },
+        { "id": "c", "texto": "Walter recuerda c\u00f3mo escap\u00f3 del pa\u00eds; es valioso porque demuestra que era posible huir." },
+        { "id": "d", "texto": "Walter recuerda su vida antes de la dictadura; es valioso porque es un relato \u00edntimo y personal." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "act11b_memoria",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00bfPor qu\u00e9 puede ser valioso para Teo (y para las nuevas generaciones) indagar sobre el pasado de la dictadura?",
+      "opciones": [
+        { "id": "a", "texto": "Para obtener una buena nota en la monograf\u00eda de \u00c9tica." },
+        { "id": "b", "texto": "Para entender que el pasado no est\u00e1 cerrado, que sus consecuencias siguen presentes y que la memoria colectiva ayuda a construir una sociedad m\u00e1s justa." },
+        { "id": "c", "texto": "Para demostrar que la dictadura fue un fen\u00f3meno aislado que ya no tiene relevancia." },
+        { "id": "d", "texto": "Para conocer detalles \u00edntimos de la vida de Walter y escribir un libro." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "tarea1_vf",
+      "tipo": "verdadero_falso",
+      "consigna": "Indic\u00e1 si las siguientes afirmaciones sobre la novela son verdaderas (V) o falsas (F).",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "a", "afirmacion": "La materia favorita de Teo es Literatura.", "respuesta": false, "correccion": "No se afirma que Literatura sea su materia favorita." },
+        { "id": "b", "afirmacion": "La IA le enviaba mensajes a Teo sin que \u00e9l le escribiera.", "respuesta": true },
+        { "id": "c", "afirmacion": "Teo sabe que hizo trampa al usar la IA para el resumen.", "respuesta": true },
+        { "id": "d", "afirmacion": "Teo le puso \u2018Saba\u2019 a la IA porque la consultaba los s\u00e1bados.", "respuesta": false, "correccion": "No hay indicios de que el nombre \u2018Saba\u2019 se deba a eso." },
+        { "id": "e", "afirmacion": "Teo se muestra muy seguro; Mora est\u00e1 desorientada.", "respuesta": false, "correccion": "Ambos tienen dudas e inseguridades a lo largo del proceso." },
+        { "id": "f", "afirmacion": "El profesor de \u00c9tica era el tutor de la monograf\u00eda.", "respuesta": true },
+        { "id": "g", "afirmacion": "Teo quer\u00eda cambiar el tema de la monograf\u00eda.", "respuesta": false, "correccion": "Teo no quer\u00eda cambiar el tema; al contrario, se fue involucrando cada vez m\u00e1s." },
+        { "id": "h", "afirmacion": "A Teo le encantaban los pochoclos y a Mirko, el chip\u00e1.", "respuesta": true },
+        { "id": "i", "afirmacion": "Teo le cont\u00f3 a su mam\u00e1 sobre los mensajes extra\u00f1os de la IA.", "respuesta": false, "correccion": "Teo no le cuenta a su mam\u00e1 sobre los mensajes extra\u00f1os; los oculta." },
+        { "id": "j", "afirmacion": "La mam\u00e1 de Walter le pide que salga con la escarapela por el Mundial.", "respuesta": true },
+        { "id": "k", "afirmacion": "La mam\u00e1 ayuda a Teo a definir el tema de la monograf\u00eda (f\u00fatbol y 1979).", "respuesta": false, "correccion": "No es la mam\u00e1 quien define el tema; lo eligen Teo y Mora." },
+        { "id": "l", "afirmacion": "A Walter lo liberan por no ser relevante en la lucha armada.", "respuesta": true },
+        { "id": "m", "afirmacion": "Walter recita canciones para no enloquecer en el encierro.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "tarea2_citas",
+      "tipo": "seleccion_multiple",
+      "consigna": "En la novela aparece la idea de \u2018infiltraci\u00f3n del pasado\u2019. \u00bfCu\u00e1l de las siguientes opciones explica mejor ese concepto?",
+      "opciones": [
+        { "id": "a", "texto": "El pasado se cuela en el presente a trav\u00e9s de la IA: voces de v\u00edctimas de la dictadura aparecen en los mensajes de Saba, mostrando que la historia no est\u00e1 cerrada." },
+        { "id": "b", "texto": "Teo investiga en archivos hist\u00f3ricos y encuentra documentos secretos que nadie hab\u00eda visto." },
+        { "id": "c", "texto": "Mora le cuenta a Teo historias que escuch\u00f3 de su abuela sobre la dictadura." },
+        { "id": "d", "texto": "La polic\u00eda allana la escuela y encuentra los cuadernos de los alumnos." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "tarea3_dialogo",
+      "tipo": "normativa_grafica",
+      "consigna": "Complet\u00e1 el siguiente di\u00e1logo entre Teo y Mora sobre una pel\u00edcula de terror ambientada en la dictadura.",
+      "items": [
+        { "id": "t1", "modo": "completar", "texto": "\u2014\u00bfViste la pel\u00edcula que te recomend\u00e9 sobre la ______? \u2014pregunt\u00f3 Mora.", "opciones": ["dictadura", "guerra", "inmigraci\u00f3n", "independencia"], "correcta": "dictadura" },
+        { "id": "t2", "modo": "completar", "texto": "\u2014S\u00ed, pero me pareci\u00f3 que el terror ______ no es lo mismo que el terror de verdad \u2014respondi\u00f3 Teo.", "opciones": ["psicol\u00f3gico", "sobrenatural", "pol\u00edtico", "f\u00edsico"], "correcta": "sobrenatural" },
+        { "id": "t3", "modo": "completar", "texto": "\u2014Claro, porque lo que pas\u00f3 de verdad fue mucho ______ que cualquier pel\u00edcula \u2014 agreg\u00f3 Mora.", "opciones": ["mejor", "peor", "m\u00e1s aburrido", "menos importante"], "correcta": "peor" }
+      ]
+    },
+    {
+      "id": "tarea4_leyes",
+      "tipo": "seleccion_multiple",
+      "consigna": "Sobre la Ley de Punto Final y la Ley de Obediencia Debida, sancionadas durante la d\u00e9cada de 1980 en Argentina, \u00bfcu\u00e1l de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        { "id": "a", "texto": "Fueron leyes que buscaron garantizar el juzgamiento de todos los responsables de cr\u00edmenes de lesa humanidad." },
+        { "id": "b", "texto": "Fueron leyes que impidieron el juzgamiento de los responsables de cr\u00edmenes de lesa humanidad, estableciendo la impunidad para los perpetradores." },
+        { "id": "c", "texto": "Fueron leyes que crearon la figura del \u2018desaparecido\u2019 como categor\u00eda jur\u00eddica." },
+        { "id": "d", "texto": "Fueron leyes que establecieron reparaciones econ\u00f3micas para las v\u00edctimas de la dictadura." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "tarea5_cels",
+      "tipo": "normativa_grafica",
+      "consigna": "Complet\u00e1 la siguiente informaci\u00f3n sobre el CELS.",
+      "items": [
+        { "id": "c1", "modo": "completar", "texto": "CELS significa Centro de Estudios ______ y Sociales.", "opciones": ["Literarios", "Legales", "Latinoamericanos", "Ling\u00fc\u00edsticos"], "correcta": "Legales" },
+        { "id": "c2", "modo": "completar", "texto": "El CELS es una organizaci\u00f3n argentina de derechos ______.", "opciones": ["humanos", "civiles", "pol\u00edticos", "sociales"], "correcta": "humanos" },
+        { "id": "c3", "modo": "completar", "texto": "El CELS se dedica a la defensa de v\u00edctimas de ______ de lesa humanidad.", "opciones": ["delitos", "accidentes", "enfermedades", "fraudes"], "correcta": "delitos" }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["avisale-a-mi-mama"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "que-es-novela",
+          "titulo": "\u00bfQu\u00e9 es la novela?",
+          "icono": "\uD83D\uDCD6",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Definici\u00f3n",
+              "texto": "La novela es una narraci\u00f3n de hechos ficticios escrita en prosa, que se distingue de otros textos narrativos por su extensi\u00f3n y complejidad.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Pertenece al g\u00e9nero narrativo y puede abordar m\u00faltiples conflictos, personajes, tiempos y espacios. A diferencia del cuento, la novela no se limita a una sola l\u00ednea argumental."
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u270D\uFE0F", "texto": "Escrita en prosa" },
+                { "icono": "\uD83D\uDCCF", "texto": "Gran extensi\u00f3n" },
+                { "icono": "\uD83C\uDFAF", "texto": "M\u00faltiples personajes y conflictos" },
+                { "icono": "\uD83C\uDF0D", "texto": "Diversos tiempos y lugares" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "caracteristicas-novela",
+          "titulo": "Caracter\u00edsticas de la novela",
+          "icono": "\uD83D\uDCCC",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "Gracias a su extensi\u00f3n, la novela puede desarrollar m\u00faltiples aspectos que otros textos narrativos no pueden:"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\uD83D\uDC65", "texto": "Varios personajes: principales, secundarios, antag\u00f3nicos, fugaces." },
+                { "icono": "\u26A1", "texto": "Varios conflictos: pueden entrelazarse y desarrollarse en paralelo." },
+                { "icono": "\uD83D\uDCC4", "texto": "Divisi\u00f3n en cap\u00edtulos o partes que organizan la trama." },
+                { "icono": "\uD83D\uDDE3\uFE0F", "texto": "Inclusi\u00f3n de otros g\u00e9neros: di\u00e1logos, cartas, chats, art\u00edculos period\u00edsticos." },
+                { "icono": "\u23F0", "texto": "Diversos tiempos: saltos temporales, analepsis, elipsis." },
+                { "icono": "\uD83D\uDDE3\uFE0F", "texto": "Diversos lugares: la acci\u00f3n puede transcurrir en distintos escenarios." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "novela-vs-cuento",
+          "titulo": "La novela y el cuento",
+          "icono": "\u2696\uFE0F",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Novela",
+                  "items": [
+                    "Gran extensi\u00f3n",
+                    "M\u00faltiples personajes",
+                    "Varios conflictos entrelazados",
+                    "Diversos espacios y tiempos",
+                    "Divisi\u00f3n en cap\u00edtulos",
+                    "Puede incluir otros g\u00e9neros textuales"
+                  ]
+                },
+                {
+                  "titulo": "Cuento",
+                  "items": [
+                    "Extensi\u00f3n breve",
+                    "Pocos personajes",
+                    "Conflicto \u00fanico y central",
+                    "Espacio y tiempo limitados",
+                    "Sin divisiones o muy pocas",
+                    "Unidad de efecto y acci\u00f3n concentrada"
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "En \u2018Avisale a mi mam\u00e1\u2019 conviven personajes como Teo, Mora, Walter y Saba, con conflictos que van desde la monograf\u00eda escolar hasta la memoria de la dictadura.",
+              "explicacion": "Esta multiplicidad de elementos es posible gracias a la extensi\u00f3n propia de la novela."
+            }
+          ]
+        },
+        {
+          "id": "registros-linguisticos",
+          "titulo": "Registros ling\u00fc\u00edsticos",
+          "icono": "\uD83D\uDDE3\uFE0F",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00bfQu\u00e9 son los registros?",
+              "texto": "Son las variedades del lenguaje que usamos seg\u00fan la situaci\u00f3n comunicativa: con qui\u00e9n hablamos, d\u00f3nde, con qu\u00e9 prop\u00f3sito.",
+              "color": "verde"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\uD83C\uDFDB\uFE0F", "texto": "FORMAL vs INFORMAL: seg\u00fan el grado de cercan\u00eda entre los interlocutores." },
+                { "icono": "\uD83D\uDCD8", "texto": "ELABORADO vs ESPONT\u00c1NEO: seg\u00fan la planificaci\u00f3n del discurso." },
+                { "icono": "\u2705", "texto": "CON NORMATIVA vs SIN NORMATIVA: seg\u00fan el respeto de las reglas gramaticales y ortogr\u00e1ficas." }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "En \u2018Avisale a mi mam\u00e1\u2019 se observan distintos registros: los chats informales entre Teo y sus amigos, las respuestas formales de Saba, el trabajo monogr\u00e1fico de Teo con registro formal y elaborado."
+            }
+          ]
+        },
+        {
+          "id": "ciencia-ficcion",
+          "titulo": "La ciencia ficci\u00f3n en la literatura",
+          "icono": "\uD83E\uDEA5",
+          "color": "violeta",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "La garant\u00eda cient\u00edfica",
+              "texto": "Seg\u00fan Daniel Link, la ciencia ficci\u00f3n se sostiene en un \u2018motivo cient\u00edfico\u2019: un elemento basado en la ciencia o la tecnolog\u00eda que resulta necesario para que la historia funcione.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "En \u2018Avisale a mi mam\u00e1\u2019, ese motivo cient\u00edfico es la inteligencia artificial Saba, que comienza a \u2018infiltrarse\u2019 con voces del pasado. Fuera del universo literario, es imposible que una IA reciba mensajes de v\u00edctimas de la dictadura, pero dentro de la ficci\u00f3n ese elemento es aceptado."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Saba no es solo una herramienta: es el canal por el que el pasado irrumpe en el presente.",
+              "explicacion": "El motivo cient\u00edfico (la IA) no es un adorno: es el mecanismo central que permite la comunicaci\u00f3n entre Teo y Walter."
+            }
+          ]
+        },
+        {
+          "id": "teoria-dos-demonios",
+          "titulo": "La teor\u00eda de los dos demonios",
+          "icono": "\u2622\uFE0F",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00bfEn qu\u00e9 consiste?",
+              "texto": "Es una narrativa que sostiene que durante la dictadura argentina hubo dos bandos igualmente responsables: el Estado terrorista y las organizaciones guerrilleras, como si fueran \u2018dos demonios\u2019 equivalentes.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Esta teor\u00eda fue promovida durante el gobierno de Ra\u00fal Alfons\u00edn y ha sido criticada por equiparar la violencia del Estado (que secuestr\u00f3, tortur\u00f3 y desapareci\u00f3 personas de forma sistem\u00e1tica) con la de los grupos insurgentes."
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u274C", "texto": "Oculta que el terrorismo de Estado fue un plan sistem\u00e1tico de desaparici\u00f3n forzada." },
+                { "icono": "\u274C", "texto": "Desv\u00eda la atenci\u00f3n de la responsabilidad del Estado como perpetrador de cr\u00edmenes de lesa humanidad." },
+                { "icono": "\u274C", "texto": "Inhabilita la discusi\u00f3n sobre las causas estructurales del golpe de Estado." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "En la novela, Teo y Mora discuten esta teor\u00eda mientras investigan para su monograf\u00eda, confrontando versiones encontradas sobre lo ocurrido.",
+              "explicacion": "La novela invita a cuestionar los relatos simplificadores y a entender la complejidad del pasado."
+            }
+          ]
+        },
+        {
+          "id": "memoria-personal-colectiva",
+          "titulo": "Memoria personal y memoria colectiva",
+          "icono": "\uD83D\uDDFA\uFE0F",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Memoria personal",
+                  "items": [
+                    "Recuerdos individuales de una persona",
+                    "Experiencias vividas en primera persona",
+                    "Subjetiva y emocional",
+                    "Ej: Walter recuerda su secuestro y el encierro"
+                  ]
+                },
+                {
+                  "titulo": "Memoria colectiva",
+                  "items": [
+                    "Construcci\u00f3n social del pasado",
+                    "Transmitida por generaciones, instituciones y testimonios",
+                    "Busca verdad y justicia",
+                    "Ej: el testimonio de Walter alimenta la memoria de la sociedad sobre la dictadura"
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "La novela muestra c\u00f3mo la memoria personal de Walter se convierte en memoria colectiva cuando Teo la recibe, la escribe y la comparte. Indagar sobre el pasado no es solo un ejercicio acad\u00e9mico: es un acto \u00e9tico que ayuda a construir una sociedad m\u00e1s justa."
+            }
+          ]
+        },
+        {
+          "id": "narrador-novela",
+          "titulo": "El narrador en la novela",
+          "icono": "\uD83D\uDDE3\uFE0F",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "En \u2018Avisale a mi mam\u00e1\u2019 conviven distintas voces narrativas:"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\uD83D\uDD35", "texto": "NARRADOR OMNISCIENTE (cap\u00edtulos 1 al 11): conoce los pensamientos y sentimientos de todos los personajes. Habla en 3\u00aa persona." },
+                { "icono": "\uD83D\uDFE2", "texto": "NARRADOR PROTAGONISTA: cuando la voz de Teo toma el control, relatando en 1\u00aa persona sus experiencias con la IA." },
+                { "icono": "\uD83D\uDFE1", "texto": "NARRADOR TESTIGO: cuando los mensajes de Walter se filtran como una voz que \u2018cuenta\u2019 lo que vivi\u00f3, aunque no sea el narrador principal." }
+              ]
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Tipos de narrador",
+              "texto": "Omnisciente: lo sabe todo (3\u00aa persona). Protagonista: cuenta su propia historia (1\u00aa persona). Testigo: cuenta lo que vio u oy\u00f3 (1\u00aa o 3\u00aa persona).",
+              "color": "verde"
+            }
+          ]
+        },
+        {
+          "id": "recursos-narracion-slide",
+          "titulo": "Recursos de la narraci\u00f3n",
+          "icono": "\uD83D\uDEE0\uFE0F",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\uD83D\uDD0D", "texto": "DESCRIPCIONES: caracterizan personajes, espacios y objetos. Ej: la descripci\u00f3n de la habitaci\u00f3n de Teo." },
+                { "icono": "\uD83D\uDCAC", "texto": "DI\u00c1LOGOS: reproducen las palabras de los personajes. Ej: las conversaciones entre Teo y Mora por chat." },
+                { "icono": "\uD83D\uDD17", "texto": "CONECTORES TEMPORALES: marcan la sucesi\u00f3n de hechos. Ej: \u2018m\u00e1s tarde\u2019, \u2018al d\u00eda siguiente\u2019, \u2018a la ma\u00f1ana siguiente\u2019." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "\u2018A la ma\u00f1ana siguiente, Teo abri\u00f3 la aplicaci\u00f3n y encontr\u00f3 un mensaje que no esperaba.\u2019",
+              "explicacion": "Aqu\u00ed se combinan un conector temporal (\u2018a la ma\u00f1ana siguiente\u2019) con la narraci\u00f3n de una acci\u00f3n, dos recursos t\u00edpicos del texto narrativo."
+            }
+          ]
+        },
+        {
+          "id": "inclusion-generos",
+          "titulo": "Inclusi\u00f3n de otros g\u00e9neros",
+          "icono": "\uD83D\uDCD1",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "Una caracter\u00edstica distintiva de la novela es su capacidad de incorporar otros g\u00e9neros textuales dentro de la narraci\u00f3n principal. En \u2018Avisale a mi mam\u00e1\u2019 encontramos:"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\uD83D\uDCF1", "texto": "Chats y mensajes de texto entre los personajes." },
+                { "icono": "\uD83E\uDD16", "texto": "Respuestas generadas por inteligencia artificial (Saba)." },
+                { "icono": "\uD83D\uDCD8", "texto": "Fragmentos de la monograf\u00eda que escribe Teo." },
+                { "icono": "\uD83D\uDCC4", "texto": "Referencias al informe \u2018Nunca m\u00e1s\u2019." },
+                { "icono": "\uD83C\uDFAC", "texto": "Di\u00e1logos con estructura teatral." }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Esta diversi\u00f3n de registros y formatos enriquece la narraci\u00f3n y refleja la multiplicidad de voces que conviven en la sociedad."
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        { "pregunta": "\u00bfQu\u00e9 es la novela como g\u00e9nero literario?", "respuesta": "Una narraci\u00f3n de hechos ficticios escrita en prosa, de gran extensi\u00f3n, con m\u00faltiples personajes, conflictos, tiempos y espacios." },
+        { "pregunta": "\u00bfCu\u00e1les son las principales diferencias entre novela y cuento?", "respuesta": "La novela es m\u00e1s extensa, tiene m\u00e1s personajes y conflictos, m\u00faltiples espacios y tiempos, y se divide en cap\u00edtulos. El cuento es breve, con pocos personajes, un conflicto central y unidad de efecto." },
+        { "pregunta": "\u00bfEn qu\u00e9 consisten los registros ling\u00fc\u00edsticos?", "respuesta": "Son variedades del lenguaje seg\u00fan la situaci\u00f3n comunicativa: formal/informal, elaborado/espont\u00e1neo, con/sin normativa gr\u00e1fica." },
+        { "pregunta": "\u00bfQu\u00e9 es la \u2018garant\u00eda cient\u00edfica\u2019 en la ciencia ficci\u00f3n?", "respuesta": "Es el elemento basado en la ciencia o la tecnolog\u00eda que sostiene la historia. En \u2018Avisale a mi mam\u00e1\u2019, la IA Saba es ese motivo cient\u00edfico." },
+        { "pregunta": "\u00bfQu\u00e9 sostiene la teor\u00eda de los dos demonios?", "respuesta": "Que durante la dictadura hubo dos bandos igualmente responsables: el Estado y la guerrilla. Es una simplificaci\u00f3n criticada por equiparar violencias asim\u00e9tricas." },
+        { "pregunta": "\u00bfCu\u00e1l es la diferencia entre memoria personal y memoria colectiva?", "respuesta": "La memoria personal son los recuerdos individuales; la memoria colectiva es la construcci\u00f3n social del pasado transmitida por generaciones, testimonios e instituciones." },
+        { "pregunta": "\u00bfQu\u00e9 tipo de narrador predomina en los primeros once cap\u00edtulos de la novela?", "respuesta": "Narrador omnisciente: conoce los pensamientos y sentimientos de todos los personajes y narra en 3\u00aa persona." },
+        { "pregunta": "\u00bfQu\u00e9 recursos propios de la narraci\u00f3n aparecen en la novela?", "respuesta": "Descripciones, di\u00e1logos, conectores temporales y la inclusi\u00f3n de otros g\u00e9neros textuales (chats, monograf\u00eda, IA)." }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": [
+        "act1_titulo",
+        "act2_ficcion",
+        "act3a_prosa",
+        "act3b_marco",
+        "act3c_narrador",
+        "act3d_recursos",
+        "act4_caracteristicas",
+        "act5a_registro",
+        "act5b_registro",
+        "act5c_registro",
+        "act5d_registro",
+        "act6_personajes",
+        "act9_ciencia_ficcion",
+        "act10a_dialogo",
+        "act11a_recuerdo",
+        "tarea3_dialogo"
+      ]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": [
+        "act7a_teo_mora",
+        "act7b_teo_walter",
+        "act7c_infiltracion",
+        "act8_vf",
+        "act10b_demonios",
+        "act11b_memoria",
+        "tarea1_vf",
+        "tarea2_citas",
+        "tarea4_leyes",
+        "tarea5_cels"
+      ],
+      "duracion_min": 25
+    },
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Confundir novela con cuento",
+          "detalle": "La novela y el cuento son ambos textos narrativos, pero se diferencian por su extensi\u00f3n, la cantidad de personajes y conflictos, la diversidad de tiempos y espacios, y la posibilidad de incluir otros g\u00e9neros. Mientras que el cuento busca un efecto \u00fanico y concentrado, la novela desarrolla tramas m\u00faltiples y complejas. En \u2018Avisale a mi mam\u00e1\u2019, la presencia de varios personajes (Teo, Mora, Walter, Saba, la familia), conflictos (la monograf\u00eda, la fiesta de 15, la infiltraci\u00f3n de la IA, la memoria) y la mezcla de formatos (chats, respuestas de IA, narraci\u00f3n tradicional) solo es posible en una novela."
+        },
+        {
+          "titulo": "No distinguir los registros ling\u00fc\u00edsticos",
+          "detalle": "Los registros ling\u00fc\u00edsticos var\u00edan seg\u00fan la situaci\u00f3n comunicativa. Un error frecuente es no distinguir entre el registro formal (elaborado, con normativa) y el informal (espont\u00e1neo, sin normativa). En la novela, los chats entre Teo y sus amigos (con errores ortogr\u00e1ficos, t\u00e9rminos coloquiales como \u2018guita\u2019) contrastan con el trabajo final de Teo, que utiliza un registro formal y normativamente correcto. La clave es atender al contexto, los interlocutores y el prop\u00f3sito del mensaje."
+        },
+        {
+          "titulo": "Confundir ciencia ficci\u00f3n con otros g\u00e9neros",
+          "detalle": "La ciencia ficci\u00f3n no es cualquier historia que incluya elementos irreales. Se caracteriza por un \u2018motivo cient\u00edfico\u2019 que funciona como eje de la trama. En \u2018Avisale a mi mam\u00e1\u2019, la inteligencia artificial Saba no es un adorno ni un elemento fant\u00e1stico: es el mecanismo que permite la comunicaci\u00f3n con el pasado. Sin la IA, la historia no podr\u00eda suceder. No se trata de magia ni de fantas\u00eda, sino de una especulaci\u00f3n sobre la tecnolog\u00eda y sus l\u00edmites."
+        },
+        {
+          "titulo": "Malinterpretar la teor\u00eda de los dos demonios",
+          "detalle": "Un error com\u00fan es pensar que la teor\u00eda de los dos demonios es una descripci\u00f3n neutral de lo ocurrido durante la dictadura. En realidad, es una construcci\u00f3n discursiva que equipara la violencia del Estado terrorista con la de los grupos guerrilleros, ocultando la asimetr\u00eda entre ambos bandos: el Estado contaba con todo el poder institucional, militar y econ\u00f3mico, mientras que la resistencia armada era minoritaria. Adem\u00e1s, esta teor\u00eda desv\u00eda la atenci\u00f3n de la responsabilidad del Estado en los cr\u00edmenes de lesa humanidad. La novela invita a cuestionar esta narrativa y a entender la complejidad del pasado."
+        }
+      ]
+    }
+  }
+}

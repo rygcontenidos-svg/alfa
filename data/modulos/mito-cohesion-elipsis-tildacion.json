@@ -1,0 +1,466 @@
+{
+  "id": "mito-cohesion-elipsis-tildacion",
+  "materia": "lengua",
+  "titulo": "Mito. Cohesión: la elipsis. Tildación",
+  "descripcion": "El mito como género. Recursos de cohesión, en particular la elipsis. Repaso general de tildación.",
+  "textos_ids": ["orfeo-y-euridice"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "vf_relacion_orfeo",
+      "tipo": "verdadero_falso",
+      "consigna": "Indicá V (verdadero) o F (falso) según la relación entre Orfeo y Eurídice en el mito.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "i1", "afirmacion": "Están enamorados y quieren casarse.", "respuesta": true },
+        { "id": "i2", "afirmacion": "Se divierten juntos, pero cada uno tiene sus propias actividades.", "respuesta": false, "correccion": "Eran incapaces de pasar un momento separados; su amor era tan intenso que no podían vivir el uno sin el otro." },
+        { "id": "i3", "afirmacion": "Su amor es tan intenso que no pueden vivir separados.", "respuesta": true },
+        { "id": "i4", "afirmacion": "Orfeo se enamora de Eurídice porque la ninfa tiene una hermosa voz.", "respuesta": false, "correccion": "Eurídice se siente atraída por la voz de Orfeo, no al revés. Orfeo se fija en ella por su belleza como ninfa del bosque." }
+      ]
+    },
+    {
+      "id": "caracteristicas_mito",
+      "tipo": "tipo_textual",
+      "consigna": "Completá el siguiente cuadro con las características del mito como tipo de relato.",
+      "filas": [
+        { "caracteristica": "Carácter", "ejemplo": "Sagrado / tradicional / explica el origen de algo" },
+        { "caracteristica": "Origen / autoría", "ejemplo": "Anónimo, de transmisión oral, colectivo" },
+        { "caracteristica": "Finalidad", "ejemplo": "Explicar fenómenos de la naturaleza o aspectos de la condición humana; dar una enseñanza" },
+        { "caracteristica": "Personajes", "ejemplo": "Dioses, semidioses, héroes, seres sobrenaturales" },
+        { "caracteristica": "Tiempo", "ejemplo": "Tiempo remoto, originario, anterior a la historia escrita" },
+        { "caracteristica": "Lugar", "ejemplo": "Espacios simbólicos o sagrados (el Inframundo, el Olimpo, el mundo terrenal)" }
+      ]
+    },
+    {
+      "id": "coherencia_cohesion_orfeo",
+      "tipo": "coherencia_cohesion",
+      "consigna": "Observá los siguientes fragmentos de «Orfeo y Eurídice» e identificá qué recurso de cohesión se utiliza en cada caso.",
+      "fragmento": "Orfeo era conocido por ser un hábil músico. Se dice que Apolo era su padre, de quien heredó ese inmenso talento en la música. Cuando se le dio por primera vez una lira de pequeño, la dominó a la perfección de inmediato.",
+      "recursos_opciones": ["Elipsis", "Referencia pronominal", "Repetición", "Sinónimo", "Conector"],
+      "items": [
+        { "id": "coh1", "fragmento_destacado": "de quien heredó ese inmenso talento", "recurso_correcto": "Referencia pronominal" },
+        { "id": "coh2", "fragmento_destacado": "la dominó a la perfección de inmediato", "recurso_correcto": "Elipsis" },
+        { "id": "coh3", "fragmento_destacado": "Se dice que Apolo era su padre", "recurso_correcto": "Referencia pronominal" }
+      ]
+    },
+    {
+      "id": "elipsis_observar",
+      "tipo": "parafasis_sinonimos_elision",
+      "consigna": "Observá la siguiente frase extraída del primer párrafo: «Cuando se le dio por primera vez una lira de pequeño, la dominó a la perfección de inmediato.» Respondé las preguntas.",
+      "items": [
+        { "id": "el1", "subtipo": "elision", "pregunta": "¿Quién dominó la lira?", "respuesta": "Orfeo" },
+        { "id": "el2", "subtipo": "elision", "pregunta": "¿Por qué creés que se omitió su nombre?", "respuesta": "Porque ya se mencionó «Orfeo» al inicio de la oración anterior y se sobreentiende por contexto quién realiza la acción." }
+      ]
+    },
+    {
+      "id": "elipsis_completar",
+      "tipo": "parafasis_sinonimos_elision",
+      "consigna": "Completá con el elemento que se da por sobreentendido en cada caso.",
+      "items": [
+        { "id": "el3", "subtipo": "elision", "pregunta": "En «Sin embargo, advirtió a Orfeo que por ningún motivo debía mirar atrás» (párrafo 8), ¿quién advirtió a Orfeo?", "respuesta": "Hades" },
+        { "id": "el4", "subtipo": "elision", "pregunta": "En «esta vez le fue denegada la entrada, las puertas se encontraban cerradas» (párrafo 10), ¿qué puertas se encontraban cerradas?", "respuesta": "Las puertas del Inframundo" }
+      ]
+    },
+    {
+      "id": "elipsis_reescribir",
+      "tipo": "reescritura_normativa",
+      "consigna": "Seleccioná la opción que aplica correctamente la elipsis al siguiente texto, suprimiendo elementos sobreentendidos o redundantes.",
+      "versiones": [
+        { "id": "a", "texto": "Eurídice es un personaje femenino de la mitología griega. Es conocida principalmente como la esposa de Orfeo. En la mitología griega, este es el hijo de Apolo. Su imagen de naturaleza vivaz se ha difundido ampliamente a través de los clásicos literarios. La historia de Orfeo y Eurídice aparece en Metamorphoses de Ovidio, y su trama central presenta el descenso de Orfeo al Inframundo en busca de su esposa. Esta historia, que trabaja el conflicto dramático del pasaje entre la vida y la muerte, se convirtió en un arquetipo clásico en la literatura griega para explorar el amor y el destino." },
+        { "id": "b", "texto": "Eurídice es un personaje femenino de la mitología griega. Eurídice es conocida principalmente como la esposa de Orfeo. Orfeo es el hijo de Apolo. Su imagen de naturaleza vivaz se ha difundido ampliamente a través de los clásicos literarios. La historia de Orfeo y Eurídice aparece en Metamorphoses de Ovidio, y su trama central presenta el descenso de Orfeo al Inframundo en busca de su esposa Eurídice. Esta historia de la mitología griega, que trabaja el conflicto dramático del pasaje entre la vida y la muerte, se convirtió en un arquetipo clásico en la literatura griega para explorar el amor y el destino." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "tildacion_cuadro",
+      "tipo": "tildacion_silabas",
+      "consigna": "Completá el siguiente cuadro con la separación en sílabas, la clase de palabra según la acentuación y la justificación de por qué lleva o no lleva tilde.",
+      "filas": [
+        {
+          "palabra": "resistir",
+          "separacion": "re-sis-TIR",
+          "clase": "aguda",
+          "lleva_tilde": false,
+          "porque": "termina en R, no en N, S ni vocal"
+        },
+        {
+          "palabra": "música",
+          "separacion": "MÚ-si-ca",
+          "clase": "esdrújula",
+          "lleva_tilde": true,
+          "porque": "todas las palabras esdrújulas llevan tilde"
+        },
+        {
+          "palabra": "inquietante",
+          "separacion": "in-quie-TAN-te",
+          "clase": "grave",
+          "lleva_tilde": false,
+          "porque": "termina en vocal (E)"
+        },
+        {
+          "palabra": "corazón",
+          "separacion": "co-ra-ZÓN",
+          "clase": "aguda",
+          "lleva_tilde": true,
+          "porque": "termina en N"
+        },
+        {
+          "palabra": "hábil",
+          "separacion": "HÁ-bil",
+          "clase": "grave",
+          "lleva_tilde": true,
+          "porque": "termina en L, no en N, S ni vocal"
+        }
+      ]
+    },
+    {
+      "id": "sim_vf_mito_caracteristicas",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcá V (verdadero) o F (falso) según las características del mito y su aplicación al relato de «Orfeo y Eurídice».",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "s1", "afirmacion": "El mito es un relato anónimo y de transmisión oral.", "respuesta": true },
+        { "id": "s2", "afirmacion": "Los personajes del mito siempre son seres humanos comunes.", "respuesta": false, "correccion": "Los personajes del mito suelen ser dioses, semidioses, ninfas y héroes, como Orfeo (hijo de Apolo), Eurídice (ninfa), Hades y Perséfone." },
+        { "id": "s3", "afirmacion": "Eurídice muere porque es picada por una víbora al pisar un nido de serpientes.", "respuesta": true },
+        { "id": "s4", "afirmacion": "Orfeo logra sacar a Eurídice del Inframundo porque cumple la condición de no mirar atrás.", "respuesta": false, "correccion": "Orfeo no cumple la condición: se voltea antes de que Eurídice salga a la luz, por lo que ella regresa al Inframundo para siempre." },
+        { "id": "s5", "afirmacion": "El mito busca explicar fenómenos naturales o aspectos de la condición humana, como el amor, la pérdida y la muerte.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "sim_elemento_elidido",
+      "tipo": "parafasis_sinonimos_elision",
+      "consigna": "Leé la siguiente oración del mito «Atenea y Aracne»: «Después la golpeó en la frente.» Respondé las preguntas.",
+      "items": [
+        { "id": "ee1", "subtipo": "elision", "pregunta": "¿Cuál es el elemento elidido (omitido) en esta oración?", "respuesta": "Atenea (ella) — se omite el sujeto «Atenea» porque se sobreentiende por contexto." },
+        { "id": "ee2", "subtipo": "elision", "pregunta": "¿A quién golpeó?", "respuesta": "Aracne — el pronombre «la» se refiere a Aracne, que ya fue mencionada antes." }
+      ]
+    },
+    {
+      "id": "sim_tildacion_reglas",
+      "tipo": "tildacion_silabas",
+      "consigna": "Completá el cuadro de tildación con las siguientes palabras extraídas de otro fragmento de un mito.",
+      "filas": [
+        {
+          "palabra": "héroe",
+          "separacion": "HÉ-ro-e",
+          "clase": "esdrújula",
+          "lleva_tilde": true,
+          "porque": "todas las palabras esdrújulas llevan tilde"
+        },
+        {
+          "palabra": "mortal",
+          "separacion": "mor-TAL",
+          "clase": "aguda",
+          "lleva_tilde": false,
+          "porque": "termina en L, no en N, S ni vocal"
+        },
+        {
+          "palabra": "árbol",
+          "separacion": "ÁR-bol",
+          "clase": "grave",
+          "lleva_tilde": true,
+          "porque": "termina en L, no en N, S ni vocal"
+        },
+        {
+          "palabra": "cantar",
+          "separacion": "can-TAR",
+          "clase": "aguda",
+          "lleva_tilde": false,
+          "porque": "termina en R, no en N, S ni vocal"
+        },
+        {
+          "palabra": "trágico",
+          "separacion": "TRÁ-gi-co",
+          "clase": "esdrújula",
+          "lleva_tilde": true,
+          "porque": "todas las palabras esdrújulas llevan tilde"
+        }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["orfeo-y-euridice"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "que-es-mito",
+          "titulo": "¿Qué es el mito?",
+          "icono": "🏛️",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Definición",
+              "texto": "El mito es un relato tradicional, anónimo y de transmisión oral que narra historias protagonizadas por dioses, semidioses y héroes, con el fin de explicar el origen del mundo, fenómenos naturales o aspectos de la condición humana.",
+              "color": "azul"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🕵️", "texto": "Anónimo: no tiene un autor conocido, pertenece a la tradición colectiva." },
+                { "icono": "🗣️", "texto": "Transmisión oral: se transmitía de generación en generación mediante la palabra hablada." },
+                { "icono": "🌍", "texto": "Explicación del mundo: busca dar respuesta a preguntas fundamentales sobre el origen y el sentido de la realidad." },
+                { "icono": "⚡", "texto": "Personajes divinos o heroicos: dioses (Hades, Apolo), semidioses (Orfeo), ninfas (Eurídice), seres sobrenaturales (Cerbero)." },
+                { "icono": "⏳", "texto": "Tiempo remoto: ocurre en un pasado originario, anterior a la historia escrita." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mito-genero-narrativo",
+          "titulo": "El mito como género narrativo",
+          "icono": "📖",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "El mito pertenece al género narrativo: cuenta una historia con personajes, un tiempo y un espacio determinados, organizada en una secuencia de acontecimientos."
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🎭", "texto": "Narrador: suele ser omnisciente, en tercera persona, que conoce los pensamientos y sentimientos de los personajes." },
+                { "icono": "👥", "texto": "Personajes: dioses, semidioses, héroes, ninfas, mortales y criaturas fantásticas." },
+                { "icono": "⏰", "texto": "Tiempo: pasado remoto e indeterminado («Érase una vez…»)." },
+                { "icono": "🌌", "texto": "Espacio: lugares simbólicos (el Inframundo, el Olimpo, el bosque como espacio natural)." },
+                { "icono": "📜", "texto": "Trama: suele incluir un conflicto, una prueba o desafío, y una enseñanza final." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "En el mito de «Orfeo y Eurídice», el narrador omnisciente cuenta la historia de Orfeo, hijo de Apolo, que desciende al Inframundo para recuperar a su amada.",
+              "explicacion": "Vemos todos los elementos narrativos: narrador en tercera persona, personajes divinos y mortales, tiempo remoto, espacio simbólico (bosque, Inframundo) y un conflicto trágico."
+            }
+          ]
+        },
+        {
+          "id": "cohesion-textual",
+          "titulo": "Cohesión textual",
+          "icono": "🔗",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Definición",
+              "texto": "La cohesión es la propiedad textual que garantiza que las oraciones y párrafos de un texto estén conectados entre sí mediante recursos lingüísticos.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Mientras que la coherencia es global (el texto trata un mismo tema con unidad de sentido), la cohesión es local (las partes del texto se vinculan a través de mecanismos específicos)."
+            },
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Coherencia 🧠",
+                  "items": [
+                    "Propiedad GLOBAL del texto",
+                    "Los enunciados se organizan en torno a un mismo tema",
+                    "El texto tiene sentido unitario y lógico"
+                  ]
+                },
+                {
+                  "titulo": "Cohesión 📎",
+                  "items": [
+                    "Propiedad LOCAL del texto",
+                    "Las oraciones se conectan con recursos lingüísticos",
+                    "Incluye pronombres, elipsis, sinónimos, conectores"
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🔄", "texto": "Referencia pronominal: «Orfeo… su padre… de quien heredó…»" },
+                { "icono": "✂️", "texto": "Elipsis: omisión de elementos sobreentendidos." },
+                { "icono": "🔁", "texto": "Repetición controlada: palabras clave que reaparecen." },
+                { "icono": "🔀", "texto": "Sinónimos y expresiones equivalentes." },
+                { "icono": "🔌", "texto": "Conectores: sin embargo, entonces, después, porque." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "elipsis-recurso",
+          "titulo": "La elipsis como recurso cohesivo",
+          "icono": "✂️",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Definición",
+              "texto": "La elipsis es la omisión de una palabra o construcción que ya fue mencionada y que se recupera por contexto. Evita la repetición innecesaria y aporta fluidez al texto.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Gracias a la elipsis, no es necesario repetir el sujeto, el verbo u otro elemento cada vez que aparece. El lector puede reponer la información omitida porque está presente en el contexto lingüístico o situacional."
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🎯", "texto": "Se omite lo que ya se sabe o se sobreentiende." },
+                { "icono": "📝", "texto": "Hace que el texto sea más ágil y menos redundante." },
+                { "icono": "🔍", "texto": "El contexto permite recuperar la información omitida." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ejemplos-elipsis",
+          "titulo": "Ejemplos de elipsis",
+          "icono": "💡",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "ejemplo",
+              "cita": "«Cuando se le dio por primera vez una lira de pequeño, la dominó a la perfección de inmediato.»",
+              "explicacion": "El sujeto «Orfeo» está elidido en el verbo «dominó». Se sobreentiende porque ya se mencionó al inicio del párrafo."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "«Sin embargo, advirtió a Orfeo que por ningún motivo debía mirar atrás…»",
+              "explicacion": "El sujeto «Hades» está elidido en el verbo «advirtió». Se recupera por el contexto de la oración anterior donde Hades es quien habla."
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "En ambos casos, el texto no pierde claridad: el lector puede identificar quién realiza la acción gracias a la información previa."
+            }
+          ]
+        },
+        {
+          "id": "acentuacion-tildacion",
+          "titulo": "Acentuación y tildación",
+          "icono": "🔤",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Diferencia clave",
+              "texto": "El acento es la mayor intensidad con que se pronuncia una sílaba (sílaba tónica). La tilde es la marca gráfica (´) que se coloca sobre la vocal tónica en determinados casos según las reglas de acentuación.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Todas las palabras tienen acento (una sílaba se pronuncia con más fuerza), pero no todas llevan tilde. La tilde es la representación escrita del acento en casos específicos."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "resistir → acento en la última sílaba (-tir), pero NO lleva tilde.",
+              "explicacion": "La palabra tiene acento prosódico (se pronuncia con fuerza en la última sílaba) pero no lleva tilde porque es aguda y termina en R (no en N, S ni vocal)."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "música → acento en la antepenúltima sílaba (MÚ-), SÍ lleva tilde.",
+              "explicacion": "Es esdrújula y todas las esdrújulas llevan tilde obligatoriamente."
+            }
+          ]
+        },
+        {
+          "id": "clasificacion-palabras",
+          "titulo": "Clasificación de palabras según acentuación",
+          "icono": "📊",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "Según la ubicación de la sílaba tónica, las palabras se clasifican en tres grupos:"
+            },
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Agudas 🏃",
+                  "items": [
+                    "Sílaba tónica: ÚLTIMA",
+                    "Ej: resistir, corazón, cantar, moral",
+                    "Llevan tilde si terminan en N, S o vocal"
+                  ]
+                },
+                {
+                  "titulo": "Graves o llanas 🚶",
+                  "items": [
+                    "Sílaba tónica: PENÚLTIMA",
+                    "Ej: inquietante, hábil, árbol, triste",
+                    "Llevan tilde si NO terminan en N, S o vocal"
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Esdrújulas ⚡",
+                  "items": [
+                    "Sílaba tónica: ANTEPENÚLTIMA",
+                    "Ej: música, héroe, trágico, página",
+                    "Siempre llevan tilde"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reglas-tildacion",
+          "titulo": "Reglas generales de tildación",
+          "icono": "📏",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Regla general",
+              "texto": "La tilde se coloca sobre la vocal tónica según la clase de palabra y su terminación.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🔺", "texto": "Agudas: llevan tilde si terminan en N, S o vocal. Ej: corazón, además, café." },
+                { "icono": "🔻", "texto": "Graves: llevan tilde si NO terminan en N, S ni vocal. Ej: hábil, árbol, lápiz." },
+                { "icono": "✳️", "texto": "Esdrújulas: llevan tilde siempre. Ej: música, trágico, héroe." },
+                { "icono": "⚠️", "texto": "Excepción: cuando se rompe el diptongo (hiato), se tilde la vocal débil. Ej: día, raíz, baúl." }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Recordá: la correcta tildación es fundamental para la escritura formal. Una tilde mal colocada puede cambiar el significado de una palabra (ej: público / publicó / publico)."
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        { "pregunta": "¿Qué es un mito?", "respuesta": "Es un relato tradicional, anónimo y de transmisión oral que explica el origen del mundo, fenómenos naturales o aspectos de la condición humana, protagonizado por dioses, semidioses o héroes." },
+        { "pregunta": "¿Qué características principales tiene el mito?", "respuesta": "Es anónimo, de transmisión oral, tiene carácter sagrado, sus personajes son divinos o heroicos, ocurre en un tiempo remoto y busca explicar o enseñar algo." },
+        { "pregunta": "¿Qué es la cohesión textual?", "respuesta": "Es la propiedad local del texto que conecta las oraciones y párrafos mediante recursos lingüísticos como pronombres, elipsis, sinónimos, repeticiones y conectores." },
+        { "pregunta": "Diferencia entre coherencia y cohesión", "respuesta": "La coherencia es global: el texto tiene unidad temática y sentido lógico. La cohesión es local: las partes del texto se vinculan con recursos lingüísticos." },
+        { "pregunta": "¿Qué es la elipsis?", "respuesta": "Es la omisión de una palabra o construcción que ya fue mencionada y que se recupera por contexto. Evita repeticiones y hace el texto más fluido." },
+        { "pregunta": "¿Cuál es la diferencia entre acento y tilde?", "respuesta": "El acento es la mayor intensidad con que se pronuncia una sílaba (sílaba tónica). La tilde es la marca gráfica (´) que se coloca sobre la vocal tónica según las reglas de acentuación." },
+        { "pregunta": "¿Cómo se clasifican las palabras según su acentuación?", "respuesta": "Agudas: sílaba tónica en la última sílaba. Graves o llanas: en la penúltima. Esdrújulas: en la antepenúltima." },
+        { "pregunta": "¿Cuándo llevan tilde las palabras agudas y las graves?", "respuesta": "Las agudas llevan tilde si terminan en N, S o vocal. Las graves llevan tilde si NO terminan en N, S ni vocal. Las esdrújulas siempre llevan tilde." }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": ["vf_relacion_orfeo", "caracteristicas_mito", "coherencia_cohesion_orfeo", "elipsis_observar", "elipsis_completar", "elipsis_reescribir", "tildacion_cuadro"]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": ["sim_vf_mito_caracteristicas", "sim_elemento_elidido", "sim_tildacion_reglas"],
+      "duracion_min": 20
+    },
+    "mejorar": {
+      "explicaciones": [
+        { "titulo": "Mito vs. leyenda", "detalle": "Error frecuente: confundir mito con leyenda. El mito tiene personajes divinos o heroicos y explica fenómenos universales (origen del mundo, la muerte, el amor). La leyenda se basa en hechos históricos o lugares reales, con personajes humanos, y suele tener un fondo de verdad transformado por la tradición oral." },
+        { "titulo": "Coherencia vs. cohesión", "detalle": "La coherencia es la propiedad global: el texto trata un mismo tema y tiene sentido unitario. La cohesión es local: los recursos lingüísticos conectan las oraciones. Un texto puede ser coherente pero poco cohesivo (o viceversa). Ambos son necesarios para que un conjunto de oraciones sea considerado un texto." },
+        { "titulo": "Acento prosódico vs. tilde ortográfica", "detalle": "Todas las palabras tienen acento prosódico (una sílaba se pronuncia con más intensidad). Pero solo algunas llevan tilde ortográfica, según las reglas de tildación. No confundir: «corazón» tiene acento y tilde; «resistir» tiene acento pero no tilde." },
+        { "titulo": "Tildación de agudas y graves", "detalle": "Regla clave: las agudas llevan tilde si terminan en N, S o VOCAL. Las graves llevan tilde justo en el caso contrario: si NO terminan en N, S ni VOCAL. Error común: poner tilde a «tigre» (grave que termina en vocal, no lleva) o no ponérsela a «lápiz» (grave que termina en Z, sí lleva)." }
+      ]
+    }
+  }
+}

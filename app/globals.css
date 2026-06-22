@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+@font-face {
+  font-family: "Etna";
+  src: url("/fonts/etna.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-azul: #1e3a8a;
+  --color-azul-claro: #3b5bdb;
+  --color-azul-fondo: #eef2ff;
+  --color-verde: #16a34a;
+  --color-verde-claro: #dcfce7;
+  --color-amarillo: #f59e0b;
+  --color-amarillo-claro: #fef3c7;
+  --color-naranja: #ea580c;
+  --color-naranja-claro: #fff7ed;
+  --color-rojo: #dc2626;
+  --color-rojo-claro: #fee2e2;
+  --color-violeta: #7c3aed;
+  --color-violeta-claro: #f5f3ff;
+  --color-grafito: #1f2937;
+  --color-gris: #6b7280;
+  --color-borde: #e5e7eb;
+
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, "Apple Color Emoji",
+    "Segoe UI Emoji", sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  color: var(--color-grafito);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}

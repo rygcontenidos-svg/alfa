@@ -1,0 +1,187 @@
+
+--- PAGINA 1 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 2 - 11 de abril de 2026
+Clase n° 2 - 11/4/2026 6
+Desigualdades. Traducción de enunciados. Representación de los n úmeros naturales en la
+recta numérica .
+L os problemas de la tarea correspondiente a la clase 2 son los que figuran a continuación.
+1. a) Sin resolver los cálculos, completá en cada línea de puntos con <, > o =.
+i. (95 + 1 7) . 24 ………… 24 . (95 – 1 7)
+ii. 31 . 48 – 31 . 29 ………… 31 . (48 – 2 9)
+iii. 58 367 + 56 . 11 ………… 58 367 + 71 . 19
+iv. 470 . 63 . 100 ………… 47 . 63 00 . 10
+v. 85 7 . 85 ………… 85 4 . 85 2
+vi. 23 9 : 23 ………… 23 5
+b) Escribí todos los números naturales n que cumplan lo que se indica en cada caso.
+i. (4 + 3) 2 < n < 9 . (8 – 2)
+ii. 64 ≤ 2 n < . 7
+2. Traducí al lenguaje simbólico las siguientes expresiones coloquiales:
+a ) El doble de siete incrementado en nueve.
+b) La diferencia entre el triple de diez y la mitad de cincuenta.
+c) La tercera parte del cuadrado de seis disminuido en cuatro.
+d) La suma entre el siguiente de b y la cuarta parte de doce.
+e) El doble de m aumentado en el anterior a once.
+f) El doble de: m aumentado en el anterior a once.
+3 . Completá la tabla con la expresión simbólica corr espondiente a las expresiones c oloquiales.
+Expresión coloquial Expresión simbólica
+El anterior a m .
+El triple del anterior a m .
+El siguiente del triple de m .
+El anterior a m aumentado en 5.
+El triple de: m disminuido en 2.
+4. Completá la tabla con la expresión coloquial correspondiente a las siguientes expresiones
+simbólicas.
+Expresión coloquial Expresión simbólica
+3 m – 2
+2 m + 5
+( m + 1) 2
+100
+
+--- PAGINA 2 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 2 - 11 de abril de 2026
+Clase n° 2 - 11/4/2026 7
+5 . Considerá que p y q representan números naturales y u ní con una flecha cada e xpresión
+c oloquial con su correspondiente traducción simbólica.
+El doble de p es menor que el siguiente de q .
+El doble de p es mayor que el anterior de q .
+El doble de p es por lo menos el siguiente de q .
+El doble de p supera al anterior de q .
+El doble de p es a lo sumo el siguiente de q .
+El doble de p n o supera al anterior de q .
+6 . En Tik Tok , Alejandra tiene 120 000 fo l lowers y N icolás, 180 000. La cantidad de followers
+en Tik Tok que tiene Marcela es mayor que la tercera parte de la que tiene Nicolás, pero no
+supera a la cantidad de followers que tiene Alejandra.
+a) Si llamamos m a la cantidad de followers que tiene Marcela, ¿cuál o cuáles de las siguientes
+expresiones indican los posibles valores de m ?
+Marcá con una X en el correspondiente la o las respuestas.
+60 001 < m < 120 000 m ≥ 60 001 y m < 120 001
+60 000 < m ≤ 120 000 60 001 ≤ m < 120 001
+b) La cantidad de followers que Alejandra, Nicolás y Ma rcela tienen entre los tres en Tik Tok es
+mayor o igual que 419 500. ¿Es posible que la cantidad de followers de Marcela en Tik Tok sea
+por lo menos 119 500 y a lo sumo 120 000 ? ¿Por qué?
+7 . Representá en la recta numérica cada uno de los números naturales definidos por las frases
+siguientes . Marcalos con una X en la recta numérica y escribí los n úmeros correspondientes
+debajo de cada marca.
+a) El anterior a 8.
+b) El doble del siguiente de 4.
+c) El número comprendido entre la tercera parte de 6 y la mitad de 8.
+d) Los números mayores que 4 y menores o iguales que 6.
+8 . En cada caso, representá en la recta numérica lo que se indica. Marcalo con una X en la recta
+y e scribilo debajo de cada marca .
+2 p > q + 1
+2 p ≥ q – 1
+2 p ≥ q + 1
+2 p < q + 1
+2 p > q – 1
+2 p ≤ q – 1
+2 p < q – 1
+2 p ≤ q + 1
+0 1
+
+--- PAGINA 3 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 2 - 11 de abril de 2026
+Clase n° 2 - 11/4/2026 8
+a) 163
+b) i. p + 8 ii. p – 4 iii. El anterior a p .
+9 . ¿Qué números naturales representan las letras r y t ?
+        
+10. Representá en la recta numérica todos los números naturales n, que cumplan con las
+condiciones indicadas en cada caso.
+Marcalos con una X y escribí los números correspondientes.
+a ) 1 < n ≤ 7
+b) 2 ≤ 2 n ≤ 12
+c) 40 < n + 3 ≤ 45
+Las respuestas de l os problemas de la tarea correspondiente a la clase 2 son la s que figuran
+a continuación.
+1. a)
+i. (95 + 17) . 24 … >… 24 . (95 – 17)
+ii. 31 . 48 – 31 . 29 …=… 31 . (48 – 29)
+iii. 58367 + 56 . 11 …<… 58367 + 71 . 19
+iv. 470 . 63 . 100 …=… 47 . 6300 . 10
+v. 85 7 . 85 …>… 85 4 . 85 2
+vi. 23 9 : 23 …>… 23 5
+b)
+i. 50, 51, 52 y 53
+ii. 32, 33 y 34
+173 148
+p p + 12
+r + 20 180 0 4 t
+0 1 2 3
+0 1 2 3
+36 38
+
+--- PAGINA 4 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 2 - 11 de abril de 2026
+Clase n° 2 - 11/4/2026 9
+2.
+a) 2 . 7 + 9
+b) 3 . 10 – 50 : 2
+c) 6 2 : 3 – 4
+d) b + 1 + 12 : 4
+e) 2 . m + 11 – 1
+f) 2 . ( m + 11 – 1)
+3.
+4.
+Expresión coloquial Expresión simbólica
+El triple de m disminuido en 2. 3 m – 2
+El doble de m aumentado en 5. 2 m + 5
+El cuadrado del siguiente de m . ( m + 1) 2
+5.
+El doble de p es menor que el siguiente de q .
+El doble de p es mayor que el anterior de q .
+El doble de p es por lo menos el siguiente de q .
+El doble de p supera al anterior de q .
+El doble de p es a lo sumo el siguiente de q .
+El doble de p no supera al anterior de q .
+6 .
+a) 60001 < m < 120000 X m ≥ 60001 y m < 120001
+X 60000 < m ≤ 120000 X 60001 ≤ m < 120001
+Expresión coloquial Expresión simbólica
+El anterior a m . m – 1
+El triple del anterior a m . 3 ( m – 1)
+El siguiente del triple de m . 3 m + 1
+El anterior a m aumentado en 5. m – 1 + 5
+El triple de: m disminuido en 2. 3 ( m – 2)
+2 p > q + 1
+2 p ≥ q – 1
+2 p ≥ q + 1
+2 p < q + 1
+2 p > q – 1
+2 p ≤ q – 1
+2 p < q – 1
+2 p ≤ q + 1
+
+--- PAGINA 5 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 2 - 11 de abril de 2026
+Clase n° 2 - 11/4/2026 10
+b) Sí, es posible.
+Como la cantidad de followers que Alejandra, Nicolás y Marcela tienen entre los
+tres en Tik Tok es mayor o igual que 419 500, entonces :
+120 000 + 180 000 + m ≥ 419 500, con lo cual m ≥ 419 500 – ( 120 000 + 180 000), es decir que
+m ≥ 119 500. Además, de acuerdo con las respuestas del ítem a) se cumple que m ≤ 120 000. Por
+lo tanto, 119 500 ≤ m ≤ 120 000.
+7 . a) 7 b) 10 c) 3 d) 5 y 6.
+8.
+a)
+b)
+9 . r = 100 y t = 60.
+10.
+a) 1< n ≤ 7
+b) 2 ≤ 2 n ≤ 12
+c) 40 < n + 3 ≤ 45
+0 1 7 10 3 5 6
+173 148 163
+p p + 12 p + 8 p – 4 p – 1
+4 1 2 3 0 5 7 6
+6 4 0 1 2 3 5
+36 38 39 40 41 42

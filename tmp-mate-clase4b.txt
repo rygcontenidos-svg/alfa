@@ -1,0 +1,129 @@
+
+--- PAGINA 1 ---
+División entera
+25 .0 4 .202 6
+─
+CLASE 4
+
+--- PAGINA 2 ---
+Introducción
+En esta clase continuaremos trabajando con el c oncepto de división entera y
+desarrollaremos ejercicios con los conceptos de números primos y compuestos.
+También realizaremos la descomposición de un número en sus factores primos y
+resolveremos distintas situaciones problemáticas.
+Contenidos
+1. Números primos y compuestos.
+Actividades.
+2. Descomposición en factores primos.
+Actividades
+
+--- PAGINA 3 ---
+División entera. Números primos y compuestos.
+Descomposición en factores primos.
+1. a) Uní con una flecha cada número de la primera columna con la frase de la segunda
+columna que le corresponda.
+b) Respondé las siguientes preguntas.
+c) El 0 y el 1 no son primos ni compuestos. ¿Por qué?
+17
+25
+0
+2
+32
+1
+33
+49
+Tiene exactamente dos divisores.
+Tiene exactamente un divisor.
+Tiene más de dos divisores.
+¿ Cómo se llaman los números que
+tienen solo dos divisores?
+¿ Cómo se llaman los números distintos
+de cero que tienen más de dos
+divisores?
+
+--- PAGINA 4 ---
+2. Sin considerar el 1 como factor, escribí si es posible, los números 36, 69 y 500 de
+cada una de las siguientes formas:
+a) como producto de dos factores;
+b) como producto de tres factores;
+c) como producto de la mayor cantidad de factores posibles.
+d) ¿Cuál de las expresiones del ítem c) está formada solo por factores primos?
+e) Escribí la descomposición en factores primos de los siguientes números:
+i. 720 =
+ii. 51 =
+3. En una confitería se elaboraron 378 conitos de dulce de leche que se guardaron en
+cajas con no más de 8 unidades cada una.
+a) ¿Cuántas cajas se utilizaron como mínimo para guardar todos los conitos de dulce de
+leche fabricados?
+Todo número compuesto puede escribirse
+como producto de factores primos
+y estos factores son únicos .
+Esta descomposición se denomina descomposición
+en factores primos .
+
+--- PAGINA 5 ---
+Un número es par si es múltiplo de 2.
+Un número es impar si no es múltiplo de 2.
+b) Las cajas de conitos de dulce de leche se acomodaron en estantes con capacidad
+para 6 cajas cada uno. ¿Cuántos estantes se necesitaron por lo menos para acomod ar
+las cajas?
+c) Si la cantidad de conitos de dulce de leche elaborados se duplicó, ¿cuántos estantes
+se usaron como mínimo para almacenarlos?
+4. a) Si se divide un número natural por 12, el resto es 8. ¿Cuál es el resto de dividir el
+triple de ese númer o natural por 12?
+b) Encontrá todos los valores de r y t para que el número de cinco cifras 13 r 2 t sea
+divisible por:
+i. 4
+ii . 6
+iii. 9
+5. Decidí si cada una de las siguientes afirmaciones es verdadera (V) o falsa (F). Marcá
+con una cruz en el casillero correspondiente.
+6. Sin hacer la cuenta 15 . 78, decidí si el resultado es:
+a) un número impar;
+b) un múltiplo de 8;
+V F
+Algún número primo es par.
+0 es múltiplo de todos los números naturales.
+Si p es un número natural, entonces p es divisor de 7 p .
+Si un número es múltiplo de 2 y 4, entonces es m últiplo de
+8.
+Si un número es múltiplo de 6, entonces es divisible por 2 y
+3.
+Ningún múltiplo de 20 es múltiplo de 400.
+Cualquier número natural es divisible por 0.
+
+--- PAGINA 6 ---
+c) un múltiplo de 10;
+d) divisible por 9.
+7. En un programa de entretenimientos, dos participantes, A y B , compiten por un
+premio haciendo girar la ruleta de la fortuna.
+La ruleta contiene los números del 0 al 36. Cada
+jugador deberá obtener en sus lanzamientos
+números que cumplan con determinadas condiciones.
+Marcá con una cruz en el o los casilleros
+correspondientes la o las situaciones en las que
+el lanzamiento del participante A tiene más
+posibilidades de ganar sobre el lanzamiento
+del participante B .
+A obtiene un número primo y B obtiene un número par.
+A obtiene un múltipl o de 3 y B obtiene un múltiplo de 4.
+A obtiene un múltiplo de 5 y B obtiene un número compuesto.
+A obtiene un número compuesto y B obtiene un número impar.
+8. Se dice que dos números primos a y b, siendo b  a, son números primos gemelos si
+se cumple que b – a = 2.
+a) Expresá en lenguaje coloquial la condición que cumplen los números primos
+gemelos.
+
+--- PAGINA 7 ---
+b) Representá en la recta numérica los números primos gemelos comprendidos entre 30
+y 50.
+c) Decidí si cada una d e las siguientes afirmaciones es verdadera (V) o falsa (F), y marcá
+con una cruz en el casillero correspondiente de la siguiente tabla:
+V F
+Hay números primos gemelos pares.
+No hay números primos gemelos consecutivos.
+Hay dos pares de números primos gemelos menores que
+10.
+
+--- PAGINA 8 ---
+

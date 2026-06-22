@@ -1,0 +1,912 @@
+{
+  "id": "mate-desigualdades-traduccion-recta",
+  "materia": "matematica",
+  "titulo": "Desigualdades. Traducci\u00F3n de enunciados. Recta num\u00E9rica",
+  "descripcion": "Desigualdades: <, >, \u2264, \u2265. Traducci\u00F3n de enunciados coloquiales al lenguaje simb\u00F3lico y viceversa. Representaci\u00F3n de n\u00FAmeros naturales en la recta num\u00E9rica.",
+  "textos_ids": ["mate-calentamiento-desigualdades"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "desigualdades_signos",
+      "tipo": "completar",
+      "consigna": "Sin resolver los c\u00E1lculos, complet\u00E1 cada l\u00EDnea de puntos con <, > o =.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "(56 \u2013 12) \u00D7 11 \u2026\u2026\u2026 (56 \u2013 12) \u00F7 11",
+          "respuesta": ">",
+          "opciones": ["<", ">", "="],
+          "explicacion": "Multiplicar por 11 da un resultado mayor que dividir por 11 (si el n\u00FAmero es positivo)."
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "23 \u00D7 17 + 23 \u00D7 45 \u2026\u2026\u2026 23 \u00D7 (17 + 45)",
+          "respuesta": "=",
+          "opciones": ["<", ">", "="],
+          "explicacion": "23 \u00D7 17 + 23 \u00D7 45 = 23 \u00D7 (17 + 45) por propiedad distributiva."
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "1729 \u2013 15 \u00D7 73 \u2026\u2026\u2026 1729 \u2013 82 \u00D7 18",
+          "respuesta": ">",
+          "opciones": ["<", ">", "="],
+          "explicacion": "15 \u00D7 73 = 1095, 82 \u00D7 18 = 1476. 1729 \u2013 1095 > 1729 \u2013 1476."
+        },
+        {
+          "id": "d",
+          "subtipo": "select",
+          "pregunta": "24 \u00D7 1000 \u00D7 5 \u2026\u2026\u2026 240 \u00D7 100 \u00D7 50",
+          "respuesta": "=",
+          "opciones": ["<", ">", "="],
+          "explicacion": "24 \u00D7 1000 \u00D7 5 = 120 000; 240 \u00D7 100 \u00D7 50 = 240 \u00D7 5000 = 1 200 000. No son iguales. 24 \u00D7 1000 \u00D7 5 = 120 000, 240 \u00D7 100 \u00D7 50 = 1 200 000. 120 000 < 1 200 000."
+        },
+        {
+          "id": "e",
+          "subtipo": "select",
+          "pregunta": "683\u2078 \u2026\u2026\u2026 683\u2076 \u00D7 683\u00B3",
+          "respuesta": "<",
+          "opciones": ["<", ">", "="],
+          "explicacion": "683\u2076 \u00D7 683\u00B3 = 683\u2079. 683\u2078 < 683\u2079 porque 8 < 9."
+        }
+      ]
+    },
+    {
+      "id": "numeros_naturales_n",
+      "tipo": "completar",
+      "consigna": "Escrib\u00ED todos los n\u00FAmeros naturales n que cumplan lo que se indica en cada caso.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "n \u00D7 20 < 8 \u00D7 (9 + 3)",
+          "respuesta": "n = 1, 2, 3, 4"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "41 < 3n \u2264 \u221A36 \u00D7 9",
+          "respuesta": "n = 14, 15, 16, 17, 18"
+        }
+      ]
+    },
+    {
+      "id": "traduccion_simbolica",
+      "tipo": "completar",
+      "consigna": "Traduc\u00ED al lenguaje simb\u00F3lico las siguientes expresiones coloquiales.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "El cu\u00E1druple de nueve disminuido en siete.",
+          "respuesta": "4 \u00D7 9 \u2013 7"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "La suma entre el doble de trece y la tercera parte de veintisiete.",
+          "respuesta": "2 \u00D7 13 + 27 \u00F7 3"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "La cuarta parte del cuadrado de diecis\u00E9is incrementada en ocho.",
+          "respuesta": "16\u00B2 \u00F7 4 + 8"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "El doble de t aumentado en el siguiente a ocho.",
+          "respuesta": "2 \u00D7 t + 9"
+        },
+        {
+          "id": "e",
+          "subtipo": "texto",
+          "pregunta": "El doble de: t aumentado en el siguiente a ocho.",
+          "respuesta": "2 \u00D7 (t + 9)"
+        },
+        {
+          "id": "f",
+          "subtipo": "texto",
+          "pregunta": "La diferencia entre el doble del cuadrado de t y el cubo del anterior a cinco.",
+          "respuesta": "2 \u00D7 t\u00B2 \u2013 4\u00B3"
+        }
+      ]
+    },
+    {
+      "id": "traduccion_coloquial",
+      "tipo": "completar",
+      "consigna": "Complet\u00E1 la tabla con la expresi\u00F3n coloquial correspondiente a cada expresi\u00F3n simb\u00F3lica.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "3m \u2013 2",
+          "respuesta": "El triple de m disminuido en 2"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "2m + 5",
+          "respuesta": "El doble de m aumentado en 5"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "(m + 1)\u00B2",
+          "respuesta": "El cuadrado del siguiente de m"
+        }
+      ]
+    },
+    {
+      "id": "unir_traducciones",
+      "tipo": "unir_flechas",
+      "consigna": "Un\u00ED con flechas cada expresi\u00F3n coloquial con su correspondiente traducci\u00F3n simb\u00F3lica.",
+      "izquierda": [
+        { "id": "izqA", "texto": "El triple del siguiente de h" },
+        { "id": "izqB", "texto": "El siguiente del doble de h" },
+        { "id": "izqC", "texto": "El anterior a 6 aumentado en el doble de h" },
+        { "id": "izqD", "texto": "El anterior a h disminuido en el doble de 4" },
+        { "id": "izqE", "texto": "El siguiente del triple de h disminuido en 5" },
+        { "id": "izqF", "texto": "El doble del anterior a h aumentado en 3" }
+      ],
+      "derecha": [
+        { "id": "der1", "texto": "2h + 1" },
+        { "id": "der2", "texto": "h \u2013 1 \u2013 2 \u00D7 4" },
+        { "id": "der3", "texto": "2(h \u2013 1) + 3" },
+        { "id": "der4", "texto": "3h + 1 \u2013 5" },
+        { "id": "der5", "texto": "3(h + 1)" },
+        { "id": "der6", "texto": "6 \u2013 1 + 2h" }
+      ],
+      "pares": [
+        { "izquierda_id": "izqA", "derecha_id": "der5" },
+        { "izquierda_id": "izqB", "derecha_id": "der1" },
+        { "izquierda_id": "izqC", "derecha_id": "der6" },
+        { "izquierda_id": "izqD", "derecha_id": "der2" },
+        { "izquierda_id": "izqE", "derecha_id": "der4" },
+        { "izquierda_id": "izqF", "derecha_id": "der3" }
+      ]
+    },
+    {
+      "id": "poner_parentesis",
+      "tipo": "completar_cuadro",
+      "consigna": "Coloc\u00E1 un par de par\u00E9ntesis en cada expresi\u00F3n simb\u00F3lica para que la traducci\u00F3n de la expresi\u00F3n coloquial sea correcta.",
+      "columnas": ["Expresi\u00F3n coloquial", "Expresi\u00F3n simb\u00F3lica (con par\u00E9ntesis)"],
+      "filas": [
+        { "id": "a", "celdas": ["El triple del siguiente al n\u00FAmero u", "3 \u00D7 (u + 1)"] },
+        { "id": "b", "celdas": ["La tercera parte del anterior al n\u00FAmero d", "(d \u2013 1) \u00F7 3"] },
+        { "id": "c", "celdas": ["La cuarta parte de: el anterior al n\u00FAmero q aumentado en tres", "(q \u2013 1 + 3) \u00F7 4"] },
+        { "id": "d", "celdas": ["El consecutivo de la tercera parte del anterior al n\u00FAmero a", "(a \u2013 1) \u00F7 3 + 1"] },
+        { "id": "e", "celdas": ["El anterior al cuadrado del cu\u00E1druple del n\u00FAmero f", "4 \u00D7 f\u00B2 \u2013 1"] }
+      ]
+    },
+    {
+      "id": "desigualdades_calculadas",
+      "tipo": "completar",
+      "consigna": "Resolv\u00E9 los c\u00E1lculos y complet\u00E1 con <, > o = seg\u00FAn corresponda.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "12 + 2 \u00D7 8 \u2026\u2026\u2026 (12 + 2) \u00D7 8",
+          "respuesta": "<",
+          "opciones": ["<", ">", "="],
+          "explicacion": "12 + 2 \u00D7 8 = 12 + 16 = 28. (12 + 2) \u00D7 8 = 14 \u00D7 8 = 112. 28 < 112."
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "12 \u00F7 6 \u00D7 2 \u2026\u2026\u2026 12 \u00F7 (6 \u00D7 2)",
+          "respuesta": ">",
+          "opciones": ["<", ">", "="],
+          "explicacion": "12 \u00F7 6 \u00D7 2 = 2 \u00D7 2 = 4. 12 \u00F7 (6 \u00D7 2) = 12 \u00F7 12 = 1. 4 > 1."
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "4 \u00D7 3\u00B2 \u00F7 9 \u2013 1 \u2026\u2026\u2026 4 \u00D7 (3\u00B2 \u00F7 9 \u2013 1)",
+          "respuesta": ">",
+          "opciones": ["<", ">", "="],
+          "explicacion": "4 \u00D7 3\u00B2 \u00F7 9 \u2013 1 = 4 \u00D7 9 \u00F7 9 \u2013 1 = 4 \u2013 1 = 3. 4 \u00D7 (3\u00B2 \u00F7 9 \u2013 1) = 4 \u00D7 (9 \u00F7 9 \u2013 1) = 4 \u00D7 (1 \u2013 1) = 0. 3 > 0."
+        }
+      ]
+    },
+    {
+      "id": "problema_revistas",
+      "tipo": "completar",
+      "consigna": "Bruno tiene en una caja menos de 30 revistas. Reparte entre sus amigos 24 revistas.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Si llamamos n a la cantidad de revistas que le sobran, escrib\u00ED todas las posibilidades para n.",
+          "respuesta": "1, 2, 3, 4, 5"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Escrib\u00ED usando los s\u00EDmbolos <, >, \u2264 o \u2265 la condici\u00F3n que cumplen los valores de n.",
+          "respuesta": "n < 6 o n \u2264 5"
+        }
+      ]
+    },
+    {
+      "id": "signos_sin_resolver_tarea",
+      "tipo": "completar",
+      "consigna": "Sin resolver los c\u00E1lculos, complet\u00E1 en cada l\u00EDnea de puntos con <, > o =.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "(95 + 17) \u00D7 24 \u2026\u2026\u2026 24 \u00D7 (95 \u2013 17)",
+          "respuesta": ">",
+          "opciones": ["<", ">", "="],
+          "explicacion": "(95 + 17) > (95 \u2013 17), multiplicado por el mismo n\u00FAmero 24."
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "31 \u00D7 48 \u2013 31 \u00D7 29 \u2026\u2026\u2026 31 \u00D7 (48 \u2013 29)",
+          "respuesta": "=",
+          "opciones": ["<", ">", "="],
+          "explicacion": "Propiedad distributiva: 31 \u00D7 48 \u2013 31 \u00D7 29 = 31 \u00D7 (48 \u2013 29)."
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "58367 + 56 \u00D7 11 \u2026\u2026\u2026 58367 + 71 \u00D7 19",
+          "respuesta": "<",
+          "opciones": ["<", ">", "="],
+          "explicacion": "56 \u00D7 11 = 616, 71 \u00D7 19 = 1349. 616 < 1349, sumando el mismo 58367."
+        },
+        {
+          "id": "d",
+          "subtipo": "select",
+          "pregunta": "470 \u00D7 63 \u00D7 100 \u2026\u2026\u2026 47 \u00D7 6300 \u00D7 10",
+          "respuesta": "=",
+          "opciones": ["<", ">", "="],
+          "explicacion": "470 = 47 \u00D7 10, 63 \u00D7 100 = 6300. Reordenando: 47 \u00D7 10 \u00D7 6300 \u00D7 10 = 47 \u00D7 6300 \u00D7 100."
+        },
+        {
+          "id": "e",
+          "subtipo": "select",
+          "pregunta": "857 \u00D7 85 \u2026\u2026\u2026 854 \u00D7 852",
+          "respuesta": "<",
+          "opciones": ["<", ">", "="],
+          "explicacion": "857 < 854 \u00D7 852 (aprox. 727 608). Claramente 857 es mucho menor."
+        }
+      ]
+    },
+    {
+      "id": "numeros_naturales_n_tarea",
+      "tipo": "completar",
+      "consigna": "Escrib\u00ED todos los n\u00FAmeros naturales n que cumplan lo que se indica en cada caso.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "(4 + 3)\u00B2 < n < 9 \u00D7 (8 \u2013 2)",
+          "respuesta": "n = 50, 51, 52, 53"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "64 \u2264 2n < 7\u00B2",
+          "respuesta": "n = 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44"
+        }
+      ]
+    },
+    {
+      "id": "problema_brenda_noelia",
+      "tipo": "seleccion_multiple",
+      "consigna": "Brenda, Noelia y Francisco fueron autores de un libro de Matem\u00E1tica. Brenda escribi\u00F3 47 p\u00E1ginas y supera en 13 a la cantidad de p\u00E1ginas escritas por Francisco. La cantidad de p\u00E1ginas que escribi\u00F3 Noelia no supera las 73 p\u00E1ginas y es mayor que el doble de la cantidad de p\u00E1ginas escritas por Francisco.\n\na) Si llamamos n a la cantidad de p\u00E1ginas que escribi\u00F3 Noelia, \u00BFCu\u00E1l de las siguientes expresiones indica esa cantidad?",
+      "opciones": [
+        { "id": "a", "texto": "n > 68 y n \u2264 72" },
+        { "id": "b", "texto": "68 < n \u2264 73" },
+        { "id": "c", "texto": "69 \u2264 n \u2264 73" },
+        { "id": "d", "texto": "69 < n < 72" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "problema_brenda_noelia_calculos",
+      "tipo": "completar",
+      "consigna": "Resolv\u00E9 las siguientes preguntas sobre el libro de Brenda, Noelia y Francisco.",
+      "items": [
+        {
+          "id": "menor",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es la menor cantidad de p\u00E1ginas totales que pudieron haber escrito entre las tres?",
+          "respuesta": "147"
+        },
+        {
+          "id": "mayor",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es la mayor cantidad de p\u00E1ginas totales?",
+          "respuesta": "152"
+        }
+      ]
+    },
+    {
+      "id": "problema_martin_autitos",
+      "tipo": "completar",
+      "consigna": "Mart\u00EDn tiene autitos de colecci\u00F3n. La cantidad de autitos que tiene es mayor que 15, pero no supera a 20.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1ntos autitos puede tener Mart\u00EDn? Indic\u00E1 todas las posibilidades.",
+          "respuesta": "16, 17, 18, 19, 20"
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "Si llamamos c a la cantidad de autitos, \u00BFcu\u00E1l de estas expresiones es correcta?",
+          "respuesta": "5",
+          "opciones": ["15 < c < 20", "16 \u2264 c \u2264 20", "15 < c \u2264 19", "c \u2264 19 y c > 15", "c \u2264 20 y c > 15"],
+          "explicacion": "'Mayor que 15' significa c > 15. 'No supera a 20' significa c \u2264 20. Por lo tanto c > 15 y c \u2264 20, que equivale a 15 < c \u2264 20. Pero como c es natural, tambi\u00E9n 16 \u2264 c \u2264 20 ser\u00EDa correcto."
+        }
+      ]
+    },
+    {
+      "id": "representar_recta_numerica",
+      "tipo": "recta_numerica",
+      "consigna": "Us\u00E1 la recta num\u00E9rica para responder. Marcalos en tu cuaderno con una X.",
+      "marcas": [
+        { "etiqueta_inferior": "0" },
+        { "etiqueta_inferior": "1" },
+        { "etiqueta_inferior": "2" },
+        { "etiqueta_inferior": "3" },
+        { "etiqueta_inferior": "4" },
+        { "etiqueta_inferior": "5" },
+        { "etiqueta_inferior": "6" },
+        { "etiqueta_inferior": "7" },
+        { "etiqueta_inferior": "8" },
+        { "etiqueta_inferior": "9" },
+        { "etiqueta_inferior": "10" }
+      ],
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "\u00BFQu\u00E9 n\u00FAmero es el consecutivo de 5?",
+          "respuesta": "6",
+          "opciones": ["5", "6", "7"]
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "\u00BFCu\u00E1l es el anterior al doble de seis? (doble de 6 = 12, anterior = ?)",
+          "respuesta": "11",
+          "opciones": ["10", "11", "12"]
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "\u00BFCu\u00E1l es el doble del siguiente a 3? (siguiente de 3 = 4, doble = ?)",
+          "respuesta": "8",
+          "opciones": ["6", "7", "8"]
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "\u00BFQu\u00E9 n\u00FAmeros naturales est\u00E1n entre el cuadrado de 3 (9) y la mitad de 22 (11)?",
+          "respuesta": "10"
+        }
+      ]
+    },
+    {
+      "id": "problema_marcela_tiktok",
+      "tipo": "seleccion_multiple",
+      "consigna": "En Tik Tok, Alejandra tiene 120 000 followers y Nicol\u00E1s, 180 000. La cantidad de followers en Tik Tok que tiene Marcela es mayor que la tercera parte de la que tiene Nicol\u00E1s, pero no supera a la cantidad de followers que tiene Alejandra.\n\na) Si llamamos m a la cantidad de followers que tiene Marcela, \u00BFcu\u00E1l o cu\u00E1les de las siguientes expresiones indican los posibles valores de m?",
+      "opciones": [
+        { "id": "a", "texto": "60 001 < m < 120 000" },
+        { "id": "b", "texto": "m \u2265 60 001 y m < 120 001" },
+        { "id": "c", "texto": "60 000 < m \u2264 120 000" },
+        { "id": "d", "texto": "60 001 \u2264 m < 120 001" }
+      ],
+      "correcta": "c"
+    },
+    {
+      "id": "numeros_entre_0_y_10",
+      "tipo": "completar",
+      "consigna": "En cada caso, escrib\u00ED todos los n\u00FAmeros naturales n entre el 0 y el 10 que cumplan con las siguientes desigualdades.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "2 < n < 8",
+          "respuesta": "3, 4, 5, 6, 7"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "n \u2264 6",
+          "respuesta": "0, 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "2n < 16",
+          "respuesta": "0, 1, 2, 3, 4, 5, 6, 7"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "24 < 6n \u2264 42",
+          "respuesta": "5, 6, 7"
+        }
+      ]
+    },
+    {
+      "id": "unir_desigualdades_triple",
+      "tipo": "unir_flechas",
+      "consigna": "Consider\u00E1 que h y z representan n\u00FAmeros naturales. Un\u00ED con flechas cada expresi\u00F3n coloquial con su correspondiente traducci\u00F3n simb\u00F3lica.",
+      "izquierda": [
+        { "id": "izq1", "texto": "El triple de h es mayor que el anterior a z." },
+        { "id": "izq2", "texto": "El triple de h es menor que el siguiente a z." },
+        { "id": "izq3", "texto": "El triple de h es a lo sumo el anterior a z." },
+        { "id": "izq4", "texto": "El triple de h supera al siguiente a z." },
+        { "id": "izq5", "texto": "El triple de h es por lo menos el anterior a z." },
+        { "id": "izq6", "texto": "El triple de h no supera al siguiente a z." }
+      ],
+      "derecha": [
+        { "id": "der1", "texto": "3h \u2264 z \u2013 1" },
+        { "id": "der2", "texto": "3h > z + 1" },
+        { "id": "der3", "texto": "3h \u2265 z + 1" },
+        { "id": "der4", "texto": "3h > z \u2013 1" },
+        { "id": "der5", "texto": "3h < z + 1" },
+        { "id": "der6", "texto": "3h \u2264 z + 1" },
+        { "id": "der7", "texto": "3h < z \u2013 1" },
+        { "id": "der8", "texto": "3h \u2265 z \u2013 1" }
+      ],
+      "pares": [
+        { "izquierda_id": "izq1", "derecha_id": "der4" },
+        { "izquierda_id": "izq2", "derecha_id": "der5" },
+        { "izquierda_id": "izq3", "derecha_id": "der1" },
+        { "izquierda_id": "izq4", "derecha_id": "der2" },
+        { "izquierda_id": "izq5", "derecha_id": "der8" },
+        { "izquierda_id": "izq6", "derecha_id": "der6" }
+      ]
+    },
+    {
+      "id": "recta_encontrar_medida",
+      "tipo": "recta_numerica",
+      "consigna": "En la siguiente recta num\u00E9rica, cada segmento representa la misma cantidad de unidades. Calcul\u00E1 cu\u00E1nto vale cada segmento.",
+      "marcas": [
+        { "etiqueta_inferior": "16" },
+        { "etiqueta_inferior": "?", "etiqueta_superior": "?" },
+        { "etiqueta_inferior": "?", "etiqueta_superior": "?" },
+        { "etiqueta_inferior": "?", "etiqueta_superior": "?" },
+        { "etiqueta_inferior": "28" }
+      ],
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "\u00BFCu\u00E1ntas unidades hay entre 16 y 28?",
+          "respuesta": "12",
+          "opciones": ["10", "12", "14"]
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "\u00BFCu\u00E1ntos segmentos hay entre 16 y 28?",
+          "respuesta": "4",
+          "opciones": ["3", "4", "5"]
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "Entonces \u00BFCu\u00E1ntas unidades vale CADA segmento?",
+          "respuesta": "3",
+          "opciones": ["3", "4", "12"]
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "\u00BFQu\u00E9 n\u00FAmero va en cada signo de interrogaci\u00F3n (?) de la recta? Escribilos en orden.",
+          "respuesta": "19, 22, 25"
+        }
+      ]
+    },
+    {
+      "id": "recta_con_letras_h",
+      "tipo": "recta_numerica",
+      "consigna": "En la recta hay marcas en g y en g + 8. Cada segmento vale lo mismo. Respond\u00E9.",
+      "marcas": [
+        { "etiqueta_inferior": "g" },
+        { "etiqueta_inferior": "?", "etiqueta_superior": "?" },
+        { "etiqueta_inferior": "?", "etiqueta_superior": "?" },
+        { "etiqueta_inferior": "?", "etiqueta_superior": "?" },
+        { "etiqueta_inferior": "g + 8" }
+      ],
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "\u00BFCu\u00E1nto vale cada segmento? (distancia entre g y g+8, dividida en 4 segmentos)",
+          "respuesta": "2",
+          "opciones": ["2", "4", "8"]
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "El anterior a g se escribe como g - 1. \u00BFCu\u00E1ntos segmentos a la izquierda de g queda?",
+          "respuesta": "mitad de un segmento",
+          "opciones": ["un segmento", "mitad de un segmento", "dos segmentos"]
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "\u00BFQu\u00E9 n\u00FAmero representa g + 12? (cont\u00E1 los segmentos: cada uno vale 2, entonces 12 \u00F7 2 = 6 segmentos desde g)",
+          "respuesta": "6 segmentos a la derecha de g"
+        }
+      ]
+    },
+    {
+      "id": "recta_comparar_ubicar",
+      "tipo": "recta_numerica",
+      "consigna": "Cada item tiene su propia recta. Usala para responder.",
+      "items": [
+        {
+          "id": "a",
+          "marcas": [
+            { "etiqueta_inferior": "0" },
+            { "etiqueta_inferior": "5" },
+            { "etiqueta_inferior": "10" },
+            { "etiqueta_inferior": "15" }
+          ],
+          "subtipo": "select",
+          "pregunta": "\u00BFQu\u00E9 n\u00FAmero est\u00E1 a 3 marcas a la derecha del 0?",
+          "respuesta": "15",
+          "opciones": ["10", "15", "20"]
+        },
+        {
+          "id": "b",
+          "marcas": [
+            { "etiqueta_inferior": "0" },
+            { "etiqueta_inferior": "5" },
+            { "etiqueta_inferior": "10" },
+            { "etiqueta_inferior": "15" },
+            { "etiqueta_inferior": "20" },
+            { "etiqueta_inferior": "25" },
+            { "etiqueta_inferior": "30" }
+          ],
+          "subtipo": "select",
+          "pregunta": "\u00BFA cu\u00E1ntas marcas a la derecha del 0 est\u00E1 el 30?",
+          "respuesta": "6",
+          "opciones": ["3", "5", "6"]
+        },
+        {
+          "id": "c",
+          "marcas": [
+            { "etiqueta_inferior": "0" },
+            { "etiqueta_inferior": "5" },
+            { "etiqueta_inferior": "10" },
+            { "etiqueta_inferior": "15" },
+            { "etiqueta_inferior": "20" },
+            { "etiqueta_inferior": "25" }
+          ],
+          "subtipo": "texto",
+          "pregunta": "Ubic\u00E1 en la recta: el doble de 7 (14), el siguiente de 20 (21), el anterior a 10 (9), la mitad de 30 (15). \u00BFQuedan todos sobre las marcas?",
+          "respuesta": "No, 9 queda entre 5 y 10, 14 entre 10 y 15, 21 entre 20 y 25"
+        },
+        {
+          "id": "d",
+          "marcas": [
+            { "etiqueta_inferior": "0" },
+            { "etiqueta_inferior": "5" },
+            { "etiqueta_inferior": "10" },
+            { "etiqueta_inferior": "15" },
+            { "etiqueta_inferior": "20" },
+            { "etiqueta_inferior": "25" },
+            { "etiqueta_inferior": "30" }
+          ],
+          "subtipo": "texto",
+          "pregunta": "Orden\u00E1 los cuatro n\u00FAmeros (9, 14, 15, 21) de menor a mayor.",
+          "respuesta": "9, 14, 15, 21"
+        }
+      ]
+    },
+    {
+      "id": "recta_tarea",
+      "tipo": "recta_numerica",
+      "consigna": "Us\u00E1 la recta num\u00E9rica para encontrar los n\u00FAmeros pedidos. Marcalos con una X en tu cuaderno.",
+      "marcas": [
+        { "etiqueta_inferior": "0" },
+        { "etiqueta_inferior": "1" },
+        { "etiqueta_inferior": "2" },
+        { "etiqueta_inferior": "3" },
+        { "etiqueta_inferior": "4" },
+        { "etiqueta_inferior": "5" },
+        { "etiqueta_inferior": "6" },
+        { "etiqueta_inferior": "7" },
+        { "etiqueta_inferior": "8" },
+        { "etiqueta_inferior": "9" },
+        { "etiqueta_inferior": "10" }
+      ],
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "\u00BFCu\u00E1l es el anterior a 8?",
+          "respuesta": "7",
+          "opciones": ["6", "7", "9"]
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "\u00BFCu\u00E1l es el doble del siguiente de 4? (siguiente de 4 = 5, doble = ?)",
+          "respuesta": "10",
+          "opciones": ["8", "9", "10"]
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "\u00BFCu\u00E1l es el n\u00FAmero comprendido entre la tercera parte de 6 (2) y la mitad de 8 (4)?",
+          "respuesta": "3",
+          "opciones": ["2", "3", "4"]
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "\u00BFQu\u00E9 n\u00FAmeros son mayores que 4 y menores o iguales que 6?",
+          "respuesta": "5, 6"
+        }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["mate-calentamiento-desigualdades"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "desigualdades_simbolos",
+          "titulo": "Desigualdades: s\u00EDmbolos",
+          "icono": "\uD83D\uDD22",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00BFQu\u00E9 son las desigualdades?",
+              "texto": "Las desigualdades son relaciones que indican si un n\u00FAmero es mayor, menor o igual que otro. Se expresan con los s\u00EDmbolos <, >, \u2264 y \u2265.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Para leer 110 > 25 podemos hacerlo de izquierda a derecha: \"110 es mayor que 25\", o de derecha a izquierda: \"25 es menor que 110\". Para 0 < 18: \"0 es menor que 18\" o \"18 es mayor que 0\"."
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\uD83D\uDCA1", "texto": "< significa \"menor que\" (ej: 3 < 7)." },
+                { "icono": "\uD83D\uDCA1", "texto": "> significa \"mayor que\" (ej: 9 > 2)." },
+                { "icono": "\uD83D\uDCA1", "texto": "\u2264 significa \"menor o igual que\" (ej: n \u2264 5)." },
+                { "icono": "\uD83D\uDCA1", "texto": "\u2265 significa \"mayor o igual que\" (ej: x \u2265 0)." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "desigualdades_ejemplos",
+          "titulo": "Ejemplos de desigualdades",
+          "icono": "\uD83E\uDDEE",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Aplicaciones pr\u00E1cticas",
+              "texto": "Las desigualdades aparecen en situaciones cotidianas y nos permiten acotar valores posibles.",
+              "color": "naranja"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Bruno tiene menos de 30 revistas. Reparte 24. \u00BFCu\u00E1ntas le pueden sobrar?",
+              "explicacion": "Si tiene menos de 30, puede tener de 0 a 29. Si reparte 24, le pueden sobrar de 0 a 5. Podemos expresarlo como n < 6 o n \u2264 5."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "La cantidad de figuritas f que tiene Germ\u00E1n es a lo sumo 8.",
+              "explicacion": "\"A lo sumo 8\" significa como m\u00E1ximo 8: f \u2264 8. Germ\u00E1n puede tener 1, 2, 3, ..., 8 figuritas."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "La cantidad de libros l que tiene Marina es por lo menos 20.",
+              "explicacion": "\"Por lo menos 20\" significa como m\u00EDnimo 20: l \u2265 20. Marina puede tener 20, 21, 22, ... libros."
+            }
+          ]
+        },
+        {
+          "id": "traduccion_enunciados",
+          "titulo": "Traducci\u00F3n de enunciados",
+          "icono": "\u270F\uFE0F",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Del lenguaje coloquial al simb\u00F3lico",
+              "texto": "Muchas veces necesitamos traducir expresiones coloquiales al lenguaje simb\u00F3lico, reemplazando n\u00FAmeros desconocidos por letras.",
+              "color": "verde"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "n \u2013 1 = \"el anterior a n\"" },
+                { "icono": "\u25B6", "texto": "n + 1 = \"el siguiente a n\", \"el consecutivo de n\" o \"el sucesor de n\"" },
+                { "icono": "\u25B6", "texto": "2n = \"el doble de n\"" },
+                { "icono": "\u25B6", "texto": "3n = \"el triple de n\"" },
+                { "icono": "\u25B6", "texto": "n\u00B2 = \"el cuadrado de n\"" }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "\"El triple del siguiente de un n\u00FAmero m\"",
+              "explicacion": "Primero escribimos el siguiente de m: m + 1. Luego el triple: 3 \u00D7 (m + 1). El par\u00E9ntesis es necesario porque el triple afecta a toda la suma."
+            }
+          ]
+        },
+        {
+          "id": "traduccion_inversa",
+          "titulo": "Traducci\u00F3n inversa",
+          "icono": "\uD83D\uDD04",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "De lo simb\u00F3lico a lo coloquial",
+              "texto": "Tambi\u00E9n podemos leer expresiones simb\u00F3licas y traducirlas a palabras.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "2n + 1 = \"el siguiente del doble de n\"" },
+                { "icono": "\u25B6", "texto": "(m \u2013 1) \u00F7 3 = \"la tercera parte del anterior a m\"" },
+                { "icono": "\u25B6", "texto": "3(m \u2013 2) = \"el triple de: m disminuido en 2\"" }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "La diferencia entre \"el triple de m disminuido en 2\" (3m \u2013 2) y \"el triple de: m disminuido en 2\" (3 \u00D7 (m \u2013 2)) es sutil pero importante. Los dos puntos (:) indican que la disminuci\u00F3n est\u00E1 dentro del triple."
+            }
+          ]
+        },
+        {
+          "id": "recta_numerica",
+          "titulo": "Recta num\u00E9rica",
+          "icono": "\uD83D\uDCCF",
+          "color": "violeta",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00BFC\u00F3mo representamos los naturales?",
+              "texto": "Para representar los n\u00FAmeros naturales utilizamos una semirrecta con origen en 0. Los n\u00FAmeros se ubican a la derecha, con marcas a igual distancia (unidad de medida).",
+              "color": "violeta"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Para marcar los n\u00FAmeros usamos una X (cruz) y escribimos el n\u00FAmero debajo. Cuando no se muestran todos los n\u00FAmeros, primero debemos determinar cu\u00E1ntas unidades representa cada segmento."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "En una recta hay marcas en 50 y 90 con 4 segmentos entre ellos.",
+              "explicacion": "Distancia: 90 \u2013 50 = 40. Como hay 4 segmentos, cada uno vale 40 \u00F7 4 = 10 unidades. As\u00ED podemos ubicar cualquier n\u00FAmero."
+            }
+          ]
+        },
+        {
+          "id": "leer_recta",
+          "titulo": "Leer la recta num\u00E9rica",
+          "icono": "\uD83D\uDCC8",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Encontrar n\u00FAmeros desconocidos",
+              "texto": "Cuando en la recta aparecen letras, podemos calcular qu\u00E9 n\u00FAmero representa cada una a partir de las distancias.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Recta con marcas: h, h + 8, y 4 segmentos entre ellos.",
+              "explicacion": "La distancia entre h y h + 8 es 8. Hay 4 segmentos, cada uno vale 8 \u00F7 4 = 2 unidades. h + 12 estar\u00E1 a 6 segmentos de h (12 \u00F7 2 = 6 marcas)."
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Tambi\u00E9n podemos representar expresiones como h + 12, h \u2013 4 o \"el siguiente de h\" contando segmentos a partir de h."
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        {
+          "pregunta": "\u00BFQu\u00E9 significa el s\u00EDmbolo \u2264?",
+          "respuesta": "Significa \"menor o igual que\". Por ejemplo, n \u2264 5 significa que n puede ser 0, 1, 2, 3, 4 o 5."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 significa \"a lo sumo\" en lenguaje matem\u00E1tico?",
+          "respuesta": "\"A lo sumo\" significa \"como m\u00E1ximo\", \"no supera\". Se traduce como \u2264. Ej: a lo sumo 8 \u2192 x \u2264 8."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 significa \"por lo menos\" en lenguaje matem\u00E1tico?",
+          "respuesta": "\"Por lo menos\" significa \"como m\u00EDnimo\", \"al menos\". Se traduce como \u2265. Ej: por lo menos 20 \u2192 x \u2265 20."
+        },
+        {
+          "pregunta": "\u00BFC\u00F3mo se traduce simb\u00F3licamente \"el anterior a n\"?",
+          "respuesta": "n \u2013 1. Ej: el anterior a 8 es 8 \u2013 1 = 7."
+        },
+        {
+          "pregunta": "\u00BFC\u00F3mo se traduce simb\u00F3licamente \"el triple del siguiente de m\"?",
+          "respuesta": "3 \u00D7 (m + 1). Primero el siguiente: m + 1, luego el triple."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 representa la unidad de medida en la recta num\u00E9rica?",
+          "respuesta": "Es la distancia entre marcas consecutivas. Se calcula dividiendo la distancia total entre dos n\u00FAmeros conocidos por la cantidad de segmentos entre ellos."
+        },
+        {
+          "pregunta": "\u00BFC\u00F3mo se representa \"el siguiente de h\" en la recta si cada segmento vale 2 unidades?",
+          "respuesta": "h + 1 estar\u00E1 a la mitad de un segmento unidad, porque 1 es la mitad de 2."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 diferencia hay entre \"2n + 1\" y \"2(n + 1)\"?",
+          "respuesta": "2n + 1 = \"el siguiente del doble de n\"; 2(n + 1) = \"el doble del siguiente de n\". Son expresiones diferentes."
+        }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": [
+        "desigualdades_signos",
+        "numeros_naturales_n",
+        "traduccion_simbolica",
+        "traduccion_coloquial",
+        "unir_traducciones",
+        "poner_parentesis",
+        "desigualdades_calculadas",
+        "problema_revistas",
+        "representar_recta_numerica",
+        "recta_encontrar_medida",
+        "recta_comparar_ubicar"
+      ]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": [
+        "signos_sin_resolver_tarea",
+        "numeros_naturales_n_tarea",
+        "problema_martin_autitos",
+        "problema_marcela_tiktok",
+        "numeros_entre_0_y_10",
+        "unir_desigualdades_triple",
+        "recta_con_letras_h",
+        "recta_tarea"
+      ],
+      "duracion_min": 30
+    },
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Confundir < y > en la comparaci\u00F3n sin resolver",
+          "detalle": "Al comparar expresiones sin resolver, es clave mirar la estructura. Por ejemplo, en (56 \u2013 12) \u00D7 11 vs (56 \u2013 12) \u00F7 11, hay que notar que el mismo n\u00FAmero se multiplica por 11 en un caso y se divide por 11 en el otro. Multiplicar agranda, dividir achica. Otro error com\u00FAn es comparar solo los n\u00FAmeros visibles sin considerar las operaciones. Por ejemplo, 24 \u00D7 1000 \u00D7 5 vs 240 \u00D7 100 \u00D7 50: hay que reordenar los factores para ver que tienen distinta cantidad de factores."
+        },
+        {
+          "titulo": "Malinterpretar \"aumentado en\" vs \": aumentado en\"",
+          "detalle": "La diferencia entre \"el doble de t aumentado en 9\" (2t + 9) y \"el doble de: t aumentado en 9\" (2 \u00D7 (t + 9)) es sutil pero importante. En el primer caso, primero se duplica t y luego se suma 9. En el segundo, primero se suma 9 a t y luego se duplica. Los dos puntos (:) son como un par\u00E9ntesis: indican que lo que sigue se agrupa antes de aplicar la operaci\u00F3n anterior."
+        },
+        {
+          "titulo": "No determinar correctamente la unidad de medida en la recta",
+          "detalle": "Para hallar la unidad de medida entre dos marcas conocidas, hay que calcular la diferencia entre esos n\u00FAmeros y dividirla por la cantidad de segmentos. Por ejemplo, entre 50 y 90 hay 40 unidades de distancia y 4 segmentos, entonces cada segmento vale 40 \u00F7 4 = 10. Error com\u00FAn: contar las marcas en vez de los segmentos. Si hay 5 marcas, hay 4 segmentos."
+        },
+        {
+          "titulo": "Traducir desigualdades coloquiales al rev\u00E9s",
+          "detalle": "Frases como \"el triple de h es a lo sumo el anterior a z\" se traduce como 3h \u2264 z \u2013 1. \"A lo sumo\" significa \u2264 (menor o igual). \"Supera\" significa > (mayor que). \"No supera\" significa \u2264 (menor o igual). Es fundamental identificar correctamente cada frase clave. Una tabla de referencia: \"es mayor que\" \u2192 >, \"es menor que\" \u2192 <, \"es a lo sumo / no supera\" \u2192 \u2264, \"es por lo menos / supera\" \u2192 \u2265."
+        }
+      ]
+    }
+  }
+}

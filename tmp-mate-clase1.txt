@@ -1,0 +1,273 @@
+
+--- PAGINA 1 ---
+Números naturales
+
+--- PAGINA 2 ---
+Introducción
+¡Hola a todas y todos!
+En esta primera clase se trabajará con el conjunto de los números naturales, las
+distintas operaciones en ese conjunto, las propiedades de las mismas y
+desarrollaremos distintas estrategias de cálculo. Se proponen algunas situaciones
+problemáticas resueltas a partir de las cuales se abordan los distintos contenidos a
+desarrollar.
+En los problemas planteados para que ustedes resuelvan, esperamos que puedan
+utilizar distintas estrategias de resolución que les permitan justi fi car las respuestas
+obtenidas.
+Las/os profesoras/es de Matemática del CIEEM.
+Contenidos
+Números naturales 2
+Las operaciones y sus propiedades 2
+Problemas 5
+CLAVES DE AUTOCORRECCIÓN 7
+1
+
+--- PAGINA 3 ---
+Números naturales
+Las operaciones y sus propiedades
+A continuación fi guran algunas propiedades de las operaciones de los números
+naturales.
+2
+
+--- PAGINA 4 ---
+Cuando en un cálculo intervienen varias operaciones, hay que seguir un orden
+establecido para no alterar el resultado.
+●
+●
+Emilia y Bruno tienen que resolver varios cálculos que les dio de tarea la maestra.
+● 7 + 14 + 3 + 5 + 6 + 5 + 11 + 30 + 9 =
+Emilia propone reordenar y asociar los sumandos para que el cálculo sea más fácil.
+● 25 . 32 . 4 . 5 =
+Bruno dice que de la misma manera podemos trabajar con la multiplicación.
+3
+
+--- PAGINA 5 ---
+● 85 . 6 =
+Puedo hacer:
+85 . 6 = (80 + 5) . 6 =
+80 . 6 + 5 . 6 = 480 + 30 = 510
+También:
+85 . 6 = (90 - 5) . 6 =
+90 . 6 - 5 . 6 = 540 - 30 = 510
+4
+
+--- PAGINA 6 ---
+Problemas
+1) Uní con una fl echa cada expresión con su correspondiente resultado.
+Expresión Resultado
+a. 4 . 20 - (10 : 2 + 3) =
+b. 4 . (20 - 10 : 2) + 3 =
+c. 4 . (20 - 10) : 2 + 3 =
+d. 4 . 20 - 10 : (2 + 3) =
+e. (4 . 20 - 10) : 2 + 3 =
+23
+78
+72
+38
+63
+2) Sin hacer todas las cuentas, indicá cuál o cuáles de los siguientes cálculos tienen el
+mismo resultado que 520 . 9 y justi fi cá tu respuesta.
+a. 520 . 3 2
+b. 520 . (10 – 1)
+c. 520 . 10 – 520
+d. 3 . 3 . 520
+e. 520 . 10 – 1
+f. 520 . (3 + 6)
+g. 520 . 3 + 6
+h. 520 . 3 + 520 . 6
+3) Gastón fue a la librería a comprar útiles para sus hijos. Compró 5 repuestos de hojas
+rayadas a $250 cada uno, 3 repuestos de hojas cuadriculadas a $200 cada uno y 12
+lapiceras iguales a $34 cada una. Como no le alcanzaba el dinero que había llevado,
+tuvo que devolver 3 lapiceras y 2 repuestos de hojas rayadas. Pagó el total de la compra
+en 3 cuotas del mismo importe.
+a. Elegí la expresión que permite calcular el importe de cada cuota.
+A. 3 . 250 + 3 . 200 + 9 . 34 : 3
+B. (5 . 250 + 3 . 200 + 12 . 34) : 3
+C. (3 . 250 + 3 . 200 + 9 . 34) : 3
+D. (5 - 2) . 250 + 3 . 200 + (12 - 3) . 34 : 3
+5
+
+--- PAGINA 7 ---
+b. ¿Cuánto debe pagar Gastón por el total de la compra?
+4) Usá las propiedades de las operaciones en N 0 y encontrá una estrategia que facilite
+estos cálculos:
+a. 11 + 13 + 9 + 27 + 20 =
+b. 25 . 3 . 8 . 10 =
+c. 19 . 73 =
+5) A partir de 5 . 12 = 60 hallá los resultados de los siguientes cálculos:
+a. 24 . 5 =
+b. 50 . 120 =
+c. 12 . 7 =
+d. 6 . 5 =
+e. 10 . 36 =
+f. 20 . 9 =
+6) Marité compró cotillón para su fi esta de cumpleaños. La siguiente factura, que está
+incompleta, corresponde a la compra que hizo Marité.
+a. Completá la factura con los datos que faltan.
+Cantidad Detalle
+Precio unitario
+(en $)
+Precio total
+(en $)
+22 Anillos 18
+Pulseras 30 420
+36 Silbatos 900
+Total
+b. Si Marité paga con $2000 en efectivo, ¿cuánto recibe de vuelto?
+c. Si paga con tarjeta de crédito en cinco cuotas, el precio en efectivo tiene un
+recargo de $544. ¿Cuál es el valor de cada cuota?
+6
+
+--- PAGINA 8 ---
+Claves de
+Autocorrección
+___
+Problema 1
+Uní con una fl echa cada expresión con su correspondiente resultado.
+Expresión Resultado
+a. 4 . 20 - (10 : 2 + 3) =
+b. 4 . (20 - 10 : 2) + 3 =
+c. 4 . (20 - 10) : 2 + 3 =
+d. 4 . 20 - 10 : (2 + 3) =
+e. (4 . 20 - 10) : 2 + 3 =
+23
+78
+72
+38
+63
+Respuesta correcta: a. 72 , b. 63 , c. 23 , d. 78 y e. 38 .
+Problema 2
+Sin hacer todas las cuentas, indicá cuál o cuáles de los siguientes cálculos tienen el
+mismo resultado que 520 . 9 y justi fi cá tu respuesta.
+a. 520 . 3 2 Es correcto, ya que 9 = 3 2
+b. 520 . (10 – 1) Es correcto, ya que 9 = 10 – 1 .
+c. 520 . 10 – 520 Es correcto, ya que se aplica la propiedad distributiva de la
+7
+
+--- PAGINA 9 ---
+multiplicación con respecto a la sustracción:
+520 . (10 – 1) = 520 . 10 – 520 .
+d. 3 . 3 . 520 Es correcto, ya que 9 = 3 . 3 y, además, se aplica la
+propiedad conmutativa de la multiplicación:
+520 . 9 = 520 . 3 . 3 = 3 . 3 . 520 .
+e. 520 . 10 – 1 Volvé a intentarlo. En esta expresión, primero resolvemos la
+multiplicación 520 . 10 y luego la resta.
+f. 520 . (3 + 6) Es correcto, ya que 9 = 3 + 6 .
+g. 520 . 3 + 6 Volvé a intentarlo. En este cálculo primero resolvemos el
+producto 520 . 3 y luego se le suma 6.
+h. 520 . 3 + 520 . 6 Es correcto, ya que se aplica la propiedad distributiva de la
+multiplicación con respecto a la adición:
+520 . (3 + 6) = 520 . 3 + 520 . 6 .
+Problema 3
+Gastón fue a la librería a comprar útiles para sus hijos. Compró 5 repuestos de hojas
+rayadas a $250 cada uno, 3 repuestos de hojas cuadriculadas a $200 cada uno y 12
+lapiceras iguales a $34 cada una. Como no le alcanzaba el dinero que había llevado,
+tuvo que devolver 3 lapiceras y 2 repuestos de hojas rayadas. Pagó el total de la compra
+en 3 cuotas del mismo importe.
+a. Elegí la expresión que permite calcular el importe de cada cuota.
+A. 3 . 250 + 3 . 200 + 9 . 34 : 3 No es correcta porque solo se divide por 3
+(que es la cantidad de cuotas) el gasto de
+las lapiceras.
+B. (5 . 250 + 3 . 200 + 12 . 34) : 3 No es correcta, ya que en ella no se
+consideró que Gastón devolvió 2
+repuestos de hojas rayadas y 3 lapiceras.
+C. (3 . 250 + 3 . 200 + 9 . 34) : 3 ¡Es correcta!
+D. (5 - 2) . 250 + 3 . 200 + (12 - 3) . 34 : 3 No es correcta porque solo se divide por 3
+(que es la cantidad de cuotas) el gasto de
+las lapiceras.
+Explicación:
+8
+
+--- PAGINA 10 ---
+Gastón compró 5 repuestos de hojas rayadas, pero como el dinero no le alcanzaba,
+devolvió 2, con lo cual fi nalmente compró 3 (5 – 2) repuestos de hojas rayadas.
+En un principio, Gastón también compró 12 lapiceras, pero tuvo que devolver 3 porque
+no le alcanzaba el dinero que llevó, con lo cual fi nalmente compró 9 (12 – 3) lapiceras.
+Luego, Gastón debió abonar:
+● por los 3 repuestos de hojas rayadas: 3 . $250
+● por los 3 repuestos de hojas cuadriculadas: 3 . $200
+● por las 9 lapiceras: 9 . $34
+Para averiguar el gasto total de Gastón, sumamos lo que gastó en los 3 repuestos de
+hojas rayadas, los 3 repuestos de hojas cuadriculadas y las 9 lapiceras:
+3 . $250 + 3 . $200 + 9 . $34
+Pero como Gastón pagó el total de la compra en 3 cuotas del mismo importe, entonces
+se debe dividir por 3 el resultado del cálculo anterior:
+( 3 . $250 + 3 . $200 + 9 . $34) : 3
+Por lo tanto, la única opción correcta es la siguiente expresión:
+(3 . 250 + 3 . 200 + 9 . 34) : 3 .
+La opción 3 . 250 + 3 . 200 + 9 . 34 : 3 no es correcta, porque solo se divide por 3 (que
+son la cantidad de cuotas) al gasto de las lapiceras.
+La opción (5 . 250 + 3 . 200 + 12 . 34) : 3 no es correcta, ya que en ella no se consideró
+que Gastón devolvió 2 repuestos de hojas rayadas y 3 lapiceras.
+La opción ( 5 – 2) . 250 + 3. 200 + (12 – 3) . 34 : 3 no es correcta, porque solo se divide
+por 3 (que son la cantidad de cuotas) al gasto de las lapiceras.
+b. ¿Cuánto debe pagar Gastón por el total de la compra?
+Gastón debe pagar $1656 por el total de la compra.
+A continuación se muestra la expresión correcta para llegar al resultado:
+3 . 250 + 3 . 200 + 9 . 34 = 750 + 600 + 306 = $1656
+Problema 4
+Usá las propiedades de las operaciones en N 0 y encontrá una estrategia que facilite
+estos cálculos:
+a. 11 + 13 + 9 + 27 + 20 =
+A continuación te brindamos la resolución de este ítem del problema.
+11 + 13 + 9 + 27 + 20 = (11 + 9) + (13 + 27) + 20 = 20 + 40 + 20 = 80
+9
+
+--- PAGINA 11 ---
+b. 25 . 3 . 8 . 10 =
+A continuación te brindamos la resolución de este ítem del problema.
+25 . 3 . 8 . 10 = (25 . 3 ) . (8. 10) = 75 . 80 = 6000
+O bien:
+(25 . 8) . (3. 10) = 200 . 30 = 6000
+c. 19 . 73 =
+A continuación te brindamos la resolución de este ítem del problema.
+19 . 73 = (20 – 1) . 73 = 20 . 73 – 1 . 73 = 1460 – 73 = 1387
+Problema 5
+A partir de 5 . 12 = 60 hallá los resultados de los siguientes cálculos:
+a. 24 . 5 =
+A continuación te brindamos la resolución de este ítem del problema.
+24 . 5 = 2 . 12 . 5 = 2 . 60 = 120
+b. 50 . 120 =
+A continuación te brindamos la resolución de este ítem del problema.
+50 . 120 = 5 . 10 . 12 . 10 = 5 . 12 . 10 . 10 = 60 . 100 = 6000
+c. 12 . 7 =
+A continuación te brindamos la resolución de este ítem del problema.
+12 . 7 = 12 . (5 + 2) = 12 . 5 + 12 . 2 = 60 + 24 = 84
+d. 6 . 5 =
+A continuación te brindamos la resolución de este ítem del problema.
+6 . 5 = 5 . 6 = 5. 12 : 2 = 60 : 2 = 30
+e. 10 . 36 =
+A continuación te brindamos la resolución de este ítem del problema.
+10 . 36 = 2 . 5 . 3 . 12 = 2 . 3 . 5 . 12 = 6 . 60 = 360
+f. 20 . 9 =
+A continuación te brindamos la resolución de este ítem del problema.
+20 . 9 = 4 . 5 . 3 . 3 = 5 . 4 . 3 . 3 = 5 . 12. 3 = 60 . 3 = 180
+10
+
+--- PAGINA 12 ---
+Problema 6
+Marité compró cotillón para su fi esta de cumpleaños. La siguiente factura, que está
+incompleta, corresponde a la compra que hizo Marité.
+a. Completá la factura con los datos que faltan.
+Cantidad Detalle
+Precio
+unitario (en $)
+Precio total
+(en $)
+22 Anillos 18 396
+14 Pulseras 30 420
+36 Silbatos 25 900
+Total 1716
+Precio total de los anillos: 22 . 18 = 396
+Cantidad de pulseras: 420 : 30 = 14
+Precio unitario de los silbatos: 900 : 36 = 25
+Total de la factura: 396 + 420 + 900 = 396 + 1320 = 1716
+b. Si Marité paga con $2000 en efectivo, ¿cuánto recibe de vuelto?
+A continuación te brindamos la resolución de este ítem del problema.
+2000 – 1716 = 284
+Marité recibe $284 de vuelto.
+c. Si paga con tarjeta de crédito en cinco cuotas, el precio en efectivo tiene un
+recargo de $544. ¿Cuál es el valor de cada cuota?
+A continuación te brindamos la resolución de este ítem del problema
+(1716 + 544) : 5 = 452
+El valor de cada cuota es de $452 .
+11

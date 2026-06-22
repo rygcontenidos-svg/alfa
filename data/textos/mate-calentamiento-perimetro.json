@@ -1,0 +1,10 @@
+{
+  "id": "mate-calentamiento-perimetro",
+  "titulo": "Problema disparador: el cerco de la pileta",
+  "autor": "CIEEM 2026",
+  "genero": "otro",
+  "clase": "Clase 5",
+  "cuerpo": "Mar\u00EDa In\u00E9s quiere instalar un cerco de seguridad alrededor de una pileta de forma rectangular de 7 metros de largo y 4 metros de ancho. El cerco se colocar\u00E1 manteniendo, en todo momento, una distancia de un metro respecto del borde de la pileta.\n\na) \u00BFDe qu\u00E9 medidas es el rect\u00E1ngulo que forma el cerco?\nb) \u00BFCu\u00E1ntos metros de cerco, como m\u00EDnimo, necesita comprar?\n\nPista: el cerco queda 1 m m\u00E1s afuera de cada lado de la pileta, as\u00ED que el largo del cerco es 7 + 1 + 1 = 9 m.",
+  "solucion": "a) El cerco mide 9 m de largo (7 + 1 + 1) y 6 m de ancho (4 + 1 + 1).\nb) Perímetro del cerco = 2 × (9 + 6) = 2 × 15 = 30 metros de cerco como mínimo.\n\nRazonamiento: el cerco va 1 m más afuera de cada borde. En el largo: 7 + 1 + 1 = 9 m. En el ancho: 4 + 1 + 1 = 6 m. Perímetro = 2 × (largo + ancho) = 2 × 15 = 30 m.",
+  "notas_al_pie": []
+}

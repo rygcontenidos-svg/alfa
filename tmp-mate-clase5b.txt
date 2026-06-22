@@ -1,0 +1,288 @@
+
+--- PAGINA 1 ---
+Perímetro del cuadrado,
+rectángulo y triángulo
+02 .05.202 6
+─
+CLASE 1
+Texto simulado texto
+
+--- PAGINA 2 ---
+Texto simulado texto
+Introducción
+¡Hola a todas y todos!
+Este sábado les presentamos una nueva propuesta de trabajo.
+En esta oportunidad trabajaremos el concepto de perímetro y lo aplicaremos a las
+siguientes fi guras: cuadrado, rectángulo y triángulo.
+En esta clase se proponen algunas situaciones problemáticas resueltas y a partir de las
+cuales se abordan los distintos contenidos a desarrollar. En los problemas planteados
+para que ustedes resuelvan, esperamos que puedan utilizar distintas estrategias de
+resolución que les permitan justi fi car las respuestas obtenidas.
+Las/os profesoras/es de Matemática del CIEEM.
+Contenidos
+Perímetro del cuadrado, rectángulo y triángulo 2
+Problemas 5
+Más problemas 8
+CLAVES DE AUTOCORRECCIÓN 11
+1
+
+--- PAGINA 3 ---
+Perímetro del cuadrado, rectángulo y triángulo
+En esta clase comenzaremos a trabajar con el concepto de perímetro .
+● Emilia tiene dos piezas de cartulina: un cuadrado rojo de 10 cm de lado y un
+rectángulo verde con el lado mayor de 16 cm y el lado menor de 7 cm.
+¿Cuál es, en centímetros, el perímetro de cada fi gura?
+Para calcular el perímetro del cuadrado, multiplicamos
+10 cm por 4, ya que sus cuatro lados tienen la misma
+medida, es decir que sus cuatro lados son congruentes.
+Perímetro del cuadrado = 10 cm . 4 = 40 cm
+Para calcular el perímetro del rectángulo, recordemos
+que sus lados opuestos son congruentes .
+2
+
+--- PAGINA 4 ---
+Las dos expresiones para calcular el perímetro del rectángulo son correctas.
+● Emilia decide pegar ambas piezas y formar una nueva fi gura.
+¿Cuál es, en centímetros, el perímetro de la nueva fi gura?
+Para calcular el perímetro de la fi gura, es decir, la longitud de
+su contorno, debemos sumar las medidas de los lados que
+forman su contorno .
+Dado que las medidas de los lados del cuadrado y del
+rectángulo son datos que ya conocemos, solo nos queda
+determinar la medida del segmento AB .
+3
+
+--- PAGINA 5 ---
+Entonces, hacemos: 10 cm . 3 + 16 cm . 2 + 7 cm + 3 cm = 72 cm .
+El perímetro de la fi gura es 72 cm.
+Otra manera de calcular el perímetro de la fi gura que formó Emilia es hallar el
+perímetro del cuadrado rojo (pues la medida del lado menor del rectángulo verde más
+la medida del segmento AB es igual a la medida del lado del cuadrado rojo) y sumarle
+las medidas de los dos lados mayores del rectángulo, es decir:
+10 cm . 4 + 16 cm . 2 = 72 cm.
+● Bruno recorta en el rectángulo verde un cuadrado de 5 cm de lado.
+¿Cuál es, en centímetros, el perímetro de la fi gura?
+4
+
+--- PAGINA 6 ---
+Para calcular el perímetro, es decir, la longitud
+del contorno de la fi gura, sumamos el
+perímetro del cuadrado más el perímetro del
+rectángulo.
+Problemas
+1) Cada cuadrado rosa de la cuadrícula tiene 1 cm de lado.
+Sobre la cuadrícula se han dibujado las fi guras A , B y C , utilizando 6 cuadrados de color
+rosa.
+5
+
+--- PAGINA 7 ---
+a. ¿Cuál es, en centímetros, el perímetro de la fi gura A ? ¿Y el de la B ?
+b. ¿El perímetro de la fi gura C es mayor, menor o igual que el perímetro de la fi gura
+B ?
+c. Emilia dibujó sobre la cuadrícula anterior la fi gura D y a fi rma que con esta fi gura
+obtiene el mayor perímetro posible utilizando 6 cuadrados de color rosa.
+1. ¿Es verdadera o falsa esta a fi rmación?
+2. ¿Cuál es, en centímetros, el perímetro de la fi gura D ?
+2) Las siguientes fi guras son un cuadrado y un rectángulo. El lado menor del rectángulo
+mide lo mismo que el lado del cuadrado. El perímetro del cuadrado es 16 cm y el del
+rectángulo es 24 cm.
+6
+
+--- PAGINA 8 ---
+a. ¿Cuál es el perímetro de la fi gura formada por el cuadrado y el rectángulo?
+b. ¿Cuál es el perímetro de la fi gura formada por el cuadrado y el rectángulo?
+3) La siguiente fi gura está formada por un triángulo equilátero y un rectángulo. La
+medida de la base del rectángulo es el doble de la medida de la altura.
+¿Cuál es el perímetro del triángulo si el perímetro de la fi gura es 1050 cm?
+4) El cuadrado MPQR está formado por nueve cuadrados congruentes. Si el perímetro
+del cuadrado MPQR es 132 cm, ¿cuál es el perímetro, en centímetros, de la zona
+coloreada?
+7
+
+--- PAGINA 9 ---
+5) La siguiente fi gura está formada por un rectángulo de color azul al que se le quita un
+cuadrado de lado p y se le agrega un cuadrado azul de lado 2 p .
+a. ¿Cuál de las siguientes expresiones permite calcular, en centímetros, el perímetro de
+la fi gura?
+Elegí la opción correcta.
+a. 2 . 38 + 2 . 24 + 8 p
+b. 38 + 24 + 8 p
+c. 38 + 24 + 4 p
+d. 2 . 38 + 2 . 24 + 4 p
+b. Calculá el perímetro de la fi gura si p = 2 cm.
+6) ¿Cuál de las siguientes expresiones permite calcular el perímetro de la fi gura?
+Elegí la opción correcta.
+a. 3 a + 2
+b. 7 a – 6
+c. 7 a + 6
+d. 7 a + 4
+Más problemas
+7 ) Las siguientes figuras están formadas por un cuadrado gris al que se le quitaron dos
+rectángulos blancos congruentes.
+Elegí la o las figuras que tienen el mayor perímetro.
+8
+
+--- PAGINA 10 ---
+8 ) Si la medida de un lado de un rectángulo disminuye 7 cm, se obtiene un cuadrado de
+36 cm de perímetro.
+Elegí la opción que corresponda a la medida, en centímetros, de ese lado del rectángulo
+original.
+a. 13 cm
+b. 9 cm
+c. 16 cm
+d. 18 cm
+9 ) La siguiente figura está formada por un cuadrado de 15 cm de lado, al que se le quitó
+un triángulo. Las medidas, en centímetros, de los lados del triángulo corresponden a los
+primeros tres nú meros primos impares.
+Calculá, en centímetros, el perímetro de la figura.
+10 ) La siguiente figura está formada por dos cuadrados congruentes de color verde y
+un cuadrado azul. El perímetro del cuadrado azul es 16 cm. La medida del lado de cada
+cuadrado verde es igual al doble de la medida del lado del
+cuadrado azul, disminuido en 3 cm.
+9
+
+--- PAGINA 11 ---
+¿Cuál es, en centímetros, el perímetro de la figura?
+11 ) La figura está formada por ocho rectángulos congruentes y el lado mayor de
+cada uno de ellos mide 20 cm.
+¿Cuál es, en centímetros, el perímetro de la figura?
+10
+
+--- PAGINA 12 ---
+Claves de
+Autocorrección
+___
+Problema 1
+a. La fi gura A y la fi gura B están formadas por la misma cantidad de cuadrados de
+color rosa .
+Sin embargo, el perímetro de la fi gura A es 10 cm y el perímetro de la fi gura B es
+14 cm .
+b. Respuesta correcta:
+La fi gura C está formada por la misma cantidad de cuadrados rosa que
+las fi guras A y B .
+El perímetro de la fi gura C es 14 cm . Por lo tanto, el perímetro de la fi gura C es
+igual al perímetro de la fi gura B .
+c.
+1. La a fi rmación de Emilia es verdadera .
+2. El perímetro de la fi gura D es 24 cm .
+Problema 2
+a. Como el perímetro del cuadrado es 16 cm, entonces el lado del cuadrado mide:
+16 cm : 4 = 4 cm.
+Como el lado menor del rectángulo mide lo mismo que el lado del cuadrado y el
+perímetro del rectángulo es 24 cm, entonces el lado mayor del rectángulo mide:
+(24 cm – 2 . 4 cm) : 2 = (24 cm – 8 cm) : 2 = 16 cm : 2 = 8 cm.
+11
+
+--- PAGINA 13 ---
+b.
+Problema 3
+Para calcular el perímetro de la fi gura, hay que sumar las medidas de dos lados del
+triángulo, las medidas de los dos lados mayores del rectángulo y la medida de un lado
+menor del rectángulo (o sea, la altura del rectángulo).
+Como la medida de la base del rectángulo, o sea la medida del lado mayor del
+rectángulo, es el doble de la medida de la altura, la medida de los dos lados mayores
+del rectángulo es igual a cuatro veces la medida de la altura del rectángulo .
+Como el triángulo es equilátero, la medida del lado del triángulo es igual a la medida de
+la altura del rectángulo. Entonces, la medida de dos lados del triángulo es igual a dos
+veces la medida de la altura del rectángulo .
+Luego, el perímetro de la fi gura es igual a siete veces (1+ 4 + 2) la medida de la altura del
+rectángulo. Como, además, el perímetro de la fi gura es 1050 cm, entonces la medida de
+la altura del rectángulo es: 1050 cm : 7 = 150 cm .
+Por lo tanto, el perímetro del triángulo es: 3 . 150 cm = 450 cm .
+Problema 4
+Como el perímetro del cuadrado MPQR es 132 cm, cada uno de sus lados mide:
+132 cm : 4 = 33 cm.
+12
+
+--- PAGINA 14 ---
+Como la medida de cada lado del cuadrado MPQR está formada por la medida del lado
+de tres de los nueve cuadrados congruentes, entonces cada una de estas medidas es:
+33 cm : 3 = 11 cm.
+Luego, el perímetro de cada uno de los nueve cuadrados congruentes se calcula así:
+11 cm . 4 = 44 cm.
+Por lo tanto, como la zona coloreada está formada por cinco cuadrados congruentes, el
+perímetro en centímetros de la zona coloreada es:
+44 cm . 5 = 220 cm.
+Problema 5
+a. Respuesta correcta:
+Para calcular el perímetro de la fi gura, a la longitud del contorno se le tiene que
+sumar el perímetro del cuadrado de lado p . Hacemos entonces:
+24 . 2 + 38 . 2 + 4p + 4p = 2. 24 + 2. 38 + 8 p
+En las otras tres expresiones no se consideran algunos tramos del perímetro de
+la fi gura:
+● En la expresión 2 . 38 + 2 . 24 + 4 p , no se considera el perímetro del
+cuadrado de lado p .
+13
+
+--- PAGINA 15 ---
+● En la expresión 38 + 24 + 4 p , solamente se consideran dos lados del
+rectángulo y no se considera el perímetro del cuadrado de lado p .
+● En la expresión 38 + 24 + 8 p , solamente se consideran dos lados del
+rectángulo.
+b. Perímetro = 2. 24 cm + 2. 38 cm + 8. 2 cm = 48 cm + 76 cm + 16 cm = 140 cm .
+Problema 6
+Respuesta correcta:
+MAS PROBLEMAS
+Problema 7
+Respuesta correcta: figura 2 .
+Teniendo en cuenta que el perímetro de una figura es la longitud de su contorno, para
+determinar cuál de las tres figuras tiene mayor perímetro, vamos a determinar nuevas
+figuras con un perímetro equivalente a la figura 1 y a la figura 3 y, luego, compararemos
+entre sí los perímetros de las nuevas figuras.
+La longitud de los dos lados de los rectángulos blancos que se le quitaron al cuadrado,
+indicados con color amarillo, es la misma que la longitud de los dos lados indicados con
+color verde en estos rectángulos.
+Por lo tanto:
+14
+
+--- PAGINA 16 ---
+Por lo tanto, podemos concluir que el perímetro de la fi gura 3 es mayor que el
+perímetro de la fi gura 1.
+15
+
+--- PAGINA 17 ---
+Al comparar el perímetro de la fi gura 2 con el de la fi gura 3, se observa que el perímetro
+de la fi gura 3 es igual al perímetro del cuadrado gris más las medidas de los cuatro
+lados de un rectángulo blanco; en cambio, el perímetro de la fi gura 2 es igual al
+perímetro del cuadrado gris más las medidas de los cuatro lados de dos rectángulos
+blancos, por lo tanto:
+De las tres fi guras, la que tiene el mayor perímetro es la fi gura 2 .
+Problema 8
+16
+
+--- PAGINA 18 ---
+La medida del lado del rectángulo que tenemos que determinar es 16 cm .
+Problema 9
+Las medidas de los lados del triángulo
+corresponden a los tres primeros números
+primos impares; por lo tanto, dichas
+medidas son 3 cm, 5 cm y 7 cm.
+17
+
+--- PAGINA 19 ---
+Ubicamos en la fi gura de análisis las medidas de
+todos los lados.
+Teniendo en cuenta que el perímetro de una fi gura
+es la longitud de su contorno, para determinarlo se
+tienen que sumar las medidas de los cuatro lados
+del cuadrado y las medidas de los tres lados del
+triángulo.
+El perímetro de la fi gura es 75 cm .
+Problema 10
+18
+
+--- PAGINA 20 ---
+Cálculo del perímetro de la fi gura:
+El perímetro de la figura es 38 cm .
+Problema 11
+Como la medida del lado mayor de cada uno de los rectángulos es 20 cm, la medida del
+lado mayor de la figura es: 20 cm . 3 = 60 cm.
+Como la medida del lado mayor de la fi gura está formada por la medida del lado menor
+de cinco rectángulos congruentes, entonces el lado menor de cada uno de los
+rectángulos congruentes mide: 60 cm : 5 = 12 cm.
+19
+
+--- PAGINA 21 ---
+Por lo tanto, el perímetro de la fi gura es:
+2 . 60 cm + 2 . 20 cm + 2 . 12 cm = 120 cm + 40 cm + 24 cm = 184 cm.
+20

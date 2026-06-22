@@ -1,0 +1,156 @@
+
+--- PAGINA 1 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 1 - 28 de marzo de 2026
+Clase n° 1 - 28/3/2026 1
+Números naturales. Orden de las operaciones . Propiedades de las operaciones . Estrategias de
+cálculo.
+1. En un jardín de infantes se decidió regalar un chupetín de frutilla o limón a cada uno de los
+85 niños que concurrieron el primer día de clase s . Los chupetines de frutilla se compraron
+en bolsas con 15 chupetines cada una y los de limón se adquirieron en cuatro bolsas que
+contenían 10 chupetines cada una.
+a) ¿C uánto s niños recibieron un chupetín de frutilla?
+b) ¿Cuántas bolsas con chupetines se co mpraron en total?
+2. En cada ítem, marcá con una X en el correspondiente el resultado de cada cálculo.
+a) 25 – 10 + 8 – 17 + 5 = 21 1 11
+b) 6 . 8 : 4 : 2 = 6 24 3
+c) 24 – 12 : 2 + 3 : 3 = 3 19 7
+d) 7 + 4 . 5 – 10 : 5 = 53 25 9
+3. a) Considerá el cálculo 62 + 34 + 9 + 16 + 11 + 8, ordená los sumandos de tal forma que
+dicho cálculo resulte más sencillo de resolver y hallá su resultado.
+b) Ordená los factores del cálculo 25 . 18 . 4 de forma tal que ese cálculo sea más fácil de
+resolver y obtené el resultado.
+4. Uní con una flecha cada cálculo de la primera columna con su equivalente de la segunda
+columna , sin hacer cuentas. Además, escribí sobre la línea de puntos la o las propiedades de
+las operaciones que utilizaste en cada caso.
+12 + 5
+(6 . 8) . 9
+20 . 4
+(7 + 8) + 3
+9 . (5 + 1)
+11 . (8 – 4)
+(10 + 2) . 3
+6 . (8 . 9)
+7 + (3 + 8 )
+9 . 1 + 9 . 5
+5 + 12
+10 . 3 + 2 . 3
+9 . (6 . 8)
+3 . (10 + 2)
+4 . 20
+11 . 8 – 11 . 4
+…………………………………………..
+…………………………………………..
+…………………………………………..
+…………………………………………..
+…………………………………………..
+…………………………………………..
+…………………………………………..
+…………………………………………..
+…………………………………………..
+
+--- PAGINA 2 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 1 - 28 de marzo de 2026
+Clase n° 1 - 28/3/2026 2
+5 . En un edificio, el consorcio quiere pintar l a entrada principal y los pasillos de cada piso . Para
+ello , decide comprar latas de pintura, pinceles y rodillos. Algunos de los datos de la factura
+de dicha compra son los siguientes:
+a) Completá la tabla anterior con los datos que faltan.
+b) Si se permite abonar la tercera parte del monto de la compra al contado y el resto del
+gasto en cuatro cuotas iguales sin interés, ¿ cuál es el importe de cada cuota?
+6. La capacidad de un cine es de 20 filas con 18 butacas en cada una de ellas . El sábado por la
+noche , durante la transmisión de la película , se ocuparon 13 filas completas. En las filas
+restantes, quedaron vacías cuatro butacas en cada una de ellas .
+a) ¿Cuál o cuáles de las siguientes expresiones permite n calcular la cantidad de butacas que
+quedaron vacías en el cine el sábado por la noche?
+20 . 18 – 13 . 18 – 7 . 4 360 – 18 . 13 – (20 – 13) . 4
+360 – 13 . 18 – 7 . (18 – 4) (20 – 13) . 4
+b) ¿Cuántas personas asistieron al cine el sábado por la noche?
+Tarea : resolvé los problemas del 1 al 10 de la sección de Matemát ica del libro del CIEEM
+202 6 que corresponde a “Las operaciones y sus propiedades” del apartado Números n aturales .
+L os problemas de tarea y sus respectivas respuestas se encuentran entrando en cualquiera de los
+siguientes links :
+https://www.cnba.uba.ar/curso - de - ingreso/clases
+https://www.cpel.uba.ar/index.php/clases - y - materiale s - de - estudio
+Cantidad Detalle
+Precio unitario
+(en $)
+Precio total
+(en $)
+4 Latas de pintura 40000
+Pinceles 5500 110 00
+3 Rodillos 270 00
+Total
+
+--- PAGINA 3 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 1 - 28 de marzo de 2026
+Clase n° 1 - 28/3/2026 3
+Números naturales
+Los números 1, 2, 3, 4 , etcétera son los que desde la antigüedad se utilizaron para
+contar objetos. El número 0 recién aparece en la India en una inscripción del año
+876 y es introducido por los árabes en Europa en el siglo XII .
+Llamaremos N al conjunto formado por los números naturales y N 0 al conjunto
+formado por los números naturales y el cero.
+Las operaciones y sus propiedades
+A continuación les presentamos algunas propiedades de las operaciones de
+números naturales.
+Cuando en un cálculo intervienen varias operaciones hay que seguir un orden
+establecido para no alterar el resultado.
+ 5 . (7 – 4) – (2 + 4) =
+= 5 . 3 – 6 =
+= 15 – 6 = 9
+Propiedades
+ Conmutativa de la adición: a + b = b + a
+ Asociativa de la adición: (a + b) + c = a + (b + c)
+ Conmutativa de la multiplicación: a . b = b . a
+ Asociativa de la multiplicación: (a . b). c = a . (b . c)
+ Distributiva de la multiplicación respecto de la adición: (a + b) . c = a . c + b . c
+ Distributiva de la multiplicación respecto de la sustracción:
+( a – b ) . c = a . c – b . c, con a ≥ b
+Las letras a, b y c representan números naturales cualesquiera o el cero.
+Si al realizar un cálculo aparecen:
+ solo adiciones y/o sustracciones.
+ solo multiplicaciones y/o divisiones ,
+se efectúan las operaciones
+indicadas en el orden en que
+aparecen, de izquierda a derecha.
+N = {1, 2, 3, 4, 5, 6, …} N 0 = {0, 1, 2, 3, 4, 5, 6, …}
+
+--- PAGINA 4 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 1 - 28 de marzo de 2026
+Clase n° 1 - 28/3/2026 4
+ (4. 7 : 2 – 4) : 2 =
+= (28 : 2 – 4) : 2 =
+= (14 – 4) : 2 =
+= 10 : 2 = 5
+Emilia y Bruno tienen que resolver varios cálculos que les dio de tarea la maestra.
+ 7 + 14 + 3 + 5 + 6 + 5 + 11 + 30 + 9 =
+Emilia propone reordenar y asociar los sumandos para que el cálculo sea más f ácil.
+ 25 . 32 . 4 . 5 =
+Bruno dice que de la misma manera podemos trabajar con la multiplicación.
+ 85 . 6 =
+Si al realizar un cálculo aparecen
+adiciones, sustracciones, multiplicaciones,
+divisiones, potencias y/o raíces, se
+resuelven:
+1ero. las operaciones entre paréntesis,
+2do . las potencias y/o las raíces,
+3ero . las multiplicaciones y/o divisiones,
+4to. las adiciones y/o sustracciones.
+100
+160
+25 . 32 . 4 . 5 = 100 . 160 = 16 000
+Puedo hacer: 85 . 6 = (80 + 5). 6 =
+= 80 . 6 + 5 . 6 = 480 + 30 = 510 .
+T ambién : 85 . 6 = (90 – 5). 6 =
+= 90 . 6 – 5 . 6 = 540 – 30 = 510 .
+= 10 + 20 + 10 + 20 + 30 = 90 7 + 14 + 3 + 5 + 6 + 5 + 11 + 30 + 9
+20
+20 10 10

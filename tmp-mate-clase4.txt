@@ -1,0 +1,63 @@
+
+--- PAGINA 1 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 4 - 25 de abril de 202 6
+Clase n° 4 - 25 / 4 /202 6 13
+Números primos y compuestos. Descomposición en factores primos.
+1. Eli y Norberto juegan con un mazo de cartas numeradas. En cada jugada, cada participante
+extrae una carta del mazo y anota todos los divisores del número que figura en ella. Luego de
+cuatro jugadas, cada participante cuenta los divisores que anotó. Gana el juego quien obt iene
+la mayor cantidad de divisores de los números de sus cartas.
+A continuación se representan las cartas que obtuvieron Eli y Norberto luego de cuatro
+jug adas:
+Eli Norberto
+a) ¿Cuántos divisores tiene cada uno de los números que figuran e n las cartas que Eli retiró
+del mazo?
+b) ¿Es correcto afirmar que Norberto ganó el juego? ¿Por qué?
+c) Tené en cuenta los números de las cartas obtenidas por Eli y Norberto y , en la
+representación anterior, encerrá en un recuadro con color rojo aquell os que tienen solo dos
+divisores y con color azul los que tienen más de dos div isores.
+d) Considerá la cantidad de divisores que puede tener un número natural y el cero y completá
+las siguientes frases para que sean verdaderas.
+i. Los números naturales que tienen solo dos divisores se denominan …………………. .
+ii. Los números naturales que tienen más de dos divisores se llaman ………………….. . .
+iii. El 0 y el 1 no son primos ni compuesto s , porque ……………………………………. .
+2. Eli y Norberto juegan una nueva partida con el mazo de cartas numeradas . En alguna s de
+las cuatro cartas que Eli extrajo del mazo se borraron los números , como muestran las
+siguientes figuras :
+Completá los c írculos vacíos con el número correspondiente de acuerdo con estas consignas:
+ el doble del número primo comprendido entre 13 y 19 ;
+ el número divisible por 3 y 7, que es mayor que 63 y menor que 91;
+ el mayor número primo de dos cifras menor que 37.
+3 . Marcá con una X en el correspondiente el único número primo y escribí cómo lo
+obtuviste.
+7851 5381 5492 6485
+
+--- PAGINA 2 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 4 - 25 de abril de 202 6
+Clase n° 4 - 25 / 4 /202 6 14
+4. Considerá la expresión 47 < h ≤ 60 en la cual h representa un número natural y escribí un
+valor de h que cumpla , además, con la condición indicada en cada ítem:
+a) que sea el menor número primo;
+b) que posea solo cuatro divisores y sea múltiplo de 5;
+c) que sea el mayor número compuesto impar.
+5 . a) ¿Cuál es el mayor número de tres cifras que tiene como único divisor primo a 5?
+b) ¿Cuál es el menor número de cuatro cifras que tiene solo dos divisores primos y es
+divisible por 35 ?
+6. a) Sin considerar el 1 como factor, escribí , si es posible, el número 280 de cada una
+de las siguientes formas:
+i. como producto de dos factores;
+ii. como producto de tres factores;
+iii . como producto de la mayor cantidad de factores posibles.
+b) Escribí el número 396 como producto de factores primos.
+7. La descomposición en factores primos del número r es r = 2 3 . 5 2 . 11 . Escribí lo s números
+solicitado s en cada ítem.
+a) Tres divisores de r que sean múltiplos de 4.
+b) Tres divisores de r que sean impares.
+c) El mayor divisor del número r .
+Tarea : resolvé los problemas del 1 al 10 de la sección de Matemát ica del libro del CIEEM
+202 6 que corresponde a “Números primos y compuestos y Descomposición en factores
+primos” del apartado Números naturales.

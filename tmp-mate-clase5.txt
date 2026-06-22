@@ -1,0 +1,63 @@
+
+--- PAGINA 1 ---
+UBA
+CIEEM 202 6 /202 7
+Matemática - Clase n° 5 - 2 de mayo de 202 6
+Clase n° 5 - 2 / 5 /20 26 12
+Perímetro del cuadrado, rectángulo y triángulo .
+1. María Inés quiere instalar un cerco de seguridad alrededor de una pileta de forma rectangular
+de 7 metros de largo y 4 metros de ancho. El cerco se colocará manteniendo, en todo
+momento, una distancia de un metro respecto del borde de la pileta. ¿ Cuántos metros de
+cerco, como mínimo, necesita co mprar María Inés ?
+2. Para el vigésimo ani versario de un comedor infantil , los vecinos del barrio quieren fabricar
+un afiche como se muestra en el siguiente dibujo :
+Para confeccionar los dígitos del número 20 del afiche , los vecinos del barrio desean utilizar
+cuadrados congruentes de papel metalizado y un cordón dorado en el contorno de cada
+dígito .
+a) Si los vecinos del barrio utilizan cuadrados congruentes cuyo lado mide 8 cm, ¿cuál es la
+longitud , en centímetros, del cordón dorado que necesitan para bordear el dígito 2 del
+número 20 del afiche ?
+b) El perímetro de cada cuadrado de papel metalizado que los vecinos querrían usar es
+52 cm . ¿ Cuántos centímetros de cordón dorado tendrían que utilizar los vecinos del
+barrio para bordear el dígito 0 del número 20 del afiche ?
+c) Si el número 20 que los vecinos del barrio confeccionan en el afiche tiene un perímetro de
+288 cm, ¿cuánto mide , en centímetros, el lado de cada cuadrado utilizado ?
+3 . La figura gris es tá formada por tres rectángulos c ongruentes y
+un cuadrado al que se le quitó un triángulo equilátero.
+La medida, en centímetros, del lado menor del rectángulo es un
+número primo comprendido entre 11 y 16.
+La longitud del lado mayor del rectángulo es el doble de la de su
+lado menor.
+Calculá, en centímetros, el perímetro de la figura gris.
+años cocinando con amor
+
+--- PAGINA 2 ---
+UBA
+CIEEM 202 6 /202 7
+Matemática - Clase n° 5 - 2 de mayo de 202 6
+Clase n° 5 - 2 / 5 /20 26 13
+4 . Los siguientes triángulos son congruentes y a cada uno de ellos se le qui taron tres c uadrados
+también congruentes .
+a) Comple t á so b re la línea de puntos con > , < o = según corresponda.
+Perímetro de la f ig ura A ......... Perímetro de la f ig ura B .
+b) El perímetro de cada cuadrado quitado es 24 cm y el de cada triángulo , 93 cm . Hallá, en
+centímetros, el perímetro de la figura B .
+5 . La figura está formada por dos rectángulos
+congruentes , dos cuadrados congruentes y dos
+triángulos equiláteros también congr ue ntes .
+La medid a del lado del cuadrado es igual a la
+medida del lado menor del rectángulo .
+La medida del lado mayor del rectángulo es d cm.
+a) Marcá con una X en el correspondiente la
+o las expresiones que permiten calcular, en
+centímetros, el perímetro de la figura.
+b) Si el valor de d es un divisor impar de 28 y distinto de 1, ¿cuál es , en centímetros , el
+perímetro de la figura?
+Tarea : resolvé los problemas del 1 al 7 de la sección de Matemática del libro del CIEEM 2026
+que corresponde a “ Perímetro del cuadrado, rectángulo y triángulo” del apartado Números
+naturales .
+2 d + 16 . 3
+4 d + 30 2 d + 12 . 3 + 2 . ( d – 3 )
+2 d + 1 8 . 3
+3 cm
+F ig ura A F ig ura B

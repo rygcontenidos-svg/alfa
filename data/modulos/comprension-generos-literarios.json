@@ -1,0 +1,318 @@
+{
+  "id": "comprension-generos-literarios",
+  "materia": "lengua",
+  "titulo": "Comprensión. Géneros literarios",
+  "descripcion": "Géneros literarios: narrativo, lírico y dramático. Características y reconocimiento. Comprensión lectora de textos de los tres géneros.",
+  "textos_ids": ["no-hay-ni-un-alma", "bajo-la-lluvia-ajena", "analisis-obra"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "sm_generos",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Cuáles son los tres géneros literarios que se reconocen actualmente?",
+      "opciones": [
+        { "id": "a", "texto": "Narrativo, lírico y dramático." },
+        { "id": "b", "texto": "Narrativo, descriptivo y dialogal." },
+        { "id": "c", "texto": "Poético, épico y trágico." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "vf_narrativo",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcar V o F sobre el género narrativo.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "i1", "afirmacion": "El género narrativo se caracteriza por la presencia de un narrador que cuenta hechos.", "respuesta": true },
+        { "id": "i2", "afirmacion": "El narrador solo puede presentar la historia de manera objetiva, nunca parcial.", "respuesta": false, "correccion": "El narrador puede presentar la historia de manera objetiva (3ª persona) o parcial (1ª persona, raramente 2ª)." },
+        { "id": "i3", "afirmacion": "El narrador es la 'voz' que el autor crea para contar la historia.", "respuesta": true },
+        { "id": "i4", "afirmacion": "'No hay ni un alma' de Silvana De Ingeniis pertenece al género narrativo.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "narrador_no_hay_ni_un_alma",
+      "tipo": "tipo_narrador",
+      "consigna": "¿Qué tipo de narrador tiene el cuento 'No hay ni un alma' de Silvana De Ingeniis? Justificá con una cita.",
+      "opciones": ["Narrador Protagonista", "Narrador Testigo", "Narrador Omnisciente"],
+      "correcta": "Narrador Protagonista",
+      "cita_justificacion": "Estoy orgullosa de mis sandalias. / ¿Qué voy a hacer cuando ya no me entren? (narración en 1ª persona, la protagonista cuenta su propia experiencia)"
+    },
+    {
+      "id": "marco_no_hay_ni_un_alma",
+      "tipo": "marco_narrativo",
+      "consigna": "Completá el marco narrativo del cuento 'No hay ni un alma'.",
+      "personajes": "La niña protagonista (narradora), su mamá y don Vicente",
+      "lugar": "La calle, la vereda de la casa de los gallegos, la carpintería, la casa del hijo de don Vicente",
+      "tiempo": "Un día cualquiera, durante una caminata con su madre"
+    },
+    {
+      "id": "vf_lirico",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcar V o F sobre el género lírico.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "i1", "afirmacion": "El género lírico se caracteriza por el predominio de la función poética y emotiva.", "respuesta": true },
+        { "id": "i2", "afirmacion": "En el género lírico se crea un 'yo lírico' o 'yo poético'.", "respuesta": true },
+        { "id": "i3", "afirmacion": "El género lírico se escribe siempre en prosa.", "respuesta": false, "correccion": "Generalmente se escribe en versos que conforman estrofas, con rasgos esenciales como el ritmo y la rima (o versos libres)." },
+        { "id": "i4", "afirmacion": "Las figuras retóricas (metáforas, personificaciones, etc.) son propias del género lírico.", "respuesta": true },
+        { "id": "i5", "afirmacion": "'Bajo la lluvia ajena' de Juan Gelman pertenece al género lírico.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "sm_yo_lirico",
+      "tipo": "seleccion_multiple",
+      "consigna": "En el poema 'Bajo la lluvia ajena' de Juan Gelman, ¿qué persona gramatical usa el yo poético?",
+      "opciones": [
+        { "id": "a", "texto": "Primera persona del plural ('nos') que luego cambia a primera del singular ('soy'), mostrando lo colectivo del destierro y lo individual del dolor." },
+        { "id": "b", "texto": "Tercera persona, hablando de otros desterrados." },
+        { "id": "c", "texto": "Segunda persona, dirigiéndose al lector." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "vf_dramatico",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcar V o F sobre el género dramático.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "i1", "afirmacion": "El género dramático está destinado a la representación escénica.", "respuesta": true },
+        { "id": "i2", "afirmacion": "En los textos dramáticos hay intermediarios entre los espectadores y la acción.", "respuesta": false, "correccion": "No hay intermediarios: la historia se conoce mediante los diálogos y el accionar de los personajes directamente." },
+        { "id": "i3", "afirmacion": "Las didascalias son acotaciones del autor que orientan la puesta en escena.", "respuesta": true },
+        { "id": "i4", "afirmacion": "El género dramático se caracteriza por la alternancia de voces de los personajes.", "respuesta": true },
+        { "id": "i5", "afirmacion": "Las didascalias aparecen siempre al final de la obra.", "respuesta": false, "correccion": "Las didascalias aparecen entre paréntesis dentro del texto, orientando sobre tono, gestos, movimientos, lugar y tiempo." },
+        { "id": "i6", "afirmacion": "'Análisis' de Verónica Rodríguez pertenece al género dramático.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "sm_didascalias",
+      "tipo": "seleccion_multiple",
+      "consigna": "En el fragmento de 'Análisis' de Verónica Rodríguez, ¿qué son los textos entre paréntesis como '(Recoge el portarretrato.)' o '(Pausa.)'?",
+      "opciones": [
+        { "id": "a", "texto": "Son didascalias: acotaciones del autora que orientan la puesta en escena (acciones, gestos, pausas de los personajes)." },
+        { "id": "b", "texto": "Son diálogos de los personajes que no se escuchan." },
+        { "id": "c", "texto": "Son errores de impresión del texto." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "cohesion_no_hay_ni_un_alma",
+      "tipo": "coherencia_cohesion",
+      "consigna": "Identificá el recurso cohesivo en cada fragmento destacado del cuento 'No hay ni un alma'.",
+      "fragmento": "Nos damos la mano. Como siempre. La mano se da bien, con decisión. Pasamos la vereda de la casa de los gallegos. Mamá parece que va a soltarme la mano pero me aprieta un poco más. Le miro las sandalias a ella. Se quedó parada.",
+      "recursos_opciones": ["Sustitución pronominal", "Elipsis", "Conector adversativo", "Repetición", "Conector causal"],
+      "items": [
+        { "id": "c1", "fragmento_destacado": "Nos damos la mano", "recurso_correcto": "Repetición" },
+        { "id": "c2", "fragmento_destacado": "Como siempre", "recurso_correcto": "Elipsis" },
+        { "id": "c3", "fragmento_destacado": "pero", "recurso_correcto": "Conector adversativo" },
+        { "id": "c4", "fragmento_destacado": "ella", "recurso_correcto": "Sustitución pronominal" }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["no-hay-ni-un-alma", "bajo-la-lluvia-ajena", "analisis-obra"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "generos-intro",
+          "titulo": "Los géneros literarios",
+          "icono": "🎭",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "¿Qué son?",
+              "texto": "El concepto de 'géneros literarios' se usa para designar dentro de la literatura a distintas formas o modalidades de lo literario.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Desde la Antigüedad hasta hoy se ha intentado clasificar los textos literarios en diversos géneros que funcionan como 'moldes' dentro de la producción literaria. Actualmente se reconocen tres: narrativo, lírico y dramático."
+            }
+          ]
+        },
+        {
+          "id": "genero-narrativo",
+          "titulo": "Género narrativo",
+          "icono": "📖",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Características",
+              "texto": "Se caracteriza por la presencia de un narrador que cuenta hechos que les suceden a personajes en tiempos y espacios más o menos definidos.",
+              "color": "verde"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🗣️", "texto": "El narrador es la 'voz' que el autor crea para contar la historia." },
+                { "icono": "👁️", "texto": "Puede conocer todos los hechos (3ª persona, objetivo) o presentar una visión parcial (1ª persona)." },
+                { "icono": "⏳", "texto": "Uso de tiempos verbales del pasado." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Dice mamá mientras abre la puerta cancel y aprovecha el pilar de la entrada para acomodar el monedero…",
+              "explicacion": "'No hay ni un alma' de Silvana De Ingeniis: una narradora protagonista cuenta en 1ª persona lo que vive."
+            }
+          ]
+        },
+        {
+          "id": "genero-lirico",
+          "titulo": "Género lírico",
+          "icono": "🎵",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "✨", "texto": "Predominio de la función poética y emotiva o expresiva" },
+                { "icono": "🧑", "texto": "Creación de un 'yo lírico' o 'yo poético' que expresa su subjetividad" },
+                { "icono": "📝", "texto": "Generalmente se escribe en versos que conforman estrofas" },
+                { "icono": "🎶", "texto": "Los versos se relacionan por su ritmo y pueden tener rima o ser libres" },
+                { "icono": "🎨", "texto": "Uso de figuras retóricas: metáforas, personificaciones, enumeraciones, etc." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Soy una planta monstruosa. Mis raíces están a miles de kilómetros de mí…",
+              "explicacion": "'Bajo la lluvia ajena' de Juan Gelman: el yo poético expresa el dolor del destierro con metáforas."
+            }
+          ]
+        },
+        {
+          "id": "figuras-literarias",
+          "titulo": "Figuras literarias del poema",
+          "icono": "🎨",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "En 'Bajo la lluvia ajena' de Gelman aparecen estas figuras retóricas:"
+            },
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Figura",
+                  "items": [
+                    "Personificación: la tierra queda dolorida (atribuir cualidades humanas)",
+                    "Enumeración: la memoria, la lengua, las calores (acumulación)",
+                    "Metáfora: Soy una planta monstruosa (nombrar una cosa con el nombre de otra por semejanza)"
+                  ]
+                },
+                {
+                  "titulo": "Ejemplo del poema",
+                  "items": [
+                    "\"la tierra queda dolorida.\"",
+                    "\"y nadie nos corta la memoria, la lengua, las calores.\"",
+                    "\"Soy una planta monstruosa.\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "genero-dramatico",
+          "titulo": "Género dramático",
+          "icono": "🎬",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "¿Qué es?",
+              "texto": "Del griego 'drama': acción. Está destinado a la representación escénica. No hay intermediarios entre los espectadores y la vida que se hace presente en el desarrollo de la acción.",
+              "color": "azul"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🔁", "texto": "Alternancia de voces de los personajes" },
+                { "icono": "🏷️", "texto": "Marcas tipográficas específicas para el intercambio" },
+                { "icono": "💬", "texto": "Parlamentos: lo que cada personaje expresa" },
+                { "icono": "📋", "texto": "Presentación de la escena al inicio de cada acto" },
+                { "icono": "📝", "texto": "Didascalias: acotaciones del autor entre paréntesis que orientan la puesta en escena" }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "SUSANA. ― Ay, mi vida, tenés que tranquilizarte. (Recoge el portarretrato.)",
+              "explicacion": "'Análisis' de Verónica Rodríguez: el nombre del personaje seguido de punto y raya marca su parlamento; entre paréntesis, las didascalias."
+            }
+          ]
+        },
+        {
+          "id": "resumen-clase-3",
+          "titulo": "Resumen: los 3 géneros",
+          "icono": "📋",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Narrativo 📖",
+                  "items": [
+                    "Narrador cuenta hechos",
+                    "Personajes, tiempo, espacio",
+                    "Tiempos verbales del pasado",
+                    "Ej.: 'No hay ni un alma'"
+                  ]
+                },
+                {
+                  "titulo": "Lírico 🎵",
+                  "items": [
+                    "Yo lírico expresa subjetividad",
+                    "Función poética + emotiva",
+                    "Versos, estrofas, ritmo, rima",
+                    "Figuras retóricas",
+                    "Ej.: 'Bajo la lluvia ajena'"
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Dramático 🎬",
+              "texto": "Destinado a la representación escénica. Alternancia de voces, parlamentos, didascalias. Ej.: 'Análisis' de Verónica Rodríguez.",
+              "color": "azul"
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        { "pregunta": "¿Cuáles son los 3 géneros literarios?", "respuesta": "Narrativo, lírico y dramático." },
+        { "pregunta": "Género narrativo: ¿qué lo caracteriza?", "respuesta": "Un narrador cuenta hechos que les suceden a personajes en tiempos y espacios definidos." },
+        { "pregunta": "¿Qué es el narrador?", "respuesta": "La 'voz' que el autor crea para que se haga cargo de contar la historia." },
+        { "pregunta": "Género lírico: ¿qué lo caracteriza?", "respuesta": "Predomina la función poética y emotiva. Crea un 'yo lírico' que expresa su subjetividad. Se escribe en versos con ritmo." },
+        { "pregunta": "¿Qué es el yo lírico?", "respuesta": "La figura que expresa en el poema su subjetividad (emociones, sentimientos, modo de verse a sí mismo y al mundo)." },
+        { "pregunta": "¿Qué es la rima?", "respuesta": "La repetición de sonidos a partir de la última vocal acentuada de la última palabra del verso." },
+        { "pregunta": "Género dramático: ¿qué lo caracteriza?", "respuesta": "Está destinado a la representación escénica. No hay intermediarios: la historia se conoce por diálogos y accionar de personajes." },
+        { "pregunta": "¿Qué son las didascalias?", "respuesta": "Acotaciones del autor entre paréntesis que orientan la puesta en escena: lugar, tiempo, tono, gestos, movimientos." },
+        { "pregunta": "¿Qué son los parlamentos?", "respuesta": "Lo que cada personaje expresa en la alternancia de voces del texto dramático." },
+        { "pregunta": "¿Qué marca tipográfica inicia el parlamento de un personaje?", "respuesta": "El nombre del personaje seguido de punto y raya (. ―)." }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": ["sm_generos", "vf_narrativo", "narrador_no_hay_ni_un_alma", "marco_no_hay_ni_un_alma", "vf_lirico"]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": ["sm_yo_lirico", "vf_dramatico", "sm_didascalias", "cohesion_no_hay_ni_un_alma", "sm_generos"],
+      "duracion_min": 15
+    },
+    "mejorar": {
+      "explicaciones": [
+        { "titulo": "Narrador vs. autor", "detalle": "El autor es quien escribe la obra. El narrador es la 'voz' que el autor crea para contar la historia. No son lo mismo: el autor puede crear un narrador muy distinto de sí mismo." },
+        { "titulo": "Narrador protagonista en 'No hay ni un alma'", "detalle": "La narración en primera persona ('Estoy orgullosa de mis sandalias') indica que la protagonista cuenta su propia experiencia. Es un narrador protagonista, no un testigo." },
+        { "titulo": "Yo lírico vs. autor en el poema de Gelman", "detalle": "El yo poético no es exactamente Juan Gelman, sino la voz que crea para expresar el dolor del destierro. Usa 1ª persona del plural ('nos') para lo colectivo y del singular ('soy') para lo individual." },
+        { "titulo": "Didascalias: no son diálogos", "detalle": "Las didascalias aparecen entre paréntesis y son instrucciones del autora, no lo que dicen los personajes. Orientan sobre la puesta en escena: gestos, tonos, movimientos." },
+        { "titulo": "Figuras literarias: personificación vs. metáfora", "detalle": "Personificación: atribuir cualidades humanas a algo no humano ('la tierra queda dolorida'). Metáfora: nombrar una cosa con el nombre de otra por semejanza, sin conectores comparativos ('Soy una planta monstruosa')." }
+      ]
+    }
+  }
+}

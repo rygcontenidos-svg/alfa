@@ -1,0 +1,727 @@
+{
+  "id": "simulacro-1-lengua",
+  "materia": "lengua",
+  "titulo": "Simulacro 1: primera evaluaci\u00F3n de Lengua",
+  "descripcion": "Simulacro integrador que abarca: comunicaci\u00F3n, funciones del lenguaje, g\u00E9neros literarios, tipo textual narrativo, cohesi\u00F3n, coherencia, tildaci\u00F3n y normativa gr\u00E1fica. Incluye lectura de la leyenda \u2018La cruz del sur\u2019.",
+  "tipo": "simulacro",
+  "duracion_min": 90,
+  "textos_ids": ["leyenda-cruz-del-sur"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "dialogo_quien_habla_1",
+      "tipo": "seleccion_multiple",
+      "consigna": "Indic\u00E1 qui\u00E9n dice la siguiente frase del fragmento adaptado de la novela: \u00abAdem\u00E1s, \u00BFqu\u00E9 tiene que ver Teo con la dictadura? Ni siquiera hab\u00EDa nacido y pas\u00F3 hace mil a\u00F1os. No quiero que empiece a haber discusiones pol\u00EDticas en casa. Lo que m\u00E1s disfruto yo, y lo sab\u00E9s, es llegar a casa y no tener que hablar de pol\u00EDtica\u00BB.",
+      "opciones": [
+        { "id": "a", "texto": "Sebasti\u00E1n (pap\u00E1 de Teo)" },
+        { "id": "b", "texto": "Ana (mam\u00E1 de Teo)" },
+        { "id": "c", "texto": "Mora" },
+        { "id": "d", "texto": "Beltr\u00E1n" }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "dialogo_quien_habla_2",
+      "tipo": "seleccion_multiple",
+      "consigna": "Indic\u00E1 qui\u00E9n dice la siguiente frase del fragmento adaptado de la novela: \u00ABNosotros ya no podemos hacer nada, son las nuevas generaciones las que van a interpretar el pasado y darle sentido\u00BB.",
+      "opciones": [
+        { "id": "a", "texto": "Sebasti\u00E1n (pap\u00E1 de Teo)" },
+        { "id": "b", "texto": "Ana (mam\u00E1 de Teo)" },
+        { "id": "c", "texto": "Mora" },
+        { "id": "d", "texto": "Teo" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "circuito_fragmento_teo",
+      "tipo": "circuito_comunicacion",
+      "consigna": "Identific\u00E1 los elementos del circuito de la comunicaci\u00F3n en el siguiente fragmento de la novela y determin\u00E1 la funci\u00F3n del lenguaje predominante.",
+      "frase": "\u2014Adem\u00E1s, \u00BFqu\u00E9 tiene que ver Teo con la dictadura? Ni siquiera hab\u00EDa nacido y pas\u00F3 hace mil a\u00F1os \u2014dijo Sebasti\u00E1n.",
+      "nodos": [
+        { "id": "emisor", "etiqueta": "Emisor", "respuesta": "Sebasti\u00E1n (pap\u00E1 de Teo)" },
+        { "id": "receptor", "etiqueta": "Receptor", "respuesta": "Ana (mam\u00E1 de Teo) / la familia" },
+        { "id": "mensaje", "etiqueta": "Mensaje", "respuesta": "\u00ABAdem\u00E1s, \u00BFqu\u00E9 tiene que ver Teo con la dictadura? Ni siquiera hab\u00EDa nacido y pas\u00F3 hace mil a\u00F1os\u00BB" },
+        { "id": "canal", "etiqueta": "Canal", "respuesta": "oral (conversaci\u00F3n cara a cara)" },
+        { "id": "codigo", "etiqueta": "C\u00F3digo", "respuesta": "lengua espa\u00F1ola (signos ling\u00FC\u00EDsticos)" },
+        { "id": "referente", "etiqueta": "Referente", "respuesta": "la dictadura argentina, la monograf\u00EDa de Teo, las discusiones pol\u00EDticas en casa" }
+      ],
+      "funcion_lenguaje": {
+        "opciones": ["Referencial", "Emotiva", "Apelativa", "Po\u00E9tica"],
+        "correcta": "Emotiva"
+      }
+    },
+    {
+      "id": "vf_novela_avisa",
+      "tipo": "verdadero_falso",
+      "consigna": "Marc\u00E1 V (verdadero) o F (falso) seg\u00FAn la novela \u00ABAvisale a mi mam\u00E1\u00BB.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        {
+          "id": "a",
+          "afirmacion": "Beltr\u00E1n le dice a Teo que hable con Mora para realizar el trabajo juntos.",
+          "respuesta": true
+        },
+        {
+          "id": "b",
+          "afirmacion": "Durante toda la novela la opini\u00F3n de Teo sobre Mora es que se cre\u00EDa mil y siempre ten\u00EDa que levantar la mano para dar su opini\u00F3n.",
+          "respuesta": true
+        },
+        {
+          "id": "c",
+          "afirmacion": "En la conversaci\u00F3n sobre la dictadura, Mirko y Ana quer\u00EDan pelear. No era la primera vez que discut\u00EDan de pol\u00EDtica.",
+          "respuesta": false,
+          "correccion": "Mirko y Ana no quer\u00EDan pelear; estaban discutiendo el tema de las monograf\u00EDas y la dictadura, pero no se menciona que fuera una pelea ni que discutieran pol\u00EDtica habitualmente."
+        },
+        {
+          "id": "d",
+          "afirmacion": "El tema para la monograf\u00EDa de Teo es la marcha del 24 de marzo y el de Mora, el Mundial del 78.",
+          "respuesta": true
+        }
+      ]
+    },
+    {
+      "id": "vf_leyenda_cruz",
+      "tipo": "verdadero_falso",
+      "consigna": "Determin\u00E1 si los siguientes enunciados sobre la leyenda \u00ABLa cruz del sur\u00BB son verdaderos (V) o falsos (F).",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        {
+          "id": "a",
+          "afirmacion": "Nem\u00E9c es un excelente guerrero que sale a cazar para llevar comida a su pueblo.",
+          "respuesta": true
+        },
+        {
+          "id": "b",
+          "afirmacion": "El piguem dio un salto colosal y levant\u00F3 vuelo.",
+          "respuesta": true
+        },
+        {
+          "id": "c",
+          "afirmacion": "El \u00F1and\u00FA, convertido en estrella, es la gu\u00EDa para regresar al hogar.",
+          "respuesta": true
+        },
+        {
+          "id": "d",
+          "afirmacion": "Los cazadores formaron un c\u00EDrculo para atrapar animales.",
+          "respuesta": false,
+          "correccion": "Los cazadores formaron un c\u00EDrculo alrededor del fuego para mirar al cielo y observar la constelaci\u00F3n, no para atrapar animales."
+        }
+      ]
+    },
+    {
+      "id": "desenlace_correcto",
+      "tipo": "seleccion_multiple",
+      "consigna": "Eleg\u00ED la opci\u00F3n correcta del desenlace de la leyenda \u00ABLa cruz del sur\u00BB. Prest\u00E1 atenci\u00F3n a la ortograf\u00EDa, la coherencia y la cohesi\u00F3n.",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Al final, Nem\u00E9c sinti\u00F3 una gran tristesa al perder al ave, y los cazadores lo miraban desde la aldea deseando haberlo ayudado."
+        },
+        {
+          "id": "b",
+          "texto": "Al final, Nem\u00E9c sinti\u00F3 una gran tristeza al perder al ave, pero desde entonces los cazadores miran al cielo y ven la constelaci\u00F3n de la Cruz del Sur, que los gu\u00EDa de regreso al hogar."
+        },
+        {
+          "id": "c",
+          "texto": "Al final, los cazadores sav\u00EDan que el \u00F1and\u00FA se hab\u00EDa convertido en estrella, y miraron al cielo con la esperansa de encontrar siempre el camino."
+        }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "ordenar_nucleos",
+      "tipo": "ordenar_secuencia",
+      "consigna": "Orden\u00E1 los siguientes n\u00FAcleos narrativos de la leyenda \u00ABLa cruz del sur\u00BB seg\u00FAn la secuencia temporal del relato.",
+      "eventos": [
+        { "id": "e1", "texto": "Salida de cazadores", "orden": 1 },
+        { "id": "e2", "texto": "Encuentro de Nem\u00E9c con un manic", "orden": 2 },
+        { "id": "e3", "texto": "Preparaci\u00F3n de boleadoras", "orden": 3 },
+        { "id": "e4", "texto": "Salto colosal del ave", "orden": 4 },
+        { "id": "e5", "texto": "Regreso del guerrero", "orden": 5 },
+        { "id": "e6", "texto": "Recibimiento festivo del pueblo", "orden": 6 }
+      ]
+    },
+    {
+      "id": "marco_leyenda",
+      "tipo": "marco_narrativo",
+      "consigna": "Complet\u00E1 el marco narrativo de la leyenda \u00ABLa cruz del sur\u00BB.",
+      "personajes": "Nem\u00E9c (guerrero mocov\u00ED), la comunidad mocov\u00ED, el manic/\u00F1and\u00FA (piguem)",
+      "lugar": "Noreste argentino, monte chaque\u00F1o",
+      "tiempo": "\u00C9poca remota y ancestral (\u00ABHace mucho pero mucho tiempo atr\u00E1s\u00BB)"
+    },
+    {
+      "id": "narrador_leyenda",
+      "tipo": "tipo_narrador",
+      "consigna": "Marc\u00E1 el tipo de narrador de la leyenda \u00ABLa cruz del sur\u00BB y justific\u00E1 con una cita del texto.",
+      "opciones": ["Narrador Protagonista", "Narrador Testigo", "Narrador Omnisciente"],
+      "correcta": "Narrador Omnisciente",
+      "cita_justificacion": "\u00C9l conoc\u00EDa todos los secretos del monte y sab\u00EDa rastrear a los animales... / Nem\u00E9c, admirado, observ\u00F3 c\u00F3mo el \u00F1and\u00FA se convert\u00EDa en una constelaci\u00F3n\u2026 (conoce los pensamientos y sentimientos del personaje)"
+    },
+    {
+      "id": "tipo_textual_leyenda",
+      "tipo": "tipo_textual",
+      "consigna": "Complet\u00E1 las caracter\u00EDsticas del tipo textual narrativo con ejemplos extra\u00EDdos de \u00ABLa cruz del sur\u00BB.",
+      "filas": [
+        { "caracteristica": "Uso de tiempos verbales del pasado", "ejemplo": "viv\u00EDa, sali\u00F3, camin\u00F3, prepar\u00F3, observ\u00F3, convirti\u00F3" },
+        { "caracteristica": "Presencia de un narrador", "ejemplo": "El narrador omnisciente cuenta la historia en 3\u00AA persona y conoce los pensamientos de Nem\u00E9c" },
+        { "caracteristica": "Secuencia temporal y n\u00FAcleos narrativos", "ejemplo": "Salida \u2192 encuentro con el manic \u2192 preparaci\u00F3n de boleadoras \u2192 salto del ave \u2192 regreso \u2192 recibimiento" }
+      ]
+    },
+    {
+      "id": "cohesion_fragmentos",
+      "tipo": "coherencia_cohesion",
+      "consigna": "Identific\u00E1 el recurso de cohesi\u00F3n utilizado en cada fragmento destacado de la leyenda.",
+      "fragmento": "Nem\u00E9c era el mejor cazador de su pueblo. \u00C9l conoc\u00EDa todos los secretos del monte. Una ma\u00F1ana, sali\u00F3 antes del amanecer. El guerrero camin\u00F3 durante horas hasta divisar un manic que correteaba entre los pastizales.",
+      "recursos_opciones": ["Sustituci\u00F3n pronominal", "Elipsis", "Sinonimia", "Repetici\u00F3n", "Conector"],
+      "items": [
+        { "id": "coh1", "fragmento_destacado": "\u00C9l", "recurso_correcto": "Sustituci\u00F3n pronominal" },
+        { "id": "coh2", "fragmento_destacado": "sali\u00F3", "recurso_correcto": "Elipsis" },
+        { "id": "coh3", "fragmento_destacado": "El guerrero", "recurso_correcto": "Sinonimia" },
+        { "id": "coh4", "fragmento_destacado": "que", "recurso_correcto": "Sustituci\u00F3n pronominal" }
+      ]
+    },
+    {
+      "id": "tildacion_diacritica_el_mas",
+      "tipo": "tildacion_diacritica",
+      "consigna": "Complet\u00E1 el cuadro con los pares de monos\u00EDlabos con y sin tilde diacr\u00EDtica. Repon\u00E9 la tilde donde corresponda.",
+      "filas": [
+        {
+          "palabra": "\u00E9l / el",
+          "clase": "Pronombre personal / Art\u00EDculo",
+          "ejemplo": "\u00C9l conoc\u00EDa todos los secretos del monte / El guerrero se llamaba Nem\u00E9c"
+        },
+        {
+          "palabra": "m\u00E1s / mas",
+          "clase": "Adverbio de cantidad / Conjunci\u00F3n adversativa (pero)",
+          "ejemplo": "El m\u00E1s valiente de la tribu / Quiso cazarlo, mas el ave levant\u00F3 vuelo"
+        }
+      ]
+    },
+    {
+      "id": "tildacion_silabas_palabras",
+      "tipo": "tildacion_silabas",
+      "consigna": "Separ\u00E1 en s\u00EDlabas las siguientes palabras, clasific\u00E1las seg\u00FAn la posici\u00F3n de su s\u00EDlaba t\u00F3nica y explic\u00E1 por qu\u00E9 llevan o no llevan tilde.",
+      "filas": [
+        {
+          "palabra": "salt\u00F3",
+          "separacion": "sal-t\u00F3",
+          "clase": "aguda",
+          "lleva_tilde": true,
+          "porque": "aguda terminada en vocal \u2192 lleva tilde"
+        },
+        {
+          "palabra": "lejos",
+          "separacion": "le-jos",
+          "clase": "grave",
+          "lleva_tilde": false,
+          "porque": "grave terminada en s \u2192 no lleva tilde"
+        },
+        {
+          "palabra": "jam\u00E1s",
+          "separacion": "ja-m\u00E1s",
+          "clase": "aguda",
+          "lleva_tilde": true,
+          "porque": "aguda terminada en s \u2192 lleva tilde"
+        },
+        {
+          "palabra": "\u00E9xito",
+          "separacion": "\u00E9-xi-to",
+          "clase": "esdr\u00FAjula",
+          "lleva_tilde": true,
+          "porque": "esdr\u00FAjula \u2192 siempre lleva tilde"
+        },
+        {
+          "palabra": "cazador",
+          "separacion": "ca-za-dor",
+          "clase": "aguda",
+          "lleva_tilde": false,
+          "porque": "aguda terminada en r \u2192 no lleva tilde"
+        }
+      ]
+    },
+    {
+      "id": "normativa_c_s_z",
+      "tipo": "normativa_grafica",
+      "consigna": "Complet\u00E1 con c, s o z seg\u00FAn corresponda en cada palabra.",
+      "items": [
+        {
+          "id": "recibir",
+          "modo": "completar",
+          "texto": "re__bir",
+          "opciones": ["c", "s", "z"],
+          "correcta": "c"
+        },
+        {
+          "id": "malicioso_1",
+          "modo": "completar",
+          "texto": "mali__ioso",
+          "opciones": ["c", "s", "z"],
+          "correcta": "c"
+        },
+        {
+          "id": "malicioso_2",
+          "modo": "completar",
+          "texto": "malicio__o",
+          "opciones": ["c", "s", "z"],
+          "correcta": "s"
+        },
+        {
+          "id": "grandiosa",
+          "modo": "completar",
+          "texto": "grandio__a",
+          "opciones": ["c", "s", "z"],
+          "correcta": "s"
+        },
+        {
+          "id": "templanza",
+          "modo": "completar",
+          "texto": "templan__a",
+          "opciones": ["c", "s", "z"],
+          "correcta": "z"
+        },
+        {
+          "id": "conjuncion",
+          "modo": "completar",
+          "texto": "conjun__i\u00F3n",
+          "opciones": ["c", "s", "z"],
+          "correcta": "c"
+        }
+      ]
+    },
+    {
+      "id": "normativa_b_v_leyenda",
+      "tipo": "normativa_grafica",
+      "consigna": "Escrib\u00ED la regla de uso de b/v que corresponde a cada palabra subrayada en la leyenda \u00ABLa cruz del sur\u00BB.",
+      "items": [
+        {
+          "id": "habia",
+          "modo": "regla",
+          "regla": "Se escribe con b el verbo haber en todas sus formas. El pret\u00E9rito imperfecto \u00ABhab\u00EDa\u00BB (como en \u00ABno lo hac\u00EDa nada mal\u00BB) se escribe con b.",
+          "ejemplo_correcto": "hab\u00EDa"
+        },
+        {
+          "id": "vivir",
+          "modo": "regla",
+          "regla": "Los verbos terminados en -bir se escriben con b, excepto hervir, servir y vivir, que se escriben con v. \u00ABViv\u00EDa\u00BB proviene del verbo vivir (excepci\u00F3n) y se escribe con v.",
+          "ejemplo_correcto": "viv\u00EDa"
+        },
+        {
+          "id": "volar",
+          "modo": "regla",
+          "regla": "Se escribe con v el verbo volar y los verbos terminados en -olver (volver, resolver, absolver). \u00ABVol\u00F3\u00BB (de volar) se escribe con v.",
+          "ejemplo_correcto": "vol\u00F3"
+        }
+      ]
+    },
+    {
+      "id": "funcion_vignolo",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFQu\u00E9 funci\u00F3n del lenguaje predomina en la siguiente frase de Mariano Vignolo (relator de f\u00FAtbol)? \u00AB\u00A1Gooool de River! \u00A1Qu\u00E9 golazo, qu\u00E9 belleza, qu\u00E9 locura!\u00BB",
+      "opciones": [
+        { "id": "a", "texto": "Referencial" },
+        { "id": "b", "texto": "Emotiva" },
+        { "id": "c", "texto": "Apelativa" },
+        { "id": "d", "texto": "Po\u00E9tica" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "genero_fragmento",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFA qu\u00E9 g\u00E9nero literario pertenece el siguiente fragmento? \u00AB\u00bfEs que no hab\u00EDa nadie que no fuera capaz de distinguir la m\u00EDtica figura de un s\u00E1tiro y la de un fauno? Pues se\u00F1or, este hombre se hab\u00EDa pasado toda su vida adulta confundiendo a los faunos con los s\u00E1tiros\u00BB.",
+      "opciones": [
+        { "id": "a", "texto": "L\u00EDrico" },
+        { "id": "b", "texto": "Dram\u00E1tico" },
+        { "id": "c", "texto": "Narrativo" },
+        { "id": "d", "texto": "Po\u00E9tico" }
+      ],
+      "correcta": "c"
+    },
+    {
+      "id": "apelativa_cartel",
+      "tipo": "verdadero_falso",
+      "consigna": "Indic\u00E1 si los siguientes enunciados sobre funciones del lenguaje son verdaderos (V) o falsos (F).",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        {
+          "id": "a",
+          "afirmacion": "Un cartel que dice \u00ABProhibido fumar\u00BB tiene funci\u00F3n apelativa porque busca influir en la conducta del receptor.",
+          "respuesta": true
+        },
+        {
+          "id": "b",
+          "afirmacion": "Una clase de gram\u00E1tica donde se explica qu\u00E9 es un verbo tiene funci\u00F3n metaling\u00FC\u00EDstica.",
+          "respuesta": true
+        },
+        {
+          "id": "c",
+          "afirmacion": "La funci\u00F3n po\u00E9tica aparece solo en los poemas, no en otros tipos de texto.",
+          "respuesta": false,
+          "correccion": "La funci\u00F3n po\u00E9tica puede aparecer en cualquier tipo de texto cuando la forma del mensaje importa tanto como su contenido (publicidad, canciones, etc.)."
+        },
+        {
+          "id": "d",
+          "afirmacion": "\u00BFMe escuch\u00E1s? es un ejemplo de funci\u00F3n f\u00E1tica, porque verifica que el canal funcione.",
+          "respuesta": true
+        }
+      ]
+    },
+    {
+      "id": "narrador_tipos",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFQu\u00E9 tipo de narrador aparece en el siguiente fragmento? \u00ABEl guerrero sab\u00EDa que esa noche algo cambiar\u00EDa para siempre. Mientras caminaba, sent\u00EDa el peso de su destino, aunque no pod\u00EDa explicarlo con palabras\u00BB.",
+      "opciones": [
+        { "id": "a", "texto": "Narrador protagonista (1\u00AA persona)" },
+        { "id": "b", "texto": "Narrador testigo (3\u00AA persona)" },
+        { "id": "c", "texto": "Narrador omnisciente (3\u00AA persona, sabe los pensamientos)" },
+        { "id": "d", "texto": "Narrador en 2\u00AA persona" }
+      ],
+      "correcta": "c"
+    },
+    {
+      "id": "elipsis_identificar",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFQu\u00E9 recurso de cohesi\u00F3n se utiliza en el siguiente texto? \u00ABNem\u00E9c sali\u00F3 al amanecer. Camin\u00F3 durante horas. Despu\u00E9s de un rato, divis\u00F3 un manic\u00BB.",
+      "opciones": [
+        { "id": "a", "texto": "Sinonimia (\u00ABcamin\u00F3\u00BB por \u00ABdivis\u00F3\u00BB)" },
+        { "id": "b", "texto": "Elipsis del sujeto (se omite \u00AB\u00E9l\u00BB)" },
+        { "id": "c", "texto": "Sustituci\u00F3n pronominal (\u00ABlo\u00BB)" },
+        { "id": "d", "texto": "Conector temporal (\u00ABdespu\u00E9s\u00BB)" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "conector_identificar",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFQu\u00E9 tipo de conector es \u00ABsin embargo\u00BB en la siguiente oraci\u00F3n? \u00ABQuiso alcanzar al ave; sin embargo, esta levant\u00F3 vuelo y desapareci\u00F3\u00BB.",
+      "opciones": [
+        { "id": "a", "texto": "Conector de causa" },
+        { "id": "b", "texto": "Conector de consecuencia" },
+        { "id": "c", "texto": "Conector adversativo" },
+        { "id": "d", "texto": "Conector temporal" }
+      ],
+      "correcta": "c"
+    },
+    {
+      "id": "completar_circuito_chiste",
+      "tipo": "completar",
+      "consigna": "Analiz\u00E1 el circuito de la comunicaci\u00F3n en la siguiente situaci\u00F3n: un amigo te cuenta un chiste por WhatsApp.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Emisor",
+          "respuesta": "Tu amigo"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Receptor",
+          "respuesta": "Vos"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Canal",
+          "respuesta": "WhatsApp / internet / aplicaci\u00F3n de mensajer\u00EDa"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "C\u00F3digo",
+          "respuesta": "Lengua espa\u00F1ola / lenguaje escrito (signos ling\u00FC\u00EDsticos)"
+        },
+        {
+          "id": "e",
+          "subtipo": "texto",
+          "pregunta": "Referente",
+          "respuesta": "La situaci\u00F3n c\u00F3mica que cuenta el chiste"
+        }
+      ]
+    },
+    {
+      "id": "agudas_tilde",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFCu\u00E1l de las siguientes palabras es aguda y lleva tilde?",
+      "opciones": [
+        { "id": "a", "texto": "lejos" },
+        { "id": "b", "texto": "salt\u00F3" },
+        { "id": "c", "texto": "\u00E1rbol" },
+        { "id": "d", "texto": "cazador" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "esdrujulas",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFCu\u00E1l de las siguientes listas contiene solo palabras esdr\u00FAjulas?",
+      "opciones": [
+        { "id": "a", "texto": "\u00E9xito, m\u00E9dico, canci\u00F3n" },
+        { "id": "b", "texto": "p\u00E1jaro, s\u00EDlaba, m\u00EDnimo" },
+        { "id": "c", "texto": "\u00E1rbol, c\u00E9sped, l\u00E1piz" },
+        { "id": "d", "texto": "f\u00E1cil, \u00fatil, ten\u00EDa" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "normativa_completar_2",
+      "tipo": "normativa_grafica",
+      "consigna": "Complet\u00E1 con c, s o z seg\u00FAn corresponda.",
+      "items": [
+        {
+          "id": "creer",
+          "modo": "completar",
+          "texto": "cre__a",
+          "opciones": ["c", "s", "z"],
+          "correcta": "c"
+        },
+        {
+          "id": "especial",
+          "modo": "completar",
+          "texto": "e__pecial",
+          "opciones": ["c", "s", "z"],
+          "correcta": "s"
+        },
+        {
+          "id": "nariz",
+          "modo": "completar",
+          "texto": "nari__",
+          "opciones": ["c", "s", "z"],
+          "correcta": "z"
+        },
+        {
+          "id": "bicicleta",
+          "modo": "completar",
+          "texto": "bici__leta",
+          "opciones": ["c", "s", "z"],
+          "correcta": "c"
+        }
+      ]
+    },
+    {
+      "id": "hiato_diptongo",
+      "tipo": "verdadero_falso",
+      "consigna": "Marc\u00E1 V (verdadero) o F (falso) seg\u00FAn la clasificaci\u00F3n de las palabras.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        {
+          "id": "a",
+          "afirmacion": "La palabra \u00ABpoema\u00BB tiene hiato (po-e-ma).",
+          "respuesta": true
+        },
+        {
+          "id": "b",
+          "afirmacion": "La palabra \u00ABcielo\u00BB tiene diptongo (cie-lo).",
+          "respuesta": true
+        },
+        {
+          "id": "c",
+          "afirmacion": "La palabra \u00ABd\u00EDa\u00BB tiene hiato porque la tilde rompe el diptongo.",
+          "respuesta": true
+        },
+        {
+          "id": "d",
+          "afirmacion": "La palabra \u00ABpausa\u00BB tiene hiato (pa-u-sa).",
+          "respuesta": false,
+          "correccion": "\u00ABPausa\u00BB tiene diptongo (pau-sa): la combinaci\u00F3n au forma diptongo."
+        }
+      ]
+    },
+    {
+      "id": "coherencia_global",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFCu\u00E1l de los siguientes textos tiene problemas de coherencia?",
+      "opciones": [
+        { "id": "a", "texto": "Ayer fui al cine. La pel\u00EDcula empez\u00F3 a las ocho. Me gust\u00F3 mucho el actor principal. Despu\u00E9s cen\u00E9 con amigos." },
+        { "id": "b", "texto": "Ayer fui al cine. La pel\u00EDcula era de terror. El techo de mi casa es de tejas. Me gust\u00F3 mucho el final." },
+        { "id": "c", "texto": "Ayer fui al cine. Compr\u00E9 las entradas. Busqu\u00E9 mi sala. La pel\u00EDcula dur\u00F3 dos horas." },
+        { "id": "d", "texto": "Ayer fui al cine. La pel\u00EDcula estaba en 3D. Los efectos especiales eran impresionantes. Salimos comentando las escenas." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "normativa_c_s_z_extra",
+      "tipo": "normativa_grafica",
+      "consigna": "Complet\u00E1 con c, s o z seg\u00FAn corresponda.",
+      "items": [
+        { "id": "c1", "modo": "completar", "texto": "condu__ir", "opciones": ["c", "s", "z"], "correcta": "c" },
+        { "id": "c2", "modo": "completar", "texto": "condu__co", "opciones": ["c", "s", "z"], "correcta": "z" },
+        { "id": "c3", "modo": "completar", "texto": "po__ici\u00F3n", "opciones": ["c", "s", "z"], "correcta": "s" },
+        { "id": "c4", "modo": "completar", "texto": "triste__a", "opciones": ["c", "s", "z"], "correcta": "z" },
+        { "id": "c5", "modo": "completar", "texto": "organi__ar", "opciones": ["c", "s", "z"], "correcta": "z" },
+        { "id": "c6", "modo": "completar", "texto": "can__i\u00F3n", "opciones": ["c", "s", "z"], "correcta": "c" },
+        { "id": "c7", "modo": "completar", "texto": "adverti__encia", "opciones": ["c", "s", "z"], "correcta": "c" },
+        { "id": "c8", "modo": "completar", "texto": "compa__i\u00F3n", "opciones": ["c", "s", "z"], "correcta": "s" }
+      ]
+    },
+    {
+      "id": "normativa_b_v_extra",
+      "tipo": "normativa_grafica",
+      "consigna": "Complet\u00E1 con b o v seg\u00FAn corresponda.",
+      "items": [
+        { "id": "b1", "modo": "completar", "texto": "__urro", "opciones": ["b", "v"], "correcta": "b" },
+        { "id": "b2", "modo": "completar", "texto": "her__ir", "opciones": ["b", "v"], "correcta": "v" },
+        { "id": "b3", "modo": "completar", "texto": "estu__o", "opciones": ["b", "v"], "correcta": "v" },
+        { "id": "b4", "modo": "completar", "texto": "resol__er", "opciones": ["b", "v"], "correcta": "v" },
+        { "id": "b5", "modo": "completar", "texto": "cantá__amos", "opciones": ["b", "v"], "correcta": "b" },
+        { "id": "b6", "modo": "completar", "texto": "ad__ertir", "opciones": ["b", "v"], "correcta": "v" },
+        { "id": "b7", "modo": "completar", "texto": "__uscaba", "opciones": ["b", "v"], "correcta": "b" },
+        { "id": "b8", "modo": "completar", "texto": "in__ierno", "opciones": ["b", "v"], "correcta": "v" }
+      ]
+    },
+    {
+      "id": "normativa_reglas_extra",
+      "tipo": "normativa_grafica",
+      "consigna": "Escrib\u00ED la regla ortogr\u00E1fica que corresponde a cada palabra.",
+      "items": [
+        { "id": "r1", "modo": "regla", "regla": "Se escribe con c el verbo decir y sus derivados en los tiempos que mantengan la c del infinitivo. Ej.: conduCir (de deCir).", "ejemplo_correcto": "conducir" },
+        { "id": "r2", "modo": "regla", "regla": "Los verbos terminados en -izar se escriben con z, excepto alisar, avisar, divisar, improvisar, guisar, pisar, precisar, revisar y televisar. Ej.: organizar.", "ejemplo_correcto": "organizar" },
+        { "id": "r3", "modo": "regla", "regla": "Los adjetivos terminados en -oso, -osa se escriben con s. Ej.: grandiosa, maliciosa.", "ejemplo_correcto": "grandiosa" },
+        { "id": "r4", "modo": "regla", "regla": "El pret\u00E9rito imperfecto de los verbos de la primera conjugaci\u00F3n (-ar) se escribe con b: cantaba, miraba, estudiaba.", "ejemplo_correcto": "cant\u00E1bamos" },
+        { "id": "r5", "modo": "regla", "regla": "Las palabras que comienzan con bu-, bur- y bus- se escriben con b, excepto vuestro, vuelco, vuelo y vulgo.", "ejemplo_correcto": "burro" }
+      ]
+    },
+    {
+      "id": "tildacion_silabas_extra",
+      "tipo": "tildacion_silabas",
+      "consigna": "Separá en s\u00EDlabas las siguientes palabras, clasific\u00E1las seg\u00FAn la posici\u00F3n de su s\u00EDlaba t\u00F3nica y explic\u00E1 por qu\u00E9 llevan o no llevan tilde.",
+      "filas": [
+        { "palabra": "canci\u00F3n", "separacion": "can-ci\u00F3n", "clase": "aguda", "lleva_tilde": true, "porque": "aguda terminada en n \u2192 lleva tilde" },
+        { "palabra": "m\u00E9dico", "separacion": "m\u00E9-di-co", "clase": "esdr\u00FAjula", "lleva_tilde": true, "porque": "esdr\u00FAjula \u2192 siempre lleva tilde" },
+        { "palabra": "reloj", "separacion": "re-loj", "clase": "aguda", "lleva_tilde": false, "porque": "aguda terminada en j \u2192 no lleva tilde" },
+        { "palabra": "d\u00E9bil", "separacion": "d\u00E9-bil", "clase": "grave", "lleva_tilde": true, "porque": "grave terminada en l \u2192 lleva tilde" },
+        { "palabra": "c\u00E1rcel", "separacion": "c\u00E1r-cel", "clase": "grave", "lleva_tilde": true, "porque": "grave terminada en l \u2192 lleva tilde" }
+      ]
+    },
+    {
+      "id": "tildacion_diacritica_mas",
+      "tipo": "tildacion_diacritica",
+      "consigna": "Complet\u00E1 el cuadro con los monos\u00EDlabos con tilde diacr\u00EDtica y sin ella.",
+      "filas": [
+        { "palabra": "s\u00ED / si", "clase": "Afirmaci\u00F3n o pronombre / Conjunci\u00F3n condicional", "ejemplo": "S\u00ED, quiero ir. / Si lleg\u00E1s tarde, avisame." },
+        { "palabra": "t\u00FA / tu", "clase": "Pronombre personal / Adjetivo posesivo", "ejemplo": "T\u00FA sos el mejor. / Tu cuaderno est\u00E1 en la mesa." },
+        { "palabra": "d\u00E9 / de", "clase": "Verbo dar (imperativo) / Preposici\u00F3n", "ejemplo": "D\u00E9 el examen con confianza. / La casa de mi abuela." },
+        { "palabra": "s\u00E9 / se", "clase": "Verbo saber o ser (imperativo) / Pronombre", "ejemplo": "S\u00E9 lo que hiciste. / Se lo dije ayer." }
+      ]
+    },
+    {
+      "id": "normativa_puntuacion",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFCu\u00E1l de las siguientes opciones usa correctamente los signos de puntuaci\u00F3n?",
+      "opciones": [
+        { "id": "a", "texto": "Mar\u00EDa compr\u00F3 pan, leche, y huevos." },
+        { "id": "b", "texto": "Mar\u00EDa compr\u00F3 pan, leche y huevos." },
+        { "id": "c", "texto": "Mar\u00EDa compr\u00F3: pan, leche, y huevos." },
+        { "id": "d", "texto": "Mar\u00EDa compr\u00F3 pan leche y huevos." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "normativa_punto_coma",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFCu\u00E1l es el uso correcto del punto y coma?",
+      "opciones": [
+        { "id": "a", "texto": "Separa oraciones independientes con cierto v\u00EDnculo sem\u00E1ntico dentro de un mismo enunciado." },
+        { "id": "b", "texto": "Separa elementos de una enumeraci\u00F3n simple." },
+        { "id": "c", "texto": "Cierra una oraci\u00F3n y abre un nuevo p\u00E1rrafo." },
+        { "id": "d", "texto": "Introduce una cita textual." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "hiato_agudas",
+      "tipo": "verdadero_falso",
+      "consigna": "Marc\u00E1 V (verdadero) o F (falso) sobre hiato y diptongo.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "a", "afirmacion": "La palabra \u00ABRa\u00FAl\u00BB tiene hiato y lleva tilde para romper el diptongo.", "respuesta": true },
+        { "id": "b", "afirmacion": "La palabra \u00ABaire\u00BB tiene diptongo (ai-re).", "respuesta": true },
+        { "id": "c", "afirmacion": "La palabra \u00ABba\u00FAl\u00BB es aguda y tiene hiato.", "respuesta": false, "correccion": "\u00ABBa\u00FAl\u00BB es bis\u00EDlaba con hiato (ba-\u00FAl), pero es aguda con tilde por hiato acentual, no por regla general de agudas." },
+        { "id": "d", "afirmacion": "La palabra \u00ABpoeta\u00BB tiene hiato (po-e-ta).", "respuesta": true }
+      ]
+    },
+    {
+      "id": "vf_ortografia_general",
+      "tipo": "verdadero_falso",
+      "consigna": "Marc\u00E1 V (verdadero) o F (falso) sobre reglas ortogr\u00E1ficas.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "a", "afirmacion": "Los verbos terminados en -ger y -gir se escriben con g, excepto tejer y crujir.", "respuesta": true },
+        { "id": "b", "afirmacion": "Las palabras que comienzan con hie- y hue- llevan h inicial.", "respuesta": true },
+        { "id": "c", "afirmacion": "\u00ABHizo\u00BB (de hacer) y \u00ABerno\u00BB (de errar) se escriben con h.", "respuesta": true },
+        { "id": "d", "afirmacion": "Las palabras agudas terminadas en vocal SIEMPRE llevan tilde.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "normativa_mp_mb",
+      "tipo": "normativa_grafica",
+      "consigna": "Complet\u00E1 con m o n seg\u00FAn corresponda.",
+      "items": [
+        { "id": "m1", "modo": "completar", "texto": "ca__biar", "opciones": ["m", "n"], "correcta": "m" },
+        { "id": "m2", "modo": "completar", "texto": "co__versar", "opciones": ["m", "n"], "correcta": "n" },
+        { "id": "m3", "modo": "completar", "texto": "sie__pre", "opciones": ["m", "n"], "correcta": "m" },
+        { "id": "m4", "modo": "completar", "texto": "i__visible", "opciones": ["m", "n"], "correcta": "n" },
+        { "id": "m5", "modo": "completar", "texto": "ta__bi\u00E9n", "opciones": ["m", "n"], "correcta": "m" },
+        { "id": "m6", "modo": "completar", "texto": "e__viar", "opciones": ["m", "n"], "correcta": "n" }
+      ]
+    },
+    {
+      "id": "ortografia_mayusculas",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFCu\u00E1l de las siguientes oraciones usa correctamente las may\u00FAsculas?",
+      "opciones": [
+        { "id": "a", "texto": "El r\u00EDo Paran\u00E1 atraviesa la ciudad de Rosario." },
+        { "id": "b", "texto": "El R\u00EDo Paran\u00E1 atraviesa la Ciudad de Rosario." },
+        { "id": "c", "texto": "El r\u00EDo paran\u00E1 atraviesa la ciudad de rosario." },
+        { "id": "d", "texto": "El r\u00EDo Paran\u00E1 atraviesa la Ciudad de rosario." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "completar_tilde_diacritica",
+      "tipo": "completar",
+      "consigna": "Complet\u00E1 con la palabra correcta (con o sin tilde) seg\u00FAn el contexto.",
+      "items": [
+        { "id": "a", "subtipo": "texto", "pregunta": "\u00BF\u00C9l sabe la respuesta? ___ (S\u00ED / SI), la sabe.", "respuesta": "S\u00ED" },
+        { "id": "b", "subtipo": "texto", "pregunta": "\u00C9l quiere m\u00E1s tiempo, ___ (MAS / M\u00C1S) no se lo dieron.", "respuesta": "mas" },
+        { "id": "c", "subtipo": "texto", "pregunta": "\u00BFMe prest\u00E1s ___ (TU / T\u00DA) l\u00E1piz?", "respuesta": "tu" },
+        { "id": "d", "subtipo": "texto", "pregunta": "___ (DE / D\u00C9) el cuaderno a la profesora.", "respuesta": "D\u00E9" },
+        { "id": "e", "subtipo": "texto", "pregunta": "Ya ___ (SE / S\u00C9) que ma\u00F1ana hay examen.", "respuesta": "s\u00E9" }
+      ]
+    },
+    {
+      "id": "normativa_h_inicial",
+      "tipo": "normativa_grafica",
+      "consigna": "Complet\u00E1 con h o sin h seg\u00FAn corresponda.",
+      "items": [
+        { "id": "h1", "modo": "completar", "texto": "__ielo", "opciones": ["h", "-"], "correcta": "h" },
+        { "id": "h2", "modo": "completar", "texto": "__ueso", "opciones": ["h", "-"], "correcta": "h" },
+        { "id": "h3", "modo": "completar", "texto": "a__ora", "opciones": ["h", "-"], "correcta": "h" },
+        { "id": "h4", "modo": "completar", "texto": "__ermoso", "opciones": ["h", "-"], "correcta": "h" },
+        { "id": "h5", "modo": "completar", "texto": "a__ello", "opciones": ["h", "-"], "correcta": "-" }
+      ]
+    }
+  ],
+  "metodo": {
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Confundir elementos del circuito comunicativo",
+          "detalle": "Error frecuente: confundir el canal (el medio f\u00EDsico: oral, escrito, audiovisual) con el c\u00F3digo (el sistema de signos: lengua espa\u00F1ola, gestos). El canal es por d\u00F3nde viaja el mensaje; el c\u00F3digo es el sistema de signos que usan emisor y receptor. Tampoco hay que confundir mensaje (lo que se dice) con referente (de qu\u00E9 se habla)."
+        },
+        {
+          "titulo": "Errores en tildaci\u00F3n diacr\u00EDtica (monos\u00EDlabos)",
+          "detalle": "Los monos\u00EDlabos por regla general no llevan tilde, pero algunos la llevan cuando cumplen ciertas funciones (tilde diacr\u00EDtica). Los pares m\u00E1s confundidos: \u00E9l (pronombre) / el (art\u00EDculo); m\u00E1s (cantidad) / mas (pero); s\u00ED (afirmaci\u00F3n) / si (condicional); t\u00FA (pronombre) / tu (posesivo). Record\u00E1: \u00ABm\u00E1s\u00BB con tilde es cantidad, \u00ABmas\u00BB sin tilde equivale a \u00ABpero\u00BB."
+        },
+        {
+          "titulo": "Confundir coherencia con cohesi\u00F3n",
+          "detalle": "La coherencia es la propiedad global del texto: todas las ideas giran en torno a un mismo tema central y siguen un orden l\u00F3gico. La cohesi\u00F3n es local: los recursos ling\u00FC\u00EDsticos (pronombres, elipsis, sin\u00F3nimos, conectores) conectan las oraciones y p\u00E1rrafos. Un texto puede ser coherente (tiene unidad tem\u00E1tica) pero poco cohesivo (las oraciones est\u00E1n mal conectadas), y viceversa."
+        },
+        {
+          "titulo": "Uso incorrecto de C, S y Z",
+          "detalle": "Errores comunes: escribir \u00ABtristesa\u00BB en lugar de \u00ABtristeza\u00BB (sustantivos abstractos terminados en -eza se escriben con z), \u00ABesperansa\u00BB en lugar de \u00ABesperanza\u00BB (sustantivos terminados en -anza se escriben con z), \u00ABsab\u00EDan\u00BB no lleva v sino b (verbo saber). Repaso: adjetivos terminados en -oso/-osa llevan s (grandiosa), verbos como \u00ABrecibir\u00BB llevan c (regla de verbos en -bir)."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mate-calentamiento-naturales",
+  "titulo": "Problema disparador: el cine",
+  "autor": "CIEEM 2026",
+  "genero": "otro",
+  "clase": "Clase 1",
+  "cuerpo": "La capacidad de un cine es de 20 filas con 18 butacas en cada una. El s\u00E1bado por la noche se ocuparon 13 filas completas. En las filas restantes, quedaron vac\u00EDas cuatro butacas en cada una.\n\na) \u00BFCu\u00E1ntas butacas vac\u00EDas hubo en total?\nb) \u00BFCu\u00E1ntas personas asistieron al cine?\n\nPista: escrib\u00ED una sola expresi\u00F3n matem\u00E1tica que resuelva cada pregunta.",
+  "solucion": "a) Butacas vacías: 7 filas × 4 = 28 butacas vacías.\nb) Personas que asistieron: 13 × 18 + 7 × 14 = 234 + 98 = 332.\n\nRazonamiento: 20 filas de 18 = 360 butacas totales. 13 filas completas = 234 ocupadas. En las 7 filas restantes hay 4 vacías en cada una → 7 × 4 = 28 vacías. De esas 7 filas, 7 × 14 = 98 butacas ocupadas. Total personas = 234 + 98 = 332. Expresión: 13 × 18 + 7 × (18 − 4) = 332.",
+  "notas_al_pie": []
+}

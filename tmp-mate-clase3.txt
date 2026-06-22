@@ -1,0 +1,79 @@
+
+--- PAGINA 1 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 3 - 18 de abril de 2026
+Clase n° 3 - 18/4 /2026 8
+División entera. Múltiplos y divisores. Criterios de divisibilidad.
+1. a) En u na fábrica de velas , se produjo un lote de 150 unidades. Para su comercialización ,
+las velas se agruparon en paquetes de cinco unidades cada uno y luego estos se colocaron en
+cajas con capacidad para siete paquetes cada una.
+i. ¿Cuántos paquetes se obtuvieron con la producción de velas ?
+ii. Hallá la cantidad de cajas que se completaron con los paquetes de velas .
+iii. Completá las siguientes divisiones enteras relacionadas con la resoluci ón de los ítems
+anteriores y, para cada una de ellas, explicá en términos del problema el significado del
+resto obtenido.
+b ) i. Escribí en los casilleros vacíos los nombres de cada uno de los elementos que
+componen la división entera .
+ii. Considerá los números de la división anterior y comp letá la siguiente igualdad para
+que sea verdadera.
+………. = ………. . 4 + ……….
+2 . Considerá la siguiente expresión: 51 = 6 . 7 + 9 . ¿Se puede afirmar que 6 es el divisor, 7 es el
+cociente y 9 es el resto? ¿Por qué?
+3. a) ¿Cuál es el resto de dividir 75 por 9? ¿Y el de dividir 50 por 25?
+b) i. ¿Puede ser 8 el resto de dividir un número natural por 3? ¿Por qué?
+ii. ¿Qué condición debe cumplir el resto en cualquier división entera?
+c) Hallá los posibles valores de a y r en esta división entera:
+d) ¿Cuál es el cociente entre 29 y 3? ¿Y entre 3 y 29?
+e) ¿Por qué en una división entera el divisor no puede ser cero?
+15 r
+4 a
+4 2
+7 30 Divisor
+……
+……
+..
+7
+……
+…
+……
+……
+..
+150
+……
+…
+
+--- PAGINA 2 ---
+UBA
+CIEEM 2026/2027
+Matemática - Clase n° 3 - 18 de abril de 2026
+Clase n° 3 - 18/4 /2026 9
+4 . Para un torneo de fútbol , en un club de barrio se compraron 212 pecheras que s e guardaron
+en bolsas con no más de 6 unidades cada una.
+a) ¿Cuántas bolsas se utilizaron como mínimo para guardar las pecheras compradas?
+b) Las bolsas con las pecheras se acomodaron en estantes con ca pacidad para 8 bolsas cada
+uno . ¿ Cuántos estantes se necesitar on por lo menos para ello ?
+c) Si la cantidad de pecheras se triplicó , ¿cuántos estantes se usaron como mínimo para
+guardarlas ?
+5 . Considerá que 210 = 35 . 6 y , para que la afirmación de cada ítem resulte verdadera , escribí
+sobre la línea de puntos una de estas palabras: múltiplo, divisor , divisible , factor.
+a) 210 es ………………………….. de 6 .
+b) 35 es ………………………….. de 210.
+c) 210 es ………………………….. de 5 .
+d) 210 es ………………………….. por 7.
+e) 6 es ………………………….. de 210.
+6 . Escribí todos los números naturales que cumplen con la condición pedida en cada ítem.
+a) Múltiplos de 8 comprendidos entre 51 y 90.
+b) Divisores de 36 .
+c) Múltiplos de 7 de dos cifras mayores que 81 .
+d) Divis ores pares de 42.
+7 . Hallá todos los valores de b para que el número de cuatro cifras 3 b 2 b sea divisible por:
+a) 4 ;
+b) 15 .
+Tarea : resolvé los problemas del 1 al 10 de la sección de Matemática del libro del CIEEM
+2026 que corresponde a “ División entera. Múltiplos y divisores ” y “Divisibilidad” del apartado
+Números Naturales.
+Para la próxima clase, traé un lápiz de color rojo y otro de color azul.
+Encontrarás los problemas de tarea en:
+https://www.cnba.uba.ar/curso - de - ingreso/clases
+https://www.cpel.uba.ar/index.php/clases - y - materiales - de - estudio

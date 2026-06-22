@@ -1,0 +1,654 @@
+{
+  "id": "mate-numeros-primos-compuestos-factorizacion",
+  "materia": "matematica",
+  "titulo": "N\u00FAmeros primos y compuestos. Descomposici\u00F3n en factores primos",
+  "descripcion": "N\u00FAmeros primos (2 divisores) y compuestos (m\u00E1s de 2 divisores). Descomposici\u00F3n en factores primos. Aplicaciones.",
+  "textos_ids": ["mate-calentamiento-primos"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "eli_norberto_divisores",
+      "tipo": "completar",
+      "consigna": "Eli sac\u00F3: 17, 25, 2, 32. Norberto: 0, 1, 33, 49. Indic\u00E1 cu\u00E1ntos divisores tiene cada uno.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Divisores de 17",
+          "respuesta": "1 y 17 (2 divisores)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Divisores de 25",
+          "respuesta": "1, 5, 25 (3 divisores)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Divisores de 2",
+          "respuesta": "1 y 2 (2 divisores)"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "Divisores de 32",
+          "respuesta": "1, 2, 4, 8, 16, 32 (6 divisores)"
+        },
+        {
+          "id": "e",
+          "subtipo": "texto",
+          "pregunta": "Divisores de 0",
+          "respuesta": "Todos los naturales (infinitos)"
+        },
+        {
+          "id": "f",
+          "subtipo": "texto",
+          "pregunta": "Divisores de 1",
+          "respuesta": "1 (1 divisor)"
+        },
+        {
+          "id": "g",
+          "subtipo": "texto",
+          "pregunta": "Divisores de 33",
+          "respuesta": "1, 3, 11, 33 (4 divisores)"
+        },
+        {
+          "id": "h",
+          "subtipo": "texto",
+          "pregunta": "Divisores de 49",
+          "respuesta": "1, 7, 49 (3 divisores)"
+        }
+      ]
+    },
+    {
+      "id": "clasificar_numeros",
+      "tipo": "completar",
+      "consigna": "Un\u00ED con flechas cada n\u00FAmero con su tipo seg\u00FAn la cantidad de divisores.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "17 tiene exactamente dos divisores. \u00BFEs primo o compuesto?",
+          "respuesta": "Primo",
+          "opciones": ["Primo", "Compuesto"]
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "25 tiene m\u00E1s de dos divisores. \u00BFEs primo o compuesto?",
+          "respuesta": "Compuesto",
+          "opciones": ["Primo", "Compuesto"]
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "2 tiene exactamente dos divisores.",
+          "respuesta": "Primo",
+          "opciones": ["Primo", "Compuesto"]
+        },
+        {
+          "id": "d",
+          "subtipo": "select",
+          "pregunta": "32 tiene m\u00E1s de dos divisores.",
+          "respuesta": "Compuesto",
+          "opciones": ["Primo", "Compuesto"]
+        },
+        {
+          "id": "e",
+          "subtipo": "select",
+          "pregunta": "0 \u00BFes primo o compuesto?",
+          "respuesta": "No es ninguno",
+          "opciones": ["Primo", "Compuesto", "No es ninguno"]
+        }
+      ]
+    },
+    {
+      "id": "unir_numeros_frase",
+      "tipo": "unir_flechas",
+      "consigna": "Un\u00ED con flechas cada n\u00FAmero con la frase que le corresponde.",
+      "izquierda": [
+        { "id": "izq17", "texto": "17" },
+        { "id": "izq25", "texto": "25" },
+        { "id": "izq2", "texto": "2" },
+        { "id": "izq32", "texto": "32" },
+        { "id": "izq1", "texto": "1" },
+        { "id": "izq33", "texto": "33" },
+        { "id": "izq49", "texto": "49" }
+      ],
+      "derecha": [
+        { "id": "der2div", "texto": "Tiene exactamente dos divisores" },
+        { "id": "der1div", "texto": "Tiene exactamente un divisor" },
+        { "id": "dermas2", "texto": "Tiene m\u00E1s de dos divisores" }
+      ],
+      "pares": [
+        { "izquierda_id": "izq17", "derecha_id": "der2div" },
+        { "izquierda_id": "izq25", "derecha_id": "dermas2" },
+        { "izquierda_id": "izq2", "derecha_id": "der2div" },
+        { "izquierda_id": "izq32", "derecha_id": "dermas2" },
+        { "izquierda_id": "izq1", "derecha_id": "der1div" },
+        { "izquierda_id": "izq33", "derecha_id": "dermas2" },
+        { "izquierda_id": "izq49", "derecha_id": "dermas2" }
+      ]
+    },
+    {
+      "id": "completar_cartas",
+      "tipo": "completar",
+      "consigna": "Eli y Norberto juegan otra partida. En algunas cartas se borraron los n\u00FAmeros. Complet\u00E1.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "El doble del n\u00FAmero primo comprendido entre 13 y 19.",
+          "respuesta": "2 \u00D7 17 = 34"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "El n\u00FAmero divisible por 3 y 7, mayor que 63 y menor que 91.",
+          "respuesta": "84"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "El mayor n\u00FAmero primo de dos cifras menor que 37.",
+          "respuesta": "31"
+        }
+      ]
+    },
+    {
+      "id": "marcar_primo",
+      "tipo": "seleccion_multiple",
+      "consigna": "Marc\u00E1 el \u00FAnico n\u00FAmero primo entre los siguientes. Explic\u00E1 c\u00F3mo lo obtuviste.",
+      "opciones": [
+        { "id": "a", "texto": "7851 (divisible por 3: 7+8+5+1=21)" },
+        { "id": "b", "texto": "5381 (no es divisible por 2, 3, 5, 7, 11, 13, 17...)" },
+        { "id": "c", "texto": "5492 (es par, divisible por 2)" },
+        { "id": "d", "texto": "6485 (termina en 5, divisible por 5)" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "valores_h",
+      "tipo": "completar",
+      "consigna": "Consider\u00E1 la expresi\u00F3n 47 < h \u2264 60, con h natural. Escrib\u00ED un valor de h que cumpla cada condici\u00F3n.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "El menor n\u00FAmero primo (entre 48 y 60).",
+          "respuesta": "53"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Que posea solo cuatro divisores y sea m\u00FAltiplo de 5.",
+          "respuesta": "50 o 55"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "El mayor n\u00FAmero compuesto impar.",
+          "respuesta": "57"
+        }
+      ]
+    },
+    {
+      "id": "mayor_menor_primo",
+      "tipo": "completar",
+      "consigna": "Respond\u00E9 sobre los n\u00FAmeros pedidos.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el mayor n\u00FAmero de tres cifras que tiene como \u00FAnico divisor primo a 5?",
+          "respuesta": "625 (5\u2074 = 625)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el menor n\u00FAmero de cuatro cifras que tiene solo dos divisores primos y es divisible por 35?",
+          "respuesta": "1015 (35 \u00D7 29)"
+        }
+      ]
+    },
+    {
+      "id": "descomposicion_280",
+      "tipo": "completar",
+      "consigna": "Sin considerar el 1 como factor, escrib\u00ED el n\u00FAmero 280 de las siguientes formas.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Como producto de dos factores.",
+          "respuesta": "Ej: 28 \u00D7 10, 140 \u00D7 2, 56 \u00D7 5"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Como producto de tres factores.",
+          "respuesta": "Ej: 7 \u00D7 8 \u00D7 5, 28 \u00D7 2 \u00D7 5"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Como producto de la mayor cantidad de factores posibles (factores primos).",
+          "respuesta": "2 \u00D7 2 \u00D7 2 \u00D7 5 \u00D7 7"
+        }
+      ]
+    },
+    {
+      "id": "factorizar_396",
+      "tipo": "completar",
+      "consigna": "Escrib\u00ED el n\u00FAmero 396 como producto de factores primos.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Descomposici\u00F3n de 396 en factores primos.",
+          "respuesta": "396 = 2\u00B2 \u00D7 3\u00B2 \u00D7 11"
+        }
+      ]
+    },
+    {
+      "id": "divisores_de_r",
+      "tipo": "completar",
+      "consigna": "La descomposici\u00F3n en factores primos de r es r = 2\u00B3 \u00D7 5\u00B2 \u00D7 11.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Tres divisores de r que sean m\u00FAltiplos de 4.",
+          "respuesta": "Ej: 4, 8, 20, 40, 44, 88, 100, 200"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Tres divisores de r que sean impares.",
+          "respuesta": "Ej: 5, 11, 25, 55, 275"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "El mayor divisor de r (el mismo r).",
+          "respuesta": "r = 8 \u00D7 25 \u00D7 11 = 2200"
+        }
+      ]
+    },
+    {
+      "id": "factorizar_720_51",
+      "tipo": "completar",
+      "consigna": "Descompon\u00E9 en factores primos los siguientes n\u00FAmeros.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "720 = \u2026 (us\u00E1 divisiones sucesivas)",
+          "respuesta": "720 = 2\u2074 \u00D7 3\u00B2 \u00D7 5"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "51 = \u2026",
+          "respuesta": "51 = 3 \u00D7 17"
+        }
+      ]
+    },
+    {
+      "id": "conitos_dulce_leche",
+      "tipo": "completar",
+      "consigna": "En una confiter\u00EDa se elaboraron 378 conitos de dulce de leche que se guardaron en cajas con no m\u00E1s de 8 unidades cada una.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1ntas cajas se usaron como m\u00EDnimo? (378 \u00F7 8 = 47, resto 2 \u2192 48 cajas)",
+          "respuesta": "48"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Las cajas se acomodaron en estantes con capacidad para 6 cajas. \u00BFCu\u00E1ntos estantes se necesitaron?",
+          "respuesta": "8"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Si la cantidad de conitos se duplic\u00F3 (756), \u00BFCu\u00E1ntos estantes se usaron como m\u00EDnimo?",
+          "respuesta": "16"
+        }
+      ]
+    },
+    {
+      "id": "afirmaciones_vf_primos",
+      "tipo": "verdadero_falso",
+      "consigna": "Decid\u00ED si cada afirmaci\u00F3n es verdadera (V) o falsa (F).",
+      "items": [
+        { "id": "a", "afirmacion": "Alg\u00FAn n\u00FAmero primo es par.", "respuesta": true },
+        { "id": "b", "afirmacion": "0 es m\u00FAltiplo de todos los n\u00FAmeros naturales.", "respuesta": true },
+        { "id": "c", "afirmacion": "Si p es natural, entonces p es divisor de 7p.", "respuesta": true },
+        { "id": "d", "afirmacion": "Si un n\u00FAmero es m\u00FAltiplo de 2 y 4, entonces es m\u00FAltiplo de 8.", "respuesta": false },
+        { "id": "e", "afirmacion": "Si un n\u00FAmero es m\u00FAltiplo de 6, entonces es divisible por 2 y 3.", "respuesta": true },
+        { "id": "f", "afirmacion": "Ning\u00FAn m\u00FAltiplo de 20 es m\u00FAltiplo de 400.", "respuesta": false },
+        { "id": "g", "afirmacion": "Cualquier n\u00FAmero natural es divisible por 0.", "respuesta": false }
+      ]
+    },
+    {
+      "id": "sin_hacer_cuenta_15x78",
+      "tipo": "completar",
+      "consigna": "Sin hacer la cuenta 15 \u00D7 78, decid\u00ED si el resultado cumple cada condici\u00F3n (descompon\u00E9: 15 \u00D7 78 = 3 \u00D7 5 \u00D7 2 \u00D7 3 \u00D7 13).",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "\u00BFEs un n\u00FAmero impar?",
+          "respuesta": "No",
+          "opciones": ["S\u00ED", "No"],
+          "explicacion": "Tiene factor 2, por lo tanto es par."
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "\u00BFEs m\u00FAltiplo de 8?",
+          "respuesta": "No",
+          "opciones": ["S\u00ED", "No"],
+          "explicacion": "No se puede formar 8 (2\u00B3) con los factores disponibles."
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "\u00BFEs m\u00FAltiplo de 10?",
+          "respuesta": "S\u00ED",
+          "opciones": ["S\u00ED", "No"],
+          "explicacion": "Tiene factor 2 y 5, as\u00ED que es m\u00FAltiplo de 10."
+        },
+        {
+          "id": "d",
+          "subtipo": "select",
+          "pregunta": "\u00BFEs divisible por 9?",
+          "respuesta": "S\u00ED",
+          "opciones": ["S\u00ED", "No"],
+          "explicacion": "Tiene dos factores 3, as\u00ED que 3\u00B2 = 9 lo divide."
+        }
+      ]
+    },
+    {
+      "id": "primos_gemelos",
+      "tipo": "completar",
+      "consigna": "Dos n\u00FAmeros primos a y b (b > a) son primos gemelos si b \u2013 a = 2.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Expres\u00E1 en lenguaje coloquial la condici\u00F3n de los primos gemelos.",
+          "respuesta": "Dos n\u00FAmeros primos son gemelos si la diferencia entre ellos es 2."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Escrib\u00ED los pares de primos gemelos entre 30 y 50.",
+          "respuesta": "41 y 43"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "\u00BFHay alg\u00FAn par de primos gemelos pares?",
+          "respuesta": "No, el \u00FAnico primo par es 2, y 2+2=4 no es primo."
+        }
+      ]
+    },
+    {
+      "id": "divisible_12_resto_8",
+      "tipo": "completar",
+      "consigna": "Si se divide un n\u00FAmero natural por 12, el resto es 8. \u00BFCu\u00E1l es el resto de dividir el triple de ese n\u00FAmero por 12?",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Escrib\u00ED el n\u00FAmero como n = 12 \u00D7 c + 8. Luego calcul\u00E1 3n.",
+          "respuesta": "3n = 12 \u00D7 (3c) + 24 = 12 \u00D7 (3c + 2) + 0. Resto = 0."
+        }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["mate-calentamiento-primos"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "numeros_primos",
+          "titulo": "N\u00FAmeros primos",
+          "icono": "\uD83D\uDD22",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00BFQu\u00E9 es un n\u00FAmero primo?",
+              "texto": "Un n\u00FAmero natural se llama primo si tiene exactamente dos divisores: el 1 y s\u00ED mismo.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Ejemplos de n\u00FAmeros primos: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, \u2026"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\uD83D\uDCA1", "texto": "El 2 es el \u00FAnico n\u00FAmero primo par." },
+                { "icono": "\uD83D\uDCA1", "texto": "Hay infinitos n\u00FAmeros primos." },
+                { "icono": "\uD83D\uDCA1", "texto": "Para saber si un n\u00FAmero es primo, verificamos que no sea divisible por ning\u00FAn primo menor o igual que su ra\u00EDz." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "numeros_compuestos",
+          "titulo": "N\u00FAmeros compuestos",
+          "icono": "\uD83D\uDCCC",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00BFQu\u00E9 es un n\u00FAmero compuesto?",
+              "texto": "Un n\u00FAmero natural distinto de cero se llama compuesto si tiene m\u00E1s de dos divisores.",
+              "color": "naranja"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "Ej: 4 (divisores: 1, 2, 4), 6 (1, 2, 3, 6), 8 (1, 2, 4, 8), 9 (1, 3, 9)." },
+                { "icono": "\u25B6", "texto": "Todo n\u00FAmero compuesto puede escribirse como producto de factores primos." }
+              ]
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00B0 y 1 no son primos ni compuestos",
+              "texto": "0 no es un n\u00FAmero natural; 1 tiene solo un divisor. Por eso ninguno de los dos se clasifica como primo o compuesto.",
+              "color": "naranja"
+            }
+          ]
+        },
+        {
+          "id": "descomposicion_factores_primos",
+          "titulo": "Descomposici\u00F3n en factores primos",
+          "icono": "\uD83D\uDD0D",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Factorizaci\u00F3n \u00FAnica",
+              "texto": "Todo n\u00FAmero compuesto puede escribirse como producto de factores primos, y esta descomposici\u00F3n es \u00FAnica (salvo el orden).",
+              "color": "verde"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "720 = 2 \u00D7 2 \u00D7 2 \u00D7 2 \u00D7 3 \u00D7 3 \u00D7 5 = 2\u2074 \u00D7 3\u00B2 \u00D7 5",
+              "explicacion": "Se divide sucesivamente por los primos (2, 3, 5, 7, 11\u2026) hasta obtener 1."
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "M\u00E9todo: divid\u00ED el n\u00FAmero por el menor primo posible (2, 3, 5, 7\u2026), luego el cociente, y as\u00ED sucesivamente hasta llegar a 1."
+            }
+          ]
+        },
+        {
+          "id": "aplicaciones_factorizacion",
+          "titulo": "Aplicaciones de la factorizaci\u00F3n",
+          "icono": "\uD83C\uDFAF",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00BFPara qu\u00E9 sirve?",
+              "texto": "La descomposici\u00F3n en factores primos permite encontrar todos los divisores de un n\u00FAmero, y tambi\u00E9n determinar si un n\u00FAmero es divisible por otro sin hacer la divisi\u00F3n.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "r = 2\u00B3 \u00D7 5\u00B2 \u00D7 11. Hallar divisores m\u00FAltiplos de 4.",
+              "explicacion": "4 = 2\u00B2. Cualquier divisor que incluya al menos 2\u00B2 es m\u00FAltiplo de 4. Ej: 4, 8, 20, 40, 44, 88, \u2026"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "15 \u00D7 78 = 3\u00B7 5\u00B7 2\u00B7 3\u00B7 13. \u00BFEs m\u00FAltiplo de 10?",
+              "explicacion": "S\u00ED, porque tiene factores 2 y 5 (10 = 2 \u00D7 5). \u00BFDe 9? S\u00ED, porque tiene 3\u00B2."
+            }
+          ]
+        },
+        {
+          "id": "primos_gemelos_diapo",
+          "titulo": "Primos gemelos",
+          "icono": "\uD83D\uDC65",
+          "color": "violeta",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00BFQu\u00E9 son?",
+              "texto": "Dos n\u00FAmeros primos son gemelos si la diferencia entre ellos es 2.",
+              "color": "violeta"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "Ejemplos: (3,5), (5,7), (11,13), (17,19), (41,43)." },
+                { "icono": "\u25B6", "texto": "No hay primos gemelos pares (el \u00FAnico primo par es 2)." },
+                { "icono": "\u25B6", "texto": "No se sabe si hay infinitos pares de primos gemelos." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "\u00BFQu\u00E9 n\u00FAmeros primos gemelos hay entre 30 y 50?",
+              "explicacion": "Primos entre 30 y 50: 31, 37, 41, 43, 47. Los \u00FAnicos que difieren en 2 son 41 y 43."
+            }
+          ]
+        },
+        {
+          "id": "resumen_clase4",
+          "titulo": "Resumen",
+          "icono": "\uD83D\uDCDD",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Puntos clave",
+              "texto": "Primo: 2 divisores. Compuesto: m\u00E1s de 2 divisores. 0 y 1 no son ninguno.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "Descomposici\u00F3n \u00FAnica en factores primos." },
+                { "icono": "\u25B6", "texto": "Criterios de divisibilidad ayudan a identificar primos." },
+                { "icono": "\u25B6", "texto": "Primos gemelos: diferencia de 2." },
+                { "icono": "\u25B6", "texto": "La factorizaci\u00F3n permite encontrar divisores y analizar m\u00FAltiplos." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        {
+          "pregunta": "\u00BFQu\u00E9 es un n\u00FAmero primo?",
+          "respuesta": "Un n\u00FAmero natural que tiene exactamente dos divisores: el 1 y s\u00ED mismo. Ej: 2, 3, 5, 7, 11."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 es un n\u00FAmero compuesto?",
+          "respuesta": "Un n\u00FAmero natural distinto de cero que tiene m\u00E1s de dos divisores. Ej: 4, 6, 8, 9, 10."
+        },
+        {
+          "pregunta": "\u00BFEl 0 y el 1 son primos o compuestos?",
+          "respuesta": "No. El 1 tiene solo un divisor. El 0 no es n\u00FAmero natural y tiene infinitos divisores."
+        },
+        {
+          "pregunta": "\u00BFCu\u00E1l es el \u00FAnico n\u00FAmero primo par?",
+          "respuesta": "El 2. Todos los dem\u00E1s primos son impares."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 es la descomposici\u00F3n en factores primos?",
+          "respuesta": "Escribir un n\u00FAmero compuesto como producto de factores primos. Ej: 720 = 2\u2074 \u00D7 3\u00B2 \u00D7 5."
+        },
+        {
+          "pregunta": "\u00BFC\u00F3mo se factoriza un n\u00FAmero?",
+          "respuesta": "Dividiendo sucesivamente por los primos (2, 3, 5, 7\u2026) hasta obtener 1."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 son los n\u00FAmeros primos gemelos?",
+          "respuesta": "Pares de primos que difieren en 2. Ej: (3,5), (5,7), (11,13), (17,19), (41,43)."
+        },
+        {
+          "pregunta": "\u00BFPuede un n\u00FAmero par (adem\u00E1s del 2) ser primo?",
+          "respuesta": "No. Todo n\u00FAmero par mayor que 2 es divisible por 2, as\u00ED que tiene al menos 3 divisores."
+        }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": [
+        "eli_norberto_divisores",
+        "clasificar_numeros",
+        "unir_numeros_frase",
+        "completar_cartas",
+        "marcar_primo",
+        "valores_h",
+        "descomposicion_280",
+        "factorizar_396",
+        "divisores_de_r",
+        "factorizar_720_51"
+      ]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": [
+        "afirmaciones_vf_primos",
+        "sin_hacer_cuenta_15x78",
+        "conitos_dulce_leche",
+        "primos_gemelos",
+        "divisible_12_resto_8",
+        "mayor_menor_primo"
+      ],
+      "duracion_min": 30
+    },
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Confundir n\u00FAmero primo con n\u00FAmero impar",
+          "detalle": "No todos los impares son primos (ej: 9, 15, 21, 25, 27, 33, 35, 39, 45, 49 son impares compuestos). Y solo hay un primo par: el 2. Para verificar si un n\u00FAmero es primo, hay que comprobar que no sea divisible por ning\u00FAn primo menor (2, 3, 5, 7, 11, 13\u2026) hasta su ra\u00EDz cuadrada."
+        },
+        {
+          "titulo": "Pensar que 1 es n\u00FAmero primo",
+          "detalle": "El 1 tiene un solo divisor (s\u00ED mismo), no dos. Por definici\u00F3n, los n\u00FAmeros primos deben tener exactamente dos divisores distintos. Por eso el 1 no es primo ni compuesto. Este es uno de los errores m\u00E1s frecuentes."
+        },
+        {
+          "titulo": "No completar la factorizaci\u00F3n hasta llegar a 1",
+          "detalle": "Al factorizar hay que seguir dividiendo hasta que el cociente sea 1. Por ejemplo, al factorizar 720, muchos se detienen en 720 = 72 \u00D7 10, pero 72 y 10 a\u00FAn se pueden descomponer m\u00E1s. La factorizaci\u00F3n completa es 720 = 2\u2074 \u00D7 3\u00B2 \u00D7 5."
+        },
+        {
+          "titulo": "Malinterpretar la descomposici\u00F3n al buscar divisores",
+          "detalle": "Si r = 2\u00B3 \u00D7 5\u00B2 \u00D7 11, los divisores se forman combinando los factores primos con exponentes desde 0 hasta el m\u00E1ximo. Por ejemplo, para ser m\u00FAltiplo de 4 (2\u00B2), el divisor debe tener al menos 2\u00B2. Para ser impar, no debe tener factor 2 (exponente 0). Para ser el mayor divisor, es el mismo r."
+        }
+      ]
+    }
+  }
+}

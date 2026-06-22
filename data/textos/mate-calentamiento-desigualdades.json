@@ -1,0 +1,10 @@
+{
+  "id": "mate-calentamiento-desigualdades",
+  "titulo": "Problema disparador: las revistas",
+  "autor": "CIEEM 2026",
+  "genero": "otro",
+  "clase": "Clase 2",
+  "cuerpo": "Bruno tiene en una caja menos de 30 revistas. Reparte entre sus amigos 24 revistas.\n\na) ¿Cuántas revistas le pueden sobrar? Indicá todas las posibilidades.\n\nb) Si llamamos n a la cantidad de revistas que le sobran, ¿cómo se puede expresar esa cantidad usando los símbolos <, >, ≤ o ≥?\n\nPista: pensá primero cuántas revistas puede tener Bruno en la caja (menos de 30). Luego restá las 24 que reparte.",
+  "solucion": "a) Posibles revistas que le sobran: 0, 1, 2, 3, 4 o 5.\nb) 0 ≤ n ≤ 5  (o también 0 ≤ n < 6).\n\nRazonamiento: Bruno tiene menos de 30 revistas → total < 30. Reparte 24 → n = total − 24. Como total < 30, n < 6. Además n ≥ 0 y n es entero. Entonces n ∈ {0, 1, 2, 3, 4, 5}.",
+  "notas_al_pie": []
+}

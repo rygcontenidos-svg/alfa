@@ -1,0 +1,394 @@
+{
+  "id": "revision-narrativo-puntuacion-scz",
+  "materia": "lengua",
+  "titulo": "Revisión: género narrativo. Puntuación general. S/C/Z",
+  "descripcion": "Repaso integrador del género narrativo. Uso de coma, punto y punto y coma. Normativa gráfica de S, C y Z.",
+  "textos_ids": ["esta-casa-es-un-sueno"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "casa_comprension",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcá V (verdadero) o F (falso) según el cuento \"Esta casa es un sueño\" de Nicolás Schuff.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "c1", "afirmacion": "Inés y Carlos son una pareja que está a punto de separarse.", "respuesta": true },
+        { "id": "c2", "afirmacion": "La casa está ubicada junto al lago Nahuel Huapi.", "respuesta": true },
+        { "id": "c3", "afirmacion": "Carlos alquiló la casa para celebrar un aniversario.", "respuesta": false, "correccion": "Carlos alquiló la casa porque pensó que unas vacaciones podrían servir para recomponer la relación con Inés." },
+        { "id": "c4", "afirmacion": "En la pesadilla de Inés, un monstruo acuático ataca a Carlos y lo parte en dos.", "respuesta": true },
+        { "id": "c5", "afirmacion": "Después de la pesadilla, Carlos le dice a Inés que quiere volver a casa.", "respuesta": false, "correccion": "Carlos acompaña a Inés a la cocina y toma té con ella. Quiere hacer un esfuerzo por la relación." },
+        { "id": "c6", "afirmacion": "La frase \"La casa es un sueño, ¿no?\" se repite dos veces en el cuento.", "respuesta": true },
+        { "id": "c7", "afirmacion": "El cuento termina con Inés logrando despertar de la pesadilla.", "respuesta": false, "correccion": "Inés no logra despertar: oye el grito de Carlos, cierra los ojos y se repite que todo es un sueño, pero no despierta." },
+        { "id": "c8", "afirmacion": "El título del cuento se relaciona con la frase que Carlos repite y con el carácter onírico de la historia.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "casa_narrador",
+      "tipo": "tipo_narrador",
+      "consigna": "Marcá el tipo de narrador del cuento \"Esta casa es un sueño\" y justificá con una cita del texto.",
+      "opciones": ["Narrador Protagonista", "Narrador Testigo", "Narrador Omnisciente"],
+      "correcta": "Narrador Omnisciente",
+      "cita_justificacion": "pensó Inés / Carlos pensó que quizá unas vacaciones podrían servir para recomponer la relación (el narrador conoce los pensamientos íntimos de los personajes)"
+    },
+    {
+      "id": "casa_marco",
+      "tipo": "marco_narrativo",
+      "consigna": "Completá el marco narrativo del cuento \"Esta casa es un sueño\".",
+      "personajes": "Inés y Carlos (una pareja que intenta recomponer su relación)",
+      "lugar": "Cabaña de madera junto al lago Nahuel Huapi, en la Patagonia (jardín, cocina)",
+      "tiempo": "De noche, durante unas vacaciones de verano; la historia transcurre entre las dos de la madrugada y el amanecer"
+    },
+    {
+      "id": "casa_conflicto",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Cuál es el conflicto principal del relato? Elegí la opción correcta.",
+      "opciones": [
+        { "id": "a", "texto": "Inés y Carlos no logran encontrar la casa en el bosque." },
+        { "id": "b", "texto": "La pareja intenta recomponer su relación mientras aparece una amenaza inquietante que pone en duda la realidad." },
+        { "id": "c", "texto": "Inés quiere investigar al Nahuelito, pero Carlos no le cree." },
+        { "id": "d", "texto": "Carlos decide irse de la casa porque tiene miedo del lago." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "casa_secuencia",
+      "tipo": "ordenar_secuencia",
+      "consigna": "Ordená los siguientes núcleos narrativos según la secuencia temporal del cuento, colocando números del 1 al 9.",
+      "eventos": [
+        { "id": "e1", "texto": "Llegada de Inés y Carlos a la casa del lago.", "orden": 1 },
+        { "id": "e2", "texto": "Pesadilla horrible de Inés: el monstruo ataca a Carlos.", "orden": 2 },
+        { "id": "e3", "texto": "Grito de Inés y despertar de Carlos.", "orden": 3 },
+        { "id": "e4", "texto": "Desvelo de Inés y acompañamiento de Carlos.", "orden": 4 },
+        { "id": "e5", "texto": "Charla sobre Nahuelito en la cocina.", "orden": 5 },
+        { "id": "e6", "texto": "Repetición de la escena inicial en el jardín, bajo las estrellas.", "orden": 6 },
+        { "id": "e7", "texto": "Desesperación de Inés frente a la nueva aparición de la figura monstruosa.", "orden": 7 },
+        { "id": "e8", "texto": "Grito aterrador de Carlos.", "orden": 8 },
+        { "id": "e9", "texto": "Imposibilidad de despertar de Inés.", "orden": 9 }
+      ]
+    },
+    {
+      "id": "casa_recursos",
+      "tipo": "tipo_textual",
+      "consigna": "Completá las características del tipo textual narrativo con ejemplos extraídos de \"Esta casa es un sueño\".",
+      "filas": [
+        { "caracteristica": "Uso de tiempos verbales del pasado", "ejemplo": "pensó / era / habían estado / miró / emergió / atrapó / gritó / despertó" },
+        { "caracteristica": "Presencia de un narrador", "ejemplo": "Narrador omnisciente en 3ª persona que conoce los pensamientos de Inés y Carlos" },
+        { "caracteristica": "Secuencia temporal y núcleos narrativos", "ejemplo": "Llegada → pesadilla → despertar → charla → repetición → desesperación → final abierto" }
+      ]
+    },
+    {
+      "id": "casa_completar_csz",
+      "tipo": "normativa_grafica",
+      "consigna": "Completá las palabras con C, S o Z según corresponda. Justificá con la regla ortográfica.",
+      "items": [
+        { "id": "csz_a", "modo": "completar", "texto": "Inés miró el lago silen__io__o.", "opciones": ["c", "s", "z", "sc"], "correcta": "c, s" },
+        { "id": "csz_b", "modo": "completar", "texto": "La casa era hermo__a.", "opciones": ["c", "s", "z"], "correcta": "s" },
+        { "id": "csz_c", "modo": "completar", "texto": "Carlos creyó que su fun__ión era acompañarla.", "opciones": ["c", "s", "z"], "correcta": "c" },
+        { "id": "csz_d", "modo": "completar", "texto": "El té estaba deli__io__o.", "opciones": ["c", "s", "z", "sc"], "correcta": "c, s" },
+        { "id": "csz_e", "modo": "completar", "texto": "La esperan__a de que fuese un sueño.", "opciones": ["c", "s", "z"], "correcta": "z" },
+        { "id": "csz_f", "modo": "completar", "texto": "La ten__ión se apoderó de Inés.", "opciones": ["c", "s", "z"], "correcta": "s" },
+        { "id": "csz_g", "modo": "completar", "texto": "Un pájaro negru__co cruzó el cielo.", "opciones": ["c", "s", "z"], "correcta": "z" },
+        { "id": "csz_h", "modo": "completar", "texto": "Una pesadilla feí__ima.", "opciones": ["c", "s", "z"], "correcta": "s" },
+        { "id": "csz_i", "modo": "completar", "texto": "Sintió alivio al per__ibir que solo había sido un sueño.", "opciones": ["c", "s", "z"], "correcta": "c" }
+      ]
+    },
+    {
+      "id": "casa_unir_reglas",
+      "tipo": "normativa_grafica",
+      "consigna": "Relacioná cada regla ortográfica con su ejemplo correcto.",
+      "items": [
+        { "id": "regla_1", "modo": "regla", "regla": "Palabras terminadas en -azgo", "ejemplo_correcto": "noviazgo" },
+        { "id": "regla_2", "modo": "regla", "regla": "Adjetivos terminados en -esco", "ejemplo_correcto": "pintoresco" },
+        { "id": "regla_3", "modo": "regla", "regla": "Sustantivos abstractos terminados en -eza", "ejemplo_correcto": "tristeza" },
+        { "id": "regla_4", "modo": "regla", "regla": "Palabras terminadas en sufijos diminutivos -cito", "ejemplo_correcto": "pececito" },
+        { "id": "regla_5", "modo": "regla", "regla": "Palabras terminadas en -cimiento", "ejemplo_correcto": "florecimiento" },
+        { "id": "regla_6", "modo": "regla", "regla": "Verbos terminados en -izar", "ejemplo_correcto": "hipotetizar" },
+        { "id": "regla_7", "modo": "regla", "regla": "Adjetivos terminados en -oso/-osa", "ejemplo_correcto": "hermoso" },
+        { "id": "regla_8", "modo": "regla", "regla": "Palabras terminadas en -cial", "ejemplo_correcto": "imparcial" }
+      ]
+    },
+    {
+      "id": "casa_puntuacion_oraciones",
+      "tipo": "normativa_grafica",
+      "consigna": "Separá en oraciones el siguiente fragmento usando punto seguido y punto final. Completá con los signos que faltan.",
+      "items": [
+        {
+          "id": "p_1a",
+          "modo": "completar",
+          "texto": "Inés gritó con todas sus fuerzas [___] se despertó [___]",
+          "opciones": [".", ",", ";", ":"],
+          "correcta": ". Seguido"
+        },
+        {
+          "id": "p_1b",
+          "modo": "completar",
+          "texto": "Se despertó [___] eran las dos de la mañana [___]",
+          "opciones": [".", ",", ";", ":"],
+          "correcta": ". Seguido"
+        },
+        {
+          "id": "p_1c",
+          "modo": "completar",
+          "texto": "Eran las dos de la mañana y todo estaba en silencio [___] Carlos dormía a su lado [___]",
+          "opciones": [";", ",", ".", ":"],
+          "correcta": ". Seguido; . Final"
+        }
+      ]
+    },
+    {
+      "id": "casa_colocar_comas",
+      "tipo": "normativa_grafica",
+      "consigna": "Colocá las comas donde correspondan en las siguientes oraciones adaptadas del cuento.",
+      "items": [
+        { "id": "coma_a", "modo": "completar", "texto": "Inés [___] cansada y asustada [___] miró hacia el lago.", "opciones": [",", ";", "—", "."], "correcta": ", ," },
+        { "id": "coma_b", "modo": "completar", "texto": "Carlos buscó las tazas [___] preparó el té y se sentó en el jardín.", "opciones": [",", ";", ".", "—"], "correcta": "," },
+        { "id": "coma_c", "modo": "completar", "texto": "La criatura [___] enorme [___] oscura y silenciosa [___] emergió del agua.", "opciones": [",", ";", ".", "—"], "correcta": ", , ," },
+        { "id": "coma_d", "modo": "completar", "texto": "Carlos [___] no te preocupes.", "opciones": [",", ";", ".", "—"], "correcta": "," }
+      ]
+    },
+    {
+      "id": "casa_escribir_parrafo",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Cuál de los siguientes párrafos continúa correctamente el cuento e incluye al menos dos puntos seguidos, tres comas y un paréntesis?",
+      "opciones": [
+        { "id": "a", "texto": "Inés volvió a gritar pero esta vez nadie la despertó. Carlos (su compañero) ya no estaba a su lado. La casa vacía enorme y silenciosa parecía tragarse el eco de su voz." },
+        { "id": "b", "texto": "Inés abrió los ojos de par en par. La luz del amanecer entraba por la ventana. Carlos, dormido a su lado, respiraba con tranquilidad. Todo había sido una pesadilla (la segunda en esa misma noche). Suspiró aliviada y se recostó sobre la almohada." },
+        { "id": "c", "texto": "Inés abrió los ojos y vio la ventana. Carlos estaba a su lado. Suspiró." }
+      ],
+      "correcta": "b"
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["esta-casa-es-un-sueno"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "revision-genero-narrativo",
+          "titulo": "Revisión del género narrativo",
+          "icono": "📖",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "¿Qué es el género narrativo?",
+              "texto": "Es un género literario en el que un narrador cuenta una historia que les sucede a personajes en un tiempo y espacio determinados.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Los textos narrativos se organizan a partir del tipo textual narrativo: en ellos se cuentan historias conformadas por una secuencia temporal de núcleos narrativos."
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🖼️", "texto": "MARCO NARRATIVO: personajes, lugar y tiempo." },
+                { "icono": "🔗", "texto": "NÚCLEOS NARRATIVOS: eventos principales imprescindibles para la historia." },
+                { "icono": "⚡", "texto": "CONFLICTO: la situación problemática que impulsa la narración." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tipos-narrador",
+          "titulo": "Tipos de narrador",
+          "icono": "🗣️",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "El narrador es la voz que el autor crea para contar la historia. Existen tres tipos principales:"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🟢", "texto": "PROTAGONISTA: es el personaje principal. Solo conoce los hechos en los que participó. Relata en 1ª persona." },
+                { "icono": "🟠", "texto": "TESTIGO: sabe solo lo que le contaron, vio o escuchó. No es protagonista. 1ª o 3ª persona." },
+                { "icono": "🔵", "texto": "OMNISCIENTE: conoce todo sobre los personajes: acciones, sentimientos y pensamientos. No es personaje, usa 3ª persona." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "“Esta casa es un sueño”, pensó Inés. / Carlos pensó que quizá unas vacaciones podrían servir…",
+              "explicacion": "En 'Esta casa es un sueño' el narrador es omnisciente: conoce los pensamientos íntimos de ambos personajes."
+            }
+          ]
+        },
+        {
+          "id": "tiempos-verbales-narracion",
+          "titulo": "Tiempos verbales en la narración",
+          "icono": "⏳",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "En las narraciones en pasado se usa una correlación de tiempos verbales del modo indicativo:"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "⚡", "texto": "PRETÉRITO PERFECTO SIMPLE: acciones principales, puntuales y terminadas. (emergió, atrapó, gritó)" },
+                { "icono": "🔄", "texto": "PRETÉRITO IMPERFECTO: descripciones y acciones secundarias en desarrollo. (era, bajaba, parecían)" },
+                { "icono": "⏮️", "texto": "PRETÉRITO PLUSCUAMPERFECTO: acciones anteriores a otra del pasado. (habían estado, había alquilado)" }
+              ]
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Recordá",
+              "texto": "En 'Esta casa es un sueño' predomina el PPS para las acciones principales y el imperfecto para las descripciones del entorno.",
+              "color": "amarillo"
+            }
+          ]
+        },
+        {
+          "id": "puntuacion-punto",
+          "titulo": "La puntuación: el punto",
+          "icono": "⏹️",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "El punto (.)",
+              "texto": "El punto es un signo de puntuación que indica el final de un enunciado u oración. Su función principal es organizar el texto y facilitar la comprensión.",
+              "color": "azul"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "➡️", "texto": "PUNTO SEGUIDO: separa oraciones dentro de un mismo párrafo. Los temas están relacionados." },
+                { "icono": "↩️", "texto": "PUNTO APARTE: separa párrafos distintos. Marca un cambio de tema o de enfoque dentro del texto." },
+                { "icono": "🔚", "texto": "PUNTO FINAL: cierra el texto por completo." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Inés gritó con todas sus fuerzas. Se despertó. Eran las dos de la mañana.",
+              "explicacion": "El punto seguido permite separar acciones consecutivas en un mismo párrafo, ordenando la secuencia narrativa."
+            }
+          ]
+        },
+        {
+          "id": "puntuacion-coma",
+          "titulo": "La puntuación: la coma",
+          "icono": "🫘",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "La coma (,)",
+              "texto": "La coma indica una pausa breve dentro de la oración. Su uso correcto evita ambigüedades y organiza la información.",
+              "color": "verde"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "📋", "texto": "ENUMERACIÓN: separa elementos de una serie. (Ej: enorme, oscura y silenciosa)" },
+                { "icono": "📢", "texto": "VOCATIVO: aísla el nombre del receptor. (Ej: Carlos, no te preocupes.)" },
+                { "icono": "🔽", "texto": "INCIDO: encierra una aclaración dentro de la oración. (Ej: Inés, cansada y asustada, miró hacia el lago.)" }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "No se usa coma entre el sujeto y el verbo, ni entre el verbo y el objeto directo, salvo que haya un inciso."
+            }
+          ]
+        },
+        {
+          "id": "uso-scz-1",
+          "titulo": "Uso de S, C y Z (parte 1)",
+          "icono": "🔤",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Reglas generales",
+              "texto": "En español, los sonidos /s/ y /θ/ (en España) pueden representarse con S, C o Z según reglas ortográficas.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🆂", "texto": "SE escribe con S: adjetivos terminados en -oso/-osa (hermoso), superlativos -ísimo (feísimo), palabras con -sión (tensión)." },
+                { "icono": "🅲", "texto": "SE escribe con C: verbos terminados en -cer/-cir (percibir), palabras con -ción (función), diminutivos -cito (pececito)." },
+                { "icono": "🆉", "texto": "SE escribe con Z: sustantivos abstractos en -anza (esperanza), adjetivos en -uzco (negruzco), palabras en -azgo (noviazgo)." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uso-scz-2",
+          "titulo": "Uso de S, C y Z (parte 2)",
+          "icono": "🔤",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "Más reglas para recordar:"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🆂", "texto": "Se escriben con S las palabras terminadas en -esco (pintoresco)." },
+                { "icono": "🅲", "texto": "Se escriben con C las palabras terminadas en -cimiento (florecimiento) y -cial (imparcial)." },
+                { "icono": "🆉", "texto": "Se escriben con Z los sustantivos abstractos terminados en -eza (tristeza)." },
+                { "icono": "🅲", "texto": "Los verbos terminados en -izar se escriben con Z (hipotetizar, aterrizar)." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "silencio → silencioso (C+S) / tensión (S) / percibir (C) / esperanza (Z) / negruzco (Z)",
+              "explicacion": "En 'Esta casa es un sueño' encontramos varias palabras con estas grafías. Identificarlas ayuda a fijar las reglas."
+            }
+          ]
+        },
+        {
+          "id": "resumen-clase-5",
+          "titulo": "Resumen de la clase",
+          "icono": "📋",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "📖", "texto": "Género narrativo: narrador, marco (personajes, lugar, tiempo), núcleos y conflicto." },
+                { "icono": "🗣️", "texto": "Tipos de narrador: protagonista (1ª), testigo (1ª/3ª), omnisciente (3ª, todo lo sabe)." },
+                { "icono": "⏳", "texto": "Tiempos verbales: PPS (acción), imperfecto (descripción), pluscuamperfecto (anterioridad)." },
+                { "icono": "⏹️", "texto": "Punto: seguido (mismo párrafo), aparte (nuevo párrafo), final (cierra el texto)." },
+                { "icono": "🫘", "texto": "Coma: enumeración, vocativo, inciso." },
+                { "icono": "🔤", "texto": "S, C, Z: reglas de adjetivos en -oso, -sión, -ción, -anza, -eza, -uzco, -izar, etc." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        { "pregunta": "¿Qué es el género narrativo?", "respuesta": "Un género literario en el que un narrador cuenta una historia que les sucede a personajes en un tiempo y espacio determinados." },
+        { "pregunta": "¿Qué elementos componen el marco narrativo?", "respuesta": "Personajes (quiénes), lugar (dónde) y tiempo (cuándo)." },
+        { "pregunta": "¿Qué tipos de narrador existen?", "respuesta": "Protagonista (1ª persona, personaje principal), testigo (1ª o 3ª, personaje secundario) y omnisciente (3ª, lo sabe todo)." },
+        { "pregunta": "¿Cuál es la diferencia entre punto seguido y punto aparte?", "respuesta": "El punto seguido separa oraciones dentro de un mismo párrafo. El punto aparte separa párrafos distintos, marcando un cambio de tema o enfoque." },
+        { "pregunta": "¿Cuáles son los tres usos principales de la coma?", "respuesta": "Enumeración (separar elementos de una serie), vocativo (aislar el nombre del receptor) e inciso (encerrar una aclaración)." },
+        { "pregunta": "¿Cuándo se escribe S y cuándo C en palabras como 'hermoso' y 'función'?", "respuesta": "S en adjetivos terminados en -oso/-osa (hermoso). C en palabras con -ción derivadas de verbos (función de funcionar)." },
+        { "pregunta": "¿Cuándo se usa Z en lugar de S o C?", "respuesta": "Z en sustantivos abstractos terminados en -anza (esperanza) y -eza (tristeza), adjetivos en -uzco (negruzco) y verbos en -izar (hipotetizar)." },
+        { "pregunta": "¿Qué narrador tiene 'Esta casa es un sueño'?", "respuesta": "Narrador omnisciente: conoce los pensamientos de Inés ('pensó Inés') y de Carlos ('Carlos pensó que quizá unas vacaciones…')." }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": ["casa_comprension", "casa_narrador", "casa_marco", "casa_conflicto", "casa_secuencia", "casa_recursos", "casa_completar_csz", "casa_unir_reglas"]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": ["casa_puntuacion_oraciones", "casa_colocar_comas", "casa_escribir_parrafo", "casa_narrador", "casa_conflicto"],
+      "duracion_min": 20
+    },
+    "mejorar": {
+      "explicaciones": [
+        { "titulo": "Confundir el punto seguido con el punto aparte", "detalle": "El punto seguido separa oraciones dentro de un mismo párrafo: las ideas están estrechamente relacionadas. El punto aparte abre un nuevo párrafo porque cambia el enfoque o el tema. Por ejemplo: 'Inés gritó. Se despertó.' (seguido, misma secuencia) vs. el salto a la mañana siguiente (aparte, cambio escénico)." },
+        { "titulo": "Coma entre sujeto y verbo", "detalle": "No debe separarse el sujeto del verbo con coma, a menos que haya un inciso. Es incorrecto: 'Inés, miró hacia el lago.' Es correcto: 'Inés, cansada y asustada, miró hacia el lago.' (el inciso entre comas)." },
+        { "titulo": "Confusión entre S, C y Z en la escritura", "detalle": "Una misma palabra puede tener distintas grafías según su familia: 'tenso' → 'tensión' (S), 'función' viene de 'funcionar' (C), 'esperanza' lleva Z por ser abstracto en -anza. Revisar la palabra de la que deriva ayuda a elegir la grafía correcta." },
+        { "titulo": "Narrador omnisciente en 'Esta casa es un sueño'", "detalle": "El narrador de este cuento conoce los pensamientos de ambos personajes ('pensó Inés', 'Carlos pensó que quizá unas vacaciones podrían servir'), además de saber cosas que ellos ignoran. Ese conocimiento total es propio del narrador omnisciente, no de un narrador testigo." }
+      ]
+    }
+  }
+}

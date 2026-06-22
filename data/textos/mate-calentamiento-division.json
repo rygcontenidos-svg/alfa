@@ -1,0 +1,10 @@
+{
+  "id": "mate-calentamiento-division",
+  "titulo": "Problema disparador: las velas",
+  "autor": "CIEEM 2026",
+  "genero": "otro",
+  "clase": "Clase 3",
+  "cuerpo": "En una f\u00E1brica de velas se produjo un lote de 150 unidades. Para su comercializaci\u00F3n, las velas se agruparon en paquetes de cinco unidades cada uno y luego estos se colocaron en cajas con capacidad para siete paquetes cada una.\n\na) \u00BFCu\u00E1ntos paquetes se obtuvieron con la producci\u00F3n de velas?\nb) \u00BFCu\u00E1ntas cajas se completaron con los paquetes de velas?\nc) \u00BFCu\u00E1ntas velas sobraron?\n\nPista: primero divid\u00ED 150 por 5 para hallar los paquetes. Luego divid\u00ED ese resultado por 7 para las cajas.",
+  "solucion": "a) Paquetes: 150 ÷ 5 = 30 paquetes.\nb) Cajas: 30 ÷ 7 = 4 cajas completas (cociente 4, resto 2).\nc) Velas que sobraron: 2 paquetes × 5 = 10 velas.\n\nRazonamiento: 150 velas en paquetes de 5 → 150 = 5 × 30 → 30 paquetes. Esos 30 paquetes en cajas de 7 → 30 = 7 × 4 + 2 → 4 cajas completas y sobran 2 paquetes. Cada paquete tiene 5 velas → 2 × 5 = 10 velas sobrantes.",
+  "notas_al_pie": []
+}

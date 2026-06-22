@@ -1,0 +1,443 @@
+{
+  "id": "comunicacion-funciones-lenguaje",
+  "materia": "lengua",
+  "titulo": "La comunicación. Funciones del lenguaje",
+  "descripcion": "Circuito de la comunicación (emisor, receptor, mensaje, canal, código, referente) y funciones del lenguaje: referencial, emotiva, apelativa, poética.",
+  "textos_ids": ["cassette"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "circuito_tutor",
+      "tipo": "circuito_comunicacion",
+      "consigna": "Identificá los elementos del circuito de la comunicación en la siguiente frase del cuento y determiná la función del lenguaje predominante.",
+      "frase": "—¿Terminaste ya tu deber? —preguntó el tutor a Blas.",
+      "nodos": [
+        { "id": "emisor", "etiqueta": "Emisor", "respuesta": "el tutor" },
+        { "id": "receptor", "etiqueta": "Receptor", "respuesta": "Blas" },
+        { "id": "mensaje", "etiqueta": "Mensaje", "respuesta": "¿Terminaste ya tu deber?" },
+        { "id": "canal", "etiqueta": "Canal", "respuesta": "oral (sonido, cara a cara)" },
+        { "id": "codigo", "etiqueta": "Código", "respuesta": "lengua española (signos lingüísticos)" },
+        { "id": "referente", "etiqueta": "Referente", "respuesta": "el deber / la tarea de Blas" }
+      ],
+      "funcion_lenguaje": {
+        "opciones": ["Referencial", "Emotiva", "Apelativa", "Poética"],
+        "correcta": "Apelativa"
+      }
+    },
+    {
+      "id": "sm_funcion_emotiva",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué función del lenguaje predomina en la siguiente oración del cuento?: «¡Cómo se habrán aburrido, sin ese cassette!»",
+      "opciones": [
+        { "id": "a", "texto": "Referencial, porque informa sobre el aburrimiento de las personas del pasado." },
+        { "id": "b", "texto": "Emotiva o expresiva, porque expresa la valoración y el sentimiento del narrador sobre el aburrimiento ajeno." },
+        { "id": "c", "texto": "Apelativa, porque busca convencer al lector de que el cassette es mejor." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_funcion_referencial",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué función del lenguaje predomina en la siguiente oración del cuento?: «El cassette admite los más remotos sonidos e imágenes; transmite noticias desde satélites que viajan por el sistema solar.»",
+      "opciones": [
+        { "id": "a", "texto": "Referencial, porque brinda información objetiva sobre las características del cassette, en tercera persona y modo indicativo." },
+        { "id": "b", "texto": "Poética, porque conjugan rima y musicalidad en la descripción del cassette." },
+        { "id": "c", "texto": "Apelativa, porque le ordena al lector que use el cassette." }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "vf_teorica",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcar V (verdadero) o F (falso) según la teoría de la comunicación.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "i1", "afirmacion": "El emisor es el sujeto que produce el mensaje.", "respuesta": true },
+        { "id": "i2", "afirmacion": "El referente es el medio físico por el que se transmite el mensaje.", "respuesta": false, "correccion": "El referente es el tema del mensaje, aquello de lo que trata. El medio físico es el canal." },
+        { "id": "i3", "afirmacion": "Para comunicarse, emisor y receptor deben compartir un código.", "respuesta": true },
+        { "id": "i4", "afirmacion": "Solo nos comunicamos a través de signos lingüísticos.", "respuesta": false, "correccion": "También nos comunicamos con signos no lingüísticos: gestos, tonos de la voz, marcas gráficas, entre otros." },
+        { "id": "i5", "afirmacion": "La función apelativa emplea la segunda persona y el modo imperativo.", "respuesta": true },
+        { "id": "i6", "afirmacion": "La función poética se centra en el emisor y sus emociones.", "respuesta": false, "correccion": "La función poética se centra en el mensaje (su forma, rima, musicalidad). La que se centra en el emisor y sus emociones es la emotiva." },
+        { "id": "i7", "afirmacion": "La función referencial usa la tercera persona y oraciones declarativas.", "respuesta": true },
+        { "id": "i8", "afirmacion": "En la comunicación oral cara a cara, los roles de emisor y receptor pueden intercambiarse.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "marco_cassette",
+      "tipo": "marco_narrativo",
+      "consigna": "Completá el marco narrativo del cuento \"Cassette\" de Anderson Imbert.",
+      "personajes": "Blas (niño de nueve años) y el tutor",
+      "lugar": "Aula de cibernética, en el centro del universo",
+      "tiempo": "Año 2132 (futuro lejano)"
+    },
+    {
+      "id": "narrador_cassette",
+      "tipo": "tipo_narrador",
+      "consigna": "Marcá el tipo de narrador del cuento \"Cassette\" y justificá con una cita del texto.",
+      "opciones": ["Narrador Protagonista", "Narrador Testigo", "Narrador Omnisciente"],
+      "correcta": "Narrador Omnisciente",
+      "cita_justificacion": "Ganas de estudiar, Blas no tiene. / Blas nunca ha oído hablar de su tocayo Blas Pascal…"
+    },
+    {
+      "id": "sim_circuito_nino",
+      "tipo": "circuito_comunicacion",
+      "consigna": "Identificá los elementos del circuito de la comunicación en la siguiente frase del cuento y determiná la función del lenguaje predominante.",
+      "frase": "¡Esto sí que será una despampanante novedad! —exclama el niño—.",
+      "nodos": [
+        { "id": "emisor", "etiqueta": "Emisor", "respuesta": "Blas (el niño)" },
+        { "id": "receptor", "etiqueta": "Receptor", "respuesta": "él mismo (monólogo interior) / el lector" },
+        { "id": "mensaje", "etiqueta": "Mensaje", "respuesta": "¡Esto sí que será una despampanante novedad!" },
+        { "id": "canal", "etiqueta": "Canal", "respuesta": "oral (exclamación en voz alta)" },
+        { "id": "codigo", "etiqueta": "Código", "respuesta": "lengua española (signos lingüísticos)" },
+        { "id": "referente", "etiqueta": "Referente", "respuesta": "su invento (la idea del libro/cassette mejorado)" }
+      ],
+      "funcion_lenguaje": {
+        "opciones": ["Referencial", "Emotiva", "Apelativa", "Poética"],
+        "correcta": "Emotiva"
+      }
+    },
+    {
+      "id": "sim_sm_poetica",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué función del lenguaje predomina en la siguiente oración del cuento?: «Voces, voces, voces, nada más que voces pues en el año 2132 el lenguaje es únicamente oral.»",
+      "opciones": [
+        { "id": "a", "texto": "Referencial, porque informa que en 2132 el lenguaje es oral." },
+        { "id": "b", "texto": "Poética, porque la repetición 'voces, voces, voces' le da musicalidad y ritmo al mensaje; la forma importa tanto como el contenido." },
+        { "id": "c", "texto": "Apelativa, porque busca que el lector preste atención a las voces." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sim_vf_aplicado",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcar V (verdadero) o F (falso) aplicando lo visto sobre funciones del lenguaje a frases del cuento.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "s1", "afirmacion": "En «¡Pobres! ¡Sin este cassette cómo se habrán aburrido!» predomina la función emotiva porque expresa la valoración del narrador.", "respuesta": true },
+        { "id": "s2", "afirmacion": "En «Se llama Blas» predomina la función apelativa porque le ordena al lector que se llame Blas.", "respuesta": false, "correccion": "Predomina la función referencial: es una información objetiva en 3ª persona y modo indicativo." },
+        { "id": "s3", "afirmacion": "En «¡zas! lo dejo con la boca abierta» predomina la función poética por la musicalidad de la expresión.", "respuesta": false, "correccion": "Aunque hay expresividad, predomina la función emotiva: el narrador expresa su emoción y subjetividad." },
+        { "id": "s4", "afirmacion": "La frase «Año: 2132. Lugar: aula de cibernética» es un ejemplo claro de función referencial.", "respuesta": true },
+        { "id": "s5", "afirmacion": "En el cuento, el narrador usa la primera persona gramatical, lo que indica que predomina la función referencial.", "respuesta": false, "correccion": "La primera persona es marca de la función emotiva, no referencial. La referencial usa 3ª persona." }
+      ]
+    },
+    {
+      "id": "sim_marco_cassette",
+      "tipo": "marco_narrativo",
+      "consigna": "Completá el marco narrativo del cuento \"Cassette\" de Anderson Imbert.",
+      "personajes": "Blas (niño de nueve años) y el tutor",
+      "lugar": "Aula de cibernética, en el centro del universo",
+      "tiempo": "Año 2132 (futuro lejano)"
+    },
+    {
+      "id": "sim_narrador_cassette",
+      "tipo": "tipo_narrador",
+      "consigna": "Marcá el tipo de narrador del cuento \"Cassette\" y justificá con una cita del texto.",
+      "opciones": ["Narrador Protagonista", "Narrador Testigo", "Narrador Omnisciente"],
+      "correcta": "Narrador Omnisciente",
+      "cita_justificacion": "Ganas de estudiar, Blas no tiene. / Blas nunca ha oído hablar de su tocayo Blas Pascal…"
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["cassette"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "intro",
+          "titulo": "¿Qué es la comunicación?",
+          "icono": "🔄",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Definición",
+              "texto": "La comunicación es el proceso de transmisión de información de un emisor a un receptor (los interlocutores) a través de un medio.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Comunicarse es una necesidad social del ser humano. Todo acto comunicativo concreto se llama \"comunicación\" y tiene una intención: producir un efecto en quien recibe el mensaje."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "El cuento \"Cassette\", de Anderson Imbert, codificado en palabras y con una intencionalidad estética.",
+              "explicacion": "El propio cuento que leíste es un acto comunicativo: Anderson Imbert (emisor) te transmite una historia (mensaje) escrita en español (código) a través de esta hoja (canal)."
+            }
+          ]
+        },
+        {
+          "id": "codificacion",
+          "titulo": "Un proceso de codificación",
+          "icono": "🔐",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "El proceso de comunicación es un proceso de CODIFICACIÓN. El emisor piensa un mensaje y, para transmitirlo, lo codifica en un sistema de signos."
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🧠", "texto": "El emisor PIENSA el mensaje." },
+                { "icono": "📝", "texto": "Lo CODIFICA en signos (palabras, gestos, imágenes)." },
+                { "icono": "📡", "texto": "Lo TRANSMITE por un canal." },
+                { "icono": "🔓", "texto": "El receptor lo DECODIFICA e interpreta." }
+              ]
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Intención comunicativa",
+              "texto": "El mensaje codificado tiene una intención comunicativa: el emisor busca producir un efecto en el receptor.",
+              "color": "verde"
+            }
+          ]
+        },
+        {
+          "id": "elementos",
+          "titulo": "Los elementos del circuito",
+          "icono": "🧩",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "Toda situación comunicativa está determinada por estos siete elementos:"
+            },
+            { "tipo": "diagrama_comunicacion" }
+          ]
+        },
+        {
+          "id": "consideraciones",
+          "titulo": "Para tener en cuenta",
+          "icono": "💡",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🔁", "texto": "En la comunicación oral cara a cara, los roles de emisor y receptor suelen INTERCAMBIARSE." },
+                { "icono": "💬", "texto": "El mensaje puede ser ORAL o ESCRITO." },
+                { "icono": "🤝", "texto": "Emisor y receptor deben COMPARTIR el código. Pero cada persona tiene su propio conocimiento del código, distinto al de otra." },
+                { "icono": "👋", "texto": "También nos comunicamos con SIGNOS NO LINGÜÍSTICOS: gestos, tonos de voz, marcas gráficas." },
+                { "icono": "⏰", "texto": "El LUGAR y el TIEMPO (el marco) son clave para producir e interpretar el mensaje." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "funciones_intro",
+          "titulo": "Funciones del lenguaje",
+          "icono": "🎨",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "Cuando nos comunicamos tenemos un PROPÓSITO: dar información, expresar sentimientos, pedir algo, hablar del lenguaje o mantener abierta la comunicación."
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "La idea clave",
+              "texto": "Cada propósito hace que hagamos énfasis en un elemento del circuito. Ese énfasis determina qué FUNCIÓN DEL LENGUAJE predomina.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "En toda comunicación están presentes las 6 funciones (una por cada elemento), pero siempre PREDOMINA una según dónde se haga el foco."
+            }
+          ]
+        },
+        {
+          "id": "funcion_emotiva",
+          "titulo": "Función emotiva o expresiva",
+          "icono": "😍",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Foco en el EMISOR",
+              "texto": "El emisor expresa sus opiniones, sentimientos, emociones y subjetividad. Hace foco en ÉL MISMO.",
+              "color": "verde"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🔵", "texto": "Primera persona gramatical (yo, nosotros)" },
+                { "icono": "⭐", "texto": "Expresiones valorativas" }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "¡Cómo se habrán aburrido, sin ese cassette!",
+              "explicacion": "El narrador expresa su valoración sobre el aburrimiento de las personas del pasado. El foco está en su subjetividad."
+            }
+          ]
+        },
+        {
+          "id": "funcion_apelativa",
+          "titulo": "Función apelativa",
+          "icono": "📣",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Foco en el RECEPTOR",
+              "texto": "El emisor busca llamar la atención del interlocutor e influir sobre él.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🟠", "texto": "Segunda persona gramatical (tú, vos, usted)" },
+                { "icono": "⚡", "texto": "Verbos en modo IMPERATIVO" },
+                { "icono": "📌", "texto": "Vocativos (palabras con que se nombra al receptor)" }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "—¿Terminaste ya tu deber? —preguntó el tutor a Blas.",
+              "explicacion": "El tutor busca una respuesta de Blas: el foco está en el receptor. Aparecen la 2ª persona (\"terminaste\", \"tu\") y el vocativo (\"Blas\")."
+            }
+          ]
+        },
+        {
+          "id": "funcion_poetica",
+          "titulo": "Función poética",
+          "icono": "🎼",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Foco en el MENSAJE",
+              "texto": "El emisor se expresa conjugando rima y musicalidad. Lo central es CÓMO está dicho, la forma del mensaje.",
+              "color": "azul"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🎵", "texto": "Rima, ritmo, musicalidad" },
+                { "icono": "✨", "texto": "Recursos estéticos: metáforas, imágenes, juegos de palabras" }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Voces, voces, voces, nada más que voces…",
+              "explicacion": "La repetición del término \"voces\" le da musicalidad al enunciado. El foco está puesto en la forma del mensaje."
+            }
+          ]
+        },
+        {
+          "id": "funcion_referencial",
+          "titulo": "Función referencial",
+          "icono": "📊",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Foco en el REFERENTE",
+              "texto": "El emisor da objetivamente información acerca de un tema.",
+              "color": "verde"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🟢", "texto": "Tercera persona gramatical" },
+                { "icono": "📢", "texto": "Verbos en modo INDICATIVO" },
+                { "icono": "✅", "texto": "Oraciones DECLARATIVAS (afirman o niegan algo)" }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "El cassette admite los más remotos sonidos e imágenes; transmite noticias desde satélites que viajan por el sistema solar.",
+              "explicacion": "Información objetiva sobre el cassette, en 3ª persona y modo indicativo. El foco está en el referente (lo que se informa)."
+            }
+          ]
+        },
+        {
+          "id": "resumen_funciones",
+          "titulo": "Resumen: las 4 funciones",
+          "icono": "🗂️",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Emotiva 😍",
+                  "items": [
+                    "Foco: EMISOR",
+                    "Expresa subjetividad",
+                    "1ª persona",
+                    "Expresiones valorativas"
+                  ]
+                },
+                {
+                  "titulo": "Apelativa 📣",
+                  "items": [
+                    "Foco: RECEPTOR",
+                    "Busca influir",
+                    "2ª persona",
+                    "Imperativo + vocativos"
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Poética 🎼",
+                  "items": [
+                    "Foco: MENSAJE",
+                    "Importa la forma",
+                    "Rima, musicalidad",
+                    "Recursos estéticos"
+                  ]
+                },
+                {
+                  "titulo": "Referencial 📊",
+                  "items": [
+                    "Foco: REFERENTE",
+                    "Información objetiva",
+                    "3ª persona",
+                    "Indicativo, declarativas"
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "En total son 6 funciones (una por cada elemento del circuito), pero en esta clase trabajamos con estas 4. Las otras 2 (fática y metalingüística) las verás más adelante."
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        { "pregunta": "¿Qué es la comunicación?", "respuesta": "El proceso de transmisión de información de un emisor a un receptor a través de un medio." },
+        { "pregunta": "¿Cuáles son los elementos del circuito de la comunicación?", "respuesta": "Emisor, receptor, mensaje, referente, canal, código y marco." },
+        { "pregunta": "¿Qué es el canal?", "respuesta": "El medio físico por el cual se transmite el mensaje (oral, escrito, audiovisual)." },
+        { "pregunta": "Función emotiva: ¿en qué se centra y qué marcas usa?", "respuesta": "Se centra en el emisor. Expresa subjetividad con 1ª persona y expresiones valorativas." },
+        { "pregunta": "Función apelativa: ¿en qué se centra y qué marcas usa?", "respuesta": "Se centra en el receptor. Busca influir con 2ª persona, imperativo y vocativos." },
+        { "pregunta": "Función poética: ¿en qué se centra?", "respuesta": "Se centra en el mensaje. Privilegia la forma: rima, musicalidad." },
+        { "pregunta": "Función referencial: ¿en qué se centra y qué marcas usa?", "respuesta": "Se centra en el referente. Da información objetiva con 3ª persona y modo indicativo." }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": ["circuito_tutor", "sm_funcion_emotiva", "sm_funcion_referencial", "vf_teorica"]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": ["sim_circuito_nino", "sim_sm_poetica", "sim_vf_aplicado", "sim_marco_cassette", "sim_narrador_cassette"],
+      "duracion_min": 15
+    },
+    "mejorar": {
+      "explicaciones": [
+        { "titulo": "Canal vs. Referente", "detalle": "Error frecuente: confundir el canal (el medio físico: oral, escrito, audiovisual) con el referente (el tema de lo que se habla). El canal es por dónde viaja el mensaje; el referente es de qué trata." },
+        { "titulo": "Función poética vs. emotiva", "detalle": "La función poética se centra en el MENSAJE (cómo está dicho, su forma, rima, musicalidad). La emotiva se centra en el EMISOR (qué siente, su subjetividad). No es lo mismo decir algo bonito (poética) que decir qué sentís (emotiva)." },
+        { "titulo": "Apelativa no es solo ordenar", "detalle": "La función apelativa incluye órdenes, pero también pedidos, ruegos, sugerencias y preguntas que buscan una respuesta del receptor. Lo que la define es que el foco está en el receptor y se busca influir sobre él." },
+        { "titulo": "Las 6 funciones siempre están presentes", "detalle": "En todo acto comunicativo están presentes las seis funciones, pero siempre predomina una según el elemento del circuito en el que se haga hincapié. No hay mensajes con una sola función." },
+        { "titulo": "Narrador omnisciente en \"Cassette\"", "detalle": "El narrador de \"Cassette\" sabe lo que Blas piensa (\"Ganas de estudiar, Blas no tiene\") y cosas que el propio Blas desconoce (\"Blas nunca ha oído hablar de su tocayo Blas Pascal\"). Ese conocimiento total del personaje y su contexto es propio del narrador omnisciente." }
+      ]
+    }
+  }
+}

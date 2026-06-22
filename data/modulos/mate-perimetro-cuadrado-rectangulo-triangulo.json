@@ -1,0 +1,525 @@
+{
+  "id": "mate-perimetro-cuadrado-rectangulo-triangulo",
+  "materia": "matematica",
+  "titulo": "Per\u00EDmetro del cuadrado, rect\u00E1ngulo y tri\u00E1ngulo",
+  "descripcion": "Per\u00EDmetro: definici\u00F3n y c\u00E1lculo. Per\u00EDmetro del cuadrado, rect\u00E1ngulo y tri\u00E1ngulo. Per\u00EDmetro de figuras compuestas. Problemas con cuadr\u00EDcula.",
+  "textos_ids": ["mate-calentamiento-perimetro"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "cerco_pileta",
+      "tipo": "completar",
+      "consigna": "Mar\u00EDa In\u00E9s quiere un cerco alrededor de una pileta de 7 m \u00D7 4 m, con 1 m de separaci\u00F3n de cada lado.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide el largo del cerco? (7 + 1 + 1)",
+          "respuesta": "9 m"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide el ancho del cerco? (4 + 1 + 1)",
+          "respuesta": "6 m"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1ntos metros de cerco necesita comprar? (per\u00EDmetro del rect\u00E1ngulo de 9 m \u00D7 6 m)",
+          "respuesta": "30 m"
+        }
+      ]
+    },
+    {
+      "id": "cuadrado_rectangulo_basico",
+      "tipo": "completar",
+      "consigna": "Calcul\u00E1 el per\u00EDmetro de las siguientes figuras.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Cuadrado de 10 cm de lado. Per\u00EDmetro = \u2026",
+          "respuesta": "40 cm"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Rect\u00E1ngulo de 16 cm de largo y 7 cm de ancho. Per\u00EDmetro = \u2026",
+          "respuesta": "46 cm"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Tri\u00E1ngulo equil\u00E1tero de 150 cm de lado. Per\u00EDmetro = \u2026",
+          "respuesta": "450 cm"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "Rect\u00E1ngulo de per\u00EDmetro 24 cm y ancho 4 cm. \u00BFCu\u00E1nto mide el largo?",
+          "respuesta": "8 cm"
+        }
+      ]
+    },
+    {
+      "id": "afiche_20",
+      "tipo": "completar",
+      "consigna": "Vecinos hacen un afiche con el n\u00FAmero 20 usando cuadrados congruentes y cord\u00F3n dorado en el contorno de cada d\u00EDgito.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Si el lado de cada cuadrado mide 8 cm, \u00BFcu\u00E1l es el per\u00EDmetro del d\u00EDgito 2? (cont\u00E1 los lados de cuadrados en el contorno)",
+          "respuesta": "64 cm"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Si el per\u00EDmetro de cada cuadrado es 52 cm, \u00BFCu\u00E1nto mide su lado?",
+          "respuesta": "13 cm"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "El per\u00EDmetro del n\u00FAmero 20 completo es 288 cm. \u00BFCu\u00E1nto mide el lado de cada cuadrado?",
+          "respuesta": "8 cm"
+        }
+      ]
+    },
+    {
+      "id": "figura_triangulo_rectangulo",
+      "tipo": "completar",
+      "consigna": "La figura est\u00E1 formada por un tri\u00E1ngulo equil\u00E1tero y un rect\u00E1ngulo. La base del rect\u00E1ngulo es el doble de la altura. El per\u00EDmetro de la figura es 1050 cm.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide la altura del rect\u00E1ngulo? (el per\u00EDmetro suma 7 veces la altura)",
+          "respuesta": "150 cm"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro del tri\u00E1ngulo?",
+          "respuesta": "450 cm"
+        }
+      ]
+    },
+    {
+      "id": "cuadricula_perimetros",
+      "tipo": "completar",
+      "consigna": "En una cuadr\u00EDcula con cuadrados de 1 cm de lado se dibujaron figuras usando 6 cuadrados.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide el per\u00EDmetro de la figura A? (cont\u00E1 los lados en el contorno)",
+          "respuesta": "10 cm"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide el per\u00EDmetro de la figura B?",
+          "respuesta": "14 cm"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "\u00BFEl per\u00EDmetro de la figura C es mayor, menor o igual que el de B?",
+          "respuesta": "Igual (14 cm)"
+        }
+      ]
+    },
+    {
+      "id": "figura_rectangulo_cuadrado",
+      "tipo": "completar",
+      "consigna": "Un cuadrado y un rect\u00E1ngulo. El lado menor del rect\u00E1ngulo mide lo mismo que el lado del cuadrado. Per\u00EDmetro del cuadrado: 16 cm. Per\u00EDmetro del rect\u00E1ngulo: 24 cm.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide el lado del cuadrado?",
+          "respuesta": "4 cm"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide el lado mayor del rect\u00E1ngulo?",
+          "respuesta": "8 cm"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura formada al unir el cuadrado y el rect\u00E1ngulo?",
+          "respuesta": "24 cm (o 28 cm seg\u00FAn c\u00F3mo se unan)"
+        }
+      ]
+    },
+    {
+      "id": "cuadrado_9_congruentes",
+      "tipo": "completar",
+      "consigna": "Un cuadrado grande MPQR est\u00E1 formado por 9 cuadrados congruentes. El per\u00EDmetro de MPQR es 132 cm.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide cada lado del cuadrado grande?",
+          "respuesta": "33 cm"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide el lado de cada cuadrado peque\u00F1o?",
+          "respuesta": "11 cm"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "La zona coloreada son 5 cuadrados peque\u00F1os. \u00BFCu\u00E1l es su per\u00EDmetro?",
+          "respuesta": "220 cm"
+        }
+      ]
+    },
+    {
+      "id": "triangulo_3_primos_impares",
+      "tipo": "completar",
+      "consigna": "Un cuadrado de 15 cm de lado, al que se le quit\u00F3 un tri\u00E1ngulo. Los lados del tri\u00E1ngulo son los primeros 3 n\u00FAmeros primos impares.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1les son los tres primeros n\u00FAmeros primos impares?",
+          "respuesta": "3, 5, 7"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura? (los 4 lados del cuadrado + los 3 del tri\u00E1ngulo)",
+          "respuesta": "75 cm"
+        }
+      ]
+    },
+    {
+      "id": "expresion_perimetro",
+      "tipo": "seleccion_multiple",
+      "consigna": "La figura est\u00E1 formada por dos rect\u00E1ngulos congruentes, dos cuadrados congruentes y dos tri\u00E1ngulos equil\u00E1teros congruentes. El lado del cuadrado mide 3 cm. El lado mayor del rect\u00E1ngulo mide d cm. \u00BFCu\u00E1l de estas expresiones permite calcular el per\u00EDmetro?",
+      "opciones": [
+        { "id": "a", "texto": "2d + 16 \u00D7 3" },
+        { "id": "b", "texto": "2d + 18 \u00D7 3" },
+        { "id": "c", "texto": "4d + 30" },
+        { "id": "d", "texto": "2d + 12 \u00D7 3 + 2 \u00D7 (d \u2013 3)" }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "figura_p_igual_2",
+      "tipo": "completar",
+      "consigna": "En el problema anterior, si d es un divisor impar de 28 distinto de 1,",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto vale d? (divisores impares de 28: 1, 7. Distinto de 1 \u2192 d = 7)",
+          "respuesta": "7"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura? (2 \u00D7 7 + 16 \u00D7 3)",
+          "respuesta": "62 cm"
+        }
+      ]
+    },
+    {
+      "id": "figura_5_rectas",
+      "tipo": "seleccion_multiple",
+      "consigna": "\u00BFCu\u00E1l de las siguientes expresiones permite calcular el per\u00EDmetro de esta figura?",
+      "opciones": [
+        { "id": "a", "texto": "3a + 2" },
+        { "id": "b", "texto": "7a \u2013 6" },
+        { "id": "c", "texto": "7a + 6" },
+        { "id": "d", "texto": "7a + 4" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "rectangulo_disminuye_7",
+      "tipo": "seleccion_multiple",
+      "consigna": "Si la medida de un lado de un rect\u00E1ngulo disminuye 7 cm, se obtiene un cuadrado de 36 cm de per\u00EDmetro. \u00BFCu\u00E1l es la medida de ese lado del rect\u00E1ngulo original?",
+      "opciones": [
+        { "id": "a", "texto": "13 cm" },
+        { "id": "b", "texto": "9 cm" },
+        { "id": "c", "texto": "16 cm" },
+        { "id": "d", "texto": "18 cm" }
+      ],
+      "correcta": "c"
+    },
+    {
+      "id": "dos_cuadrados_verde_azul",
+      "tipo": "completar",
+      "consigna": "Dos cuadrados verdes congruentes y un cuadrado azul. Per\u00EDmetro del cuadrado azul: 16 cm. El lado de cada cuadrado verde es el doble del lado del azul disminuido en 3 cm.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide el lado del cuadrado azul?",
+          "respuesta": "4 cm"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide el lado de cada cuadrado verde? (2 \u00D7 4 \u2013 3)",
+          "respuesta": "5 cm"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura?",
+          "respuesta": "38 cm"
+        }
+      ]
+    },
+    {
+      "id": "figura_gris_tres_rectangulos",
+      "tipo": "completar",
+      "consigna": "La figura gris est\u00E1 formada por tres rect\u00E1ngulos congruentes y un cuadrado al que se le quit\u00F3 un tri\u00E1ngulo equil\u00E1tero. El lado menor del rect\u00E1ngulo es un primo entre 11 y 16. El lado mayor es el doble del menor.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el n\u00FAmero primo entre 11 y 16? (lado menor del rect\u00E1ngulo)",
+          "respuesta": "13"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto mide el lado mayor del rect\u00E1ngulo?",
+          "respuesta": "26"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura gris?",
+          "respuesta": "210 cm"
+        }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["mate-calentamiento-perimetro"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "que_es_perimetro",
+          "titulo": "\u00BFQu\u00E9 es el per\u00EDmetro?",
+          "icono": "\uD83D\uDCCF",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Definici\u00F3n",
+              "texto": "El per\u00EDmetro de una figura es la longitud de su contorno. Se mide en unidades de longitud (cm, m, etc.).",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Para calcular el per\u00EDmetro de cualquier figura, se suman las medidas de todos sus lados. En figuras con lados iguales, podemos multiplicar."
+            }
+          ]
+        },
+        {
+          "id": "perimetro_cuadrado",
+          "titulo": "Per\u00EDmetro del cuadrado",
+          "icono": "\u25A0",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "F\u00F3rmula",
+              "texto": "Per\u00EDmetro del cuadrado = lado \u00D7 4. Como los cuatro lados son congruentes, multiplicamos la medida de un lado por 4.",
+              "color": "verde"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Cuadrado de 10 cm de lado: P = 10 \u00D7 4 = 40 cm",
+              "explicacion": "Los cuatro lados miden 10 cm cada uno. Sumamos: 10 + 10 + 10 + 10 = 40, o directamente 10 \u00D7 4 = 40."
+            }
+          ]
+        },
+        {
+          "id": "perimetro_rectangulo",
+          "titulo": "Per\u00EDmetro del rect\u00E1ngulo",
+          "icono": "\u25AD",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "F\u00F3rmula",
+              "texto": "Per\u00EDmetro del rect\u00E1ngulo = 2 \u00D7 (largo + ancho). Como los lados opuestos son congruentes, sumamos el largo y el ancho y multiplicamos por 2.",
+              "color": "naranja"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Rect\u00E1ngulo de 16 cm de largo y 7 cm de ancho: P = 2 \u00D7 (16 + 7) = 2 \u00D7 23 = 46 cm",
+              "explicacion": "Tambi\u00E9n podemos hacer: 16 + 7 + 16 + 7 = 46 cm."
+            }
+          ]
+        },
+        {
+          "id": "perimetro_triangulo",
+          "titulo": "Per\u00EDmetro del tri\u00E1ngulo",
+          "icono": "\u25B3",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "F\u00F3rmula",
+              "texto": "Per\u00EDmetro del tri\u00E1ngulo = suma de sus tres lados.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "Tri\u00E1ngulo equil\u00E1tero: P = 3 \u00D7 lado (todos los lados iguales)." },
+                { "icono": "\u25B6", "texto": "Tri\u00E1ngulo is\u00F3sceles: P = 2 \u00D7 lado igual + base." },
+                { "icono": "\u25B6", "texto": "Tri\u00E1ngulo escaleno: P = lado1 + lado2 + lado3." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Tri\u00E1ngulo equil\u00E1tero de 150 cm de lado: P = 3 \u00D7 150 = 450 cm",
+              "explicacion": "En un tri\u00E1ngulo equil\u00E1tero todos los lados son iguales, as\u00ED que multiplicamos el lado por 3."
+            }
+          ]
+        },
+        {
+          "id": "figuras_compuestas",
+          "titulo": "Figuras compuestas",
+          "icono": "\uD83E\uDEE9",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Per\u00EDmetro de figuras formadas por varias piezas",
+              "texto": "Cuando se unen figuras, el contorno de la nueva figura NO es la suma de los per\u00EDmetros individuales. Hay lados que quedan en el interior y no se cuentan.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Emilia pega un cuadrado de 10 cm con un rect\u00E1ngulo de 16 cm \u00D7 7 cm.",
+              "explicacion": "El per\u00EDmetro no es 40 + 46 = 86 cm. Hay que restar los lados que quedan pegados. El per\u00EDmetro real es 72 cm."
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Para figuras en cuadr\u00EDcula, contar los segmentos de 1 cm que forman el contorno. Dos figuras con la misma cantidad de cuadrados pueden tener per\u00EDmetros distintos."
+            }
+          ]
+        },
+        {
+          "id": "resumen_clase5",
+          "titulo": "Resumen",
+          "icono": "\uD83D\uDCDD",
+          "color": "violeta",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Puntos clave",
+              "texto": "Per\u00EDmetro = contorno. Cuadrado: P = 4 \u00D7 lado. Rect\u00E1ngulo: P = 2 \u00D7 (largo + ancho). Tri\u00E1ngulo: suma de los 3 lados.",
+              "color": "violeta"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "En figuras compuestas, s\u00F3lo se cuentan los lados del contorno exterior." },
+                { "icono": "\u25B6", "texto": "Figuras con igual \u00E1rea pueden tener distinto per\u00EDmetro." },
+                { "icono": "\u25B6", "texto": "El per\u00EDmetro se expresa en unidades lineales (cm, m, etc.)." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        {
+          "pregunta": "\u00BFQu\u00E9 es el per\u00EDmetro de una figura?",
+          "respuesta": "La longitud del contorno de la figura. Se calcula sumando todos sus lados."
+        },
+        {
+          "pregunta": "\u00BFC\u00F3mo se calcula el per\u00EDmetro de un cuadrado?",
+          "respuesta": "P = lado \u00D7 4. Ej: si el lado mide 10 cm, P = 40 cm."
+        },
+        {
+          "pregunta": "\u00BFC\u00F3mo se calcula el per\u00EDmetro de un rect\u00E1ngulo?",
+          "respuesta": "P = 2 \u00D7 (largo + ancho). O sumando todos los lados: largo + ancho + largo + ancho."
+        },
+        {
+          "pregunta": "\u00BFC\u00F3mo se calcula el per\u00EDmetro de un tri\u00E1ngulo?",
+          "respuesta": "Sumando la medida de sus tres lados. Si es equil\u00E1tero: P = 3 \u00D7 lado."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 pasa con el per\u00EDmetro cuando se unen dos figuras?",
+          "respuesta": "NO se suman los per\u00EDmetros. Los lados que quedan pegados no forman parte del contorno y no se cuentan."
+        },
+        {
+          "pregunta": "\u00BFC\u00F3mo se calcula el per\u00EDmetro en una cuadr\u00EDcula?",
+          "respuesta": "Contando los segmentos de 1 cm que forman el contorno de la figura. Cada segmento es un lado de un cuadrado de la cuadr\u00EDcula."
+        },
+        {
+          "pregunta": "Si un cuadrado tiene per\u00EDmetro 16 cm, \u00BFCu\u00E1nto mide su lado?",
+          "respuesta": "16 \u00F7 4 = 4 cm. El lado mide 4 cm."
+        },
+        {
+          "pregunta": "Si un rect\u00E1ngulo tiene per\u00EDmetro 24 cm y ancho 4 cm, \u00BFCu\u00E1nto mide el largo?",
+          "respuesta": "P = 2 \u00D7 (largo + ancho) \u2192 24 = 2 \u00D7 (largo + 4) \u2192 largo + 4 = 12 \u2192 largo = 8 cm."
+        }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": [
+        "cerco_pileta",
+        "cuadrado_rectangulo_basico",
+        "afiche_20",
+        "cuadricula_perimetros",
+        "figura_rectangulo_cuadrado",
+        "cuadrado_9_congruentes",
+        "triangulo_3_primos_impares",
+        "figura_gris_tres_rectangulos"
+      ]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": [
+        "figura_triangulo_rectangulo",
+        "expresion_perimetro",
+        "figura_p_igual_2",
+        "figura_5_rectas",
+        "rectangulo_disminuye_7",
+        "dos_cuadrados_verde_azul"
+      ],
+      "duracion_min": 30
+    },
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Sumar lados que quedan pegados al unir figuras",
+          "detalle": "Cuando se unen dos figuras, los lados que est\u00E1n en contacto NO forman parte del contorno. Error com\u00FAn: sumar los per\u00EDmetros individuales. Hay que identificar qu\u00E9 lados quedan en el interior y restarlos. Por ejemplo, al pegar un cuadrado de 10 cm con un rect\u00E1ngulo de 16\u00D77, el per\u00EDmetro NO es 40 + 46 = 86, sino 72 cm."
+        },
+        {
+          "titulo": "Confundir per\u00EDmetro con \u00E1rea",
+          "detalle": "El per\u00EDmetro es una medida lineal (se mide en cm, m), mientras que el \u00E1rea es una medida superficial (cm\u00B2, m\u00B2). No son lo mismo. Dos figuras pueden tener el mismo per\u00EDmetro pero distinta \u00E1rea, y viceversa. En este tema solo trabajamos con per\u00EDmetro."
+        },
+        {
+          "titulo": "No contar todos los lados en figuras de cuadr\u00EDcula",
+          "detalle": "Al contar el per\u00EDmetro en una cuadr\u00EDcula, hay que recorrer todo el contorno. Es f\u00E1cil saltarse segmentos en las esquinas entrantes. Una estrategia es marcar los segmentos ya contados. Record\u00E1 que figuras con la misma cantidad de cuadrados pueden tener per\u00EDmetros diferentes seg\u00FAN c\u00F3mo est\u00E9n dispuestos."
+        },
+        {
+          "titulo": "No despejar correctamente el lado a partir del per\u00EDmetro",
+          "detalle": "Si conocemos el per\u00EDmetro de un cuadrado y queremos hallar el lado, hay que dividir por 4. Si es un rect\u00E1ngulo, primero restamos el doble del ancho y luego dividimos por 2. Por ejemplo, para un rect\u00E1ngulo de per\u00EDmetro 24 cm y ancho 4 cm: 24 \u2013 2\u00D74 = 16, luego 16 \u00F7 2 = 8 cm de largo."
+        }
+      ]
+    }
+  }
+}

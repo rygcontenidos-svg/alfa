@@ -1,0 +1,408 @@
+
+--- PAGINA 1 ---
+Números naturales
+1 1 .04.202 6
+─
+CLASE 1
+Texto simulado texto
+Texto simulado texto
+
+--- PAGINA 2 ---
+Introducción
+¡Hola a todas y todos!
+Este sábado les presentamos una nueva propuesta de trabajo.
+En esta oportunidad seguiremos trabajando en el conjunto de los números
+naturales, con representación en la recta numérica, traducción de enunciados y
+desigualdades.
+En esta clase se proponen algunas situaciones problemáticas resueltas y a partir de
+las cuales se abordan los distintos contenidos a desarrollar. En los problemas
+planteados para que ustedes resuelvan, esperamos que puedan utilizar distintas
+estrategias de resolución que les permitan justi fi car las respuestas obtenidas.
+Las/os profesoras/es de Matemática del CIEEM
+Contenidos
+Representación de los números naturales 2
+Problemas 4
+Traducción de enunciados 5
+Problemas 6
+Desigualdades 7
+Problemas 8
+Traducción de enunciados y desigualdades 9
+Problemas 11
+CLAVES DE AUTOCORRECCIÓN 12
+1
+
+--- PAGINA 3 ---
+Representación de los números naturales
+Para representar los números naturales, utilizamos una semirrecta cuyo origen A
+representa el 0 . A la derecha de A, con el punto P representamos el 1 ; marcando
+sucesivamente, siempre a la derecha, segmentos de igual longitud que ,
+representamos los números 2 , 3 , 4 ...
+El segmento AP es la unidad de medida .
+Para marcar en la semirrecta los números que queremos representar, vamos a utilizar
+una X (cruz) y escribir debajo de ella los números correspondientes.
+● El siguiente de seis.
+El siguiente de seis es siete .
+2
+
+--- PAGINA 4 ---
+● El anterior de la mitad de ocho.
+La mitad de ocho es cuatro y su anterior es tres .
+(En este caso no representamos los números 5, 6 y 7.)
+● En la siguiente recta, cada letra representa un número natural. ¿Cuál es cada uno
+de esos números?
+Para poder hallar el número que representa cada letra, primero tenemos que
+determinar cuántas unidades representa el segmento unidad de medida. En la recta
+numérica, el segmento que tiene por extremos los puntos que representan el 50 y el 90,
+corresponde a la distancia entre el 50 y el 90, la cual es 90 – 50, o sea, 40 . Como en la
+recta numérica, entre las ubicaciones del 50 y el 90, hay 4 segmentos unidad de
+medida, para hallar a cuántas unidades corresponde cada uno de ellos realizamos este
+cálculo: 40 : 4 , o sea, 10 . Por lo tanto, el segmento unidad de medida representa 10
+unidades.
+3
+
+--- PAGINA 5 ---
+Luego:
+a = 50 – 2 . 10 = 50 – 20 = 30
+b = 90 + 10 = 100
+c = 100 + 2 . 10 = 100 + 20 = 120
+Problemas
+1) Ahora te proponemos que resuelvas los siguientes problemas.
+a. Ubicá el número 34 en la recta numérica.
+4
+
+--- PAGINA 6 ---
+b. Considerá la siguiente recta numérica. ¿Qué números representan las letras r y
+t ?
+● El número que representa la r es ________.
+● El número que representa la t es ________.
+2) Representá en la recta numérica lo que se indica en cada caso.
+a. h + 12
+b. h – 4
+c. El siguiente de h
+Traducción de enunciados
+Muchas veces necesitamos traducir al lenguaje simbólico ciertas expresiones
+coloquiales.
+En la traducción de un enunciado que vale para cualquier número o para un número
+que no conocemos reemplazamos los números por letras, por ejemplo:
+5
+
+--- PAGINA 7 ---
+● El siguiente de n es: n + 1
+● El doble del siguiente de
+n es: 2 ( n + 1)
+● El triple de c disminuido
+en 4 es: 3 c – 4
+● La traducción al lenguaje
+coloquial de la expresión
+simbólica 2 n + 1 es: “el
+siguiente del doble de n ”.
+Problemas
+3) Completá con la expresión simbólica las siguientes expresiones coloquiales .
+Expresión coloquial Expresión simbólica
+a. El anterior a m .
+b. El triple del anterior a m .
+c. El siguiente del triple de m .
+6
+
+--- PAGINA 8 ---
+d. El anterior a m aumentado en 5.
+e. El triple de : m disminuido en 2.
+4) Completá con la expresión coloquial las siguientes expresiones simbólicas.
+Expresión coloquial Expresión simbólica
+a. 3 m - 2
+b. 2 m + 5
+c. ( m + 1) 2
+5) Uní con una fl echa cada expresión coloquial con su correspondiente traducción
+simbólica.
+Expresión coloquial Expresión simbólica
+A. El triple del siguiente de h .
+B. El siguiente del doble de h .
+C. El anterior a 6 aumentado en el doble de h .
+D. El anterior a h disminuido en el doble de 4.
+E. El siguiente del triple de h disminuido en 5.
+F. El doble del anterior a h aumentado en 3.
+1. 2 h +1
+2. h – 1 – 2 . 4
+3. 2 ( h – 1) + 3
+4. 3 h + 1 – 5
+5. 3 ( h + 1)
+6. 6 – 1 + 2 h
+Desigualdades
+7
+
+--- PAGINA 9 ---
+Bruno tiene en una caja menos de 30 revistas. Reparte entre sus amigos 24 revistas.
+¿Cuántas revistas le pueden sobrar?
+Si tiene menos de 30 y reparte 24, la cantidad de revistas que le pueden sobrar son 1, 2,
+3, 4 o 5, según la cantidad que haya en la caja. Podemos usar la letra n para expresar
+ese conjunto de números posibles, es decir, la cantidad de revistas que le pueden
+sobrar a Bruno. Entonces, para expresar esto podemos escribir cualquiera de estas dos
+expresiones:
+n < 6 y leemos: “ n es menor que 6” o n ≤ 5 y leemos: “ n es menor o igual que 5”.
+Problemas
+6) Resolvé los siguientes problemas.
+8
+
+--- PAGINA 10 ---
+a. Resolvé los cálculos y completá con <, > o = según corresponda.
+A. 12 + 2 . 8 ______ (12 + 2) . 8
+B. 12 : 6 . 2 ______ 12 : (6 . 2)
+C. 4 . 3 2 : 9 - 1 _____ 4 . (3 2 : 9 - 1)
+b. Completá con <, > o = según corresponda, sin resolver los cálculos.
+A. (96 + 1) . 17 ________ (96 – 1) . 17
+B. 13 . 37 – 13 . 28 ________ 13 . (37 – 28)
+C. 640 . 110 . 1000 ________ 10 . 64 . 11 . 10 . 100
+7) Escribí todos los números naturales n que cumplan con lo que se indica en cada caso:
+a. n < 9
+b. n ≤ 9
+Traducción de enunciados y desigualdades
+Seguimos trabajando con las letras en la traducción de enunciados y con desigualdades.
+● La cantidad de fi guritas f que tiene Germán es a lo sumo 8.
+Germán tiene como máximo 8 fi guritas, o sea que puede tener 1, 2, 3, 4, 5, 6, 7, u 8
+fi guritas.
+● La cantidad de libros l que tiene en su biblioteca Marina es por lo menos 20.
+Marina tiene como mínimo 20 libros en su biblioteca, o sea que tiene 20 libros o más.
+Puede tener 20, 21, 22, 23, 24, 25, 26 o más libros.
+9
+
+--- PAGINA 11 ---
+● El triple de n supera a 21
+Considerando que n es un número natural, los valores posibles de n son los números
+naturales mayores que 7, o sea que n puede ser igual a 8, 9, 10, 11, 12, 13, 14, 15…
+Si n es menor o igual que 7, por ejemplo si n = 6, entonces 3 . 6 = 18, y 18 no es
+mayor que 21.
+Considerando que m es cero o un número natural, los valores posibles de m son cero o
+los números naturales menores que 8, o sea que m puede ser igual a 7, 6, 5, 4, 3, 2, 1 o
+0.
+Si m es mayor o igual que 8, por ejemplo si m = 13, entonces m + 1 = 14, y 14 no es
+menor que 9.
+● La edad e de la abuela de Nina es mayor que 68 años y a lo sumo 72.
+La abuela de Nina puede tener 69, 70, 71 o 72 años.
+10
+
+--- PAGINA 12 ---
+Problemas
+8) En cada caso, escribí los números naturales n entre el 0 y el 10 que cumplan con las
+siguientes desigualdades:
+a. 2 < n < 8
+b. n ≤ 6
+c. 2 n <16
+d. 24 < 6 n ≤ 42
+9) Martín tiene autitos de colección. La cantidad de autitos que tiene es mayor que 15,
+pero no supera a 20.
+a. ¿Cuántos autitos puede tener Martín? Indicá todas las posibilidades.
+b. Si llamamos c a la cantidad de autitos que tiene Martín, ¿cuáles de las siguientes
+expresiones indican los posibles valores de c ? Elegí las opciones correctas.
+1. 15< c < 20
+2. 16 ≤ c ≤ 20
+3. 15 < c ≤ 19
+4. c ≤ 19 y c >15
+5. c ≤ 20 y c >15
+11
+
+--- PAGINA 13 ---
+Claves de
+Autocorrección
+___
+Problema 1
+a. Ubicá el número 34 en la recta numérica.
+Explicación:
+Para poder representar en la recta el número 34 , primero tenemos que
+determinar cuántas unidades representa el segmento unidad de medida. En la
+recta numérica, el segmento que tiene por extremos los puntos que representan
+el 16 y el 28, corresponde a la distancia entre el 16 y el 28, la cual es: 28 – 16, o
+sea, 12 . Como en la recta numérica, entre las ubicaciones del 16 y el 28, hay 4
+segmentos unidad de medida, para hallar a cuántas unidades corresponde cada
+uno de ellos realizamos este cálculo: 12 : 4 , o sea, 3 . Por lo tanto, el segmento
+unidad de medida representa 3 unidades.
+Luego:
+b. Considerá la siguiente recta numérica. ¿Qué números representan las letras r y
+t ?
+12
+
+--- PAGINA 14 ---
+● El número que representa la r es 100 .
+Si no llegaste a este resultado te damos más pistas:
+Te compartimos la resolución del ejercicio para que puedas seguir
+practicando:
+● El número que representa la t es 60 .
+13
+
+--- PAGINA 15 ---
+Si no llegaste a este resultado te damos más pistas:
+Te compartimos la resolución del ejercicio para que puedas seguir
+practicando:
+14
+
+--- PAGINA 16 ---
+Problema 2
+Representá en la recta numérica lo que se indica en cada caso.
+a. h + 12
+b. h – 4
+c. El siguiente de h
+15
+
+--- PAGINA 17 ---
+Respuesta correcta:
+Explicación:
+Para poder representar en la recta numérica lo que se pide, primero tenemos que
+determinar cuántas unidades representa el segmento unidad de medida. En la recta
+numérica, el segmento que tiene por extremos los puntos que representan h y h + 8
+corresponde a la distancia entre h y h + 8, la cual es h + 8 – h, o sea, 8 . Como en la recta
+numérica, entre las ubicaciones de h y h + 8, hay 4 segmentos unidad de medida, para
+hallar a cuántas unidades corresponde cada uno de ellos realizamos este cálculo: 8 : 4 ,
+o sea, 2 . Por lo tanto, el segmento unidad de medida representa 2 unidades.
+Luego:
+Como el siguiente de h es h + 1 y el segmento unidad de medida representa 2
+unidades, entonces para representar h + 1 en la recta numérica consideramos la mitad
+del segmento unidad de medida.
+Luego:
+16
+
+--- PAGINA 18 ---
+Problema 3
+Completá con la expresión simbólica las siguientes expresiones coloquiales .
+Expresión coloquial Expresión simbólica
+a. El anterior a m . m - 1.
+b. El triple del anterior a m .
+3. ( m – 1).
+Para escribir en forma simbólica “el triple del
+anterior a m ”, primero escribimos el anterior a m ,
+o sea, m – 1.
+Después, para indicar el triple de esa expresión, la
+colocamos en un paréntesis para multiplicarla por
+3.
+c. El siguiente del triple de m .
+3. m + 1.
+Para escribir en forma simbólica “el siguiente del
+triple de m ”, primero escribimos el triple de m , o
+sea, 3 . m .
+Después, para indicar el siguiente del triple de m ,
+le sumamos 1.
+d. El anterior a m aumentado en 5.
+m – 1 + 5.
+Para escribir en forma simbólica “el anterior a m
+aumentado en 5”, primero escribimos el anterior a
+m , o sea, m – 1.
+Después, le sumamos 5 unidades.
+e. El triple de : m disminuido en 2.
+3. (m – 2).
+Para escribir en forma simbólica “el triple de: m
+17
+
+--- PAGINA 19 ---
+disminuido en 2”, primero escribimos m
+disminuido en 2, o sea, m – 2.
+Después, tenemos que escribir el triple de esa
+diferencia porque en la expresión coloquial
+aparecen dos puntos (:).
+Para indicar el triple de esa diferencia, colocamos
+paréntesis y la multiplicamos por 3.
+Problema 4
+Completá con la expresión coloquial las siguientes expresiones simbólicas.
+Expresión coloquial Expresión simbólica
+El triple de : m disminuido en 2.
+Al tener la expresión simbólica 3 m – 2, tenemos el triple
+de m , o sea, 3 m , y a ese producto le restamos 2 unidades.
+a. 3 m - 2
+El doble de m aumentado en 5.
+Al tener la expresión simbólica 2 m + 5, tenemos el doble
+de m , o sea, 2 m , y a ese producto le agregamos 5
+unidades.
+b. 2 m + 5
+El cuadrado del siguiente de m .
+Al tener la expresión simbólica ( m + 1)2, tenemos el
+siguiente de m , o sea, m + 1, y a esa suma la elevamos al
+cuadrado.
+c. ( m + 1) 2
+Problema 5
+Uní con una fl echa cada expresión coloquial con su correspondiente traducción
+simbólica.
+Expresión coloquial Expresión simbólica
+A. El triple del siguiente de h .
+B. El siguiente del doble de h .
+C. El anterior a 6 aumentado en el doble de h .
+D. El anterior a h disminuido en el doble de 4.
+1. 2 h +1
+2. h – 1 – 2 . 4
+3. 2 ( h – 1) + 3
+4. 3 h + 1 – 5
+18
+
+--- PAGINA 20 ---
+E. El siguiente del triple de h disminuido en 5.
+F. El doble del anterior a h aumentado en 3.
+5. 3 ( h + 1)
+6. 6 – 1 + 2 h
+Respuesta correcta:
+a. El siguiente de h es h + 1. El triple del siguiente de h es 3 ( h + 1).
+b. El doble de h es 2 h . El siguiente del doble de h es 2 h +1.
+c. El anterior a 6 es 6 – 1. El doble de h es 2 h . El anterior a 6 aumentado en el doble de h
+es 6 – 1 + 2 h .
+d. El anterior a h es h – 1. El doble de 4 es 2 . 4. Entonces el anterior a h disminuido en el
+doble de 4 es h – 1 – 2 . 4.
+e. El triple de h es 3h. El siguiente del triple de h es 3 h + 1. El siguiente del triple de h
+disminuido en 5 es 3 h + 1 – 5.
+f. El anterior a h es h – 1. El doble del anterior a h es 2 ( h – 1). El doble del anterior a h
+aumentado en 3 es 2 ( h – 1) + 3.
+Problema 6
+Resolvé los siguientes problemas.
+a. Resolvé los cálculos y completá con <, > o = según corresponda.
+A. 12 + 2 . 8 < (12 + 2) . 8
+B. 12 : 6 . 2 > 12 : (6 . 2)
+C. 4 . 3 2 : 9 - 1 > 4 . (3 2 : 9 - 1)
+19
+
+--- PAGINA 21 ---
+b. Completá con <, > o = según corresponda, sin resolver los cálculos.
+A. (96 + 1) . 17 > (96 – 1) . 17
+B. 13 . 37 – 13 . 28 = 13 . (37 – 28)
+Ambas expresiones tienen el mismo resultado, ya que se aplica la
+propiedad distributiva de la multiplicación con respecto a la sustracción.
+C. 640 . 110 . 1000 > 10 . 64 . 11 . 10 . 100
+Problema 7
+Escribí todos los números naturales n que cumplan con lo que se indica en cada caso:
+a. n < 9
+1, 2, 3, 4, 5, 6, 7 y 8
+n < 9 se lee: “todos los números naturales menores que 9”.
+Podemos observar en la recta numérica cuáles son esos números.
+20
+
+--- PAGINA 22 ---
+b. n ≤ 9
+1, 2, 3, 4, 5, 6, 7, 8 y 9
+n ≤ 9 se lee: “todos los números naturales menores o iguales que 9”.
+En este caso incluimos en la respuesta al número 9.
+Problema 8
+a) 2 < n < 8
+Los números naturales n que cumplen esta desigualdad son los mayores que 2 y los
+menores que 8. Esos números naturales n son 3, 4, 5, 6 y 7.
+b) n ≤ 6
+Los números naturales n que cumplen esta desigualdad son los menores o iguales que
+6. Esos números naturales n son: 6, 5, 4, 3, 2, y 1.
+c) 2 n < 16
+Si n = 7, entonces: 2 . 7 = 14, y 14 es menor que 16 (14 < 16).
+Si n = 6, entonces: 2 . 6 = 12, y 12 es menor que 16 (12< 16).
+Si n = 5, entonces: 2 . 5 = 10, y 10 es menor que 16 (10 < 16).
+Si n = 4, entonces: 2 . 4 = 8, y 8 es menor que 16 (8 < 16).
+…
+Los valores posibles de n son los números naturales menores que 8, o sea que n puede
+ser igual a 7, 6, 5, 4, 3, 2 y 1.
+d) 24 < 6 n ≤ 42
+Si n = 5, entonces 24 < 6 . 5 ≤ 42, o sea, 24 < 30 ≤ 42.
+Si n = 6, entonces 24 < 6 . 6 ≤ 42, o sea, 24 < 36 ≤ 42.
+Si n = 7, entonces 24 < 6 . 7 ≤ 42, o sea, 24 < 42 ≤ 42.
+21
+
+--- PAGINA 23 ---
+Los números naturales n son 5, 6 y 7.
+Problema 9
+a. La cantidad de autitos que tiene Martín es mayor que 15, pero no supera
+a 20, por lo tanto Martín puede tener 16, 17, 18, 19 y 20 autitos.
+b. Respuestas correctas: 2 , 5
+Entonces, las siguientes expresiones son las correctas:
+16 ≤ c ≤ 20 La cantidad de autitos que tiene Martín (c) es mayor o igual
+que 16 y menor o igual que 20.
+c ≤ 20 y c > 15 La cantidad de autitos que tiene Martín ( c ) es menor o
+igual que 20 y mayor que 15.
+22

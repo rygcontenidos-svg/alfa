@@ -1,0 +1,639 @@
+{
+  "id": "mate-naturales-operaciones",
+  "materia": "matematica",
+  "titulo": "N\u00FAmeros naturales. Operaciones y propiedades",
+  "descripcion": "N\u00FAmeros naturales (N y N\u2080). Orden de las operaciones. Propiedades: conmutativa, asociativa, distributiva. Estrategias de c\u00E1lculo. Traducci\u00F3n de enunciados.",
+  "textos_ids": ["mate-calentamiento-naturales"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "chupetines",
+      "tipo": "completar",
+      "consigna": "En un jard\u00EDn de infantes se decidi\u00F3 regalar un chupet\u00EDn a cada uno de los 85 ni\u00F1os para el d\u00EDa del ni\u00F1o. Se compraron chupetines de frutilla en bolsas de 15 unidades y de lim\u00F3n en 4 bolsas de 10 unidades.",
+      "items": [
+        {
+          "id": "i1",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1ntos ni\u00F1os recibieron chupet\u00EDn de frutilla?",
+          "respuesta": "45"
+        },
+        {
+          "id": "i2",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1ntas bolsas de chupetines se compraron en total?",
+          "respuesta": "7"
+        }
+      ]
+    },
+    {
+      "id": "calculos_basicos",
+      "tipo": "completar",
+      "consigna": "Calcul\u00E1 respetando el orden de las operaciones:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "25 \u2013 10 + 8 \u2013 17 + 5",
+          "respuesta": "11"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "6 \u00D7 8 \u00F7 4 \u00F7 2",
+          "respuesta": "6"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "24 \u2013 12 \u00F7 2 + 3 \u00F7 3",
+          "respuesta": "19"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "7 + 4 \u00D7 5 \u2013 10 \u00F7 5",
+          "respuesta": "25"
+        }
+      ]
+    },
+    {
+      "id": "reordenar_calculos",
+      "tipo": "completar",
+      "consigna": "Reorden\u00E1 sumandos o factores usando propiedades para calcular de forma m\u00E1s sencilla:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "62 + 34 + 9 + 16 + 11 + 8",
+          "respuesta": "140"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "25 \u00D7 18 \u00D7 4",
+          "respuesta": "1800"
+        }
+      ]
+    },
+    {
+      "id": "unir_propiedades",
+      "tipo": "unir_flechas",
+      "consigna": "Un\u00ED con flechas cada expresi\u00F3n con su equivalente. Indic\u00E1 qu\u00E9 propiedad se aplica en cada caso.",
+      "izquierda": [
+        { "id": "izq1", "texto": "12 + 5" },
+        { "id": "izq2", "texto": "(6 \u00D7 8) \u00D7 9" },
+        { "id": "izq3", "texto": "20 \u00D7 4" },
+        { "id": "izq4", "texto": "(7 + 8) + 3" },
+        { "id": "izq5", "texto": "9 \u00D7 (5 + 1)" },
+        { "id": "izq6", "texto": "11 \u00D7 (8 \u2013 4)" },
+        { "id": "izq7", "texto": "(10 + 2) \u00D7 3" }
+      ],
+      "derecha": [
+        { "id": "der1", "texto": "5 + 12" },
+        { "id": "der2", "texto": "6 \u00D7 (8 \u00D7 9)" },
+        { "id": "der3", "texto": "4 \u00D7 20" },
+        { "id": "der4", "texto": "7 + (8 + 3)" },
+        { "id": "der5", "texto": "9 \u00D7 1 + 9 \u00D7 5" },
+        { "id": "der6", "texto": "11 \u00D7 8 \u2013 11 \u00D7 4" },
+        { "id": "der7", "texto": "10 \u00D7 3 + 2 \u00D7 3" }
+      ],
+      "pares": [
+        { "izquierda_id": "izq1", "derecha_id": "der1" },
+        { "izquierda_id": "izq2", "derecha_id": "der2" },
+        { "izquierda_id": "izq3", "derecha_id": "der3" },
+        { "izquierda_id": "izq4", "derecha_id": "der4" },
+        { "izquierda_id": "izq5", "derecha_id": "der5" },
+        { "izquierda_id": "izq6", "derecha_id": "der6" },
+        { "izquierda_id": "izq7", "derecha_id": "der7" }
+      ]
+    },
+    {
+      "id": "factura_pintura_cuadro",
+      "tipo": "completar_cuadro",
+      "consigna": "Complet\u00E1 la siguiente factura de pintura calculando los subtotales y el total:",
+      "columnas": ["Art\u00EDculo", "Cantidad", "Precio unitario", "Subtotal"],
+      "filas": [
+        { "id": "lata", "celdas": ["Latas de pintura", "4", "$10000", "$40000"] },
+        { "id": "pincel", "celdas": ["Pinceles", "2", "$5500", "$11000"] },
+        { "id": "rodillo", "celdas": ["Rodillos", "3", "$9000", "$27000"] },
+        { "id": "total", "celdas": ["Total", "", "", "$78000"] }
+      ]
+    },
+    {
+      "id": "factura_pintura_calculo",
+      "tipo": "completar",
+      "consigna": "Resolv\u00E9 las siguientes preguntas sobre la factura de pintura:",
+      "items": [
+        {
+          "id": "i1",
+          "subtipo": "texto",
+          "pregunta": "Abonaron un tercio del total al contado. \u00BFCu\u00E1nto dinero pagaron?",
+          "respuesta": "$26000"
+        },
+        {
+          "id": "i2",
+          "subtipo": "texto",
+          "pregunta": "El resto se abon\u00F3 en 4 cuotas iguales. \u00BFCu\u00E1l es el valor de cada cuota?",
+          "respuesta": "$13000"
+        }
+      ]
+    },
+    {
+      "id": "cine_butacas_seleccion",
+      "tipo": "seleccion_multiple",
+      "consigna": "En un cine hay 20 filas de 18 butacas cada una. Se ocuparon completamente 13 filas y en las filas restantes quedaron 4 butacas vac\u00EDas en cada una. \u00BFCu\u00E1l de las siguientes expresiones permite calcular la cantidad de espectadores que asistieron?",
+      "opciones": [
+        { "id": "a", "texto": "20 \u00D7 18 \u2013 13 \u00D7 18 \u2013 7 \u00D7 4" },
+        { "id": "b", "texto": "20 \u00D7 18 \u2013 13 \u00D7 18 \u2013 7 \u00D7 18" },
+        { "id": "c", "texto": "360 \u2013 13 \u00D7 18 \u2013 7 \u00D7 18" },
+        { "id": "d", "texto": "20 \u00D7 18 \u2013 7 \u00D7 18 \u2013 13 \u00D7 4" }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "cine_butacas_resultado",
+      "tipo": "completar",
+      "consigna": "Calcul\u00E1 cu\u00E1ntas personas asistieron al cine.",
+      "items": [
+        {
+          "id": "i1",
+          "subtipo": "texto",
+          "pregunta": "Cantidad de espectadores:",
+          "respuesta": "332"
+        }
+      ]
+    },
+    {
+      "id": "unir_resultados",
+      "tipo": "unir_flechas",
+      "consigna": "Un\u00ED con flechas cada expresi\u00F3n con su resultado.",
+      "izquierda": [
+        { "id": "izq1", "texto": "4 \u00D7 20 \u2013 (10 \u00F7 2 + 3)" },
+        { "id": "izq2", "texto": "4 \u00D7 (20 \u2013 10 \u00F7 2) + 3" },
+        { "id": "izq3", "texto": "4 \u00D7 (20 \u2013 10) \u00F7 2 + 3" },
+        { "id": "izq4", "texto": "4 \u00D7 20 \u2013 10 \u00F7 (2 + 3)" },
+        { "id": "izq5", "texto": "(4 \u00D7 20 \u2013 10) \u00F7 2 + 3" }
+      ],
+      "derecha": [
+        { "id": "der1", "texto": "72" },
+        { "id": "der2", "texto": "63" },
+        { "id": "der3", "texto": "23" },
+        { "id": "der4", "texto": "78" },
+        { "id": "der5", "texto": "38" }
+      ],
+      "pares": [
+        { "izquierda_id": "izq1", "derecha_id": "der1" },
+        { "izquierda_id": "izq2", "derecha_id": "der2" },
+        { "izquierda_id": "izq3", "derecha_id": "der3" },
+        { "izquierda_id": "izq4", "derecha_id": "der4" },
+        { "izquierda_id": "izq5", "derecha_id": "der5" }
+      ]
+    },
+    {
+      "id": "mismo_resultado",
+      "tipo": "completar",
+      "consigna": "Sin hacer cuentas, indic\u00E1 si cada expresi\u00F3n tiene el mismo resultado que 520 \u00D7 9. Respond\u00E9 \u201CS\u00ED\u201D o \u201CNo\u201D.",
+      "items": [
+        { "id": "a", "subtipo": "select", "pregunta": "520 \u00D7 3 \u00D7 2", "respuesta": "No", "opciones": ["S\u00ED", "No"], "explicacion": "9 = 3 \u00D7 3, no 3 \u00D7 2. Ser\u00EDa correcto si fuera 520 \u00D7 3 \u00D7 3." },
+        { "id": "b", "subtipo": "select", "pregunta": "520 \u00D7 (10 \u2013 1)", "respuesta": "S\u00ED", "opciones": ["S\u00ED", "No"], "explicacion": "10 \u2013 1 = 9, entonces 520 \u00D7 9." },
+        { "id": "c", "subtipo": "select", "pregunta": "520 \u00D7 10 \u2013 520", "respuesta": "S\u00ED", "opciones": ["S\u00ED", "No"], "explicacion": "Propiedad distributiva: 520 \u00D7 (10 \u2013 1) = 520 \u00D7 10 \u2013 520." },
+        { "id": "d", "subtipo": "select", "pregunta": "3 \u00D7 3 \u00D7 520", "respuesta": "S\u00ED", "opciones": ["S\u00ED", "No"], "explicacion": "9 = 3 \u00D7 3. Por conmutativa: 520 \u00D7 9 = 520 \u00D7 3 \u00D7 3 = 3 \u00D7 3 \u00D7 520." },
+        { "id": "e", "subtipo": "select", "pregunta": "520 \u00D7 10 \u2013 1", "respuesta": "No", "opciones": ["S\u00ED", "No"], "explicacion": "Primero se resuelve 520 \u00D7 10 = 5200, luego se resta 1. Da 5199, no 4680." },
+        { "id": "f", "subtipo": "select", "pregunta": "520 \u00D7 (3 + 6)", "respuesta": "S\u00ED", "opciones": ["S\u00ED", "No"], "explicacion": "3 + 6 = 9, entonces 520 \u00D7 9." },
+        { "id": "g", "subtipo": "select", "pregunta": "520 \u00D7 3 + 6", "respuesta": "No", "opciones": ["S\u00ED", "No"], "explicacion": "Primero se resuelve 520 \u00D7 3 = 1560, luego se suma 6. Da 1566, no 4680." },
+        { "id": "h", "subtipo": "select", "pregunta": "520 \u00D7 3 + 520 \u00D7 6", "respuesta": "S\u00ED", "opciones": ["S\u00ED", "No"], "explicacion": "Propiedad distributiva inversa: 520 \u00D7 3 + 520 \u00D7 6 = 520 \u00D7 (3 + 6) = 520 \u00D7 9." }
+      ]
+    },
+    {
+      "id": "libreria_expresion",
+      "tipo": "seleccion_multiple",
+      "consigna": "Gast\u00F3n compr\u00F3 en una librer\u00EDa 5 repuestos rayados a $250 cada uno, 3 repuestos cuadriculados a $200 cada uno y 12 lapiceras a $34 cada una. Devolvi\u00F3 3 lapiceras y 2 repuestos rayados. Pag\u00F3 el total en 3 cuotas iguales. \u00BFCu\u00E1l de las siguientes expresiones permite calcular el valor de cada cuota?",
+      "opciones": [
+        { "id": "a", "texto": "(5 \u00D7 250 + 3 \u00D7 200 + 12 \u00D7 34) : 3" },
+        { "id": "b", "texto": "(3 \u00D7 250 + 3 \u00D7 200 + 12 \u00D7 34) : 3" },
+        { "id": "c", "texto": "(3 \u00D7 250 + 3 \u00D7 200 + 9 \u00D7 34) : 3" },
+        { "id": "d", "texto": "3 \u00D7 250 + 3 \u00D7 200 + 9 \u00D7 34" }
+      ],
+      "correcta": "c"
+    },
+    {
+      "id": "libreria_calculo",
+      "tipo": "completar",
+      "consigna": "Calcul\u00E1 el valor de cada cuota que pag\u00F3 Gast\u00F3n.",
+      "items": [
+        {
+          "id": "i1",
+          "subtipo": "texto",
+          "pregunta": "Valor de cada cuota:",
+          "respuesta": "$552"
+        }
+      ]
+    },
+    {
+      "id": "usar_propiedades",
+      "tipo": "completar",
+      "consigna": "Us\u00E1 las propiedades de los n\u00FAmeros naturales para resolver los siguientes c\u00E1lculos de forma m\u00E1s sencilla:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "11 + 13 + 9 + 27 + 20",
+          "respuesta": "80"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "25 \u00D7 3 \u00D7 8 \u00D7 10",
+          "respuesta": "6000"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "19 \u00D7 73",
+          "respuesta": "1387"
+        }
+      ]
+    },
+    {
+      "id": "partir_de_5x12",
+      "tipo": "completar",
+      "consigna": "A partir de 5 \u00D7 12 = 60, resolv\u00E9 los siguientes c\u00E1lculos usando propiedades:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "24 \u00D7 5",
+          "respuesta": "120"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "50 \u00D7 120",
+          "respuesta": "6000"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "12 \u00D7 7",
+          "respuesta": "84"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "6 \u00D7 5",
+          "respuesta": "30"
+        },
+        {
+          "id": "e",
+          "subtipo": "texto",
+          "pregunta": "10 \u00D7 36",
+          "respuesta": "360"
+        },
+        {
+          "id": "f",
+          "subtipo": "texto",
+          "pregunta": "20 \u00D7 9",
+          "respuesta": "180"
+        }
+      ]
+    },
+    {
+      "id": "cotillon_cuadro",
+      "tipo": "completar_cuadro",
+      "consigna": "Complet\u00E1 la siguiente factura de cotill\u00F3n calculando los subtotales y el total:",
+      "columnas": ["Art\u00EDculo", "Cantidad", "Precio unitario", "Subtotal"],
+      "filas": [
+        { "id": "anillo", "celdas": ["Anillos", "22", "$18", "$396"] },
+        { "id": "pulsera", "celdas": ["Pulseras", "30", "$14", "$420"] },
+        { "id": "silbato", "celdas": ["Silbatos", "36", "$25", "$900"] },
+        { "id": "total", "celdas": ["Total", "", "", "$1716"] }
+      ]
+    },
+    {
+      "id": "cotillon_vuelto",
+      "tipo": "completar",
+      "consigna": "Se pag\u00F3 la factura de cotill\u00F3n con $2000.",
+      "items": [
+        {
+          "id": "i1",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1nto dinero se recibi\u00F3 de vuelto?",
+          "respuesta": "$284"
+        }
+      ]
+    },
+    {
+      "id": "cotillon_cuotas",
+      "tipo": "completar",
+      "consigna": "Por pagar en cuotas se aplic\u00F3 un recargo de $544. El total con recargo se abon\u00F3 en 5 cuotas iguales.",
+      "items": [
+        {
+          "id": "i1",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el valor de cada cuota?",
+          "respuesta": "$452"
+        }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["mate-calentamiento-naturales"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "naturales",
+          "titulo": "N\u00FAmeros naturales",
+          "icono": "\uD83D\uDD22",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00BFQu\u00E9 son los n\u00FAmeros naturales?",
+              "texto": "Los n\u00FAmeros naturales son aquellos que usamos para contar elementos de un conjunto. Se representan con la letra N.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "El conjunto de los n\u00FAmeros naturales se puede definir de dos formas: N = {1, 2, 3, 4, \u2026} (sin el cero) o N\u2080 = {0, 1, 2, 3, 4, \u2026} (incluyendo el cero). La diferencia es si consideramos al cero como natural o no. En este curso trabajaremos con N (sin el cero), aunque en algunos problemas tambi\u00E9n aparezca el cero."
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\uD83D\uDCA1", "texto": "Son infinitos: siempre hay un n\u00FAmero m\u00E1s grande que cualquier otro." },
+                { "icono": "\uD83D\uDCA1", "texto": "Tienen un orden: 1 < 2 < 3 < 4 < \u2026" },
+                { "icono": "\uD83D\uDCA1", "texto": "Se pueden sumar, restar, multiplicar y dividir (con ciertas condiciones)." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "orden_operaciones",
+          "titulo": "Orden de las operaciones",
+          "icono": "\uD83E\uDDEE",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Jerarqu\u00EDa de operaciones",
+              "texto": "Cuando en un c\u00E1lculo aparecen varias operaciones combinadas, existe un orden que debemos respetar para obtener el resultado correcto.",
+              "color": "naranja"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "Operaciones entre par\u00E9ntesis." },
+                { "icono": "\u25B6", "texto": "Potencias y/o ra\u00EDces (cuando las veamos)." },
+                { "icono": "\u25B6", "texto": "Multiplicaciones y/o divisiones, de izquierda a derecha." },
+                { "icono": "\u25B6", "texto": "Adiciones y/o sustracciones, de izquierda a derecha." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "4 + 3 \u00D7 2 = 4 + 6 = 10",
+              "explicacion": "Primero se resuelve la multiplicaci\u00F3n (3 \u00D7 2 = 6) y luego la suma. Si resolvi\u00E9ramos de izquierda a derecha sin respetar la jerarqu\u00EDa, obtendr\u00EDamos 14, que es incorrecto."
+            }
+          ]
+        },
+        {
+          "id": "propiedad_conmutativa",
+          "titulo": "Propiedad conmutativa",
+          "icono": "\uD83D\uDD04",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00BFQu\u00E9 dice?",
+              "texto": "El orden de los sumandos o de los factores no altera el resultado.",
+              "color": "verde"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u2795", "texto": "Conmutativa de la adici\u00F3n: a + b = b + a. Ej: 8 + 5 = 5 + 8 = 13." },
+                { "icono": "\u2716\uFE0F", "texto": "Conmutativa de la multiplicaci\u00F3n: a \u00D7 b = b \u00D7 a. Ej: 6 \u00D7 7 = 7 \u00D7 6 = 42." }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "La propiedad conmutativa no se cumple para la resta ni para la divisi\u00F3n: 8 \u2013 5 \u2260 5 \u2013 8, y 10 \u00F7 2 \u2260 2 \u00F7 10."
+            }
+          ]
+        },
+        {
+          "id": "propiedad_asociativa",
+          "titulo": "Propiedad asociativa",
+          "icono": "\uD83D\uDD17",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00BFQu\u00E9 dice?",
+              "texto": "Al agrupar los sumandos o los factores de diferentes maneras, el resultado no cambia.",
+              "color": "verde"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u2795", "texto": "Asociativa de la adici\u00F3n: (a + b) + c = a + (b + c). Ej: (12 + 8) + 5 = 12 + (8 + 5) = 25." },
+                { "icono": "\u2716\uFE0F", "texto": "Asociativa de la multiplicaci\u00F3n: (a \u00D7 b) \u00D7 c = a \u00D7 (b \u00D7 c). Ej: (5 \u00D7 4) \u00D7 3 = 5 \u00D7 (4 \u00D7 3) = 60." }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Gracias a las propiedades conmutativa y asociativa, podemos reordenar y agrupar sumandos o factores para calcular de manera m\u00E1s r\u00E1pida."
+            }
+          ]
+        },
+        {
+          "id": "propiedad_distributiva",
+          "titulo": "Propiedad distributiva",
+          "icono": "\uD83D\uDCD0",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Distributiva de la multiplicaci\u00F3n",
+              "texto": "La multiplicaci\u00F3n se distribuye respecto de la adici\u00F3n y de la sustracci\u00F3n.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u2795", "texto": "Respecto de la adici\u00F3n: (a + b) \u00D7 c = a \u00D7 c + b \u00D7 c. Ej: (4 + 2) \u00D7 3 = 4 \u00D7 3 + 2 \u00D7 3 = 12 + 6 = 18." },
+                { "icono": "\u2796", "texto": "Respecto de la sustracci\u00F3n: (a \u2013 b) \u00D7 c = a \u00D7 c \u2013 b \u00D7 c, con a \u2265 b. Ej: (10 \u2013 3) \u00D7 4 = 10 \u00D7 4 \u2013 3 \u00D7 4 = 40 \u2013 12 = 28." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "19 \u00D7 73 = (20 \u2013 1) \u00D7 73 = 20 \u00D7 73 \u2013 1 \u00D7 73 = 1460 \u2013 73 = 1387",
+              "explicacion": "Aplicamos la propiedad distributiva para descomponer 19 como (20 \u2013 1), lo que facilita el c\u00E1lculo mental."
+            }
+          ]
+        },
+        {
+          "id": "estrategias_calculo",
+          "titulo": "Estrategias de c\u00E1lculo",
+          "icono": "\uD83D\uDCA1",
+          "color": "violeta",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Calcular m\u00E1s r\u00E1pido",
+              "texto": "Usando las propiedades podemos desarrollar estrategias que simplifican los c\u00E1lculos.",
+              "color": "violeta"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\uD83D\uDD04", "texto": "Reordenar: cambiar el orden para agrupar n\u00FAmeros que suman o multiplican f\u00E1cil. Ej: 62 + 34 + 9 + 16 + 11 + 8 = (62 + 8) + (34 + 16) + (9 + 11) = 70 + 50 + 20 = 140." },
+                { "icono": "\uD83D\uDD17", "texto": "Asociar: agrupar convenientemente. Ej: 25 \u00D7 18 \u00D7 4 = (25 \u00D7 4) \u00D7 18 = 100 \u00D7 18 = 1800." },
+                { "icono": "\uD83D\uDCD0", "texto": "Descomponer: usar la propiedad distributiva. Ej: 19 \u00D7 73 = (20 \u2013 1) \u00D7 73." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "traduccion_enunciados",
+          "titulo": "Traducci\u00F3n de enunciados",
+          "icono": "\u270F\uFE0F",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Del lenguaje coloquial al simb\u00F3lico",
+              "texto": "Para resolver problemas necesitamos traducir las palabras a expresiones matem\u00E1ticas.",
+              "color": "azul"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u2795", "texto": "\u201Cm\u00E1s\u201D, \u201Caumentado en\u201D, \u201Csumado a\u201D \u2192 +" },
+                { "icono": "\u2796", "texto": "\u201Cmenos\u201D, \u201Cdisminuido en\u201D, \u201Cdiferencia\u201D \u2192 \u2013" },
+                { "icono": "\u2716\uFE0F", "texto": "\u201Cveces\u201D, \u201Cel doble de\u201D, \u201Cel triple de\u201D, \u201Cproducto\u201D \u2192 \u00D7" },
+                { "icono": "\u2797", "texto": "\u201Cdividido\u201D, \u201Cmitad de\u201D, \u201Ctercera parte\u201D, \u201Ccociente\u201D \u2192 \u00F7" }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "\u201CEl doble de un n\u00FAmero aumentado en tres\u201D",
+              "explicacion": "Puede interpretarse como 2x + 3 (el doble del n\u00FAmero, y luego se suma 3) o como 2 \u00B7 (x + 3) (el doble de la suma). El enunciado debe ser claro para evitar ambig\u00FCedades."
+            }
+          ]
+        },
+        {
+          "id": "resolucion_problemas",
+          "titulo": "Resoluci\u00F3n de problemas",
+          "icono": "\uD83C\uDFAF",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Pasos para resolver problemas",
+              "texto": "Seguir un m\u00E9todo ordenado ayuda a no cometer errores.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "Leer atentamente el enunciado e identificar los datos." },
+                { "icono": "\u25B6", "texto": "Determinar qu\u00E9 nos preguntan (la inc\u00F3gnita)." },
+                { "icono": "\u25B6", "texto": "Traducir el enunciado a una expresi\u00F3n matem\u00E1tica." },
+                { "icono": "\u25B6", "texto": "Resolver respetando el orden de las operaciones." },
+                { "icono": "\u25B6", "texto": "Verificar que el resultado tenga sentido en el contexto del problema." },
+                { "icono": "\u25B6", "texto": "Responder con una oraci\u00F3n completa." }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Record\u00E1 que un mismo problema puede resolverse con distintas expresiones matem\u00E1ticas. Lo importante es que el razonamiento sea correcto."
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        {
+          "pregunta": "\u00BFQu\u00E9 son los n\u00FAmeros naturales?",
+          "respuesta": "Son los que usamos para contar: N = {1, 2, 3, 4, \u2026}. N\u2080 = {0, 1, 2, 3, \u2026} incluye el cero."
+        },
+        {
+          "pregunta": "\u00BFCu\u00E1l es el orden de las operaciones combinadas?",
+          "respuesta": "1\u00B0 Par\u00E9ntesis. 2\u00B0 Potencias/ra\u00EDces. 3\u00B0 Multiplicaciones/divisiones (de izq. a der.). 4\u00B0 Adiciones/sustracciones (de izq. a der.)."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 dice la propiedad conmutativa de la adici\u00F3n?",
+          "respuesta": "a + b = b + a. El orden de los sumandos no altera la suma."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 dice la propiedad conmutativa de la multiplicaci\u00F3n?",
+          "respuesta": "a \u00D7 b = b \u00D7 a. El orden de los factores no altera el producto."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 dice la propiedad asociativa de la adici\u00F3n?",
+          "respuesta": "(a + b) + c = a + (b + c). La forma de agrupar los sumandos no altera la suma."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 dice la propiedad distributiva de la multiplicaci\u00F3n respecto de la adici\u00F3n?",
+          "respuesta": "(a + b) \u00D7 c = a \u00D7 c + b \u00D7 c. La multiplicaci\u00F3n se distribuye en cada t\u00E9rmino de la suma."
+        },
+        {
+          "pregunta": "\u00BFC\u00F3mo se traduce \u201Cel producto de un n\u00FAmero y su consecutivo\u201D?",
+          "respuesta": "x \u00D7 (x + 1), donde x es el n\u00FAmero y (x + 1) su consecutivo."
+        },
+        {
+          "pregunta": "\u00BFCu\u00E1les son los pasos para resolver un problema?",
+          "respuesta": "1) Leer e identificar datos. 2) Determinar la inc\u00F3gnita. 3) Traducir a expresi\u00F3n matem\u00E1tica. 4) Resolver. 5) Verificar. 6) Responder."
+        }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": [
+        "chupetines",
+        "calculos_basicos",
+        "reordenar_calculos",
+        "unir_propiedades",
+        "factura_pintura_cuadro",
+        "factura_pintura_calculo",
+        "unir_resultados",
+        "mismo_resultado",
+        "cotillon_vuelto"
+      ]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": [
+        "cine_butacas_seleccion",
+        "cine_butacas_resultado",
+        "libreria_expresion",
+        "libreria_calculo",
+        "usar_propiedades",
+        "partir_de_5x12",
+        "cotillon_cuadro",
+        "cotillon_cuotas"
+      ],
+      "duracion_min": 30
+    },
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Error en el orden de las operaciones",
+          "detalle": "Un error muy frecuente es resolver las operaciones en el orden en que aparecen, sin respetar la jerarqu\u00EDa. Record\u00E1: primero par\u00E9ntesis, luego multiplicaciones y divisiones, y al final sumas y restas. Por ejemplo, en 24 \u2013 12 \u00F7 2 + 3 \u00F7 3, muchos hacen 24 \u2013 12 = 12, luego 12 \u00F7 2 = 6, y obtienen un resultado incorrecto. Lo correcto es resolver primero las divisiones: 12 \u00F7 2 = 6 y 3 \u00F7 3 = 1, luego 24 \u2013 6 + 1 = 19."
+        },
+        {
+          "titulo": "Confundir propiedad conmutativa con asociativa",
+          "detalle": "La propiedad conmutativa cambia el ORDEN de los t\u00E9rminos (a + b = b + a). La propiedad asociativa cambia la AGRUPACI\u00D3N ((a + b) + c = a + (b + c)). No es lo mismo. Por ejemplo, 12 + 5 = 5 + 12 es conmutativa; (7 + 8) + 3 = 7 + (8 + 3) es asociativa. Identific\u00E1 bien cu\u00E1l est\u00E1s usando."
+        },
+        {
+          "titulo": "Aplicar mal la propiedad distributiva",
+          "detalle": "Al aplicar la distributiva, cada t\u00E9rmino dentro del par\u00E9ntesis debe multiplicarse por el factor externo. Error com\u00FAn: 3 \u00D7 (4 + 5) = 3 \u00D7 4 + 5 (incorrecto). Lo correcto es 3 \u00D7 4 + 3 \u00D7 5. Tampoco olvides que la distributiva se aplica tanto respecto de la suma como de la resta, y se puede usar en ambos sentidos."
+        },
+        {
+          "titulo": "Malinterpretar el enunciado al traducir a expresi\u00F3n matem\u00E1tica",
+          "detalle": "Leer r\u00E1pido puede llevar a traducir mal. Por ejemplo, \u201Cel triple de un n\u00FAmero aumentado en cinco\u201D puede interpretarse como 3x + 5 o como 3 \u00B7 (x + 5) seg\u00FAn los signos de puntuaci\u00F3n. Identific\u00E1 bien qu\u00E9 operaci\u00F3n se realiza primero. En los problemas con facturas, verific\u00E1 si hay que sumar o restar cantidades, y si el total se divide en cuotas."
+        }
+      ]
+    }
+  }
+}

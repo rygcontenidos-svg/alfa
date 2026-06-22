@@ -1,0 +1,664 @@
+{
+  "id": "mate-division-entera-multiplos-divisibilidad",
+  "materia": "matematica",
+  "titulo": "Divisi\u00F3n entera. M\u00FAltiplos y divisores. Divisibilidad",
+  "descripcion": "Divisi\u00F3n entera: dividendo, divisor, cociente y resto (0 \u2264 r < b). M\u00FAltiplos y divisores. Criterios de divisibilidad por 2, 3, 4, 5, 9 y 10.",
+  "textos_ids": ["mate-calentamiento-division"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "astor_bombones",
+      "tipo": "completar",
+      "consigna": "Astor compr\u00F3 384 bombones para preparar cajas con 13 bombones cada una.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es la mayor cantidad de cajas que podr\u00E1 preparar? (hac\u00E9 384 \u00F7 13)",
+          "respuesta": "29"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1ntos bombones le sobrar\u00E1n?",
+          "respuesta": "7"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Complet\u00E1: 384 = 13 \u00D7 \u2026\u2026 + \u2026\u2026",
+          "respuesta": "13 \u00D7 29 + 7"
+        }
+      ]
+    },
+    {
+      "id": "division_nombres",
+      "tipo": "completar",
+      "consigna": "En la divisi\u00F3n entera 384 \u00F7 13 = 29 con resto 7, indic\u00E1 el nombre de cada elemento.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "\u00BFC\u00F3mo se llama el 384?",
+          "respuesta": "Dividendo",
+          "opciones": ["Dividendo", "Divisor", "Cociente", "Resto"]
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "\u00BFC\u00F3mo se llama el 13?",
+          "respuesta": "Divisor",
+          "opciones": ["Dividendo", "Divisor", "Cociente", "Resto"]
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "\u00BFC\u00F3mo se llama el 29?",
+          "respuesta": "Cociente",
+          "opciones": ["Dividendo", "Divisor", "Cociente", "Resto"]
+        },
+        {
+          "id": "d",
+          "subtipo": "select",
+          "pregunta": "\u00BFC\u00F3mo se llama el 7?",
+          "respuesta": "Resto",
+          "opciones": ["Dividendo", "Divisor", "Cociente", "Resto"]
+        }
+      ]
+    },
+    {
+      "id": "astor_bombones_2",
+      "tipo": "completar",
+      "consigna": "Astor quiere preparar cajas con 14 bombones en cada una. Compr\u00F3 448 bombones.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1ntas cajas podr\u00E1 preparar? (hac\u00E9 448 \u00F7 14)",
+          "respuesta": "32"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1ntos bombones le sobran?",
+          "respuesta": "0"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Complet\u00E1: 448 = 14 \u00D7 \u2026\u2026 + \u2026\u2026. \u00BFQu\u00E9 significa que el resto sea 0?",
+          "respuesta": "14 \u00D7 32 + 0. Significa que 448 es divisible por 14."
+        }
+      ]
+    },
+    {
+      "id": "division_igualdad",
+      "tipo": "seleccion_multiple",
+      "consigna": "Consider\u00E1 la expresi\u00F3n: 51 = 6 \u00D7 7 + 9. \u00BFSe puede afirmar que 6 es el divisor, 7 es el cociente y 9 es el resto?",
+      "opciones": [
+        { "id": "a", "texto": "S\u00ED, porque 6 \u00D7 7 + 9 = 51." },
+        { "id": "b", "texto": "No, porque el resto (9) es mayor o igual que el divisor (6)." },
+        { "id": "c", "texto": "S\u00ED, pero se podr\u00EDa seguir dividiendo." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "resto_condicion",
+      "tipo": "completar",
+      "consigna": "Respond\u00E9 sobre las condiciones de la divisi\u00F3n entera.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el resto de dividir 75 por 9?",
+          "respuesta": "3"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el resto de dividir 50 por 25?",
+          "respuesta": "0"
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "\u00BFPuede ser 8 el resto de dividir un n\u00FAmero natural por 3?",
+          "respuesta": "No",
+          "opciones": ["S\u00ED", "No"],
+          "explicacion": "No, porque 8 > 3. El resto siempre debe ser menor que el divisor."
+        },
+        {
+          "id": "d",
+          "subtipo": "select",
+          "pregunta": "\u00BFQu\u00E9 condici\u00F3n debe cumplir el resto r en una divisi\u00F3n entera por b?",
+          "respuesta": "0 \u2264 r < b",
+          "opciones": ["0 \u2264 r < b", "0 < r \u2264 b", "0 \u2264 r \u2264 b"]
+        },
+        {
+          "id": "e",
+          "subtipo": "select",
+          "pregunta": "\u00BFCu\u00E1l es el cociente entre 29 y 3?",
+          "respuesta": "9",
+          "opciones": ["3", "9", "29"]
+        },
+        {
+          "id": "f",
+          "subtipo": "select",
+          "pregunta": "\u00BFCu\u00E1l es el cociente entre 3 y 29? (3 \u00F7 29)",
+          "respuesta": "0",
+          "opciones": ["0", "1", "3"]
+        }
+      ]
+    },
+    {
+      "id": "multiplos_divisores_palabras",
+      "tipo": "completar",
+      "consigna": "Consider\u00E1 que 210 = 35 \u00D7 6. Eleg\u00ED la palabra correcta para cada afirmaci\u00F3n.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "210 es \u2026\u2026\u2026 de 6.",
+          "respuesta": "m\u00FAltiplo",
+          "opciones": ["m\u00FAltiplo", "divisor", "divisible", "factor"]
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "35 es \u2026\u2026\u2026 de 210.",
+          "respuesta": "divisor",
+          "opciones": ["m\u00FAltiplo", "divisor", "divisible", "factor"]
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "210 es \u2026\u2026\u2026 por 7.",
+          "respuesta": "divisible",
+          "opciones": ["m\u00FAltiplo", "divisor", "divisible", "factor"]
+        },
+        {
+          "id": "d",
+          "subtipo": "select",
+          "pregunta": "6 es \u2026\u2026\u2026 de 210.",
+          "respuesta": "factor",
+          "opciones": ["m\u00FAltiplo", "divisor", "divisible", "factor"]
+        }
+      ]
+    },
+    {
+      "id": "encontrar_multiplos",
+      "tipo": "completar",
+      "consigna": "Escrib\u00ED todos los n\u00FAmeros naturales que cumplen con la condici\u00F3n pedida.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "M\u00FAltiplos de 8 comprendidos entre 51 y 90.",
+          "respuesta": "56, 64, 72, 80, 88"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Divisores de 36.",
+          "respuesta": "1, 2, 3, 4, 6, 9, 12, 18, 36"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "M\u00FAltiplos de 7 de dos cifras mayores que 81.",
+          "respuesta": "84, 91, 98"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "Divisores pares de 42.",
+          "respuesta": "2, 6, 14, 42"
+        }
+      ]
+    },
+    {
+      "id": "estudiantes_36",
+      "tipo": "completar",
+      "consigna": "En un taller participan 36 estudiantes. La profesora quiere organizarlos en grupos de igual cantidad de integrantes.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Si arma 4 grupos, \u00BFCu\u00E1ntos estudiantes hay en cada grupo? \u00BFSobra alguno?",
+          "respuesta": "9 estudiantes, no sobra ninguno"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFSe puede agrupar de otra forma sin que sobre ninguno? Indic\u00E1 todas las posibilidades (grupos de a 2, 3, etc.).",
+          "respuesta": "2, 3, 4, 6, 9, 12, 18 grupos"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "\u00BFPor qu\u00E9 no se pueden armar grupos de a 5?",
+          "respuesta": "Porque 36 no es divisible por 5 (sobrar\u00EDa 1 estudiante)"
+        }
+      ]
+    },
+    {
+      "id": "division_40_52",
+      "tipo": "completar",
+      "consigna": "Respond\u00E9 sobre casos especiales de la divisi\u00F3n entera.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es el cociente entre 40 y 52? (40 \u00F7 52)",
+          "respuesta": "0 (porque 40 < 52)"
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "\u00BFPor qu\u00E9 el divisor no puede ser 0?",
+          "respuesta": "Porque no hay un \u00FAnico cociente y el resto no existe",
+          "opciones": ["Porque no se puede dividir por 0", "Porque cualquier n\u00FAmero \u00D7 0 = 0, no hay cociente \u00FAnico", "Porque el resultado ser\u00EDa infinito"]
+        }
+      ]
+    },
+    {
+      "id": "afirmaciones_102",
+      "tipo": "verdadero_falso",
+      "consigna": "Consider\u00E1 que 102 = 17 \u00D7 6. Marc\u00E1 V o F para cada afirmaci\u00F3n.",
+      "items": [
+        { "id": "a", "afirmacion": "102 es m\u00FAltiplo de 6.", "respuesta": true },
+        { "id": "b", "afirmacion": "6 es divisible por 102.", "respuesta": false },
+        { "id": "c", "afirmacion": "17 es factor de 6.", "respuesta": false },
+        { "id": "d", "afirmacion": "17 es divisor de 102.", "respuesta": true },
+        { "id": "e", "afirmacion": "17 y 6 dividen a 102.", "respuesta": true },
+        { "id": "f", "afirmacion": "0 es m\u00FAltiplo de 102.", "respuesta": true },
+        { "id": "g", "afirmacion": "1 no es factor de 102.", "respuesta": false }
+      ]
+    },
+    {
+      "id": "sumar_multiplo_7",
+      "tipo": "completar",
+      "consigna": "\u00BFCu\u00E1l es el menor n\u00FAmero que hay que sumarle a cada uno para obtener un m\u00FAltiplo de 7?",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "94",
+          "respuesta": "4"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "212",
+          "respuesta": "5"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "453",
+          "respuesta": "2"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "678",
+          "respuesta": "1"
+        }
+      ]
+    },
+    {
+      "id": "resto_sin_dividir",
+      "tipo": "completar",
+      "consigna": "Sin realizar la divisi\u00F3n, hall\u00E1 el resto de dividir 8537 por cada uno de los siguientes n\u00FAmeros usando los criterios de divisibilidad.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Resto de 8537 \u00F7 2 (mir\u00E1 la \u00FAltima cifra)",
+          "respuesta": "1"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Resto de 8537 \u00F7 5",
+          "respuesta": "2"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Resto de 8537 \u00F7 10",
+          "respuesta": "7"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "Resto de 8537 \u00F7 3 (sum\u00E1 las cifras)",
+          "respuesta": "2"
+        }
+      ]
+    },
+    {
+      "id": "divisibilidad_3b2b",
+      "tipo": "completar",
+      "consigna": "Hall\u00E1 todos los valores de b (d\u00EDgito) para que el n\u00FAmero de cuatro cifras 3 b 2 b sea divisible por lo pedido.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFPara qu\u00E9 valores de b es divisible por 4? (mir\u00E1 las dos \u00FAltimas cifras: 2b)",
+          "respuesta": "b = 0, 4, 8"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "\u00BFPara qu\u00E9 valores de b es divisible por 15? (debe ser divisible por 3 y por 5)",
+          "respuesta": "b = 5"
+        }
+      ]
+    },
+    {
+      "id": "pecheras",
+      "tipo": "completar",
+      "consigna": "Para un torneo de f\u00FAtbol se compraron 212 pecheras. Se guardaron en bolsas con no m\u00E1s de 6 unidades cada una.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1ntas bolsas se usaron como m\u00EDnimo? (212 \u00F7 6 = 35, resto 2, se necesitan 36 bolsas)",
+          "respuesta": "36"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Las bolsas se acomodaron en estantes con capacidad para 8 bolsas. \u00BFCu\u00E1ntos estantes se necesitaron como m\u00EDnimo?",
+          "respuesta": "5"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Si la cantidad de pecheras se triplic\u00F3 (212 \u00D7 3 = 636), \u00BFcu\u00E1ntos estantes se usaron como m\u00EDnimo? (636 \u00F7 6 = 106 bolsas, 106 \u00F7 8 = 13 estantes, resto 2, se necesitan 14)",
+          "respuesta": "14"
+        }
+      ]
+    },
+    {
+      "id": "completar_division_velas",
+      "tipo": "completar",
+      "consigna": "Complet\u00E1 las divisiones enteras relacionadas con el problema de las velas. 150 velas, paquetes de 5, cajas de 7 paquetes.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "150 \u00F7 5: cociente = \u2026 (paquetes), resto = \u2026",
+          "respuesta": "cociente 30, resto 0"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "30 \u00F7 7: cociente = \u2026 (cajas completas), resto = \u2026 (paquetes que sobran)",
+          "respuesta": "cociente 4, resto 2"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1ntas cajas se completaron? \u00BFCu\u00E1ntos paquetes sobraron? \u00BFCu\u00E1ntas velas representa ese sobrante?",
+          "respuesta": "4 cajas, sobran 2 paquetes = 10 velas"
+        }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["mate-calentamiento-division"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "division_entera",
+          "titulo": "Divisi\u00F3n entera",
+          "icono": "\u2797",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "\u00BFQu\u00E9 es la divisi\u00F3n entera?",
+              "texto": "Efectuar la divisi\u00F3n entera de a por b (con a natural o cero y b natural) significa encontrar los dos \u00FAnicos n\u00FAmeros c y r (naturales o cero) tales que: a = b \u00D7 c + r, con 0 \u2264 r < b.",
+              "color": "azul"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\uD83D\uDD22", "texto": "a = dividendo, b = divisor, c = cociente, r = resto." },
+                { "icono": "\uD83D\uDD22", "texto": "El resto siempre es mayor o igual que 0 y menor que el divisor." },
+                { "icono": "\uD83D\uDD22", "texto": "Si r = 0, decimos que a es divisible por b." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "384 \u00F7 13 da cociente 29 y resto 7 porque 384 = 13 \u00D7 29 + 7",
+              "explicacion": "El resto 7 es menor que el divisor 13, y es la cantidad de bombones que no alcanzan para otra caja."
+            }
+          ]
+        },
+        {
+          "id": "algoritmo_division",
+          "titulo": "Algoritmo de la divisi\u00F3n",
+          "icono": "\uD83D\uDCCB",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Relaci\u00F3n fundamental",
+              "texto": "En toda divisi\u00F3n entera se cumple: Dividendo = Divisor \u00D7 Cociente + Resto, con 0 \u2264 Resto < Divisor.",
+              "color": "naranja"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "Si a b con b \u2260 0, entonces a = b \u00D7 c + r y 0 \u2264 r < b." },
+                { "icono": "\u25B6", "texto": "Cuando a < b, el cociente es 0 y el resto es a. Ej: 40 \u00F7 52 = 0 con resto 40." },
+                { "icono": "\u25B6", "texto": "El divisor nunca puede ser 0: no existe cociente \u00FAnico." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "multiplos_divisores",
+          "titulo": "M\u00FAltiplos y divisores",
+          "icono": "\uD83D\uDD22",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Definiciones",
+              "texto": "Si a = b \u00D7 c (resto 0), decimos que: a es m\u00FAltiplo de b, b es divisor de a, b divide a a, b es factor de a, a es divisible por b.",
+              "color": "verde"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\uD83D\uDCA1", "texto": "0 es m\u00FAltiplo de todos los n\u00FAmeros (0 = b \u00D7 0), pero no es divisor de ninguno." },
+                { "icono": "\uD83D\uDCA1", "texto": "1 es divisor de todos los n\u00FAmeros." },
+                { "icono": "\uD83D\uDCA1", "texto": "Los divisores de un n\u00FAmero son finitos; los m\u00FAltiplos son infinitos." }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "210 = 35 \u00D7 6",
+              "explicacion": "210 es m\u00FAltiplo de 35 y de 6. 35 y 6 son divisores de 210. 210 es divisible por 35 y por 6."
+            }
+          ]
+        },
+        {
+          "id": "divisibilidad_2_5_10",
+          "titulo": "Criterios de divisibilidad (2, 5, 10)",
+          "icono": "\uD83D\uDD0D",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Divisibilidad sin hacer cuentas",
+              "texto": "Los criterios de divisibilidad permiten saber si un n\u00FAmero es divisible por otro sin realizar la divisi\u00F3n.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "Divisible por 2: termina en 0, 2, 4, 6 u 8 (par)." },
+                { "icono": "\u25B6", "texto": "Divisible por 5: termina en 0 o 5." },
+                { "icono": "\u25B6", "texto": "Divisible por 10: termina en 0." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "divisibilidad_3_4_9",
+          "titulo": "Criterios (3, 4, 9)",
+          "icono": "\uD83D\uDD0D",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "M\u00E1s criterios",
+              "texto": "Algunos criterios requieren mirar las cifras o sumarlas.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "Divisible por 3: la suma de sus cifras es m\u00FAltiplo de 3. Ej: 1284 \u2192 1+2+8+4=15, 15 es m\u00FAltiplo de 3." },
+                { "icono": "\u25B6", "texto": "Divisible por 4: el n\u00FAmero formado por las dos \u00FAltimas cifras es m\u00FAltiplo de 4. Ej: 7548 \u2192 48 es m\u00FAltiplo de 4." },
+                { "icono": "\u25B6", "texto": "Divisible por 9: la suma de sus cifras es m\u00FAltiplo de 9. Ej: 27018 \u2192 2+7+0+1+8=18, m\u00FAltiplo de 9." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aplicaciones_division",
+          "titulo": "Aplicaciones",
+          "icono": "\uD83C\uDFAF",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Problemas con divisi\u00F3n entera",
+              "texto": "La divisi\u00F3n entera aparece en problemas de reparto, agrupamiento y empaquetado. El resto tiene un significado concreto en cada contexto.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "212 pecheras en bolsas de a 6: 212 \u00F7 6 = 35 con resto 2",
+              "explicacion": "Se necesitan 36 bolsas como m\u00EDnimo (35 completas + 1 para las 2 que sobran). El resto indica que sobran pecheras que necesitan otra bolsa."
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "En problemas de 'como m\u00EDnimo' o 'por lo menos', cuando el resto no es 0, se necesita una unidad m\u00E1s del contenedor (bolsa, caja, estante)."
+            }
+          ]
+        },
+        {
+          "id": "resumen_clase3",
+          "titulo": "Resumen",
+          "icono": "\uD83D\uDCDD",
+          "color": "violeta",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Puntos clave",
+              "texto": "Divisi\u00F3n entera: a = b \u00D7 c + r, 0 \u2264 r < b. Si r = 0, a es divisible por b.",
+              "color": "violeta"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "\u25B6", "texto": "M\u00FAltiplos: los que se obtienen al multiplicar por naturales." },
+                { "icono": "\u25B6", "texto": "Divisores: los que dividen exactamente al n\u00FAmero." },
+                { "icono": "\u25B6", "texto": "Criterios r\u00E1pidos: 2 (\u00FAltima cifra par), 3 (suma m\u00FAltiplo de 3), 4 (dos \u00FAltimas m\u00FAltiplo de 4), 5 (termina en 0 o 5), 9 (suma m\u00FAltiplo de 9), 10 (termina en 0)." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        {
+          "pregunta": "\u00BFQu\u00E9 es la divisi\u00F3n entera?",
+          "respuesta": "Dados a (dividendo) y b (divisor, b \u2260 0), encontrar c (cociente) y r (resto) tales que a = b \u00D7 c + r, con 0 \u2264 r < b."
+        },
+        {
+          "pregunta": "\u00BFCu\u00E1l es la condici\u00F3n del resto en una divisi\u00F3n entera?",
+          "respuesta": "El resto debe ser mayor o igual que 0 y menor que el divisor: 0 \u2264 r < b."
+        },
+        {
+          "pregunta": "\u00BFQu\u00E9 significa que a sea divisible por b?",
+          "respuesta": "Significa que al dividir a por b el resto es 0. Tambi\u00E9n decimos que a es m\u00FAltiplo de b, y que b es divisor de a."
+        },
+        {
+          "pregunta": "\u00BFC\u00F3mo se obtienen los m\u00FAltiplos de un n\u00FAmero?",
+          "respuesta": "Multiplicando ese n\u00FAmero por todos los n\u00FAmeros naturales: m\u00FAltiplos de 4: 4, 8, 12, 16, \u2026 (infinitos)."
+        },
+        {
+          "pregunta": "\u00BFC\u00F3mo se obtienen los divisores de un n\u00FAmero?",
+          "respuesta": "Buscando todos los n\u00FAmeros naturales que lo dividen exactamente. Ej: divisores de 36: 1, 2, 3, 4, 6, 9, 12, 18, 36 (finitos)."
+        },
+        {
+          "pregunta": "\u00BFCu\u00E1l es el criterio de divisibilidad del 2?",
+          "respuesta": "Un n\u00FAmero es divisible por 2 si termina en 0, 2, 4, 6 u 8 (es decir, si es par)."
+        },
+        {
+          "pregunta": "\u00BFCu\u00E1l es el criterio de divisibilidad del 3?",
+          "respuesta": "Un n\u00FAmero es divisible por 3 si la suma de sus cifras es m\u00FAltiplo de 3."
+        },
+        {
+          "pregunta": "\u00BFCu\u00E1l es el criterio de divisibilidad del 4?",
+          "respuesta": "Un n\u00FAmero es divisible por 4 si el n\u00FAmero formado por sus dos \u00FAltimas cifras es m\u00FAltiplo de 4."
+        }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": [
+        "astor_bombones",
+        "division_nombres",
+        "astor_bombones_2",
+        "division_igualdad",
+        "resto_condicion",
+        "multiplos_divisores_palabras",
+        "encontrar_multiplos",
+        "estudiantes_36",
+        "division_40_52",
+        "sumar_multiplo_7"
+      ]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": [
+        "afirmaciones_102",
+        "resto_sin_dividir",
+        "divisibilidad_3b2b",
+        "pecheras",
+        "completar_division_velas"
+      ],
+      "duracion_min": 30
+    },
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Confundir m\u00FAltiplo, divisor, divisible y factor",
+          "detalle": "Si a = b \u00D7 c, decimos: a es m\u00FAltiplo de b (y de c). b y c son divisores de a. a es divisible por b (y por c). b y c son factores de a. Todas estas palabras describen la misma relaci\u00F3n pero desde distintos puntos de vista. Un error com\u00FAn es decir '6 es divisible por 102' cuando lo correcto es '102 es divisible por 6' (el n\u00FAmero m\u00E1s grande es el que se divide por el m\u00E1s chico, no al rev\u00E9s)."
+        },
+        {
+          "titulo": "No respetar la condici\u00F3n del resto (0 \u2264 r < b)",
+          "detalle": "Si el resto es mayor o igual que el divisor, la divisi\u00F3n no est\u00E1 terminada. Por ejemplo, en 51 = 6 \u00D7 7 + 9, el resto 9 es mayor que el divisor 6, lo que significa que se puede seguir dividiendo. Lo correcto ser\u00EDa 51 = 6 \u00D7 8 + 3 (cociente 8, resto 3). Siempre verific\u00E1 que el resto sea menor que el divisor."
+        },
+        {
+          "titulo": "Errores con los criterios de divisibilidad",
+          "detalle": "El criterio del 3 se aplica sobre la suma de las cifras, no sobre la \u00FAltima cifra. El criterio del 4 usa las DOS \u00FAltimas cifras, no solo la \u00FAltima. Record\u00E1 que un n\u00FAmero divisible por 2 no necesariamente lo es por 4 (ej: 14 es divisible por 2 pero no por 4). Para la divisibilidad por 15, deben cumplirse simult\u00E1neamente las condiciones del 3 y del 5."
+        },
+        {
+          "titulo": "No interpretar correctamente el resto en problemas",
+          "detalle": "En problemas de 'como m\u00EDnimo' o 'por lo menos', si el resto no es 0, se necesita agregar una unidad al cociente. Por ejemplo, si 212 pecheras se guardan en bolsas de a 6, 212 \u00F7 6 da cociente 35 y resto 2. Se necesitan 36 bolsas (no 35), porque las 2 pecheras que sobran necesitan otra bolsa. No confundir 'sobran' con 'faltan'."
+        }
+      ]
+    }
+  }
+}

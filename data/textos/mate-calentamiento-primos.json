@@ -1,0 +1,10 @@
+{
+  "id": "mate-calentamiento-primos",
+  "titulo": "Problema disparador: el juego de cartas",
+  "autor": "CIEEM 2026",
+  "genero": "otro",
+  "clase": "Clase 4",
+  "cuerpo": "Eli y Norberto juegan con un mazo de cartas numeradas. En cada jugada, cada uno extrae una carta y anota todos los divisores del n\u00FAmero. Gana quien obtiene la mayor cantidad de divisores.\n\nEli sac\u00F3: 17, 25, 2, 32\nNorberto sac\u00F3: 0, 1, 33, 49\n\na) \u00BFCu\u00E1ntos divisores tiene cada n\u00FAmero?\nb) \u00BFQui\u00E9n gan\u00F3?\nc) \u00BFQu\u00E9 n\u00FAmeros tienen solo dos divisores? \u00BFC\u00F3mo se llaman?\n\nPista: los divisores de 17 son 1 y 17 (tiene 2). Los de 25 son 1, 5, 25 (tiene 3).",
+  "solucion": "a) Eli — 17: 2 divisores (1, 17). 25: 3 divisores (1, 5, 25). 2: 2 divisores (1, 2). 32: 6 divisores (1, 2, 4, 8, 16, 32). Total Eli: 13.\nNorberto — 0: no tiene divisores (0). 1: 1 divisor (1). 33: 4 divisores (1, 3, 11, 33). 49: 3 divisores (1, 7, 49). Total Norberto: 8.\nb) Ganó Eli (13 contra 8).\nc) 17 y 2 tienen solo dos divisores. Se llaman números primos.",
+  "notas_al_pie": []
+}
