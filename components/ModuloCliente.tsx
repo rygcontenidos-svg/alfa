@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
-import type { Modulo, PasoMetodo } from "@/lib/tipos";
+import type { Modulo, PasoMetodo, TextoLectura } from "@/lib/tipos";
 import {
   completarPaso,
   estadoDe,
@@ -19,6 +19,7 @@ import PasoPracticar from "./pasos/PasoPracticar";
 import PasoPonerseAPrueba from "./pasos/PasoPonerseAPrueba";
 import PasoMejorar from "./pasos/PasoMejorar";
 import SimulacroCliente from "./SimulacroCliente";
+import TextoModal from "./TextoModal";
 import { obtenerTexto } from "@/lib/textos";
 
 export default function ModuloCliente({ modulo }: { modulo: Modulo }) {
@@ -33,6 +34,10 @@ export default function ModuloCliente({ modulo }: { modulo: Modulo }) {
     .map((id) => obtenerTexto(id))
     .filter(Boolean) as NonNullable<ReturnType<typeof obtenerTexto>>[];
   const saltarCalentamiento = textosCalentamiento.length === 0;
+
+  const textosModulo = (modulo.textos_ids ?? [])
+    .map((id) => obtenerTexto(id))
+    .filter(Boolean) as TextoLectura[];
 
   useEffect(() => {
     const e = estadoDe(modulo.id, usuario);
@@ -147,6 +152,34 @@ export default function ModuloCliente({ modulo }: { modulo: Modulo }) {
               )}
             </div>
           </div>
+
+          {textosModulo.length > 0 && (
+            <section className="mt-8">
+              <h2 className="text-sm font-semibold text-grafito mb-2">
+                Textos de esta clase
+              </h2>
+              <ul className="space-y-2">
+                {textosModulo.map((t) => (
+                  <li key={t.id}>
+                    <TextoModal textos={[t]}>
+                      <div className="w-full flex items-center justify-between gap-3 rounded-lg border border-borde bg-white px-4 py-3 hover:border-azul transition-colors">
+                        <div className="text-left">
+                          <p className="text-sm font-semibold text-grafito">
+                            {t.titulo}
+                          </p>
+                          <p className="text-xs text-gris">{t.autor}</p>
+                        </div>
+                        <span className="text-azul text-sm font-medium whitespace-nowrap">
+                          <i className="fa-solid fa-book-open mr-1" />
+                          Abrir
+                        </span>
+                      </div>
+                    </TextoModal>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
         </>
       ) : (
         <div className="rounded-xl border border-dashed border-borde bg-azul-fondo p-6 text-center">
