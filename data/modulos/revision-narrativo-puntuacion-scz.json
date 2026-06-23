@@ -285,7 +285,7 @@
               "items": [
                 { "icono": "📋", "texto": "ENUMERACIÓN: separa elementos de una serie. (Ej: enorme, oscura y silenciosa)" },
                 { "icono": "📢", "texto": "VOCATIVO: aísla el nombre del receptor. (Ej: Carlos, no te preocupes.)" },
-                { "icono": "🔽", "texto": "INCIDO: encierra una aclaración dentro de la oración. (Ej: Inés, cansada y asustada, miró hacia el lago.)" }
+                { "icono": "🔽", "texto": "INCISO: encierra una aclaración dentro de la oración. (Ej: Inés, cansada y asustada, miró hacia el lago.)" }
               ]
             },
             {
