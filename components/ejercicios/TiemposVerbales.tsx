@@ -44,7 +44,7 @@ export default function TiemposVerbales({
                       {f.ejemplo}
                     </td>
                     <td className="px-3 py-2 border border-borde text-grafito">
-                      {f.tiempo}
+                      {revelado ? f.tiempo : ""}
                     </td>
                     <td
                       className={`px-3 py-2 border border-borde ${
