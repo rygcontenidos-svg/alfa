@@ -180,15 +180,21 @@ export default function MateriaPage({ params }: { params: Promise<{ slug: string
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {simulacros.map((m) => (
-                <CardPill
+                <Link
                   key={m.id}
-                  id={m.id}
-                  label={<><i className="fa-solid fa-stopwatch mr-1" />{m.titulo} · {m.duracion_min ?? 90} min</>}
-                  color={info.color}
-                  seleccionado={activo === m.id}
-                  completado={(stats[m.id] ?? 0) === 100}
-                  onClick={() => setActivo(activo === m.id ? null : m.id)}
-                />
+                  href={`/modulo/${m.id}`}
+                  className="text-[13px] font-medium px-4 py-2 rounded-lg transition-all duration-200 flex items-center gap-1.5 hover:brightness-90"
+                  style={{
+                    backgroundColor: info.color,
+                    color: "#FFFFFF",
+                  }}
+                >
+                  <i className="fa-solid fa-stopwatch mr-1" />
+                  {m.titulo} · {m.duracion_min ?? 90} min
+                  {(stats[m.id] ?? 0) === 100 && (
+                    <i className="fa-solid fa-circle-check" style={{ fontSize: "10px", color: "rgba(255,255,255,0.7)" }} />
+                  )}
+                </Link>
               ))}
             </div>
           </>
