@@ -309,9 +309,11 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🆂", "texto": "SE escribe con S: adjetivos terminados en -oso/-osa (hermoso), superlativos -ísimo (feísimo), palabras con -sión (tensión)." },
-                { "icono": "🅲", "texto": "SE escribe con C: verbos terminados en -cer/-cir (percibir), palabras con -ción (función), diminutivos -cito (pececito)." },
-                { "icono": "🆉", "texto": "SE escribe con Z: sustantivos abstractos en -anza (esperanza), adjetivos en -uzco (negruzco), palabras en -azgo (noviazgo)." }
+                { "icono": "🆂", "texto": "SE escribe con S: adjetivos terminados en -oso/-osa (hermoso), superlativos -ísimo (feísimo)." },
+                { "icono": "🅲", "texto": "SE escribe con C: verbos terminados en -cer/-cir (percibir), diminutivos -cito (pececito)." },
+                { "icono": "🆉", "texto": "SE escribe con Z: sustantivos abstractos en -anza (esperanza), adjetivos en -uzco (negruzco), palabras en -azgo (noviazgo)." },
+                { "icono": "📌", "texto": "-SIÓN (con S): llevan S las palabras que derivan de otras terminadas en -so, -sor, -sivo o -sible. (Ej: tenso → tensión, agresor → agresión, explosivo → explosión)." },
+                { "icono": "📌", "texto": "-CIÓN (con C): llevan C las palabras que derivan de otras terminadas en -to, -tor, -do, -dor o -tivo. (Ej: atento → atención, director → dirección, creador → creación)." }
               ]
             }
           ]
