@@ -15,6 +15,8 @@ import sakuraYohiro from "@/data/textos/sakura-y-yohiro.json";
 import laCasaDelArbol from "@/data/textos/la-casa-del-arbol.json";
 import avisaleAMiMama from "@/data/textos/avisale-a-mi-mama.json";
 import leyendaCruzDelSur from "@/data/textos/leyenda-cruz-del-sur.json";
+import demeter from "@/data/textos/demeter.json";
+import elLeon from "@/data/textos/el-leon.json";
 import mateCalentamientoNaturales from "@/data/textos/mate-calentamiento-naturales.json";
 import mateCalentamientoDesigualdades from "@/data/textos/mate-calentamiento-desigualdades.json";
 import mateCalentamientoDivision from "@/data/textos/mate-calentamiento-division.json";
@@ -37,6 +39,8 @@ const TEXTOS_JSON: Record<string, TextoLectura> = {
   "la-casa-del-arbol": laCasaDelArbol as unknown as TextoLectura,
   "avisale-a-mi-mama": avisaleAMiMama as unknown as TextoLectura,
   "leyenda-cruz-del-sur": leyendaCruzDelSur as unknown as TextoLectura,
+  "demeter": demeter as unknown as TextoLectura,
+  "el-leon": elLeon as unknown as TextoLectura,
   "mate-calentamiento-naturales": mateCalentamientoNaturales as unknown as TextoLectura,
   "mate-calentamiento-desigualdades": mateCalentamientoDesigualdades as unknown as TextoLectura,
   "mate-calentamiento-division": mateCalentamientoDivision as unknown as TextoLectura,
@@ -60,6 +64,8 @@ const TEXTOS_META: Omit<TextoLectura, "cuerpo" | "notas_al_pie">[] = [
   { id: "sakura-y-yohiro", titulo: "Sakura y Yohiro", autor: "Anónimo", genero: "leyenda", clase: "Clase 7" },
   { id: "la-casa-del-arbol", titulo: "La casa del árbol", autor: "I. Rivera", genero: "cuento", clase: "Clase 8" },
   { id: "leyenda-cruz-del-sur", titulo: "La cruz del sur", autor: "Adaptación de Susana Otero (Leyenda mocoví)", genero: "leyenda", clase: "Clase 10" },
+  { id: "demeter", titulo: "Demeter", autor: "Anónimo (Mito griego adaptado)", genero: "mito", clase: "Simulacro 3" },
+  { id: "el-leon", titulo: "El león", autor: "Anónimo (Adaptación de fábula india)", genero: "fabula", clase: "Simulacro 2" },
   { id: "mate-calentamiento-naturales", titulo: "Problema disparador: el cine", autor: "CIEEM 2026", genero: "otro", clase: "Clase 1" },
   { id: "mate-calentamiento-desigualdades", titulo: "Problema disparador: las revistas", autor: "CIEEM 2026", genero: "otro", clase: "Clase 2" },
   { id: "mate-calentamiento-division", titulo: "Problema disparador: las velas", autor: "CIEEM 2026", genero: "otro", clase: "Clase 3" },

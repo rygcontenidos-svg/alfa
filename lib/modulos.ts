@@ -144,7 +144,7 @@ const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
     materia: "lengua",
     titulo: "Simulacro 2: segunda evaluación de Lengua",
     descripcion:
-      "Simulacro integrador que abarca: comunicación y funciones del lenguaje, tipos de textos, géneros literarios, tipo textual narrativo (secuencia, narrador, tiempos verbales), revisión de puntuación y normativa S/C/Z.",
+      "Simulacro que abarca: circuito de la comunicación, comprensión lectora de 'El león', marco narrativo, tipo de narrador, tipos textuales, clases de palabras y análisis de 'La hormiga y la paloma'.",
     estado: "completo",
   },
   {
@@ -152,7 +152,7 @@ const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
     materia: "lengua",
     titulo: "Simulacro 3: tercera evaluación de Lengua",
     descripcion:
-      "Simulacro integrador que abarca: mito, cohesión (elipsis), leyenda, paráfrasis, cuento realista, coherencia, sinonimia, uso de B, la novela y memoria colectiva.",
+      "Simulacro integrador que abarca: mito, géneros literarios, tipo textual, tiempos verbales, cohesión, tildación, circuito de la comunicación, normativa gráfica, novela 'Avisale a mi mamá' y repaso de cuentos del primer parcial.",
     estado: "completo",
   },
   {

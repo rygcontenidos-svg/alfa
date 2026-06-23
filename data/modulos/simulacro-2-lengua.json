@@ -2,682 +2,133 @@
   "id": "simulacro-2-lengua",
   "materia": "lengua",
   "titulo": "Simulacro 2: segunda evaluación de Lengua",
-  "descripcion": "Simulacro integrador que abarca: comunicación y funciones del lenguaje, tipos de textos, géneros literarios, tipo textual narrativo (secuencia, narrador, tiempos verbales), revisión de puntuación y normativa S/C/Z.",
+  "descripcion": "Simulacro que abarca: circuito de la comunicación y funciones del lenguaje, comprensión lectora de 'El león' (fábula india), marco narrativo, tipo de narrador, tipos textuales, clases de palabras (adjetivos, clasificación semántica y morfológica) y análisis de 'La hormiga y la paloma'.",
   "tipo": "simulacro",
   "duracion_min": 90,
-  "textos_ids": [
-    "el-leon-y-la-liebre"
-  ],
+  "textos_ids": ["el-leon"],
   "estado": "completo",
   "ejercicios": [
     {
-      "id": "sim_circuito_nino",
+      "id": "sim2_e1_circuito_tute",
       "tipo": "circuito_comunicacion",
-      "consigna": "Identificá los elementos del circuito de la comunicación en la siguiente frase del cuento y determiná la función del lenguaje predominante.",
-      "frase": "¡Esto sí que será una despampanante novedad! —exclama el niño—.",
+      "consigna": "A partir de la historieta de Tute, completá el esquema de la comunicación de la situación comunicativa. Luego determiná qué función del lenguaje predomina en el mensaje.",
+      "frase": "—¿Me prestás tu carpeta de Lengua?",
       "nodos": [
-        {
-          "id": "emisor",
-          "etiqueta": "Emisor",
-          "respuesta": "Blas (el niño)"
-        },
-        {
-          "id": "receptor",
-          "etiqueta": "Receptor",
-          "respuesta": "él mismo (monólogo interior) / el lector"
-        },
-        {
-          "id": "mensaje",
-          "etiqueta": "Mensaje",
-          "respuesta": "¡Esto sí que será una despampanante novedad!"
-        },
-        {
-          "id": "canal",
-          "etiqueta": "Canal",
-          "respuesta": "oral (exclamación en voz alta)"
-        },
-        {
-          "id": "codigo",
-          "etiqueta": "Código",
-          "respuesta": "lengua española (signos lingüísticos)"
-        },
-        {
-          "id": "referente",
-          "etiqueta": "Referente",
-          "respuesta": "su invento (la idea del libro/cassette mejorado)"
-        }
+        { "id": "emisor", "etiqueta": "Emisor", "respuesta": "el/la estudiante que pide la carpeta" },
+        { "id": "receptor", "etiqueta": "Receptor", "respuesta": "el/la compañero/a que tiene la carpeta" },
+        { "id": "mensaje", "etiqueta": "Mensaje", "respuesta": "¿Me prestás tu carpeta de Lengua?" },
+        { "id": "canal", "etiqueta": "Canal", "respuesta": "oral (conversación cara a cara)" },
+        { "id": "codigo", "etiqueta": "Código", "respuesta": "lengua española (signos lingüísticos)" },
+        { "id": "referente", "etiqueta": "Referente", "respuesta": "la carpeta de Lengua" }
       ],
       "funcion_lenguaje": {
-        "opciones": [
-          "Referencial",
-          "Emotiva",
-          "Apelativa",
-          "Poética"
-        ],
-        "correcta": "Emotiva"
+        "opciones": ["Referencial", "Emotiva", "Apelativa", "Poética"],
+        "correcta": "Apelativa"
       }
     },
     {
-      "id": "sim_sm_poetica",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué función del lenguaje predomina en la siguiente oración del cuento?: «Voces, voces, voces, nada más que voces pues en el año 2132 el lenguaje es únicamente oral.»",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Referencial, porque informa que en 2132 el lenguaje es oral."
-        },
-        {
-          "id": "b",
-          "texto": "Poética, porque la repetición 'voces, voces, voces' le da musicalidad y ritmo al mensaje; la forma importa tanto como el contenido."
-        },
-        {
-          "id": "c",
-          "texto": "Apelativa, porque busca que el lector preste atención a las voces."
-        }
-      ],
-      "correcta": "b"
-    },
-    {
-      "id": "sim_vf_aplicado",
-      "tipo": "verdadero_falso",
-      "consigna": "Marcar V (verdadero) o F (falso) aplicando lo visto sobre funciones del lenguaje a frases del cuento.",
-      "labels": {
-        "verdadero": "V",
-        "falso": "F"
-      },
-      "items": [
-        {
-          "id": "s1",
-          "afirmacion": "En «¡Pobres! ¡Sin este cassette cómo se habrán aburrido!» predomina la función emotiva porque expresa la valoración del narrador.",
-          "respuesta": true
-        },
-        {
-          "id": "s2",
-          "afirmacion": "En «Se llama Blas» predomina la función apelativa porque le ordena al lector que se llame Blas.",
-          "respuesta": false,
-          "correccion": "Predomina la función referencial: es una información objetiva en 3ª persona y modo indicativo."
-        },
-        {
-          "id": "s3",
-          "afirmacion": "En «¡zas! lo dejo con la boca abierta» predomina la función poética por la musicalidad de la expresión.",
-          "respuesta": false,
-          "correccion": "Aunque hay expresividad, predomina la función emotiva: el narrador expresa su emoción y subjetividad."
-        },
-        {
-          "id": "s4",
-          "afirmacion": "La frase «Año: 2132. Lugar: aula de cibernética» es un ejemplo claro de función referencial.",
-          "respuesta": true
-        },
-        {
-          "id": "s5",
-          "afirmacion": "En el cuento, el narrador usa la primera persona gramatical, lo que indica que predomina la función referencial.",
-          "respuesta": false,
-          "correccion": "La primera persona es marca de la función emotiva, no referencial. La referencial usa 3ª persona."
-        }
-      ]
-    },
-    {
-      "id": "sim_marco_cassette",
+      "id": "sim2_e2_marco_leon",
       "tipo": "marco_narrativo",
-      "consigna": "Completá el marco narrativo del cuento \"Cassette\" de Anderson Imbert.",
-      "personajes": "Blas (niño de nueve años) y el tutor",
-      "lugar": "Aula de cibernética, en el centro del universo",
-      "tiempo": "Año 2132 (futuro lejano)"
+      "consigna": "Determiná cuáles son los tres elementos del marco del cuento \"El león\".",
+      "personajes": "Cuatro hermanos brahmanes (tres sabios doctores y un adolescente inteligente sin estudios)",
+      "lugar": "Un bosque, camino hacia el imperio de Braga",
+      "tiempo": "En otro tiempo (tiempo remoto e indeterminado)"
     },
     {
-      "id": "sim_narrador_cassette",
+      "id": "sim2_e2b_narrador_leon",
       "tipo": "tipo_narrador",
-      "consigna": "Marcá el tipo de narrador del cuento \"Cassette\" y justificá con una cita del texto.",
-      "opciones": [
-        "Narrador Protagonista",
-        "Narrador Testigo",
-        "Narrador Omnisciente"
-      ],
+      "consigna": "Caracterizá el tipo de narrador de \"El león\". Justificá con una cita del texto.",
+      "opciones": ["Narrador Protagonista", "Narrador Testigo", "Narrador Omnisciente"],
       "correcta": "Narrador Omnisciente",
-      "cita_justificacion": "Ganas de estudiar, Blas no tiene. / Blas nunca ha oído hablar de su tocayo Blas Pascal…"
+      "cita_justificacion": "Sabe lo que los hermanos piensan y sienten: «se querían entrañablemente», «el que había censurado la ignorancia del hermano menor volvió a hablar». Conoce hechos pasados y detalles que ningún personaje podría saber por sí solo."
     },
     {
-      "id": "sm_tipos_textuales",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué es un texto?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Un conjunto ordenado de enunciados, con una unidad temática y recursos que lo vuelven comprensible, ya que transmite un mensaje total."
-        },
-        {
-          "id": "b",
-          "texto": "Una sola oración larga que contiene toda la información necesaria."
-        },
-        {
-          "id": "c",
-          "texto": "Una lista de palabras sueltas que el lector debe ordenar para entender el mensaje."
-        }
-      ],
-      "correcta": "a"
-    },
-    {
-      "id": "vf_tipos_textuales",
+      "id": "sim2_e3_comprension_leon",
       "tipo": "verdadero_falso",
-      "consigna": "Marcar V o F según la teoría de tipos textuales.",
-      "labels": {
-        "verdadero": "V",
-        "falso": "F"
-      },
+      "consigna": "Indicá si las siguientes afirmaciones sobre \"El león\" son correctas (C) o incorrectas (I).",
+      "labels": { "verdadero": "C", "falso": "I" },
       "items": [
-        {
-          "id": "i1",
-          "afirmacion": "Cada tipo textual tiene una intencionalidad predominante.",
-          "respuesta": true
-        },
-        {
-          "id": "i2",
-          "afirmacion": "El tipo textual narrativo se caracteriza por presentar un intercambio comunicativo entre dos o más personas.",
-          "respuesta": false,
-          "correccion": "Ese es el tipo textual dialogal. El narrativo se caracteriza por la presencia de un narrador que cuenta una historia."
-        },
-        {
-          "id": "i3",
-          "afirmacion": "El tipo textual descriptivo detalla aspectos y características de algo o alguien para que el receptor se haga una idea mental.",
-          "respuesta": true
-        },
-        {
-          "id": "i4",
-          "afirmacion": "El tipo textual explicativo da a conocer de manera clara y objetiva algo que posiblemente no es conocido por el receptor.",
-          "respuesta": true
-        },
-        {
-          "id": "i5",
-          "afirmacion": "En un mismo texto puede haber un solo tipo textual, nunca se combinan.",
-          "respuesta": false,
-          "correccion": "Los textos pueden combinar varios tipos textuales, aunque siempre predomina uno."
-        },
-        {
-          "id": "i6",
-          "afirmacion": "El tipo textual dialogal se reconoce por la alternancia de voces y las marcas tipográficas.",
-          "respuesta": true
-        }
+        { "id": "e3a", "afirmacion": "Los hermanos iniciaron el viaje a un imperio vecino ya que esperaban encontrar el tesoro de los brahmanes.", "respuesta": false },
+        { "id": "e3b", "afirmacion": "Uno de los hermanos no quería que los acompañe el cuarto hermano ya que podía llevarlos al ridículo.", "respuesta": true },
+        { "id": "e3c", "afirmacion": "El cuarto hermano se diferenciaba de los otros tres ya que no poseía ningún tipo de inteligencia.", "respuesta": false },
+        { "id": "e3d", "afirmacion": "Al encontrar un esqueleto de león, los hermanos doctos quieren impresionar a su cuarto hermano a través de su magia.", "respuesta": true },
+        { "id": "e3e", "afirmacion": "El hermano que solo poseía la inteligencia es devorado por el león reconstruido.", "respuesta": false },
+        { "id": "e3f", "afirmacion": "El león y el hermano que solo poseía la inteligencia se retiran juntos del lugar.", "respuesta": false }
       ]
     },
     {
-      "id": "vf_literario_no_literario",
-      "tipo": "verdadero_falso",
-      "consigna": "Marcar V o F sobre la diferencia entre texto literario y no literario.",
-      "labels": {
-        "verdadero": "V",
-        "falso": "F"
-      },
-      "items": [
-        {
-          "id": "i1",
-          "afirmacion": "El texto literario se construye en un mundo ficcional.",
-          "respuesta": true
-        },
-        {
-          "id": "i2",
-          "afirmacion": "El texto literario se compromete con la verdad fuera de él.",
-          "respuesta": false,
-          "correccion": "El texto literario no persigue copiar una realidad, sino construir un mundo del relato creíble (verosimilitud). El texto no literario sí se compromete con la verdad."
-        },
-        {
-          "id": "i3",
-          "afirmacion": "En el texto literario predomina la función poética del lenguaje.",
-          "respuesta": true
-        },
-        {
-          "id": "i4",
-          "afirmacion": "En el texto no literario las palabras buscan ser claras, precisas y lo menos ambiguo posible.",
-          "respuesta": true
-        },
-        {
-          "id": "i5",
-          "afirmacion": "El lenguaje del texto literario es solo denotativo (literal).",
-          "respuesta": false,
-          "correccion": "El lenguaje del texto literario es tanto denotativo como connotativo: permite interpretaciones más allá de la literal."
-        },
-        {
-          "id": "i6",
-          "afirmacion": "La entrevista a Pierre Nora es un texto no literario.",
-          "respuesta": true
-        },
-        {
-          "id": "i7",
-          "afirmacion": "El fragmento de 'Cien años de soledad' es un texto no literario.",
-          "respuesta": false,
-          "correccion": "Es un texto literario: construye un mundo ficcional, busca generar un placer estético y predomina la función poética."
-        }
-      ]
-    },
-    {
-      "id": "sm_verosimilitud",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué es la verosimilitud en un texto literario?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Es la verdad o falsedad del mundo fuera de la historia."
-        },
-        {
-          "id": "b",
-          "texto": "Es la creación de un mundo del relato creíble para poder contar la historia, sin que importe si es verdadero o falso fuera de la ficción."
-        },
-        {
-          "id": "c",
-          "texto": "Es la obligación del autor de contar solo hechos reales."
-        }
-      ],
-      "correcta": "b"
-    },
-    {
-      "id": "sm_generos",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Cuáles son los tres géneros literarios que se reconocen actualmente?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Narrativo, lírico y dramático."
-        },
-        {
-          "id": "b",
-          "texto": "Narrativo, descriptivo y dialogal."
-        },
-        {
-          "id": "c",
-          "texto": "Poético, épico y trágico."
-        }
-      ],
-      "correcta": "a"
-    },
-    {
-      "id": "sm_yo_lirico",
-      "tipo": "seleccion_multiple",
-      "consigna": "En el poema 'Bajo la lluvia ajena' de Juan Gelman, ¿qué persona gramatical usa el yo poético?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Primera persona del plural ('nos') que luego cambia a primera del singular ('soy'), mostrando lo colectivo del destierro y lo individual del dolor."
-        },
-        {
-          "id": "b",
-          "texto": "Tercera persona, hablando de otros desterrados."
-        },
-        {
-          "id": "c",
-          "texto": "Segunda persona, dirigiéndose al lector."
-        }
-      ],
-      "correcta": "a"
-    },
-    {
-      "id": "vf_dramatico",
-      "tipo": "verdadero_falso",
-      "consigna": "Marcar V o F sobre el género dramático.",
-      "labels": {
-        "verdadero": "V",
-        "falso": "F"
-      },
-      "items": [
-        {
-          "id": "i1",
-          "afirmacion": "El género dramático está destinado a la representación escénica.",
-          "respuesta": true
-        },
-        {
-          "id": "i2",
-          "afirmacion": "En los textos dramáticos hay intermediarios entre los espectadores y la acción.",
-          "respuesta": false,
-          "correccion": "No hay intermediarios: la historia se conoce mediante los diálogos y el accionar de los personajes directamente."
-        },
-        {
-          "id": "i3",
-          "afirmacion": "Las didascalias son acotaciones del autor que orientan la puesta en escena.",
-          "respuesta": true
-        },
-        {
-          "id": "i4",
-          "afirmacion": "El género dramático se caracteriza por la alternancia de voces de los personajes.",
-          "respuesta": true
-        },
-        {
-          "id": "i5",
-          "afirmacion": "Las didascalias aparecen siempre al final de la obra.",
-          "respuesta": false,
-          "correccion": "Las didascalias aparecen entre paréntesis dentro del texto, orientando sobre tono, gestos, movimientos, lugar y tiempo."
-        },
-        {
-          "id": "i6",
-          "afirmacion": "'Análisis' de Verónica Rodríguez pertenece al género dramático.",
-          "respuesta": true
-        }
-      ]
-    },
-    {
-      "id": "sm_didascalias",
-      "tipo": "seleccion_multiple",
-      "consigna": "En el fragmento de 'Análisis' de Verónica Rodríguez, ¿qué son los textos entre paréntesis como '(Recoge el portarretrato.)' o '(Pausa.)'?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Son didascalias: acotaciones del autora que orientan la puesta en escena (acciones, gestos, pausas de los personajes)."
-        },
-        {
-          "id": "b",
-          "texto": "Son diálogos de los personajes que no se escuchan."
-        },
-        {
-          "id": "c",
-          "texto": "Son errores de impresión del texto."
-        }
-      ],
-      "correcta": "a"
-    },
-    {
-      "id": "cohesion_no_hay_ni_un_alma",
-      "tipo": "coherencia_cohesion",
-      "consigna": "Identificá el recurso cohesivo en cada fragmento destacado del cuento 'No hay ni un alma'.",
-      "fragmento": "Nos damos la mano. Como siempre. La mano se da bien, con decisión. Pasamos la vereda de la casa de los gallegos. Mamá parece que va a soltarme la mano pero me aprieta un poco más. Le miro las sandalias a ella. Se quedó parada.",
-      "recursos_opciones": [
-        "Sustitución pronominal",
-        "Elipsis",
-        "Conector adversativo",
-        "Repetición",
-        "Conector causal"
-      ],
-      "items": [
-        {
-          "id": "c1",
-          "fragmento_destacado": "Nos damos la mano",
-          "recurso_correcto": "Repetición"
-        },
-        {
-          "id": "c2",
-          "fragmento_destacado": "Como siempre",
-          "recurso_correcto": "Elipsis"
-        },
-        {
-          "id": "c3",
-          "fragmento_destacado": "pero",
-          "recurso_correcto": "Conector adversativo"
-        },
-        {
-          "id": "c4",
-          "fragmento_destacado": "ella",
-          "recurso_correcto": "Sustitución pronominal"
-        }
-      ]
-    },
-    {
-      "id": "vf_leon_liebre",
-      "tipo": "verdadero_falso",
-      "consigna": "Marcar V o F según la fábula 'El león y la liebre'.",
-      "labels": {
-        "verdadero": "V",
-        "falso": "F"
-      },
-      "items": [
-        {
-          "id": "i1",
-          "afirmacion": "La decisión de enviar cada día un animal al león fue para evitar una matanza indiscriminada.",
-          "respuesta": true
-        },
-        {
-          "id": "i2",
-          "afirmacion": "La liebre vieja temía su destino ante el león y por eso obedeció rápidamente.",
-          "respuesta": false,
-          "correccion": "La liebre vieja no temía: pensó que si había de morir, obedecer no le serviría de nada, y decidió tomarse el asunto con calma."
-        },
-        {
-          "id": "i3",
-          "afirmacion": "La liebre vieja se encontró con otro león con quien se entretuvo charlando.",
-          "respuesta": false,
-          "correccion": "La liebre inventó la historia del otro león para engañar al león Durdanta y llevarlo al pozo."
-        },
-        {
-          "id": "i4",
-          "afirmacion": "El león Durdanta encontró la muerte al precipitarse en el pozo persiguiendo su propia imagen.",
-          "respuesta": true
-        },
-        {
-          "id": "i5",
-          "afirmacion": "La historia busca dejar una enseñanza: la inteligencia es más importante que la fuerza.",
-          "respuesta": true
-        }
-      ]
-    },
-    {
-      "id": "narrador_leon_liebre",
-      "tipo": "tipo_narrador",
-      "consigna": "Marcá el tipo de narrador de 'El león y la liebre' y justificá con una cita del texto.",
-      "opciones": [
-        "Narrador Protagonista",
-        "Narrador Testigo",
-        "Narrador Omnisciente"
-      ],
-      "correcta": "Narrador Omnisciente",
-      "cita_justificacion": "esta se dijo para sus adentros: 'Solamente se obedece a aquel a quien se teme…' (conoce los pensamientos íntimos de la liebre, algo que un narrador testigo no podría saber)"
-    },
-    {
-      "id": "secuencia_leon_liebre",
-      "tipo": "ordenar_secuencia",
-      "consigna": "Ordená los núcleos narrativos de 'El león y la liebre' según la secuencia temporal del relato.",
-      "eventos": [
-        {
-          "id": "e1",
-          "texto": "Asamblea de los animales para decidir qué hacer con el león.",
-          "orden": 1
-        },
-        {
-          "id": "e2",
-          "texto": "Acuerdo de los animales: enviar uno cada día para que el león se alimente.",
-          "orden": 2
-        },
-        {
-          "id": "e3",
-          "texto": "Marcha lenta de la liebre vieja hacia donde está el león.",
-          "orden": 3
-        },
-        {
-          "id": "e4",
-          "texto": "Mentira de la liebre sobre la existencia de otro león.",
-          "orden": 4
-        },
-        {
-          "id": "e5",
-          "texto": "Visión del león de su propia imagen reflejada en el pozo.",
-          "orden": 5
-        },
-        {
-          "id": "e6",
-          "texto": "Muerte del león al precipitarse en el pozo.",
-          "orden": 6
-        }
-      ]
-    },
-    {
-      "id": "tiempos_verbales_leon",
-      "tipo": "tiempos_verbales",
-      "consigna": "Relacioná cada verbo conjugado de 'El león y la liebre' con el uso que le corresponde en la narración.",
+      "id": "sim2_e4_tipo_textual_leon",
+      "tipo": "tipo_textual",
+      "consigna": "Determiná a qué tipo textual pertenece \"El león\". Señalá una característica y un recurso de ese tipo textual con ejemplos extraídos del texto.",
       "filas": [
-        {
-          "ejemplo": "Vivía en una montaña un león…",
-          "tiempo": "Pretérito imperfecto",
-          "uso": "Descripción"
-        },
-        {
-          "ejemplo": "Un buen día estos se reunieron en asamblea…",
-          "tiempo": "Pretérito perfecto simple",
-          "uso": "Acción principal puntual terminada"
-        },
-        {
-          "ejemplo": "que había estado esperando muchos días…",
-          "tiempo": "Pretérito pluscuamperfecto",
-          "uso": "Acción anterior a otra del pasado"
-        },
-        {
-          "ejemplo": "No puede costarme más que la vida",
-          "tiempo": "Presente (modo indicativo)",
-          "uso": "Comentario del narrador"
-        }
-      ],
-      "usos_para_relacionar": [
-        "Acción principal puntual terminada",
-        "Descripción",
-        "Acción anterior a otra del pasado",
-        "Comentario del narrador",
-        "Acción futura en el pasado"
+        { "caracteristica": "Presencia de un narrador que relata una sucesión de hechos en un marco espacio-temporal determinado.", "ejemplo": "«En otro tiempo, vivían cuatro jóvenes de la casta de los brahmanes...» (introduce personajes, tiempo y lugar)." },
+        { "caracteristica": "Alternancia de voces mediante diálogos (estilo directo) entre los personajes.", "ejemplo": "«—¿Por qué nuestro hermano, que no posee ningún conocimiento, debe beneficiarse con nuestra sabiduría?»" },
+        { "caracteristica": "Sucesión cronológica de acciones que hacen avanzar el relato (núcleos narrativos).", "ejemplo": "Encuentran el esqueleto → lo reconstruyen con magia → el cuarto hermano les advierte → revive el león → devora a los tres sabios." }
       ]
     },
     {
-      "id": "casa_narrador",
-      "tipo": "tipo_narrador",
-      "consigna": "Marcá el tipo de narrador del cuento \"Esta casa es un sueño\" y justificá con una cita del texto.",
-      "opciones": [
-        "Narrador Protagonista",
-        "Narrador Testigo",
-        "Narrador Omnisciente"
+      "id": "sim2_e4c_unir_tipos",
+      "tipo": "unir_flechas",
+      "consigna": "Leé los siguientes fragmentos. Identificá qué tipo de texto predomina en cada caso. Uní con flechas cada fragmento con el tipo textual que corresponda.",
+      "izquierda": [
+        { "id": "f1", "texto": "—Tengo miedo a ese sapo que maúlla. —¿De qué estás hablando, Giuli? —Perdón, a veces hablo dormida. Vuelvo a la cama y ya." },
+        { "id": "f2", "texto": "Eran muchos rodeando la iglesia de El Paso. Se reunieron allí, fue un acuerdo. Luego del encuentro, se juntaron, cargaron sus armas y se acercaron a la pequeña capilla sigilosamente. La masacre empezaría unos minutos después. Hubo silencio." },
+        { "id": "f3", "texto": "La katana es una 'especie de alfanje de origen japonés' según el diccionario de la RAE. Su tamaño ronda el metro de longitud y pesa alrededor de un kilo." },
+        { "id": "f4", "texto": "Ella vestía un traje amarillo con tres rayas verticales sobre su pantalón. Su pelo brillaba como el fuego y la katana filosa que tenía en su mano derecha no dejaba de llamarnos la atención." }
       ],
-      "correcta": "Narrador Omnisciente",
-      "cita_justificacion": "pensó Inés / Carlos pensó que quizá unas vacaciones podrían servir para recomponer la relación (el narrador conoce los pensamientos íntimos de los personajes)"
+      "derecha": [
+        { "id": "t1", "texto": "Narrativo" },
+        { "id": "t2", "texto": "Dialogal" },
+        { "id": "t3", "texto": "Explicativo" },
+        { "id": "t4", "texto": "Descriptivo" }
+      ],
+      "pares": [
+        { "izquierda_id": "f1", "derecha_id": "t2" },
+        { "izquierda_id": "f2", "derecha_id": "t1" },
+        { "izquierda_id": "f3", "derecha_id": "t3" },
+        { "izquierda_id": "f4", "derecha_id": "t4" }
+      ]
     },
     {
-      "id": "casa_conflicto",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Cuál es el conflicto principal del relato? Elegí la opción correcta.",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Inés y Carlos no logran encontrar la casa en el bosque."
-        },
-        {
-          "id": "b",
-          "texto": "La pareja intenta recomponer su relación mientras aparece una amenaza inquietante que pone en duda la realidad."
-        },
-        {
-          "id": "c",
-          "texto": "Inés quiere investigar al Nahuelito, pero Carlos no le cree."
-        },
-        {
-          "id": "d",
-          "texto": "Carlos decide irse de la casa porque tiene miedo del lago."
-        }
-      ],
-      "correcta": "b"
-    },
-    {
-      "id": "casa_puntuacion_oraciones",
-      "tipo": "normativa_grafica",
-      "consigna": "Separá en oraciones el siguiente fragmento usando punto seguido y punto final. Completá con los signos que faltan.",
+      "id": "sim2_e5_adjetivos",
+      "tipo": "completar",
+      "consigna": "Teniendo en cuenta los hechos sucedidos en \"El león\", elegí adjetivos para completar este texto. Extraelos de las opciones que se encuentran en el recuadro.",
       "items": [
-        {
-          "id": "p_1a",
-          "modo": "completar",
-          "texto": "Inés gritó con todas sus fuerzas [___] se despertó [___]",
-          "opciones": [
-            ".",
-            ",",
-            ";",
-            ":"
-          ],
-          "correcta": ". Seguido"
-        },
-        {
-          "id": "p_1b",
-          "modo": "completar",
-          "texto": "Se despertó [___] eran las dos de la mañana [___]",
-          "opciones": [
-            ".",
-            ",",
-            ";",
-            ":"
-          ],
-          "correcta": ". Seguido"
-        },
-        {
-          "id": "p_1c",
-          "modo": "completar",
-          "texto": "Eran las dos de la mañana y todo estaba en silencio [___] Carlos dormía a su lado [___]",
-          "opciones": [
-            ";",
-            ",",
-            ".",
-            ":"
-          ],
-          "correcta": ". Seguido; . Final"
-        }
+        { "id": "e5a", "subtipo": "select", "pregunta": "Mientras atravesaban un ______ bosque...", "opciones": ["eléctrico", "soledad", "lejano"], "respuesta": "lejano", "explicacion": "El adjetivo 'lejano' modifica al sustantivo 'bosque' para indicar distancia." },
+        { "id": "e5b", "subtipo": "select", "pregunta": "...encontraron un esqueleto de león ______.", "opciones": ["brillante", "abandonada", "oscuro"], "respuesta": "brillante", "explicacion": "El texto describe la osamenta que 'brillaba incandescente', por lo tanto 'brillante'." },
+        { "id": "e5c", "subtipo": "select", "pregunta": "Los huesos estaban ______...", "opciones": ["distantes", "blancos", "lejanos"], "respuesta": "blancos", "explicacion": "El texto dice: 'Los huesos estaban blancos como la leche'." },
+        { "id": "e5d", "subtipo": "select", "pregunta": "...y ______, pues habían sido quemados por incontables soles.", "opciones": ["duros", "blandos", "blancos"], "respuesta": "duros", "explicacion": "El texto dice: 'duros como el sílex'." },
+        { "id": "e5e", "subtipo": "select", "pregunta": "Para mostrarle al cuarto hermano su ______ magia...", "opciones": ["incalculables", "poderosa", "paupérrima"], "respuesta": "poderosa", "explicacion": "El adjetivo 'poderosa' califica la magia de los hermanos doctos." },
+        { "id": "e5f", "subtipo": "select", "pregunta": "...los hermanos sabios deciden reconstruir la osamenta ______.", "opciones": ["tremenda", "alta", "dispersa"], "respuesta": "dispersa", "explicacion": "El texto dice que 'el esqueleto de un león yacía disperso sobre el sendero'." }
       ]
     },
     {
-      "id": "casa_colocar_comas",
-      "tipo": "normativa_grafica",
-      "consigna": "Colocá las comas donde correspondan en las siguientes oraciones adaptadas del cuento.",
-      "items": [
-        {
-          "id": "coma_a",
-          "modo": "completar",
-          "texto": "Inés [___] cansada y asustada [___] miró hacia el lago.",
-          "opciones": [
-            ",",
-            ";",
-            "—",
-            "."
-          ],
-          "correcta": ", ,"
-        },
-        {
-          "id": "coma_b",
-          "modo": "completar",
-          "texto": "Carlos buscó las tazas [___] preparó el té y se sentó en el jardín.",
-          "opciones": [
-            ",",
-            ";",
-            ".",
-            "—"
-          ],
-          "correcta": ","
-        },
-        {
-          "id": "coma_c",
-          "modo": "completar",
-          "texto": "La criatura [___] enorme [___] oscura y silenciosa [___] emergió del agua.",
-          "opciones": [
-            ",",
-            ";",
-            ".",
-            "—"
-          ],
-          "correcta": ", , ,"
-        },
-        {
-          "id": "coma_d",
-          "modo": "completar",
-          "texto": "Carlos [___] no te preocupes.",
-          "opciones": [
-            ",",
-            ";",
-            ".",
-            "—"
-          ],
-          "correcta": ","
-        }
+      "id": "sim2_e6_clases_palabras",
+      "tipo": "completar_cuadro",
+      "consigna": "Ubicá las palabras subrayadas del fragmento en el cuadro y completá su clasificación semántica y morfológica.",
+      "columnas": ["Palabra", "Clasificación semántica", "Clasificación morfológica"],
+      "filas": [
+        { "id": "cp1", "celdas": ["jóvenes", "Sustantivo común", "Sustantivo, masculino, plural"] },
+        { "id": "cp2", "celdas": ["brahmanes", "Sustantivo propio / gentilicio", "Sustantivo, masculino, plural"] },
+        { "id": "cp3", "celdas": ["querían", "Verbo", "Verbo, 2ª conjugación (-er), pretérito imperfecto, 3ª persona plural"] },
+        { "id": "cp4", "celdas": ["entrañablemente", "Adverbio de modo", "Adverbio, invariable"] },
+        { "id": "cp5", "celdas": ["imperio", "Sustantivo común", "Sustantivo, masculino, singular"] },
+        { "id": "cp6", "celdas": ["vecino", "Adjetivo calificativo", "Adjetivo, masculino, singular"] },
+        { "id": "cp7", "celdas": ["observación", "Sustantivo común, abstracto", "Sustantivo, femenino, singular"] },
+        { "id": "cp8", "celdas": ["nuestro", "Pronombre posesivo", "Adjetivo posesivo, 1ª persona plural"] },
+        { "id": "cp9", "celdas": ["sabiduría", "Sustantivo común, abstracto", "Sustantivo, femenino, singular"] },
+        { "id": "cp10", "celdas": ["mayor", "Adjetivo calificativo (comparativo)", "Adjetivo, singular, invariable en género"] }
       ]
     },
     {
-      "id": "casa_escribir_parrafo",
+      "id": "sim2_e7_hormiga_paloma",
       "tipo": "seleccion_multiple",
-      "consigna": "¿Cuál de los siguientes párrafos continúa correctamente el cuento e incluye al menos dos puntos seguidos, tres comas y un paréntesis?",
+      "consigna": "Leé la siguiente fábula de Esopo, \"La hormiga y la paloma\", y respondé: ¿a qué tipo textual pertenece?",
       "opciones": [
-        {
-          "id": "a",
-          "texto": "Inés volvió a gritar pero esta vez nadie la despertó. Carlos (su compañero) ya no estaba a su lado. La casa vacía enorme y silenciosa parecía tragarse el eco de su voz."
-        },
-        {
-          "id": "b",
-          "texto": "Inés abrió los ojos de par en par. La luz del amanecer entraba por la ventana. Carlos, dormido a su lado, respiraba con tranquilidad. Todo había sido una pesadilla (la segunda en esa misma noche). Suspiró aliviada y se recostó sobre la almohada."
-        },
-        {
-          "id": "c",
-          "texto": "Inés abrió los ojos y vio la ventana. Carlos estaba a su lado. Suspiró."
-        }
+        { "id": "a", "texto": "Explicativo, porque explica cómo una hormiga salvó a una paloma." },
+        { "id": "b", "texto": "Narrativo, porque un narrador relata una sucesión de hechos en un marco espacio-temporal con una secuencia de acciones." },
+        { "id": "c", "texto": "Descriptivo, porque describe las características físicas de la hormiga y la paloma." },
+        { "id": "d", "texto": "Dialogal, porque predomina la alternancia de voces entre la hormiga y la paloma." }
       ],
       "correcta": "b"
     }
@@ -686,96 +137,28 @@
     "mejorar": {
       "explicaciones": [
         {
-          "titulo": "Canal vs. Referente",
-          "detalle": "Error frecuente: confundir el canal (el medio físico: oral, escrito, audiovisual) con el referente (el tema de lo que se habla). El canal es por dónde viaja el mensaje; el referente es de qué trata."
+          "titulo": "Confundir los elementos del circuito comunicativo",
+          "detalle": "Error frecuente: confundir el canal (medio físico: oral, escrito) con el código (sistema de signos: lengua española, gestos). El canal es por dónde viaja el mensaje; el código es el sistema que usan emisor y receptor para codificar y decodificar."
         },
         {
-          "titulo": "Función poética vs. emotiva",
-          "detalle": "La función poética se centra en el MENSAJE (cómo está dicho, su forma, rima, musicalidad). La emotiva se centra en el EMISOR (qué siente, su subjetividad). No es lo mismo decir algo bonito (poética) que decir qué sentís (emotiva)."
+          "titulo": "Marco narrativo incompleto",
+          "detalle": "El marco narrativo debe incluir tres elementos: personajes (quiénes participan), lugar (dónde ocurren los hechos) y tiempo (cuándo). En \"El león\", los personajes son los cuatro hermanos brahmanes, el lugar es un bosque camino a Braga y el tiempo es remoto e indeterminado ('En otro tiempo')."
         },
         {
-          "titulo": "Apelativa no es solo ordenar",
-          "detalle": "La función apelativa incluye órdenes, pero también pedidos, ruegos, sugerencias y preguntas que buscan una respuesta del receptor. Lo que la define es que el foco está en el receptor y se busca influir sobre él."
+          "titulo": "Narrador omnisciente vs. testigo",
+          "detalle": "El narrador omnisciente sabe todo: lo que los personajes piensan, sienten, hicieron y harán. Usa la 3ª persona. El narrador testigo solo cuenta lo que ve o escucha, sin acceder al interior de los personajes. En \"El león\", el narrador conoce los pensamientos y motivaciones de todos los hermanos: es omnisciente."
         },
         {
-          "titulo": "Las 6 funciones siempre están presentes",
-          "detalle": "En todo acto comunicativo están presentes las seis funciones, pero siempre predomina una según el elemento del circuito en el que se haga hincapié. No hay mensajes con una sola función."
+          "titulo": "Tipos textuales: no confundir narrativo con descriptivo",
+          "detalle": "El texto narrativo relata hechos que suceden en el tiempo (acciones, núcleos narrativos). El descriptivo presenta características de personas, objetos o lugares (cómo es algo). El dialogal reproduce las voces de los personajes. El explicativo transmite información objetiva sobre un tema. Un texto puede combinar varios tipos, pero siempre predomina uno según la intención comunicativa global."
         },
         {
-          "titulo": "Narrador omnisciente en \"Cassette\"",
-          "detalle": "El narrador de \"Cassette\" sabe lo que Blas piensa (\"Ganas de estudiar, Blas no tiene\") y cosas que el propio Blas desconoce (\"Blas nunca ha oído hablar de su tocayo Blas Pascal\"). Ese conocimiento total del personaje y su contexto es propio del narrador omnisciente."
+          "titulo": "Adjetivos: clasificación semántica y morfológica",
+          "detalle": "Semánticamente, los adjetivos pueden ser calificativos (expresan cualidad: 'blancos', 'duros'), gentilicios (indican origen: 'brahmanes'), numerales (indican cantidad), etc. Morfológicamente, el adjetivo concuerda en género y número con el sustantivo al que modifica. También existen adjetivos invariables."
         },
         {
-          "titulo": "Error frecuente: confundir tipo textual con género literario",
-          "detalle": "El tipo textual (narrativo, descriptivo, dialogal, explicativo) se define por la intencionalidad predominante. El género literario (narrativo, lírico, dramático) es una clasificación dentro de la literatura. No es lo mismo."
-        },
-        {
-          "titulo": "Error frecuente: pensar que un texto tiene un solo tipo textual",
-          "detalle": "Un texto puede combinar varios tipos textuales. Por ejemplo, una novela (narrativo) puede tener descripciones (descriptivo) y diálogos (dialogal). Lo que define al texto es el tipo que PREDOMINA."
-        },
-        {
-          "titulo": "Verosimilitud ≠ verdad",
-          "detalle": "La verosimilitud no significa que la historia sea verdadera. Significa que el mundo del relato es creíble dentro de la ficción. 'Cien años de soledad' es verosímil aunque no sea real."
-        },
-        {
-          "titulo": "Literario: función poética + placer estético",
-          "detalle": "Lo que distingue al texto literario no es solo el uso de lenguaje connotativo, sino que su intención principal es generar un placer estético en el lector."
-        },
-        {
-          "titulo": "Narrador vs. autor",
-          "detalle": "El autor es quien escribe la obra. El narrador es la 'voz' que el autor crea para contar la historia. No son lo mismo: el autor puede crear un narrador muy distinto de sí mismo."
-        },
-        {
-          "titulo": "Narrador protagonista en 'No hay ni un alma'",
-          "detalle": "La narración en primera persona ('Estoy orgullosa de mis sandalias') indica que la protagonista cuenta su propia experiencia. Es un narrador protagonista, no un testigo."
-        },
-        {
-          "titulo": "Yo lírico vs. autor en el poema de Gelman",
-          "detalle": "El yo poético no es exactamente Juan Gelman, sino la voz que crea para expresar el dolor del destierro. Usa 1ª persona del plural ('nos') para lo colectivo y del singular ('soy') para lo individual."
-        },
-        {
-          "titulo": "Didascalias: no son diálogos",
-          "detalle": "Las didascalias aparecen entre paréntesis y son instrucciones del autora, no lo que dicen los personajes. Orientan sobre la puesta en escena: gestos, tonos, movimientos."
-        },
-        {
-          "titulo": "Figuras literarias: personificación vs. metáfora",
-          "detalle": "Personificación: atribuir cualidades humanas a algo no humano ('la tierra queda dolorida'). Metáfora: nombrar una cosa con el nombre de otra por semejanza, sin conectores comparativos ('Soy una planta monstruosa')."
-        },
-        {
-          "titulo": "Error frecuente: confundir autor con narrador",
-          "detalle": "El autor es quien escribe la obra (puede ser anónimo, como en 'El león y la liebre'). El narrador es la voz que cuenta la historia, creada por el autor."
-        },
-        {
-          "titulo": "Narrador omnisciente en 'El león y la liebre'",
-          "detalle": "El narrador sabe lo que la liebre piensa 'para sus adentros'. Ese conocimiento de los pensamientos íntimos es exclusivo del narrador omnisciente."
-        },
-        {
-          "titulo": "PPS vs. imperfecto",
-          "detalle": "El PPS marca acciones puntuales y terminadas que hacen avanzar la trama (se reunió, decidió, llegó). El imperfecto describe situaciones en curso o habituales (vivía, se entretenía, se iba deteniendo)."
-        },
-        {
-          "titulo": "Pluscuamperfecto: el pasado del pasado",
-          "detalle": "El pluscuamperfecto marca una acción anterior a otra ya pasada. 'había estado esperando muchos días': el león ya estaba esperando antes de que llegara la liebre."
-        },
-        {
-          "titulo": "Núcleos narrativos vs. detalles",
-          "detalle": "Los núcleos narrativos son los eventos imprescindibles. Detalles como 'se iba deteniendo para contemplar el paisaje' no son núcleos: son descripciones que enriquecen pero no estructuran la historia."
-        },
-        {
-          "titulo": "Confundir el punto seguido con el punto aparte",
-          "detalle": "El punto seguido separa oraciones dentro de un mismo párrafo: las ideas están estrechamente relacionadas. El punto aparte abre un nuevo párrafo porque cambia el enfoque o el tema. Por ejemplo: 'Inés gritó. Se despertó.' (seguido, misma secuencia) vs. el salto a la mañana siguiente (aparte, cambio escénico)."
-        },
-        {
-          "titulo": "Coma entre sujeto y verbo",
-          "detalle": "No debe separarse el sujeto del verbo con coma, a menos que haya un inciso. Es incorrecto: 'Inés, miró hacia el lago.' Es correcto: 'Inés, cansada y asustada, miró hacia el lago.' (el inciso entre comas)."
-        },
-        {
-          "titulo": "Confusión entre S, C y Z en la escritura",
-          "detalle": "Una misma palabra puede tener distintas grafías según su familia: 'tenso' → 'tensión' (S), 'función' viene de 'funcionar' (C), 'esperanza' lleva Z por ser abstracto en -anza. Revisar la palabra de la que deriva ayuda a elegir la grafía correcta."
-        },
-        {
-          "titulo": "Narrador omnisciente en 'Esta casa es un sueño'",
-          "detalle": "El narrador de este cuento conoce los pensamientos de ambos personajes ('pensó Inés', 'Carlos pensó que quizá unas vacaciones podrían servir'), además de saber cosas que ellos ignoran. Ese conocimiento total es propio del narrador omnisciente, no de un narrador testigo."
+          "titulo": "La fábula como texto narrativo",
+          "detalle": "La fábula es un subgénero narrativo breve, protagonizado frecuentemente por animales, que transmite una enseñanza o moraleja. Pertenece al tipo textual narrativo porque presenta un narrador que relata una sucesión de hechos en un marco espacio-temporal."
         }
       ]
     }
