@@ -35,7 +35,7 @@ export default function NormativaGrafica({
                     ) : (
                       <>
                         {it.texto.split("__")[0]}
-                        <span className="text-azul-claro">___</span>
+                        <span className="text-azul-claro">{it.correcta.length === 1 ? "_" : "___"}</span>
                         {it.texto.split("__")[1]}
                         <span className="text-xs text-gris ml-2">
                           ({it.opciones.join(" / ")})

@@ -247,7 +247,7 @@
         {
           "id": "recibir",
           "modo": "completar",
-          "texto": "re__bir",
+          "texto": "re__ibir",
           "opciones": ["c", "s", "z"],
           "correcta": "c"
         },
