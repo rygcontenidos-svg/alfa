@@ -53,9 +53,12 @@ export default function NormativaGrafica({
                     {it.regla}
                   </p>
                 ) : (
-                  <p className="text-sm text-gris italic">
-                    Escribí la regla con tus palabras…
-                  </p>
+                  <div>
+                    <p className="text-xs text-azul font-mono mb-1">Palabra: {it.id}</p>
+                    <p className="text-sm text-gris italic">
+                      Escribí la regla con tus palabras…
+                    </p>
+                  </div>
                 )}
                 {revelado && (
                   <p className="text-xs text-verde bg-verde-claro rounded px-2 py-1 italic">

@@ -166,9 +166,12 @@ export default function SimulacroCliente({
         </div>
       </div>
 
-      <div className="mt-4 space-y-4">
-        {ejercicios.map((ej) => (
-          <EjercicioRouter key={ej.id} ej={ej} moduloId={modulo.id} />
+      <div className="mt-4 space-y-6">
+        {ejercicios.map((ej, i) => (
+          <div key={ej.id}>
+            <p className="text-[11px] font-semibold text-gris mb-1">Ejercicio {i + 1}</p>
+            <EjercicioRouter ej={ej} moduloId={modulo.id} />
+          </div>
         ))}
       </div>
 
