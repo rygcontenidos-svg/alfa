@@ -36,16 +36,20 @@ export default function CompletarCuadro({
             <tbody>
               {ej.filas.map((fila) => (
                 <tr key={fila.id}>
-                  {fila.celdas.map((celda, j) => (
-                    <td
-                      key={j}
-                      className={`border border-borde px-3 py-2 ${
-                        !celda ? "text-gris/50 italic" : mostrar ? "text-verde font-medium" : "text-grafito"
-                      }`}
-                    >
-                      {celda || "______"}
-                    </td>
-                  ))}
+                   {fila.celdas.map((celda, j) => {
+                     const esDato = j === 0;
+                     const visible = esDato || mostrar;
+                     return (
+                       <td
+                         key={j}
+                         className={`border border-borde px-3 py-2 ${
+                           !celda ? "text-gris/50 italic" : visible ? "text-verde font-medium" : "text-grafito"
+                         }`}
+                       >
+                         {visible ? (celda || "______") : "______"}
+                       </td>
+                     );
+                   })}
                 </tr>
               ))}
             </tbody>
