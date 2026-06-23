@@ -88,8 +88,8 @@
       "tipo": "normativa_grafica",
       "consigna": "Completá con \"v\" o \"b\" según corresponda en el siguiente texto. Luego extraé una palabra del ejercicio que use \"v\" o \"b\" y explicá la regla que se le aplica.",
       "items": [
-        { "id": "e6_1", "modo": "completar", "texto": "cobi___aba", "opciones": ["v", "b"], "correcta": "b" },
-        { "id": "e6_2", "modo": "completar", "texto": "barrio", "opciones": ["b", "v"], "correcta": "b" },
+        { "id": "e6_1", "modo": "completar", "texto": "combina__a", "opciones": ["v", "b"], "correcta": "b" },
+        { "id": "e6_2", "modo": "completar", "texto": "__arrio", "opciones": ["v", "b"], "correcta": "b" },
         { "id": "e6_3", "modo": "completar", "texto": "juga___an", "opciones": ["b", "v"], "correcta": "b" },
         { "id": "e6_4", "modo": "completar", "texto": "___ereda", "opciones": ["v", "b"], "correcta": "v" },
         { "id": "e6_5", "modo": "completar", "texto": "re___otaban", "opciones": ["b", "v"], "correcta": "b" },
