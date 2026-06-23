@@ -550,7 +550,7 @@
         { "id": "c4", "modo": "completar", "texto": "triste__a", "opciones": ["c", "s", "z"], "correcta": "z" },
         { "id": "c5", "modo": "completar", "texto": "organi__ar", "opciones": ["c", "s", "z"], "correcta": "z" },
         { "id": "c6", "modo": "completar", "texto": "can__i\u00F3n", "opciones": ["c", "s", "z"], "correcta": "c" },
-        { "id": "c7", "modo": "completar", "texto": "adverti__encia", "opciones": ["c", "s", "z"], "correcta": "c" },
+        { "id": "c7", "modo": "completar", "texto": "adverten__ia", "opciones": ["c", "s", "z"], "correcta": "c" },
         { "id": "c8", "modo": "completar", "texto": "compa__i\u00F3n", "opciones": ["c", "s", "z"], "correcta": "s" }
       ]
     },
