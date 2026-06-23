@@ -1,0 +1,915 @@
+{
+  "id": "simulacro-3-lengua",
+  "materia": "lengua",
+  "titulo": "Simulacro 3: tercera evaluación de Lengua",
+  "descripcion": "Simulacro integrador que abarca: mito, cohesión (elipsis), leyenda, paráfrasis, cuento realista, coherencia, sinonimia, uso de B, la novela y memoria colectiva. Incluye lectura de 'La casa del árbol' y 'Avisale a mi mamá'.",
+  "tipo": "simulacro",
+  "duracion_min": 90,
+  "textos_ids": [
+    "la-casa-del-arbol",
+    "avisale-a-mi-mama"
+  ],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "tildacion_cuadro",
+      "tipo": "tildacion_silabas",
+      "consigna": "Completá el siguiente cuadro con la separación en sílabas, la clase de palabra según la acentuación y la justificación de por qué lleva o no lleva tilde.",
+      "filas": [
+        {
+          "palabra": "resistir",
+          "separacion": "re-sis-TIR",
+          "clase": "aguda",
+          "lleva_tilde": false,
+          "porque": "termina en R, no en N, S ni vocal"
+        },
+        {
+          "palabra": "música",
+          "separacion": "MÚ-si-ca",
+          "clase": "esdrújula",
+          "lleva_tilde": true,
+          "porque": "todas las palabras esdrújulas llevan tilde"
+        },
+        {
+          "palabra": "inquietante",
+          "separacion": "in-quie-TAN-te",
+          "clase": "grave",
+          "lleva_tilde": false,
+          "porque": "termina en vocal (E)"
+        },
+        {
+          "palabra": "corazón",
+          "separacion": "co-ra-ZÓN",
+          "clase": "aguda",
+          "lleva_tilde": true,
+          "porque": "termina en N"
+        },
+        {
+          "palabra": "hábil",
+          "separacion": "HÁ-bil",
+          "clase": "grave",
+          "lleva_tilde": true,
+          "porque": "termina en L, no en N, S ni vocal"
+        }
+      ]
+    },
+    {
+      "id": "sim_vf_mito_caracteristicas",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcá V (verdadero) o F (falso) según las características del mito y su aplicación al relato de «Orfeo y Eurídice».",
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
+      "items": [
+        {
+          "id": "s1",
+          "afirmacion": "El mito es un relato anónimo y de transmisión oral.",
+          "respuesta": true
+        },
+        {
+          "id": "s2",
+          "afirmacion": "Los personajes del mito siempre son seres humanos comunes.",
+          "respuesta": false,
+          "correccion": "Los personajes del mito suelen ser dioses, semidioses, ninfas y héroes, como Orfeo (hijo de Apolo), Eurídice (ninfa), Hades y Perséfone."
+        },
+        {
+          "id": "s3",
+          "afirmacion": "Eurídice muere porque es picada por una víbora al pisar un nido de serpientes.",
+          "respuesta": true
+        },
+        {
+          "id": "s4",
+          "afirmacion": "Orfeo logra sacar a Eurídice del Inframundo porque cumple la condición de no mirar atrás.",
+          "respuesta": false,
+          "correccion": "Orfeo no cumple la condición: se voltea antes de que Eurídice salga a la luz, por lo que ella regresa al Inframundo para siempre."
+        },
+        {
+          "id": "s5",
+          "afirmacion": "El mito busca explicar fenómenos naturales o aspectos de la condición humana, como el amor, la pérdida y la muerte.",
+          "respuesta": true
+        }
+      ]
+    },
+    {
+      "id": "sim_elemento_elidido",
+      "tipo": "parafasis_sinonimos_elision",
+      "consigna": "Leé la siguiente oración del mito «Atenea y Aracne»: «Después la golpeó en la frente.» Respondé las preguntas.",
+      "items": [
+        {
+          "id": "ee1",
+          "subtipo": "elision",
+          "pregunta": "¿Cuál es el elemento elidido (omitido) en esta oración?",
+          "respuesta": "Atenea (ella) — se omite el sujeto «Atenea» porque se sobreentiende por contexto."
+        },
+        {
+          "id": "ee2",
+          "subtipo": "elision",
+          "pregunta": "¿A quién golpeó?",
+          "respuesta": "Aracne — el pronombre «la» se refiere a Aracne, que ya fue mencionada antes."
+        }
+      ]
+    },
+    {
+      "id": "sim_tildacion_reglas",
+      "tipo": "tildacion_silabas",
+      "consigna": "Completá el cuadro de tildación con las siguientes palabras extraídas de otro fragmento de un mito.",
+      "filas": [
+        {
+          "palabra": "héroe",
+          "separacion": "HÉ-ro-e",
+          "clase": "esdrújula",
+          "lleva_tilde": true,
+          "porque": "todas las palabras esdrújulas llevan tilde"
+        },
+        {
+          "palabra": "mortal",
+          "separacion": "mor-TAL",
+          "clase": "aguda",
+          "lleva_tilde": false,
+          "porque": "termina en L, no en N, S ni vocal"
+        },
+        {
+          "palabra": "árbol",
+          "separacion": "ÁR-bol",
+          "clase": "grave",
+          "lleva_tilde": true,
+          "porque": "termina en L, no en N, S ni vocal"
+        },
+        {
+          "palabra": "cantar",
+          "separacion": "can-TAR",
+          "clase": "aguda",
+          "lleva_tilde": false,
+          "porque": "termina en R, no en N, S ni vocal"
+        },
+        {
+          "palabra": "trágico",
+          "separacion": "TRÁ-gi-co",
+          "clase": "esdrújula",
+          "lleva_tilde": true,
+          "porque": "todas las palabras esdrújulas llevan tilde"
+        }
+      ]
+    },
+    {
+      "id": "tildacion_diacritica",
+      "tipo": "tildacion_diacritica",
+      "consigna": "Completá el cuadro con los pares de monosílabos con y sin tilde diacrítica. Reponé la tilde donde corresponda y justificá.",
+      "filas": [
+        {
+          "palabra": "él / el",
+          "clase": "Pronombre personal / Artículo",
+          "ejemplo": "Se detuvo junto a él / El bosque era un remanso de paz"
+        },
+        {
+          "palabra": "tú / tu",
+          "clase": "Pronombre personal / Adjetivo posesivo",
+          "ejemplo": "Tú tienes la respuesta / Tu leyenda favorita es esa"
+        },
+        {
+          "palabra": "mí / mi",
+          "clase": "Pronombre personal / Adjetivo posesivo",
+          "ejemplo": "Para mí, la leyenda es muy linda / Mi leyenda favorita es la flor del cerezo"
+        },
+        {
+          "palabra": "sí / si",
+          "clase": "Adverbio de afirmación / Conjunción condicional",
+          "ejemplo": "Estudiar sí es importante / Si estudiás, te va a ir bien"
+        },
+        {
+          "palabra": "más / mas",
+          "clase": "Adverbio de cantidad / Conjunción adversativa (pero)",
+          "ejemplo": "El árbol más solo del mundo / Quiso ayudarle, mas ella guardó silencio"
+        },
+        {
+          "palabra": "té / te",
+          "clase": "Sustantivo (infusión) / Pronombre personal",
+          "ejemplo": "Prefiero el té / Te quiero contar un secreto"
+        },
+        {
+          "palabra": "dé / de",
+          "clase": "Forma del verbo dar / Preposición",
+          "ejemplo": "Espero que me dé una oportunidad / El árbol más solo del mundo"
+        },
+        {
+          "palabra": "sé / se",
+          "clase": "Forma del verbo saber o ser / Pronombre personal",
+          "ejemplo": "Sé que es una leyenda / Se detuvo junto a él"
+        }
+      ]
+    },
+    {
+      "id": "coherencia_externa",
+      "tipo": "seleccion_multiple",
+      "consigna": "Marcá qué opción de una posible continuación del cuento rompería su coherencia externa. Explicá por qué.",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "De repente, el pino empezó a brillar con luces violetas y salió volando hacia el cielo como un cohete espacial. Mi hermanita se convirtió en astronauta y mi mamá no durmió más la siesta porque se dedicó a manejar un submarino gigante dentro de la pileta de la cocina. Después apareció un dinosaurio que nos invitó a vivir en Marte y nunca más volvimos a construir la casa del árbol."
+        },
+        {
+          "id": "b",
+          "texto": "Cuando por fin mi mamá me dejó salir del rincón, me fui corriendo al fondo. El pino seguía ahí, chiquito, todo mojado y medio torcido. Matías ya había llegado y estaba acomodando las maderas otra vez. Yo agarré los planos nuevos que había dibujado y se los mostré. Ellos dijeron que estaban mejores que los anteriores. Entonces nos sentamos los cuatro al lado del pinito y empezamos a imaginar cómo iba a ser nuestra casa cuando el árbol creciera de verdad."
+        }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "tema_central",
+      "tipo": "seleccion_multiple",
+      "consigna": "Marcá con una cruz el tema central de \"La casa del árbol\":",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "La importancia de cuidar el agua en la casa."
+        },
+        {
+          "id": "b",
+          "texto": "La imaginación y los proyectos de amistad durante la infancia."
+        },
+        {
+          "id": "c",
+          "texto": "El miedo de los chicos a quedarse solos de noche."
+        },
+        {
+          "id": "d",
+          "texto": "La relación entre Fernando y su hermanita."
+        }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "orden_acciones",
+      "tipo": "ordenar_secuencia",
+      "consigna": "Numerá del 1 al 7 las siguientes acciones según el orden en que ocurren en el cuento leído.",
+      "eventos": [
+        {
+          "id": "e1",
+          "texto": "El papá de Fernando planta un pino en el fondo del terreno.",
+          "orden": 1
+        },
+        {
+          "id": "e2",
+          "texto": "Los chicos juntan maderas y clavos para construir la casa del árbol.",
+          "orden": 2
+        },
+        {
+          "id": "e3",
+          "texto": "Fernando dibuja los planos de la casa del árbol.",
+          "orden": 3
+        },
+        {
+          "id": "e4",
+          "texto": "Fernando le esconde la muñeca a su hermanita.",
+          "orden": 4
+        },
+        {
+          "id": "e5",
+          "texto": "Entre todos vacían el tanque de agua para regar el pino.",
+          "orden": 5
+        },
+        {
+          "id": "e6",
+          "texto": "Fernando es castigado y lo mandan al rincón.",
+          "orden": 6
+        },
+        {
+          "id": "e7",
+          "texto": "Los amigos imaginan cómo será la casa del árbol cuando el pino crezca.",
+          "orden": 7
+        }
+      ]
+    },
+    {
+      "id": "estructura_texto",
+      "tipo": "seleccion_multiple",
+      "consigna": "Indicá con una cruz la estructura que corresponde a \"La casa del árbol\":",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Presentación del tema, cuerpo de la exposición y conclusión (estructura expositiva)."
+        },
+        {
+          "id": "b",
+          "texto": "Situación inicial, conflicto y resolución (estructura narrativa)."
+        }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "relacion_travesura_penitencia",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué tipo de relación temporal o lógica se establece entre \"Travesura (vaciar el tanque)\" y \"Penitencia en el rincón\"?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Relación temporal: la penitencia ocurre antes que la travesura."
+        },
+        {
+          "id": "b",
+          "texto": "Relación causal: la travesura (causa) motiva la penitencia en el rincón (consecuencia)."
+        },
+        {
+          "id": "c",
+          "texto": "Relación de oposición: la travesura y la penitencia son opuestas entre sí."
+        }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "relacion_dibujo_muneca",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué tipo de relación temporal o lógica se establece entre \"Dibujo del plano de la casa del árbol\" y \"Ocultamiento de la muñeca\"?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Relación causal: la hermana de Fernando arruina los planos que él dibujó (causa), lo que provoca que él le esconda la muñeca (consecuencia)."
+        },
+        {
+          "id": "b",
+          "texto": "Relación temporal: el ocultamiento de la muñeca ocurre antes que el dibujo de los planos."
+        },
+        {
+          "id": "c",
+          "texto": "Relación de finalidad: Fernando esconde la muñeca para poder dibujar mejor los planos."
+        }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "sinonimia_escribir",
+      "tipo": "parafasis_sinonimos_elision",
+      "consigna": "En las siguientes oraciones adaptadas del texto, escribí un sinónimo que pueda reemplazar la palabra en negrita sin cambiar su sentido.",
+      "items": [
+        {
+          "id": "s1",
+          "subtipo": "sinonimo",
+          "pregunta": "Nos divertimos joya en el terreno.",
+          "respuesta": "muy bien / genial / de maravilla"
+        },
+        {
+          "id": "s2",
+          "subtipo": "sinonimo",
+          "pregunta": "Mi hermanita me los mamarrachó todos.",
+          "respuesta": "ensució / arruinó / embarró"
+        },
+        {
+          "id": "s3",
+          "subtipo": "sinonimo",
+          "pregunta": "Yo, de bronca, le escondí la muñeca.",
+          "respuesta": "enojo / rabia / furia"
+        },
+        {
+          "id": "s4",
+          "subtipo": "sinonimo",
+          "pregunta": "Mi mamá dice que hicimos una travesura.",
+          "respuesta": "maldad / trastada / fechoría"
+        },
+        {
+          "id": "s5",
+          "subtipo": "sinonimo",
+          "pregunta": "Nos podemos conseguir una linterna.",
+          "respuesta": "obtener / adquirir / comprar"
+        }
+      ]
+    },
+    {
+      "id": "sinonimo_exagerada",
+      "tipo": "seleccion_multiple",
+      "consigna": "Subrayá la opción que tenga el significado más parecido a la palabra destacada: \"Es una exagerada mi mamá.\"",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "tranquila"
+        },
+        {
+          "id": "b",
+          "texto": "desmedida"
+        },
+        {
+          "id": "c",
+          "texto": "silenciosa"
+        }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sinonimo_prestan",
+      "tipo": "seleccion_multiple",
+      "consigna": "Subrayá la opción que tenga el significado más parecido a la palabra destacada: \"Es fácil si te prestan el martillo.\"",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "regalan"
+        },
+        {
+          "id": "b",
+          "texto": "entregan temporalmente"
+        },
+        {
+          "id": "c",
+          "texto": "esconden"
+        }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sinonimo_tramamos",
+      "tipo": "seleccion_multiple",
+      "consigna": "Subrayá la opción que tenga el significado más parecido a la palabra destacada: \"Y después estamos ahí, tramamos planes, trucos…\"",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "pensamos / planeamos"
+        },
+        {
+          "id": "b",
+          "texto": "gritamos"
+        },
+        {
+          "id": "c",
+          "texto": "olvidamos"
+        }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "uso_b",
+      "tipo": "normativa_grafica",
+      "consigna": "Las siguientes oraciones tienen errores en el uso de la B. Reescribilas de manera correcta y justificá con la regla que corresponda.",
+      "items": [
+        {
+          "id": "b1",
+          "modo": "regla",
+          "regla": "Se escribe con B y no con V. El verbo 'buscar' y todos sus derivados ('buscaron') se escriben con B.",
+          "ejemplo_correcto": "Los amigos buscaron materiales para construir la casa del árbol."
+        },
+        {
+          "id": "b2",
+          "modo": "regla",
+          "regla": "Se escribe con B y no con V. Las palabras que comienzan con 'bur-' se escriben con B, como 'burbujas'.",
+          "ejemplo_correcto": "Cuando se vació el tanque de agua, se llenó de burbujas."
+        },
+        {
+          "id": "b3",
+          "modo": "regla",
+          "regla": "Se escribe con B y no con V. El verbo 'ir' en pretérito imperfecto del modo indicativo se escribe con B: 'iba', 'ibas', 'iba', etc.",
+          "ejemplo_correcto": "La casa del árbol iba a quedar buenísima."
+        },
+        {
+          "id": "b4",
+          "modo": "regla",
+          "regla": "Se escribe con V y no con B. El verbo 'vivir' y todos sus derivados se escriben con V (excepto los compuestos de 'bibir', que no existen).",
+          "ejemplo_correcto": "Los chicos querían vivir en la casa del árbol."
+        }
+      ]
+    },
+    {
+      "id": "act7a_teo_mora",
+      "tipo": "seleccion_multiple",
+      "consigna": "Con respecto a la relación entre Teo y Mora en la novela, ¿qué tema eligen para su monografía y cómo evoluciona su vínculo?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Eligieron ‘El fútbol durante la dictadura’ y pasan de ser desconocidos a tener una amistad que trasciende lo escolar."
+        },
+        {
+          "id": "b",
+          "texto": "Eligieron ‘La última dictadura cívico-militar argentina’ y pasan de ser compañeros a construir una relación de confianza y apoyo mutuo."
+        },
+        {
+          "id": "c",
+          "texto": "Eligieron ‘Los centros clandestinos de detención’ y su relación se vuelve conflictiva porque Mora no quiere investigar ese tema."
+        },
+        {
+          "id": "d",
+          "texto": "Eligieron ‘La inteligencia artificial en la educación’ y compiten por ver quién escribe mejor la monografía."
+        }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "act7b_teo_walter",
+      "tipo": "seleccion_multiple",
+      "consigna": "Seleccioná las semejanzas que se perciben entre Teo y Walter en el transcurso de la novela.",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Tienen casi la misma edad, quieren comunicarse con su mamá y tienen vocación solidaria."
+        },
+        {
+          "id": "b",
+          "texto": "Ambos estudian en la misma escuela y tienen los mismos amigos."
+        },
+        {
+          "id": "c",
+          "texto": "Los dos nacieron en Santa Fe y se mudaron a Buenos Aires."
+        },
+        {
+          "id": "d",
+          "texto": "Ambos usan la inteligencia artificial para investigar."
+        }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "act7c_infiltracion",
+      "tipo": "normativa_grafica",
+      "consigna": "En la novela, la IA Saba empieza a recibir mensajes ‘infiltrados’ del pasado. Identificá a qué personaje pertenece cada cita y qué sentimiento expresa.",
+      "items": [
+        {
+          "id": "c1",
+          "modo": "completar",
+          "texto": "‘Decile a mi mamá que estoy bien, que no se preocupe.’ ¿Quién habla y qué sentimiento expresa?",
+          "opciones": [
+            "Teo / alegría",
+            "Walter / angustia y necesidad de consolar",
+            "Mora / entusiasmo",
+            "Saba / indiferencia"
+          ],
+          "correcta": "Walter / angustia y necesidad de consolar"
+        },
+        {
+          "id": "c2",
+          "modo": "completar",
+          "texto": "‘¿Sabés lo que es tener quince años y que te arranquen de tu casa?’ ¿Quién habla y qué sentimiento expresa?",
+          "opciones": [
+            "Teo / curiosidad",
+            "Beltrán / enojo",
+            "Walter / dolor e indignación",
+            "Mora / miedo"
+          ],
+          "correcta": "Walter / dolor e indignación"
+        },
+        {
+          "id": "c3",
+          "modo": "completar",
+          "texto": "‘No te puedo contar más, me están llamando.’ ¿Quién habla y qué sentimiento expresa?",
+          "opciones": [
+            "Walter / miedo y urgencia",
+            "Saba / error del sistema",
+            "Teo / frustración",
+            "Mirko / apuro"
+          ],
+          "correcta": "Walter / miedo y urgencia"
+        }
+      ]
+    },
+    {
+      "id": "act8_vf",
+      "tipo": "verdadero_falso",
+      "consigna": "Indicá si las siguientes afirmaciones sobre la novela son verdaderas (V) o falsas (F).",
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
+      "items": [
+        {
+          "id": "a",
+          "afirmacion": "Teo nació en Santa Fe y vino a Buenos Aires a causa del trabajo de su papá.",
+          "respuesta": true
+        },
+        {
+          "id": "b",
+          "afirmacion": "Los temas de monografía de Ana y Mirko son calentamiento global e IA respectivamente.",
+          "respuesta": true
+        },
+        {
+          "id": "c",
+          "afirmacion": "Mora recomienda el libro ‘Nunca más’ y la película ‘Infancia clandestina’.",
+          "respuesta": false,
+          "correccion": "Mora recomienda el libro ‘Nunca más’ pero no la película ‘Infancia clandestina’, que es falsa."
+        },
+        {
+          "id": "d",
+          "afirmacion": "Teo tiene el ‘Nunca más’ en su biblioteca y conversa sobre eso con su madre.",
+          "respuesta": false,
+          "correccion": "Teo no tiene el ‘Nunca más’ en su casa; es Mora quien lo menciona."
+        },
+        {
+          "id": "e",
+          "afirmacion": "La mamá de Walter va a la Plaza de Mayo a reunirse con las otras Madres.",
+          "respuesta": true
+        },
+        {
+          "id": "f",
+          "afirmacion": "La aplicación NN era muy popular entre sus amigos.",
+          "respuesta": true
+        },
+        {
+          "id": "g",
+          "afirmacion": "Walter sentía que algunos lo veían como un traidor por haber sobrevivido.",
+          "respuesta": true
+        },
+        {
+          "id": "h",
+          "afirmacion": "Teo entiende que el pasado de la dictadura se puede seguir discutiendo en el presente.",
+          "respuesta": true
+        },
+        {
+          "id": "i",
+          "afirmacion": "Tanto en el 78 como hoy, Walter tiene vocación solidaria.",
+          "respuesta": true
+        },
+        {
+          "id": "j",
+          "afirmacion": "Mora considera que las fotos de desaparecidos tienen que estar en blanco y negro.",
+          "respuesta": false,
+          "correccion": "Mora no opina eso; es una afirmación incorrecta sobre su postura."
+        }
+      ]
+    },
+    {
+      "id": "act10b_demonios",
+      "tipo": "seleccion_multiple",
+      "consigna": "Sobre la ‘teoría de los dos demonios’ que aparece en la novela, ¿cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Sostiene que hubo dos bandos igualmente responsables durante la dictadura: el Estado y los grupos guerrilleros, equiparando sus acciones."
+        },
+        {
+          "id": "b",
+          "texto": "Plantea que los militares y los desaparecidos eran víctimas de un mismo conflicto."
+        },
+        {
+          "id": "c",
+          "texto": "Afirma que la dictadura fue un invento de la oposición política."
+        },
+        {
+          "id": "d",
+          "texto": "Sostiene que solo hubo un ‘demonio’: la guerrilla, y que el Estado actuó legalmente."
+        }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "act11b_memoria",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Por qué puede ser valioso para Teo (y para las nuevas generaciones) indagar sobre el pasado de la dictadura?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Para obtener una buena nota en la monografía de Ética."
+        },
+        {
+          "id": "b",
+          "texto": "Para entender que el pasado no está cerrado, que sus consecuencias siguen presentes y que la memoria colectiva ayuda a construir una sociedad más justa."
+        },
+        {
+          "id": "c",
+          "texto": "Para demostrar que la dictadura fue un fenómeno aislado que ya no tiene relevancia."
+        },
+        {
+          "id": "d",
+          "texto": "Para conocer detalles íntimos de la vida de Walter y escribir un libro."
+        }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "tarea1_vf",
+      "tipo": "verdadero_falso",
+      "consigna": "Indicá si las siguientes afirmaciones sobre la novela son verdaderas (V) o falsas (F).",
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
+      "items": [
+        {
+          "id": "a",
+          "afirmacion": "La materia favorita de Teo es Literatura.",
+          "respuesta": false,
+          "correccion": "No se afirma que Literatura sea su materia favorita."
+        },
+        {
+          "id": "b",
+          "afirmacion": "La IA le enviaba mensajes a Teo sin que él le escribiera.",
+          "respuesta": true
+        },
+        {
+          "id": "c",
+          "afirmacion": "Teo sabe que hizo trampa al usar la IA para el resumen.",
+          "respuesta": true
+        },
+        {
+          "id": "d",
+          "afirmacion": "Teo le puso ‘Saba’ a la IA porque la consultaba los sábados.",
+          "respuesta": false,
+          "correccion": "No hay indicios de que el nombre ‘Saba’ se deba a eso."
+        },
+        {
+          "id": "e",
+          "afirmacion": "Teo se muestra muy seguro; Mora está desorientada.",
+          "respuesta": false,
+          "correccion": "Ambos tienen dudas e inseguridades a lo largo del proceso."
+        },
+        {
+          "id": "f",
+          "afirmacion": "El profesor de Ética era el tutor de la monografía.",
+          "respuesta": true
+        },
+        {
+          "id": "g",
+          "afirmacion": "Teo quería cambiar el tema de la monografía.",
+          "respuesta": false,
+          "correccion": "Teo no quería cambiar el tema; al contrario, se fue involucrando cada vez más."
+        },
+        {
+          "id": "h",
+          "afirmacion": "A Teo le encantaban los pochoclos y a Mirko, el chipá.",
+          "respuesta": true
+        },
+        {
+          "id": "i",
+          "afirmacion": "Teo le contó a su mamá sobre los mensajes extraños de la IA.",
+          "respuesta": false,
+          "correccion": "Teo no le cuenta a su mamá sobre los mensajes extraños; los oculta."
+        },
+        {
+          "id": "j",
+          "afirmacion": "La mamá de Walter le pide que salga con la escarapela por el Mundial.",
+          "respuesta": true
+        },
+        {
+          "id": "k",
+          "afirmacion": "La mamá ayuda a Teo a definir el tema de la monografía (fútbol y 1979).",
+          "respuesta": false,
+          "correccion": "No es la mamá quien define el tema; lo eligen Teo y Mora."
+        },
+        {
+          "id": "l",
+          "afirmacion": "A Walter lo liberan por no ser relevante en la lucha armada.",
+          "respuesta": true
+        },
+        {
+          "id": "m",
+          "afirmacion": "Walter recita canciones para no enloquecer en el encierro.",
+          "respuesta": true
+        }
+      ]
+    },
+    {
+      "id": "tarea2_citas",
+      "tipo": "seleccion_multiple",
+      "consigna": "En la novela aparece la idea de ‘infiltración del pasado’. ¿Cuál de las siguientes opciones explica mejor ese concepto?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "El pasado se cuela en el presente a través de la IA: voces de víctimas de la dictadura aparecen en los mensajes de Saba, mostrando que la historia no está cerrada."
+        },
+        {
+          "id": "b",
+          "texto": "Teo investiga en archivos históricos y encuentra documentos secretos que nadie había visto."
+        },
+        {
+          "id": "c",
+          "texto": "Mora le cuenta a Teo historias que escuchó de su abuela sobre la dictadura."
+        },
+        {
+          "id": "d",
+          "texto": "La policía allana la escuela y encuentra los cuadernos de los alumnos."
+        }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "tarea4_leyes",
+      "tipo": "seleccion_multiple",
+      "consigna": "Sobre la Ley de Punto Final y la Ley de Obediencia Debida, sancionadas durante la década de 1980 en Argentina, ¿cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Fueron leyes que buscaron garantizar el juzgamiento de todos los responsables de crímenes de lesa humanidad."
+        },
+        {
+          "id": "b",
+          "texto": "Fueron leyes que impidieron el juzgamiento de los responsables de crímenes de lesa humanidad, estableciendo la impunidad para los perpetradores."
+        },
+        {
+          "id": "c",
+          "texto": "Fueron leyes que crearon la figura del ‘desaparecido’ como categoría jurídica."
+        },
+        {
+          "id": "d",
+          "texto": "Fueron leyes que establecieron reparaciones económicas para las víctimas de la dictadura."
+        }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "tarea5_cels",
+      "tipo": "normativa_grafica",
+      "consigna": "Completá la siguiente información sobre el CELS.",
+      "items": [
+        {
+          "id": "c1",
+          "modo": "completar",
+          "texto": "CELS significa Centro de Estudios ______ y Sociales.",
+          "opciones": [
+            "Literarios",
+            "Legales",
+            "Latinoamericanos",
+            "Lingüísticos"
+          ],
+          "correcta": "Legales"
+        },
+        {
+          "id": "c2",
+          "modo": "completar",
+          "texto": "El CELS es una organización argentina de derechos ______.",
+          "opciones": [
+            "humanos",
+            "civiles",
+            "políticos",
+            "sociales"
+          ],
+          "correcta": "humanos"
+        },
+        {
+          "id": "c3",
+          "modo": "completar",
+          "texto": "El CELS se dedica a la defensa de víctimas de ______ de lesa humanidad.",
+          "opciones": [
+            "delitos",
+            "accidentes",
+            "enfermedades",
+            "fraudes"
+          ],
+          "correcta": "delitos"
+        }
+      ]
+    }
+  ],
+  "metodo": {
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Mito vs. leyenda",
+          "detalle": "Error frecuente: confundir mito con leyenda. El mito tiene personajes divinos o heroicos y explica fenómenos universales (origen del mundo, la muerte, el amor). La leyenda se basa en hechos históricos o lugares reales, con personajes humanos, y suele tener un fondo de verdad transformado por la tradición oral."
+        },
+        {
+          "titulo": "Coherencia vs. cohesión",
+          "detalle": "La coherencia es la propiedad global: el texto trata un mismo tema y tiene sentido unitario. La cohesión es local: los recursos lingüísticos conectan las oraciones. Un texto puede ser coherente pero poco cohesivo (o viceversa). Ambos son necesarios para que un conjunto de oraciones sea considerado un texto."
+        },
+        {
+          "titulo": "Acento prosódico vs. tilde ortográfica",
+          "detalle": "Todas las palabras tienen acento prosódico (una sílaba se pronuncia con más intensidad). Pero solo algunas llevan tilde ortográfica, según las reglas de tildación. No confundir: «corazón» tiene acento y tilde; «resistir» tiene acento pero no tilde."
+        },
+        {
+          "titulo": "Tildación de agudas y graves",
+          "detalle": "Regla clave: las agudas llevan tilde si terminan en N, S o VOCAL. Las graves llevan tilde justo en el caso contrario: si NO terminan en N, S ni VOCAL. Error común: poner tilde a «tigre» (grave que termina en vocal, no lleva) o no ponérsela a «lápiz» (grave que termina en Z, sí lleva)."
+        },
+        {
+          "titulo": "Mito vs. leyenda: no son lo mismo",
+          "detalle": "El mito es de carácter sagrado, con dioses como protagonistas, y explica el origen del universo o la humanidad (ej.: mito de Prometeo). La leyenda es de carácter profano, con seres humanos o seres sobrenaturales menores, y explica el origen de algo local (una flor, un río, una montaña) en un contexto histórico real."
+        },
+        {
+          "titulo": "Hiato vs. diptongo",
+          "detalle": "No confundir hiato con diptongo. En el diptongo, dos vocales están en la misma sílaba (tien-po, gue-rra). En el hiato, están en sílabas diferentes. Si hay una vocal cerrada tónica (i, u) al lado de una abierta (a, e, o), siempre es hiato y lleva tilde en la cerrada, aunque las reglas generales digan lo contrario: ha-bí-a, dí-a, son-re-ír, ca-í-da."
+        },
+        {
+          "titulo": "Tilde diacrítica: 'sí' y 'si' no son lo mismo",
+          "detalle": "'Sí' con tilde es adverbio de afirmación ('Sí, quiero estudiar') o pronombre reflexivo ('Pensó para sí mismo'). 'Si' sin tilde es conjunción condicional ('Si estudiás, te va a ir bien') o nota musical. Lo mismo aplica a 'mí/mi', 'tú/tu', 'él/el', 'más/mas'."
+        },
+        {
+          "titulo": "Paráfrasis no es repetición exacta",
+          "detalle": "La paráfrasis reformula una idea con otras palabras (sinónimos, hipónimos, descripciones equivalentes). No es copiar lo mismo ni repetir exactamente. Por ejemplo: 'Sakura' → 'la amable muchacha' → 'la joven doncella'. Son tres maneras distintas de referirse al mismo personaje sin repetir el nombre."
+        },
+        {
+          "titulo": "Confundir cuento realista con fantástico",
+          "detalle": "El cuento realista es ficcional pero verosímil: todo lo que ocurre podría suceder en la realidad. Si aparece un elemento mágico o sobrenatural (como un pino que vuela o un dinosaurio), ya no es realista sino fantástico. Revisá si los hechos del cuento son posibles en el mundo real."
+        },
+        {
+          "titulo": "Coherencia externa vs. interna",
+          "detalle": "La coherencia externa vincula el texto con su contexto (época, lugar, registro). La coherencia interna organiza las ideas dentro del texto (tema central, progresión, estructura). Un cuento puede tener coherencia interna (todo está bien organizado) pero fallar en la externa (un personaje del siglo XXI usa un teléfono de 1920 sin explicación)."
+        },
+        {
+          "titulo": "Sinonimia no es identidad absoluta",
+          "detalle": "Los sinónimos son palabras de significado semejante, pero no siempre intercambiables en todos los contextos. Por ejemplo, 'árbol' y 'pino' son sinónimos en el contexto del cuento porque el pino es un tipo de árbol, pero en otro contexto 'árbol' puede referirse a un quebracho o un ombú. La sinonimia depende del contexto."
+        },
+        {
+          "titulo": "B y V: errores frecuentes",
+          "detalle": "Recordá que 'buscar' se escribe con B (no vuscar), 'burbuja' con B (no vurbuja), el imperfecto 'iba' con B (no iva), y 'vivir' con V (no bivir). Las reglas ortográficas ayudan, pero también es importante la lectura frecuente para interiorizar la forma correcta de las palabras."
+        },
+        {
+          "titulo": "Confundir novela con cuento",
+          "detalle": "La novela y el cuento son ambos textos narrativos, pero se diferencian por su extensión, la cantidad de personajes y conflictos, la diversidad de tiempos y espacios, y la posibilidad de incluir otros géneros. Mientras que el cuento busca un efecto único y concentrado, la novela desarrolla tramas múltiples y complejas. En ‘Avisale a mi mamá’, la presencia de varios personajes (Teo, Mora, Walter, Saba, la familia), conflictos (la monografía, la fiesta de 15, la infiltración de la IA, la memoria) y la mezcla de formatos (chats, respuestas de IA, narración tradicional) solo es posible en una novela."
+        },
+        {
+          "titulo": "No distinguir los registros lingüísticos",
+          "detalle": "Los registros lingüísticos varían según la situación comunicativa. Un error frecuente es no distinguir entre el registro formal (elaborado, con normativa) y el informal (espontáneo, sin normativa). En la novela, los chats entre Teo y sus amigos (con errores ortográficos, términos coloquiales como ‘guita’) contrastan con el trabajo final de Teo, que utiliza un registro formal y normativamente correcto. La clave es atender al contexto, los interlocutores y el propósito del mensaje."
+        },
+        {
+          "titulo": "Confundir ciencia ficción con otros géneros",
+          "detalle": "La ciencia ficción no es cualquier historia que incluya elementos irreales. Se caracteriza por un ‘motivo científico’ que funciona como eje de la trama. En ‘Avisale a mi mamá’, la inteligencia artificial Saba no es un adorno ni un elemento fantástico: es el mecanismo que permite la comunicación con el pasado. Sin la IA, la historia no podría suceder. No se trata de magia ni de fantasía, sino de una especulación sobre la tecnología y sus límites."
+        },
+        {
+          "titulo": "Malinterpretar la teoría de los dos demonios",
+          "detalle": "Un error común es pensar que la teoría de los dos demonios es una descripción neutral de lo ocurrido durante la dictadura. En realidad, es una construcción discursiva que equipara la violencia del Estado terrorista con la de los grupos guerrilleros, ocultando la asimetría entre ambos bandos: el Estado contaba con todo el poder institucional, militar y económico, mientras que la resistencia armada era minoritaria. Además, esta teoría desvía la atención de la responsabilidad del Estado en los crímenes de lesa humanidad. La novela invita a cuestionar esta narrativa y a entender la complejidad del pasado."
+        }
+      ]
+    }
+  }
+}

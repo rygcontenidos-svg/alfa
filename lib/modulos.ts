@@ -10,6 +10,8 @@ import leyendaParafasis from "@/data/modulos/leyenda-parafasis-tildacion-especia
 import cuentoRealista from "@/data/modulos/cuento-realista-coherencia-sinonimia-uso-b.json";
 import novelaAvisale from "@/data/modulos/novela-avisale-a-mi-mama.json";
 import simulacro1 from "@/data/modulos/simulacro-1-lengua.json";
+import simulacro2 from "@/data/modulos/simulacro-2-lengua.json";
+import simulacro3 from "@/data/modulos/simulacro-3-lengua.json";
 import mateNaturales from "@/data/modulos/mate-naturales-operaciones.json";
 import mateDesigualdades from "@/data/modulos/mate-desigualdades-traduccion-recta.json";
 import mateDivision from "@/data/modulos/mate-division-entera-multiplos-divisibilidad.json";
@@ -37,6 +39,10 @@ const MODULOS_JSON: Record<string, Modulo> = {
     novelaAvisale as unknown as Modulo,
   "simulacro-1-lengua":
     simulacro1 as unknown as Modulo,
+  "simulacro-2-lengua":
+    simulacro2 as unknown as Modulo,
+  "simulacro-3-lengua":
+    simulacro3 as unknown as Modulo,
   "mate-naturales-operaciones":
     mateNaturales as unknown as Modulo,
   "mate-desigualdades-traduccion-recta":
@@ -131,6 +137,22 @@ const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
     titulo: "Simulacro 1: primera evaluación de Lengua",
     descripcion:
       "Simulacro integrador que abarca: comunicación, funciones del lenguaje, géneros literarios, tipo textual narrativo, cohesión, coherencia, tildación y normativa gráfica. Incluye lectura de la leyenda 'La cruz del sur'.",
+    estado: "completo",
+  },
+  {
+    id: "simulacro-2-lengua",
+    materia: "lengua",
+    titulo: "Simulacro 2: segunda evaluación de Lengua",
+    descripcion:
+      "Simulacro integrador que abarca: comunicación y funciones del lenguaje, tipos de textos, géneros literarios, tipo textual narrativo (secuencia, narrador, tiempos verbales), revisión de puntuación y normativa S/C/Z.",
+    estado: "completo",
+  },
+  {
+    id: "simulacro-3-lengua",
+    materia: "lengua",
+    titulo: "Simulacro 3: tercera evaluación de Lengua",
+    descripcion:
+      "Simulacro integrador que abarca: mito, cohesión (elipsis), leyenda, paráfrasis, cuento realista, coherencia, sinonimia, uso de B, la novela y memoria colectiva.",
     estado: "completo",
   },
   {
