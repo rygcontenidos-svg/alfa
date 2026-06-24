@@ -81,10 +81,10 @@
       "tipo": "normativa_grafica",
       "consigna": "Completá las palabras con C, S o Z según corresponda. Justificá con la regla ortográfica.",
       "items": [
-        { "id": "csz_a", "modo": "completar", "texto": "Inés miró el lago silen__io__o.", "opciones": ["c", "s", "z", "sc"], "correcta": "c, s" },
+        { "id": "csz_a", "modo": "completar", "texto": "Inés miró el lago silen__ioso.", "opciones": ["c", "s", "z"], "correcta": "c" },
         { "id": "csz_b", "modo": "completar", "texto": "La casa era hermo__a.", "opciones": ["c", "s", "z"], "correcta": "s" },
         { "id": "csz_c", "modo": "completar", "texto": "Carlos creyó que su fun__ión era acompañarla.", "opciones": ["c", "s", "z"], "correcta": "c" },
-        { "id": "csz_d", "modo": "completar", "texto": "El té estaba deli__io__o.", "opciones": ["c", "s", "z", "sc"], "correcta": "c, s" },
+        { "id": "csz_d", "modo": "completar", "texto": "El té estaba deli__ioso.", "opciones": ["c", "s", "z"], "correcta": "c" },
         { "id": "csz_e", "modo": "completar", "texto": "La esperan__a de que fuese un sueño.", "opciones": ["c", "s", "z"], "correcta": "z" },
         { "id": "csz_f", "modo": "completar", "texto": "La ten__ión se apoderó de Inés.", "opciones": ["c", "s", "z"], "correcta": "s" },
         { "id": "csz_g", "modo": "completar", "texto": "Un pájaro negru__co cruzó el cielo.", "opciones": ["c", "s", "z"], "correcta": "z" },
