@@ -570,6 +570,30 @@
           "respuesta": "140 cm (2×38 + 2×24 + 8×2 = 76 + 48 + 16 = 140 cm)"
         }
       ]
+    },
+    {
+      "id": "emilia_cuadrado_rectangulo",
+      "tipo": "completar",
+      "consigna": "Emilia tiene dos piezas de cartulina: un cuadrado rojo de 10 cm de lado y un rectángulo verde con el lado mayor de 16 cm y el lado menor de 7 cm.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase5-practica-ej10.png",
+        "alt": "Cuadrado rojo de 10 cm y rectangulo verde de 16 cm x 7 cm"
+      },
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es, en centímetros, el perímetro del cuadrado rojo?",
+          "respuesta": "40 cm (el cuadrado tiene 4 lados iguales de 10 cm: 4 × 10 cm = 40 cm)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es, en centímetros, el perímetro del rectángulo verde?",
+          "respuesta": "46 cm (los lados opuestos son congruentes: 2 × 16 cm + 2 × 7 cm = 32 + 14 = 46 cm)"
+        }
+      ]
     }
   ],
   "metodo": {
@@ -773,7 +797,8 @@
         "figura_rectangulo_cuadrado",
         "cuadrado_9_congruentes",
         "triangulo_3_primos_impares",
-        "figura_gris_tres_rectangulos"
+        "figura_gris_tres_rectangulos",
+        "emilia_cuadrado_rectangulo"
       ]
     },
     "ponerse_a_prueba": {
