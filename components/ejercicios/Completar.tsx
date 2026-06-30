@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { Completar as CompletarType } from "@/lib/tipos";
+import FiguraMatematica from "@/components/FiguraMatematica";
 
 type ItemConExplicacion = {
   id: string;
@@ -28,6 +29,10 @@ export default function Completar({
         <p className="text-sm font-semibold text-grafito mb-3 leading-relaxed">
           {ej.consigna}
         </p>
+
+        {"figura" in ej && ej.figura && (
+          <FiguraMatematica def={ej.figura} />
+        )}
 
         <div className="space-y-4">
           {ej.items.map((it) => (

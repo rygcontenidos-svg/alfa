@@ -2,6 +2,7 @@
 
 import type { SeleccionMultiple as T } from "@/lib/tipos";
 import { EjercicioShell } from "./EjercicioShell";
+import FiguraMatematica from "@/components/FiguraMatematica";
 
 export default function SeleccionMultiple({
   ej,
@@ -18,6 +19,9 @@ export default function SeleccionMultiple({
     >
       {(revelado) => (
         <div className="space-y-2">
+          {"figura" in ej && ej.figura && (
+            <FiguraMatematica def={ej.figura} />
+          )}
           {ej.opciones.map((op) => {
             const esCorrecta = revelado && op.id === ej.correcta;
             return (

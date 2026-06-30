@@ -10,6 +10,15 @@
       "id": "cuadrado_p12",
       "tipo": "completar",
       "consigna": "Sobre una cuadrícula con cuadrados de 1 cm de lado se dibujó un cuadrado de 12 cm de perímetro.",
+      "figura": {
+        "tipo": "cuadricula",
+        "celda": 36,
+        "grilla": [
+          ["#b8d4f0", "#b8d4f0", "#b8d4f0"],
+          ["#b8d4f0", "#b8d4f0", "#b8d4f0"],
+          ["#b8d4f0", "#b8d4f0", "#b8d4f0"]
+        ]
+      },
       "items": [
         {
           "id": "a",
@@ -29,6 +38,19 @@
       "id": "rectangulo_4x3",
       "tipo": "completar",
       "consigna": "En una cuadrícula con cuadrados de 1 cm de lado se dibuja un rectángulo de 4 cuadrados de base y 3 de altura.",
+      "figura": {
+        "tipo": "cuadricula",
+        "celda": 32,
+        "grilla": [
+          ["#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0"],
+          ["#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0"],
+          ["#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0"]
+        ],
+        "medidas": [
+          { "lado": "arriba", "desde": 0, "hasta": 4, "texto": "4 cm" },
+          { "lado": "derecha", "desde": 0, "hasta": 3, "texto": "3 cm" }
+        ]
+      },
       "items": [
         {
           "id": "a",
@@ -53,7 +75,22 @@
     {
       "id": "figuras_10_cuadrados",
       "tipo": "completar",
-      "consigna": "En la cuadrícula se dibujaron dos figuras de color verde y dos de color violeta, usando en cada una 10 cuadrados de 1 cm de lado.",
+      "consigna": "En la cuadrícula se dibujaron dos figuras de color verde y dos de color violeta, usando en cada una 10 cuadrados de 1 cm de lado. (Abajo: la figura verde alargada y la figura verde compacta).",
+      "figura": {
+        "tipo": "cuadricula",
+        "celda": 24,
+        "grilla": [
+          ["#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", null, null, "#c8b8d8", "#c8b8d8"],
+          [null, null, null, null, null, null, null, null, null, null, null, null, "#c8b8d8", "#c8b8d8"],
+          [null, null, null, null, null, null, null, null, null, null, null, null, "#c8b8d8", "#c8b8d8"],
+          [null, null, null, null, null, null, null, null, null, null, null, null, "#c8b8d8", "#c8b8d8"],
+          [null, null, null, null, null, null, null, null, null, null, null, null, "#c8b8d8", "#c8b8d8"]
+        ],
+        "etiquetas": [
+          { "fila": 0, "col": 4, "texto": "Verde alargada", "pos": "arriba" },
+          { "fila": 0, "col": 13, "texto": "Violeta compacta", "pos": "arriba" }
+        ]
+      },
       "items": [
         {
           "id": "a",
@@ -78,7 +115,23 @@
     {
       "id": "iniciales_e_o_t",
       "tipo": "completar",
-      "consigna": "Emilia, Tedy y Otto arman las iniciales de sus nombres (E, T, O) con fichas planas cuadradas. La letra E usa 11 fichas, la O usa 12 fichas, la T usa 7 fichas. El contorno de la E tiene 22 lados de ficha, la T tiene 14 lados.",
+      "consigna": "Emilia, Tedy y Otto arman las iniciales de sus nombres (E, T, O) con fichas planas cuadradas.",
+      "figura": {
+        "tipo": "cuadricula",
+        "celda": 24,
+        "grilla": [
+          ["#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0"],
+          ["#b8d4f0", null, null, null, null, null, null, null, null, null, null, "#b8d4f0", null, null, "#b8d4f0", null, null, "#b8d4f0"],
+          ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", null, null, "#b8d4f0"],
+          ["#b8d4f0", null, null, null, null, null, null, null, null, null, null, "#b8d4f0", null, null, "#b8d4f0", null, null, "#b8d4f0"],
+          ["#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0"]
+        ],
+        "etiquetas": [
+          { "fila": 5, "col": 2, "texto": "E (22 lados)", "pos": "abajo" },
+          { "fila": 5, "col": 10, "texto": "T (14 lados)", "pos": "abajo" },
+          { "fila": 5, "col": 16, "texto": "O (12 fichas)", "pos": "abajo" }
+        ]
+      },
       "items": [
         {
           "id": "a",
@@ -272,7 +325,22 @@
     {
       "id": "figuras_grises_congruentes",
       "tipo": "completar",
-      "consigna": "Tres figuras están formadas por cuadrados grises congruentes. La figura 1 tiene 6 cuadrados en forma de L, la figura 2 es un rectángulo de 2×3 (6 cuadrados), la figura 3 tiene 5 cuadrados en forma de T. Compará perímetros y áreas usando >, < o =.",
+      "consigna": "Tres figuras están formadas por cuadrados grises congruentes. La figura 1 tiene forma de L (6 cuadrados), la figura 2 es un rectángulo de 2×3 (6 cuadrados), la figura 3 tiene forma de T (5 cuadrados). Compará perímetros y áreas usando >, < o =.",
+      "figura": {
+        "tipo": "cuadricula",
+        "celda": 28,
+        "grilla": [
+          ["#bbb", "#bbb", null, null, "#bbb", "#bbb", "#bbb", null, null, null, null, "#bbb"],
+          ["#bbb", null, null, null, "#bbb", "#bbb", "#bbb", null, null, "#bbb", "#bbb", "#bbb"],
+          ["#bbb", "#bbb", "#bbb", null, "#bbb", "#bbb", "#bbb", null, null, null, "#bbb", null],
+          ["#bbb", "#bbb", "#bbb", null, null, null, null, null, null, null, null, null]
+        ],
+        "etiquetas": [
+          { "fila": 3, "col": 1, "texto": "Fig. 1 (L)", "pos": "abajo" },
+          { "fila": 3, "col": 5, "texto": "Fig. 2 (2×3)", "pos": "abajo" },
+          { "fila": 3, "col": 10, "texto": "Fig. 3 (T)", "pos": "abajo" }
+        ]
+      },
       "items": [
         {
           "id": "a",
@@ -322,7 +390,24 @@
     {
       "id": "cuadrados_superpuestos_primos",
       "tipo": "completar",
-      "consigna": "Una figura está formada por dos cuadrados grises y uno blanco superpuestos, de distinto tamaño. Las medidas de los lados de los cuadrados son los tres números primos impares menores que 11.",
+      "consigna": "Una figura está formada por dos cuadrados grises (lados 5 y 7) y uno blanco (lado 3) superpuestos, de distinto tamaño. Las medidas de los lados de los cuadrados son los tres números primos impares menores que 11.",
+      "figura": {
+        "tipo": "cuadricula",
+        "celda": 18,
+        "grilla": [
+          ["#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", null, null],
+          ["#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", null, null],
+          ["#bbb", "#bbb", "#fff", "#fff", "#fff", "#bbb", "#bbb", null, null],
+          ["#bbb", "#bbb", "#fff", "#fff", "#fff", "#bbb", "#bbb", null, null],
+          ["#bbb", "#bbb", "#fff", "#fff", "#fff", "#bbb", "#bbb", "#bbb", "#bbb"],
+          ["#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb"],
+          ["#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb"]
+        ],
+        "etiquetas": [
+          { "fila": 1, "col": 8, "texto": "Cuadrado 7", "pos": "derecha" },
+          { "fila": 4, "col": 8, "texto": "Cuadrado 5", "pos": "derecha" }
+        ]
+      },
       "items": [
         {
           "id": "a",

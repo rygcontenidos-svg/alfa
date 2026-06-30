@@ -13,7 +13,15 @@ export type TextoLectura = {
   notas_al_pie?: NotaAlPie[];
 };
 
-export type EjercicioBase = { id: string; consigna: string };
+export type FiguraDef = {
+  tipo: "cuadricula";
+  grilla: (string | null)[][];
+  celda?: number;
+  etiquetas?: { fila: number; col: number; texto: string; pos?: "arriba" | "abajo" | "izquierda" | "derecha" }[];
+  medidas?: { lado: "arriba" | "abajo" | "izquierda" | "derecha"; desde: number; hasta: number; texto: string }[];
+};
+
+export type EjercicioBase = { id: string; consigna: string; figura?: FiguraDef };
 
 export type SeleccionMultiple = EjercicioBase & {
   tipo: "seleccion_multiple";
