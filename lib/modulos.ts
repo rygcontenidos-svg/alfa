@@ -19,6 +19,7 @@ import matePrimos from "@/data/modulos/mate-numeros-primos-compuestos-factorizac
 import matePerimetro from "@/data/modulos/mate-perimetro-cuadrado-rectangulo-triangulo.json";
 import mateArea from "@/data/modulos/mate-area-cuadrado-rectangulo.json";
 import mateFracciones from "@/data/modulos/mate-fracciones-concepto-equivalencias.json";
+import mateFraccionesRecta from "@/data/modulos/mate-fracciones-recta-suma-resta.json";
 
 const MODULOS_JSON: Record<string, Modulo> = {
   "comunicacion-funciones-lenguaje":
@@ -59,6 +60,8 @@ const MODULOS_JSON: Record<string, Modulo> = {
     mateArea as unknown as Modulo,
   "mate-fracciones-concepto-equivalencias":
     mateFracciones as unknown as Modulo,
+  "mate-fracciones-recta-suma-resta":
+    mateFraccionesRecta as unknown as Modulo,
 };
 
 const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
@@ -215,6 +218,14 @@ const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
     titulo: "Números racionales no negativos. Fracciones",
     descripcion:
       "Fracción de la unidad. Fracciones equivalentes (amplificar y simplificar). Fracción irreducible. Fracción de una cantidad. Reconstrucción de la unidad.",
+    estado: "completo",
+  },
+  {
+    id: "mate-fracciones-recta-suma-resta",
+    materia: "matematica",
+    titulo: "Orden y representación en la recta numérica. Suma y resta de fracciones",
+    descripcion:
+      "Representación de fracciones en la recta numérica. Comparación y orden. Suma y resta de fracciones con igual y distinto denominador. Problemas de aplicación.",
     estado: "completo",
   },
 ];

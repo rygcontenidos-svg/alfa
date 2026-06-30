@@ -1,0 +1,471 @@
+{
+  "id": "mate-fracciones-recta-suma-resta",
+  "materia": "matematica",
+  "titulo": "Orden y representación en la recta numérica. Suma y resta de fracciones",
+  "descripcion": "Representación de fracciones en la recta numérica. Comparación y orden. Suma y resta de fracciones con igual y distinto denominador. Resolución de problemas.",
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "representar_recta_igual_denom",
+      "tipo": "completar",
+      "consigna": "Representá en la recta numérica las fracciones 4/5, 8/5 y 12/5. Como tienen igual denominador, dividí cada unidad en 5 partes iguales.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Entre qué números enteros está 4/5?",
+          "respuesta": "0 y 1 (4/5 es menor que 1, está en la primera unidad)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Entre qué números enteros está 8/5?",
+          "respuesta": "1 y 2 (8/5 = 1 y 3/5, está entre 1 y 2)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Ordená de menor a mayor: 4/5, 8/5, 12/5",
+          "respuesta": "4/5 < 8/5 < 12/5. Cuando tienen igual denominador, se comparan los numeradores: 4 < 8 < 12."
+        }
+      ]
+    },
+    {
+      "id": "representar_recta_distinto_denom",
+      "tipo": "completar",
+      "consigna": "Para representar 1/3, 3/2 y 7/6 en la recta numérica, conviene buscar fracciones equivalentes con denominador común.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Expresá 1/3 y 3/2 con denominador 6.",
+          "respuesta": "1/3 = 2/6 y 3/2 = 9/6"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Ordenalas de menor a mayor.",
+          "respuesta": "1/3 < 7/6 < 3/2 (en la recta: 2/6 < 7/6 < 9/6). 1/3 es la única menor que 1, las otras dos son mayores que 1."
+        }
+      ]
+    },
+    {
+      "id": "comparar_3_7_vs_2_5",
+      "tipo": "completar",
+      "consigna": "¿Cuál es mayor: 3/7 o 2/5?",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Buscá fracciones equivalentes con denominador común 35.",
+          "respuesta": "3/7 = 15/35 y 2/5 = 14/35"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es mayor? ¿3/7 o 2/5?",
+          "respuesta": "3/7 es mayor. 15/35 > 14/35 porque 15 > 14."
+        }
+      ]
+    },
+    {
+      "id": "marina_juana_tela",
+      "tipo": "completar",
+      "consigna": "Marina compró 1 y 1/2 metros de tela y Juana compró 8/6 metros de la misma tela. ¿Quién compró más?",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Expresá ambas cantidades como fracciones impropias.",
+          "respuesta": "Marina: 1 1/2 = 3/2. Juana: 8/6 = 4/3 (simplificando)."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Comparalas con denominador común.",
+          "respuesta": "3/2 = 9/6 y 4/3 = 8/6. 9/6 > 8/6. Compró más Marina."
+        }
+      ]
+    },
+    {
+      "id": "suma_igual_denominador_recta",
+      "tipo": "completar",
+      "consigna": "Sumá las siguientes fracciones con igual denominador:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "2/7 + 3/7",
+          "respuesta": "5/7 (igual denominador: sumamos numeradores 2+3=5, mantenemos denominador 7)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "5/9 + 4/9",
+          "respuesta": "9/9 = 1 (5+4=9, mismo denominador. 9/9 = 1 entero)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "3/10 + 5/10 (simplificá)",
+          "respuesta": "8/10 = 4/5 (3+5=8, luego simplificamos dividiendo por 2)"
+        }
+      ]
+    },
+    {
+      "id": "resta_igual_denominador",
+      "tipo": "completar",
+      "consigna": "Restá las siguientes fracciones con igual denominador:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "7/8 – 3/8",
+          "respuesta": "4/8 = 1/2 (7-3=4, mismo denominador. Simplificamos: 4/8 = 1/2)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "9/5 – 4/5",
+          "respuesta": "5/5 = 1 (9-4=5, 5/5 = 1 entero)"
+        }
+      ]
+    },
+    {
+      "id": "suma_distinto_denominador",
+      "tipo": "completar",
+      "consigna": "Sumá las siguientes fracciones con distinto denominador:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "1/2 + 1/4 (denominador común: 4)",
+          "respuesta": "3/4 (1/2 = 2/4, 2/4 + 1/4 = 3/4)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "1/3 + 1/6",
+          "respuesta": "3/6 = 1/2 (1/3 = 2/6, 2/6 + 1/6 = 3/6 = 1/2)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "2/5 + 3/10",
+          "respuesta": "7/10 (2/5 = 4/10, 4/10 + 3/10 = 7/10)"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "1/2 + 2/3 (denominador común: 6)",
+          "respuesta": "7/6 = 1 1/6 (1/2 = 3/6, 2/3 = 4/6, 3/6 + 4/6 = 7/6 = 1 y 1/6)"
+        }
+      ]
+    },
+    {
+      "id": "resta_distinto_denominador",
+      "tipo": "completar",
+      "consigna": "Restá las siguientes fracciones con distinto denominador:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "3/4 – 1/2 (1/2 = 2/4)",
+          "respuesta": "1/4 (3/4 – 2/4 = 1/4)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "5/6 – 1/3 (1/3 = 2/6)",
+          "respuesta": "3/6 = 1/2 (5/6 – 2/6 = 3/6 = 1/2)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "7/10 – 1/5 (1/5 = 2/10)",
+          "respuesta": "5/10 = 1/2 (7/10 – 2/10 = 5/10 = 1/2)"
+        }
+      ]
+    },
+    {
+      "id": "completar_2_o_7",
+      "tipo": "completar",
+      "consigna": "Completá cada casillero con 2 o 7 según corresponda para que se cumpla la desigualdad:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "5/? > 5/8",
+          "respuesta": "2",
+          "opciones": [
+            "2",
+            "7"
+          ],
+          "explicacion": "Si el denominador es más chico, la fracción es más grande. 5/2 > 5/8."
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "?/3 > ?/6",
+          "respuesta": "7",
+          "opciones": [
+            "2",
+            "7"
+          ],
+          "explicacion": "Con numerador 7: 7/3 > 7/6 porque tercios son más grandes que sextos."
+        }
+      ]
+    },
+    {
+      "id": "club_amigos_agua",
+      "tipo": "completar",
+      "consigna": "En el club 'Los Amigos', de un tanque lleno se usó: 1/3 para vestuarios, 1/5 para bebederos, 2/15 para riego, y el resto para limpieza.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Qué parte del total se usó para limpieza? (Denominador común: 15)",
+          "respuesta": "1/3 = 5/15 (vestuarios = 5/15, bebederos = 3/15, riego = 2/15. Total usado = 5/15 + 3/15 + 2/15 = 10/15 = 2/3. Limpieza = 15/15 – 10/15 = 5/15 = 1/3)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Es cierto que entre vestuarios y riego se usó más agua que entre limpieza y bebederos?",
+          "respuesta": "Falso. Vestuarios + riego = 5/15 + 2/15 = 7/15. Limpieza + bebederos = 5/15 + 3/15 = 8/15. Como 8/15 > 7/15, la afirmación es falsa: limpieza y bebederos usaron MÁS agua."
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Si se usaron 1700 litros para vestuarios (1/3 del total), ¿cuánta agua tenía el tanque lleno?",
+          "respuesta": "5100 litros (si 1/3 del total = 1700 L, el total = 1700 × 3 = 5100 L)"
+        }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": [
+        "mate-calentamiento-fracciones"
+      ]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "recta_numerica_fracciones",
+          "titulo": "Fracciones en la recta numérica",
+          "icono": "📏",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "¿Cómo se representan?",
+              "texto": "Para representar fracciones en la recta numérica, dividimos cada unidad en tantas partes iguales como indica el denominador.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Si las fracciones tienen el mismo denominador, dividimos la unidad una sola vez y avanzamos. Si tienen distinto denominador, buscamos un denominador común (múltiplo de todos) y representamos las fracciones equivalentes."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "4/5, 8/5 y 12/5: dividimos en 5 partes. 4/5 está entre 0 y 1, 8/5 entre 1 y 2, 12/5 entre 2 y 3.",
+              "explicacion": "Con igual denominador: la posición depende del numerador. 8/5 = 1 y 3/5 (una unidad entera más 3/5 de otra)."
+            }
+          ]
+        },
+        {
+          "id": "comparacion_fracciones",
+          "titulo": "Comparación de fracciones",
+          "icono": "⚖️",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Tres estrategias",
+              "texto": "1) Igual denominador: comparar numeradores. 2) Comparar con 1. 3) Buscar denominador común.",
+              "color": "naranja"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                {
+                  "icono": "1️⃣",
+                  "texto": "Igual denominador: 5/8 > 3/8 porque 5 > 3."
+                },
+                {
+                  "icono": "2️⃣",
+                  "texto": "Comparar con 1: 1/3 < 1, 7/6 > 1, 3/2 > 1. Orden: 1/3 < 7/6 < 3/2."
+                },
+                {
+                  "icono": "3️⃣",
+                  "texto": "Denominador común: 3/7 = 15/35, 2/5 = 14/35. 15/35 > 14/35, entonces 3/7 > 2/5."
+                }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Recordá: a igual numerador, es mayor la que tiene menor denominador. 5/2 > 5/8 porque los medios son más grandes que los octavos."
+            }
+          ]
+        },
+        {
+          "id": "suma_fracciones",
+          "titulo": "Suma de fracciones",
+          "icono": "➕",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Regla de oro",
+              "texto": "Para sumar fracciones, deben tener el MISMO denominador. Si no lo tienen, se buscan equivalentes.",
+              "color": "verde"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "1/2 + 1/4 = 2/4 + 1/4 = 3/4",
+              "explicacion": "Buscamos denominador común 4. 1/2 se amplifica a 2/4. Luego sumamos numeradores y mantenemos el denominador."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "1/2 + 2/3 = 3/6 + 4/6 = 7/6 = 1 y 1/6",
+              "explicacion": "Denominador común 6. Amplificamos ambas fracciones, sumamos y simplificamos. El resultado puede ser impropio (>1)."
+            }
+          ]
+        },
+        {
+          "id": "resta_fracciones",
+          "titulo": "Resta de fracciones",
+          "icono": "➖",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Mismo procedimiento",
+              "texto": "La resta sigue las mismas reglas que la suma: mismo denominador, luego restar numeradores.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "3/4 – 1/2 = 3/4 – 2/4 = 1/4",
+              "explicacion": "1/2 se amplifica a 2/4. Luego restamos: 3 – 2 = 1, con denominador 4."
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Siempre simplificá el resultado cuando sea posible. 4/8 = 1/2, 3/6 = 1/2. Una fracción simplificada es más fácil de interpretar."
+            }
+          ]
+        },
+        {
+          "id": "resumen_clase8",
+          "titulo": "Resumen",
+          "icono": "📝",
+          "color": "violeta",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Puntos clave",
+              "texto": "Recta: dividir en partes iguales. Comparar: mismo denominador o cruzar. Sumar/restar: mismo denominador, amplificar si hace falta. Simplificar.",
+              "color": "violeta"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                {
+                  "icono": "▶",
+                  "texto": "En la recta, fracciones con igual denominador se ordenan por numerador."
+                },
+                {
+                  "icono": "▶",
+                  "texto": "Para comparar, siempre se puede buscar denominador común o productos cruzados."
+                },
+                {
+                  "icono": "▶",
+                  "texto": "Sumar/restar: NUNCA se suman los denominadores entre sí."
+                },
+                {
+                  "icono": "▶",
+                  "texto": "Simplificar el resultado final siempre."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        {
+          "pregunta": "¿Cómo se representan fracciones en la recta numérica?",
+          "respuesta": "Se divide cada unidad en tantas partes iguales como indica el denominador. Luego se avanza la cantidad de partes que indica el numerador."
+        },
+        {
+          "pregunta": "¿Cómo se comparan dos fracciones?",
+          "respuesta": "1) Mismo denominador: comparar numeradores. 2) Distinto denominador: buscar denominador común. 3) Comparar con 1: ver si es mayor o menor que un entero."
+        },
+        {
+          "pregunta": "¿Cómo se suman fracciones con distinto denominador?",
+          "respuesta": "Se busca un denominador común (múltiplo de ambos), se amplifica cada fracción, se suman los nuevos numeradores y se mantiene el denominador."
+        },
+        {
+          "pregunta": "¿Cómo se restan fracciones?",
+          "respuesta": "Igual que la suma: mismo denominador, luego restar numeradores. Si tienen distinto denominador, se busca uno común primero."
+        },
+        {
+          "pregunta": "Calculá: 1/4 + 2/4",
+          "respuesta": "3/4. Mismo denominador: 1 + 2 = 3, con denominador 4."
+        },
+        {
+          "pregunta": "Calculá: 7/8 – 3/8",
+          "respuesta": "4/8 = 1/2. 7 – 3 = 4, denominador 8. Simplificando: 4/8 = 1/2."
+        },
+        {
+          "pregunta": "Calculá: 1/3 + 1/6",
+          "respuesta": "3/6 = 1/2. 1/3 = 2/6. 2/6 + 1/6 = 3/6 = 1/2."
+        },
+        {
+          "pregunta": "¿1/3 es mayor o menor que 2/5?",
+          "respuesta": "1/3 = 5/15, 2/5 = 6/15. 5/15 < 6/15, entonces 1/3 < 2/5. ¡Es menor!"
+        }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": [
+        "representar_recta_igual_denom",
+        "representar_recta_distinto_denom",
+        "comparar_3_7_vs_2_5",
+        "marina_juana_tela",
+        "suma_igual_denominador_recta",
+        "resta_igual_denominador",
+        "suma_distinto_denominador",
+        "resta_distinto_denominador"
+      ]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": [
+        "completar_2_o_7",
+        "club_amigos_agua"
+      ],
+      "duracion_min": 30
+    },
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Sumar los denominadores al sumar fracciones",
+          "detalle": "Error muy frecuente: 1/2 + 1/3 = 2/5. ¡INCORRECTO! Los denominadores NUNCA se suman. Para sumar 1/2 + 1/3 hay que buscar denominador común: 3/6 + 2/6 = 5/6."
+        },
+        {
+          "titulo": "No simplificar el resultado final",
+          "detalle": "Siempre que se pueda, simplificá. 2/4 = 1/2, 3/6 = 1/2, 4/8 = 1/2. Si numerador y denominador tienen divisores comunes, hay que dividir ambos por ese divisor."
+        },
+        {
+          "titulo": "Confundir el orden en la recta numérica",
+          "detalle": "En la recta, los números crecen de izquierda a derecha. 1/3 está a la izquierda de 1/2. Para verificar: 1/3 = 2/6 y 1/2 = 3/6. Como 2 < 3, 1/3 < 1/2."
+        },
+        {
+          "titulo": "Olvidar amplificar al buscar denominador común",
+          "detalle": "Al cambiar el denominador, el numerador también debe cambiar proporcionalmente. Si 1/2 pasa a tener denominador 6, el numerador debe multiplicarse por 3: 1/2 = 3/6, no 1/6."
+        }
+      ]
+    }
+  }
+}
