@@ -215,18 +215,23 @@
       "id": "triangulo_3_primos_impares",
       "tipo": "completar",
       "consigna": "Un cuadrado de 15 cm de lado, al que se le quit\u00F3 un tri\u00E1ngulo. Los lados del tri\u00E1ngulo son los primeros 3 n\u00FAmeros primos impares.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase5-practica-ej7.png",
+        "alt": "Cuadrado de 15 cm de lado con un triangulo quitado"
+      },
       "items": [
         {
           "id": "a",
           "subtipo": "texto",
           "pregunta": "\u00BFCu\u00E1les son los tres primeros n\u00FAmeros primos impares?",
-          "respuesta": "3, 5, 7"
+          "respuesta": "3, 5, 7 (los primeros n\u00FAmeros primos son 2, 3, 5, 7, 11... El 2 es primo pero es PAR. Los primeros tres primos IMPARES son 3, 5 y 7)"
         },
         {
           "id": "b",
           "subtipo": "texto",
-          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura? (los 4 lados del cuadrado + los 3 del tri\u00E1ngulo)",
-          "respuesta": "75 cm"
+          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura? (los 4 lados del cuadrado + los 3 lados del tri\u00E1ngulo quitado)",
+          "respuesta": "75 cm (el per\u00EDmetro del cuadrado es 4 \u00D7 15 cm = 60 cm. Al quitar el tri\u00E1ngulo, sus 3 lados pasan a formar parte del contorno: 3 + 5 + 7 = 15 cm. Per\u00EDmetro total = 60 + 15 = 75 cm. El tri\u00E1ngulo est\u00E1 en el interior del cuadrado, as\u00ED que el contorno exterior del cuadrado sigue intacto)"
         }
       ]
     },
