@@ -279,15 +279,29 @@
     },
     {
       "id": "figura_5_rectas",
-      "tipo": "seleccion_multiple",
-      "consigna": "\u00BFCu\u00E1l de las siguientes expresiones permite calcular el per\u00EDmetro de esta figura?",
-      "opciones": [
-        { "id": "a", "texto": "3a + 2" },
-        { "id": "b", "texto": "7a \u2013 6" },
-        { "id": "c", "texto": "7a + 6" },
-        { "id": "d", "texto": "7a + 4" }
-      ],
-      "correcta": "b"
+      "tipo": "completar",
+      "consigna": "Los siguientes tri\u00E1ngulos son congruentes y a cada uno de ellos se le quitaron tres cuadrados tambi\u00E9n congruentes.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase5-poneteaprueba-ej6.png",
+        "alt": "Dos triangulos congruentes A y B a los que se les quitaron tres cuadrados congruentes"
+      },
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "Per\u00EDmetro de la figura A ___ Per\u00EDmetro de la figura B",
+          "respuesta": "=",
+          "opciones": [">", "<", "="],
+          "explicacion": "Las dos figuras tienen el mismo per\u00EDmetro. Aunque la posici\u00F3n de los cuadrados quitados es distinta, la cantidad de lados expuestos es la misma en ambas figuras."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "El per\u00EDmetro de cada cuadrado quitado es 24 cm y el de cada tri\u00E1ngulo es 93 cm. Hall\u00E1, en cent\u00EDmetros, el per\u00EDmetro de la figura B.",
+          "respuesta": "129 cm (lado de cada cuadrado = 24 \u00F7 4 = 6 cm. Cada cuadrado quitado aporta 3 lados al contorno = 3 \u00D7 6 = 18 cm. Tres cuadrados: 3 \u00D7 18 = 54 cm. Per\u00EDmetro original del tri\u00E1ngulo: 93 cm. Total: 93 + 54 = 147 cm. Pero al quitar cada cuadrado, 6 cm de per\u00EDmetro del tri\u00E1ngulo desaparecen: 3 \u00D7 6 = 18 cm menos. Resultado final: 93 + 54 \u2013 18 = 129 cm)"
+        }
+      ]
     },
     {
       "id": "rectangulo_disminuye_7",
