@@ -338,7 +338,12 @@
           "pregunta": "Si base = 6 cm, ¿altura? ¿área?",
           "respuesta": "Altura = 6 cm (24 – 2×6 = 12, 12÷2 = 6). Área = 36 cm² (6×6, es un cuadrado)"
         }
-      ]
+      ],
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase6-poneteaprueba-ej4.png",
+        "alt": "Tabla de rectangulos con perimetro 24 cm"
+      }
     },
     {
       "id": "figuras_grises_congruentes",
