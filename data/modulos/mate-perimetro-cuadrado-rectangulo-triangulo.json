@@ -85,20 +85,20 @@
         {
           "id": "a",
           "subtipo": "texto",
-          "pregunta": "Si el lado de cada cuadrado mide 8 cm, \u00BFcu\u00E1l es el per\u00EDmetro del d\u00EDgito 2? (cont\u00E1 los lados de cuadrados en el contorno)",
-          "respuesta": "64 cm"
+          "pregunta": "Si el lado de cada cuadrado mide 8 cm, \u00BFcu\u00E1l es el per\u00EDmetro del d\u00EDgito 2? (cont\u00E1 los lados de cuadrados en el contorno exterior e interior del d\u00EDgito)",
+          "respuesta": "288 cm (el d\u00EDgito 2 tiene 36 lados de contorno. 36 \u00D7 8 cm = 288 cm)"
         },
         {
           "id": "b",
           "subtipo": "texto",
-          "pregunta": "Si el per\u00EDmetro de cada cuadrado es 52 cm, \u00BFCu\u00E1nto mide su lado?",
-          "respuesta": "13 cm"
+          "pregunta": "Si el per\u00EDmetro de cada cuadrado individual es 52 cm, \u00BFCu\u00E1nto mide su lado?",
+          "respuesta": "13 cm (cada cuadrado tiene 4 lados iguales: 52 cm \u00F7 4 = 13 cm)"
         },
         {
           "id": "c",
           "subtipo": "texto",
-          "pregunta": "El per\u00EDmetro del n\u00FAmero 20 completo es 288 cm. \u00BFCu\u00E1nto mide el lado de cada cuadrado?",
-          "respuesta": "8 cm"
+          "pregunta": "El d\u00EDgito 0 tiene 20 lados de contorno exterior y 12 lados de contorno interior (el hueco), es decir 32 lados en total. Si el per\u00EDmetro del n\u00FAmero 20 completo (los dos d\u00EDgitos juntos) es 544 cm, \u00BFCu\u00E1nto mide el lado de cada cuadrado?",
+          "respuesta": "8 cm (el 20 completo tiene 36 + 32 = 68 lados de contorno. 544 cm \u00F7 68 = 8 cm)"
         }
       ]
     },
