@@ -261,19 +261,19 @@
     {
       "id": "figura_p_igual_2",
       "tipo": "completar",
-      "consigna": "En el problema anterior, si d es un divisor impar de 28 distinto de 1,",
+      "consigna": "Usando la figura del problema anterior, si d es un divisor impar de 28 distinto de 1, calcul\u00E1 el per\u00EDmetro.",
       "items": [
         {
           "id": "a",
           "subtipo": "texto",
           "pregunta": "\u00BFCu\u00E1nto vale d? (divisores impares de 28: 1, 7. Distinto de 1 \u2192 d = 7)",
-          "respuesta": "7"
+          "respuesta": "7 (los divisores de 28 son 1, 2, 4, 7, 14, 28. Los impares son 1 y 7. Como dice 'distinto de 1', d = 7)"
         },
         {
           "id": "b",
           "subtipo": "texto",
-          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura? (2 \u00D7 7 + 16 \u00D7 3)",
-          "respuesta": "62 cm"
+          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura? Us\u00E1 la expresi\u00F3n correcta: 2d + 12 \u00D7 3 + 2 \u00D7 (d \u2013 3) con d = 7.",
+          "respuesta": "58 cm (Paso a paso: 2d = 2 \u00D7 7 = 14. 12 \u00D7 3 = 36. 2 \u00D7 (d \u2013 3) = 2 \u00D7 (7 \u2013 3) = 2 \u00D7 4 = 8. Total: 14 + 36 + 8 = 58 cm. El error com\u00FAn es usar 16 \u00D7 3 en vez de 12 \u00D7 3, porque en la figura hay 12 segmentos de 3 cm, no 16, y adem\u00E1s hay que restar los 3 cm que el cuadrado le tapa a cada lado largo del rect\u00E1ngulo)"
         }
       ]
     },
