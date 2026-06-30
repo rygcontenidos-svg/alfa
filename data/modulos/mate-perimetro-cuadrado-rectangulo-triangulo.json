@@ -66,6 +66,21 @@
       "id": "afiche_20",
       "tipo": "completar",
       "consigna": "Vecinos hacen un afiche con el n\u00FAmero 20 usando cuadrados congruentes y cord\u00F3n dorado en el contorno de cada d\u00EDgito.",
+      "figura": {
+        "tipo": "cuadricula",
+        "celda": 22,
+        "grilla": [
+          ["#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0", null, null, "#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0"],
+          [null, null, null, null, "#f5d0b0", null, null, "#f5d0b0", null, null, null, "#f5d0b0"],
+          ["#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0", null, null, "#f5d0b0", null, null, null, "#f5d0b0"],
+          ["#f5d0b0", null, null, null, null, null, null, "#f5d0b0", null, null, null, "#f5d0b0"],
+          ["#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0", null, null, "#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0"]
+        ],
+        "etiquetas": [
+          { "fila": 5, "col": 2, "texto": "2", "pos": "abajo" },
+          { "fila": 5, "col": 9, "texto": "0", "pos": "abajo" }
+        ]
+      },
       "items": [
         {
           "id": "a",
