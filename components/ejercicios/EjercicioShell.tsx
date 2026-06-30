@@ -31,12 +31,14 @@ export function EjercicioShell({
   const { usuario } = useAuth();
   const [revelado, setRevelado] = useState(false);
   const [check, setCheckState] = useState<"bien" | "repasar" | null>(null);
-  const [sinRespuestas, setSinRespuestas] = useState(false);
+  const [sinRespuestas, setSinRespuestas] = useState(true);
+  const [cargandoPermisos, setCargandoPermisos] = useState(true);
 
   const verificarPermisos = useCallback(async () => {
-    if (!usuario) return;
+    if (!usuario) { setSinRespuestas(true); setCargandoPermisos(false); return; }
     const bloqueados = await fetchSinRespuestas();
     setSinRespuestas(bloqueados.includes(usuario));
+    setCargandoPermisos(false);
   }, [usuario]);
 
   useEffect(() => {
@@ -63,9 +65,9 @@ export function EjercicioShell({
             <i className="fa-solid fa-pen-to-square mr-1" />
             Resolvé en tu cuaderno.
           </p>
-          {sinRespuestas ? (
+          {sinRespuestas || cargandoPermisos ? (
             <p className="text-xs text-grafito">
-              {guia ?? "No hace falta que copies toda la consigna. Anotá solo las respuestas con el número o letra de cada item."}
+              {cargandoPermisos ? "Verificando..." : guia ?? "No hace falta que copies toda la consigna. Anotá solo las respuestas con el número o letra de cada item."}
             </p>
           ) : (
             <>

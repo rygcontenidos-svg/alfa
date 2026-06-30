@@ -1,41 +1,39 @@
 import { NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import { supabaseService } from "@/lib/supabase";
 
-const PERMISOS_PATH = path.join(process.cwd(), "data", "permisos.json");
+const FALLBACK = { admins: ["rygcontenidos"], sinRespuestas: ["mikuuchan00"] };
 
-function leer() {
+async function fromSupabase(): Promise<{ admins: string[]; sinRespuestas: string[] }> {
   try {
-    const raw = fs.readFileSync(PERMISOS_PATH, "utf-8");
-    return JSON.parse(raw);
+    const client = supabaseService();
+    const { data, error } = await client.from("permisos").select("key, value").eq("key", "config").single();
+    if (error || !data) return FALLBACK;
+    return JSON.parse(data.value);
   } catch {
-    return { admins: ["rygcontenidos"], sinRespuestas: [] };
+    return FALLBACK;
   }
 }
 
-function guardar(data: object) {
-  fs.writeFileSync(PERMISOS_PATH, JSON.stringify(data, null, 2), "utf-8");
-}
-
 export async function GET() {
-  return NextResponse.json(leer());
+  const data = await fromSupabase();
+  return NextResponse.json(data);
 }
 
 export async function POST(req: Request) {
   const body = await req.json();
-  const actual = leer();
+  const actual = await fromSupabase();
 
   if (body.toggle) {
     const idx = actual.sinRespuestas.indexOf(body.toggle);
-    if (idx >= 0) {
-      actual.sinRespuestas.splice(idx, 1);
-    } else {
-      actual.sinRespuestas.push(body.toggle);
-    }
+    if (idx >= 0) actual.sinRespuestas.splice(idx, 1);
+    else actual.sinRespuestas.push(body.toggle);
   }
-
   if (body.admins) actual.admins = body.admins;
 
-  guardar(actual);
+  try {
+    const client = supabaseService();
+    await client.from("permisos").upsert({ key: "config", value: JSON.stringify(actual) }, { onConflict: "key" });
+  } catch {}
+
   return NextResponse.json(actual);
 }
