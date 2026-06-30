@@ -37,9 +37,9 @@ export function EjercicioShell({
   const verificarPermisos = useCallback(async () => {
     if (!usuario) { setSinRespuestas(true); setCargandoPermisos(false); return; }
     const bloqueados = await fetchSinRespuestas();
-    // Si la API falló (array vacío), bloqueamos por seguridad
     if (bloqueados.length === 0) { setSinRespuestas(true); setCargandoPermisos(false); return; }
-    setSinRespuestas(bloqueados.includes(usuario));
+    const bloqueado = bloqueados.some(b => usuario === b || usuario.startsWith(b + "@"));
+    setSinRespuestas(bloqueado);
     setCargandoPermisos(false);
   }, [usuario]);
 

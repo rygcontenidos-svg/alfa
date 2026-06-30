@@ -18,7 +18,7 @@ export default function CompletarCuadro({ ej, moduloId }: { ej: CompletarCuadroT
     if (!usuario) return;
     const b = await fetchSinRespuestas();
     if (b.length === 0) return;
-    setSinRespuestas(b.includes(usuario));
+    setSinRespuestas(b.some(x => usuario === x || usuario.startsWith(x + "@")));
   }, [usuario]);
 
   useEffect(() => { verificar(); }, [verificar]);

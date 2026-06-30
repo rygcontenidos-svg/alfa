@@ -54,7 +54,7 @@ export default function RectaNumerica({
   const [sinRespuestas, setSinRespuestas] = useState(true);
   const verificar = useCallback(async () => {
     if (!usuario) return; const b = await fetchSR();
-    if (b.length === 0) return; setSinRespuestas(b.includes(usuario));
+    if (b.length === 0) return; setSinRespuestas(b.some(x => usuario === x || usuario.startsWith(x + "@")));
   }, [usuario]);
   useEffect(() => { verificar(); }, [verificar]);
 
