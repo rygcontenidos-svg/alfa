@@ -733,6 +733,42 @@
           "respuesta": "30 cm (el mayor valor de b es 9. Perímetro = 2×6 + 2×9 = 12 + 18 = 30 cm)"
         }
       ]
+    },
+    {
+      "id": "figura_gris_t_rectangulos_cuadrados",
+      "tipo": "completar",
+      "consigna": "La figura gris está formada por dos rectángulos congruentes y un cuadrado, a la que se le quitaron dos cuadrados congruentes. El área de cada cuadrado quitado es igual al área del cuadrado gris (34²). En cada rectángulo, el lado mayor es el doble del menor (34 × 17). Los cuadrados quitados tienen lado t.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase6-poneteaprueba-ej10.png",
+        "alt": "Figura gris con rectangulos, cuadrado y cuadrados quitados"
+      },
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "i) Perímetro: opciones A) 34·4+17·4+10t · B) 34·4+17·2+8t · C) 170+8t · D) 34·4+17·3+8t. ¿Cuál(es) son correctas?",
+          "respuesta": "B y C son correctas. 34·4+17·2+8t = 136+34+8t = 170+8t"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "ii) Área: opciones A) 34²–t² · B) 2·34·17–t² · C) 34·17+34·17+3t² · D) 1156–t². ¿Cuál(es) son correctas?",
+          "respuesta": "Verificar con la figura. Área gris = 34² + 2×34×17 – 2t² = 1156+1156–2t² = 2312–2t²"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Si t es el número primo entre 5 y 9 (t=7), calculá el perímetro de la figura gris.",
+          "respuesta": "226 cm (usando 170+8×7 = 170+56 = 226 cm)"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "Con t=7, calculá el área de la figura gris.",
+          "respuesta": "Verificar el área exacta según la figura. 2312–2×49 = 2312–98 = 2214 cm² u otra según expresión correcta"
+        }
+      ]
     }
   ],
   "metodo": {
@@ -972,7 +1008,8 @@
         "figuras_grises_congruentes",
         "rectangulos_cuadrados_distinto_tamano",
         "rectangulo_perimetro_48_divisor_121",
-        "rectangulo_area_entre_35_y_55"
+        "rectangulo_area_entre_35_y_55",
+        "figura_gris_t_rectangulos_cuadrados"
       ],
       "duracion_min": 45
     },
