@@ -240,6 +240,105 @@
           "respuesta": "5100 litros (si 1/3 del total = 1700 L, el total = 1700 × 3 = 5100 L)"
         }
       ]
+    },
+    {
+      "id": "ecobici_recta",
+      "tipo": "completar",
+      "consigna": "Arturo, Camila y Matías usan Ecobici. La estación del colegio es el 0. Las distancias: Plaza Miserere (Arturo) = 1/2 km, Parque Rivadavia (Camila) = 3/4 km, Plaza Mariano Boedo (Matías) = 1 1/4 km. Ubicalos en la recta numérica.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Quién vive más lejos del colegio?",
+          "respuesta": "Matías (1 1/4 km = 5/4 = 1.25 km). Arturo: 1/2 = 0.5 km, Camila: 3/4 = 0.75 km, Matías: 1 1/4 = 1.25 km."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Ordená las distancias de menor a mayor.",
+          "respuesta": "1/2 < 3/4 < 1 1/4 (con denominador común 4: 2/4 < 3/4 < 5/4)"
+        }
+      ]
+    },
+    {
+      "id": "punto_s_recta",
+      "tipo": "completar",
+      "consigna": "En la recta numérica, el punto S es el punto medio entre 1/3 y 1. ¿A qué fracción irreducible corresponde S?",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Calculá el punto medio entre 1/3 y 1.",
+          "respuesta": "2/3 (punto medio = (1/3 + 1) ÷ 2 = (1/3 + 3/3) ÷ 2 = (4/3) ÷ 2 = 4/6 = 2/3)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Es irreducible 2/3?",
+          "respuesta": "Sí. 2 y 3 son coprimos (su único divisor común es 1)."
+        }
+      ]
+    },
+    {
+      "id": "letras_w_m_h_recta",
+      "tipo": "completar",
+      "consigna": "En una recta numérica, las letras w, m y h representan fracciones. w está entre 0 y 1/2, m está en 3/4, h está en 1 y 1/3.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Si w está en la mitad entre 0 y 1/2, ¿qué fracción es w?",
+          "respuesta": "1/4 (punto medio entre 0 y 1/2 = (0 + 1/2) ÷ 2 = 1/2 ÷ 2 = 1/4)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Expresá h = 1 1/3 como fracción impropia e irreducible.",
+          "respuesta": "4/3. Ya es irreducible (4 y 3 son coprimos)."
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Ordená w, m y h de menor a mayor.",
+          "respuesta": "1/4 < 3/4 < 4/3 (w < m < h). w=1/4, m=3/4, h=1 1/3=4/3."
+        }
+      ]
+    },
+    {
+      "id": "recta_numerica_fracciones",
+      "tipo": "recta_numerica",
+      "consigna": "Representá en la recta numérica y ordená: 1/3, 3/2 y 7/6.",
+      "marcas": [
+        {
+          "etiqueta_inferior": "0"
+        },
+        {
+          "etiqueta_inferior": "1/2"
+        },
+        {
+          "etiqueta_inferior": "1"
+        },
+        {
+          "etiqueta_inferior": "3/2"
+        },
+        {
+          "etiqueta_inferior": "2"
+        }
+      ],
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Expresá las 3 fracciones con denominador 6.",
+          "respuesta": "1/3 = 2/6, 3/2 = 9/6, 7/6 = 7/6"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Ordenalas de menor a mayor.",
+          "respuesta": "1/3 < 7/6 < 3/2 (en la recta: 2/6 < 7/6 < 9/6). 1/3 < 1, 7/6 > 1, 3/2 > 1."
+        }
+      ]
     }
   ],
   "metodo": {
@@ -437,7 +536,11 @@
         "suma_igual_denominador_recta",
         "resta_igual_denominador",
         "suma_distinto_denominador",
-        "resta_distinto_denominador"
+        "resta_distinto_denominador",
+        "ecobici_recta",
+        "punto_s_recta",
+        "letras_w_m_h_recta",
+        "recta_numerica_fracciones"
       ]
     },
     "ponerse_a_prueba": {
