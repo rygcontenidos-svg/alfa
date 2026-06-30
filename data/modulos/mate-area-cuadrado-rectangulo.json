@@ -3,7 +3,9 @@
   "materia": "matematica",
   "titulo": "Área del cuadrado y del rectángulo. Perímetros y áreas",
   "descripcion": "Área en cuadrícula. Área del cuadrado y del rectángulo. Relación entre perímetro y área. Figuras compuestas: sumar y restar áreas. Problemas con expresiones algebraicas.",
-  "textos_ids": ["mate-calentamiento-area"],
+  "textos_ids": [
+    "mate-calentamiento-area"
+  ],
   "estado": "completo",
   "ejercicios": [
     {
@@ -14,9 +16,21 @@
         "tipo": "cuadricula",
         "celda": 36,
         "grilla": [
-          ["#b8d4f0", "#b8d4f0", "#b8d4f0"],
-          ["#b8d4f0", "#b8d4f0", "#b8d4f0"],
-          ["#b8d4f0", "#b8d4f0", "#b8d4f0"]
+          [
+            "#b8d4f0",
+            "#b8d4f0",
+            "#b8d4f0"
+          ],
+          [
+            "#b8d4f0",
+            "#b8d4f0",
+            "#b8d4f0"
+          ],
+          [
+            "#b8d4f0",
+            "#b8d4f0",
+            "#b8d4f0"
+          ]
         ]
       },
       "items": [
@@ -42,13 +56,38 @@
         "tipo": "cuadricula",
         "celda": 32,
         "grilla": [
-          ["#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0"],
-          ["#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0"],
-          ["#f5d0b0", "#f5d0b0", "#f5d0b0", "#f5d0b0"]
+          [
+            "#f5d0b0",
+            "#f5d0b0",
+            "#f5d0b0",
+            "#f5d0b0"
+          ],
+          [
+            "#f5d0b0",
+            "#f5d0b0",
+            "#f5d0b0",
+            "#f5d0b0"
+          ],
+          [
+            "#f5d0b0",
+            "#f5d0b0",
+            "#f5d0b0",
+            "#f5d0b0"
+          ]
         ],
         "medidas": [
-          { "lado": "arriba", "desde": 0, "hasta": 4, "texto": "4 cm" },
-          { "lado": "derecha", "desde": 0, "hasta": 3, "texto": "3 cm" }
+          {
+            "lado": "arriba",
+            "desde": 0,
+            "hasta": 4,
+            "texto": "4 cm"
+          },
+          {
+            "lado": "derecha",
+            "desde": 0,
+            "hasta": 3,
+            "texto": "3 cm"
+          }
         ]
       },
       "items": [
@@ -77,19 +116,9 @@
       "tipo": "completar",
       "consigna": "En la cuadrícula se dibujaron dos figuras de color verde y dos de color violeta, usando en cada una 10 cuadrados de 1 cm de lado. (Abajo: la figura verde alargada y la figura verde compacta).",
       "figura": {
-        "tipo": "cuadricula",
-        "celda": 24,
-        "grilla": [
-          ["#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", "#a8d8a8", null, null, "#c8b8d8", "#c8b8d8"],
-          [null, null, null, null, null, null, null, null, null, null, null, null, "#c8b8d8", "#c8b8d8"],
-          [null, null, null, null, null, null, null, null, null, null, null, null, "#c8b8d8", "#c8b8d8"],
-          [null, null, null, null, null, null, null, null, null, null, null, null, "#c8b8d8", "#c8b8d8"],
-          [null, null, null, null, null, null, null, null, null, null, null, null, "#c8b8d8", "#c8b8d8"]
-        ],
-        "etiquetas": [
-          { "fila": 0, "col": 4, "texto": "Verde alargada", "pos": "arriba" },
-          { "fila": 0, "col": 13, "texto": "Violeta compacta", "pos": "arriba" }
-        ]
+        "tipo": "imagen",
+        "src": "/figuras/clase6-practica-ej3.png",
+        "alt": "Figuras con 10 cuadrados de 1 cm en cuadricula"
       },
       "items": [
         {
@@ -120,16 +149,116 @@
         "tipo": "cuadricula",
         "celda": 24,
         "grilla": [
-          ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0"],
-          ["#b8d4f0", null, null, null, null, null, null, null, "#b8d4f0", "#b8d4f0", null, null, null, "#b8d4f0", null, "#b8d4f0"],
-          ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, null, null, null, null, null, null, null, "#b8d4f0", null, "#b8d4f0"],
-          ["#b8d4f0", null, null, null, null, null, null, null, null, null, null, null, null, "#b8d4f0", null, "#b8d4f0"],
-          ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, null, null, null, null, null, null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0"]
+          [
+            "#b8d4f0",
+            "#b8d4f0",
+            "#b8d4f0",
+            null,
+            null,
+            null,
+            "#b8d4f0",
+            "#b8d4f0",
+            "#b8d4f0",
+            "#b8d4f0",
+            "#b8d4f0",
+            null,
+            null,
+            "#b8d4f0",
+            "#b8d4f0",
+            "#b8d4f0"
+          ],
+          [
+            "#b8d4f0",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "#b8d4f0",
+            "#b8d4f0",
+            null,
+            null,
+            null,
+            "#b8d4f0",
+            null,
+            "#b8d4f0"
+          ],
+          [
+            "#b8d4f0",
+            "#b8d4f0",
+            "#b8d4f0",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "#b8d4f0",
+            null,
+            "#b8d4f0"
+          ],
+          [
+            "#b8d4f0",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "#b8d4f0",
+            null,
+            "#b8d4f0"
+          ],
+          [
+            "#b8d4f0",
+            "#b8d4f0",
+            "#b8d4f0",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "#b8d4f0",
+            "#b8d4f0",
+            "#b8d4f0"
+          ]
         ],
         "etiquetas": [
-          { "fila": 5, "col": 1, "texto": "E · 11 fichas · 22 lados", "pos": "abajo" },
-          { "fila": 5, "col": 8, "texto": "T · 7 fichas · 14 lados", "pos": "abajo" },
-          { "fila": 5, "col": 14, "texto": "O · 12 fichas", "pos": "abajo" }
+          {
+            "fila": 5,
+            "col": 1,
+            "texto": "E · 11 fichas · 22 lados",
+            "pos": "abajo"
+          },
+          {
+            "fila": 5,
+            "col": 8,
+            "texto": "T · 7 fichas · 14 lados",
+            "pos": "abajo"
+          },
+          {
+            "fila": 5,
+            "col": 14,
+            "texto": "O · 12 fichas",
+            "pos": "abajo"
+          }
         ]
       },
       "items": [
@@ -330,15 +459,82 @@
         "tipo": "cuadricula",
         "celda": 28,
         "grilla": [
-          ["#bbb", "#bbb", null, null, "#bbb", "#bbb", "#bbb", null, null, null, null, "#bbb"],
-          ["#bbb", null, null, null, "#bbb", "#bbb", "#bbb", null, null, "#bbb", "#bbb", "#bbb"],
-          ["#bbb", "#bbb", "#bbb", null, "#bbb", "#bbb", "#bbb", null, null, null, "#bbb", null],
-          ["#bbb", "#bbb", "#bbb", null, null, null, null, null, null, null, null, null]
+          [
+            "#bbb",
+            "#bbb",
+            null,
+            null,
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            null,
+            null,
+            null,
+            null,
+            "#bbb"
+          ],
+          [
+            "#bbb",
+            null,
+            null,
+            null,
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            null,
+            null,
+            "#bbb",
+            "#bbb",
+            "#bbb"
+          ],
+          [
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            null,
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            null,
+            null,
+            null,
+            "#bbb",
+            null
+          ],
+          [
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
         ],
         "etiquetas": [
-          { "fila": 3, "col": 1, "texto": "Fig. 1 (L)", "pos": "abajo" },
-          { "fila": 3, "col": 5, "texto": "Fig. 2 (2×3)", "pos": "abajo" },
-          { "fila": 3, "col": 10, "texto": "Fig. 3 (T)", "pos": "abajo" }
+          {
+            "fila": 3,
+            "col": 1,
+            "texto": "Fig. 1 (L)",
+            "pos": "abajo"
+          },
+          {
+            "fila": 3,
+            "col": 5,
+            "texto": "Fig. 2 (2×3)",
+            "pos": "abajo"
+          },
+          {
+            "fila": 3,
+            "col": 10,
+            "texto": "Fig. 3 (T)",
+            "pos": "abajo"
+          }
         ]
       },
       "items": [
@@ -395,17 +591,97 @@
         "tipo": "cuadricula",
         "celda": 18,
         "grilla": [
-          ["#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", null, null],
-          ["#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", null, null],
-          ["#bbb", "#bbb", "#fff", "#fff", "#fff", "#bbb", "#bbb", null, null],
-          ["#bbb", "#bbb", "#fff", "#fff", "#fff", "#bbb", "#bbb", null, null],
-          ["#bbb", "#bbb", "#fff", "#fff", "#fff", "#bbb", "#bbb", "#bbb", "#bbb"],
-          ["#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb"],
-          ["#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb", "#bbb"]
+          [
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            null,
+            null
+          ],
+          [
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            null,
+            null
+          ],
+          [
+            "#bbb",
+            "#bbb",
+            "#fff",
+            "#fff",
+            "#fff",
+            "#bbb",
+            "#bbb",
+            null,
+            null
+          ],
+          [
+            "#bbb",
+            "#bbb",
+            "#fff",
+            "#fff",
+            "#fff",
+            "#bbb",
+            "#bbb",
+            null,
+            null
+          ],
+          [
+            "#bbb",
+            "#bbb",
+            "#fff",
+            "#fff",
+            "#fff",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb"
+          ],
+          [
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb"
+          ],
+          [
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb",
+            "#bbb"
+          ]
         ],
         "etiquetas": [
-          { "fila": 1, "col": 8, "texto": "Cuadrado 7", "pos": "derecha" },
-          { "fila": 4, "col": 8, "texto": "Cuadrado 5", "pos": "derecha" }
+          {
+            "fila": 1,
+            "col": 8,
+            "texto": "Cuadrado 7",
+            "pos": "derecha"
+          },
+          {
+            "fila": 4,
+            "col": 8,
+            "texto": "Cuadrado 5",
+            "pos": "derecha"
+          }
         ]
       },
       "items": [
@@ -445,7 +721,9 @@
   ],
   "metodo": {
     "calentamiento": {
-      "textos_ids": ["mate-calentamiento-area"]
+      "textos_ids": [
+        "mate-calentamiento-area"
+      ]
     },
     "entender": {
       "diapositivas": [
@@ -468,8 +746,14 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "📌", "texto": "Perímetro: mide el contorno → unidades lineales (cm, m)." },
-                { "icono": "📌", "texto": "Área: mide la superficie → unidades cuadradas (cm², m²)." }
+                {
+                  "icono": "📌",
+                  "texto": "Perímetro: mide el contorno → unidades lineales (cm, m)."
+                },
+                {
+                  "icono": "📌",
+                  "texto": "Área: mide la superficie → unidades cuadradas (cm², m²)."
+                }
               ]
             }
           ]
@@ -531,8 +815,24 @@
             {
               "tipo": "comparativa",
               "columnas": [
-                { "titulo": "Perímetro", "items": ["Mide el contorno", "Unidad: cm", "Se suman los lados", "Si duplico base y altura: se duplica"] },
-                { "titulo": "Área", "items": ["Mide la superficie", "Unidad: cm²", "Se multiplica base × altura", "Si duplico base y altura: se cuadruplica"] }
+                {
+                  "titulo": "Perímetro",
+                  "items": [
+                    "Mide el contorno",
+                    "Unidad: cm",
+                    "Se suman los lados",
+                    "Si duplico base y altura: se duplica"
+                  ]
+                },
+                {
+                  "titulo": "Área",
+                  "items": [
+                    "Mide la superficie",
+                    "Unidad: cm²",
+                    "Se multiplica base × altura",
+                    "Si duplico base y altura: se cuadruplica"
+                  ]
+                }
               ]
             },
             {
@@ -576,10 +876,22 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "▶", "texto": "No confundas cm (perímetro) con cm² (área). Son magnitudes distintas." },
-                { "icono": "▶", "texto": "Al duplicar ambas dimensiones, el perímetro se duplica pero el área se cuadruplica." },
-                { "icono": "▶", "texto": "En una cuadrícula, el área es la cantidad de cuadraditos. El perímetro son los lados del contorno." },
-                { "icono": "▶", "texto": "Para figuras compuestas: dibujá, identificá cada pieza, calculá áreas por separado y sumalas." }
+                {
+                  "icono": "▶",
+                  "texto": "No confundas cm (perímetro) con cm² (área). Son magnitudes distintas."
+                },
+                {
+                  "icono": "▶",
+                  "texto": "Al duplicar ambas dimensiones, el perímetro se duplica pero el área se cuadruplica."
+                },
+                {
+                  "icono": "▶",
+                  "texto": "En una cuadrícula, el área es la cantidad de cuadraditos. El perímetro son los lados del contorno."
+                },
+                {
+                  "icono": "▶",
+                  "texto": "Para figuras compuestas: dibujá, identificá cada pieza, calculá áreas por separado y sumalas."
+                }
               ]
             }
           ]
