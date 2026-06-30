@@ -346,6 +346,42 @@
           "respuesta": "6 triángulos (la unidad = 3/3 = 3 tercios. Cada tercio = 2 triángulos. Total = 3 × 2 = 6 triángulos. Verificación: 16 triángulos = 16/6 = 8/3 de la unidad ✓)"
         }
       ]
+    },
+    {
+      "id": "unidad_sombreada_abcd",
+      "tipo": "completar",
+      "consigna": "Considerá la siguiente figura (recuadro de la izquierda) como UNIDAD. ¿Qué fracción de la unidad representa la región sombreada en cada uno de los 4 casos (a, b, c, d) de la derecha?",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase7-ejercicios-a-d.png",
+        "alt": "Unidad base y 4 casos con region sombreada (a, b, c, d)"
+      },
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Caso a: ¿qué fracción está sombreada?",
+          "respuesta": "Pendiente - verificar con la imagen"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Caso b: ¿qué fracción está sombreada?",
+          "respuesta": "Pendiente - verificar con la imagen"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Caso c: ¿qué fracción está sombreada?",
+          "respuesta": "Pendiente - verificar con la imagen"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "Caso d: ¿qué fracción está sombreada?",
+          "respuesta": "Pendiente - verificar con la imagen"
+        }
+      ]
     }
   ],
   "metodo": {
@@ -574,7 +610,8 @@
         "receta_masitas_18",
         "alumnos_36_varones_mujeres",
         "unidad_dada_2_5",
-        "unidad_dada_8_3_triangulos"
+        "unidad_dada_8_3_triangulos",
+        "unidad_sombreada_abcd"
       ],
       "duracion_min": 30
     },
