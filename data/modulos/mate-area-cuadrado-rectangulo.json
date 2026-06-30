@@ -348,107 +348,84 @@
     {
       "id": "figuras_grises_congruentes",
       "tipo": "completar",
-      "consigna": "Tres figuras están formadas por cuadrados grises congruentes. La figura 1 tiene forma de L (6 cuadrados), la figura 2 es un rectángulo de 2×3 (6 cuadrados), la figura 3 tiene forma de T (5 cuadrados). Compará perímetros y áreas usando >, < o =.",
+      "consigna": "Las siguientes figuras están formadas por cuadrados grises congruentes. Considerá un cuadrado gris como unidad de medida para el área y el lado de un cuadrado gris como unidad para el perímetro.",
       "figura": {
-        "tipo": "cuadricula",
-        "celda": 28,
-        "grilla": [
-          [
-            "#bbb",
-            "#bbb",
-            null,
-            null,
-            "#bbb",
-            "#bbb",
-            "#bbb",
-            null,
-            null,
-            null,
-            null,
-            "#bbb"
-          ],
-          [
-            "#bbb",
-            null,
-            null,
-            null,
-            "#bbb",
-            "#bbb",
-            "#bbb",
-            null,
-            null,
-            "#bbb",
-            "#bbb",
-            "#bbb"
-          ],
-          [
-            "#bbb",
-            "#bbb",
-            "#bbb",
-            null,
-            "#bbb",
-            "#bbb",
-            "#bbb",
-            null,
-            null,
-            null,
-            "#bbb",
-            null
-          ],
-          [
-            "#bbb",
-            "#bbb",
-            "#bbb",
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
-          ]
-        ],
-        "etiquetas": [
-          {
-            "fila": 3,
-            "col": 1,
-            "texto": "Fig. 1 (L)",
-            "pos": "abajo"
-          },
-          {
-            "fila": 3,
-            "col": 5,
-            "texto": "Fig. 2 (2×3)",
-            "pos": "abajo"
-          },
-          {
-            "fila": 3,
-            "col": 10,
-            "texto": "Fig. 3 (T)",
-            "pos": "abajo"
-          }
-        ]
+        "tipo": "imagen",
+        "src": "/figuras/clase6-poneteaprueba-ej5.png",
+        "alt": "Figuras 1, 2 y 3 formadas por cuadrados grises congruentes"
       },
       "items": [
         {
           "id": "a",
-          "subtipo": "texto",
-          "pregunta": "Perímetro Figura 1 ___ Perímetro Figura 2",
-          "respuesta": "> (Figura 1 en L tiene más lados en el contorno que el rectángulo 2×3 de la Figura 2)"
+          "subtipo": "select",
+          "pregunta": "Perímetro de la Figura 1 ___ Perímetro de la Figura 2",
+          "respuesta": ">",
+          "opciones": [
+            ">",
+            "<",
+            "="
+          ],
+          "explicacion": "La Figura 1 (L) tiene más lados en el contorno que la Figura 2 (rectángulo 2×3)"
         },
         {
           "id": "b",
-          "subtipo": "texto",
-          "pregunta": "Área Figura 2 ___ Área Figura 3",
-          "respuesta": "> (Figura 2 tiene 6 cuadrados, Figura 3 tiene 5 cuadrados. 6 > 5)"
+          "subtipo": "select",
+          "pregunta": "Área de la Figura 2 ___ Área de la Figura 3",
+          "respuesta": ">",
+          "opciones": [
+            ">",
+            "<",
+            "="
+          ],
+          "explicacion": "Figura 2 tiene 6 cuadrados y Figura 3 tiene 5"
         },
         {
           "id": "c",
-          "subtipo": "texto",
-          "pregunta": "Área Figura 3 ___ Área Figura 1",
-          "respuesta": "< (Figura 3 tiene 5 cuadrados, Figura 1 tiene 6 cuadrados. 5 < 6)"
+          "subtipo": "select",
+          "pregunta": "Perímetro de la Figura 3 ___ Perímetro de la Figura 1",
+          "respuesta": ">",
+          "opciones": [
+            ">",
+            "<",
+            "="
+          ],
+          "explicacion": "La Figura 3 (T) tiene más lados en el contorno que la Figura 1 (L)"
+        },
+        {
+          "id": "d",
+          "subtipo": "select",
+          "pregunta": "Área de la Figura 3 ___ Área de la Figura 1",
+          "respuesta": "<",
+          "opciones": [
+            ">",
+            "<",
+            "="
+          ],
+          "explicacion": "Figura 3 tiene 5 cuadrados y Figura 1 tiene 6"
+        },
+        {
+          "id": "e",
+          "subtipo": "select",
+          "pregunta": "Perímetro de la Figura 2 ___ Perímetro de la Figura 3",
+          "respuesta": "<",
+          "opciones": [
+            ">",
+            "<",
+            "="
+          ],
+          "explicacion": "El rectángulo 2×3 tiene menos contorno que la T"
+        },
+        {
+          "id": "f",
+          "subtipo": "select",
+          "pregunta": "Área de la Figura 1 ___ Área de la Figura 2",
+          "respuesta": "=",
+          "opciones": [
+            ">",
+            "<",
+            "="
+          ],
+          "explicacion": "Ambas figuras tienen 6 cuadrados grises, misma área"
         }
       ]
     },
