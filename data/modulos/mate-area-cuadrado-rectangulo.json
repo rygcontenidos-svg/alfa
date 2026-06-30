@@ -636,6 +636,30 @@
           "respuesta": "12 cm (la suma de los 4 lados visibles de los equiláteros es 4 × 4 = 16 cm. El perímetro total de la figura es 36 cm. Los 4 lados congruentes de los isósceles suman 36 – 16 = 20 cm. Cada lado congruente = 20 ÷ 4 = 5 cm. Perímetro del isósceles = 5 + 5 + 2 = 12 cm)"
         }
       ]
+    },
+    {
+      "id": "dos_cuadrados_cd",
+      "tipo": "completar",
+      "consigna": "Dos cuadrados congruentes. |CD| es la cuarta parte de la medida del lado de cada cuadrado y |CD| = 6 cm.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase6-practica-ej9.png",
+        "alt": "Dos cuadrados congruentes con segmento CD"
+      },
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuánto mide el lado de cada cuadrado? (CD = 6 cm es 1/4 del lado)",
+          "respuesta": "24 cm (si CD es la cuarta parte del lado → lado = 4 × 6 cm = 24 cm)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el perímetro de la figura?",
+          "respuesta": "180 cm (6 lados completos de 24 cm + 2 segmentos de 24–6=18 cm = 6×24 + 2×18 = 144 + 36 = 180 cm)"
+        }
+      ]
     }
   ],
   "metodo": {
@@ -862,7 +886,8 @@
         "rectangulo_23x15_cuadrado",
         "rectangulo_b_entre_35_y_55",
         "tarjetas_cumple",
-        "rectangulo_triangulos_isosceles"
+        "rectangulo_triangulos_isosceles",
+        "dos_cuadrados_cd"
       ]
     },
     "ponerse_a_prueba": {
