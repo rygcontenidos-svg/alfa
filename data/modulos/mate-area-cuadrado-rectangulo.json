@@ -359,13 +359,13 @@
           "id": "a",
           "subtipo": "select",
           "pregunta": "Perímetro de la Figura 1 ___ Perímetro de la Figura 2",
-          "respuesta": "=",
+          "respuesta": ">",
           "opciones": [
             ">",
             "<",
             "="
           ],
-          "explicacion": "Ambas tienen 24 lados de contorno. Tienen el mismo perímetro."
+          "explicacion": "Figura A es más alargada que B, tiene mayor perímetro."
         },
         {
           "id": "b",
@@ -377,19 +377,19 @@
             "<",
             "="
           ],
-          "explicacion": "Las tres figuras tienen 20 cuadrados cada una. Misma área."
+          "explicacion": "Las tres tienen 20 cuadrados. Misma área."
         },
         {
           "id": "c",
           "subtipo": "select",
           "pregunta": "Perímetro de la Figura 3 ___ Perímetro de la Figura 1",
-          "respuesta": "=",
+          "respuesta": "<",
           "opciones": [
             ">",
             "<",
             "="
           ],
-          "explicacion": "Las tres figuras tienen perímetro 24 unidades."
+          "explicacion": "Figura C es más compacta que A, menor perímetro."
         },
         {
           "id": "d",
@@ -401,19 +401,19 @@
             "<",
             "="
           ],
-          "explicacion": "Todas tienen 20 cuadrados grises. Misma área."
+          "explicacion": "Las tres tienen 20 cuadrados. Misma área."
         },
         {
           "id": "e",
           "subtipo": "select",
           "pregunta": "Perímetro de la Figura 2 ___ Perímetro de la Figura 3",
-          "respuesta": "=",
+          "respuesta": "<",
           "opciones": [
             ">",
             "<",
             "="
           ],
-          "explicacion": "Las tres figuras tienen el mismo perímetro de 24 lados."
+          "explicacion": "Figura B (4×5) es la más compacta, menor perímetro que C."
         },
         {
           "id": "f",
@@ -425,7 +425,7 @@
             "<",
             "="
           ],
-          "explicacion": "Formadas por la misma cantidad de cuadrados (20). Misma área."
+          "explicacion": "Todas tienen 20 cuadrados. Áreas iguales."
         }
       ]
     },
@@ -640,6 +640,36 @@
           "subtipo": "texto",
           "pregunta": "¿Cuál es el perímetro de la figura?",
           "respuesta": "180 cm (6 lados completos de 24 cm + 2 segmentos de 24–6=18 cm = 6×24 + 2×18 = 144 + 36 = 180 cm)"
+        }
+      ]
+    },
+    {
+      "id": "rectangulos_cuadrados_distinto_tamano",
+      "tipo": "completar",
+      "consigna": "La figura está formada por dos rectángulos congruentes y dos cuadrados de distinto tamaño. El lado del cuadrado menor es igual al lado menor de cada rectángulo. El perímetro del cuadrado menor es 24 cm.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase6-poneteaprueba-ej6.png",
+        "alt": "Dos rectangulos congruentes y dos cuadrados de distinto tamano"
+      },
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuánto mide el lado del cuadrado menor? (perímetro = 24 cm)",
+          "respuesta": "6 cm (24 ÷ 4 = 6 cm. Este es también el lado menor de cada rectángulo)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Calculá, en centímetros, el perímetro de la figura.",
+          "respuesta": "Consultar la figura para verificar"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el área de la figura en centímetros cuadrados?",
+          "respuesta": "Consultar la figura para verificar"
         }
       ]
     }
@@ -878,7 +908,8 @@
         "cuadrados_congruentes_cd",
         "rectangulo_2a_h_tabla",
         "tabla_perimetro_24",
-        "figuras_grises_congruentes"
+        "figuras_grises_congruentes",
+        "rectangulos_cuadrados_distinto_tamano"
       ],
       "duracion_min": 45
     },
