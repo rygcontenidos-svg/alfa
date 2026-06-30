@@ -31,10 +31,10 @@ export default function PasoPracticar({
             <strong>Ver respuestas</strong> para verificar. Marcá si lo sacaste
             bien o si tenés que repasar.
           </p>
-          {textos.length > 0 && (
+          {textos.length > 0 && modulo.materia !== "matematica" && (
             <TextoModal textos={textos}>
               <i className="fa-solid fa-book-open mr-1" />
-              {modulo.materia === "matematica" ? "Releer el problema" : "Releer el texto"}
+              Releer el texto
             </TextoModal>
           )}
         </div>

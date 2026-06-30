@@ -100,7 +100,7 @@ export default function PasoPonerseAPrueba({
           )}
         </span>
         <div className="flex items-center gap-3">
-          {textos.length > 0 && (
+          {textos.length > 0 && modulo.materia !== "matematica" && (
             <TextoModal textos={textos}>
               <span className="text-white">
                 <i className="fa-solid fa-book-open mr-1" />
