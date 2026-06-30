@@ -318,25 +318,30 @@
     {
       "id": "dos_cuadrados_verde_azul",
       "tipo": "completar",
-      "consigna": "Dos cuadrados verdes congruentes y un cuadrado azul. Per\u00EDmetro del cuadrado azul: 16 cm. El lado de cada cuadrado verde es el doble del lado del azul disminuido en 3 cm.",
+      "consigna": "La figura est\u00E1 formada por dos cuadrados congruentes de color verde y un cuadrado azul. El per\u00EDmetro del cuadrado azul es 16 cm. El lado de cada cuadrado verde es el doble del lado del azul disminuido en 3 cm.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase5-poneteaprueba-ej6.png",
+        "alt": "Dos cuadrados verdes congruentes y un cuadrado azul"
+      },
       "items": [
         {
           "id": "a",
           "subtipo": "texto",
           "pregunta": "\u00BFCu\u00E1nto mide el lado del cuadrado azul?",
-          "respuesta": "4 cm"
+          "respuesta": "4 cm (el per\u00EDmetro del cuadrado azul es 16 cm. Como tiene 4 lados iguales: 16 \u00F7 4 = 4 cm)"
         },
         {
           "id": "b",
           "subtipo": "texto",
-          "pregunta": "\u00BFCu\u00E1nto mide el lado de cada cuadrado verde? (2 \u00D7 4 \u2013 3)",
-          "respuesta": "5 cm"
+          "pregunta": "\u00BFCu\u00E1nto mide el lado de cada cuadrado verde? (2 \u00D7 lado azul \u2013 3)",
+          "respuesta": "5 cm (el lado de cada cuadrado verde = 2 \u00D7 4 \u2013 3 = 8 \u2013 3 = 5 cm)"
         },
         {
           "id": "c",
           "subtipo": "texto",
-          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura?",
-          "respuesta": "38 cm"
+          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura? (sum\u00E1 los lados del contorno exterior, sin contar los lados que quedan pegados entre los cuadrados)",
+          "respuesta": "38 cm (el contorno de la figura: borde superior = 5 + 4 + 5 = 14 cm, borde derecho = 5 cm, borde inferior = 14 cm, borde izquierdo = 5 cm. Total: 14 + 5 + 14 + 5 = 38 cm)"
         }
       ]
     },
@@ -561,7 +566,8 @@
         "expresion_perimetro",
         "figura_p_igual_2",
         "rectangulo_disminuye_7",
-        "triangulos_cuadrados_quitados"
+        "triangulos_cuadrados_quitados",
+        "dos_cuadrados_verde_azul"
       ],
       "duracion_min": 30
     },
