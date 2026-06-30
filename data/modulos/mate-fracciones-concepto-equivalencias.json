@@ -382,6 +382,24 @@
           "respuesta": "Pendiente - verificar con la imagen"
         }
       ]
+    },
+    {
+      "id": "tercera_parte_sombreada",
+      "tipo": "completar",
+      "consigna": "En cada ítem, considerá la figura como unidad y determiná en cuál o cuáles de ellas la zona sombreada representa su tercera parte (1/3).",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase7-poneteaprueba-tercios.png",
+        "alt": "Figuras con zona sombreada para identificar tercios"
+      },
+      "items": [
+        {
+          "id": "respuesta",
+          "subtipo": "texto",
+          "pregunta": "¿En cuál o cuáles figuras la zona sombreada es 1/3 de la unidad?",
+          "respuesta": "Pendiente - verificar con la imagen"
+        }
+      ]
     }
   ],
   "metodo": {
@@ -611,7 +629,8 @@
         "alumnos_36_varones_mujeres",
         "unidad_dada_2_5",
         "unidad_dada_8_3_triangulos",
-        "unidad_sombreada_abcd"
+        "unidad_sombreada_abcd",
+        "tercera_parte_sombreada"
       ],
       "duracion_min": 30
     },
