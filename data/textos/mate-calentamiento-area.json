@@ -1,0 +1,10 @@
+{
+  "id": "mate-calentamiento-area",
+  "titulo": "Problema disparador: la cuadrícula",
+  "autor": "CIEEM 2026",
+  "genero": "otro",
+  "clase": "Clase 6",
+  "cuerpo": "Sobre una cuadrícula se dibujaron figuras usando cuadrados de 1 cm de lado. Cada cuadrado de 1 cm de lado representa un centímetro cuadrado (cm²), una de las unidades utilizadas para medir superficies.\n\nLa figura A tiene 3 cuadrados de largo y 2 de ancho. La figura B tiene 4 cuadrados de largo y 1 de ancho.\n\na) ¿Cuántos cm² de superficie tiene la figura A?\nb) ¿Cuánto mide el perímetro de la figura A?\nc) ¿La figura A y la figura B tienen el mismo perímetro?\n\nPista: el área se calcula contando los cuadraditos que forman la figura. El perímetro se calcula contando los lados de los cuadraditos que forman el contorno.",
+  "solucion": "a) La figura A está formada por 3 × 2 = 6 cuadrados de 1 cm de lado. Por lo tanto, su área es de 6 cm².\nb) Perímetro de A = 3 + 2 + 3 + 2 = 10 cm. (O también: 2 × 3 + 2 × 2 = 10 cm).\nc) La figura B: perímetro = 4 + 1 + 4 + 1 = 10 cm. Tienen el mismo perímetro (10 cm) pero distinta área (A=6 cm², B=4 cm²). Esto muestra que figuras con igual perímetro pueden tener distinta área.",
+  "notas_al_pie": []
+}

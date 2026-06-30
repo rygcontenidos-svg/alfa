@@ -17,6 +17,7 @@ import mateDesigualdades from "@/data/modulos/mate-desigualdades-traduccion-rect
 import mateDivision from "@/data/modulos/mate-division-entera-multiplos-divisibilidad.json";
 import matePrimos from "@/data/modulos/mate-numeros-primos-compuestos-factorizacion.json";
 import matePerimetro from "@/data/modulos/mate-perimetro-cuadrado-rectangulo-triangulo.json";
+import mateArea from "@/data/modulos/mate-area-cuadrado-rectangulo.json";
 
 const MODULOS_JSON: Record<string, Modulo> = {
   "comunicacion-funciones-lenguaje":
@@ -53,6 +54,8 @@ const MODULOS_JSON: Record<string, Modulo> = {
     matePrimos as unknown as Modulo,
   "mate-perimetro-cuadrado-rectangulo-triangulo":
     matePerimetro as unknown as Modulo,
+  "mate-area-cuadrado-rectangulo":
+    mateArea as unknown as Modulo,
 };
 
 const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
@@ -193,6 +196,14 @@ const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
     titulo: "Perímetro del cuadrado, rectángulo y triángulo",
     descripcion:
       "Perímetro: definición y cálculo. Perímetro del cuadrado, rectángulo y triángulo. Perímetro de figuras compuestas. Problemas con cuadrícula.",
+    estado: "completo",
+  },
+  {
+    id: "mate-area-cuadrado-rectangulo",
+    materia: "matematica",
+    titulo: "Área del cuadrado y del rectángulo. Perímetros y áreas",
+    descripcion:
+      "Área en cuadrícula. Área del cuadrado (lado²) y del rectángulo (base × altura). Relación entre perímetro y área. Figuras compuestas: sumar y restar áreas. Problemas con expresiones algebraicas.",
     estado: "completo",
   },
 ];

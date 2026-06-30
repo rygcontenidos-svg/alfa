@@ -1,0 +1,584 @@
+{
+  "id": "mate-area-cuadrado-rectangulo",
+  "materia": "matematica",
+  "titulo": "Área del cuadrado y del rectángulo. Perímetros y áreas",
+  "descripcion": "Área en cuadrícula. Área del cuadrado y del rectángulo. Relación entre perímetro y área. Figuras compuestas: sumar y restar áreas. Problemas con expresiones algebraicas.",
+  "textos_ids": ["mate-calentamiento-area"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "cuadrado_p12",
+      "tipo": "completar",
+      "consigna": "Sobre una cuadrícula con cuadrados de 1 cm de lado se dibujó un cuadrado de 12 cm de perímetro.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuánto mide, en centímetros, el lado del cuadrado?",
+          "respuesta": "3 cm (los 4 lados del cuadrado son congruentes, entonces 12 cm ÷ 4 = 3 cm)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Calculá, en centímetros cuadrados, el área del cuadrado.",
+          "respuesta": "9 cm² (área = lado × lado = 3 cm × 3 cm = 9 cm². O contando: el cuadrado está formado por 9 cuadraditos de 1 cm²)"
+        }
+      ]
+    },
+    {
+      "id": "rectangulo_4x3",
+      "tipo": "completar",
+      "consigna": "En una cuadrícula con cuadrados de 1 cm de lado se dibuja un rectángulo de 4 cuadrados de base y 3 de altura.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es su perímetro expresado en centímetros?",
+          "respuesta": "14 cm (perímetro = 2 × base + 2 × altura = 2 × 4 cm + 2 × 3 cm = 8 cm + 6 cm = 14 cm)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Hallá el área del rectángulo en centímetros cuadrados.",
+          "respuesta": "12 cm² (el rectángulo tiene 4 × 3 = 12 cuadraditos de 1 cm²; área = base × altura = 4 cm × 3 cm = 12 cm²)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Si duplicamos la base y la altura (8×6), ¿también se duplica el perímetro? ¿Y el área?",
+          "respuesta": "Perímetro SÍ se duplica: 28 cm (el doble de 14). Área NO se duplica: 48 cm² (el cuádruple de 12). Al duplicar ambas dimensiones, el perímetro se duplica porque cada lado se duplica. Pero el área se multiplica por 4 porque (2×base)×(2×altura) = 4×(base×altura)."
+        }
+      ]
+    },
+    {
+      "id": "figuras_10_cuadrados",
+      "tipo": "completar",
+      "consigna": "En la cuadrícula se dibujaron dos figuras de color verde y dos de color violeta, usando en cada una 10 cuadrados de 1 cm de lado.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Las dos figuras de color verde tienen el mismo perímetro? Una tiene forma alargada (fila), la otra es compacta.",
+          "respuesta": "No. La figura alargada (fila de 10) tiene perímetro 22 cm. La compacta tiene perímetro 14 cm. Figuras con la misma cantidad de cuadrados pueden tener diferente perímetro según cómo estén distribuidas."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el área de las figuras de color verde en cm²?",
+          "respuesta": "10 cm² cada una (ambas están formadas por 10 cuadrados de 1 cm²; el área depende de la cantidad de cuadrados, no de la forma)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Las figuras violetas tienen perímetros de 14 cm y 18 cm. ¿Tienen igual área? ¿Por qué?",
+          "respuesta": "Sí, ambas tienen 10 cm² de área porque están formadas por 10 cuadrados de 1 cm² cada una. Esto muestra que figuras con distinto perímetro pueden tener la misma área."
+        }
+      ]
+    },
+    {
+      "id": "iniciales_e_o_t",
+      "tipo": "completar",
+      "consigna": "Emilia, Tedy y Otto arman las iniciales de sus nombres (E, T, O) con fichas planas cuadradas. La letra E usa 11 fichas, la O usa 12 fichas, la T usa 7 fichas. El contorno de la E tiene 22 lados de ficha, la T tiene 14 lados.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Calculá el perímetro de la E si el lado de cada ficha mide 7 cm.",
+          "respuesta": "154 cm (el contorno de la E está formado por 22 lados de ficha; perímetro = 22 × 7 cm = 154 cm)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Hallá el área de la O si cada ficha mide 5 cm de lado.",
+          "respuesta": "300 cm² (la O está formada por 12 fichas; área de cada ficha = 5 cm × 5 cm = 25 cm²; área total = 12 × 25 cm² = 300 cm²)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Si el perímetro de la T es 126 cm, ¿cuánto mide el lado de cada ficha de Tedy?",
+          "respuesta": "9 cm (el contorno de la T tiene 14 lados de ficha; 126 cm ÷ 14 = 9 cm por lado)"
+        }
+      ]
+    },
+    {
+      "id": "rectangulo_23x15_cuadrado",
+      "tipo": "completar",
+      "consigna": "Franco recortó un rectángulo de 23 cm de base y 15 cm de altura. Aylén recortó un cuadrado cuyo perímetro es igual al del rectángulo de Franco.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el perímetro del rectángulo de Franco?",
+          "respuesta": "76 cm (perímetro = 2 × 23 cm + 2 × 15 cm = 46 cm + 30 cm = 76 cm)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Cuánto mide el lado del cuadrado de Aylén?",
+          "respuesta": "19 cm (el cuadrado tiene el mismo perímetro que el rectángulo: 76 cm. Como el cuadrado tiene 4 lados iguales: 76 cm ÷ 4 = 19 cm)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el área del cuadrado de Aylén?",
+          "respuesta": "361 cm² (área del cuadrado = lado × lado = 19 cm × 19 cm = 361 cm²)"
+        }
+      ]
+    },
+    {
+      "id": "rectangulo_b_entre_35_y_55",
+      "tipo": "completar",
+      "consigna": "Un rectángulo tiene un lado que mide 6 cm y el otro lado mide b cm (b es un número natural). El área del rectángulo es mayor que 35 cm² pero no supera los 55 cm².",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Encontrá todos los posibles valores naturales de b.",
+          "respuesta": "6, 7, 8, 9 (área = 6 × b. Debe cumplir: 35 < 6b ≤ 55. Probando: b=5→30(no), b=6→36(sí), b=7→42(sí), b=8→48(sí), b=9→54(sí), b=10→60(no, supera 55))"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Si b es un número primo, ¿cuál es el área del rectángulo?",
+          "respuesta": "42 cm² (de los valores 6, 7, 8, 9, el único primo es 7. Área = 6 × 7 = 42 cm²)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el mayor perímetro posible?",
+          "respuesta": "30 cm (para que el perímetro sea máximo, b debe ser el mayor valor posible: b = 9. Perímetro = 2 × 6 + 2 × 9 = 12 + 18 = 30 cm)"
+        }
+      ]
+    },
+    {
+      "id": "tarjetas_cumple",
+      "tipo": "completar",
+      "consigna": "Graciela confecciona tarjetas rectangulares para su cumpleaños. Un lado mide el doble del otro y el lado mayor es de 22 cm.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el perímetro de cada tarjeta?",
+          "respuesta": "66 cm (lado mayor = 22 cm, lado menor = 22 ÷ 2 = 11 cm. Perímetro = 2 × 22 + 2 × 11 = 44 + 22 = 66 cm)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Si hace 12 tarjetas, ¿cuántos cm² de cartulina necesita?",
+          "respuesta": "2904 cm² (área de una tarjeta = 22 × 11 = 242 cm². Para 12 tarjetas: 242 × 12 = 2904 cm²)"
+        }
+      ]
+    },
+    {
+      "id": "figura_rectangulo_triangulos",
+      "tipo": "completar",
+      "consigna": "Una figura está formada por un rectángulo, dos triángulos equiláteros congruentes y dos triángulos isósceles congruentes. El perímetro de cada triángulo equilátero es 12 cm, el área del rectángulo es 8 cm² y el perímetro de la figura es 36 cm.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuánto mide cada lado de los triángulos equiláteros?",
+          "respuesta": "4 cm (perímetro del equilátero = 3 × lado = 12 cm → lado = 12 ÷ 3 = 4 cm)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Si dos lados del rectángulo coinciden con lados de los equiláteros (4 cm) y el área es 8 cm², ¿cuánto mide el otro lado del rectángulo?",
+          "respuesta": "2 cm (área = 4 cm × lado = 8 cm² → lado = 8 ÷ 4 = 2 cm. Este lado también es un lado de los triángulos isósceles)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el perímetro de cada triángulo isósceles?",
+          "respuesta": "12 cm (en el contorno de la figura hay 4 lados congruentes de los isósceles. La suma de los 4 lados de los equiláteros visibles es 4 × 4 = 16 cm. Perímetro total 36 cm → la suma de los 4 lados congruentes de los isósceles = 36 – 16 = 20 cm. Cada lado congruente = 20 ÷ 4 = 5 cm. Perímetro del isósceles = 5 + 5 + 2 = 12 cm)"
+        }
+      ]
+    },
+    {
+      "id": "cuadrados_congruentes_cd",
+      "tipo": "completar",
+      "consigna": "Una figura está formada por dos cuadrados congruentes. El segmento CD mide 6 cm y es la cuarta parte de la medida del lado de cada cuadrado.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuánto mide el lado de cada cuadrado?",
+          "respuesta": "24 cm (CD es la cuarta parte del lado → lado = 4 × 6 cm = 24 cm)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el perímetro de la figura? (6 lados completos de 24 cm + 2 segmentos de 24–6=18 cm)",
+          "respuesta": "180 cm (6 × 24 cm + 2 × 18 cm = 144 cm + 36 cm = 180 cm)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el área de la figura?",
+          "respuesta": "1152 cm² (área de cada cuadrado = 24 × 24 = 576 cm². Área total = 2 × 576 = 1152 cm²)"
+        }
+      ]
+    },
+    {
+      "id": "rectangulo_2a_h_tabla",
+      "tipo": "completar",
+      "consigna": "Un rectángulo tiene lados que miden 2a cm y h cm, con a y h números naturales. El perímetro es 20 cm.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuáles son los posibles valores de a y h? (Perímetro = 4a + 2h = 20)",
+          "respuesta": "(a=1, h=8), (a=2, h=6), (a=3, h=4), (a=4, h=2). Se obtiene probando valores: 4a+2h=20 → 2h=20–4a → h=10–2a. Como h debe ser natural: a=1→h=8, a=2→h=6, a=3→h=4, a=4→h=2. a=5→h=0(no válido)."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Si el área es 42 cm², ¿cuáles son los posibles valores de a y h? (Área = 2a × h = 42, o sea ah = 21)",
+          "respuesta": "(a=1, h=21), (a=21, h=1), (a=3, h=7), (a=7, h=3). Como a × h = 21, buscamos pares de divisores de 21: 1×21, 3×7, 7×3, 21×1."
+        }
+      ]
+    },
+    {
+      "id": "tabla_perimetro_24",
+      "tipo": "completar",
+      "consigna": "Completá la tabla con todos los rectángulos de lados naturales cuyo perímetro es 24 cm.",
+      "items": [
+        {
+          "id": "fila1",
+          "subtipo": "texto",
+          "pregunta": "Si base = 4 cm, ¿altura? ¿área?",
+          "respuesta": "Altura = 8 cm (24 – 2×4 = 16, 16÷2 = 8). Área = 32 cm² (4×8)"
+        },
+        {
+          "id": "fila2",
+          "subtipo": "texto",
+          "pregunta": "Si altura = 10 cm, ¿base? ¿área?",
+          "respuesta": "Base = 2 cm (24 – 2×10 = 4, 4÷2 = 2). Área = 20 cm² (2×10)"
+        },
+        {
+          "id": "fila3",
+          "subtipo": "texto",
+          "pregunta": "Si área = 35 cm², ¿base y altura posibles? (perímetro = 24 → base + altura = 12)",
+          "respuesta": "Base = 5 cm, altura = 7 cm (o viceversa). 5×7=35 y 5+7=12 → perímetro = 2×12 = 24 cm."
+        },
+        {
+          "id": "fila4",
+          "subtipo": "texto",
+          "pregunta": "Si base = 6 cm, ¿altura? ¿área?",
+          "respuesta": "Altura = 6 cm (24 – 2×6 = 12, 12÷2 = 6). Área = 36 cm² (6×6, es un cuadrado)"
+        }
+      ]
+    },
+    {
+      "id": "figuras_grises_congruentes",
+      "tipo": "completar",
+      "consigna": "Tres figuras están formadas por cuadrados grises congruentes. La figura 1 tiene 6 cuadrados en forma de L, la figura 2 es un rectángulo de 2×3 (6 cuadrados), la figura 3 tiene 5 cuadrados en forma de T. Compará perímetros y áreas usando >, < o =.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Perímetro Figura 1 ___ Perímetro Figura 2",
+          "respuesta": "> (Figura 1 en L tiene más lados en el contorno que el rectángulo 2×3 de la Figura 2)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Área Figura 2 ___ Área Figura 3",
+          "respuesta": "> (Figura 2 tiene 6 cuadrados, Figura 3 tiene 5 cuadrados. 6 > 5)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Área Figura 3 ___ Área Figura 1",
+          "respuesta": "< (Figura 3 tiene 5 cuadrados, Figura 1 tiene 6 cuadrados. 5 < 6)"
+        }
+      ]
+    },
+    {
+      "id": "figura_rectangulos_cuadrados_diferentes",
+      "tipo": "completar",
+      "consigna": "Una figura está formada por dos rectángulos congruentes y dos cuadrados de distinto tamaño. El lado del cuadrado menor es igual al lado menor de cada rectángulo. El perímetro del cuadrado menor es 24 cm. Uno de los rectángulos tiene 14 cm de largo.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuánto mide el lado del cuadrado menor?",
+          "respuesta": "6 cm (perímetro = 4 × lado = 24 cm → lado = 24 ÷ 4 = 6 cm. Este es también el lado menor de cada rectángulo)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Cuánto mide el lado del cuadrado mayor? (el rectángulo mide 14 cm de largo y 6 cm de ancho; el cuadrado mayor comparte lado con el largo del rectángulo)",
+          "respuesta": "Siguiendo la figura: el cuadrado mayor comparte un lado con el ancho del rectángulo. Si el rectángulo tiene 14 cm de largo y 6 cm de ancho, y el cuadrado mayor está alineado con el ancho, el lado del cuadrado mayor es 14 cm."
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Calculá el perímetro de la figura completa.",
+          "respuesta": "Depende de la disposición exacta. Recorriendo el contorno: se cuentan los lados exteriores de cada pieza que forman el borde de la figura compuesta, sin contar los lados que quedan pegados entre sí."
+        }
+      ]
+    },
+    {
+      "id": "cuadrados_superpuestos_primos",
+      "tipo": "completar",
+      "consigna": "Una figura está formada por dos cuadrados grises y uno blanco superpuestos, de distinto tamaño. Las medidas de los lados de los cuadrados son los tres números primos impares menores que 11.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuáles son los tres números primos impares menores que 11?",
+          "respuesta": "3, 5 y 7 (primos menores que 11: 2, 3, 5, 7. Los impares son 3, 5 y 7. El 2 es primo pero es par)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "El cuadrado blanco es el de lado 3 y está en el centro. ¿Cuál es el área de la región gris? (área total – área blanca)",
+          "respuesta": "65 cm² (área total gris = área cuadrado 5 + área cuadrado 7 = 25 + 49 = 74 cm². Pero hay solapamiento con el blanco que no forma parte de la región gris. Según la disposición: si el blanco (3) está superpuesto a ambos, el área gris = 5² + 7² – 3² = 25 + 49 – 9 = 65 cm²)"
+        }
+      ]
+    },
+    {
+      "id": "figura_gris_t",
+      "tipo": "completar",
+      "consigna": "Una figura gris está formada por dos rectángulos congruentes y un cuadrado, a la que se le quitaron dos cuadrados congruentes. En cada rectángulo, el lado mayor es el doble del lado menor. El lado del cuadrado gris mide 34 cm. t es el lado de cada cuadrado quitado.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Si t es el número primo comprendido entre 5 y 9, ¿cuánto vale t?",
+          "respuesta": "7 (los números entre 5 y 9 son 6, 7, 8. El único primo es 7)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Si el lado menor de cada rectángulo es 17 cm, ¿cuánto mide el lado mayor?",
+          "respuesta": "34 cm (el lado mayor es el doble del menor: 2 × 17 = 34 cm)"
+        }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["mate-calentamiento-area"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "que_es_area",
+          "titulo": "¿Qué es el área?",
+          "icono": "📐",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Definición",
+              "texto": "El área de una figura es la medida de su superficie. Se mide en unidades cuadradas: centímetros cuadrados (cm²), metros cuadrados (m²), etc.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Cada cuadrado de 1 cm de lado representa un centímetro cuadrado (1 cm²). Para calcular el área de una figura dibujada sobre una cuadrícula, contamos cuántos cuadraditos de 1 cm² la forman."
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "📌", "texto": "Perímetro: mide el contorno → unidades lineales (cm, m)." },
+                { "icono": "📌", "texto": "Área: mide la superficie → unidades cuadradas (cm², m²)." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "area_cuadrado",
+          "titulo": "Área del cuadrado",
+          "icono": "⬛",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Fórmula",
+              "texto": "Área del cuadrado = lado × lado = lado². Como los cuatro lados son congruentes, multiplicamos el lado por sí mismo.",
+              "color": "verde"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Cuadrado de 3 cm de lado: A = 3 cm × 3 cm = 9 cm²",
+              "explicacion": "Se multiplica el lado por sí mismo. También se puede pensar: en una cuadrícula de 3 × 3 hay 9 cuadraditos de 1 cm²."
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Si conocemos el perímetro, podemos hallar el lado (P ÷ 4) y luego el área. Si conocemos el área, podemos hallar el lado (buscando qué número multiplicado por sí mismo da esa área)."
+            }
+          ]
+        },
+        {
+          "id": "area_rectangulo",
+          "titulo": "Área del rectángulo",
+          "icono": "▯",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Fórmula",
+              "texto": "Área del rectángulo = base × altura. Multiplicamos las dos dimensiones.",
+              "color": "naranja"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Rectángulo de 4 cm de base y 3 cm de altura: A = 4 × 3 = 12 cm²",
+              "explicacion": "El rectángulo está formado por 4 × 3 = 12 cuadraditos de 1 cm². El área es el producto de las dos dimensiones."
+            }
+          ]
+        },
+        {
+          "id": "perimetro_vs_area_relacion",
+          "titulo": "Relación entre perímetro y área",
+          "icono": "⚖️",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "No son lo mismo",
+              "texto": "Figuras con el mismo perímetro pueden tener distinta área. Figuras con la misma área pueden tener distinto perímetro.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                { "titulo": "Perímetro", "items": ["Mide el contorno", "Unidad: cm", "Se suman los lados", "Si duplico base y altura: se duplica"] },
+                { "titulo": "Área", "items": ["Mide la superficie", "Unidad: cm²", "Se multiplica base × altura", "Si duplico base y altura: se cuadruplica"] }
+              ]
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Rectángulo 4×3: P = 14 cm, A = 12 cm². Al duplicar (8×6): P = 28 cm (se duplica), A = 48 cm² (se cuadruplica: 4 veces mayor).",
+              "explicacion": "Esto ocurre porque P = 2(b+h). Al duplicar ambas: P' = 2(2b+2h) = 4(b+h) = 2P. Y A = b×h. Al duplicar: A' = 2b×2h = 4bh = 4A."
+            }
+          ]
+        },
+        {
+          "id": "figuras_compuestas",
+          "titulo": "Figuras compuestas",
+          "icono": "🧩",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Sumar y restar áreas",
+              "texto": "Para calcular el área de figuras compuestas, dividimos en figuras conocidas. El área total es la suma de las áreas de las partes. Si se quita una parte, restamos su área.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Figura formada por un cuadrado de 10 cm y un rectángulo de 16×7: A = 100 + 112 = 212 cm²",
+              "explicacion": "Calculamos el área de cada pieza por separado y las sumamos. Para el perímetro de figuras compuestas NO se suman los perímetros: hay que restar los lados que quedan pegados."
+            }
+          ]
+        },
+        {
+          "id": "resumen_clase6",
+          "titulo": "Resumen",
+          "icono": "📝",
+          "color": "violeta",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Puntos clave",
+              "texto": "Área: superficie en unidades cuadradas. Cuadrado: A = lado². Rectángulo: A = base × altura. Figuras compuestas: sumar/restar áreas. Igual perímetro ≠ igual área.",
+              "color": "violeta"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "▶", "texto": "No confundas cm (perímetro) con cm² (área). Son magnitudes distintas." },
+                { "icono": "▶", "texto": "Al duplicar ambas dimensiones, el perímetro se duplica pero el área se cuadruplica." },
+                { "icono": "▶", "texto": "En una cuadrícula, el área es la cantidad de cuadraditos. El perímetro son los lados del contorno." },
+                { "icono": "▶", "texto": "Para figuras compuestas: dibujá, identificá cada pieza, calculá áreas por separado y sumalas." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        {
+          "pregunta": "¿Qué es el área y en qué unidades se mide?",
+          "respuesta": "Es la medida de la superficie de una figura. Se mide en unidades cuadradas (cm², m²). Cada cuadrado de 1 cm de lado representa 1 cm²."
+        },
+        {
+          "pregunta": "¿Cómo se calcula el área de un cuadrado?",
+          "respuesta": "A = lado × lado = lado². Ej: lado 3 cm → A = 9 cm². Si conozco el perímetro, primero calculo el lado (P ÷ 4) y después el área."
+        },
+        {
+          "pregunta": "¿Cómo se calcula el área de un rectángulo?",
+          "respuesta": "A = base × altura. Ej: base 4 cm, altura 3 cm → A = 12 cm²."
+        },
+        {
+          "pregunta": "Si duplico la base y la altura de un rectángulo, ¿qué pasa con el perímetro? ¿Y con el área?",
+          "respuesta": "El perímetro se duplica. El área se cuadruplica (se multiplica por 4). Porque P = 2(b+h) → P'=4(b+h) = 2P. Y A = b×h → A' = 2b×2h = 4A."
+        },
+        {
+          "pregunta": "¿Pueden dos figuras tener el mismo perímetro pero distinta área?",
+          "respuesta": "Sí. Ej: rectángulo 10×2 (P=24, A=20) y rectángulo 6×6 (P=24, A=36). El perímetro depende de la suma de los lados, el área del producto."
+        },
+        {
+          "pregunta": "¿Pueden dos figuras tener la misma área pero distinto perímetro?",
+          "respuesta": "Sí. Dos figuras formadas por 10 cuadraditos de 1 cm² tienen área 10 cm², pero según cómo estén dispuestos los cuadrados, el perímetro puede variar (14 cm, 18 cm, 22 cm)."
+        },
+        {
+          "pregunta": "¿Cómo se calcula el área de una figura compuesta?",
+          "respuesta": "Se divide la figura en partes conocidas (cuadrados, rectángulos). Se calcula el área de cada parte y se suman. Si hay partes quitadas, se resta su área."
+        },
+        {
+          "pregunta": "¿Cómo hallo el área de una figura a partir del perímetro?",
+          "respuesta": "Primero despejo el lado usando la fórmula del perímetro. Luego con el lado calculo el área. Ej: cuadrado con P=12 → lado=3 → A=9 cm²."
+        }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": [
+        "cuadrado_p12",
+        "rectangulo_4x3",
+        "figuras_10_cuadrados",
+        "iniciales_e_o_t",
+        "rectangulo_23x15_cuadrado",
+        "rectangulo_b_entre_35_y_55",
+        "tarjetas_cumple"
+      ]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": [
+        "figura_rectangulo_triangulos",
+        "cuadrados_congruentes_cd",
+        "rectangulo_2a_h_tabla",
+        "tabla_perimetro_24",
+        "figuras_grises_congruentes",
+        "cuadrados_superpuestos_primos",
+        "figura_gris_t"
+      ],
+      "duracion_min": 45
+    },
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Confundir área con perímetro",
+          "detalle": "Error frecuente: calcular el área de un rectángulo con la fórmula del perímetro (2b+2h) o viceversa. El perímetro mide el contorno (se suman lados, resultado en cm). El área mide la superficie (se multiplican las dimensiones, resultado en cm²). No son intercambiables."
+        },
+        {
+          "titulo": "Creer que al variar las dimensiones, perímetro y área varían igual",
+          "detalle": "No es cierto. Si duplicás ambas dimensiones de un rectángulo, el perímetro se duplica (porque cada lado se duplica), pero el área se cuadruplica (porque multiplicás 2b × 2h = 4bh). Si duplicás solo una dimensión, el efecto es distinto en cada medida."
+        },
+        {
+          "titulo": "Sumar los perímetros de las partes en figuras compuestas",
+          "detalle": "Para el área de una figura compuesta SÍ se suman las áreas de las partes. Pero para el perímetro NO se suman los perímetros de las partes, porque los lados que quedan en contacto no forman parte del contorno. Hay que identificar el contorno exterior."
+        },
+        {
+          "titulo": "No convertir correctamente al buscar el lado desde el área",
+          "detalle": "Si un cuadrado tiene área 64 cm², el lado no es 64 ÷ 4 = 16. El lado es el número que multiplicado por sí mismo da 64: 8 × 8 = 64 → lado = 8 cm. La operación inversa a elevar al cuadrado no es dividir por 4, es la raíz cuadrada."
+        }
+      ]
+    }
+  }
+}

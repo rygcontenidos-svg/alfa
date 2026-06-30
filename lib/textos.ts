@@ -22,6 +22,7 @@ import mateCalentamientoDesigualdades from "@/data/textos/mate-calentamiento-des
 import mateCalentamientoDivision from "@/data/textos/mate-calentamiento-division.json";
 import mateCalentamientoPrimos from "@/data/textos/mate-calentamiento-primos.json";
 import mateCalentamientoPerimetro from "@/data/textos/mate-calentamiento-perimetro.json";
+import mateCalentamientoArea from "@/data/textos/mate-calentamiento-area.json";
 
 const TEXTOS_JSON: Record<string, TextoLectura> = {
   cassette: cassette as unknown as TextoLectura,
@@ -46,6 +47,7 @@ const TEXTOS_JSON: Record<string, TextoLectura> = {
   "mate-calentamiento-division": mateCalentamientoDivision as unknown as TextoLectura,
   "mate-calentamiento-primos": mateCalentamientoPrimos as unknown as TextoLectura,
   "mate-calentamiento-perimetro": mateCalentamientoPerimetro as unknown as TextoLectura,
+  "mate-calentamiento-area": mateCalentamientoArea as unknown as TextoLectura,
 };
 
 const TEXTOS_META: Omit<TextoLectura, "cuerpo" | "notas_al_pie">[] = [
@@ -71,6 +73,7 @@ const TEXTOS_META: Omit<TextoLectura, "cuerpo" | "notas_al_pie">[] = [
   { id: "mate-calentamiento-division", titulo: "Problema disparador: las velas", autor: "CIEEM 2026", genero: "otro", clase: "Clase 3" },
   { id: "mate-calentamiento-primos", titulo: "Problema disparador: el juego de cartas", autor: "CIEEM 2026", genero: "otro", clase: "Clase 4" },
   { id: "mate-calentamiento-perimetro", titulo: "Problema disparador: el cerco de la pileta", autor: "CIEEM 2026", genero: "otro", clase: "Clase 5" },
+  { id: "mate-calentamiento-area", titulo: "Problema disparador: la cuadrícula", autor: "CIEEM 2026", genero: "otro", clase: "Clase 6" },
 ];
 
 export function listarTextos(): TextoLectura[] {
