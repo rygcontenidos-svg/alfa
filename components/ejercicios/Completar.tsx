@@ -56,14 +56,16 @@ export default function Completar({
           <FiguraMatematica def={ej.figura} />
         )}
 
-        {"figura2" in ej && ej.figura2 && (
-          <FiguraMatematica def={ej.figura2} />
-        )}
-
         <div className="space-y-4">
-          {ej.items.map((it) => (
+          {ej.items.map((it, i) => (
             <div key={it.id}>
               <p className="text-sm text-grafito mb-1.5">{it.pregunta}</p>
+
+              {"figura2" in ej && ej.figura2 && i === 0 && (
+                <div className="mb-3">
+                  <FiguraMatematica def={ej.figura2!} />
+                </div>
+              )}
 
               {it.subtipo === "select" && it.opciones ? (
                 <div className="flex gap-2">
