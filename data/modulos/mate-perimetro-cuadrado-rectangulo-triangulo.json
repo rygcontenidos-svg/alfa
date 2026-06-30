@@ -154,25 +154,30 @@
     {
       "id": "figura_rectangulo_cuadrado",
       "tipo": "completar",
-      "consigna": "Un cuadrado y un rect\u00E1ngulo. El lado menor del rect\u00E1ngulo mide lo mismo que el lado del cuadrado. Per\u00EDmetro del cuadrado: 16 cm. Per\u00EDmetro del rect\u00E1ngulo: 24 cm.",
+      "consigna": "Un cuadrado y un rect\u00E1ngulo est\u00E1n unidos por uno de sus lados. El lado menor del rect\u00E1ngulo mide lo mismo que el lado del cuadrado. Per\u00EDmetro del cuadrado: 16 cm. Per\u00EDmetro del rect\u00E1ngulo: 24 cm.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase5-practica-ej5.png",
+        "alt": "Cuadrado y rectangulo unidos por un lado"
+      },
       "items": [
         {
           "id": "a",
           "subtipo": "texto",
           "pregunta": "\u00BFCu\u00E1nto mide el lado del cuadrado?",
-          "respuesta": "4 cm"
+          "respuesta": "4 cm (el cuadrado tiene 4 lados iguales. Si el per\u00EDmetro es 16 cm, dividimos: 16 \u00F7 4 = 4 cm por lado)"
         },
         {
           "id": "b",
           "subtipo": "texto",
           "pregunta": "\u00BFCu\u00E1nto mide el lado mayor del rect\u00E1ngulo?",
-          "respuesta": "8 cm"
+          "respuesta": "8 cm (el lado menor del rect\u00E1ngulo es igual al lado del cuadrado: 4 cm. El per\u00EDmetro del rect\u00E1ngulo es 24 cm. F\u00F3rmula: 2 \u00D7 lado menor + 2 \u00D7 lado mayor = 24. Reemplazamos: 2 \u00D7 4 + 2 \u00D7 lado mayor = 24 \u2192 8 + 2 \u00D7 lado mayor = 24 \u2192 2 \u00D7 lado mayor = 16 \u2192 lado mayor = 8 cm)"
         },
         {
           "id": "c",
           "subtipo": "texto",
-          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura formada al unir el cuadrado y el rect\u00E1ngulo?",
-          "respuesta": "24 cm (o 28 cm seg\u00FAn c\u00F3mo se unan)"
+          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura formada al unir el cuadrado y el rect\u00E1ngulo? (el lado compartido NO se cuenta en el contorno)",
+          "respuesta": "32 cm (per\u00EDmetro del cuadrado solo: 16 cm. Per\u00EDmetro del rect\u00E1ngulo solo: 24 cm. Suma directa: 16 + 24 = 40 cm. Pero el lado compartido mide 4 cm y aparece en ambos per\u00EDmetros individuales, as\u00ED que lo restamos dos veces: 40 \u2013 2 \u00D7 4 = 40 \u2013 8 = 32 cm. O contando directamente: los 3 lados visibles del cuadrado suman 12 cm, los 3 lados visibles del rect\u00E1ngulo suman 8 + 4 + 8 = 20 cm. Total: 12 + 20 = 32 cm)"
         }
       ]
     },
