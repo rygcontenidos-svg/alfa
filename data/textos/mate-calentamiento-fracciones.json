@@ -1,0 +1,10 @@
+{
+  "id": "mate-calentamiento-fracciones",
+  "titulo": "Problema disparador: reparto de tartas y pizzas",
+  "autor": "CIEEM 2026",
+  "genero": "otro",
+  "clase": "Clase 7",
+  "cuerpo": "Cuatro amigos se reúnen a comer y quieren compartir 5 tartas que tienen igual forma y tamaño.\n\na) ¿Cómo pueden hacer para repartir las tartas en partes iguales?\nb) ¿Cuánta tarta le corresponde a cada amigo?\n\nAdemás, los cuatro amigos pidieron 3 pizzas de igual forma y tamaño para compartir.\n\nc) ¿Cómo pueden repartirlas en partes iguales entre ellos?\nd) ¿Cuánta pizza le corresponde a cada uno?\n\nPista: en la división 5 ÷ 4, como 5 es mayor que 4, a cada uno le toca más de una tarta: 5/4 = 1 y 1/4. En la división 3 ÷ 4, como 3 es menor que 4, a cada uno le toca menos de una pizza: 3/4.",
+  "solucion": "a) Se dividen las 5 tartas entre 4 amigos. Una forma es dar 1 tarta entera a cada uno de los 4 amigos y la quinta tarta dividirla en 4 partes iguales.\nb) A cada amigo le toca 5/4 = 1 y 1/4 de tarta (una tarta entera y un cuarto).\nc) Se divide cada pizza en 4 partes iguales. En total hay 3 × 4 = 12 cuartos de pizza.\nd) A cada amigo le tocan 12 ÷ 4 = 3 cuartos de pizza, es decir, 3/4 de pizza.\n\nEsto muestra que las fracciones sirven para expresar el resultado de una división: 5 ÷ 4 = 5/4 y 3 ÷ 4 = 3/4.",
+  "notas_al_pie": []
+}

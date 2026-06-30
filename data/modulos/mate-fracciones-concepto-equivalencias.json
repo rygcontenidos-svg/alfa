@@ -1,0 +1,575 @@
+{
+  "id": "mate-fracciones-concepto-equivalencias",
+  "materia": "matematica",
+  "titulo": "Números racionales no negativos. Fracciones",
+  "descripcion": "Fracción de la unidad: numerador y denominador. Fracciones equivalentes (amplificar y simplificar). Fracción irreducible. Fracción de una cantidad. Reconstrucción de la unidad.",
+  "textos_ids": ["mate-calentamiento-fracciones"],
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "chocolate_3_de_8",
+      "tipo": "completar",
+      "consigna": "Una barra de chocolate tiene 8 cuadraditos. Lucía comió 3.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Qué fracción del chocolate comió Lucía?",
+          "respuesta": "3/8 (la barra entera tiene 8 partes → denominador = 8; Lucía comió 3 partes → numerador = 3. Fracción = partes comidas / total = 3/8)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Qué fracción del chocolate quedó sin comer?",
+          "respuesta": "5/8 (quedaron 8 – 3 = 5 cuadraditos sin comer; fracción = 5/8)"
+        }
+      ]
+    },
+    {
+      "id": "rectangulo_pintado_2_de_6",
+      "tipo": "completar",
+      "consigna": "Un rectángulo está dividido en 6 partes iguales. Hay 2 partes pintadas de azul.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Qué fracción del rectángulo está pintada?",
+          "respuesta": "2/6 (total de partes = 6 → denominador; partes pintadas = 2 → numerador)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Simplificá la fracción a su expresión irreducible.",
+          "respuesta": "1/3 (buscamos el mayor número que divide a 2 y a 6: es 2. Dividimos: 2 ÷ 2 = 1, 6 ÷ 2 = 3. La fracción irreducible es 1/3 porque 1 y 3 son coprimos)"
+        }
+      ]
+    },
+    {
+      "id": "pizza_quedo_3_de_10",
+      "tipo": "completar",
+      "consigna": "Una pizza se cortó en 10 porciones iguales. Se comieron 7 porciones.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Qué fracción de la pizza se comió?",
+          "respuesta": "7/10 (porciones comidas / total = 7/10)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Qué fracción de la pizza quedó?",
+          "respuesta": "3/10 (porciones que quedaron: 10 – 7 = 3. Fracción = 3/10. ¿Se puede simplificar? El único divisor común de 3 y 10 es 1, ya es irreducible)"
+        }
+      ]
+    },
+    {
+      "id": "tartas_5_entre_4",
+      "tipo": "completar",
+      "consigna": "Cinco tartas iguales se reparten en partes iguales entre 4 amigos.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Qué fracción de tarta le toca a cada amigo? (Expresá como fracción y como número mixto)",
+          "respuesta": "5/4 = 1 y 1/4 (dividimos 5 tartas entre 4 amigos: 5 ÷ 4. Como 5 > 4, el resultado es mayor que 1. Para número mixto: 5 ÷ 4 = 1 con resto 1 → 1 y 1/4)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Explicá por qué 5/4 es mayor que 1.",
+          "respuesta": "Porque el numerador (5) es mayor que el denominador (4). Cuando eso pasa, la fracción representa una cantidad mayor que una unidad, y se llama fracción impropia."
+        }
+      ]
+    },
+    {
+      "id": "pizzas_3_entre_4",
+      "tipo": "completar",
+      "consigna": "Tres pizzas iguales se reparten entre 4 amigos en partes iguales.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Qué fracción de pizza le toca a cada uno?",
+          "respuesta": "3/4 (dividimos 3 pizzas entre 4 amigos: 3 ÷ 4 = 3/4. Como 3 < 4, el resultado es menor que 1. Si dividimos cada pizza en 4 partes, hay 12 cuartos en total, y cada amigo recibe 12 ÷ 4 = 3 cuartos)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿3/4 es una fracción propia o impropia?",
+          "respuesta": "Propia (porque el numerador 3 es menor que el denominador 4; representa menos de un entero)"
+        }
+      ]
+    },
+    {
+      "id": "fracciones_equivalentes_completar",
+      "tipo": "completar",
+      "consigna": "Completá con el número que falta para que las fracciones sean equivalentes:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "3/5 = ?/15",
+          "respuesta": "9 (¿por cuánto multiplicamos 5 para llegar a 15? 5 × 3 = 15. Entonces multiplicamos también el numerador por 3: 3 × 3 = 9 → 3/5 = 9/15)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "6/18 = ?/3",
+          "respuesta": "1 (¿por cuánto dividimos 18 para llegar a 3? 18 ÷ 6 = 3. Dividimos también el numerador por 6: 6 ÷ 6 = 1 → 6/18 = 1/3)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "28/8 = ?/2",
+          "respuesta": "7 (¿por cuánto dividimos 8 para llegar a 2? 8 ÷ 4 = 2. Dividimos también el numerador: 28 ÷ 4 = 7 → 28/8 = 7/2)"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "3/5 = ?/30 (amplificá por 6)",
+          "respuesta": "18 (5 × 6 = 30, entonces 3 × 6 = 18 → 3/5 = 18/30)"
+        }
+      ]
+    },
+    {
+      "id": "son_equivalentes_2_3_10_15",
+      "tipo": "completar",
+      "consigna": "¿Son equivalentes 2/3 y 10/15? Explicá cómo lo sabés.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Multiplicá en cruz: 2 × 15 = ? y 3 × 10 = ?",
+          "respuesta": "2 × 15 = 30 y 3 × 10 = 30"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Son equivalentes? ¿Por qué?",
+          "respuesta": "Sí, son equivalentes porque los productos cruzados son iguales (ambos dan 30). Otra forma: 2/3 × 5/5 = 10/15. Al amplificar 2/3 por 5 se obtiene 10/15."
+        }
+      ]
+    },
+    {
+      "id": "expresar_con_denominador",
+      "tipo": "completar",
+      "consigna": "Expresá las siguientes fracciones con el denominador pedido:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "2/3 con denominador 15",
+          "respuesta": "10/15 (3 × 5 = 15, entonces multiplicamos numerador por 5: 2 × 5 = 10)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "14/49 con denominador 21",
+          "respuesta": "6/21 (primero simplificamos 14/49 = 2/7. Luego amplificamos: 7 × 3 = 21, 2 × 3 = 6 → 6/21)"
+        }
+      ]
+    },
+    {
+      "id": "simplificar_fracciones",
+      "tipo": "completar",
+      "consigna": "Simplificá cada fracción hasta obtener la fracción irreducible:",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "15/60 = ?",
+          "respuesta": "1/4 (MCD de 15 y 60 es 15. 15 ÷ 15 = 1, 60 ÷ 15 = 4)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "42/105 = ?",
+          "respuesta": "2/5 (factorizamos: 42 = 2×3×7, 105 = 3×5×7. Factores comunes: 3 y 7 → MCD = 21. 42 ÷ 21 = 2, 105 ÷ 21 = 5)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "66/44 = ?",
+          "respuesta": "3/2 = 1 y 1/2 (factorizamos: 66 = 2×3×11, 44 = 2×2×11. Factores comunes: 2 y 11 → MCD = 22. 66 ÷ 22 = 3, 44 ÷ 22 = 2. Como número mixto: 3/2 = 1 y 1/2)"
+        }
+      ]
+    },
+    {
+      "id": "es_irreducible_5_8",
+      "tipo": "completar",
+      "consigna": "¿Es 5/8 una fracción irreducible? ¿Por qué?",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Escribí los divisores de 5 y de 8. ¿Comparten algún divisor además del 1?",
+          "respuesta": "Divisores de 5: 1, 5. Divisores de 8: 1, 2, 4, 8. Solo comparten el 1."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Es irreducible? ¿Por qué?",
+          "respuesta": "Sí, 5/8 es irreducible porque 5 y 8 son coprimos: su único divisor común es el 1 (MCD = 1). Cuando el MCD es 1, la fracción no se puede simplificar más."
+        }
+      ]
+    },
+    {
+      "id": "pelotas_cooperadora",
+      "tipo": "completar",
+      "consigna": "La cooperadora de una escuela compró 50 pelotas. De ellas, 2/5 son de fútbol, 3/10 son de vóley y el resto son de handball.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuántas pelotas de fútbol hay? (2/5 de 50)",
+          "respuesta": "20 (para calcular 2/5 de 50: primero 50 ÷ 5 = 10 → eso es 1/5; luego multiplicamos por el numerador: 10 × 2 = 20 pelotas de fútbol)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Cuántas pelotas de vóley hay? (3/10 de 50)",
+          "respuesta": "15 (50 ÷ 10 = 5 → eso es 1/10; 5 × 3 = 15 pelotas de vóley)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Cuántas pelotas de handball hay? ¿Qué fracción representan?",
+          "respuesta": "15 pelotas, 3/10 (total – fútbol – vóley = 50 – 20 – 15 = 15. Como fracción: 15/50 = 3/10 simplificando por 5)"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "Si se compran 10 pelotas más de básquet, ¿qué fracción del nuevo total representan las de vóley?",
+          "respuesta": "1/4 (nuevo total: 50 + 10 = 60 pelotas. Vóley = 15. Fracción: 15/60 = 1/4 simplificando por 15)"
+        }
+      ]
+    },
+    {
+      "id": "receta_masitas_18",
+      "tipo": "completar",
+      "consigna": "La receta de masitas de coco es para una docena (12 masitas). Facundo necesita hacer 18 masitas.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Si la receta pide 1/4 kg de dulce de leche, ¿cuánto necesita para 18 masitas? (18 es 1,5 veces 12)",
+          "respuesta": "3/8 kg (factor de escala: 18 ÷ 12 = 3/2. Multiplicamos: 1/4 × 3/2 = (1×3)/(4×2) = 3/8 kg de dulce de leche)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Si la receta pide 250 g de azúcar para 12 masitas, ¿cuánto necesita para 18?",
+          "respuesta": "375 g (factor: 18/12 = 3/2. 250 × 3/2 = 250 × 3 ÷ 2 = 750 ÷ 2 = 375 g)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Si la receta pide 2 huevos para 12 masitas, ¿cuántos necesita para 18?",
+          "respuesta": "3 huevos (2 × 3/2 = 6/2 = 3)"
+        }
+      ]
+    },
+    {
+      "id": "alumnos_36_varones_mujeres",
+      "tipo": "completar",
+      "consigna": "En un grupo de 36 alumnos de un séptimo grado, 20 son varones. De las mujeres, 4 viajan al colegio únicamente en subte. De los varones, la quinta parte lo hace solamente en auto y un cuarto va únicamente caminando.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Qué parte del grupo son mujeres? Expresalo como fracción irreducible.",
+          "respuesta": "4/9 (mujeres = 36 – 20 = 16. Fracción = 16/36. Simplificamos: MCD(16, 36) = 4 → 16÷4 = 4, 36÷4 = 9 → 4/9)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Qué fracción de las mujeres viajan al colegio solamente en subte?",
+          "respuesta": "4/16 = 1/4 (hay 16 mujeres y 4 viajan en subte. Fracción = 4/16 = 1/4, simplificando por 4)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Cuántos varones van al colegio únicamente en auto? ¿Y solo caminando?",
+          "respuesta": "Auto: 4 varones (1/5 de 20 = 20 ÷ 5 = 4). Caminando: 5 varones (1/4 de 20 = 20 ÷ 4 = 5)"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "¿Qué parte de los varones no concurren en auto ni caminando solamente?",
+          "respuesta": "11/20 (varones en auto o caminando: 4 + 5 = 9. Resto: 20 – 9 = 11. Fracción = 11/20, ya irreducible porque 11 y 20 son coprimos)"
+        }
+      ]
+    },
+    {
+      "id": "unidad_dada_2_5",
+      "tipo": "completar",
+      "consigna": "Un rectángulo representa los 2/5 de la unidad.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Si el rectángulo se divide en 2 partes iguales, ¿qué fracción de la unidad representa cada parte?",
+          "respuesta": "1/5 (si el rectángulo entero = 2/5, al partirlo en 2 mitades cada mitad = 1/5 de la unidad)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Cuántas partes de tamaño 1/5 se necesitan para formar la unidad?",
+          "respuesta": "5 partes (la unidad = 5/5 = 5 veces 1/5)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Cuántos rectángulos como el dado se necesitan para formar la unidad?",
+          "respuesta": "2,5 rectángulos (cada rectángulo = 2/5 = 2 partes de 1/5. Para juntar 5 partes de 1/5 necesitamos 5 ÷ 2 = 2,5 rectángulos)"
+        }
+      ]
+    },
+    {
+      "id": "unidad_dada_8_3_triangulos",
+      "tipo": "completar",
+      "consigna": "Una figura formada por 16 triángulos representa los 8/3 de la unidad.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuántos triángulos representan 1/3 de la unidad?",
+          "respuesta": "2 triángulos (si 16 triángulos = 8/3, entonces 1/3 = 16 ÷ 8 = 2 triángulos. Cada tercio son 2 triángulos)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "¿Cuántos triángulos forman la unidad completa?",
+          "respuesta": "6 triángulos (la unidad = 3/3 = 3 tercios. Cada tercio = 2 triángulos. Total = 3 × 2 = 6 triángulos. Verificación: 16 triángulos = 16/6 = 8/3 de la unidad ✓)"
+        }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": ["mate-calentamiento-fracciones"]
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "numeros_racionales",
+          "titulo": "Números racionales no negativos",
+          "icono": "🔢",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Definición",
+              "texto": "Un número es racional no negativo si puede expresarse como el cociente de un número natural o cero por otro número natural. Se escribe a/b con a ∈ N₀ y b ∈ N.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "En muchas situaciones los números naturales no son suficientes: para expresar partes de un entero, el resultado de una división o una medida, necesitamos los números racionales. Se pueden escribir como fracciones o como expresiones decimales."
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "📌", "texto": "Numerador (arriba): indica cuántas partes se toman. Puede ser cualquier natural o cero." },
+                { "icono": "📌", "texto": "Denominador (abajo): indica en cuántas partes iguales se divide el entero. NUNCA puede ser 0." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fraccion_unidad",
+          "titulo": "Fracción de la unidad",
+          "icono": "🍕",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "La fracción como división",
+              "texto": "Toda fracción a/b representa la división a ÷ b. Si a > b, la fracción es mayor que 1 (impropia). Si a < b, es menor que 1 (propia). Si a es múltiplo de b, es igual a un natural (aparente).",
+              "color": "verde"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "5 tartas entre 4 amigos: 5/4 = 1 y 1/4 (impropia, mayor que 1)",
+              "explicacion": "5 ÷ 4 = 1 con resto 1. Esto se puede escribir como fracción impropia (5/4) o como número mixto (1 y 1/4). El número mixto tiene una parte entera y una fracción propia."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "3 pizzas entre 4 amigos: 3/4 (propia, menor que 1)",
+              "explicacion": "3 ÷ 4 = 3/4. Si dividimos cada pizza en 4, hay 12 cuartos, y cada amigo recibe 3 cuartos. La fracción es propia porque 3 < 4."
+            }
+          ]
+        },
+        {
+          "id": "fracciones_equivalentes",
+          "titulo": "Fracciones equivalentes",
+          "icono": "🔄",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Definición",
+              "texto": "Dos fracciones son equivalentes cuando representan el mismo número racional, es decir, la misma cantidad. Se obtienen amplificando o simplificando.",
+              "color": "naranja"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "✖", "texto": "Amplificar: multiplicar numerador y denominador por el mismo número natural. Ej: 3/5 = (3×3)/(5×3) = 9/15." },
+                { "icono": "➗", "texto": "Simplificar: dividir numerador y denominador por un divisor común. Ej: 6/18 = (6÷6)/(18÷6) = 1/3." },
+                { "icono": "🔍", "texto": "¿Cómo saber si son equivalentes? Multiplicar en cruz: 2×15 = 30 y 3×10 = 30 → 2/3 = 10/15." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fraccion_irreducible",
+          "titulo": "Fracción irreducible",
+          "icono": "🎯",
+          "color": "amarillo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "¿Cuándo es irreducible?",
+              "texto": "Una fracción es irreducible cuando el numerador y el denominador son coprimos, es decir, su único divisor común es el 1.",
+              "color": "amarillo"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Para simplificar hasta la irreducible: se divide numerador y denominador por todos los divisores comunes hasta que el MCD sea 1."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "15/60 = 1/4. 42/105 = 2/5. 66/44 = 3/2.",
+              "explicacion": "Para 15/60: MCD(15, 60) = 15 → 15÷15=1, 60÷15=4. Para 42/105: 42=2×3×7, 105=3×5×7, MCD=21 → 42÷21=2, 105÷21=5. Para 66/44: MCD=22 → 3/2 = 1 y 1/2."
+            }
+          ]
+        },
+        {
+          "id": "fraccion_de_cantidad",
+          "titulo": "Fracción de una cantidad",
+          "icono": "🧮",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "¿Cómo se calcula?",
+              "texto": "Para calcular una fracción de una cantidad, se divide la cantidad por el denominador y se multiplica el resultado por el numerador.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "2/5 de 50 pelotas: 50 ÷ 5 = 10 → 10 × 2 = 20 pelotas.",
+              "explicacion": "Dividir por el denominador nos dice cuánto vale 1 fracción unitaria (1/5 de 50 = 10). Luego multiplicamos por el numerador para obtener la cantidad de fracciones indicadas (2 veces 1/5 = 20)."
+            }
+          ]
+        },
+        {
+          "id": "reconstruccion_unidad",
+          "titulo": "Reconstrucción de la unidad",
+          "icono": "🧩",
+          "color": "violeta",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Dada una parte, hallar el entero",
+              "texto": "Si conocemos una fracción de la unidad, podemos reconstruir la unidad completa determinando cuántas de esas partes la forman.",
+              "color": "violeta"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "Un rectángulo representa 2/5 de la unidad. La unidad se forma con 5 partes de 1/5. Como el rectángulo tiene 2, necesito 2,5 rectángulos.",
+              "explicacion": "Dividimos la figura dada en tantas partes como indica el numerador (2 partes). Cada parte vale 1/5. La unidad son 5 de esas partes, así que necesito 5/2 = 2,5 figuras como la dada."
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "16 triángulos representan 8/3 de la unidad. Cada tercio = 16 ÷ 8 = 2 triángulos. La unidad entera = 3 × 2 = 6 triángulos.",
+              "explicacion": "Si 16 triángulos son 8 tercios, cada tercio son 2 triángulos. Como la unidad tiene 3 tercios, la unidad son 3 × 2 = 6 triángulos."
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        {
+          "pregunta": "¿Qué es un número racional no negativo?",
+          "respuesta": "Es un número que puede expresarse como a/b, donde a es un número natural o cero (N₀) y b es un número natural (N). b nunca puede ser 0."
+        },
+        {
+          "pregunta": "¿Qué indican el numerador y el denominador de una fracción?",
+          "respuesta": "El numerador (arriba) indica cuántas partes se toman. El denominador (abajo) indica en cuántas partes iguales se dividió el entero."
+        },
+        {
+          "pregunta": "¿Qué es una fracción propia, impropia y aparente?",
+          "respuesta": "Propia: numerador < denominador (<1). Impropia: numerador > denominador (>1). Aparente: numerador es múltiplo del denominador (es un número natural)."
+        },
+        {
+          "pregunta": "¿Cuándo dos fracciones son equivalentes?",
+          "respuesta": "Cuando representan el mismo número racional. Se obtienen amplificando (×) o simplificando (÷). También se verifica con productos cruzados iguales."
+        },
+        {
+          "pregunta": "¿Qué es una fracción irreducible?",
+          "respuesta": "Aquella donde numerador y denominador son coprimos (su MCD es 1). No se puede simplificar más. Toda fracción tiene asociada una fracción irreducible equivalente."
+        },
+        {
+          "pregunta": "¿Cómo se calcula una fracción de una cantidad?",
+          "respuesta": "Se divide la cantidad por el denominador y se multiplica por el numerador. Ej: 2/5 de 50 = (50 ÷ 5) × 2 = 10 × 2 = 20."
+        },
+        {
+          "pregunta": "¿Cómo se reconstruye la unidad a partir de una fracción?",
+          "respuesta": "Se divide la parte dada por el numerador para obtener 1 fracción unitaria. Luego se multiplica por el denominador. Ej: si 2/5 ocupan cierta figura, 1/5 es la mitad, y la unidad = 5 × (1/5)."
+        },
+        {
+          "pregunta": "¿Cómo se pasa de fracción impropia a número mixto?",
+          "respuesta": "Se divide el numerador por el denominador. El cociente es la parte entera y el resto sobre el divisor es la fracción propia. Ej: 5/4 → 5÷4=1 con resto 1 → 1 y 1/4."
+        }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": [
+        "chocolate_3_de_8",
+        "rectangulo_pintado_2_de_6",
+        "pizza_quedo_3_de_10",
+        "tartas_5_entre_4",
+        "pizzas_3_entre_4",
+        "fracciones_equivalentes_completar",
+        "son_equivalentes_2_3_10_15",
+        "expresar_con_denominador",
+        "simplificar_fracciones",
+        "es_irreducible_5_8"
+      ]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": [
+        "pelotas_cooperadora",
+        "receta_masitas_18",
+        "alumnos_36_varones_mujeres",
+        "unidad_dada_2_5",
+        "unidad_dada_8_3_triangulos"
+      ],
+      "duracion_min": 30
+    },
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Confundir numerador con denominador al representar",
+          "detalle": "Error frecuente: en un rectángulo dividido en 6 partes con 2 pintadas, escribir la fracción como 6/2 en vez de 2/6. Recordá: denominador = número de partes totales en que se dividió el entero (abajo). Numerador = partes que nos interesan (arriba)."
+        },
+        {
+          "titulo": "Simplificar dividiendo por números diferentes",
+          "detalle": "Al simplificar, hay que dividir numerador y denominador por el MISMO número. Error: 15/60 → dividir 15 por 3 y 60 por 5. Incorrecto. Ambos deben dividirse por el mismo divisor común. Lo correcto para 15/60 es dividir ambos por 15: 1/4."
+        },
+        {
+          "titulo": "Creer que una fracción con números grandes siempre es mayor",
+          "detalle": "No. 3/8 es menor que 1/2 aunque 3 y 8 sean mayores que 1 y 2. La fracción representa una relación entre las partes, no el tamaño absoluto de los números. Para comparar fracciones correctamente hay que buscar denominador común o multiplicar en cruz."
+        },
+        {
+          "titulo": "Errores al calcular la fracción de una cantidad",
+          "detalle": "Error: para 3/10 de 50, hacer 50 × 3 = 150 y luego dividir por lo que sea. El orden correcto es: primero dividir la cantidad por el denominador (50 ÷ 10 = 5), luego multiplicar por el numerador (5 × 3 = 15). Es decir: (cantidad ÷ denominador) × numerador."
+        }
+      ]
+    }
+  }
+}

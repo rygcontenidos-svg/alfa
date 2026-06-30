@@ -18,6 +18,7 @@ import mateDivision from "@/data/modulos/mate-division-entera-multiplos-divisibi
 import matePrimos from "@/data/modulos/mate-numeros-primos-compuestos-factorizacion.json";
 import matePerimetro from "@/data/modulos/mate-perimetro-cuadrado-rectangulo-triangulo.json";
 import mateArea from "@/data/modulos/mate-area-cuadrado-rectangulo.json";
+import mateFracciones from "@/data/modulos/mate-fracciones-concepto-equivalencias.json";
 
 const MODULOS_JSON: Record<string, Modulo> = {
   "comunicacion-funciones-lenguaje":
@@ -56,6 +57,8 @@ const MODULOS_JSON: Record<string, Modulo> = {
     matePerimetro as unknown as Modulo,
   "mate-area-cuadrado-rectangulo":
     mateArea as unknown as Modulo,
+  "mate-fracciones-concepto-equivalencias":
+    mateFracciones as unknown as Modulo,
 };
 
 const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
@@ -204,6 +207,14 @@ const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
     titulo: "Área del cuadrado y del rectángulo. Perímetros y áreas",
     descripcion:
       "Área en cuadrícula. Área del cuadrado (lado²) y del rectángulo (base × altura). Relación entre perímetro y área. Figuras compuestas: sumar y restar áreas. Problemas con expresiones algebraicas.",
+    estado: "completo",
+  },
+  {
+    id: "mate-fracciones-concepto-equivalencias",
+    materia: "matematica",
+    titulo: "Números racionales no negativos. Fracciones",
+    descripcion:
+      "Fracción de la unidad. Fracciones equivalentes (amplificar y simplificar). Fracción irreducible. Fracción de una cantidad. Reconstrucción de la unidad.",
     estado: "completo",
   },
 ];

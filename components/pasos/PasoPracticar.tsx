@@ -27,14 +27,14 @@ export default function PasoPracticar({
         <div className="flex items-center justify-between gap-3 flex-wrap">
           <p className="text-xs text-azul flex-1 min-w-[200px]">
             <i className="fa-solid fa-pen-to-square mr-1" />
-            Resolvé cada ejercicio en tu cuaderno y después tocá{" "}
+            Resolvé cada ejercicio y después tocá{" "}
             <strong>Ver respuestas</strong> para verificar. Marcá si lo sacaste
             bien o si tenés que repasar.
           </p>
           {textos.length > 0 && (
             <TextoModal textos={textos}>
               <i className="fa-solid fa-book-open mr-1" />
-              Releer el texto
+              {modulo.materia === "matematica" ? "Releer el problema" : "Releer el texto"}
             </TextoModal>
           )}
         </div>
