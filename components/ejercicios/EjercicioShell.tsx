@@ -1,10 +1,19 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import Card from "../Card";
 import { leerCheck, setCheck } from "@/lib/progreso";
 import { useAuth } from "@/app/AuthProvider";
-import { puedeVerRespuestas } from "@/lib/permisos";
+
+async function fetchSinRespuestas(): Promise<string[]> {
+  try {
+    const res = await fetch("/api/permisos");
+    const data = await res.json();
+    return data.sinRespuestas ?? [];
+  } catch {
+    return [];
+  }
+}
 
 export function EjercicioShell({
   consigna,
@@ -22,8 +31,17 @@ export function EjercicioShell({
   const { usuario } = useAuth();
   const [revelado, setRevelado] = useState(false);
   const [check, setCheckState] = useState<"bien" | "repasar" | null>(null);
+  const [sinRespuestas, setSinRespuestas] = useState(false);
 
-  const sinRespuestas = !puedeVerRespuestas(usuario);
+  const verificarPermisos = useCallback(async () => {
+    if (!usuario) return;
+    const bloqueados = await fetchSinRespuestas();
+    setSinRespuestas(bloqueados.includes(usuario));
+  }, [usuario]);
+
+  useEffect(() => {
+    verificarPermisos();
+  }, [verificarPermisos]);
 
   useEffect(() => {
     setCheckState(leerCheck(moduloId, ejercicioId, usuario));
