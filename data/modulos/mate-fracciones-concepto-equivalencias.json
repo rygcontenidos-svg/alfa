@@ -360,31 +360,32 @@
         {
           "id": "pregunta",
           "subtipo": "texto",
-          "pregunta": "¿Qué fracción de la unidad representa la región sombreada en cada uno de los 4 casos (a, b, c, d)?"
+          "pregunta": "¿Qué fracción de la unidad representa la región sombreada en cada uno de los 4 casos (a, b, c, d)?",
+          "respuesta": "(ver imagen de abajo)"
         },
         {
           "id": "a",
           "subtipo": "texto",
           "pregunta": "Caso a:",
-          "respuesta": "Pendiente"
+          "respuesta": "3/5 (3 cuadrados completos sombreados, cada uno es 1/5 de la unidad → 3/5)"
         },
         {
           "id": "b",
           "subtipo": "texto",
           "pregunta": "Caso b:",
-          "respuesta": "Pendiente"
+          "respuesta": "1/2 (2 cuadrados sombreados = 2/5 = 4/10 + 1 triángulo = mitad de 1/5 = 1/10. Total: 4/10 + 1/10 = 5/10 = 1/2)"
         },
         {
           "id": "c",
           "subtipo": "texto",
           "pregunta": "Caso c:",
-          "respuesta": "Pendiente"
+          "respuesta": "1/2 (1 cuadrado = 2/10 + 3 triángulos = 3/10. Total: 2/10 + 3/10 = 5/10 = 1/2)"
         },
         {
           "id": "d",
           "subtipo": "texto",
           "pregunta": "Caso d:",
-          "respuesta": "Pendiente"
+          "respuesta": "6/5 (4 cuadrados en la primera parte = 4/5. Segunda parte: triángulo grande que ocupa la mitad de 4 cuadrados = 2 cuadrados de área = 2/5. Total: 4/5 + 2/5 = 6/5, mayor que la unidad)"
         }
       ],
       "figura2": {
