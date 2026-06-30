@@ -255,7 +255,8 @@
         { "id": "c", "texto": "4d + 30" },
         { "id": "d", "texto": "2d + 12 \u00D7 3 + 2 \u00D7 (d \u2013 3)" }
       ],
-      "correcta": "a"
+      "correcta": "d",
+      "explicacion": "El per\u00EDmetro es el contorno de la figura. Vamos a sumar todas las partes expuestas:\n\n\u2022 2d: los dos lados largos que dan hacia el exterior (borde superior del rect\u00E1ngulo de arriba y borde inferior del rect\u00E1ngulo de abajo).\n\n\u2022 12 \u00D7 3: los 12 segmentos de 3 cm (lado del cuadrado). Si damos la vuelta a la figura:\n  - 4 lados cortos de los rect\u00E1ngulos (2 por cada rect\u00E1ngulo)\n  - 4 lados de los tri\u00E1ngulos equil\u00E1teros (2 por cada tri\u00E1ngulo)\n  - 4 lados de los cuadrados (2 por cada cuadrado)\n  Total: 12 segmentos de 3 cm cada uno.\n\n\u2022 2 \u00D7 (d \u2013 3): los dos lados largos que van hacia adentro. El largo total de cada rect\u00E1ngulo es d, pero el cuadrado que est\u00E1 pegado le tapa 3 cm. Lo que queda visible es (d \u2013 3). Como pasa en ambos rect\u00E1ngulos, se multiplica por 2.\n\nLa opci\u00F3n A) cuenta 16 segmentos de 3 cm (que no existen en la figura) y adem\u00E1s no descuenta los 3 cm que los cuadrados le tapan a los rect\u00E1ngulos.\n\nDato extra: Si resolv\u00E9s la cuenta de la opci\u00F3n D: 2d + 36 + 2d \u2013 6 = 4d + 30. Esto significa que la opci\u00F3n C) tambi\u00E9n da el mismo resultado, pero la D) es la que muestra de d\u00F3nde sale cada parte del dibujo."
     },
     {
       "id": "figura_p_igual_2",

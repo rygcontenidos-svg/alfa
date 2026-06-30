@@ -32,6 +32,7 @@ export type SeleccionMultiple = EjercicioBase & {
   tipo: "seleccion_multiple";
   opciones: { id: string; texto: string }[];
   correcta: string;
+  explicacion?: string;
 };
 
 export type VerdaderoFalso = EjercicioBase & {

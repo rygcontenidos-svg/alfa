@@ -41,6 +41,17 @@ export default function SeleccionMultiple({
               </div>
             );
           })}
+          {revelado && "explicacion" in ej && ej.explicacion && (
+            <div className="mt-3 rounded-lg border border-verde bg-verde-claro/50 p-3">
+              <p className="text-xs font-semibold text-verde mb-1 uppercase tracking-wide">
+                <i className="fa-solid fa-circle-info mr-1" />
+                Explicación
+              </p>
+              <p className="text-sm text-grafito leading-relaxed whitespace-pre-line">
+                {ej.explicacion}
+              </p>
+            </div>
+          )}
         </div>
       )}
     </EjercicioShell>
