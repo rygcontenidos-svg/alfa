@@ -353,8 +353,8 @@
       "consigna": "Considerá la siguiente figura (recuadro de la izquierda) como UNIDAD. ¿Qué fracción de la unidad representa la región sombreada en cada uno de los 4 casos (a, b, c, d) de la derecha?",
       "figura": {
         "tipo": "imagen",
-        "src": "/figuras/clase7-ejercicios-a-d.png",
-        "alt": "Unidad base y 4 casos con region sombreada (a, b, c, d)"
+        "src": "/figuras/clase7-unidad-base.png",
+        "alt": "UNIDAD - recuadro izquierdo"
       },
       "items": [
         {
@@ -381,7 +381,12 @@
           "pregunta": "Caso d: ¿qué fracción está sombreada?",
           "respuesta": "Pendiente - verificar con la imagen"
         }
-      ]
+      ],
+      "figura2": {
+        "tipo": "imagen",
+        "src": "/figuras/clase7-ejercicios-a-d.png",
+        "alt": "Casos a, b, c, d con region sombreada"
+      }
     },
     {
       "id": "tercera_parte_sombreada",

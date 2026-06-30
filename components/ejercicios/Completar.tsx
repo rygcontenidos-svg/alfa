@@ -56,6 +56,10 @@ export default function Completar({
           <FiguraMatematica def={ej.figura} />
         )}
 
+        {"figura2" in ej && ej.figura2 && (
+          <FiguraMatematica def={ej.figura2} />
+        )}
+
         <div className="space-y-4">
           {ej.items.map((it) => (
             <div key={it.id}>

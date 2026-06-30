@@ -26,7 +26,7 @@ export type FiguraDef = {
   ancho?: number;
 };
 
-export type EjercicioBase = { id: string; consigna: string; figura?: FiguraDef };
+export type EjercicioBase = { id: string; consigna: string; figura?: FiguraDef; figura2?: FiguraDef };
 
 export type SeleccionMultiple = EjercicioBase & {
   tipo: "seleccion_multiple";
