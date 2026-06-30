@@ -350,42 +350,47 @@
     {
       "id": "unidad_sombreada_abcd",
       "tipo": "completar",
-      "consigna": "Considerá la siguiente figura (recuadro de la izquierda) como UNIDAD. ¿Qué fracción de la unidad representa la región sombreada en cada uno de los 4 casos (a, b, c, d) de la derecha?",
+      "consigna": "Considerá la siguiente figura como UNIDAD:",
       "figura": {
         "tipo": "imagen",
         "src": "/figuras/clase7-unidad-base.png",
-        "alt": "UNIDAD - recuadro izquierdo"
+        "alt": "Figura unidad base"
       },
       "items": [
         {
+          "id": "pregunta",
+          "subtipo": "texto",
+          "pregunta": "¿Qué fracción de la unidad representa la región sombreada en cada uno de los 4 casos (a, b, c, d)?"
+        },
+        {
           "id": "a",
           "subtipo": "texto",
-          "pregunta": "Caso a: ¿qué fracción está sombreada?",
-          "respuesta": "Pendiente - verificar con la imagen"
+          "pregunta": "Caso a:",
+          "respuesta": "Pendiente"
         },
         {
           "id": "b",
           "subtipo": "texto",
-          "pregunta": "Caso b: ¿qué fracción está sombreada?",
-          "respuesta": "Pendiente - verificar con la imagen"
+          "pregunta": "Caso b:",
+          "respuesta": "Pendiente"
         },
         {
           "id": "c",
           "subtipo": "texto",
-          "pregunta": "Caso c: ¿qué fracción está sombreada?",
-          "respuesta": "Pendiente - verificar con la imagen"
+          "pregunta": "Caso c:",
+          "respuesta": "Pendiente"
         },
         {
           "id": "d",
           "subtipo": "texto",
-          "pregunta": "Caso d: ¿qué fracción está sombreada?",
-          "respuesta": "Pendiente - verificar con la imagen"
+          "pregunta": "Caso d:",
+          "respuesta": "Pendiente"
         }
       ],
       "figura2": {
         "tipo": "imagen",
         "src": "/figuras/clase7-ejercicios-a-d.png",
-        "alt": "Casos a, b, c, d con region sombreada"
+        "alt": "Casos a, b, c, d"
       }
     },
     {
