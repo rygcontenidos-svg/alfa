@@ -50,6 +50,19 @@ function FlechaMedida({
 }
 
 export default function FiguraMatematica({ def }: { def: FiguraDef }) {
+  if (def.tipo === "imagen") {
+    return (
+      <div className="my-3 flex justify-center">
+        <img
+          src={def.src}
+          alt={def.alt ?? ""}
+          style={{ maxWidth: def.ancho ? `${def.ancho}px` : "100%", height: "auto" }}
+          className="rounded-lg border border-borde"
+        />
+      </div>
+    );
+  }
+
   if (def.tipo !== "cuadricula") return null;
 
   const { grilla, celda = 28, etiquetas = [], medidas = [] } = def;

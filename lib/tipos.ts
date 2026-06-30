@@ -19,6 +19,11 @@ export type FiguraDef = {
   celda?: number;
   etiquetas?: { fila: number; col: number; texto: string; pos?: "arriba" | "abajo" | "izquierda" | "derecha" }[];
   medidas?: { lado: "arriba" | "abajo" | "izquierda" | "derecha"; desde: number; hasta: number; texto: string }[];
+} | {
+  tipo: "imagen";
+  src: string;
+  alt?: string;
+  ancho?: number;
 };
 
 export type EjercicioBase = { id: string; consigna: string; figura?: FiguraDef };

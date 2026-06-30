@@ -299,6 +299,11 @@
       "id": "figura_gris_tres_rectangulos",
       "tipo": "completar",
       "consigna": "La figura gris est\u00E1 formada por tres rect\u00E1ngulos congruentes y un cuadrado al que se le quit\u00F3 un tri\u00E1ngulo equil\u00E1tero. El lado menor del rect\u00E1ngulo es un primo entre 11 y 16. El lado mayor es el doble del menor.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase5-ej8.png",
+        "alt": "Figura gris formada por tres rectangulos congruentes y un cuadrado con un triangulo equilatero quitado"
+      },
       "items": [
         {
           "id": "a",
