@@ -153,7 +153,7 @@ export default function ModuloCliente({ modulo }: { modulo: Modulo }) {
             </div>
           </div>
 
-          {textosModulo.length > 0 && (
+          {textosModulo.length > 0 && modulo.materia !== "matematica" && (
             <section className="mt-8">
               <h2 className="text-sm font-semibold text-grafito mb-2">
                 Textos de esta clase
