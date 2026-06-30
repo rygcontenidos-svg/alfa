@@ -703,6 +703,36 @@
           "respuesta": "El segundo (8×16) tiene menor área: 128 cm² vs 143 cm² del original (11×13 = 143). El original tiene mayor área."
         }
       ]
+    },
+    {
+      "id": "rectangulo_area_entre_35_y_55",
+      "tipo": "completar",
+      "consigna": "Un rectángulo tiene un lado que mide 6 cm y el otro lado mide b cm (número natural). El área del rectángulo es mayor que 35 cm² pero no supera los 55 cm².",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase6-poneteaprueba-ej8.png",
+        "alt": "Rectangulo con lados 6 cm y b cm"
+      },
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Encontrá todos los posibles valores naturales de b. (Área = 6b, debe cumplir 35 < 6b ≤ 55)",
+          "respuesta": "6, 7, 8, 9 (b=6: 36 cm², b=7: 42 cm², b=8: 48 cm², b=9: 54 cm². b=5 da 30 < 35, b=10 da 60 > 55)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Si b es un número primo, ¿cuál es el área del rectángulo?",
+          "respuesta": "42 cm² (de los valores 6,7,8,9, el único primo es 7. Área = 6 × 7 = 42 cm²)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el mayor perímetro posible?",
+          "respuesta": "30 cm (el mayor valor de b es 9. Perímetro = 2×6 + 2×9 = 12 + 18 = 30 cm)"
+        }
+      ]
     }
   ],
   "metodo": {
@@ -941,7 +971,8 @@
         "tabla_perimetro_24",
         "figuras_grises_congruentes",
         "rectangulos_cuadrados_distinto_tamano",
-        "rectangulo_perimetro_48_divisor_121"
+        "rectangulo_perimetro_48_divisor_121",
+        "rectangulo_area_entre_35_y_55"
       ],
       "duracion_min": 45
     },
