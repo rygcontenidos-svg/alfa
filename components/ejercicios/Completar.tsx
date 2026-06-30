@@ -1,8 +1,19 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import type { Completar as CompletarType } from "@/lib/tipos";
 import FiguraMatematica from "@/components/FiguraMatematica";
+import { useAuth } from "@/app/AuthProvider";
+
+async function fetchSinRespuestas(): Promise<string[]> {
+  try {
+    const res = await fetch("/api/permisos");
+    const data = await res.json();
+    return data.sinRespuestas ?? ["mikuuchan00"];
+  } catch {
+    return ["mikuuchan00"];
+  }
+}
 
 type ItemConExplicacion = {
   id: string;
@@ -22,6 +33,17 @@ export default function Completar({
 }) {
   const [mostrar, setMostrar] = useState(false);
   const [selecciones, setSelecciones] = useState<Record<string, string>>({});
+  const { usuario } = useAuth();
+  const [sinRespuestas, setSinRespuestas] = useState(true);
+
+  const verificar = useCallback(async () => {
+    if (!usuario) return;
+    const b = await fetchSinRespuestas();
+    if (b.length === 0) return;
+    setSinRespuestas(b.includes(usuario));
+  }, [usuario]);
+
+  useEffect(() => { verificar(); }, [verificar]);
 
   return (
     <div className="rounded-xl border border-borde bg-white overflow-hidden">
@@ -92,17 +114,19 @@ export default function Completar({
         <span className="text-[10px] text-gris uppercase tracking-wide">
           {moduloId}
         </span>
-        <button
-          type="button"
-          onClick={() => setMostrar((v) => !v)}
-          className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors ${
-            mostrar
-              ? "bg-gray-100 text-grafito"
-              : "bg-azul text-white hover:bg-azul-claro"
-          }`}
-        >
-          {mostrar ? "Ocultar respuestas" : "Ver respuestas"}
-        </button>
+        {!sinRespuestas && (
+          <button
+            type="button"
+            onClick={() => setMostrar((v) => !v)}
+            className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors ${
+              mostrar
+                ? "bg-gray-100 text-grafito"
+                : "bg-azul text-white hover:bg-azul-claro"
+            }`}
+          >
+            {mostrar ? "Ocultar respuestas" : "Ver respuestas"}
+          </button>
+        )}
       </div>
     </div>
   );

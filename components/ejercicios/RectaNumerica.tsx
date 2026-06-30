@@ -1,7 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import type { RectaNumerica as RectaNumericaType } from "@/lib/tipos";
+import { useAuth } from "@/app/AuthProvider";
+
+async function fetchSR(): Promise<string[]> {
+  try { const r = await fetch("/api/permisos"); const d = await r.json(); return d.sinRespuestas ?? ["mikuuchan00"]; }
+  catch { return ["mikuuchan00"]; }
+}
 
 function rectaSVG(marcas: NonNullable<RectaNumericaType["marcas"]>) {
   const W = 600;
@@ -44,6 +50,13 @@ export default function RectaNumerica({
 }) {
   const [mostrar, setMostrar] = useState(false);
   const [selecciones, setSelecciones] = useState<Record<string, string>>({});
+  const { usuario } = useAuth();
+  const [sinRespuestas, setSinRespuestas] = useState(true);
+  const verificar = useCallback(async () => {
+    if (!usuario) return; const b = await fetchSR();
+    if (b.length === 0) return; setSinRespuestas(b.includes(usuario));
+  }, [usuario]);
+  useEffect(() => { verificar(); }, [verificar]);
 
   return (
     <div className="rounded-xl border border-borde bg-white overflow-hidden">
@@ -115,17 +128,19 @@ export default function RectaNumerica({
         <span className="text-[10px] text-gris uppercase tracking-wide">
           {moduloId}
         </span>
-        <button
-          type="button"
-          onClick={() => setMostrar((v) => !v)}
-          className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors ${
-            mostrar
-              ? "bg-gray-100 text-grafito"
-              : "bg-azul text-white hover:bg-azul-claro"
-          }`}
-        >
-          {mostrar ? "Ocultar respuestas" : "Ver respuestas"}
-        </button>
+        {!sinRespuestas && (
+          <button
+            type="button"
+            onClick={() => setMostrar((v) => !v)}
+            className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors ${
+              mostrar
+                ? "bg-gray-100 text-grafito"
+                : "bg-azul text-white hover:bg-azul-claro"
+            }`}
+          >
+            {mostrar ? "Ocultar respuestas" : "Ver respuestas"}
+          </button>
+        )}
       </div>
     </div>
   );
