@@ -672,6 +672,37 @@
           "respuesta": "Consultar la figura para verificar"
         }
       ]
+    },
+    {
+      "id": "rectangulo_perimetro_48_divisor_121",
+      "tipo": "completar",
+      "consigna": "Un rectángulo tiene 48 cm de perímetro y uno de sus lados mide el único divisor de dos cifras de 121. Al disminuir 3 cm la medida de cada lado menor, se obtiene otro rectángulo con el mismo perímetro.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el único divisor de dos cifras de 121? (ese es uno de los lados del primer rectángulo)",
+          "respuesta": "11 (divisores de 121: 1, 11, 121. El único de dos cifras es 11)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Si un lado mide 11 cm y el perímetro es 48 cm, ¿cuánto mide el otro lado del primer rectángulo?",
+          "respuesta": "13 cm (2 × 11 + 2 × lado = 48 → 22 + 2l = 48 → l = 13). Rectángulo original: 11 × 13"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "Al disminuir 3 cm cada lado menor (11 – 3 = 8), el nuevo rectángulo mantiene perímetro 48. ¿Cuáles son sus lados y su área?",
+          "respuesta": "8 × 16, área = 128 cm² (2×8 + 2l = 48 → l = 16. Área = 8×16 = 128 cm²)"
+        },
+        {
+          "id": "d",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál de los dos rectángulos tiene menor área? Justificá.",
+          "respuesta": "El segundo (8×16) tiene menor área: 128 cm² vs 143 cm² del original (11×13 = 143). El original tiene mayor área."
+        }
+      ]
     }
   ],
   "metodo": {
@@ -909,7 +940,8 @@
         "rectangulo_2a_h_tabla",
         "tabla_perimetro_24",
         "figuras_grises_congruentes",
-        "rectangulos_cuadrados_distinto_tamano"
+        "rectangulos_cuadrados_distinto_tamano",
+        "rectangulo_perimetro_48_divisor_121"
       ],
       "duracion_min": 45
     },
