@@ -124,25 +124,30 @@
     {
       "id": "cuadricula_perimetros",
       "tipo": "completar",
-      "consigna": "En una cuadr\u00EDcula con cuadrados de 1 cm de lado se dibujaron figuras usando 6 cuadrados.",
+      "consigna": "En una cuadr\u00EDcula con cuadrados de 1 cm de lado se dibujaron figuras usando 6 cuadrados. (Figuras A, B y C del problema 1 del CIEEM).",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase5-practica-ej4.png",
+        "alt": "Figuras A, B y C en cuadricula con 6 cuadrados cada una"
+      },
       "items": [
         {
           "id": "a",
           "subtipo": "texto",
           "pregunta": "\u00BFCu\u00E1nto mide el per\u00EDmetro de la figura A? (cont\u00E1 los lados en el contorno)",
-          "respuesta": "10 cm"
+          "respuesta": "14 cm (la figura A tiene 14 lados de cuadradito en su contorno)"
         },
         {
           "id": "b",
           "subtipo": "texto",
           "pregunta": "\u00BFCu\u00E1nto mide el per\u00EDmetro de la figura B?",
-          "respuesta": "14 cm"
+          "respuesta": "14 cm (la figura B tambi\u00E9n tiene 14 lados de contorno, aunque su forma es distinta a la de A)"
         },
         {
           "id": "c",
           "subtipo": "texto",
-          "pregunta": "\u00BFEl per\u00EDmetro de la figura C es mayor, menor o igual que el de B?",
-          "respuesta": "Igual (14 cm)"
+          "pregunta": "\u00BFCu\u00E1nto mide el per\u00EDmetro de la figura C?",
+          "respuesta": "18 cm (la figura C tiene 18 lados de contorno. Las tres figuras tienen la misma \u00E1rea \u20146 cuadraditos\u2014 pero distinto per\u00EDmetro)"
         }
       ]
     },
