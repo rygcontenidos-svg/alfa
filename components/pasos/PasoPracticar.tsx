@@ -40,8 +40,13 @@ export default function PasoPracticar({
         </div>
       </div>
 
-      {ejercicios.map((ej) => (
-        <EjercicioRouter key={ej.id} ej={ej} moduloId={modulo.id} />
+      {ejercicios.map((ej, i) => (
+        <div key={ej.id}>
+          <p className="text-xs font-semibold text-grafito mb-2 uppercase tracking-wide">
+            Ejercicio {i + 1}
+          </p>
+          <EjercicioRouter ej={ej} moduloId={modulo.id} />
+        </div>
       ))}
 
       <button
