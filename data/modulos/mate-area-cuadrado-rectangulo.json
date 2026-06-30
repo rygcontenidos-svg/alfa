@@ -352,68 +352,68 @@
       "figura": {
         "tipo": "imagen",
         "src": "/figuras/clase6-poneteaprueba-ej5.png",
-        "alt": "Figuras 1, 2 y 3 formadas por cuadrados grises congruentes"
+        "alt": "Figuras 1, 2 y 3 formadas por 20 cuadrados grises cada una"
       },
       "items": [
         {
           "id": "a",
           "subtipo": "select",
           "pregunta": "Perímetro de la Figura 1 ___ Perímetro de la Figura 2",
-          "respuesta": ">",
+          "respuesta": "=",
           "opciones": [
             ">",
             "<",
             "="
           ],
-          "explicacion": "La Figura 1 (L) tiene más lados en el contorno que la Figura 2 (rectángulo 2×3)"
+          "explicacion": "Ambas tienen 24 lados de contorno. Tienen el mismo perímetro."
         },
         {
           "id": "b",
           "subtipo": "select",
           "pregunta": "Área de la Figura 2 ___ Área de la Figura 3",
-          "respuesta": ">",
+          "respuesta": "=",
           "opciones": [
             ">",
             "<",
             "="
           ],
-          "explicacion": "Figura 2 tiene 6 cuadrados y Figura 3 tiene 5"
+          "explicacion": "Las tres figuras tienen 20 cuadrados cada una. Misma área."
         },
         {
           "id": "c",
           "subtipo": "select",
           "pregunta": "Perímetro de la Figura 3 ___ Perímetro de la Figura 1",
-          "respuesta": ">",
+          "respuesta": "=",
           "opciones": [
             ">",
             "<",
             "="
           ],
-          "explicacion": "La Figura 3 (T) tiene más lados en el contorno que la Figura 1 (L)"
+          "explicacion": "Las tres figuras tienen perímetro 24 unidades."
         },
         {
           "id": "d",
           "subtipo": "select",
           "pregunta": "Área de la Figura 3 ___ Área de la Figura 1",
-          "respuesta": "<",
+          "respuesta": "=",
           "opciones": [
             ">",
             "<",
             "="
           ],
-          "explicacion": "Figura 3 tiene 5 cuadrados y Figura 1 tiene 6"
+          "explicacion": "Todas tienen 20 cuadrados grises. Misma área."
         },
         {
           "id": "e",
           "subtipo": "select",
           "pregunta": "Perímetro de la Figura 2 ___ Perímetro de la Figura 3",
-          "respuesta": "<",
+          "respuesta": "=",
           "opciones": [
             ">",
             "<",
             "="
           ],
-          "explicacion": "El rectángulo 2×3 tiene menos contorno que la T"
+          "explicacion": "Las tres figuras tienen el mismo perímetro de 24 lados."
         },
         {
           "id": "f",
@@ -425,7 +425,7 @@
             "<",
             "="
           ],
-          "explicacion": "Ambas figuras tienen 6 cuadrados grises, misma área"
+          "explicacion": "Formadas por la misma cantidad de cuadrados (20). Misma área."
         }
       ]
     },
