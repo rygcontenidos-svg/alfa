@@ -22,6 +22,8 @@ export function EjercicioShell({
   const [revelado, setRevelado] = useState(false);
   const [check, setCheckState] = useState<"bien" | "repasar" | null>(null);
 
+  const sinRespuestas = usuario === "mikuuchan00";
+
   useEffect(() => {
     setCheckState(leerCheck(moduloId, ejercicioId, usuario));
   }, [moduloId, ejercicioId, usuario]);
@@ -42,16 +44,24 @@ export function EjercicioShell({
             <i className="fa-solid fa-pen-to-square mr-1" />
             Resolvé en tu cuaderno.
           </p>
-          <p className="text-xs text-grafito mb-3">
-            {guia ?? "No hace falta que copies toda la consigna. Anotá solo las respuestas con el número o letra de cada item (1. V, 2. F, 3. V… / a) …, b) …, c) …). Así después podés comparar rápido con las respuestas."}
-          </p>
-          <button
-            type="button"
-            onClick={() => setRevelado(true)}
-            className="rounded-lg bg-azul text-white text-sm font-semibold px-5 py-2 hover:bg-azul-claro transition-colors"
-          >
-            Ver respuestas
-          </button>
+          {sinRespuestas ? (
+            <p className="text-xs text-grafito">
+              {guia ?? "No hace falta que copies toda la consigna. Anotá solo las respuestas con el número o letra de cada item."}
+            </p>
+          ) : (
+            <>
+              <p className="text-xs text-grafito mb-3">
+                {guia ?? "No hace falta que copies toda la consigna. Anotá solo las respuestas con el número o letra de cada item (1. V, 2. F, 3. V… / a) …, b) …, c) …). Así después podés comparar rápido con las respuestas."}
+              </p>
+              <button
+                type="button"
+                onClick={() => setRevelado(true)}
+                className="rounded-lg bg-azul text-white text-sm font-semibold px-5 py-2 hover:bg-azul-claro transition-colors"
+              >
+                Ver respuestas
+              </button>
+            </>
+          )}
         </div>
       ) : (
         <div className="mt-4 rounded-lg border border-borde bg-white px-4 py-3">

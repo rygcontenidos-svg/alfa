@@ -12,11 +12,11 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (cargando) return;
     if (usuario) return;
-    if (pathname === "/login" || pathname === "/") return;
+    if (pathname === "/login") return;
     router.push("/login");
   }, [usuario, cargando, pathname, router]);
 
-  if (pathname === "/login" || pathname === "/") {
+  if (pathname === "/login") {
     return <>{children}</>;
   }
 
