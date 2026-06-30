@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Card from "../Card";
 import { leerCheck, setCheck } from "@/lib/progreso";
 import { useAuth } from "@/app/AuthProvider";
+import { puedeVerRespuestas } from "@/lib/permisos";
 
 export function EjercicioShell({
   consigna,
@@ -22,7 +23,7 @@ export function EjercicioShell({
   const [revelado, setRevelado] = useState(false);
   const [check, setCheckState] = useState<"bien" | "repasar" | null>(null);
 
-  const sinRespuestas = usuario === "mikuuchan00";
+  const sinRespuestas = !puedeVerRespuestas(usuario);
 
   useEffect(() => {
     setCheckState(leerCheck(moduloId, ejercicioId, usuario));

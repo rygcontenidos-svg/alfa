@@ -13,10 +13,10 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
     if (cargando) return;
     if (usuario) return;
     if (pathname === "/login") return;
-    router.push("/login");
+    if (!usuario && pathname !== "/admin") { router.push("/login"); return; }
   }, [usuario, cargando, pathname, router]);
 
-  if (pathname === "/login") {
+  if (pathname === "/login" || pathname.startsWith("/api/")) {
     return <>{children}</>;
   }
 
