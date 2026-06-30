@@ -374,6 +374,36 @@
           "respuesta": "208 cm (el lado menor del rect\u00E1ngulo es 13, el mayor es 26. El per\u00EDmetro de la figura gris se calcula sumando los lados del contorno: 208 cm)"
         }
       ]
+    },
+    {
+      "id": "ocho_rectangulos_congruentes",
+      "tipo": "completar",
+      "consigna": "La figura est\u00E1 formada por ocho rect\u00E1ngulos congruentes y el lado mayor de cada uno de ellos mide 20 cm.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase5-poneteaprueba-ej7.png",
+        "alt": "Figura formada por ocho rectangulos congruentes"
+      },
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "El lado mayor de la figura mide 3 veces el lado mayor de un rect\u00E1ngulo (3 \u00D7 20 cm). \u00BFCu\u00E1nto mide ese lado de la figura?",
+          "respuesta": "60 cm (3 \u00D7 20 cm = 60 cm)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Ese mismo lado de 60 cm est\u00E1 formado por 5 lados menores de los rect\u00E1ngulos. \u00BFCu\u00E1nto mide el lado menor de cada rect\u00E1ngulo?",
+          "respuesta": "12 cm (60 cm \u00F7 5 = 12 cm)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "\u00BFCu\u00E1l es, en cent\u00EDmetros, el per\u00EDmetro de la figura?",
+          "respuesta": "184 cm (2 \u00D7 60 cm + 2 \u00D7 20 cm + 2 \u00D7 12 cm = 120 + 40 + 24 = 184 cm)"
+        }
+      ]
     }
   ],
   "metodo": {
@@ -567,7 +597,8 @@
         "figura_p_igual_2",
         "rectangulo_disminuye_7",
         "triangulos_cuadrados_quitados",
-        "dos_cuadrados_verde_azul"
+        "dos_cuadrados_verde_azul",
+        "ocho_rectangulos_congruentes"
       ],
       "duracion_min": 30
     },
