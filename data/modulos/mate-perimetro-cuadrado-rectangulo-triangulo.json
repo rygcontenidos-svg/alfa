@@ -346,7 +346,7 @@
           "id": "c",
           "subtipo": "texto",
           "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro de la figura gris?",
-          "respuesta": "210 cm"
+          "respuesta": "208 cm (el lado menor del rect\u00E1ngulo es 13, el mayor es 26. El per\u00EDmetro de la figura gris se calcula sumando los lados del contorno: 208 cm)"
         }
       ]
     }
