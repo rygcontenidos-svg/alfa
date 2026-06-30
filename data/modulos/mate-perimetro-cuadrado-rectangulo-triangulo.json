@@ -184,25 +184,30 @@
     {
       "id": "cuadrado_9_congruentes",
       "tipo": "completar",
-      "consigna": "Un cuadrado grande MPQR est\u00E1 formado por 9 cuadrados congruentes. El per\u00EDmetro de MPQR es 132 cm.",
+      "consigna": "Un cuadrado grande MPQR est\u00E1 formado por 9 cuadrados congruentes (3 filas \u00D7 3 columnas). El per\u00EDmetro de MPQR es 132 cm.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase5-practica-ej6.png",
+        "alt": "Cuadrado grande MPQR formado por 9 cuadrados congruentes, 5 coloreados"
+      },
       "items": [
         {
           "id": "a",
           "subtipo": "texto",
-          "pregunta": "\u00BFCu\u00E1nto mide cada lado del cuadrado grande?",
-          "respuesta": "33 cm"
+          "pregunta": "\u00BFCu\u00E1nto mide cada lado del cuadrado grande MPQR?",
+          "respuesta": "33 cm (el cuadrado tiene 4 lados iguales. Per\u00EDmetro = 132 cm \u2192 lado = 132 \u00F7 4 = 33 cm)"
         },
         {
           "id": "b",
           "subtipo": "texto",
           "pregunta": "\u00BFCu\u00E1nto mide el lado de cada cuadrado peque\u00F1o?",
-          "respuesta": "11 cm"
+          "respuesta": "11 cm (el cuadrado grande tiene 3 cuadrados chicos por lado \u2192 cada lado del grande = 3 \u00D7 lado chico \u2192 33 cm = 3 \u00D7 lado chico \u2192 lado chico = 33 \u00F7 3 = 11 cm)"
         },
         {
           "id": "c",
           "subtipo": "texto",
-          "pregunta": "La zona coloreada son 5 cuadrados peque\u00F1os. \u00BFCu\u00E1l es su per\u00EDmetro?",
-          "respuesta": "220 cm"
+          "pregunta": "La zona coloreada son 5 cuadrados peque\u00F1os. \u00BFCu\u00E1l es su per\u00EDmetro? (cont\u00E1 los lados de los cuadraditos que forman el contorno de la zona coloreada)",
+          "respuesta": "220 cm (la zona coloreada tiene 20 lados de cuadradito en su contorno \u2192 20 \u00D7 11 cm = 220 cm. Como los cuadrados coloreados no comparten lados entre s\u00ED \u2014se tocan solo por las esquinas\u2014, cada lado de cada cuadrado coloreado forma parte del contorno: 5 cuadrados \u00D7 4 lados cada uno = 20 lados)"
         }
       ]
     },
