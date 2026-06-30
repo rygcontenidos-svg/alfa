@@ -120,16 +120,16 @@
         "tipo": "cuadricula",
         "celda": 24,
         "grilla": [
-          ["#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0"],
-          ["#b8d4f0", null, null, null, null, null, null, null, null, null, null, "#b8d4f0", null, null, "#b8d4f0", null, null, "#b8d4f0"],
-          ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", null, null, "#b8d4f0"],
-          ["#b8d4f0", null, null, null, null, null, null, null, null, null, null, "#b8d4f0", null, null, "#b8d4f0", null, null, "#b8d4f0"],
-          ["#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0"]
+          ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0"],
+          ["#b8d4f0", null, null, null, null, null, null, null, "#b8d4f0", null, null, null, null, "#b8d4f0", null, "#b8d4f0"],
+          ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, null, null, "#b8d4f0", null, null, null, null, "#b8d4f0", null, "#b8d4f0"],
+          ["#b8d4f0", null, null, null, null, null, null, null, null, null, null, null, null, "#b8d4f0", null, "#b8d4f0"],
+          ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, null, null, null, null, null, null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0"]
         ],
         "etiquetas": [
-          { "fila": 5, "col": 2, "texto": "E (22 lados)", "pos": "abajo" },
-          { "fila": 5, "col": 10, "texto": "T (14 lados)", "pos": "abajo" },
-          { "fila": 5, "col": 16, "texto": "O (12 fichas)", "pos": "abajo" }
+          { "fila": 5, "col": 1, "texto": "E · 11 fichas · 22 lados", "pos": "abajo" },
+          { "fila": 5, "col": 8, "texto": "T · 7 fichas · 14 lados", "pos": "abajo" },
+          { "fila": 5, "col": 14, "texto": "O · 12 fichas", "pos": "abajo" }
         ]
       },
       "items": [
