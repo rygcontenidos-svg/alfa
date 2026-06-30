@@ -219,6 +219,11 @@
       "id": "expresion_perimetro",
       "tipo": "seleccion_multiple",
       "consigna": "La figura est\u00E1 formada por dos rect\u00E1ngulos congruentes, dos cuadrados congruentes y dos tri\u00E1ngulos equil\u00E1teros congruentes. El lado del cuadrado mide 3 cm. El lado mayor del rect\u00E1ngulo mide d cm. \u00BFCu\u00E1l de estas expresiones permite calcular el per\u00EDmetro?",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase5-poneteaprueba-ej2.png",
+        "alt": "Figura formada por dos rectangulos congruentes, dos cuadrados congruentes y dos triangulos equilateros congruentes"
+      },
       "opciones": [
         { "id": "a", "texto": "2d + 16 \u00D7 3" },
         { "id": "b", "texto": "2d + 18 \u00D7 3" },
