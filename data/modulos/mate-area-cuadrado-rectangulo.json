@@ -606,6 +606,36 @@
           "respuesta": "34 cm (el lado mayor es el doble del menor: 2 × 17 = 34 cm)"
         }
       ]
+    },
+    {
+      "id": "rectangulo_triangulos_isosceles",
+      "tipo": "completar",
+      "consigna": "La figura está formada por un rectángulo, dos triángulos equiláteros congruentes y dos triángulos isósceles congruentes. El perímetro de cada triángulo equilátero es 12 cm, el área del rectángulo es 8 cm² y el perímetro de la figura es 36 cm.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase6-practica-ej8.png",
+        "alt": "Figura con rectangulo, triangulos equilateros e isosceles"
+      },
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "¿Cuánto mide cada lado de los triángulos equiláteros?",
+          "respuesta": "4 cm (perímetro 12 cm ÷ 3 lados = 4 cm por lado)"
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Si un lado del rectángulo coincide con un lado del equilátero (4 cm) y su área es 8 cm², ¿cuánto mide el otro lado?",
+          "respuesta": "2 cm (área = 4 cm × lado desconocido = 8 cm² → lado = 8 ÷ 4 = 2 cm. Este lado es también uno de los lados de los triángulos isósceles)"
+        },
+        {
+          "id": "c",
+          "subtipo": "texto",
+          "pregunta": "¿Cuál es el perímetro de cada triángulo isósceles?",
+          "respuesta": "12 cm (la suma de los 4 lados visibles de los equiláteros es 4 × 4 = 16 cm. El perímetro total de la figura es 36 cm. Los 4 lados congruentes de los isósceles suman 36 – 16 = 20 cm. Cada lado congruente = 20 ÷ 4 = 5 cm. Perímetro del isósceles = 5 + 5 + 2 = 12 cm)"
+        }
+      ]
     }
   ],
   "metodo": {
@@ -831,7 +861,8 @@
         "iniciales_e_o_t",
         "rectangulo_23x15_cuadrado",
         "rectangulo_b_entre_35_y_55",
-        "tarjetas_cumple"
+        "tarjetas_cumple",
+        "rectangulo_triangulos_isosceles"
       ]
     },
     "ponerse_a_prueba": {
