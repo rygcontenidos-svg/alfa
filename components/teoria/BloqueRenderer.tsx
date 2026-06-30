@@ -60,7 +60,7 @@ export default function BloqueRenderer({ bloque }: { bloque: Bloque }) {
       return (
         <div className="rounded-xl border-l-4 border-azul bg-azul-fondo p-4">
           <p className="text-xs font-semibold text-azul uppercase tracking-wide mb-1.5">
-            Ejemplo del cuento
+            Ejemplo
           </p>
           <p className="text-base italic text-grafito mb-2">“{bloque.cita}”</p>
           <p className="text-base text-gris leading-relaxed">
