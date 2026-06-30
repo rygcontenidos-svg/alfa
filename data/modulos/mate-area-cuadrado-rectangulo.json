@@ -656,20 +656,20 @@
         {
           "id": "a",
           "subtipo": "texto",
-          "pregunta": "¿Cuánto mide el lado del cuadrado menor? (perímetro = 24 cm)",
-          "respuesta": "6 cm (24 ÷ 4 = 6 cm. Este es también el lado menor de cada rectángulo)"
+          "pregunta": "¿Cuánto mide el lado del cuadrado menor? ¿Y el lado mayor del rectángulo? ¿Y el lado del cuadrado mayor?",
+          "respuesta": "Cuadrado menor: 6 cm (24 ÷ 4). Rectángulo: 14 cm × 6 cm (lado mayor 14). Cuadrado mayor: 8 cm (14 – 6 = 8)."
         },
         {
           "id": "b",
           "subtipo": "texto",
           "pregunta": "Calculá, en centímetros, el perímetro de la figura.",
-          "respuesta": "Consultar la figura para verificar"
+          "respuesta": "68 cm (lados exteriores: 14 + 14 + 6 + 8 + 2 + 6 + 2 + 6 + 6 + 4 = 68 cm, recorriendo el contorno completo)"
         },
         {
           "id": "c",
           "subtipo": "texto",
           "pregunta": "¿Cuál es el área de la figura en centímetros cuadrados?",
-          "respuesta": "Consultar la figura para verificar"
+          "respuesta": "268 cm² (cuadrado menor: 6×6 = 36. Dos rectángulos: 2×14×6 = 168. Cuadrado mayor: 8×8 = 64. Total: 36 + 168 + 64 = 268 cm²)"
         }
       ]
     },
