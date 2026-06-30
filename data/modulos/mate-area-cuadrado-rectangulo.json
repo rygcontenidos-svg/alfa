@@ -757,6 +757,30 @@
           "respuesta": "Sí. Perímetro = 2×12 + 2×11 = 24 + 22 = 46 cm. Los datos de área (132) y perímetro (46) son consistentes."
         }
       ]
+    },
+    {
+      "id": "rectangulo_2a_h_20_42",
+      "tipo": "completar",
+      "consigna": "Un rectángulo cuyos lados miden 2a cm y h cm, con a y h números naturales.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase6-poneteaprueba-ej11.png",
+        "alt": "Rectangulo con lados 2a y h"
+      },
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "texto",
+          "pregunta": "Si el perímetro es 20 cm (4a + 2h = 20), ¿cuáles son los posibles valores de a y h?",
+          "respuesta": "(a=1,h=8) (a=2,h=6) (a=3,h=4) (a=4,h=2). De 4a+2h=20 → h=10–2a. Probando a naturales: a=1→h=8, a=2→h=6, a=3→h=4, a=4→h=2. a=5→h=0 no válido."
+        },
+        {
+          "id": "b",
+          "subtipo": "texto",
+          "pregunta": "Si el área es 42 cm² (2a×h=42 → a×h=21), ¿cuáles son los posibles valores de a y h?",
+          "respuesta": "(a=1,h=21) (a=3,h=7) (a=7,h=3) (a=21,h=1). Pares de divisores de 21. Los lados del rectángulo serían 2×a y h: (2,21), (6,7), (14,3), (42,1)."
+        }
+      ]
     }
   ],
   "metodo": {
@@ -997,7 +1021,8 @@
         "rectangulos_cuadrados_distinto_tamano",
         "rectangulo_perimetro_48_divisor_121",
         "rectangulo_area_entre_35_y_55",
-        "rectangulo_datos_area_perimetro"
+        "rectangulo_datos_area_perimetro",
+        "rectangulo_2a_h_20_42"
       ],
       "duracion_min": 45
     },
