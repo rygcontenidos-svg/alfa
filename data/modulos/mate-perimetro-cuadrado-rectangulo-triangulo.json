@@ -278,12 +278,12 @@
       ]
     },
     {
-      "id": "figura_5_rectas",
+      "id": "triangulos_cuadrados_quitados",
       "tipo": "completar",
       "consigna": "Los siguientes tri\u00E1ngulos son congruentes y a cada uno de ellos se le quitaron tres cuadrados tambi\u00E9n congruentes.",
       "figura": {
         "tipo": "imagen",
-        "src": "/figuras/clase5-poneteaprueba-ej6.png",
+        "src": "/figuras/triangulos_cuadrados_quitados.png",
         "alt": "Dos triangulos congruentes A y B a los que se les quitaron tres cuadrados congruentes"
       },
       "items": [
@@ -560,9 +560,8 @@
         "figura_triangulo_rectangulo",
         "expresion_perimetro",
         "figura_p_igual_2",
-        "figura_5_rectas",
         "rectangulo_disminuye_7",
-        "dos_cuadrados_verde_azul"
+        "triangulos_cuadrados_quitados"
       ],
       "duracion_min": 30
     },
