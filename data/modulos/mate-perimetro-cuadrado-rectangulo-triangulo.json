@@ -105,19 +105,24 @@
     {
       "id": "figura_triangulo_rectangulo",
       "tipo": "completar",
-      "consigna": "La figura est\u00E1 formada por un tri\u00E1ngulo equil\u00E1tero y un rect\u00E1ngulo. La base del rect\u00E1ngulo es el doble de la altura. El per\u00EDmetro de la figura es 1050 cm.",
+      "consigna": "La figura est\u00E1 formada por un tri\u00E1ngulo equil\u00E1tero apoyado sobre un rect\u00E1ngulo. La base del rect\u00E1ngulo es el doble de la altura. El per\u00EDmetro de la figura es 1050 cm.",
+      "figura": {
+        "tipo": "imagen",
+        "src": "/figuras/clase5-poneteaprueba-ej1.png",
+        "alt": "Triangulo equilatero apoyado sobre un rectangulo"
+      },
       "items": [
         {
           "id": "a",
           "subtipo": "texto",
           "pregunta": "\u00BFCu\u00E1nto mide la altura del rect\u00E1ngulo? (el per\u00EDmetro suma 7 veces la altura)",
-          "respuesta": "150 cm"
+          "respuesta": "150 cm (el contorno de la figura tiene: 1 altura del rect\u00E1ngulo visible + 4 alturas de los dos lados mayores del rect\u00E1ngulo \u2014cada uno mide 2h\u2014 + 2 alturas de los dos lados visibles del tri\u00E1ngulo equil\u00E1tero \u2014cada lado = h\u2014. Total: 1h + 4h + 2h = 7h. Como el per\u00EDmetro es 1050 cm \u2192 h = 1050 \u00F7 7 = 150 cm)"
         },
         {
           "id": "b",
           "subtipo": "texto",
-          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro del tri\u00E1ngulo?",
-          "respuesta": "450 cm"
+          "pregunta": "\u00BFCu\u00E1l es el per\u00EDmetro del tri\u00E1ngulo equil\u00E1tero?",
+          "respuesta": "450 cm (cada lado del tri\u00E1ngulo equil\u00E1tero mide lo mismo que la altura del rect\u00E1ngulo: 150 cm. Per\u00EDmetro del tri\u00E1ngulo = 3 \u00D7 150 cm = 450 cm)"
         }
       ]
     },
