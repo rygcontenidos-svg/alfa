@@ -121,8 +121,8 @@
         "celda": 24,
         "grilla": [
           ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0"],
-          ["#b8d4f0", null, null, null, null, null, null, null, "#b8d4f0", null, null, null, null, "#b8d4f0", null, "#b8d4f0"],
-          ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, null, null, "#b8d4f0", null, null, null, null, "#b8d4f0", null, "#b8d4f0"],
+          ["#b8d4f0", null, null, null, null, null, null, null, "#b8d4f0", "#b8d4f0", null, null, null, "#b8d4f0", null, "#b8d4f0"],
+          ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, null, null, null, null, null, null, null, "#b8d4f0", null, "#b8d4f0"],
           ["#b8d4f0", null, null, null, null, null, null, null, null, null, null, null, null, "#b8d4f0", null, "#b8d4f0"],
           ["#b8d4f0", "#b8d4f0", "#b8d4f0", null, null, null, null, null, null, null, null, null, null, "#b8d4f0", "#b8d4f0", "#b8d4f0"]
         ],
