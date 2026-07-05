@@ -63,9 +63,8 @@ export default function PasoPonerseAPrueba({
           Vas a resolver {ejercicios.length} ejercicios en formato de examen.
           Tenés <strong>{modulo.metodo!.ponerse_a_prueba.duracion_min} minutos</strong>.
           <i className="fa-solid fa-pen-to-square mx-1" />
-          Trabajá todo en tu cuaderno, anotando solo las respuestas con su
-          letra o número (a), b), c)…). Al final verificá. Si necesitás
-          consultar el texto, podés abrirlo cuando quieras.
+          Respondé cada ejercicio directamente en pantalla. Al final verificá
+          las respuestas. Podés consultar el texto cuando quieras.
         </p>
         <button
           type="button"
