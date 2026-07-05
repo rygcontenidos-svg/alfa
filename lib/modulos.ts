@@ -21,6 +21,7 @@ import mateArea from "@/data/modulos/mate-area-cuadrado-rectangulo.json";
 import mateFracciones from "@/data/modulos/mate-fracciones-concepto-equivalencias.json";
 import mateFraccionesRecta from "@/data/modulos/mate-fracciones-recta-suma-resta.json";
 import historiaEje1 from "@/data/modulos/historia-eje-1.json";
+import historiaEje4 from "@/data/modulos/historia-eje-4.json";
 
 const MODULOS_JSON: Record<string, Modulo> = {
   "comunicacion-funciones-lenguaje":
@@ -65,6 +66,8 @@ const MODULOS_JSON: Record<string, Modulo> = {
     mateFraccionesRecta as unknown as Modulo,
   "historia-eje-1":
     historiaEje1 as unknown as Modulo,
+  "historia-eje-4":
+    historiaEje4 as unknown as Modulo,
 };
 
 const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
@@ -237,6 +240,14 @@ const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
     titulo: "Eje 1: Introducción a la Historia. Tiempo, espacio, fuentes, ciencias auxiliares y multicausalidad",
     descripcion:
       "La Historia como ciencia. Tiempo cronológico e histórico. Periodización. Fuentes: escritas, materiales, orales y audiovisuales. Ciencias auxiliares. Multicausalidad, cambios, continuidades y contexto histórico.",
+    estado: "completo",
+  },
+  {
+    id: "historia-eje-4",
+    materia: "historia",
+    titulo: "Eje 4: Primera Guerra Mundial, Revolución Rusa, crisis del '30 y regímenes totalitarios",
+    descripcion:
+      "Paz Armada y Primera Guerra Mundial (1914-1918). Revolución Rusa. Felices años 20 y Gran Depresión de 1929. New Deal. Regímenes totalitarios en Europa. Argentina: gobiernos radicales, Golpe de 1930 y Década Infame.",
     estado: "completo",
   },
 ];

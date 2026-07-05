@@ -1,0 +1,672 @@
+{
+  "id": "historia-eje-4",
+  "materia": "historia",
+  "titulo": "Eje 4: Primera Guerra Mundial, Revolución Rusa, crisis del '30 y regímenes totalitarios",
+  "descripcion": "Paz Armada y Primera Guerra Mundial (1914-1918). Revolución Rusa. Felices años 20 y Gran Depresión de 1929. New Deal. Regímenes totalitarios en Europa. Argentina: gobiernos radicales, Golpe de 1930 y Década Infame.",
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "sm_paz_armada",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué fue la 'Paz Armada' (1871-1914) según el material del Eje 4?",
+      "opciones": [
+        { "id": "a", "texto": "Un período sin ejércitos ni armas en Europa tras la derrota de Napoleón." },
+        { "id": "b", "texto": "Un período de paz relativa entre las potencias europeas, pero de fuerte tensión, carrera armamentista y formación de alianzas militares que desembocaron en la Primera Guerra Mundial." },
+        { "id": "c", "texto": "El nombre del tratado de paz firmado después de la Primera Guerra Mundial." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_alianzas",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué bloques de alianzas se enfrentaron en la Primera Guerra Mundial y qué países las integraban?",
+      "opciones": [
+        { "id": "a", "texto": "La OTAN (EE.UU., Francia, Inglaterra) contra el Pacto de Varsovia (URSS, China)." },
+        { "id": "b", "texto": "La Triple Alianza (Alemania, Imperio Austro-Húngaro, Italia —que luego cambió de bando—) contra la Triple Entente (Francia, Rusia, Gran Bretaña)." },
+        { "id": "c", "texto": "Los Aliados (EE.UU., Japón, Brasil) contra el Eje (Alemania, Italia, Japón)." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "vf_causas_guerra",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcá V o F sobre las causas de la Primera Guerra Mundial según el Eje 4.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "i1", "afirmacion": "La expansión imperialista de fines del siglo XIX generó tensiones entre las potencias europeas.", "respuesta": true },
+        { "id": "i2", "afirmacion": "No existía rivalidad entre Francia y Alemania antes de la guerra.", "respuesta": false, "correccion": "Existía un fuerte enfrentamiento entre Francia y Alemania por los territorios limítrofes de Alsacia y Lorena." },
+        { "id": "i3", "afirmacion": "Hubo un enfrentamiento naval entre Inglaterra y Alemania porque Alemania construyó una poderosa flota que disputaba la hegemonía marítima inglesa.", "respuesta": true },
+        { "id": "i4", "afirmacion": "El paneslavismo fue una corriente que buscaba la unidad de todos los pueblos eslavos bajo liderazgo ruso.", "respuesta": true },
+        { "id": "i5", "afirmacion": "El detonante de la guerra fue el asesinato del archiduque Francisco Fernando en Sarajevo el 28 de junio de 1914.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "sm_detonante",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Cuál fue el hecho que funcionó como detonante inmediato de la Primera Guerra Mundial?",
+      "opciones": [
+        { "id": "a", "texto": "La invasión alemana a Polonia en septiembre de 1939." },
+        { "id": "b", "texto": "El asesinato del archiduque Francisco Fernando, heredero del Imperio Austro-Húngaro, y su esposa en Sarajevo (Bosnia) el 28 de junio de 1914 a manos de un nacionalista serbio." },
+        { "id": "c", "texto": "El hundimiento del buque Lusitania por un submarino alemán." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_fases_guerra",
+      "tipo": "seleccion_multiple",
+      "consigna": "Según el Eje 4, ¿cuáles fueron las fases del desarrollo de la Primera Guerra Mundial?",
+      "opciones": [
+        { "id": "a", "texto": "Guerra Relámpago, Guerra Fría y Guerra Nuclear." },
+        { "id": "b", "texto": "Guerra de Movimientos, Guerra de Trincheras y la Ofensiva Final (con la entrada de EE.UU. en 1917)." },
+        { "id": "c", "texto": "Invasión, Resistencia y Liberación." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_trincheras",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué caracterizó a la etapa de 'Guerra de Trincheras' durante la Primera Guerra Mundial?",
+      "opciones": [
+        { "id": "a", "texto": "Fue la etapa más corta: los ejércitos se movían rápidamente de una región a otra." },
+        { "id": "b", "texto": "Fue la etapa más larga y de mayor desgaste. Los ejércitos se inmovilizaron en líneas de trincheras que se extendieron a lo largo de cientos de kilómetros." },
+        { "id": "c", "texto": "Fue cuando Alemania invadió Rusia usando tanques y aviones." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_consecuencias",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Cuáles fueron las principales consecuencias de la Primera Guerra Mundial según el Eje 4?",
+      "opciones": [
+        { "id": "a", "texto": "Solo hubo consecuencias militares: Alemania ganó la guerra y se expandió territorialmente." },
+        { "id": "b", "texto": "Muerte de millones de personas, destrucción económica, nuevo mapa europeo (fin de los Imperios), incorporación de la mujer al trabajo, creación de la Sociedad de las Naciones y EE.UU. como principal ganador." },
+        { "id": "c", "texto": "No hubo consecuencias significativas porque la paz se restableció rápidamente." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_versalles",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué estableció el Tratado de Versalles (1919) respecto a Alemania?",
+      "opciones": [
+        { "id": "a", "texto": "Premió a Alemania con nuevos territorios por su esfuerzo bélico." },
+        { "id": "b", "texto": "Alemania perdió todas sus colonias, debió devolver Alsacia y Lorena a Francia, desmantelar su ejército, desmilitarizar la frontera con Francia y pagar severas reparaciones de guerra por ser considerada responsable moral y material del conflicto." },
+        { "id": "c", "texto": "Dividió Alemania en dos países separados: Alemania Occidental y Alemania Oriental." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_sociedad_naciones",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué fue la Sociedad de las Naciones y con qué objetivo se creó?",
+      "opciones": [
+        { "id": "a", "texto": "Fue una alianza militar entre Francia, Gran Bretaña y Rusia." },
+        { "id": "b", "texto": "Fue una institución mundial creada después de la Primera Guerra Mundial para evitar un nuevo conflicto bélico, fomentar la cooperación entre países y solucionar pacíficamente los conflictos." },
+        { "id": "c", "texto": "Fue el nombre del gobierno provisional ruso después de la caída del Zar." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_revolucion_rusa",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué factores generaron la Revolución Rusa según el Eje 4?",
+      "opciones": [
+        { "id": "a", "texto": "Rusia era un país rico e industrializado que quería expandirse." },
+        { "id": "b", "texto": "El descontento de los pueblos sometidos al Imperio Ruso, la extrema pobreza de campesinos y obreros, la derrota en la guerra contra Japón (1905) y el desgaste de la participación rusa en la Primera Guerra Mundial." },
+        { "id": "c", "texto": "Una invasión extranjera que derrocó al Zar." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_bolcheviques",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué diferencia había entre mencheviques y bolcheviques dentro del Partido Obrero Socialdemócrata Ruso?",
+      "opciones": [
+        { "id": "a", "texto": "Los mencheviques querían mantener al Zar; los bolcheviques querían una república." },
+        { "id": "b", "texto": "Los mencheviques sostenían que debía haber primero una revolución burguesa democrática; los bolcheviques, liderados por Lenin, sostenían la toma directa del poder sin necesidad de transición burguesa." },
+        { "id": "c", "texto": "No había diferencias: eran dos nombres para el mismo partido." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_revolucion_1917",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué ocurrió en la Revolución de Octubre de 1917 en Rusia?",
+      "opciones": [
+        { "id": "a", "texto": "El Zar Nicolás II recuperó el poder tras derrotar a los revolucionarios." },
+        { "id": "b", "texto": "Los bolcheviques, liderados por Lenin y Trotsky, tomaron el poder. La 'Guardia Roja' tomó la central telefónica, las estaciones de ferrocarril y el Palacio de Invierno, derrocando al gobierno provisional." },
+        { "id": "c", "texto": "Rusia firmó un acuerdo de paz con Alemania sin cambiar su sistema político." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_stalin",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué características tuvo el régimen de Stalin en la Unión Soviética según el Eje 4?",
+      "opciones": [
+        { "id": "a", "texto": "Fue una democracia con múltiples partidos y libertad de prensa." },
+        { "id": "b", "texto": "Fue un régimen autoritario de partido único. Stalin impuso una dictadura con persecución y encarcelamiento de opositores, colectivización agraria forzosa y planes quinquenales de industrialización." },
+        { "id": "c", "texto": "Stalin continuó exactamente las mismas políticas de la NEP de Lenin sin cambios." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "vf_revolucion_rusa",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcá V o F sobre la Revolución Rusa y la URSS.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "i1", "afirmacion": "Los soviets eran asambleas de trabajadores surgidas de elecciones democráticas en las fábricas, que se extendieron al campo y al ejército.", "respuesta": true },
+        { "id": "i2", "afirmacion": "La Revolución de Febrero de 1917 comenzó con manifestaciones bajo la consigna 'Paz y Pan' contra el Zar y la guerra.", "respuesta": true },
+        { "id": "i3", "afirmacion": "El Ejército Blanco era el ejército de los bolcheviques liderado por Trotsky.", "respuesta": false, "correccion": "El Ejército Blanco era el bando contrarrevolucionario. Los bolcheviques organizaron el Ejército Rojo bajo el mando de León Trotsky." },
+        { "id": "i4", "afirmacion": "La NEP (Nueva Política Económica) de Lenin establecía una economía mixta con elementos estatales y privados.", "respuesta": true },
+        { "id": "i5", "afirmacion": "En 1922 se conformó la URSS (Unión de Repúblicas Socialistas Soviéticas) con una nueva Constitución donde el partido bolchevique era el único legalmente autorizado.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "sm_felices_20",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué fueron los 'Felices Años 20' según el Eje 4?",
+      "opciones": [
+        { "id": "a", "texto": "Un período de crisis y pobreza en Estados Unidos tras la guerra." },
+        { "id": "b", "texto": "Un período de auge económico en Estados Unidos durante la década de 1920, caracterizado por el desarrollo de la producción industrial en masa, el consumo masivo de bienes (automóviles, electrodomésticos), el papel de la publicidad y el reemplazo de la libra esterlina por el dólar en el comercio internacional." },
+        { "id": "c", "texto": "El nombre que se le dio a la reconstrucción de Europa después de la guerra." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_gran_depresion",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué fue la Gran Depresión y cuáles fueron sus causas según el Eje 4?",
+      "opciones": [
+        { "id": "a", "texto": "Fue una crisis económica que afectó solo a Alemania por las reparaciones de guerra." },
+        { "id": "b", "texto": "Fue una profunda crisis económica mundial desencadenada por la caída de la Bolsa de Wall Street en octubre de 1929. Sus principales causas fueron la especulación financiera y el agotamiento del modelo económico. Afectó tanto a países centrales como a economías periféricas." },
+        { "id": "c", "texto": "Fue el nombre de la crisis política que llevó al Golpe de Estado en Argentina." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_new_deal",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué fue el New Deal implementado en Estados Unidos?",
+      "opciones": [
+        { "id": "a", "texto": "Un tratado comercial entre Estados Unidos y Europa para reactivar el comercio." },
+        { "id": "b", "texto": "Un conjunto de medidas económicas impulsadas por el presidente Roosevelt para enfrentar la Gran Depresión: creación de seguro de desempleo, jubilaciones, regulación de las relaciones laborales, organización de obras públicas y mayor control estatal sobre la economía." },
+        { "id": "c", "texto": "El nombre del plan militar estadounidense durante la Primera Guerra Mundial." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "unir_totalitarismos",
+      "tipo": "unir_flechas",
+      "consigna": "Uní cada característica con su descripción correcta sobre los regímenes totalitarios.",
+      "izquierda": [
+        { "id": "lider", "texto": "Culto al líder" },
+        { "id": "anti", "texto": "Anticomunistas y antidemocráticos" },
+        { "id": "nacion", "texto": "Nacionalismo extremo" },
+        { "id": "partido", "texto": "Partido único" },
+        { "id": "estado", "texto": "Control estatal de la economía" },
+        { "id": "represion", "texto": "Represión de la oposición" }
+      ],
+      "derecha": [
+        { "id": "d1", "texto": "Una persona ('Duce' en Italia, 'Führer' en Alemania) concentra todo el poder y sus decisiones no son cuestionadas." },
+        { "id": "d2", "texto": "Consideran que ambos sistemas son la explicación de todos los males de la sociedad." },
+        { "id": "d3", "texto": "Exaltación del sentimiento nacionalista. Ven 'enemigos externos' como amenaza y se convierten en Estados altamente militarizados." },
+        { "id": "d4", "texto": "No hay partidos opositores. Ejemplos: Partido Fascista en Italia, Partido Nazi en Alemania." },
+        { "id": "d5", "texto": "Defienden el sistema capitalista pero con fuerte intervencionismo y control estatal." },
+        { "id": "d6", "texto": "No se permiten críticas al régimen. Se encarcela y asesina a opositores." }
+      ],
+      "pares": [
+        { "izquierda_id": "lider", "derecha_id": "d1" },
+        { "izquierda_id": "anti", "derecha_id": "d2" },
+        { "izquierda_id": "nacion", "derecha_id": "d3" },
+        { "izquierda_id": "partido", "derecha_id": "d4" },
+        { "izquierda_id": "estado", "derecha_id": "d5" },
+        { "izquierda_id": "represion", "derecha_id": "d6" }
+      ]
+    },
+    {
+      "id": "sm_ley_saenz_pena",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué estableció la Ley Sáenz Peña (1912) en Argentina?",
+      "opciones": [
+        { "id": "a", "texto": "Estableció el voto femenino obligatorio." },
+        { "id": "b", "texto": "Permitió la reelección presidencial indefinida." },
+        { "id": "c", "texto": "Estableció el voto secreto, individual y obligatorio para todos los ciudadanos varones, creando una ciudadanía política al garantizar el ejercicio del derecho electoral." }
+      ],
+      "correcta": "c"
+    },
+    {
+      "id": "sm_yrigoyen",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué desafíos enfrentó el primer gobierno de Hipólito Yrigoyen (1916-1922) según el Eje 4?",
+      "opciones": [
+        { "id": "a", "texto": "Gobernó sin oposición y pudo aprobar todas sus leyes sin dificultad." },
+        { "id": "b", "texto": "Enfrentó el impacto de la Primera Guerra Mundial (caída de exportaciones, inflación, desabastecimiento, conflictividad social), la oposición en el Congreso y el Senado, y la falta de mayoría parlamentaria que trabó varias de sus reformas." },
+        { "id": "c", "texto": "Su principal desafío fue una invasión militar extranjera." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "sm_golpe_30",
+      "tipo": "seleccion_multiple",
+      "consigna": "¿Qué fue el Golpe de Estado del 6 de septiembre de 1930 en Argentina?",
+      "opciones": [
+        { "id": "a", "texto": "Una revolución popular que instauró una democracia más amplia." },
+        { "id": "b", "texto": "El derrocamiento del presidente Hipólito Yrigoyen por parte de las Fuerzas Armadas, que marcó el primer golpe de Estado de la historia argentina e inició la Restauración Conservadora." },
+        { "id": "c", "texto": "Un acuerdo entre radicales y conservadores para compartir el poder." }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "vf_argentina",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcá V o F sobre la historia argentina del período.",
+      "labels": { "verdadero": "V", "falso": "F" },
+      "items": [
+        { "id": "i1", "afirmacion": "La Unión Cívica Radical, con Hipólito Yrigoyen como candidato, ganó las primeras elecciones nacionales con la nueva ley electoral en 1916.", "respuesta": true },
+        { "id": "i2", "afirmacion": "Durante el primer gobierno de Yrigoyen se mantuvo la neutralidad argentina frente a la Primera Guerra Mundial.", "respuesta": true },
+        { "id": "i3", "afirmacion": "La Reforma Universitaria de 1918 fue impulsada durante el gobierno de Alvear.", "respuesta": false, "correccion": "La Reforma Universitaria de 1918 ocurrió durante el primer gobierno de Yrigoyen. Estableció la autonomía universitaria y el cogobierno estudiantil." },
+        { "id": "i4", "afirmacion": "La crisis de 1929 impactó fuertemente en la economía argentina: cayeron las exportaciones, aumentó la desocupación, la inflación y la deuda.", "respuesta": true },
+        { "id": "i5", "afirmacion": "El golpe de 1930 fue apoyado por la totalidad de la población argentina.", "respuesta": false, "correccion": "Si bien contó con apoyo de sectores conservadores, militares y parte de la prensa, no fue apoyado por la mayoría de la población. Fue un golpe que derrocó a un gobierno elegido democráticamente." }
+      ]
+    },
+    {
+      "id": "unir_final",
+      "tipo": "unir_flechas",
+      "consigna": "Uní cada concepto del Eje 4 con su definición correcta.",
+      "izquierda": [
+        { "id": "paz_arm", "texto": "Paz Armada" },
+        { "id": "guerra_t", "texto": "Guerra de Trincheras" },
+        { "id": "vers", "texto": "Tratado de Versalles" },
+        { "id": "soviet", "texto": "Soviets" },
+        { "id": "nep", "texto": "NEP" },
+        { "id": "new_deal", "texto": "New Deal" },
+        { "id": "dec_inf", "texto": "Década Infame" }
+      ],
+      "derecha": [
+        { "id": "d1", "texto": "Período 1871-1914 de paz tensa, carrera armamentista y alianzas militares." },
+        { "id": "d2", "texto": "Etapa más larga de la Primera Guerra: ejércitos inmovilizados en líneas de cientos de kilómetros." },
+        { "id": "d3", "texto": "Tratado de 1919: Alemania pierde colonias, paga reparaciones y es culpada por la guerra." },
+        { "id": "d4", "texto": "Asambleas de trabajadores y soldados rusos que fueron el núcleo de la revolución." },
+        { "id": "d5", "texto": "Política económica de Lenin: economía mixta estatal-privada tras la Guerra Civil." },
+        { "id": "d6", "texto": "Plan de Roosevelt para enfrentar la Gran Depresión con intervención estatal." },
+        { "id": "d7", "texto": "Período de fraude electoral y restauración conservadora en Argentina (1930-1943)." }
+      ],
+      "pares": [
+        { "izquierda_id": "paz_arm", "derecha_id": "d1" },
+        { "izquierda_id": "guerra_t", "derecha_id": "d2" },
+        { "izquierda_id": "vers", "derecha_id": "d3" },
+        { "izquierda_id": "soviet", "derecha_id": "d4" },
+        { "izquierda_id": "nep", "derecha_id": "d5" },
+        { "izquierda_id": "new_deal", "derecha_id": "d6" },
+        { "izquierda_id": "dec_inf", "derecha_id": "d7" }
+      ]
+    }
+  ],
+  "metodo": {
+    "calentamiento": {
+      "textos_ids": []
+    },
+    "entender": {
+      "diapositivas": [
+        {
+          "id": "paz-armada",
+          "titulo": "La Paz Armada (1871-1914)",
+          "icono": "⚔️",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "¿Qué fue la Paz Armada?",
+              "texto": "Fue el período entre 1871 y 1914 en el que, si bien no hubo guerras entre las grandes potencias europeas, existió una fuerte tensión y carrera armamentista. Las potencias se preparaban para un conflicto que parecía inevitable.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Durante la Paz Armada se conformaron dos bloques de alianzas: la Triple Alianza (Alemania, Imperio Austro-Húngaro, Italia) y la Triple Entente (Francia, Rusia, Gran Bretaña). Estas alianzas buscaban mantener un equilibrio político internacional, pero en realidad profundizaron la rivalidad."
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🚢", "texto": "Enfrentamiento naval entre Inglaterra y Alemania: Alemania construyó una poderosa flota que disputaba la hegemonía marítima inglesa." },
+                { "icono": "🗺️", "texto": "Rivalidad entre Francia y Alemania por los territorios de Alsacia y Lorena." },
+                { "icono": "🏔️", "texto": "Rivalidad entre Rusia, el Imperio Austro-Húngaro y Turquía por el control de los Balcanes." },
+                { "icono": "🌍", "texto": "Disconformidad de Alemania con los territorios obtenidos durante el reparto imperialista." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "causas-guerra",
+          "titulo": "Causas de la Primera Guerra Mundial",
+          "icono": "💥",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "El detonante",
+              "texto": "El 28 de junio de 1914, el archiduque Francisco Fernando (heredero del Imperio Austro-Húngaro) y su esposa fueron asesinados en Sarajevo (Bosnia) por un nacionalista serbio. El Imperio Austro-Húngaro le hizo una serie de exigencias a Serbia, que este país no aceptó, y le declaró la guerra, activando el sistema de alianzas.",
+              "color": "naranja"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🏭", "texto": "Expansión imperialista de fines del siglo XIX que generó tensiones entre las potencias por el reparto de territorios." },
+                { "icono": "🤝", "texto": "Sistema de alianzas: Rusia apoyó a Serbia, Francia apoyó a Rusia, Alemania apoyó al Imperio Austro-Húngaro." },
+                { "icono": "🌐", "texto": "Paneslavismo: corriente nacionalista que abogaba por la unidad de todos los pueblos eslavos, impulsada por Serbia y apoyada por Rusia." },
+                { "icono": "💣", "texto": "Reivindicaciones de autonomía de las nacionalidades (checos, croatas) dentro del Imperio Austro-Húngaro." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "desarrollo-guerra",
+          "titulo": "Desarrollo de la Primera Guerra Mundial (1914-1918)",
+          "icono": "🎖️",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Guerra de Movimientos",
+                  "items": [
+                    "Fase inicial de la guerra.",
+                    "Estrategia alemana de movimientos rápidos.",
+                    "Objetivo: sorprender al adversario."
+                  ]
+                },
+                {
+                  "titulo": "Guerra de Trincheras",
+                  "items": [
+                    "Etapa más larga y de mayor desgaste.",
+                    "Ejércitos inmovilizados en líneas de trincheras.",
+                    "Se extendieron a lo largo de cientos de kilómetros.",
+                    "Ejemplo: Batalla de Somme (1916)."
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "La Ofensiva Final",
+              "texto": "A partir de 1917, con la entrada de Estados Unidos en el conflicto, se produjo una serie de victorias de los Aliados. Alemania no pudo responder y el 11 de noviembre de 1918 se firmó el armisticio que puso fin a la 'Gran Guerra'.",
+              "color": "verde"
+            }
+          ]
+        },
+        {
+          "id": "consecuencias-guerra",
+          "titulo": "Consecuencias de la Primera Guerra Mundial",
+          "icono": "🌍",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "💀", "texto": "Muerte de millones de personas." },
+                { "icono": "🏭", "texto": "Producción industrial volcada al armamento; se aplicó la 'economía de guerra' con racionalización de alimentos." },
+                { "icono": "💵", "texto": "Estados Unidos se convierte en el principal ganador: principal acreedor de las potencias europeas." },
+                { "icono": "👩‍🏭", "texto": "Incorporación masiva de la mujer a la vida laboral por la ausencia de hombres en el frente." },
+                { "icono": "🗺️", "texto": "Nuevo mapa europeo: fin de los imperios. Se disuelven el Imperio Austro-Húngaro y el Imperio Otomano." },
+                { "icono": "🏛️", "texto": "Creación de la Sociedad de las Naciones para evitar futuros conflictos." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tratado-versalles",
+          "titulo": "Tratado de Versalles (1919)",
+          "icono": "📜",
+          "color": "violeta",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Condiciones impuestas a Alemania",
+              "texto": "Alemania fue considerada responsable moral y material de la guerra. El tratado le impuso duras condiciones que generaron un profundo resentimiento en la población alemana.",
+              "color": "violeta"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🗺️", "texto": "Pérdida de todas sus colonias." },
+                { "icono": "📍", "texto": "Devolución de Alsacia y Lorena a Francia." },
+                { "icono": "🪖", "texto": "Desmantelamiento de su ejército; entrega de tanques y naves." },
+                { "icono": "🚫", "texto": "Desmilitarización de la frontera con Francia." },
+                { "icono": "💰", "texto": "Severas sanciones económicas en concepto de 'reparación de guerra'." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "revolucion-rusa",
+          "titulo": "La Revolución Rusa (1917)",
+          "icono": "🔨",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "A principios del siglo XX, Rusia era un imperio muy extenso gobernado por el Zar Nicolás II. La sociedad rusa estaba compuesta mayoritariamente por campesinos en extrema pobreza. La industrialización reciente había creado una burguesía empresarial y una clase obrera con malas condiciones de vida."
+            },
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Mencheviques",
+                  "items": [
+                    "Minoría del Partido Socialdemócrata.",
+                    "Proponían primero una revolución burguesa democrática.",
+                    "Modelo de transición gradual."
+                  ]
+                },
+                {
+                  "titulo": "Bolcheviques",
+                  "items": [
+                    "Mayoría, liderados por Lenin.",
+                    "Sostenían la toma directa del poder.",
+                    "No consideraban necesaria una transición burguesa.",
+                    "Consigna: 'Todo el poder a los soviets'."
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Revolución de Octubre 1917",
+              "texto": "La 'Guardia Roja' comandada por Trotsky tomó la central telefónica, las estaciones de ferrocarril y el Palacio de Invierno, derrocando al gobierno provisional. Se iniciaba así el Estado Socialista.",
+              "color": "rojo"
+            }
+          ]
+        },
+        {
+          "id": "stalin",
+          "titulo": "La URSS bajo Stalin",
+          "icono": "🏭",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Régimen autoritario y comunista",
+              "texto": "Tras la muerte de Lenin en 1924, Stalin se impuso como líder. Estableció una dictadura de partido único, persiguiendo y encarcelando opositores tanto fuera como dentro del Partido Comunista. Utilizó la propaganda como herramienta de control.",
+              "color": "naranja"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🌾", "texto": "Colectivización agraria forzosa: reemplazó las pequeñas propiedades por grandes granjas estatales, abandonando la NEP de Lenin." },
+                { "icono": "⚙️", "texto": "Planes quinquenales para el desarrollo industrial: fomento de la industria pesada, explotación de carbón, hierro, petróleo y producción de acero." },
+                { "icono": "🔴", "texto": "Purgas: persecución de opositores políticos al régimen." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "felices-20-y-gran-depresion",
+          "titulo": "Felices Años 20 y la Gran Depresión de 1929",
+          "icono": "📈",
+          "color": "verde",
+          "bloques": [
+            {
+              "tipo": "comparativa",
+              "columnas": [
+                {
+                  "titulo": "Felices Años 20",
+                  "items": [
+                    "Auge económico en Estados Unidos tras la guerra.",
+                    "Desarrollo de la producción industrial en masa.",
+                    "Consumo masivo: automóviles y electrodomésticos.",
+                    "El dólar reemplaza a la libra esterlina.",
+                    "Créditos y especulación en la Bolsa de Nueva York."
+                  ]
+                },
+                {
+                  "titulo": "Gran Depresión (1929)",
+                  "items": [
+                    "Caída de la Bolsa de Wall Street en octubre de 1929.",
+                    "Crisis del modelo económico capitalista.",
+                    "Afectó a países centrales y periféricos.",
+                    "Causas: especulación financiera y agotamiento del modelo económico.",
+                    "Respuesta: New Deal de Roosevelt."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "regimenes-totalitarios",
+          "titulo": "Regímenes totalitarios en Europa",
+          "icono": "⚠️",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Contexto",
+              "texto": "La crisis económica de posguerra tuvo efectos en el orden político. Muchos países europeos vieron surgir regímenes totalitarios que cuestionaban la democracia como forma de gobierno, considerándola incapaz de resolver las dificultades. Ejemplos: fascismo en Italia (Mussolini), nazismo en Alemania (Hitler).",
+              "color": "rojo"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "👤", "texto": "Culto al líder carismático ('Duce' en Italia, 'Führer' en Alemania) cuyas decisiones no se cuestionan." },
+                { "icono": "🚫", "texto": "Anticomunistas y antidemocráticos: consideran ambos sistemas responsables de todos los males." },
+                { "icono": "🇩🇪", "texto": "Nacionalismo extremo y militarización del Estado." },
+                { "icono": "🏛️", "texto": "Partido único: no hay oposición permitida." },
+                { "icono": "⚖️", "texto": "Control estatal de la economía con fuerte intervencionismo." },
+                { "icono": "🔒", "texto": "Represión: no se permiten críticas; se encarcela y asesina a opositores." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "argentina",
+          "titulo": "Argentina: del radicalismo al Golpe de 1930",
+          "icono": "🇦🇷",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Ley Sáenz Peña (1912)",
+              "texto": "Estableció el voto secreto, individual y obligatorio para todos los ciudadanos varones. Significó la creación de una ciudadanía política al garantizar masivamente el derecho electoral. En las primeras elecciones con esta ley (1916) triunfó la Unión Cívica Radical con Hipólito Yrigoyen.",
+              "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "El primer gobierno de Yrigoyen (1916-1922) enfrentó el impacto de la Primera Guerra Mundial: caída de exportaciones, reducción del comercio internacional, desabastecimiento, inflación y conflictividad social. Durante su presidencia se produjo la Reforma Universitaria de 1918 que democratizó el acceso a la educación superior."
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Golpe de Estado del 6 de septiembre de 1930",
+              "texto": "El impacto de la crisis de 1929 deterioró la economía argentina. Yrigoyen perdió apoyo y el ejército, encabezado por José Félix Uriburu, dio el primer golpe de Estado de la historia argentina. Se inició la Restauración Conservadora con un sistema electoral fraudulento conocido como la 'Década Infame'.",
+              "color": "rojo"
+            }
+          ]
+        }
+      ]
+    },
+    "recordar": {
+      "flashcards": [
+        { "pregunta": "¿Qué fue la Paz Armada?", "respuesta": "Período 1871-1914 de paz tensa entre las potencias europeas, con carrera armamentista y formación de alianzas militares (Triple Alianza y Triple Entente)." },
+        { "pregunta": "¿Qué países integraban la Triple Alianza?", "respuesta": "Alemania, Imperio Austro-Húngaro e Italia (aunque Italia cambió de bando durante la guerra)." },
+        { "pregunta": "¿Qué países integraban la Triple Entente?", "respuesta": "Francia, Rusia y Gran Bretaña (luego se sumó Estados Unidos en 1917)." },
+        { "pregunta": "¿Cuál fue el detonante de la Primera Guerra Mundial?", "respuesta": "El asesinato del archiduque Francisco Fernando (heredero del Imperio Austro-Húngaro) y su esposa en Sarajevo el 28 de junio de 1914." },
+        { "pregunta": "¿Cuáles fueron las tres fases de la Primera Guerra Mundial?", "respuesta": "1) Guerra de Movimientos (fase inicial de ataques rápidos). 2) Guerra de Trincheras (fase más larga con ejércitos inmovilizados). 3) Ofensiva Final (con la entrada de EE.UU. en 1917)." },
+        { "pregunta": "¿Cuándo terminó la Primera Guerra Mundial?", "respuesta": "El 11 de noviembre de 1918 con la firma del armisticio." },
+        { "pregunta": "¿Qué estableció el Tratado de Versalles (1919)?", "respuesta": "Alemania perdió sus colonias, devolvió Alsacia y Lorena a Francia, desmanteló su ejército y pagó severas reparaciones de guerra por ser considerada responsable del conflicto." },
+        { "pregunta": "¿Quiénes eran los bolcheviques?", "respuesta": "La facción mayoritaria del Partido Socialdemócrata Ruso liderada por Lenin. Sostenían la toma directa del poder por los trabajadores sin transición burguesa." },
+        { "pregunta": "¿Qué ocurrió en la Revolución de Octubre de 1917?", "respuesta": "Los bolcheviques, con la Guardia Roja comandada por Trotsky, tomaron la central telefónica, estaciones y el Palacio de Invierno, derrocando al gobierno provisional e iniciando el Estado Socialista." },
+        { "pregunta": "¿Qué fue la NEP?", "respuesta": "La Nueva Política Económica implementada por Lenin después de la Guerra Civil: establecía una economía mixta donde el Estado controlaba la gran industria y el sector privado operaba en la agricultura y pequeñas industrias." },
+        { "pregunta": "¿Qué fueron los 'Felices Años 20'?", "respuesta": "Década de auge económico en Estados Unidos con producción industrial en masa, consumo masivo (automóviles, electrodomésticos) y especulación financiera." },
+        { "pregunta": "¿Qué fue la Gran Depresión de 1929?", "respuesta": "Profunda crisis económica mundial desencadenada por la caída de la Bolsa de Wall Street en octubre de 1929. Causas: especulación financiera y agotamiento del modelo económico." },
+        { "pregunta": "¿Qué fue el New Deal?", "respuesta": "Conjunto de medidas de Roosevelt para combatir la Gran Depresión: seguro de desempleo, jubilaciones, regulación laboral, obras públicas y mayor control estatal sobre la economía." },
+        { "pregunta": "¿Qué características tienen los regímenes totalitarios?", "respuesta": "Culto al líder, partido único, anticomunismo, nacionalismo extremo, militarización, control estatal de la economía y represión de opositores." },
+        { "pregunta": "¿Qué fue el Golpe de Estado de 1930 en Argentina?", "respuesta": "El 6 de septiembre de 1930 las Fuerzas Armadas derrocaron al presidente Yrigoyen. Fue el primer golpe de Estado argentino e inició la Restauración Conservadora conocida como 'Década Infame'." }
+      ]
+    },
+    "practicar": {
+      "ejercicios_ids": [
+        "sm_paz_armada",
+        "sm_alianzas",
+        "vf_causas_guerra",
+        "sm_detonante",
+        "sm_fases_guerra",
+        "sm_trincheras",
+        "sm_consecuencias",
+        "sm_versalles",
+        "sm_sociedad_naciones",
+        "sm_revolucion_rusa",
+        "sm_bolcheviques",
+        "sm_revolucion_1917",
+        "sm_stalin",
+        "vf_revolucion_rusa",
+        "sm_felices_20",
+        "sm_gran_depresion",
+        "sm_new_deal",
+        "unir_totalitarismos",
+        "sm_ley_saenz_pena",
+        "sm_yrigoyen",
+        "sm_golpe_30",
+        "vf_argentina"
+      ]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": [
+        "unir_final",
+        "sm_alianzas",
+        "sm_trincheras",
+        "vf_revolucion_rusa",
+        "vf_argentina"
+      ],
+      "duracion_min": 25
+    },
+    "mejorar": {
+      "explicaciones": [
+        {
+          "titulo": "Triple Alianza vs. Triple Entente: no confundir",
+          "detalle": "La Triple Alianza (Alemania, Austria-Hungría, Italia) era el bloque de las potencias centrales. La Triple Entente (Francia, Rusia, Gran Bretaña) era el bloque aliado. Italia cambió de bando en 1915."
+        },
+        {
+          "titulo": "Guerra de Movimientos ≠ Guerra de Trincheras",
+          "detalle": "La Guerra de Movimientos fue la fase inicial (rápida). La Guerra de Trincheras fue la más larga y sangrienta, con los ejércitos atrincherados e inmovilizados durante años."
+        },
+        {
+          "titulo": "Mencheviques vs. Bolcheviques",
+          "detalle": "Ambos eran socialistas, pero diferían en la estrategia. Mencheviques: primero revolución burguesa, luego socialista. Bolcheviques (Lenin): revolución directa del proletariado sin transición burguesa."
+        },
+        {
+          "titulo": "NEP vs. Stalinismo",
+          "detalle": "La NEP de Lenin permitía cierta economía privada. Stalin la abandonó e impuso la colectivización forzosa de la agricultura y los planes quinquenales de industrialización pesada."
+        },
+        {
+          "titulo": "Tratado de Versalles: una paz que preparó otra guerra",
+          "detalle": "Las duras condiciones impuestas a Alemania (pérdida de territorios, desmilitarización, reparaciones económicas) generaron un profundo resentimiento que sería explotado por el nazismo para llegar al poder."
+        },
+        {
+          "titulo": "Argentina 1930: un golpe con apoyo de múltiples sectores",
+          "detalle": "Yrigoyen perdió apoyo no solo de conservadores y socialistas, sino también de radicales enfrentados con él, las Fuerzas Armadas, sectores estudiantiles y la prensa. La crisis del '29 fue el contexto que precipitó el golpe."
+        }
+      ]
+    }
+  }
+}
