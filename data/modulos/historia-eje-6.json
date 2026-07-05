@@ -3,7 +3,7 @@
   "materia": "historia",
   "titulo": "Eje 6: La Guerra Fría. Mundo bipolar, conflictos y fin de la URSS",
   "descripcion": "El mundo bipolar tras la Segunda Guerra Mundial. Bloqueo de Berlín, Plan Marshall, OTAN y Pacto de Varsovia. Guerra de Corea, Revolución Cubana y Crisis de los Misiles. Muro de Berlín. Carrera espacial. Guerra de Vietnam. Deporte y Guerra Fría. Perestroika, Glasnost y disolución de la URSS.",
-  "estado": "completo",
+  "estado": "completó",
   "ejercicios": [
     {
       "id": "sm_guerra_fria_def",
@@ -56,7 +56,7 @@
         },
         {
           "id": "b",
-          "texto": "Un proyecto de ayuda económica propuesto por EE.UU. para recomponer las economías europeas devastadas por la guerra. Sus objetivos: reactivar industrias, superar la crisis social, frenar el avance del socialismo en Europa Occidental y asegurar mercados para productos norteamericanos."
+          "texto": "Un proyecto de ayuda económica propuesto por EE.UU. para recomponer las economías europeas devastadas por la guerra. Sus objetivos: reactivar industrias, superar la crisis social, frenar el avance del socialismo en Europa Occidental y asegurar mercados para productos norteamericaños."
         },
         {
           "id": "c",
@@ -156,7 +156,7 @@
         },
         {
           "id": "b",
-          "texto": "El gobierno de la República Democrática Alemana (RDA) lo construyó en 1961 para evitar la fuga masiva de ciudadanos hacia Berlín Occidental. Tenía 155 km, 3 metros de altura, torres de vigilancia y una franja de la muerte. Su caída el 9 de noviembre de 1989 simbolizó el fin de la división del mundo y de la Guerra Fría."
+          "texto": "El gobierno de la República Democrática Alemana (RDA) lo construyó en 1961 para evitar la fuga masiva de ciudadaños hacia Berlín Occidental. Tenía 155 km, 3 metros de altura, torres de vigilancia y una franja de la muerte. Su caída el 9 de noviembre de 1989 simbolizó el fin de la división del mundo y de la Guerra Fría."
         },
         {
           "id": "c",
@@ -249,26 +249,6 @@
       "correcta": "b"
     },
     {
-      "id": "sm_deporte",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Cómo se manifestó la Guerra Fría en el deporte?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "El deporte no tuvo ninguna relación con la política durante la Guerra Fría."
-        },
-        {
-          "id": "b",
-          "texto": "Los Juegos Olímpicos se convirtieron en un campo de batalla pacífico para demostrar superioridad. El medallero olímpico era un indicador del triunfo de cada sistema. EE.UU. boicoteó Moscú 1980 (por la invasión soviética a Afganistán) y la URSS boicoteó Los Ángeles 1984."
-        },
-        {
-          "id": "c",
-          "texto": "Solo la URSS usó el deporte con fines políticos; EE.UU. nunca lo hizo."
-        }
-      ],
-      "correcta": "b"
-    },
-    {
       "id": "sm_segunda_guerra_fria",
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué fue la 'segunda Guerra Fría' y qué papel jugó Afganistán?",
@@ -346,7 +326,7 @@
           "id": "i2",
           "afirmacion": "La Guerra de Vietnam fue apoyada por la mayoría de la opinión pública mundial.",
           "respuesta": false,
-          "correccion": "El repudio a la guerra fue generalizado en todo el mundo. Los jóvenes norteamericanos organizaron marchas de protesta masivas contra la intervención de EE.UU. en Vietnam."
+          "correccion": "El repudio a la guerra fue generalizado en todo el mundo. Los jóvenes norteamericaños organizaron marchas de protesta masivas contra la intervención de EE.UU. en Vietnam."
         },
         {
           "id": "i3",
@@ -520,6 +500,44 @@
           "orden": 14
         }
       ]
+    },
+    {
+      "id": "vf_argentina_gf",
+      "tipo": "verdadero_falso",
+      "consigna": "Marcá V o F sobre Argentina durante la Guerra Fria.",
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
+      "items": [
+        {
+          "id": "i1",
+          "afirmacion": "Perón fue derrocado en 1955 por un golpe militar y el perónismo fue proscripto por 18 años.",
+          "respuesta": true
+        },
+        {
+          "id": "i2",
+          "afirmacion": "La dictadura militar de 1976-1983 implemento un plan sistematico de represión y desaparición forzada de personas.",
+          "respuesta": true
+        },
+        {
+          "id": "i3",
+          "afirmacion": "La Guerra de Malvinas (1982) fue una victoria argentina que consolidó el poder de la dictadura militar.",
+          "respuesta": false,
+          "correccion": "La Guerra de Malvinas terminó con la derrota argentina frente a Gran Bretaña. La derrota acelero el fin de la dictadura y el retorno a la democracia en 1983."
+        },
+        {
+          "id": "i4",
+          "afirmacion": "Raúl Alfonsín asumió la presidencia en 1983, marcando el retorno a la democracia en Argentina.",
+          "respuesta": true
+        },
+        {
+          "id": "i5",
+          "afirmacion": "Entre 1958 y 1966 todos los gobiernos democráticos argentinos completaron sus mandatos sin interrupciones.",
+          "respuesta": false,
+          "correccion": "Tanto Frondizi (derrocado en 1962) como Illia (derrocado en 1966) fueron interrumpidos por golpes militares. Ninguno completó su mandato."
+        }
+      ]
     }
   ],
   "metodo": {
@@ -588,7 +606,7 @@
             {
               "tipo": "tarjeta_destacada",
               "titulo": "El bloqueo y el puente aéreo",
-              "texto": "Los norteamericanos, ingleses y franceses unificaron sus zonas e introdujeron una nueva moneda sin acuerdo soviético. La URSS respondió bloqueando todas las vías terrestres hacia Berlín Occidental. Frente al bloqueo, EE.UU. creó un 'puente aéreo': utilizando corredores aéreos que la URSS se había comprometido a mantener, enviaron por avión alimentos, carbón, mercaderías e incluso maquinarias. Miles de vuelos se efectuaron durante casi un año. Cuando el gobierno soviético asumió el fracaso del bloqueo, decidió levantarlo.",
+              "texto": "Los norteamericaños, ingleses y franceses unificaron sus zonas e introdujeron una nueva moneda sin acuerdo soviético. La URSS respondió bloqueando todas las vías terrestres hacia Berlín Occidental. Frente al bloqueo, EE.UU. creó un 'puente aéreo': utilizando corredores aéreos que la URSS se había comprometido a mantener, enviaron por avión alimentos, carbón, mercaderías e incluso maquinarias. Miles de vuelos se efectuaron durante casi un año. Cuando el gobierno soviético asumió el fracaso del bloqueo, decidió levantarlo.",
               "color": "azul"
             },
             {
@@ -650,7 +668,7 @@
           "bloques": [
             {
               "tipo": "parrafo",
-              "texto": "Al final de la Segunda Guerra Mundial, los japoneses que ocupaban Corea se rindieron. El país quedó dividido en dos zonas de ocupación separadas por el paralelo 38° N: al norte los soviéticos, al sur los norteamericanos. En 1948, fracasadas las negociaciones para unificar el país, se establecieron dos estados independientes: Corea del Norte (socialista, respaldado por la URSS) y Corea del Sur (capitalista, respaldado por EE.UU.). Ninguno reconocía la legitimidad del otro y ambos buscaban unificar el gobierno bajo su mando."
+              "texto": "Al final de la Segunda Guerra Mundial, los japoneses que ocupaban Corea se rindieron. El país quedó dividido en dos zonas de ocupación separadas por el paralelo 38° N: al norte los soviéticos, al sur los norteamericaños. En 1948, fracasadas las negociaciones para unificar el país, se establecieron dos estados independientes: Corea del Norte (socialista, respaldado por la URSS) y Corea del Sur (capitalista, respaldado por EE.UU.). Ninguno reconocía la legitimidad del otro y ambos buscaban unificar el gobierno bajo su mando."
             },
             {
               "tipo": "lista",
@@ -683,7 +701,7 @@
           "bloques": [
             {
               "tipo": "parrafo",
-              "texto": "Desde su independencia de España a fines del siglo XIX, Cuba había tenido regímenes dictatoriales con estrechos vínculos con EE.UU., que controlaba la política y la economía de la isla. Durante el mandato de Fulgencio Batista, la corrupción, la violencia y la entrega de la economía a los intereses norteamericanos generaron una reacción popular."
+              "texto": "Desde su independencia de España a fines del siglo XIX, Cuba había tenido regímenes dictatoriales con estrechos vínculos con EE.UU., que controlaba la política y la economía de la isla. Durante el mandato de Fulgencio Batista, la corrupción, la violencia y la entrega de la economía a los intereses norteamericaños generaron una reacción popular."
             },
             {
               "tipo": "tarjeta_destacada",
@@ -700,7 +718,7 @@
                 },
                 {
                   "icono": "🚫",
-                  "texto": "Con apoyo de países latinoamericanos, EE.UU. estableció un bloqueo total a Cuba. Esto llevó al gobierno de Castro a acercarse cada vez más a la URSS."
+                  "texto": "Con apoyo de países latinoamericaños, EE.UU. estableció un bloqueo total a Cuba. Esto llevó al gobierno de Castro a acercarse cada vez más a la URSS."
                 },
                 {
                   "icono": "🇨🇺",
@@ -718,7 +736,7 @@
           "bloques": [
             {
               "tipo": "parrafo",
-              "texto": "Tras el fracaso de Bahía de Cochinos, Castro acordó con la URSS la instalación de misiles nucleares en Cuba para evitar futuros ataques estadounidenses. En octubre de 1962, aviones de reconocimiento norteamericanos fotografiaron los misiles instalados con alcance suficiente para atacar casi todo el territorio norteamericano."
+              "texto": "Tras el fracaso de Bahía de Cochinos, Castro acordó con la URSS la instalación de misiles nucleares en Cuba para evitar futuros ataques estadounidenses. En octubre de 1962, aviones de reconocimiento norteamericaños fotografiaron los misiles instalados con alcance suficiente para atacar casi todo el territorio norteamericano."
             },
             {
               "tipo": "tarjeta_destacada",
@@ -740,7 +758,7 @@
           "bloques": [
             {
               "tipo": "parrafo",
-              "texto": "Luego de la organización de los dos estados alemanes, Berlín Occidental quedó como una 'isla' capitalista rodeada por el territorio de la socialista RDA. Hacia fines de los 50, el despegue económico del sector Occidental contrastaba con la falta de libertades y la crisis económica del sector Oriental, lo que provocó un aumento del desplazamiento de ciudadanos hacia Occidente."
+              "texto": "Luego de la organización de los dos estados alemanes, Berlín Occidental quedó como una 'isla' capitalista rodeada por el territorio de la socialista RDA. Hacia fines de los 50, el despegue económico del sector Occidental contrastaba con la falta de libertades y la crisis económica del sector Oriental, lo que provocó un aumento del desplazamiento de ciudadaños hacia Occidente."
             },
             {
               "tipo": "tarjeta_destacada",
@@ -751,7 +769,7 @@
             {
               "tipo": "tarjeta_destacada",
               "titulo": "La caída (9 de noviembre de 1989)",
-              "texto": "Aproximadamente 5000 personas lograron cruzar el Muro mientras estuvo en pie; alrededor de 200 murieron intentándolo. Ante las protestas ciudadanas, la RDA declaró que se levantarían las restricciones de viaje. Miles de berlineses se agolparon frente al Muro. Las puertas fueron abiertas y los ciudadanos comenzaron a derribarlo con picos y martillos. El Muro, que había sido el símbolo de la división del mundo, se convirtió en el símbolo del fin de la Guerra Fría.",
+              "texto": "Aproximadamente 5000 personas lograron cruzar el Muro mientras estuvo en pie; alrededor de 200 murieron intentándolo. Ante las protestas ciudadanas, la RDA declaró que se levantarían las restricciones de viaje. Miles de berlineses se agolparon frente al Muro. Las puertas fueron abiertas y los ciudadaños comenzaron a derribarlo con picos y martillos. El Muro, que había sido el símbolo de la división del mundo, se convirtió en el símbolo del fin de la Guerra Fría.",
               "color": "azul"
             }
           ]
@@ -820,7 +838,7 @@
                 },
                 {
                   "icono": "✊",
-                  "texto": "El repudio a la guerra fue generalizado en todo el mundo. Los jóvenes norteamericanos organizaron marchas de protesta masivas en todo el país. La falta de progresos en el campo de batalla llevó a negociaciones de paz en 1968."
+                  "texto": "El repudio a la guerra fue generalizado en todo el mundo. Los jóvenes norteamericaños organizaron marchas de protesta masivas en todo el país. La falta de progresos en el campo de batalla llevó a negociaciones de paz en 1968."
                 }
               ]
             },
@@ -833,33 +851,45 @@
           ]
         },
         {
-          "id": "deporte-gf",
-          "titulo": "La Guerra Fría en el deporte",
-          "icono": "🏅",
-          "color": "verde",
+          "id": "argentina-gf",
+          "titulo": "Mientras tanto en Argentina... (1945-1983)",
+          "icono": "AR",
+          "color": "azul",
           "bloques": [
             {
               "tipo": "parrafo",
-              "texto": "El deporte se convirtió en un campo de batalla pacífico donde los dos bloques buscaban demostrar su superioridad sin recurrir a las armas. Los grandes acontecimientos deportivos, especialmente los Juegos Olímpicos, se transformaron en una vidriera de la Guerra Fría."
+              "texto": "Mientras el mundo se dividia en dos bloques, Argentina atraveso un período de intensa inestabilidad política marcado por la alternancia entre gobiernos democráticos y dictaduras militares."
             },
             {
               "tipo": "lista",
               "items": [
                 {
-                  "icono": "🏟️",
-                  "texto": "La URSS participó en los Juegos Olímpicos por primera vez en Helsinki 1952. Desde entonces, el medallero olímpico se convirtió en un indicador del triunfo de cada sistema."
+                  "icono": "*",
+                  "texto": "1946: Perón asume su primera presidencia, profundizando las políticas laborales y sociales iniciadas desde la Secretaría de Trabajo. Es reelegido en 1952."
                 },
                 {
-                  "icono": "🚫",
-                  "texto": "1980: el presidente Carter anunció el boicot de EE.UU. y sus aliados a los Juegos Olímpicos de Moscú, como protesta por la invasión soviética a Afganistán."
+                  "icono": "*",
+                  "texto": "1955: Golpe de Estado autodenominado Revolución Libertadora derroca a Perón, quien se exilia. El perónismo es proscripto por 18 años."
                 },
                 {
-                  "icono": "🚫",
-                  "texto": "1984: la URSS respondió con su propio boicot a los Juegos Olímpicos de Los Ángeles."
+                  "icono": "*",
+                  "texto": "1958-1966: gobiernos democráticos de Frondizi (UCRI) e Illia (UCRP), ambos interrumpidos por golpes militares. En 1966, la dictadura de Onganía inicia la Revolución Argentina."
                 },
                 {
-                  "icono": "🏳️",
-                  "texto": "Tras la disolución de la URSS, en 1992 los ex-soviéticos participaron como 'Equipo Unificado' bajo la bandera olímpica. Desde 1996, Rusia y las antiguas repúblicas soviéticas compitieron con sus propias banderas como estados independientes."
+                  "icono": "*",
+                  "texto": "1973: retorno del perónismo a las elecciones. Cámpora asume y renuncia para permitir nuevas elecciones. Perón gana su tercera presidencia con mas del 60% de los votos. Tras su muerte en 1974, asume Isabel Perón."
+                },
+                {
+                  "icono": "*",
+                  "texto": "1976: un nuevo golpe de Estado instala la dictadura mas sangrienta de la historia argentina. El Proceso de Reorganización Nacional implementa un plan sistematico de represión, desaparición forzada de personas y censura."
+                },
+                {
+                  "icono": "*",
+                  "texto": "1982: la dictadura ocupa las Islas Malvinas. La guerra contra Gran Bretaña termina con la derrota argentina y acelera el fin del régimen militar."
+                },
+                {
+                  "icono": "*",
+                  "texto": "1983: retorno a la democracia con la eleccion de Raúl Alfonsín (UCR). Comienza el juicio a las juntas militares por las violaciones a los derechos humaños."
                 }
               ]
             }
@@ -1000,7 +1030,7 @@
         },
         {
           "pregunta": "¿Qué fue el Muro de Berlín?",
-          "respuesta": "Construido en 1961 por la RDA para evitar la fuga de ciudadanos hacia Occidente. 155 km, 3 metros de altura, torres de vigilancia. Aprox. 5000 personas escaparon; 200 murieron intentándolo. Cayó el 9 de noviembre de 1989."
+          "respuesta": "Construido en 1961 por la RDA para evitar la fuga de ciudadaños hacia Occidente. 155 km, 3 metros de altura, torres de vigilancia. Aprox. 5000 personas escaparon; 200 murieron intentándolo. Cayó el 9 de noviembre de 1989."
         },
         {
           "pregunta": "¿Cuáles fueron los hitos de la carrera espacial?",
@@ -1009,10 +1039,6 @@
         {
           "pregunta": "¿Qué fue la Guerra de Vietnam?",
           "respuesta": "Conflicto entre Vietnam del Norte (comunista) y del Sur (capitalista). El Vietcong luchó contra la dictadura survietnamita y la intervención de EE.UU. Consecuencias: más de 4 millones de muertos, derrota de EE.UU. y unificación comunista de Vietnam."
-        },
-        {
-          "pregunta": "¿Cómo se manifestó la Guerra Fría en el deporte?",
-          "respuesta": "Los Juegos Olímpicos se convirtieron en un campo de batalla pacífico. El medallero era indicador del éxito de cada sistema. EE.UU. boicoteó Moscú 1980; la URSS boicoteó Los Ángeles 1984."
         },
         {
           "pregunta": "¿Qué fue la invasión soviética a Afganistán?",
@@ -1045,13 +1071,13 @@
         "vf_guerra_fria",
         "sm_carrera_espacial",
         "sm_vietnam",
-        "sm_deporte",
         "sm_segunda_guerra_fria",
         "sm_perestroika",
         "sm_fin_guerra_fria",
         "vf_vietnam_espacio",
         "unir_bloques",
-        "ord_guerra_fria"
+        "ord_guerra_fria",
+        "vf_argentina_gf"
       ]
     },
     "ponerse_a_prueba": {
