@@ -335,6 +335,146 @@
         { "id": "a8", "texto": "Golpe de Estado del 6 de septiembre de 1930: Uriburu derroca a Yrigoyen.", "orden": 8 },
         { "id": "a9", "texto": "Inicio de la Década Infame: fraude electoral y restauración conservadora.", "orden": 9 }
       ]
+    },
+    {
+      "id": "comp_parrafo",
+      "tipo": "completar",
+      "consigna": "Completá el siguiente texto con los términos correctos. Elegí la opción adecuada para cada espacio numerado.",
+      "items": [
+        {
+          "id": "a",
+          "subtipo": "select",
+          "pregunta": "1) El período entre 1871 y 1914 se conoció como ______. Durante esos años, las potencias europeas formaron dos bloques: la Triple Alianza (Alemania, Imperio Austro-Húngaro e Italia) y la Triple ______ (Francia, Rusia y Gran Bretaña).",
+          "opciones": ["Paz Armada", "Guerra Fría", "Belle Époque"],
+          "respuesta": "Paz Armada"
+        },
+        {
+          "id": "b",
+          "subtipo": "select",
+          "pregunta": "1) continuación: (...) y la Triple ______ (Francia, Rusia y Gran Bretaña).",
+          "opciones": ["Entente", "Alianza", "Confederación"],
+          "respuesta": "Entente"
+        },
+        {
+          "id": "c",
+          "subtipo": "select",
+          "pregunta": "2) El detonante de la Primera Guerra Mundial fue el asesinato del archiduque ______ y su esposa en ______ el 28 de junio de 1914.",
+          "opciones": ["Francisco Fernando", "Nicolás II", "Luis XVI"],
+          "respuesta": "Francisco Fernando"
+        },
+        {
+          "id": "d",
+          "subtipo": "select",
+          "pregunta": "2) continuación: (...) y su esposa en ______ el 28 de junio de 1914.",
+          "opciones": ["Sarajevo", "Berlín", "Viena"],
+          "respuesta": "Sarajevo"
+        },
+        {
+          "id": "e",
+          "subtipo": "select",
+          "pregunta": "3) La etapa más larga y de mayor desgaste de la guerra fue la Guerra de ______, donde los ejércitos permanecieron inmovilizados en líneas de cientos de kilómetros.",
+          "opciones": ["Trincheras", "Movimientos", "Desgaste"],
+          "respuesta": "Trincheras"
+        },
+        {
+          "id": "f",
+          "subtipo": "select",
+          "pregunta": "4) En 1917, tras el triunfo de la Revolución de ______, los ______ liderados por Lenin tomaron el poder en Rusia. La Guardia Roja, comandada por ______, tomó el Palacio de Invierno.",
+          "opciones": ["Octubre", "Febrero", "Mayo"],
+          "respuesta": "Octubre"
+        },
+        {
+          "id": "g",
+          "subtipo": "select",
+          "pregunta": "4) continuación: (...) los ______ liderados por Lenin tomaron el poder en Rusia.",
+          "opciones": ["bolcheviques", "mencheviques", "zaristas"],
+          "respuesta": "bolcheviques"
+        },
+        {
+          "id": "h",
+          "subtipo": "select",
+          "pregunta": "4) continuación: (...) La Guardia Roja, comandada por ______, tomó el Palacio de Invierno.",
+          "opciones": ["Trotsky", "Stalin", "Gorbachov"],
+          "respuesta": "Trotsky"
+        },
+        {
+          "id": "i",
+          "subtipo": "select",
+          "pregunta": "5) El Tratado de ______ (1919) impuso duras condiciones a Alemania: pérdida de colonias, devolución de Alsacia y Lorena a ______, desmilitarización y cuantiosas reparaciones de guerra.",
+          "opciones": ["Versalles", "Yalta", "Potsdam"],
+          "respuesta": "Versalles"
+        },
+        {
+          "id": "j",
+          "subtipo": "select",
+          "pregunta": "5) continuación: (...) devolución de Alsacia y Lorena a ______, desmilitarización y cuantiosas reparaciones de guerra.",
+          "opciones": ["Francia", "Inglaterra", "Polonia"],
+          "respuesta": "Francia"
+        },
+        {
+          "id": "k",
+          "subtipo": "select",
+          "pregunta": "6) Tras la muerte de Lenin en 1924, ______ se impuso en el poder e instauró una dictadura de partido único. Abandonó la ______ (Nueva Política Económica) y la reemplazó por la colectivización forzosa de la agricultura y los planes ______ de industrialización.",
+          "opciones": ["Stalin", "Trotsky", "Bujarin"],
+          "respuesta": "Stalin"
+        },
+        {
+          "id": "l",
+          "subtipo": "select",
+          "pregunta": "6) continuación: (...) Abandonó la ______ (Nueva Política Económica) y la reemplazó por la colectivización forzosa.",
+          "opciones": ["NEP", "URSS", "KGB"],
+          "respuesta": "NEP"
+        },
+        {
+          "id": "m",
+          "subtipo": "select",
+          "pregunta": "6) continuación: (...) y los planes ______ de industrialización.",
+          "opciones": ["quinquenales", "anuales", "decenales"],
+          "respuesta": "quinquenales"
+        },
+        {
+          "id": "n",
+          "subtipo": "select",
+          "pregunta": "7) En Argentina, la Ley ______ (1912) estableció el voto secreto, individual y obligatorio para varones. En 1916 asumió ______, líder de la Unión Cívica Radical.",
+          "opciones": ["Sáenz Peña", "Arias", "Resistencia"],
+          "respuesta": "Sáenz Peña"
+        },
+        {
+          "id": "o",
+          "subtipo": "select",
+          "pregunta": "7) continuación: (...) En 1916 asumió ______, líder de la Unión Cívica Radical.",
+          "opciones": ["Yrigoyen", "Alvear", "Perón"],
+          "respuesta": "Yrigoyen"
+        },
+        {
+          "id": "p",
+          "subtipo": "select",
+          "pregunta": "8) El impacto de la crisis de ______ en Argentina provocó caída de exportaciones, desocupación e inflación. El 6 de septiembre de ______, las Fuerzas Armadas derrocaron a Yrigoyen en el primer golpe de Estado de la historia argentina.",
+          "opciones": ["1929", "1914", "1945"],
+          "respuesta": "1929"
+        },
+        {
+          "id": "q",
+          "subtipo": "select",
+          "pregunta": "8) continuación: (...) El 6 de septiembre de ______, las Fuerzas Armadas derrocaron a Yrigoyen.",
+          "opciones": ["1930", "1943", "1955"],
+          "respuesta": "1930"
+        },
+        {
+          "id": "r",
+          "subtipo": "select",
+          "pregunta": "9) A partir de ese golpe se inició la Restauración Conservadora, un período de fraude electoral conocido como la '______ ______'. El poder volvió a manos de los sectores ______.",
+          "opciones": ["Década Infame", "Revolución Libertadora", "Edad Dorada"],
+          "respuesta": "Década Infame"
+        },
+        {
+          "id": "s",
+          "subtipo": "select",
+          "pregunta": "9) continuación: (...) El poder volvió a manos de los sectores ______.",
+          "opciones": ["oligárquicos", "radicales", "socialistas"],
+          "respuesta": "oligárquicos"
+        }
+      ]
     }
   ],
   "metodo": {
@@ -662,12 +802,13 @@
         "sm_golpe_30",
         "vf_argentina",
         "ord_europa",
-        "ord_argentina"
+        "ord_argentina",
+        "comp_parrafo"
       ]
     },
     "ponerse_a_prueba": {
       "ejercicios_ids": [
-        "unir_final",
+        "comp_parrafo",
         "ord_europa",
         "ord_argentina",
         "vf_revolucion_rusa",
