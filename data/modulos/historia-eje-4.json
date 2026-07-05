@@ -302,6 +302,39 @@
         { "izquierda_id": "new_deal", "derecha_id": "d6" },
         { "izquierda_id": "dec_inf", "derecha_id": "d7" }
       ]
+    },
+    {
+      "id": "ord_europa",
+      "tipo": "ordenar_secuencia",
+      "consigna": "Ordená cronológicamente estos acontecimientos de la historia europea. Usá las flechas ↑ ↓ para subir o bajar cada evento.",
+      "eventos": [
+        { "id": "e1", "texto": "Paz Armada: tensiones entre potencias europeas y formación de alianzas militares.", "orden": 1 },
+        { "id": "e2", "texto": "Asesinato del archiduque Francisco Fernando en Sarajevo (28 de junio).", "orden": 2 },
+        { "id": "e3", "texto": "Inicio de la Primera Guerra Mundial (1914).", "orden": 3 },
+        { "id": "e4", "texto": "Guerra de Trincheras: la etapa más larga y de mayor desgaste.", "orden": 4 },
+        { "id": "e5", "texto": "Revolución Rusa: los bolcheviques toman el poder (octubre de 1917).", "orden": 5 },
+        { "id": "e6", "texto": "Fin de la Primera Guerra Mundial: armisticio del 11 de noviembre de 1918.", "orden": 6 },
+        { "id": "e7", "texto": "Tratado de Versalles (1919): duras condiciones impuestas a Alemania.", "orden": 7 },
+        { "id": "e8", "texto": "Felices Años 20: auge económico en Estados Unidos.", "orden": 8 },
+        { "id": "e9", "texto": "Muerte de Lenin (1924) y ascenso de Stalin al poder en la URSS.", "orden": 9 },
+        { "id": "e10", "texto": "Caída de la Bolsa de Wall Street e inicio de la Gran Depresión (1929).", "orden": 10 }
+      ]
+    },
+    {
+      "id": "ord_argentina",
+      "tipo": "ordenar_secuencia",
+      "consigna": "Mientras tanto en Argentina... Ordená cronológicamente estos acontecimientos. Usá las flechas ↑ ↓ para subir o bajar cada evento.",
+      "eventos": [
+        { "id": "a1", "texto": "Ley Sáenz Peña: voto secreto, individual y obligatorio para varones (1912).", "orden": 1 },
+        { "id": "a2", "texto": "Hipólito Yrigoyen (UCR) asume la presidencia (1916).", "orden": 2 },
+        { "id": "a3", "texto": "Argentina mantiene la neutralidad frente a la Primera Guerra Mundial.", "orden": 3 },
+        { "id": "a4", "texto": "Reforma Universitaria de 1918: autonomía y cogobierno estudiantil.", "orden": 4 },
+        { "id": "a5", "texto": "Marcelo T. de Alvear (UCR) asume la presidencia (1922).", "orden": 5 },
+        { "id": "a6", "texto": "Yrigoyen gana nuevamente las elecciones y asume su segunda presidencia (1928).", "orden": 6 },
+        { "id": "a7", "texto": "Impacto de la crisis de 1929 en Argentina: caída de exportaciones, desocupación, inflación.", "orden": 7 },
+        { "id": "a8", "texto": "Golpe de Estado del 6 de septiembre de 1930: Uriburu derroca a Yrigoyen.", "orden": 8 },
+        { "id": "a9", "texto": "Inicio de la Década Infame: fraude electoral y restauración conservadora.", "orden": 9 }
+      ]
     }
   ],
   "metodo": {
@@ -627,14 +660,16 @@
         "sm_ley_saenz_pena",
         "sm_yrigoyen",
         "sm_golpe_30",
-        "vf_argentina"
+        "vf_argentina",
+        "ord_europa",
+        "ord_argentina"
       ]
     },
     "ponerse_a_prueba": {
       "ejercicios_ids": [
         "unir_final",
-        "sm_alianzas",
-        "sm_trincheras",
+        "ord_europa",
+        "ord_argentina",
         "vf_revolucion_rusa",
         "vf_argentina"
       ],

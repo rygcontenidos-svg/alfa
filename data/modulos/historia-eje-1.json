@@ -348,6 +348,22 @@
         { "izquierda_id": "multi", "derecha_id": "d5" },
         { "izquierda_id": "context", "derecha_id": "d6" }
       ]
+    },
+    {
+      "id": "ord_periodos",
+      "tipo": "ordenar_secuencia",
+      "consigna": "Ordená cronológicamente los períodos de la Historia. Usá las flechas ↑ ↓ para subir o bajar cada evento.",
+      "eventos": [
+        { "id": "p1", "texto": "Prehistoria: etapa más larga. Desde el origen de la humanidad hasta la invención de la escritura.", "orden": 1 },
+        { "id": "p2", "texto": "Invención de la escritura (aproximadamente 3000 a.C.).", "orden": 2 },
+        { "id": "p3", "texto": "Edad Antigua: desde la escritura hasta la caída del Imperio Romano de Occidente (476 d.C.).", "orden": 3 },
+        { "id": "p4", "texto": "Caída del Imperio Romano de Occidente (476 d.C.).", "orden": 4 },
+        { "id": "p5", "texto": "Edad Media: desde 476 hasta la caída del Imperio Romano de Oriente (1453).", "orden": 5 },
+        { "id": "p6", "texto": "Caída del Imperio Romano de Oriente (1453).", "orden": 6 },
+        { "id": "p7", "texto": "Edad Moderna: desde 1453 hasta la Revolución Francesa (1789).", "orden": 7 },
+        { "id": "p8", "texto": "Revolución Francesa (1789).", "orden": 8 },
+        { "id": "p9", "texto": "Edad Contemporánea: desde 1789 hasta la actualidad.", "orden": 9 }
+      ]
     }
   ],
   "metodo": {
@@ -595,16 +611,17 @@
         "sm_multicausalidad",
         "sm_contexto",
         "vf_cambios",
-        "completar_cambios"
+        "completar_cambios",
+        "ord_periodos"
       ]
     },
     "ponerse_a_prueba": {
       "ejercicios_ids": [
         "sm_consecuencias",
         "unir_conceptos",
+        "ord_periodos",
         "completar_cambios",
-        "completar_ciencias",
-        "vf_cambios"
+        "completar_ciencias"
       ],
       "duracion_min": 25
     },
