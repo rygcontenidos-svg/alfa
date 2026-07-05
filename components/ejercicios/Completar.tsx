@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useMemo } from "react";
 import type { Completar as CompletarType } from "@/lib/tipos";
 import FiguraMatematica from "@/components/FiguraMatematica";
 import { useAuth } from "@/app/AuthProvider";
@@ -28,7 +28,7 @@ export default function Completar({
   ej,
   moduloId,
 }: {
-  ej: CompletarType & { items?: ItemConExplicacion[] };
+  ej: CompletarType & { items?: ItemConExplicacion[]; bancoPalabras?: string[] };
   moduloId: string;
 }) {
   const [mostrar, setMostrar] = useState(false);
@@ -47,7 +47,13 @@ export default function Completar({
   useEffect(() => { verificar(); }, [verificar]);
 
   function handleInput(id: string, valor: string) {
-    setSelecciones((s) => ({ ...s, [id]: valor }));
+    setSelecciones((s) => {
+      if (s[id] === valor) {
+        const { [id]: _, ...rest } = s;
+        return rest;
+      }
+      return { ...s, [id]: valor };
+    });
     setComprobado(false);
   }
 
@@ -61,8 +67,13 @@ export default function Completar({
     setMostrar(false);
   }
 
-  const itemsConTexto = ej.items.filter((it) => it.subtipo === "texto");
-  const todosRespondidos = itemsConTexto.every((it) => selecciones[it.id]?.trim());
+  const usadas = new Set(Object.values(selecciones).filter(Boolean));
+  const tieneBanco = Boolean((ej as any).bancoPalabras);
+  const banco = (ej as any).bancoPalabras as string[] | undefined;
+  const bancopalabras = tieneBanco && banco ? banco : undefined;
+
+  const selectItems = ej.items.filter((it) => it.subtipo === "select");
+  const todosSelectsRespondidos = selectItems.every((it) => selecciones[it.id]);
 
   return (
     <div className="rounded-xl border border-borde bg-white overflow-hidden">
@@ -71,6 +82,28 @@ export default function Completar({
 
         {"figura" in ej && ej.figura && (
           <FiguraMatematica def={ej.figura} />
+        )}
+
+        {bancopalabras && !mostrar && (
+          <div className="mb-4 rounded-lg border border-azul bg-azul-fondo p-3">
+            <p className="text-xs font-semibold text-azul mb-2 uppercase tracking-wide">Banco de palabras</p>
+            <div className="flex flex-wrap gap-1.5">
+              {bancopalabras.map((palabra) => {
+                const usada = usadas.has(palabra);
+                return (
+                  <span
+                    key={palabra}
+                    className={`px-2.5 py-1 rounded-md text-xs font-medium ${
+                      usada ? "bg-verde text-white" : "bg-white border border-borde text-grafito"
+                    }`}
+                  >
+                    {palabra}
+                    {usada && <i className="fa-solid fa-check ml-1 text-[10px]" />}
+                  </span>
+                );
+              })}
+            </div>
+          </div>
         )}
 
         <div className="space-y-4">
@@ -85,16 +118,17 @@ export default function Completar({
               )}
 
               {it.subtipo === "select" && it.opciones ? (
-                <div className="flex gap-2">
+                <div className="flex gap-2 flex-wrap">
                   {it.opciones.map((opt) => {
                     const sel = selecciones[it.id] === opt;
                     const esCorrecto = (mostrar || comprobado) && opt === it.respuesta;
                     const esError = (mostrar || comprobado) && sel && opt !== it.respuesta;
+                    const usadaPorOtro = bancopalabras && !sel && usadas.has(opt);
                     return (
                       <button
                         key={opt}
                         type="button"
-                        disabled={mostrar || comprobado}
+                        disabled={mostrar || comprobado || usadaPorOtro}
                         onClick={() => handleInput(it.id, opt)}
                         className={`px-4 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
                           (mostrar || comprobado) && esCorrecto
@@ -103,6 +137,8 @@ export default function Completar({
                             ? "bg-red-50 text-red-500 border border-red-300"
                             : sel
                             ? "bg-azul text-white"
+                            : usadaPorOtro
+                            ? "bg-gray-50 text-gris/30 border border-borde"
                             : "bg-gray-100 text-grafito hover:bg-gray-200"
                         }`}
                       >

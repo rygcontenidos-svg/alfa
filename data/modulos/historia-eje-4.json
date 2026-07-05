@@ -339,139 +339,126 @@
     {
       "id": "comp_parrafo",
       "tipo": "completar",
-      "consigna": "Completá el siguiente texto con los términos correctos. Elegí la opción adecuada para cada espacio numerado.",
+      "consigna": "Completá el siguiente texto con las palabras del banco. Cada palabra se usa una sola vez.",
+      "bancoPalabras": [
+        "Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras",
+        "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia",
+        "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen",
+        "1929", "1930", "Década Infame", "oligárquicos"
+      ],
       "items": [
         {
-          "id": "a",
-          "subtipo": "select",
-          "pregunta": "1) El período entre 1871 y 1914 se conoció como ______. Durante esos años, las potencias europeas formaron dos bloques: la Triple Alianza (Alemania, Imperio Austro-Húngaro e Italia) y la Triple ______ (Francia, Rusia y Gran Bretaña).",
-          "opciones": ["Paz Armada", "Guerra Fría", "Belle Époque"],
+          "id": "a", "subtipo": "select",
+          "pregunta": "El período entre 1871 y 1914 se conoció como (1) ______. Durante esos años, las potencias europeas formaron dos bloques: la Triple Alianza y la Triple (2) ______ (Francia, Rusia y Gran Bretaña).",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Paz Armada"
         },
         {
-          "id": "b",
-          "subtipo": "select",
-          "pregunta": "1) continuación: (...) y la Triple ______ (Francia, Rusia y Gran Bretaña).",
-          "opciones": ["Entente", "Alianza", "Confederación"],
+          "id": "b", "subtipo": "select",
+          "pregunta": "(2) Triple ______ (Francia, Rusia y Gran Bretaña).",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Entente"
         },
         {
-          "id": "c",
-          "subtipo": "select",
-          "pregunta": "2) El detonante de la Primera Guerra Mundial fue el asesinato del archiduque ______ y su esposa en ______ el 28 de junio de 1914.",
-          "opciones": ["Francisco Fernando", "Nicolás II", "Luis XVI"],
+          "id": "c", "subtipo": "select",
+          "pregunta": "El detonante de la Primera Guerra Mundial fue el asesinato del archiduque (3) ______ y su esposa en (4) ______ el 28 de junio de 1914.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Francisco Fernando"
         },
         {
-          "id": "d",
-          "subtipo": "select",
-          "pregunta": "2) continuación: (...) y su esposa en ______ el 28 de junio de 1914.",
-          "opciones": ["Sarajevo", "Berlín", "Viena"],
+          "id": "d", "subtipo": "select",
+          "pregunta": "(4) en ______ el 28 de junio de 1914.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Sarajevo"
         },
         {
-          "id": "e",
-          "subtipo": "select",
-          "pregunta": "3) La etapa más larga y de mayor desgaste de la guerra fue la Guerra de ______, donde los ejércitos permanecieron inmovilizados en líneas de cientos de kilómetros.",
-          "opciones": ["Trincheras", "Movimientos", "Desgaste"],
+          "id": "e", "subtipo": "select",
+          "pregunta": "La etapa más larga y de mayor desgaste de la guerra fue la Guerra de (5) ______, donde los ejércitos permanecieron inmovilizados en líneas de cientos de kilómetros.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Trincheras"
         },
         {
-          "id": "f",
-          "subtipo": "select",
-          "pregunta": "4) En 1917, tras el triunfo de la Revolución de ______, los ______ liderados por Lenin tomaron el poder en Rusia. La Guardia Roja, comandada por ______, tomó el Palacio de Invierno.",
-          "opciones": ["Octubre", "Febrero", "Mayo"],
+          "id": "f", "subtipo": "select",
+          "pregunta": "En 1917 triunfó la Revolución de (6) ______ en Rusia. Los (7) ______ liderados por Lenin tomaron el poder. La Guardia Roja, comandada por (8) ______, tomó el Palacio de Invierno.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Octubre"
         },
         {
-          "id": "g",
-          "subtipo": "select",
-          "pregunta": "4) continuación: (...) los ______ liderados por Lenin tomaron el poder en Rusia.",
-          "opciones": ["bolcheviques", "mencheviques", "zaristas"],
+          "id": "g", "subtipo": "select",
+          "pregunta": "(7) Los ______ liderados por Lenin tomaron el poder.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "bolcheviques"
         },
         {
-          "id": "h",
-          "subtipo": "select",
-          "pregunta": "4) continuación: (...) La Guardia Roja, comandada por ______, tomó el Palacio de Invierno.",
-          "opciones": ["Trotsky", "Stalin", "Gorbachov"],
+          "id": "h", "subtipo": "select",
+          "pregunta": "(8) La Guardia Roja, comandada por ______, tomó el Palacio de Invierno.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Trotsky"
         },
         {
-          "id": "i",
-          "subtipo": "select",
-          "pregunta": "5) El Tratado de ______ (1919) impuso duras condiciones a Alemania: pérdida de colonias, devolución de Alsacia y Lorena a ______, desmilitarización y cuantiosas reparaciones de guerra.",
-          "opciones": ["Versalles", "Yalta", "Potsdam"],
+          "id": "i", "subtipo": "select",
+          "pregunta": "El Tratado de (9) ______ (1919) impuso duras condiciones a Alemania: pérdida de colonias, devolución de Alsacia y Lorena a (10) ______, desmilitarización y reparaciones de guerra.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Versalles"
         },
         {
-          "id": "j",
-          "subtipo": "select",
-          "pregunta": "5) continuación: (...) devolución de Alsacia y Lorena a ______, desmilitarización y cuantiosas reparaciones de guerra.",
-          "opciones": ["Francia", "Inglaterra", "Polonia"],
+          "id": "j", "subtipo": "select",
+          "pregunta": "(10) devolución de Alsacia y Lorena a ______.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Francia"
         },
         {
-          "id": "k",
-          "subtipo": "select",
-          "pregunta": "6) Tras la muerte de Lenin en 1924, ______ se impuso en el poder e instauró una dictadura de partido único. Abandonó la ______ (Nueva Política Económica) y la reemplazó por la colectivización forzosa de la agricultura y los planes ______ de industrialización.",
-          "opciones": ["Stalin", "Trotsky", "Bujarin"],
+          "id": "k", "subtipo": "select",
+          "pregunta": "Tras la muerte de Lenin en 1924, (11) ______ se impuso en el poder. Abandonó la (12) ______ y la reemplazó por la colectivización forzosa de la agricultura y los planes (13) ______ de industrialización.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Stalin"
         },
         {
-          "id": "l",
-          "subtipo": "select",
-          "pregunta": "6) continuación: (...) Abandonó la ______ (Nueva Política Económica) y la reemplazó por la colectivización forzosa.",
-          "opciones": ["NEP", "URSS", "KGB"],
+          "id": "l", "subtipo": "select",
+          "pregunta": "(12) Abandonó la ______ y la reemplazó por la colectivización forzosa.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "NEP"
         },
         {
-          "id": "m",
-          "subtipo": "select",
-          "pregunta": "6) continuación: (...) y los planes ______ de industrialización.",
-          "opciones": ["quinquenales", "anuales", "decenales"],
+          "id": "m", "subtipo": "select",
+          "pregunta": "(13) y los planes ______ de industrialización.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "quinquenales"
         },
         {
-          "id": "n",
-          "subtipo": "select",
-          "pregunta": "7) En Argentina, la Ley ______ (1912) estableció el voto secreto, individual y obligatorio para varones. En 1916 asumió ______, líder de la Unión Cívica Radical.",
-          "opciones": ["Sáenz Peña", "Arias", "Resistencia"],
+          "id": "n", "subtipo": "select",
+          "pregunta": "En Argentina, la Ley (14) ______ (1912) estableció el voto secreto, individual y obligatorio. En 1916 asumió (15) ______, líder de la Unión Cívica Radical.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Sáenz Peña"
         },
         {
-          "id": "o",
-          "subtipo": "select",
-          "pregunta": "7) continuación: (...) En 1916 asumió ______, líder de la Unión Cívica Radical.",
-          "opciones": ["Yrigoyen", "Alvear", "Perón"],
+          "id": "o", "subtipo": "select",
+          "pregunta": "(15) En 1916 asumió ______, líder de la UCR.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Yrigoyen"
         },
         {
-          "id": "p",
-          "subtipo": "select",
-          "pregunta": "8) El impacto de la crisis de ______ en Argentina provocó caída de exportaciones, desocupación e inflación. El 6 de septiembre de ______, las Fuerzas Armadas derrocaron a Yrigoyen en el primer golpe de Estado de la historia argentina.",
-          "opciones": ["1929", "1914", "1945"],
+          "id": "p", "subtipo": "select",
+          "pregunta": "El impacto de la crisis de (16) ______ provocó caída de exportaciones, desocupación e inflación en Argentina.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "1929"
         },
         {
-          "id": "q",
-          "subtipo": "select",
-          "pregunta": "8) continuación: (...) El 6 de septiembre de ______, las Fuerzas Armadas derrocaron a Yrigoyen.",
-          "opciones": ["1930", "1943", "1955"],
+          "id": "q", "subtipo": "select",
+          "pregunta": "El 6 de septiembre de (17) ______, las Fuerzas Armadas derrocaron a Yrigoyen en el primer golpe de Estado argentino.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "1930"
         },
         {
-          "id": "r",
-          "subtipo": "select",
-          "pregunta": "9) A partir de ese golpe se inició la Restauración Conservadora, un período de fraude electoral conocido como la '______ ______'. El poder volvió a manos de los sectores ______.",
-          "opciones": ["Década Infame", "Revolución Libertadora", "Edad Dorada"],
+          "id": "r", "subtipo": "select",
+          "pregunta": "A partir de ese golpe se inició la Restauración Conservadora, conocida como la (18) ______.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "Década Infame"
         },
         {
-          "id": "s",
-          "subtipo": "select",
-          "pregunta": "9) continuación: (...) El poder volvió a manos de los sectores ______.",
-          "opciones": ["oligárquicos", "radicales", "socialistas"],
+          "id": "s", "subtipo": "select",
+          "pregunta": "El poder volvió a manos de los sectores (19) ______.",
+          "opciones": ["Paz Armada", "Entente", "Francisco Fernando", "Sarajevo", "Trincheras", "Octubre", "bolcheviques", "Trotsky", "Versalles", "Francia", "Stalin", "NEP", "quinquenales", "Sáenz Peña", "Yrigoyen", "1929", "1930", "Década Infame", "oligárquicos"],
           "respuesta": "oligárquicos"
         }
       ]
