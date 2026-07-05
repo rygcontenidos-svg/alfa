@@ -54,60 +54,61 @@ export default function UnirFlechas({ ej, moduloId }: { ej: UnirFlechasType; mod
   return (
     <div className="rounded-xl border border-borde bg-white overflow-hidden">
       <div className="p-4 sm:p-5">
-        <p className="text-sm font-semibold text-grafito mb-3 leading-relaxed">{ej.consigna}</p>
-        <div className="space-y-3">
+        <p className="text-sm font-semibold text-grafito mb-4 leading-relaxed">{ej.consigna}</p>
+        <div className="space-y-6">
           {ej.izquierda.map((izq, idx) => {
             const selId = selecciones[izq.id];
-            const correcto = comprobado && selId === ej.pares.find((p) => p.izquierda_id === izq.id)?.derecha_id;
-            const incorrecto = comprobado && selId && selId !== ej.pares.find((p) => p.izquierda_id === izq.id)?.derecha_id;
+            const correctaId = ej.pares.find((p) => p.izquierda_id === izq.id)?.derecha_id;
+            const correcto = comprobado && selId === correctaId;
+            const incorrecto = comprobado && selId && selId !== correctaId;
 
             return (
-              <div
-                key={izq.id}
-                className={`rounded-lg border px-3 py-2.5 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 ${
-                  mostrar || correcto
-                    ? "border-verde bg-verde-claro"
-                    : incorrecto
-                      ? "border-red-300 bg-red-50"
-                      : "border-borde bg-gray-50"
-                }`}
-              >
-                <span className="text-sm text-grafito flex-1 min-w-0">
+              <div key={izq.id} className="space-y-2">
+                <p className="text-sm text-grafito font-medium">
                   <span className="font-semibold text-azul mr-1.5">{idx + 1}.</span>
                   {izq.texto}
-                </span>
-                <span className="text-verde font-bold shrink-0 hidden sm:inline">↔</span>
+                </p>
                 {mostrar ? (
-                  <span className="text-sm text-grafito flex-1 min-w-0">
-                    {ej.derecha.find((d) => d.id === ej.pares.find((p) => p.izquierda_id === izq.id)?.derecha_id)?.texto}
-                  </span>
+                  <div className="rounded-lg border border-verde bg-verde-claro px-3 py-2 text-sm text-grafito">
+                    <span className="text-verde font-bold mr-1.5">↔</span>
+                    {ej.derecha.find((d) => d.id === correctaId)?.texto}
+                  </div>
                 ) : (
-                  <select
-                    value={selId ?? ""}
-                    onChange={(e) => handleSelect(izq.id, e.target.value)}
-                    className={`rounded-lg border px-2.5 py-1.5 text-sm min-w-0 w-full sm:w-auto ${
-                      comprobado
-                        ? correcto
-                          ? "border-verde bg-white text-verde"
-                          : selId
-                            ? "border-red-300 bg-white text-red-600"
-                            : "border-borde bg-white text-grafito"
-                        : "border-borde bg-white text-grafito"
-                    }`}
-                  >
-                    <option value="">Seleccioná...</option>
-                    {derechaShuffle.map((der) => (
-                      <option key={der.id} value={der.id}>
-                        {der.texto.length > 70 ? der.texto.slice(0, 70) + "…" : der.texto}
-                      </option>
-                    ))}
-                  </select>
+                  <div className="flex flex-col gap-1.5">
+                    {derechaShuffle.map((der) => {
+                      const esSeleccionado = selId === der.id;
+                      const esCorrecto = comprobado && der.id === correctaId;
+                      const esError = comprobado && esSeleccionado && der.id !== correctaId;
+                      const usadoPorOtro = !esSeleccionado && Object.entries(selecciones).some(([k, v]) => k !== izq.id && v === der.id);
+                      return (
+                        <button
+                          key={der.id}
+                          type="button"
+                          disabled={comprobado || usadoPorOtro}
+                          onClick={() => handleSelect(izq.id, der.id)}
+                          className={`text-left rounded-lg border px-3 py-2 text-sm transition-colors ${
+                            comprobado && esCorrecto
+                              ? "border-verde bg-verde-claro text-grafito"
+                              : comprobado && esError
+                                ? "border-red-300 bg-red-50 text-grafito"
+                                : esSeleccionado
+                                  ? "border-azul bg-azul-fondo text-grafito"
+                                  : "border-borde bg-gray-50 text-grafito hover:border-azul-claro"
+                          }`}
+                        >
+                          {der.texto}
+                          {comprobado && esCorrecto && <i className="fa-solid fa-circle-check text-verde ml-2" />}
+                          {comprobado && esError && <i className="fa-solid fa-circle-xmark text-red-500 ml-2" />}
+                        </button>
+                      );
+                    })}
+                  </div>
                 )}
                 {comprobado && correcto && (
-                  <i className="fa-solid fa-circle-check text-verde shrink-0 text-sm" />
+                  <p className="text-xs text-verde"><i className="fa-solid fa-circle-check mr-1" />Correcto</p>
                 )}
                 {comprobado && incorrecto && (
-                  <i className="fa-solid fa-circle-xmark text-red-500 shrink-0 text-sm" />
+                  <p className="text-xs text-red-500"><i className="fa-solid fa-circle-xmark mr-1" />Incorrecto</p>
                 )}
               </div>
             );
@@ -115,7 +116,7 @@ export default function UnirFlechas({ ej, moduloId }: { ej: UnirFlechasType; mod
         </div>
 
         {comprobado && (
-          <div className="mt-3 rounded-lg bg-azul-fondo border border-azul-claro px-3 py-2 text-xs text-azul">
+          <div className="mt-4 rounded-lg bg-azul-fondo border border-azul-claro px-3 py-2 text-xs text-azul">
             {ej.izquierda.every((izq) => selecciones[izq.id] === ej.pares.find((p) => p.izquierda_id === izq.id)?.derecha_id)
               ? "¡Todas las correspondencias son correctas!"
               : "Algunas correspondencias no son correctas. Las incorrectas están marcadas en rojo."}
