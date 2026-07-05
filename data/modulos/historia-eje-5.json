@@ -279,167 +279,358 @@
     "entender": {
       "diapositivas": [
         {
-          "id": "camino-guerra",
+          "id": "camino-guerra-detallado",
           "titulo": "El camino hacia la Segunda Guerra Mundial",
           "icono": "⚠️",
           "color": "rojo",
           "bloques": [
             {
               "tipo": "tarjeta_destacada",
-              "titulo": "Causas",
-              "texto": "Las duras condiciones del Tratado de Versalles, la crisis de 1929, el ascenso del fascismo en Italia y el nazismo en Alemania, la política de apaciguamiento de Francia y Gran Bretaña, y el expansionismo japonés en Asia fueron los factores que llevaron a una nueva guerra mundial.",
+              "titulo": "Causas del conflicto",
+              "texto": "La Segunda Guerra Mundial (1939-1945) fue el enfrentamiento bélico más grande de la historia, con 60 millones de muertos. Sus causas se remontan a las décadas previas: las duras condiciones del Tratado de Versalles, la crisis económica de 1929, el ascenso de regímenes fascistas y nacionalistas, la política de apaciguamiento de las democracias europeas y el expansionismo japonés en Asia.",
               "color": "rojo"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Alemania, derrotada en la Primera Guerra Mundial, se había visto perjudicada por lo establecido en el Tratado de Versalles y arrastraba serios problemas económicos y sociales. Italia, en manos de Mussolini, también sufría una profunda crisis y un alto desempleo. En ambos países se consolidaron movimientos políticos nacionalistas y autoritarios que cuestionaban tanto al comunismo como a las democracias occidentales."
             },
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🇩🇪", "texto": "Hitler inicia una política expansionista para recuperar territorios perdidos y conquistar el 'espacio vital' para la 'raza aria'." },
-                { "icono": "🇮🇹", "texto": "En Italia, Mussolini consolida el régimen fascista de partido único desde 1925." },
-                { "icono": "🇪🇸", "texto": "Guerra Civil Española (1936-1939): Hitler y Mussolini apoyan a Franco contra la República. Franco establece una dictadura hasta 1975." },
-                { "icono": "🇯🇵", "texto": "Japón inicia su expansión sobre China y el sudeste asiático desde 1931." }
+                { "icono": "🇮🇹", "texto": "En Italia, Benito Mussolini lideró la Marcha sobre Roma en 1922 y tomó el poder. En 1925, el 'Duce' consolidó un régimen de partido único (Partido Nacional Fascista), cerró la cámara de legisladores y persiguió a comunistas y socialistas con el apoyo de las fuerzas de seguridad." },
+                { "icono": "🇩🇪", "texto": "En Alemania, Adolf Hitler construyó su partido desde los años 20. En 1933 asumió como Canciller y comenzó a desplegar una política expansionista basada en la superioridad de la 'raza aria', proclamando la necesidad del 'espacio vital' (Lebensraum) y denunciando el 'Tratado de Versalles mutilado'." },
+                { "icono": "🇯🇵", "texto": "Japón había comenzado su expansión en Asia desde 1931, cuando ocupó Manchuria. Luego avanzó sobre China con el objetivo de dominar el sudeste asiático y el Pacífico." },
+                { "icono": "🇪🇸", "texto": "La Guerra Civil Española (1936-1939): un golpe de Estado contra la República dio inicio a una guerra civil. Hitler y Mussolini apoyaron al bando franquista con armas, soldados y aviación. Franco triunfó en 1939 e instaló una dictadura que duró hasta 1975." }
               ]
             }
           ]
         },
         {
-          "id": "expansion-alemana",
-          "titulo": "La expansión alemana (1938-1939)",
+          "id": "apaciguamiento",
+          "titulo": "La política de apaciguamiento y la expansión alemana",
           "icono": "🗺️",
           "color": "naranja",
           "bloques": [
             {
               "tipo": "parrafo",
-              "texto": "Mientras Francia y Gran Bretaña practicaban la 'política de apaciguamiento' (ceder a las pretensiones nazis para evitar un conflicto), Alemania avanzaba imparable:"
+              "texto": "Mientras Alemania, Italia y Japón fortalecían sus posiciones, Francia y Gran Bretaña practicaban la 'política de apaciguamiento': trataron de no generar resistencia y fueron cediendo a las pretensiones de Hitler para evitar un nuevo conflicto. Esta política demostró la ineficacia de la Sociedad de las Naciones, creada después de la Primera Guerra Mundial precisamente para impedir otra guerra. Alemania, Italia y Japón fueron abandonando ese organismo internacional a medida que afianzaban sus políticas de conquista."
             },
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🇦🇹", "texto": "1938: Anexión de Austria, incorporada al territorio alemán." },
-                { "icono": "🇨🇿", "texto": "1938: Tratado de Munich — Francia y Gran Bretaña ceden los Sudetes (Checoslovaquia) a Hitler." },
-                { "icono": "🇨🇿", "texto": "1939: Los alemanes toman Praga. Desaparece el Estado checoslovaco." },
-                { "icono": "🤝", "texto": "Agosto 1939: Pacto Molotov-Ribbentrop — Alemania y la URSS firman un pacto de no agresión con un apartado secreto para dividir Polonia." }
+                { "icono": "🇪🇹", "texto": "1935: Italia invadió Etiopía (Abisinia) en África, buscando territorios que le habían sido negados después de la Primera Guerra. Este hecho terminó de sellar la unión entre Alemania e Italia (Eje Roma-Berlín)." },
+                { "icono": "🇦🇹", "texto": "1938: Alemania anexó Austria (Anschluss), incorporándola como parte de su territorio." },
+                { "icono": "🇨🇿", "texto": "1938: Tratado de Munich — Francia y Gran Bretaña cedieron a Hitler la región de los Sudetes, ubicada en Checoslovaquia." },
+                { "icono": "🇨🇿", "texto": "1939: Los alemanes tomaron Praga, la capital de Checoslovaquia. Esta acción provocó la desaparición del Estado checo. Quedó en evidencia la fragilidad de la paz mundial." }
               ]
             }
           ]
         },
         {
-          "id": "desarrollo-guerra",
-          "titulo": "Desarrollo de la Segunda Guerra Mundial (1939-1945)",
-          "icono": "⚔️",
+          "id": "pacto-molotov",
+          "titulo": "El Pacto Molotov-Ribbentrop y el inicio de la guerra",
+          "icono": "🤝",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Agosto de 1939",
+              "texto": "Alemania y la Unión Soviética firmaron el Pacto Molotov-Ribbentrop, un acuerdo de No Agresión. Se trató de una garantía mutua que posibilitó que cada uno acumulara fuerzas sin temor a que el otro interviniera. En un apartado secreto dispusieron la división de Polonia: la parte occidental sería para Alemania y la oriental para los soviéticos.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "El 1 de septiembre de 1939, Alemania invadió Polonia. Dos días después, Francia y Gran Bretaña le declararon la guerra. La Segunda Guerra Mundial había comenzado. La URSS, por su parte, invadió Finlandia para recuperar territorios bálticos que había perdido durante la Revolución Rusa de 1917. En 1940, Stalin también ocupó Lituania, Letonia y Estonia, incorporándolas a la URSS."
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Los bandos enfrentados",
+              "texto": "Los Aliados (Gran Alianza Antifascista): Estados Unidos, Gran Bretaña, la Unión Soviética (URSS) y otros. Las Potencias del Eje: Alemania, Italia y Japón. El conflicto se desarrolló en tres frentes principales: Europa occidental, Europa oriental y la región del Pacífico.",
+              "color": "rojo"
+            }
+          ]
+        },
+        {
+          "id": "blitzkrieg-francia",
+          "titulo": "La 'guerra relámpago' y la caída de Francia (1940)",
+          "icono": "⚡",
           "color": "azul",
           "bloques": [
             {
               "tipo": "tarjeta_destacada",
-              "titulo": "Inicio",
-              "texto": "1 de septiembre de 1939: Alemania invade Polonia. Dos días después, Francia y Gran Bretaña le declaran la guerra. Comienza la Segunda Guerra Mundial.",
+              "titulo": "Blitzkrieg: 'guerra relámpago'",
+              "texto": "Alemania aplicó la estrategia de 'guerra relámpago', que consistía en la rápida conquista de los países invadidos mediante ataques coordinados y sorpresivos, utilizando luego sus recursos. Así fueron cayendo sucesivamente Noruega, Dinamarca, Holanda y Bélgica, donde impuso un fuerte control sobre sus gobiernos.",
               "color": "azul"
             },
             {
               "tipo": "lista",
               "items": [
-                { "icono": "⚡", "texto": "Blitzkrieg ('guerra relámpago'): Alemania conquista rápidamente Noruega, Dinamarca, Holanda, Bélgica y Francia (1940)." },
-                { "icono": "🇬🇧", "texto": "Batalla de Inglaterra (1940): Alemania bombardea ciudades británicas; los ingleses resisten." },
-                { "icono": "🇷🇺", "texto": "1941: Operación Barbarroja — Hitler rompe el pacto e invade la URSS. Se abre el frente oriental." },
-                { "icono": "🇺🇸", "texto": "Diciembre 1941: Japón ataca Pearl Harbor. EE.UU. entra en la guerra. Se forma la Gran Alianza (EE.UU., Gran Bretaña, URSS)." }
+                { "icono": "🇫🇷", "texto": "Francia fue invadida. Los alemanes ingresaron triunfantes en París e impusieron su dominio en el norte del país. En el sur, en la ciudad de Vichy, se estableció un gobierno colaboracionista liderado por el Mariscal Philippe Pétain, con un perfil nacionalista, autoritario y antisemita que coincidía con las ideas de Hitler." },
+                { "icono": "🇬🇧", "texto": "Gran Bretaña quedó como la única resistencia frente al nazismo. En 1940, Winston Churchill asumió como primer ministro. Los bombardeos alemanes sobre centros industriales ingleses eran respondidos con ataques británicos sobre Berlín. Fue la Batalla de Inglaterra." },
+                { "icono": "🤝", "texto": "En 1940, Alemania, Italia y Japón firmaron el Pacto Tripartito: un acuerdo de alianza con compromiso de ayuda mutua en caso de ataque externo por parte de países no participantes en la guerra." },
+                { "icono": "🇭🇺", "texto": "Hungría, Rumania y Croacia se convirtieron en países aliados del invasor nazi con gobiernos nacionalistas, autoritarios y antisemitas. Fueron conocidos como 'colaboracionistas'. Irlanda, Suiza y Suecia se declararon neutrales." }
               ]
             }
           ]
         },
         {
-          "id": "derrotas-eje",
+          "id": "1941-punto-inflexion",
+          "titulo": "1941: el año que cambió el curso de la guerra",
+          "icono": "🔴",
+          "color": "naranja",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "En 1941 se sucedieron varios hechos fundamentales que modificaron el curso de la guerra:"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "🇮🇹", "texto": "Italia ingresó como contrincante buscando posicionarse en el norte de África para obtener los territorios que le habían sido negados al final de la Primera Guerra Mundial." },
+                { "icono": "🪖", "texto": "OPERACIÓN BARBARROJA: Hitler, incumpliendo el Pacto Molotov-Ribbentrop, invadió la Unión Soviética. Tres millones de soldados alemanes ingresaron por el norte, el centro y el sur del territorio soviético de forma extremadamente violenta, atacando a la población y saqueando sus recursos. Stalin fue tomado por sorpresa y en 1942 ordenó a sus tropas '¡Ni un paso atrás!'." },
+                { "icono": "🇯🇵", "texto": "Japón firmó un Pacto de No Agresión con la Unión Soviética y concentró sus fuerzas en la expansión sobre Asia oriental y el Océano Pacífico." },
+                { "icono": "🇺🇸", "texto": "Estados Unidos inició su participación en la guerra luego de que Japón atacara su base naval de Pearl Harbor, en Hawái, a fines de ese año (7 de diciembre de 1941)." },
+                { "icono": "🤝", "texto": "Se conformó la GRAN ALIANZA ANTIFASCISTA entre Estados Unidos, Gran Bretaña y la Unión Soviética. Hasta entonces, las potencias occidentales se habían mostrado contrarias a asociarse con los soviéticos. La historiadora María Dolores Béjar plantea que temían más al comunismo que al nazismo, pero la invasión de Hitler a la URSS los unió contra el enemigo común." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "derrotas-eje-detallado",
           "titulo": "Las derrotas del Eje (1942-1945)",
           "icono": "🏴",
           "color": "verde",
           "bloques": [
             {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Batalla de Stalingrado (1942-1943)",
+              "texto": "Fue un acontecimiento fundamental y decisivo. En esta ciudad ubicada en el sur de la URSS, el Ejército Rojo soviético derrotó a las fuerzas alemanas. Desde allí comenzó un avance imparable que finalizó con su entrada a Berlín en 1945.",
+              "color": "verde"
+            },
+            {
               "tipo": "lista",
               "items": [
-                { "icono": "🔴", "texto": "Batalla de Stalingrado (1942-1943): el Ejército Rojo derrota a los alemanes. Punto de inflexión de la guerra." },
-                { "icono": "🇮🇹", "texto": "Los Aliados avanzan desde el norte de África hacia Italia. Cae el régimen de Mussolini." },
-                { "icono": "🏖️", "texto": "Junio 1944: Desembarco en Normandía (Día D). Los Aliados liberan Francia y avanzan hacia Alemania." },
-                { "icono": "🏁", "texto": "Abril-mayo 1945: Batalla de Berlín. El Ejército Rojo toma la ciudad. Alemania se rinde." },
-                { "icono": "☢️", "texto": "Agosto 1945: EE.UU. lanza bombas atómicas sobre Hiroshima y Nagasaki. Japón se rinde. Fin de la guerra." }
+                { "icono": "🇮🇹", "texto": "Los norteamericanos y los ingleses avanzaron desde el norte de África hacia Italia y provocaron la caída del régimen de Mussolini." },
+                { "icono": "🏖️", "texto": "DESEMBARCO EN NORMANDÍA (junio 1944): fuerzas aliadas compuestas por soldados norteamericanos, canadienses y británicos desembarcaron en la costa francesa de Normandía. Desde allí fueron recuperando las zonas ocupadas por los nazis y liberaron Francia. Comenzaron su avance hacia Alemania." },
+                { "icono": "🇯🇵", "texto": "Estados Unidos ocupó la isla de Iwo Jima, en territorio japonés (1945)." },
+                { "icono": "🏁", "texto": "BATALLA DE BERLÍN (abril-mayo 1945): una de las más cruentas de la guerra, con luchas cuerpo a cuerpo en calles y casas. Las Fuerzas Armadas alemanas se rindieron ante el Ejército Rojo soviético, que plantó su bandera en la torre del parlamento alemán (Reichstag) simbolizando la caída del régimen nazi." }
               ]
             }
           ]
         },
         {
-          "id": "holocausto",
-          "titulo": "El Holocausto",
-          "icono": "🕯️",
+          "id": "bombas-atomicas",
+          "titulo": "El fin de la guerra en el Pacífico",
+          "icono": "☢️",
           "color": "rojo",
           "bloques": [
             {
               "tipo": "tarjeta_destacada",
-              "titulo": "¿Qué fue el Holocausto?",
-              "texto": "Fue el genocidio sistemático de aproximadamente seis millones de judíos por parte del régimen nazi. Implicó no solo el asesinato masivo sino también la destrucción de la identidad cultural del pueblo judío.",
+              "titulo": "Hiroshima y Nagasaki (agosto de 1945)",
+              "texto": "Ante la negativa de rendición incondicional de Japón, Estados Unidos arrojó dos bombas atómicas: primero en Hiroshima y, a los tres días, en Nagasaki. Esto provocó la muerte de aproximadamente 200.000 personas y afectó al medio ambiente, ocasionando graves consecuencias para la población que sufrió por muchos años los efectos de la poderosa radiación nuclear.",
               "color": "rojo"
             },
             {
-              "tipo": "lista",
-              "items": [
-                { "icono": "📜", "texto": "Leyes de Nuremberg (1935): quitan ciudadanía y derechos a los judíos." },
-                { "icono": "💔", "texto": "Noche de los cristales rotos (1938): ataque masivo a comercios, sinagogas y hogares judíos." },
-                { "icono": "🏚️", "texto": "Guetos: barrios aislados donde los judíos eran obligados a vivir hacinados." },
-                { "icono": "💀", "texto": "'Solución final' (1942): plan de exterminio en campos con cámaras de gas." }
-              ]
-            },
-            {
               "tipo": "parrafo",
-              "texto": "Además de los judíos, el nazismo persiguió a comunistas, gitanos, homosexuales y personas con discapacidad. El Holocausto fue posible por la participación de las Fuerzas Armadas, sectores profesionales, medios de comunicación, empresarios y la complicidad de gran parte de la sociedad alemana."
+              "texto": "La Segunda Guerra Mundial fue uno de los hechos más terribles y sangrientos del siglo XX, como lo describió el historiador británico Eric Hobsbawm. No solo se cuentan los soldados caídos en los campos de batalla, sino también todos los civiles muertos y los sobrevivientes con discapacidades físicas y trastornos psicológicos. Muchas ciudades fueron bombardeadas, sus poblaciones expulsadas de sus países y sometidas a trabajos forzados. Con el fin del conflicto bélico no terminaron los problemas: en los primeros años de la posguerra hubo millones de personas desplazadas que debieron vivir como refugiados en diferentes lugares del mundo bajo condiciones inhumanas."
             }
           ]
         },
         {
-          "id": "posguerra",
-          "titulo": "La posguerra y el nuevo orden mundial",
+          "id": "conferencias-paz",
+          "titulo": "Las conferencias de paz de los Aliados",
           "icono": "🕊️",
           "color": "azul",
           "bloques": [
             {
               "tipo": "parrafo",
-              "texto": "La Segunda Guerra Mundial dejó 60 millones de muertos. Ciudades enteras fueron bombardeadas y millones de personas fueron desplazadas. A diferencia de 1919, no se firmaron tratados de paz al estilo de Versalles. Las condiciones de paz surgieron en conferencias entre los líderes vencedores."
+              "texto": "A diferencia de 1919, al finalizar la Segunda Guerra Mundial no se firmaron pactos de paz al estilo del Tratado de Versalles. Las condiciones para la paz surgieron en varias conferencias realizadas entre los líderes de las potencias occidentales y la Unión Soviética."
             },
             {
               "tipo": "comparativa",
               "columnas": [
                 {
-                  "titulo": "Teherán (1943)",
-                  "items": ["Organización del desembarco en Normandía.", "Acuerdo: rendición incondicional del Eje."]
+                  "titulo": "Teherán (Irán, 1943)",
+                  "items": [
+                    "Se programó la organización del desembarco en Normandía y la apertura del frente occidental (algo que Stalin venía solicitando a EE.UU. y Gran Bretaña).",
+                    "Coincidieron en que la rendición de las potencias del Eje debía ser incondicional."
+                  ]
                 },
                 {
-                  "titulo": "Yalta (1945)",
-                  "items": ["Desmilitarización de Alemania.", "División en 4 zonas de ocupación.", "Altas reparaciones de guerra."]
+                  "titulo": "Yalta (Crimea, 1945)",
+                  "items": [
+                    "Se estableció la desmilitarización de Alemania.",
+                    "Su división en cuatro zonas administradas por los cuatro vencedores.",
+                    "La imposición de altos montos en concepto de pagos de reparación de guerra."
+                  ]
                 },
                 {
-                  "titulo": "Potsdam (1945)",
-                  "items": ["Reconstrucción europea.", "Desnazificación de Alemania.", "Juicios de Nuremberg.", "Surgen tensiones → Guerra Fría."]
+                  "titulo": "Potsdam (Alemania, 1945)",
+                  "items": [
+                    "Participaron Harry Truman por EE.UU. (Roosevelt había fallecido) y Clement Attlee por Gran Bretaña (en reemplazo de Churchill).",
+                    "Se definió un programa para la reconstrucción europea y el establecimiento de un nuevo orden mundial de posguerra.",
+                    "Desmilitarización y desnazificación de Alemania, persecución y enjuiciamiento de criminales nazis, devolución de territorios anexados desde 1938.",
+                    "Aquí empezaron a evidenciarse las tensiones entre Occidente y la URSS que derivarían en la Guerra Fría."
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "argentina-eje5",
+          "id": "nuremberg",
+          "titulo": "Los Juicios de Nuremberg (1945-1946)",
+          "icono": "⚖️",
+          "color": "violeta",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "¿Qué fueron?",
+              "texto": "Entre 1945 y 1946, los principales responsables del régimen nazi fueron sometidos a juicio en la ciudad alemana de Nuremberg por los crímenes cometidos contra las poblaciones civiles. La mayoría de los procesados fueron sentenciados desde años de reclusión hasta la muerte.",
+              "color": "violeta"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "📋", "texto": "Crímenes contra la paz: por instigar la guerra." },
+                { "icono": "💀", "texto": "Crímenes contra la Humanidad: por genocidio." },
+                { "icono": "⚔️", "texto": "Crímenes de guerra: por la violación de las leyes y usos de la guerra." },
+                { "icono": "🔗", "texto": "Planificación y conspiración para cometer dichos crímenes." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "holocausto-detallado",
+          "titulo": "El Holocausto: la persecución nazi paso a paso",
+          "icono": "🕯️",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "Desde principios de los años 20, Hitler proclamó su odio hacia el pueblo alemán de origen judío, difundiendo la superioridad de la 'raza aria'. Cuando asumió como Canciller en 1933, comenzó a poner en práctica esas ideas mediante medidas de gobierno cada vez más agresivas contra la comunidad judía. Se pueden identificar tres momentos clave:"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "1️⃣", "texto": "Boicot a comercios judíos (abril 1933): los miembros de las fuerzas de combate callejero del partido nazi (SA) impedían la entrada a los negocios de la comunidad judía y amenazaban a sus profesionales con pintadas antisemitas en las puertas de sus oficinas." },
+                { "icono": "2️⃣", "texto": "Leyes de Nuremberg (1935): establecieron una diferenciación entre ciudadanos alemanes 'arios' y judíos. Estos perdieron derechos y la condición de ciudadanía que habían tenido hasta entonces: no podían ejercer cargos públicos, votar ni relacionarse con el 'pueblo alemán'." },
+                { "icono": "3️⃣", "texto": "Noche de los cristales rotos (1938): miembros de las SA y civiles alemanes atacaron comercios, escuelas, oficinas, templos y casas de la población judía. Ocasionaron decenas de muertes y cientos de judíos fueron detenidos y luego deportados a campos de concentración." }
+              ]
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Guetos y campos de concentración",
+              "texto": "El Estado alemán desarrolló una 'política antijudía' con leyes prohibitivas y actos violentos que fueron aislando progresivamente a la población judía: se la expulsaba de sus actividades laborales, comerciales y educativas y se le quitaban sus bienes materiales. Con el inicio de la guerra en 1939, los nazis construyeron el primer gueto en la ciudad de Lodz (Polonia): zonas o barrios aislados del resto de la ciudad con alambres de púa, donde los judíos eran obligados a vivir hacinados sin contacto con otras personas. A medida que los nazis avanzaban, instalaron más guetos y campos de concentración en diferentes partes de Europa.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Además de construir al pueblo judío como 'enemigo de la nación alemana', el nazismo también persiguió a comunistas, gitanos, homosexuales y personas con discapacidad. El primer campo de concentración se construyó cerca de Múnich (Dachau), donde fueron destinados presos políticos —principalmente comunistas— y otros grupos perseguidos, para realizar trabajos forzosos viviendo en condiciones sumamente denigrantes."
+            }
+          ]
+        },
+        {
+          "id": "solucion-final",
+          "titulo": "La 'solución final' y el concepto de genocidio",
+          "icono": "💀",
+          "color": "rojo",
+          "bloques": [
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "1942: el exterminio sistemático",
+              "texto": "En 1942, las máximas autoridades del gobierno nazi acordaron el plan de exterminio sistemático de todos los judíos de la Europa ocupada, al que llamaron 'solución final'. Para ello construyeron 'campos de exterminio', lugares específicamente creados para realizar matanzas masivas y rápidas. Las personas eran encerradas en 'cámaras de gas' donde morían asfixiadas en pocos minutos. Fueron asesinadas seis millones de personas.",
+              "color": "rojo"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Este genocidio fue uno de los más violentos de la historia de la humanidad. Para comprenderlo hay que analizar no solo la responsabilidad de Hitler y el nazismo alemán, sino también la de otros actores sociales: las Fuerzas Armadas alemanas, sectores profesionales, medios de comunicación y grandes empresarios. Además, contó con el silencio o la complicidad de gran parte de la sociedad."
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "¿Qué es un genocidio? (Daniel Feierstein)",
+              "texto": "El sociólogo Daniel Feierstein define al genocidio como un proceso que tiene la intención de destruir la identidad de un grupo. No se trata solo del aniquilamiento sistemático de los cuerpos, sino también del ataque a la cultura y a las tradiciones, a todo lo que los identifica como grupo. Todo genocidio tiene motivaciones políticas y por ello hay que analizar a todos los actores sociales involucrados, no solo a quien comete los actos genocidas.",
+              "color": "rojo"
+            }
+          ]
+        },
+        {
+          "id": "argentina-eje5-detallado",
           "titulo": "Mientras tanto en Argentina... (1938-1945)",
           "icono": "🇦🇷",
           "color": "azul",
           "bloques": [
             {
-              "tipo": "tarjeta_destacada",
-              "titulo": "Contexto",
-              "texto": "Durante la Segunda Guerra Mundial, Argentina mantuvo la neutralidad. La Década Infame continuaba con Ortiz y Castillo. En 1943, un nuevo golpe militar liderado por el GOU cambiaría el rumbo del país.",
-              "color": "azul"
+              "tipo": "parrafo",
+              "texto": "En 1938, Agustín P. Justo fue sucedido por Roberto M. Ortiz, quien también accedió a la presidencia a través del fraude electoral. Sin embargo, Ortiz se propuso terminar con las prácticas fraudulentas y promover la transparencia en la administración pública. Por problemas de salud, debió tomar una licencia y el cargo fue ocupado por Ramón Castillo, representante de los sectores conservadores, quien volvió a implementar el fraude. Finalmente, Ortiz falleció en 1942."
             },
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🗳️", "texto": "Ortiz (1938) intentó terminar con el fraude electoral, pero enfermó. Castillo retomó las prácticas fraudulentas." },
-                { "icono": "⚔️", "texto": "4 de junio de 1943: Golpe militar del GOU derroca a Castillo. Se disuelven partidos, se persigue a opositores." },
-                { "icono": "👤", "texto": "Perón asciende desde el Departamento de Trabajo: impulsa aguinaldo, vacaciones pagas, indemnización por despido, convenciones colectivas, salario mínimo, Estatuto del Peón rural." },
-                { "icono": "📢", "texto": "La oposición conservadora y universitaria organiza la Marcha de la Constitución y la Libertad (1945). Perón es detenido." },
-                { "icono": "✊", "texto": "17 de octubre de 1945: Movilización obrera a Plaza de Mayo. Perón es liberado. Nace el peronismo." }
+                { "icono": "⚖️", "texto": "Al comienzo de la Segunda Guerra Mundial, Argentina sostuvo la misma posición neutral que había manifestado durante la Primera Guerra. Estados Unidos comenzó a presionar a los países de América Latina para que se integraran a la lucha contra las potencias del Eje." },
+                { "icono": "🪖", "texto": "Castillo, simpatizante de la causa aliada, siguió manteniendo la neutralidad. Como su sucesor en las elecciones de 1943 apoyó a un candidato que representaba a los sectores políticos más conservadores y proclives a las ideas nacionalistas." },
+                { "icono": "🎖️", "texto": "EL GOU (Grupo de Oficiales Unidos): grupo de militares con ideas nacionalistas formado a principios de los años 40. Cuestionaba el sistema político vigente y sostenía la importancia de mantener la neutralidad ante la guerra, sin ceder a las presiones norteamericanas." },
+                { "icono": "⚔️", "texto": "4 DE JUNIO DE 1943: los jefes del ejército realizaron un golpe de Estado y derrocaron a Castillo. El nuevo gobierno militar disolvió los partidos políticos, persiguió a militantes (especialmente comunistas), intervino las universidades y estableció la enseñanza religiosa obligatoria en las escuelas públicas." }
               ]
+            }
+          ]
+        },
+        {
+          "id": "peron-ascenso",
+          "titulo": "El ascenso de Perón y sus medidas laborales",
+          "icono": "👤",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "Entre los dirigentes del gobierno militar empezó a tener un lugar cada vez más destacado el coronel Juan Domingo Perón, quien primero se hizo cargo del Departamento de Trabajo y luego, a medida que crecía su poder, ocupó los cargos de titular de la Secretaría de Trabajo, ministro de Guerra y vicepresidente de la Nación."
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "Medidas laborales que le dieron apoyo obrero",
+              "texto": "Las medidas adoptadas desde la Secretaría de Trabajo determinaban mejoras en las condiciones de vida de los trabajadores y le proporcionaron a Perón un amplio apoyo sindical:",
+              "color": "verde"
+            },
+            {
+              "tipo": "lista",
+              "items": [
+                { "icono": "💰", "texto": "Aguinaldo: un salario más al año, pagado en dos veces (junio y diciembre)." },
+                { "icono": "🏖️", "texto": "Vacaciones pagas para todos los trabajadores." },
+                { "icono": "📋", "texto": "Indemnización para despidos sin causa." },
+                { "icono": "🤝", "texto": "Convenciones colectivas de trabajo (paritarias): encuentros entre patrones y trabajadores para discutir y acordar salarios y condiciones laborales." },
+                { "icono": "⚖️", "texto": "Tribunales de trabajo: dedicados específicamente a tratar los problemas propios de ámbitos laborales." },
+                { "icono": "💵", "texto": "Salario mínimo, vital y móvil." },
+                { "icono": "🏥", "texto": "Medicina laboral." },
+                { "icono": "🌾", "texto": "Estatuto del Peón rural: establecía condiciones dignas de trabajo, descanso dominical, vacaciones y estabilidad laboral para los trabajadores rurales." },
+                { "icono": "👴", "texto": "Extensión de la jubilación a todos los trabajadores." }
+              ]
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Estas medidas comenzaron a generar malestar entre los sectores conservadores y los universitarios. En septiembre de 1945, estos sectores protagonizaron la 'Marcha de la Constitución y la Libertad' para manifestar su oposición a las políticas de Perón y pedir el traspaso del gobierno a la Corte Suprema."
+            }
+          ]
+        },
+        {
+          "id": "17-octubre-detallado",
+          "titulo": "El 17 de octubre de 1945: nace el peronismo",
+          "icono": "✊",
+          "color": "azul",
+          "bloques": [
+            {
+              "tipo": "parrafo",
+              "texto": "Los sectores del propio gobierno militar también comenzaron a objetar el creciente poder de Perón. Lo obligaron a renunciar, lo detuvieron y lo enviaron prisionero a la isla Martín García. Pero entonces sucedieron rápidamente muchos hechos. Como lo describe el historiador Juan Carlos Torre:"
+            },
+            {
+              "tipo": "ejemplo",
+              "cita": "El anuncio de su renuncia y su posterior encarcelamiento hicieron cundir la inquietud en las fábricas y los barrios obreros. Contra este telón de fondo, el 16 de octubre los dirigentes sindicales se reunieron en la CGT y declararon la huelga general, luego de un largo debate y bajo el acicate del estado de agitación de los trabajadores. En la mañana del 17, columnas de manifestantes comenzaron a afluir desde los suburbios a la Plaza de Mayo con la consigna de la libertad a Perón.",
+              "explicacion": "Juan Carlos Torre — historiador argentino, describe la movilización obrera del 17 de octubre de 1945."
+            },
+            {
+              "tipo": "tarjeta_destacada",
+              "titulo": "La movilización que cambió la historia",
+              "texto": "El 17 de octubre de 1945, miles de trabajadores de la ciudad de Buenos Aires y de distintas localidades bonaerenses se reunieron en la Plaza de Mayo para pedir la libertad de Perón y defender los derechos que habían obtenido. Ante esa multitud, las autoridades militares debieron ceder y por la noche Perón volvió a la Casa de Gobierno, desde donde dirigió un discurso a las masas movilizadas. Ese día inició una nueva etapa en la historia argentina que tendría a los trabajadores como protagonistas centrales de la vida política.",
+              "color": "azul"
             }
           ]
         }
