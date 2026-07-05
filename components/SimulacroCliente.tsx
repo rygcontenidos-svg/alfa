@@ -78,7 +78,7 @@ export default function SimulacroCliente({
           </p>
           <p className="text-sm text-grafito mb-4">
             <i className="fa-solid fa-pen-to-square mr-1" />
-            Trabajá todo en tu cuaderno. Al final podés ver las respuestas y
+            Respondé cada ejercicio directamente en pantalla. Al final podés ver las respuestas y
             las explicaciones.
           </p>
           {textos.length > 0 && (

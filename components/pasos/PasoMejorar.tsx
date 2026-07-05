@@ -34,7 +34,7 @@ export default function PasoMejorar({
           <p className="text-xs text-gris mb-3">
             <i className="fa-solid fa-pen-to-square mr-1" />
             Durante la práctica marcaste estos ejercicios como {'\u201C'}a repasar{'\u201D'}.
-            Releé la consigna y volvé a resolverlos en el cuaderno.
+            Releé la consigna y volvé a resolverlos en pantalla.
           </p>
           <ul className="space-y-2">
             {ejerciciosRepasar.map((ej) => (
