@@ -23,6 +23,7 @@ import mateFraccionesRecta from "@/data/modulos/mate-fracciones-recta-suma-resta
 import historiaEje1 from "@/data/modulos/historia-eje-1.json";
 import historiaEje4 from "@/data/modulos/historia-eje-4.json";
 import historiaEje5 from "@/data/modulos/historia-eje-5.json";
+import historiaEje6 from "@/data/modulos/historia-eje-6.json";
 
 const MODULOS_JSON: Record<string, Modulo> = {
   "comunicacion-funciones-lenguaje":
@@ -71,6 +72,8 @@ const MODULOS_JSON: Record<string, Modulo> = {
     historiaEje4 as unknown as Modulo,
   "historia-eje-5":
     historiaEje5 as unknown as Modulo,
+  "historia-eje-6":
+    historiaEje6 as unknown as Modulo,
 };
 
 const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
@@ -259,6 +262,14 @@ const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
     titulo: "Eje 5: Segunda Guerra Mundial, Holocausto y el ascenso de Perón en Argentina",
     descripcion:
       "Camino a la Segunda Guerra Mundial (1939-1945): expansionismo nazi, Pacto Molotov-Ribbentrop, frentes y batallas decisivas. El Holocausto: leyes de Nuremberg, guetos y 'solución final'. Conferencias de paz y nuevo orden mundial. Argentina: Golpe de 1943, medidas laborales de Perón y el 17 de octubre de 1945.",
+    estado: "completo",
+  },
+  {
+    id: "historia-eje-6",
+    materia: "historia",
+    titulo: "Eje 6: La Guerra Fría. Mundo bipolar, conflictos y fin de la URSS",
+    descripcion:
+      "El mundo bipolar tras la Segunda Guerra Mundial. Bloqueo de Berlín, Plan Marshall, OTAN y Pacto de Varsovia. Guerra de Corea, Revolución Cubana y Crisis de los Misiles. Muro de Berlín. Carrera espacial. Guerra de Vietnam. Deporte y Guerra Fría. Perestroika, Glasnost y disolución de la URSS.",
     estado: "completo",
   },
 ];
