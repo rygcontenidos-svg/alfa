@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { supabaseService } from "@/lib/supabase";
 
-const FALLBACK = { admins: ["rygcontenidos"], sinRespuestas: ["mikuuchan00"] };
+const FALLBACK = { admins: ["rygcontenidos"], sinRespuestas: [] as string[] };
 
 async function fromSupabase(): Promise<{ admins: string[]; sinRespuestas: string[] }> {
   try {
