@@ -8,7 +8,7 @@ import { listarModulos } from "@/lib/modulos";
 const MATERIAS = [
   { id: "lengua", label: "Lengua", desc: "Primer examen del ingreso.", icono: "fa-solid fa-book" },
   { id: "matematica", label: "Matemática", desc: "Próximamente.", icono: "fa-solid fa-calculator" },
-  { id: "historia", label: "Historia", desc: "Próximamente.", icono: "fa-solid fa-landmark" },
+  { id: "historia", label: "Historia", desc: "Ejes, fuentes y multicausalidad.", icono: "fa-solid fa-landmark" },
   { id: "geografia", label: "Geografía", desc: "Próximamente.", icono: "fa-solid fa-earth-americas" },
 ];
 

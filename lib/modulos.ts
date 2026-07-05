@@ -20,6 +20,7 @@ import matePerimetro from "@/data/modulos/mate-perimetro-cuadrado-rectangulo-tri
 import mateArea from "@/data/modulos/mate-area-cuadrado-rectangulo.json";
 import mateFracciones from "@/data/modulos/mate-fracciones-concepto-equivalencias.json";
 import mateFraccionesRecta from "@/data/modulos/mate-fracciones-recta-suma-resta.json";
+import historiaEje1 from "@/data/modulos/historia-eje-1.json";
 
 const MODULOS_JSON: Record<string, Modulo> = {
   "comunicacion-funciones-lenguaje":
@@ -62,6 +63,8 @@ const MODULOS_JSON: Record<string, Modulo> = {
     mateFracciones as unknown as Modulo,
   "mate-fracciones-recta-suma-resta":
     mateFraccionesRecta as unknown as Modulo,
+  "historia-eje-1":
+    historiaEje1 as unknown as Modulo,
 };
 
 const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
@@ -226,6 +229,14 @@ const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
     titulo: "Orden y representación en la recta numérica. Suma y resta de fracciones",
     descripcion:
       "Representación de fracciones en la recta numérica. Comparación y orden. Suma y resta de fracciones con igual y distinto denominador. Problemas de aplicación.",
+    estado: "completo",
+  },
+  {
+    id: "historia-eje-1",
+    materia: "historia",
+    titulo: "Eje 1: Introducción a la Historia. Tiempo, espacio, fuentes, ciencias auxiliares y multicausalidad",
+    descripcion:
+      "La Historia como ciencia. Tiempo cronológico e histórico. Periodización. Fuentes: escritas, materiales, orales y audiovisuales. Ciencias auxiliares. Multicausalidad, cambios, continuidades y contexto histórico.",
     estado: "completo",
   },
 ];
