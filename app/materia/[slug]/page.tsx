@@ -104,24 +104,35 @@ export default function MateriaPage({ params }: { params: Promise<{ slug: string
         </div>
 
         {/* Clases */}
-        <p className="text-[15px] font-bold uppercase tracking-wide mb-1" style={{ color: "#16181D" }}>
-          Período Pre Vacaciones de Invierno
-        </p>
+        {slug !== "historia" && (
+          <p className="text-[15px] font-bold uppercase tracking-wide mb-1" style={{ color: "#16181D" }}>
+            Período Pre Vacaciones de Invierno
+          </p>
+        )}
         <p className="text-[13px] font-semibold mb-3" style={{ color: "#6B7280" }}>
-          Clases
+          {slug === "historia" ? "Ejes" : "Clases"}
         </p>
         <div className="flex flex-wrap gap-2 mb-6">
-          {clases.map((m, i) => (
-            <CardPill
-              key={m.id}
-              id={m.id}
-              label={`Clase ${i + 1}`}
-              color={info.color}
-              seleccionado={activo === m.id}
-              completado={(stats[m.id] ?? 0) === 100}
-              onClick={() => setActivo(activo === m.id ? null : m.id)}
-            />
-          ))}
+          {clases.map((m, i) => {
+            let label: string;
+            if (slug === "historia") {
+              const ejeMatch = m.id.match(/eje-(\d+)/);
+              label = ejeMatch ? `Eje ${ejeMatch[1]}` : m.titulo;
+            } else {
+              label = `Clase ${i + 1}`;
+            }
+            return (
+              <CardPill
+                key={m.id}
+                id={m.id}
+                label={label}
+                color={info.color}
+                seleccionado={activo === m.id}
+                completado={(stats[m.id] ?? 0) === 100}
+                onClick={() => setActivo(activo === m.id ? null : m.id)}
+              />
+            );
+          })}
         </div>
 
         {/* Detalle del activo */}
