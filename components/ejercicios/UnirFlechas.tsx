@@ -25,6 +25,11 @@ export default function UnirFlechas({ ej, moduloId }: { ej: UnirFlechasType; mod
     return arr;
   }, [ej.id]);
 
+  const opcionesDisponibles = useMemo(() => {
+    const usadas = new Set(Object.values(selecciones).filter(Boolean));
+    return derechaShuffle.map((d) => ({ ...d, usado: usadas.has(d.id) }));
+  }, [derechaShuffle, selecciones]);
+
   const verificar = useCallback(async () => {
     if (!usuario) return;
     const b = await fetchSinRespuestas();
@@ -35,7 +40,7 @@ export default function UnirFlechas({ ej, moduloId }: { ej: UnirFlechasType; mod
   useEffect(() => { verificar(); }, [verificar]);
 
   function handleSelect(izqId: string, derId: string) {
-    setSelecciones((s) => ({ ...s, [izqId]: derId }));
+    setSelecciones((s) => ({ ...s, [izqId]: derId === s[izqId] ? "" : derId }));
     setComprobado(false);
   }
 
@@ -55,60 +60,57 @@ export default function UnirFlechas({ ej, moduloId }: { ej: UnirFlechasType; mod
     <div className="rounded-xl border border-borde bg-white overflow-hidden">
       <div className="p-4 sm:p-5">
         <p className="text-sm font-semibold text-grafito mb-4 leading-relaxed">{ej.consigna}</p>
-        <div className="space-y-6">
+        <div className="space-y-5">
           {ej.izquierda.map((izq, idx) => {
             const selId = selecciones[izq.id];
             const correctaId = ej.pares.find((p) => p.izquierda_id === izq.id)?.derecha_id;
             const correcto = comprobado && selId === correctaId;
             const incorrecto = comprobado && selId && selId !== correctaId;
+            const defSeleccionada = ej.derecha.find((d) => d.id === selId);
+            const opcionesParaEste = opcionesDisponibles.filter((o) => !o.usado || o.id === selId);
 
             return (
-              <div key={izq.id} className="space-y-2">
-                <p className="text-sm text-grafito font-medium">
-                  <span className="font-semibold text-azul mr-1.5">{idx + 1}.</span>
-                  {izq.texto}
-                </p>
+              <div key={izq.id} className="rounded-lg border border-borde bg-gray-50 p-3 sm:p-4">
+                <p className="text-sm text-grafito font-semibold mb-2">{izq.texto}</p>
                 {mostrar ? (
                   <div className="rounded-lg border border-verde bg-verde-claro px-3 py-2 text-sm text-grafito">
-                    <span className="text-verde font-bold mr-1.5">↔</span>
                     {ej.derecha.find((d) => d.id === correctaId)?.texto}
                   </div>
                 ) : (
-                  <div className="flex flex-col gap-1.5">
-                    {derechaShuffle.map((der) => {
-                      const esSeleccionado = selId === der.id;
-                      const esCorrecto = comprobado && der.id === correctaId;
-                      const esError = comprobado && esSeleccionado && der.id !== correctaId;
-                      const usadoPorOtro = !esSeleccionado && Object.entries(selecciones).some(([k, v]) => k !== izq.id && v === der.id);
-                      return (
-                        <button
-                          key={der.id}
-                          type="button"
-                          disabled={comprobado || usadoPorOtro}
-                          onClick={() => handleSelect(izq.id, der.id)}
-                          className={`text-left rounded-lg border px-3 py-2 text-sm transition-colors ${
-                            comprobado && esCorrecto
-                              ? "border-verde bg-verde-claro text-grafito"
-                              : comprobado && esError
-                                ? "border-red-300 bg-red-50 text-grafito"
-                                : esSeleccionado
-                                  ? "border-azul bg-azul-fondo text-grafito"
-                                  : "border-borde bg-gray-50 text-grafito hover:border-azul-claro"
-                          }`}
-                        >
-                          {der.texto}
-                          {comprobado && esCorrecto && <i className="fa-solid fa-circle-check text-verde ml-2" />}
-                          {comprobado && esError && <i className="fa-solid fa-circle-xmark text-red-500 ml-2" />}
-                        </button>
-                      );
-                    })}
-                  </div>
+                  <>
+                    <select
+                      value={selId ?? ""}
+                      onChange={(e) => {
+                        if (e.target.value) handleSelect(izq.id, e.target.value);
+                      }}
+                      disabled={comprobado}
+                      className={`w-full rounded-lg border px-3 py-2 text-sm ${
+                        comprobado
+                          ? correcto
+                            ? "border-verde bg-verde-claro text-verde"
+                            : selId
+                              ? "border-red-300 bg-red-50 text-red-600"
+                              : "border-borde bg-white text-grafito"
+                          : "border-borde bg-white text-grafito"
+                      }`}
+                    >
+                      <option value="">Seleccioná la definición correcta...</option>
+                      {opcionesParaEste.map((der) => (
+                        <option key={der.id} value={der.id}>{der.texto}</option>
+                      ))}
+                    </select>
+                    {defSeleccionada && !comprobado && (
+                      <div className="mt-2 rounded-lg border border-azul bg-azul-fondo px-3 py-2 text-sm text-grafito">
+                        {defSeleccionada.texto}
+                      </div>
+                    )}
+                  </>
                 )}
                 {comprobado && correcto && (
-                  <p className="text-xs text-verde"><i className="fa-solid fa-circle-check mr-1" />Correcto</p>
+                  <p className="text-xs text-verde mt-1"><i className="fa-solid fa-circle-check mr-1" />Correcto</p>
                 )}
                 {comprobado && incorrecto && (
-                  <p className="text-xs text-red-500"><i className="fa-solid fa-circle-xmark mr-1" />Incorrecto</p>
+                  <p className="text-xs text-red-500 mt-1"><i className="fa-solid fa-circle-xmark mr-1" />Incorrecto</p>
                 )}
               </div>
             );
@@ -127,32 +129,17 @@ export default function UnirFlechas({ ej, moduloId }: { ej: UnirFlechasType; mod
         <span className="text-[10px] text-gris uppercase tracking-wide">{moduloId}</span>
         <div className="flex items-center gap-2">
           {!sinRespuestas && (
-            <button
-              type="button"
-              onClick={() => setMostrar((v) => !v)}
-              className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors ${
-                mostrar ? "bg-gray-100 text-grafito" : "bg-azul text-white hover:bg-azul-claro"
-              }`}
-            >
+            <button type="button" onClick={() => setMostrar((v) => !v)} className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors ${mostrar ? "bg-gray-100 text-grafito" : "bg-azul text-white hover:bg-azul-claro"}`}>
               {mostrar ? "Ocultar respuestas" : "Ver respuestas"}
             </button>
           )}
           {!mostrar && (
             <>
-              <button
-                type="button"
-                onClick={comprobar}
-                disabled={!todosSeleccionados || comprobado}
-                className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-verde text-white hover:bg-verde/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
-              >
+              <button type="button" onClick={comprobar} disabled={!todosSeleccionados || comprobado} className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-verde text-white hover:bg-verde/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
                 Comprobar
               </button>
               {comprobado && (
-                <button
-                  type="button"
-                  onClick={reiniciar}
-                  className="text-xs font-semibold px-3 py-1.5 rounded-lg border border-borde text-grafito hover:bg-gray-50 transition-colors"
-                >
+                <button type="button" onClick={reiniciar} className="text-xs font-semibold px-3 py-1.5 rounded-lg border border-borde text-grafito hover:bg-gray-50 transition-colors">
                   Reiniciar
                 </button>
               )}
