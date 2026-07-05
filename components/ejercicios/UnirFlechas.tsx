@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useMemo } from "react";
 import type { UnirFlechas as UnirFlechasType } from "@/lib/tipos";
 import { useAuth } from "@/app/AuthProvider";
 
@@ -15,6 +15,15 @@ export default function UnirFlechas({ ej, moduloId }: { ej: UnirFlechasType; mod
   const [sinRespuestas, setSinRespuestas] = useState(true);
   const paresMap = new Map(ej.pares.map((p) => [p.izquierda_id, p.derecha_id]));
 
+  const derechaShuffle = useMemo(() => {
+    const arr = [...ej.derecha];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }, [ej.id]);
+
   const verificar = useCallback(async () => {
     if (!usuario) return;
     const b = await fetchSinRespuestas();
@@ -28,30 +37,37 @@ export default function UnirFlechas({ ej, moduloId }: { ej: UnirFlechasType; mod
     <div className="rounded-xl border border-borde bg-white overflow-hidden">
       <div className="p-4 sm:p-5">
         <p className="text-sm font-semibold text-grafito mb-3 leading-relaxed">{ej.consigna}</p>
-        <div className="grid grid-cols-2 gap-3">
-          <div className="space-y-2">
-            {ej.izquierda.map((it) => (
-              <div key={it.id} className="rounded-lg border border-borde bg-gray-50 px-3 py-2 text-sm text-grafito">{it.texto}</div>
-            ))}
-          </div>
-          <div className="space-y-2">
-            {ej.derecha.map((it) => (
-              <div key={it.id} className="rounded-lg border border-borde bg-gray-50 px-3 py-2 text-sm text-grafito">
-                {mostrar && <span className="text-verde font-medium mr-1">⇢ </span>}{it.texto}
-              </div>
-            ))}
-          </div>
-        </div>
-        {mostrar && (
-          <div className="mt-3 rounded-lg bg-verde-claro border border-verde px-3 py-2">
-            <p className="text-xs font-semibold text-verde mb-1">Correspondencia correcta:</p>
-            <div className="space-y-0.5">
-              {ej.pares.map((p) => {
-                const izq = ej.izquierda.find((i) => i.id === p.izquierda_id);
-                const der = ej.derecha.find((d) => d.id === p.derecha_id);
-                return <p key={p.izquierda_id} className="text-xs text-grafito">{izq?.texto} ↔ {der?.texto}</p>;
-              })}
+        {!mostrar ? (
+          <div className="grid grid-cols-2 gap-3">
+            <div className="space-y-2">
+              {ej.izquierda.map((it, idx) => (
+                <div key={it.id} className="rounded-lg border border-borde bg-gray-50 px-3 py-2 text-sm text-grafito">
+                  <span className="font-semibold text-azul mr-1.5">{idx + 1}.</span>{it.texto}
+                </div>
+              ))}
             </div>
+            <div className="space-y-2">
+              {derechaShuffle.map((it, idx) => (
+                <div key={it.id} className="rounded-lg border border-borde bg-gray-50 px-3 py-2 text-sm text-grafito">
+                  <span className="font-semibold text-gris mr-1.5">{String.fromCharCode(65 + idx)}.</span>{it.texto}
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <div className="space-y-2">
+            {ej.pares.map((p) => {
+              const izq = ej.izquierda.find((i) => i.id === p.izquierda_id);
+              const der = ej.derecha.find((d) => d.id === p.derecha_id);
+              return (
+                <div key={p.izquierda_id} className="rounded-lg border border-verde bg-verde-claro px-3 py-2 flex items-start gap-2 text-sm">
+                  <span className="shrink-0 text-verde font-bold">↔</span>
+                  <span className="text-grafito flex-1">{izq?.texto}</span>
+                  <span className="shrink-0 text-verde font-bold">↔</span>
+                  <span className="text-grafito flex-1">{der?.texto}</span>
+                </div>
+              );
+            })}
           </div>
         )}
       </div>
