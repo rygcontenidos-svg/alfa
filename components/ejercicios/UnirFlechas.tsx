@@ -5,8 +5,8 @@ import type { UnirFlechas as UnirFlechasType } from "@/lib/tipos";
 import { useAuth } from "@/app/AuthProvider";
 
 async function fetchSinRespuestas(): Promise<string[]> {
-  try { const res = await fetch("/api/permisos"); const data = await res.json(); return data.sinRespuestas ?? ["mikuuchan00"]; }
-  catch { return ["mikuuchan00"]; }
+  try { const res = await fetch("/api/permisos"); const data = await res.json(); return data.sinRespuestas ?? []; }
+  catch { return []; }
 }
 
 export default function UnirFlechas({ ej, moduloId }: { ej: UnirFlechasType; moduloId: string }) {
@@ -18,7 +18,7 @@ export default function UnirFlechas({ ej, moduloId }: { ej: UnirFlechasType; mod
   const verificar = useCallback(async () => {
     if (!usuario) return;
     const b = await fetchSinRespuestas();
-    if (b.length === 0) return;
+    if (b.length === 0) { setSinRespuestas(false); return; }
     setSinRespuestas(b.some(x => usuario === x || usuario.startsWith(x + "@")));
   }, [usuario]);
 

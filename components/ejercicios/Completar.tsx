@@ -9,9 +9,9 @@ async function fetchSinRespuestas(): Promise<string[]> {
   try {
     const res = await fetch("/api/permisos");
     const data = await res.json();
-    return data.sinRespuestas ?? ["mikuuchan00"];
+    return data.sinRespuestas ?? [];
   } catch {
-    return ["mikuuchan00"];
+    return [];
   }
 }
 
@@ -39,7 +39,7 @@ export default function Completar({
   const verificar = useCallback(async () => {
     if (!usuario) return;
     const b = await fetchSinRespuestas();
-    if (b.length === 0) return;
+    if (b.length === 0) { setSinRespuestas(false); return; }
     setSinRespuestas(b.some(x => usuario === x || usuario.startsWith(x + "@")));
   }, [usuario]);
 

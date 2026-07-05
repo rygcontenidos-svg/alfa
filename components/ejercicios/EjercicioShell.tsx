@@ -9,9 +9,9 @@ async function fetchSinRespuestas(): Promise<string[]> {
   try {
     const res = await fetch("/api/permisos");
     const data = await res.json();
-    return data.sinRespuestas ?? ["mikuuchan00"];
+    return data.sinRespuestas ?? [];
   } catch {
-    return ["mikuuchan00"];
+    return [];
   }
 }
 
@@ -37,7 +37,7 @@ export function EjercicioShell({
   const verificarPermisos = useCallback(async () => {
     if (!usuario) { setSinRespuestas(true); setCargandoPermisos(false); return; }
     const bloqueados = await fetchSinRespuestas();
-    if (bloqueados.length === 0) { setSinRespuestas(true); setCargandoPermisos(false); return; }
+    if (bloqueados.length === 0) { setSinRespuestas(false); setCargandoPermisos(false); return; }
     const bloqueado = bloqueados.some(b => usuario === b || usuario.startsWith(b + "@"));
     setSinRespuestas(bloqueado);
     setCargandoPermisos(false);

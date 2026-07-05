@@ -5,8 +5,8 @@ import type { CompletarCuadro as CompletarCuadroType } from "@/lib/tipos";
 import { useAuth } from "@/app/AuthProvider";
 
 async function fetchSinRespuestas(): Promise<string[]> {
-  try { const res = await fetch("/api/permisos"); const data = await res.json(); return data.sinRespuestas ?? ["mikuuchan00"]; }
-  catch { return ["mikuuchan00"]; }
+  try { const res = await fetch("/api/permisos"); const data = await res.json(); return data.sinRespuestas ?? []; }
+  catch { return []; }
 }
 
 export default function CompletarCuadro({ ej, moduloId }: { ej: CompletarCuadroType; moduloId: string }) {
@@ -17,7 +17,7 @@ export default function CompletarCuadro({ ej, moduloId }: { ej: CompletarCuadroT
   const verificar = useCallback(async () => {
     if (!usuario) return;
     const b = await fetchSinRespuestas();
-    if (b.length === 0) return;
+    if (b.length === 0) { setSinRespuestas(false); return; }
     setSinRespuestas(b.some(x => usuario === x || usuario.startsWith(x + "@")));
   }, [usuario]);
 

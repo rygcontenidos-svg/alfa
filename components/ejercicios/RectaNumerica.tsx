@@ -5,8 +5,8 @@ import type { RectaNumerica as RectaNumericaType } from "@/lib/tipos";
 import { useAuth } from "@/app/AuthProvider";
 
 async function fetchSR(): Promise<string[]> {
-  try { const r = await fetch("/api/permisos"); const d = await r.json(); return d.sinRespuestas ?? ["mikuuchan00"]; }
-  catch { return ["mikuuchan00"]; }
+  try { const r = await fetch("/api/permisos"); const d = await r.json(); return d.sinRespuestas ?? []; }
+  catch { return []; }
 }
 
 function rectaSVG(marcas: NonNullable<RectaNumericaType["marcas"]>) {
@@ -54,7 +54,7 @@ export default function RectaNumerica({
   const [sinRespuestas, setSinRespuestas] = useState(true);
   const verificar = useCallback(async () => {
     if (!usuario) return; const b = await fetchSR();
-    if (b.length === 0) return; setSinRespuestas(b.some(x => usuario === x || usuario.startsWith(x + "@")));
+    if (b.length === 0) { setSinRespuestas(false); return; } setSinRespuestas(b.some(x => usuario === x || usuario.startsWith(x + "@")));
   }, [usuario]);
   useEffect(() => { verificar(); }, [verificar]);
 
