@@ -10,9 +10,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué fue la Guerra Fría según el Eje 6?",
       "opciones": [
-        { "id": "a", "texto": "Una guerra directa con batallas entre Estados Unidos y la Unión Soviética." },
-        { "id": "b", "texto": "Un enfrentamiento entre los bloques capitalista (liderado por EE.UU.) y comunista (liderado por la URSS) sin conflictos militares directos entre ambas potencias, pero con una constante lucha ideológica, política, económica, científica, tecnológica y propagandística durante más de cuarenta años." },
-        { "id": "c", "texto": "El período de paz absoluta que siguió a la Segunda Guerra Mundial." }
+        {
+          "id": "a",
+          "texto": "Una guerra directa con batallas entre Estados Unidos y la Unión Soviética."
+        },
+        {
+          "id": "b",
+          "texto": "Un enfrentamiento entre los bloques capitalista (liderado por EE.UU.) y comunista (liderado por la URSS) sin conflictos militares directos entre ambas potencias, pero con una constante lucha ideológica, política, económica, científica, tecnológica y propagandística durante más de cuarenta años."
+        },
+        {
+          "id": "c",
+          "texto": "El período de paz absoluta que siguió a la Segunda Guerra Mundial."
+        }
       ],
       "correcta": "b"
     },
@@ -21,9 +30,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué fue el Bloqueo de Berlín (1948-1949) y cómo se resolvió?",
       "opciones": [
-        { "id": "a", "texto": "La URSS bloqueó Berlín Occidental con un muro de hormigón de 3 metros de altura." },
-        { "id": "b", "texto": "La URSS cerró todas las vías terrestres hacia Berlín Occidental para presionar a las potencias occidentales. EE.UU. respondió con un 'puente aéreo' que abasteció a la ciudad durante casi un año. Al fracasar el bloqueo, la URSS lo levantó." },
-        { "id": "c", "texto": "EE.UU. bloqueó Berlín Oriental y la URSS respondió con ataques aéreos." }
+        {
+          "id": "a",
+          "texto": "La URSS bloqueó Berlín Occidental con un muro de hormigón de 3 metros de altura."
+        },
+        {
+          "id": "b",
+          "texto": "La URSS cerró todas las vías terrestres hacia Berlín Occidental para presionar a las potencias occidentales. EE.UU. respondió con un 'puente aéreo' que abasteció a la ciudad durante casi un año. Al fracasar el bloqueo, la URSS lo levantó."
+        },
+        {
+          "id": "c",
+          "texto": "EE.UU. bloqueó Berlín Oriental y la URSS respondió con ataques aéreos."
+        }
       ],
       "correcta": "b"
     },
@@ -32,9 +50,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué fue el Plan Marshall (1948) y cuáles eran sus objetivos?",
       "opciones": [
-        { "id": "a", "texto": "Un plan militar para invadir la Unión Soviética." },
-        { "id": "b", "texto": "Un proyecto de ayuda económica propuesto por EE.UU. para recomponer las economías europeas devastadas por la guerra. Sus objetivos: reactivar industrias, superar la crisis social, frenar el avance del socialismo en Europa Occidental y asegurar mercados para productos norteamericanos." },
-        { "id": "c", "texto": "Un tratado de paz entre Alemania y los países Aliados." }
+        {
+          "id": "a",
+          "texto": "Un plan militar para invadir la Unión Soviética."
+        },
+        {
+          "id": "b",
+          "texto": "Un proyecto de ayuda económica propuesto por EE.UU. para recomponer las economías europeas devastadas por la guerra. Sus objetivos: reactivar industrias, superar la crisis social, frenar el avance del socialismo en Europa Occidental y asegurar mercados para productos norteamericanos."
+        },
+        {
+          "id": "c",
+          "texto": "Un tratado de paz entre Alemania y los países Aliados."
+        }
       ],
       "correcta": "b"
     },
@@ -43,9 +70,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué fueron la OTAN y el Pacto de Varsovia?",
       "opciones": [
-        { "id": "a", "texto": "Dos tratados comerciales entre Europa y Asia." },
-        { "id": "b", "texto": "La OTAN (1949) fue una alianza militar liderada por EE.UU. que garantizaba defensa mutua entre países de Europa Occidental. El Pacto de Varsovia (1955) fue la alianza militar soviética con los países bajo su órbita. La OTAN sigue existiendo; el Pacto de Varsovia se disolvió en 1991." },
-        { "id": "c", "texto": "Dos organismos de la ONU para la ayuda humanitaria." }
+        {
+          "id": "a",
+          "texto": "Dos tratados comerciales entre Europa y Asia."
+        },
+        {
+          "id": "b",
+          "texto": "La OTAN (1949) fue una alianza militar liderada por EE.UU. que garantizaba defensa mutua entre países de Europa Occidental. El Pacto de Varsovia (1955) fue la alianza militar soviética con los países bajo su órbita. La OTAN sigue existiendo; el Pacto de Varsovia se disolvió en 1991."
+        },
+        {
+          "id": "c",
+          "texto": "Dos organismos de la ONU para la ayuda humanitaria."
+        }
       ],
       "correcta": "b"
     },
@@ -54,9 +90,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Cómo se desarrolló la Guerra de Corea (1950-1953)?",
       "opciones": [
-        { "id": "a", "texto": "Corea del Sur invadió Corea del Norte con apoyo de China." },
-        { "id": "b", "texto": "Corea del Norte (socialista, apoyada por URSS) atacó Corea del Sur (capitalista, apoyada por EE.UU.). EE.UU. movilizó tropas de la ONU y ocupó Corea del Norte. China envió tropas en defensa de Corea del Norte. En 1953 se firmó un armisticio que restableció la frontera original en el paralelo 38° N con una zona desmilitarizada." },
-        { "id": "c", "texto": "Fue una guerra civil sin intervención extranjera." }
+        {
+          "id": "a",
+          "texto": "Corea del Sur invadió Corea del Norte con apoyo de China."
+        },
+        {
+          "id": "b",
+          "texto": "Corea del Norte (socialista, apoyada por URSS) atacó Corea del Sur (capitalista, apoyada por EE.UU.). EE.UU. movilizó tropas de la ONU y ocupó Corea del Norte. China envió tropas en defensa de Corea del Norte. En 1953 se firmó un armisticio que restableció la frontera original en el paralelo 38° N con una zona desmilitarizada."
+        },
+        {
+          "id": "c",
+          "texto": "Fue una guerra civil sin intervención extranjera."
+        }
       ],
       "correcta": "b"
     },
@@ -65,9 +110,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué cambios introdujo la Revolución Cubana después de que Fidel Castro tomara el poder en 1959?",
       "opciones": [
-        { "id": "a", "texto": "Privatizó todas las empresas estatales y reforzó los vínculos con EE.UU." },
-        { "id": "b", "texto": "Implementó campañas de alfabetización, mejoras salariales, rebajas en servicios públicos y alquileres, mejoras en el sistema sanitario y una reforma agraria que afectó los intereses de empresas estadounidenses. En 1961 Castro declaró el carácter socialista de la Revolución." },
-        { "id": "c", "texto": "Mantuvo el mismo sistema político y económico que tenía Batista." }
+        {
+          "id": "a",
+          "texto": "Privatizó todas las empresas estatales y reforzó los vínculos con EE.UU."
+        },
+        {
+          "id": "b",
+          "texto": "Implementó campañas de alfabetización, mejoras salariales, rebajas en servicios públicos y alquileres, mejoras en el sistema sanitario y una reforma agraria que afectó los intereses de empresas estadounidenses. En 1961 Castro declaró el carácter socialista de la Revolución."
+        },
+        {
+          "id": "c",
+          "texto": "Mantuvo el mismo sistema político y económico que tenía Batista."
+        }
       ],
       "correcta": "b"
     },
@@ -76,9 +130,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué fue la Crisis de los Misiles de 1962 y cómo se resolvió?",
       "opciones": [
-        { "id": "a", "texto": "EE.UU. instaló misiles en Cuba y la URSS protestó diplomáticamente." },
-        { "id": "b", "texto": "La URSS instaló misiles nucleares en Cuba tras el fallido intento de invasión de Bahía de Cochinos. Durante 13 días de octubre de 1962 el mundo estuvo al borde de una guerra nuclear. Se resolvió con el retiro de los misiles soviéticos a cambio de la promesa norteamericana de no atacar Cuba." },
-        { "id": "c", "texto": "Cuba atacó EE.UU. con misiles soviéticos iniciando una guerra." }
+        {
+          "id": "a",
+          "texto": "EE.UU. instaló misiles en Cuba y la URSS protestó diplomáticamente."
+        },
+        {
+          "id": "b",
+          "texto": "La URSS instaló misiles nucleares en Cuba tras el fallido intento de invasión de Bahía de Cochinos. Durante 13 días de octubre de 1962 el mundo estuvo al borde de una guerra nuclear. Se resolvió con el retiro de los misiles soviéticos a cambio de la promesa norteamericana de no atacar Cuba."
+        },
+        {
+          "id": "c",
+          "texto": "Cuba atacó EE.UU. con misiles soviéticos iniciando una guerra."
+        }
       ],
       "correcta": "b"
     },
@@ -87,9 +150,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Por qué se construyó el Muro de Berlín y qué simbolizó su caída?",
       "opciones": [
-        { "id": "a", "texto": "Se construyó para proteger Berlín Occidental de invasiones extranjeras." },
-        { "id": "b", "texto": "El gobierno de la República Democrática Alemana (RDA) lo construyó en 1961 para evitar la fuga masiva de ciudadanos hacia Berlín Occidental. Tenía 155 km, 3 metros de altura, torres de vigilancia y una franja de la muerte. Su caída el 9 de noviembre de 1989 simbolizó el fin de la división del mundo y de la Guerra Fría." },
-        { "id": "c", "texto": "Lo construyó Estados Unidos para dividir Berlín en dos sectores." }
+        {
+          "id": "a",
+          "texto": "Se construyó para proteger Berlín Occidental de invasiones extranjeras."
+        },
+        {
+          "id": "b",
+          "texto": "El gobierno de la República Democrática Alemana (RDA) lo construyó en 1961 para evitar la fuga masiva de ciudadanos hacia Berlín Occidental. Tenía 155 km, 3 metros de altura, torres de vigilancia y una franja de la muerte. Su caída el 9 de noviembre de 1989 simbolizó el fin de la división del mundo y de la Guerra Fría."
+        },
+        {
+          "id": "c",
+          "texto": "Lo construyó Estados Unidos para dividir Berlín en dos sectores."
+        }
       ],
       "correcta": "b"
     },
@@ -97,14 +169,43 @@
       "id": "vf_guerra_fria",
       "tipo": "verdadero_falso",
       "consigna": "Marcá V o F sobre la Guerra Fría y sus conflictos.",
-      "labels": { "verdadero": "V", "falso": "F" },
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
       "items": [
-        { "id": "i1", "afirmacion": "La Guerra Fría se denominó así porque no hubo enfrentamientos militares directos entre EE.UU. y la URSS, pero sí una constante lucha en todos los demás ámbitos.", "respuesta": true },
-        { "id": "i2", "afirmacion": "El Plan Marshall fue aceptado por la URSS y todos los países de Europa Oriental.", "respuesta": false, "correccion": "La URSS rechazó el Plan Marshall por considerarlo un instrumento del imperialismo norteamericano que comprometía la independencia de los países. La respuesta soviética fue el COMECON (Consejo de Ayuda Mutua Económica)." },
-        { "id": "i3", "afirmacion": "La Guerra de Corea fue el primer enfrentamiento militar directo de la Guerra Fría entre los dos bloques.", "respuesta": true },
-        { "id": "i4", "afirmacion": "Aproximadamente 5000 personas lograron escapar de Berlín Oriental a Occidental mientras el Muro estuvo en pie, y alrededor de 200 murieron intentándolo.", "respuesta": true },
-        { "id": "i5", "afirmacion": "La Crisis de los Misiles de Cuba se resolvió con un ataque militar de EE.UU. a la isla.", "respuesta": false, "correccion": "Se resolvió mediante negociaciones secretas entre Kennedy y Jruschov: la URSS retiró los misiles a cambio de la promesa norteamericana de no atacar el gobierno cubano." },
-        { "id": "i6", "afirmacion": "La Revolución Cubana triunfó en 1959 cuando el movimiento liderado por Fidel Castro, Raúl Castro y Ernesto 'Che' Guevara derrocó al dictador Fulgencio Batista.", "respuesta": true }
+        {
+          "id": "i1",
+          "afirmacion": "La Guerra Fría se denominó así porque no hubo enfrentamientos militares directos entre EE.UU. y la URSS, pero sí una constante lucha en todos los demás ámbitos.",
+          "respuesta": true
+        },
+        {
+          "id": "i2",
+          "afirmacion": "El Plan Marshall fue aceptado por la URSS y todos los países de Europa Oriental.",
+          "respuesta": false,
+          "correccion": "La URSS rechazó el Plan Marshall por considerarlo un instrumento del imperialismo norteamericano que comprometía la independencia de los países. La respuesta soviética fue el COMECON (Consejo de Ayuda Mutua Económica)."
+        },
+        {
+          "id": "i3",
+          "afirmacion": "La Guerra de Corea fue el primer enfrentamiento militar directo de la Guerra Fría entre los dos bloques.",
+          "respuesta": true
+        },
+        {
+          "id": "i4",
+          "afirmacion": "Aproximadamente 5000 personas lograron escapar de Berlín Oriental a Occidental mientras el Muro estuvo en pie, y alrededor de 200 murieron intentándolo.",
+          "respuesta": true
+        },
+        {
+          "id": "i5",
+          "afirmacion": "La Crisis de los Misiles de Cuba se resolvió con un ataque militar de EE.UU. a la isla.",
+          "respuesta": false,
+          "correccion": "Se resolvió mediante negociaciones secretas entre Kennedy y Jruschov: la URSS retiró los misiles a cambio de la promesa norteamericana de no atacar el gobierno cubano."
+        },
+        {
+          "id": "i6",
+          "afirmacion": "La Revolución Cubana triunfó en 1959 cuando el movimiento liderado por Fidel Castro, Raúl Castro y Ernesto 'Che' Guevara derrocó al dictador Fulgencio Batista.",
+          "respuesta": true
+        }
       ]
     },
     {
@@ -112,9 +213,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Cuáles fueron los principales hitos de la carrera espacial entre EE.UU. y la URSS?",
       "opciones": [
-        { "id": "a", "texto": "La URSS llegó primero a Marte y EE.UU. a Júpiter." },
-        { "id": "b", "texto": "Sputnik (URSS, 1957): primer satélite artificial. Laika (URSS): primer ser vivo en el espacio. Yuri Gagarin (URSS, 1961): primer hombre en el espacio. Valentina Tereshkova (URSS): primera mujer. Apolo 11 (EE.UU., 1969): llegada del hombre a la Luna (Armstrong)." },
-        { "id": "c", "texto": "EE.UU. ganó todas las etapas de la carrera espacial desde el principio." }
+        {
+          "id": "a",
+          "texto": "La URSS llegó primero a Marte y EE.UU. a Júpiter."
+        },
+        {
+          "id": "b",
+          "texto": "Sputnik (URSS, 1957): primer satélite artificial. Laika (URSS): primer ser vivo en el espacio. Yuri Gagarin (URSS, 1961): primer hombre en el espacio. Valentina Tereshkova (URSS): primera mujer. Apolo 11 (EE.UU., 1969): llegada del hombre a la Luna (Armstrong)."
+        },
+        {
+          "id": "c",
+          "texto": "EE.UU. ganó todas las etapas de la carrera espacial desde el principio."
+        }
       ],
       "correcta": "b"
     },
@@ -123,9 +233,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Cómo se desarrolló la Guerra de Vietnam y cuáles fueron sus consecuencias?",
       "opciones": [
-        { "id": "a", "texto": "Vietnam del Norte y del Sur se unificaron pacíficamente sin intervención extranjera." },
-        { "id": "b", "texto": "Tras la derrota francesa en 1954, Vietnam quedó dividido: Norte (comunista, apoyado por URSS/China) y Sur (capitalista, apoyado por EE.UU.). La guerrilla del Vietcong luchó contra la dictadura survietnamita. EE.UU. intervino militarmente con bombardeos masivos. Las protestas mundiales contra la guerra llevaron a negociaciones de paz en 1968. Consecuencias: +4 millones de muertos, aldeas destruidas, derrota militar de EE.UU. y unificación de Vietnam como país comunista." },
-        { "id": "c", "texto": "Fue un conflicto exclusivamente entre Francia y Japón por el control de Indochina." }
+        {
+          "id": "a",
+          "texto": "Vietnam del Norte y del Sur se unificaron pacíficamente sin intervención extranjera."
+        },
+        {
+          "id": "b",
+          "texto": "Tras la derrota francesa en 1954, Vietnam quedó dividido: Norte (comunista, apoyado por URSS/China) y Sur (capitalista, apoyado por EE.UU.). La guerrilla del Vietcong luchó contra la dictadura survietnamita. EE.UU. intervino militarmente con bombardeos masivos. Las protestas mundiales contra la guerra llevaron a negociaciones de paz en 1968. Consecuencias: +4 millones de muertos, aldeas destruidas, derrota militar de EE.UU. y unificación de Vietnam como país comunista."
+        },
+        {
+          "id": "c",
+          "texto": "Fue un conflicto exclusivamente entre Francia y Japón por el control de Indochina."
+        }
       ],
       "correcta": "b"
     },
@@ -134,9 +253,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Cómo se manifestó la Guerra Fría en el deporte?",
       "opciones": [
-        { "id": "a", "texto": "El deporte no tuvo ninguna relación con la política durante la Guerra Fría." },
-        { "id": "b", "texto": "Los Juegos Olímpicos se convirtieron en un campo de batalla pacífico para demostrar superioridad. El medallero olímpico era un indicador del triunfo de cada sistema. EE.UU. boicoteó Moscú 1980 (por la invasión soviética a Afganistán) y la URSS boicoteó Los Ángeles 1984." },
-        { "id": "c", "texto": "Solo la URSS usó el deporte con fines políticos; EE.UU. nunca lo hizo." }
+        {
+          "id": "a",
+          "texto": "El deporte no tuvo ninguna relación con la política durante la Guerra Fría."
+        },
+        {
+          "id": "b",
+          "texto": "Los Juegos Olímpicos se convirtieron en un campo de batalla pacífico para demostrar superioridad. El medallero olímpico era un indicador del triunfo de cada sistema. EE.UU. boicoteó Moscú 1980 (por la invasión soviética a Afganistán) y la URSS boicoteó Los Ángeles 1984."
+        },
+        {
+          "id": "c",
+          "texto": "Solo la URSS usó el deporte con fines políticos; EE.UU. nunca lo hizo."
+        }
       ],
       "correcta": "b"
     },
@@ -145,9 +273,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué fue la 'segunda Guerra Fría' y qué papel jugó Afganistán?",
       "opciones": [
-        { "id": "a", "texto": "Fue un período de acercamiento y paz entre EE.UU. y la URSS." },
-        { "id": "b", "texto": "A fines de los 70, la 'coexistencia pacífica' se quebró por revoluciones y guerras en África, Asia y América Latina. La URSS invadió Afganistán (1979) para apoyar a las facciones comunistas. EE.UU. respondió incrementando el gasto militar y llamando a la URSS 'imperio del mal'. Fue el conflicto más intenso de esta etapa." },
-        { "id": "c", "texto": "Fue el nombre que recibió la carrera espacial." }
+        {
+          "id": "a",
+          "texto": "Fue un período de acercamiento y paz entre EE.UU. y la URSS."
+        },
+        {
+          "id": "b",
+          "texto": "A fines de los 70, la 'coexistencia pacífica' se quebró por revoluciones y guerras en África, Asia y América Latina. La URSS invadió Afganistán (1979) para apoyar a las facciones comunistas. EE.UU. respondió incrementando el gasto militar y llamando a la URSS 'imperio del mal'. Fue el conflicto más intenso de esta etapa."
+        },
+        {
+          "id": "c",
+          "texto": "Fue el nombre que recibió la carrera espacial."
+        }
       ],
       "correcta": "b"
     },
@@ -156,9 +293,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué fueron la Perestroika y la Glasnost impulsadas por Gorbachov?",
       "opciones": [
-        { "id": "a", "texto": "Dos planes militares para expandir la influencia soviética en el mundo." },
-        { "id": "b", "texto": "Perestroika: conjunto de reformas económicas que incluían autonomía de empresas, actividad privada, libertad de precios y apertura comercial. Glasnost: apertura política, social y cultural que permitió libertad de expresión, liberación de presos políticos y mayor transparencia. Estas reformas transformaron profundamente la URSS." },
-        { "id": "c", "texto": "Fueron dos movimientos artísticos de la década de 1980." }
+        {
+          "id": "a",
+          "texto": "Dos planes militares para expandir la influencia soviética en el mundo."
+        },
+        {
+          "id": "b",
+          "texto": "Perestroika: conjunto de reformas económicas que incluían autonomía de empresas, actividad privada, libertad de precios y apertura comercial. Glasnost: apertura política, social y cultural que permitió libertad de expresión, liberación de presos políticos y mayor transparencia. Estas reformas transformaron profundamente la URSS."
+        },
+        {
+          "id": "c",
+          "texto": "Fueron dos movimientos artísticos de la década de 1980."
+        }
       ],
       "correcta": "b"
     },
@@ -167,9 +313,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué hechos marcaron el fin de la Guerra Fría?",
       "opciones": [
-        { "id": "a", "texto": "La victoria militar de la URSS sobre Estados Unidos en 1991." },
-        { "id": "b", "texto": "La caída del Muro de Berlín (1989), la disolución del Pacto de Varsovia, la reunificación de Alemania (1990), la disolución de la URSS y la declaración oficial del fin de la Guerra Fría. La OTAN quedó como la única alianza militar internacional." },
-        { "id": "c", "texto": "La firma del Tratado de Versalles en 1990." }
+        {
+          "id": "a",
+          "texto": "La victoria militar de la URSS sobre Estados Unidos en 1991."
+        },
+        {
+          "id": "b",
+          "texto": "La caída del Muro de Berlín (1989), la disolución del Pacto de Varsovia, la reunificación de Alemania (1990), la disolución de la URSS y la declaración oficial del fin de la Guerra Fría. La OTAN quedó como la única alianza militar internacional."
+        },
+        {
+          "id": "c",
+          "texto": "La firma del Tratado de Versalles en 1990."
+        }
       ],
       "correcta": "b"
     },
@@ -177,12 +332,33 @@
       "id": "vf_vietnam_espacio",
       "tipo": "verdadero_falso",
       "consigna": "Marcá V o F sobre Vietnam, la carrera espacial y el fin de la Guerra Fría.",
-      "labels": { "verdadero": "V", "falso": "F" },
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
       "items": [
-        { "id": "i1", "afirmacion": "El Vietcong (Frente Nacional de Liberación) era una guerrilla que luchaba contra la dictadura de Vietnam del Sur y contra la intervención norteamericana.", "respuesta": true },
-        { "id": "i2", "afirmacion": "La Guerra de Vietnam fue apoyada por la mayoría de la opinión pública mundial.", "respuesta": false, "correccion": "El repudio a la guerra fue generalizado en todo el mundo. Los jóvenes norteamericanos organizaron marchas de protesta masivas contra la intervención de EE.UU. en Vietnam." },
-        { "id": "i3", "afirmacion": "El Apolo 11 llevó al primer hombre a la Luna el 20 de julio de 1969. Neil Armstrong fue el primer ser humano en pisar el suelo lunar.", "respuesta": true },
-        { "id": "i4", "afirmacion": "La Perestroika y la Glasnost no tuvieron ningún efecto en los países satélites de la URSS.", "respuesta": false, "correccion": "Moscú otorgó mayores libertades políticas a los países que integraban su bloque. Esto provocó movimientos anticomunistas que desembocaron en nuevos gobiernos y, finalmente, en la caída del Muro de Berlín y la reunificación alemana." }
+        {
+          "id": "i1",
+          "afirmacion": "El Vietcong (Frente Nacional de Liberación) era una guerrilla que luchaba contra la dictadura de Vietnam del Sur y contra la intervención norteamericana.",
+          "respuesta": true
+        },
+        {
+          "id": "i2",
+          "afirmacion": "La Guerra de Vietnam fue apoyada por la mayoría de la opinión pública mundial.",
+          "respuesta": false,
+          "correccion": "El repudio a la guerra fue generalizado en todo el mundo. Los jóvenes norteamericanos organizaron marchas de protesta masivas contra la intervención de EE.UU. en Vietnam."
+        },
+        {
+          "id": "i3",
+          "afirmacion": "El Apolo 11 llevó al primer hombre a la Luna el 20 de julio de 1969. Neil Armstrong fue el primer ser humano en pisar el suelo lunar.",
+          "respuesta": true
+        },
+        {
+          "id": "i4",
+          "afirmacion": "La Perestroika y la Glasnost no tuvieron ningún efecto en los países satélites de la URSS.",
+          "respuesta": false,
+          "correccion": "Moscú otorgó mayores libertades políticas a los países que integraban su bloque. Esto provocó movimientos anticomunistas que desembocaron en nuevos gobiernos y, finalmente, en la caída del Muro de Berlín y la reunificación alemana."
+        }
       ]
     },
     {
@@ -190,28 +366,82 @@
       "tipo": "unir_flechas",
       "consigna": "Uní cada concepto de la Guerra Fría con su descripción correcta.",
       "izquierda": [
-        { "id": "otan", "texto": "OTAN (1949)" },
-        { "id": "varsovia", "texto": "Pacto de Varsovia (1955)" },
-        { "id": "marshall", "texto": "Plan Marshall (1948)" },
-        { "id": "comecon", "texto": "COMECON" },
-        { "id": "perestroika", "texto": "Perestroika" },
-        { "id": "glasnost", "texto": "Glasnost" }
+        {
+          "id": "otan",
+          "texto": "OTAN (1949)"
+        },
+        {
+          "id": "varsovia",
+          "texto": "Pacto de Varsovia (1955)"
+        },
+        {
+          "id": "marshall",
+          "texto": "Plan Marshall (1948)"
+        },
+        {
+          "id": "comecon",
+          "texto": "COMECON"
+        },
+        {
+          "id": "perestroika",
+          "texto": "Perestroika"
+        },
+        {
+          "id": "glasnost",
+          "texto": "Glasnost"
+        }
       ],
       "derecha": [
-        { "id": "d1", "texto": "Alianza militar liderada por EE.UU. para la defensa mutua de Europa Occidental. Sigue existiendo." },
-        { "id": "d2", "texto": "Alianza militar liderada por la URSS con los países bajo su órbita. Se disolvió en 1991." },
-        { "id": "d3", "texto": "Ayuda económica de EE.UU. para reconstruir Europa tras la guerra y frenar el avance comunista." },
-        { "id": "d4", "texto": "Consejo de Ayuda Mutua Económica: respuesta soviética al Plan Marshall para la cooperación económica entre países comunistas." },
-        { "id": "d5", "texto": "Reformas económicas de Gorbachov: autonomía empresarial, actividad privada, libertad de precios y apertura comercial." },
-        { "id": "d6", "texto": "Apertura política de Gorbachov: libertad de expresión, liberación de presos políticos, transparencia." }
+        {
+          "id": "d1",
+          "texto": "Alianza militar liderada por EE.UU. para la defensa mutua de Europa Occidental. Sigue existiendo."
+        },
+        {
+          "id": "d2",
+          "texto": "Alianza militar liderada por la URSS con los países bajo su órbita. Se disolvió en 1991."
+        },
+        {
+          "id": "d3",
+          "texto": "Ayuda económica de EE.UU. para reconstruir Europa tras la guerra y frenar el avance comunista."
+        },
+        {
+          "id": "d4",
+          "texto": "Consejo de Ayuda Mutua Económica: respuesta soviética al Plan Marshall para la cooperación económica entre países comunistas."
+        },
+        {
+          "id": "d5",
+          "texto": "Reformas económicas de Gorbachov: autonomía empresarial, actividad privada, libertad de precios y apertura comercial."
+        },
+        {
+          "id": "d6",
+          "texto": "Apertura política de Gorbachov: libertad de expresión, liberación de presos políticos, transparencia."
+        }
       ],
       "pares": [
-        { "izquierda_id": "otan", "derecha_id": "d1" },
-        { "izquierda_id": "varsovia", "derecha_id": "d2" },
-        { "izquierda_id": "marshall", "derecha_id": "d3" },
-        { "izquierda_id": "comecon", "derecha_id": "d4" },
-        { "izquierda_id": "perestroika", "derecha_id": "d5" },
-        { "izquierda_id": "glasnost", "derecha_id": "d6" }
+        {
+          "izquierda_id": "otan",
+          "derecha_id": "d1"
+        },
+        {
+          "izquierda_id": "varsovia",
+          "derecha_id": "d2"
+        },
+        {
+          "izquierda_id": "marshall",
+          "derecha_id": "d3"
+        },
+        {
+          "izquierda_id": "comecon",
+          "derecha_id": "d4"
+        },
+        {
+          "izquierda_id": "perestroika",
+          "derecha_id": "d5"
+        },
+        {
+          "izquierda_id": "glasnost",
+          "derecha_id": "d6"
+        }
       ]
     },
     {
@@ -219,20 +449,76 @@
       "tipo": "ordenar_secuencia",
       "consigna": "Ordená cronológicamente estos acontecimientos de la Guerra Fría.",
       "eventos": [
-        { "id": "e1", "texto": "División de Alemania en cuatro zonas de ocupación (1945).", "orden": 1 },
-        { "id": "e2", "texto": "Bloqueo de Berlín y puente aéreo norteamericano (1948-1949).", "orden": 2 },
-        { "id": "e3", "texto": "Creación de la OTAN (1949).", "orden": 3 },
-        { "id": "e4", "texto": "Guerra de Corea (1950-1953).", "orden": 4 },
-        { "id": "e5", "texto": "Creación del Pacto de Varsovia (1955).", "orden": 5 },
-        { "id": "e6", "texto": "Triunfo de la Revolución Cubana (1959).", "orden": 6 },
-        { "id": "e7", "texto": "Construcción del Muro de Berlín (1961).", "orden": 7 },
-        { "id": "e8", "texto": "Crisis de los Misiles en Cuba (1962).", "orden": 8 },
-        { "id": "e9", "texto": "Llegada del hombre a la Luna: Apolo 11 (1969).", "orden": 9 },
-        { "id": "e10", "texto": "Invasión soviética a Afganistán (1979).", "orden": 10 },
-        { "id": "e11", "texto": "Gorbachov impulsa la Perestroika y la Glasnost (1985).", "orden": 11 },
-        { "id": "e12", "texto": "Caída del Muro de Berlín (9 de noviembre de 1989).", "orden": 12 },
-        { "id": "e13", "texto": "Reunificación de Alemania (1990).", "orden": 13 },
-        { "id": "e14", "texto": "Disolución de la URSS y fin de la Guerra Fría (1991).", "orden": 14 }
+        {
+          "id": "e1",
+          "texto": "División de Alemania en cuatro zonas de ocupación.",
+          "orden": 1
+        },
+        {
+          "id": "e2",
+          "texto": "Bloqueo de Berlín y puente aéreo norteamericano.",
+          "orden": 2
+        },
+        {
+          "id": "e3",
+          "texto": "Creación de la OTAN.",
+          "orden": 3
+        },
+        {
+          "id": "e4",
+          "texto": "Guerra de Corea.",
+          "orden": 4
+        },
+        {
+          "id": "e5",
+          "texto": "Creación del Pacto de Varsovia.",
+          "orden": 5
+        },
+        {
+          "id": "e6",
+          "texto": "Triunfo de la Revolución Cubana.",
+          "orden": 6
+        },
+        {
+          "id": "e7",
+          "texto": "Construcción del Muro de Berlín.",
+          "orden": 7
+        },
+        {
+          "id": "e8",
+          "texto": "Crisis de los Misiles en Cuba.",
+          "orden": 8
+        },
+        {
+          "id": "e9",
+          "texto": "Llegada del hombre a la Luna: Apolo 11.",
+          "orden": 9
+        },
+        {
+          "id": "e10",
+          "texto": "Invasión soviética a Afganistán.",
+          "orden": 10
+        },
+        {
+          "id": "e11",
+          "texto": "Gorbachov impulsa la Perestroika y la Glasnost.",
+          "orden": 11
+        },
+        {
+          "id": "e12",
+          "texto": "Caída del Muro de Berlín.",
+          "orden": 12
+        },
+        {
+          "id": "e13",
+          "texto": "Reunificación de Alemania.",
+          "orden": 13
+        },
+        {
+          "id": "e14",
+          "texto": "Disolución de la URSS y fin de la Guerra Fría.",
+          "orden": 14
+        }
       ]
     }
   ],
@@ -369,10 +655,22 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "⚡", "texto": "1950: Corea del Norte ataca por sorpresa a Corea del Sur. Se inicia el primer enfrentamiento militar directo de la Guerra Fría." },
-                { "icono": "🇺🇸", "texto": "EE.UU., intentando evitar la expansión del comunismo, moviliza tropas y dirige operaciones militares de la ONU. Ocupan temporalmente Corea del Norte." },
-                { "icono": "🇨🇳", "texto": "China envía tropas en defensa de Corea del Norte. La URSS brinda apoyo militar a las tropas chinas y norcoreanas. Se sugiere la posibilidad de usar armamento nuclear." },
-                { "icono": "✍️", "texto": "1953: se firma un armisticio que establece el fin de las hostilidades, el retorno a la frontera original en el paralelo 38° N y la creación de una zona desmilitarizada entre ambos Estados." }
+                {
+                  "icono": "⚡",
+                  "texto": "1950: Corea del Norte ataca por sorpresa a Corea del Sur. Se inicia el primer enfrentamiento militar directo de la Guerra Fría."
+                },
+                {
+                  "icono": "🇺🇸",
+                  "texto": "EE.UU., intentando evitar la expansión del comunismo, moviliza tropas y dirige operaciones militares de la ONU. Ocupan temporalmente Corea del Norte."
+                },
+                {
+                  "icono": "🇨🇳",
+                  "texto": "China envía tropas en defensa de Corea del Norte. La URSS brinda apoyo militar a las tropas chinas y norcoreanas. Se sugiere la posibilidad de usar armamento nuclear."
+                },
+                {
+                  "icono": "✍️",
+                  "texto": "1953: se firma un armisticio que establece el fin de las hostilidades, el retorno a la frontera original en el paralelo 38° N y la creación de una zona desmilitarizada entre ambos Estados."
+                }
               ]
             }
           ]
@@ -396,9 +694,18 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🌾", "texto": "La reforma agraria afectó los intereses de empresas estadounidenses radicadas en Cuba. EE.UU. suspendió la compra de azúcar cubana y prohibió exportaciones a la isla." },
-                { "icono": "🚫", "texto": "Con apoyo de países latinoamericanos, EE.UU. estableció un bloqueo total a Cuba. Esto llevó al gobierno de Castro a acercarse cada vez más a la URSS." },
-                { "icono": "🇨🇺", "texto": "1961: Fidel Castro declaró el carácter socialista de la Revolución Cubana. Ese mismo año fracasó el intento de invasión a Bahía de Cochinos organizado por EE.UU. para derrocar al régimen castrista." }
+                {
+                  "icono": "🌾",
+                  "texto": "La reforma agraria afectó los intereses de empresas estadounidenses radicadas en Cuba. EE.UU. suspendió la compra de azúcar cubana y prohibió exportaciones a la isla."
+                },
+                {
+                  "icono": "🚫",
+                  "texto": "Con apoyo de países latinoamericanos, EE.UU. estableció un bloqueo total a Cuba. Esto llevó al gobierno de Castro a acercarse cada vez más a la URSS."
+                },
+                {
+                  "icono": "🇨🇺",
+                  "texto": "1961: Fidel Castro declaró el carácter socialista de la Revolución Cubana. Ese mismo año fracasó el intento de invasión a Bahía de Cochinos organizado por EE.UU. para derrocar al régimen castrista."
+                }
               ]
             }
           ]
@@ -462,11 +769,26 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🛰️", "texto": "1957: Sputnik (URSS) — primer satélite artificial en órbita terrestre." },
-                { "icono": "🐕", "texto": "1957: Laika (URSS) — primer ser vivo en el espacio. La perra Laika orbitó la Tierra a bordo del Sputnik 2." },
-                { "icono": "🧑‍🚀", "texto": "1961: Yuri Gagarin (URSS) — primer hombre en el espacio. La URSS tomó la delantera en la carrera espacial tripulada." },
-                { "icono": "👩‍🚀", "texto": "1963: Valentina Tereshkova (URSS) — primera mujer cosmonauta en orbitar la Tierra." },
-                { "icono": "🌙", "texto": "20 de julio de 1969: Apolo 11 (EE.UU.) — Neil Armstrong se convirtió en el primer ser humano en pisar el suelo lunar. Millones de personas lo vieron por televisión. EE.UU. había logrado imponerse en la carrera espacial." }
+                {
+                  "icono": "🛰️",
+                  "texto": "1957: Sputnik (URSS) — primer satélite artificial en órbita terrestre."
+                },
+                {
+                  "icono": "🐕",
+                  "texto": "1957: Laika (URSS) — primer ser vivo en el espacio. La perra Laika orbitó la Tierra a bordo del Sputnik 2."
+                },
+                {
+                  "icono": "🧑‍🚀",
+                  "texto": "1961: Yuri Gagarin (URSS) — primer hombre en el espacio. La URSS tomó la delantera en la carrera espacial tripulada."
+                },
+                {
+                  "icono": "👩‍🚀",
+                  "texto": "1963: Valentina Tereshkova (URSS) — primera mujer cosmonauta en orbitar la Tierra."
+                },
+                {
+                  "icono": "🌙",
+                  "texto": "20 de julio de 1969: Apolo 11 (EE.UU.) — Neil Armstrong se convirtió en el primer ser humano en pisar el suelo lunar. Millones de personas lo vieron por televisión. EE.UU. había logrado imponerse en la carrera espacial."
+                }
               ]
             },
             {
@@ -488,9 +810,18 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🌿", "texto": "El gobierno de Vietnam del Sur derivó en un régimen dictatorial y violento, lo que generó el surgimiento del movimiento guerrillero Frente Nacional de Liberación (Vietcong), que luchaba contra la dictadura y contra la intervención norteamericana." },
-                { "icono": "🇺🇸", "texto": "EE.UU. justificó su intervención como una lucha del 'mundo libre' contra el totalitarismo comunista. Envió asesores militares primero y luego tropas. Los bombardeos masivos destruyeron numerosos poblados vietnamitas." },
-                { "icono": "✊", "texto": "El repudio a la guerra fue generalizado en todo el mundo. Los jóvenes norteamericanos organizaron marchas de protesta masivas en todo el país. La falta de progresos en el campo de batalla llevó a negociaciones de paz en 1968." }
+                {
+                  "icono": "🌿",
+                  "texto": "El gobierno de Vietnam del Sur derivó en un régimen dictatorial y violento, lo que generó el surgimiento del movimiento guerrillero Frente Nacional de Liberación (Vietcong), que luchaba contra la dictadura y contra la intervención norteamericana."
+                },
+                {
+                  "icono": "🇺🇸",
+                  "texto": "EE.UU. justificó su intervención como una lucha del 'mundo libre' contra el totalitarismo comunista. Envió asesores militares primero y luego tropas. Los bombardeos masivos destruyeron numerosos poblados vietnamitas."
+                },
+                {
+                  "icono": "✊",
+                  "texto": "El repudio a la guerra fue generalizado en todo el mundo. Los jóvenes norteamericanos organizaron marchas de protesta masivas en todo el país. La falta de progresos en el campo de batalla llevó a negociaciones de paz en 1968."
+                }
               ]
             },
             {
@@ -514,10 +845,22 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🏟️", "texto": "La URSS participó en los Juegos Olímpicos por primera vez en Helsinki 1952. Desde entonces, el medallero olímpico se convirtió en un indicador del triunfo de cada sistema." },
-                { "icono": "🚫", "texto": "1980: el presidente Carter anunció el boicot de EE.UU. y sus aliados a los Juegos Olímpicos de Moscú, como protesta por la invasión soviética a Afganistán." },
-                { "icono": "🚫", "texto": "1984: la URSS respondió con su propio boicot a los Juegos Olímpicos de Los Ángeles." },
-                { "icono": "🏳️", "texto": "Tras la disolución de la URSS, en 1992 los ex-soviéticos participaron como 'Equipo Unificado' bajo la bandera olímpica. Desde 1996, Rusia y las antiguas repúblicas soviéticas compitieron con sus propias banderas como estados independientes." }
+                {
+                  "icono": "🏟️",
+                  "texto": "La URSS participó en los Juegos Olímpicos por primera vez en Helsinki 1952. Desde entonces, el medallero olímpico se convirtió en un indicador del triunfo de cada sistema."
+                },
+                {
+                  "icono": "🚫",
+                  "texto": "1980: el presidente Carter anunció el boicot de EE.UU. y sus aliados a los Juegos Olímpicos de Moscú, como protesta por la invasión soviética a Afganistán."
+                },
+                {
+                  "icono": "🚫",
+                  "texto": "1984: la URSS respondió con su propio boicot a los Juegos Olímpicos de Los Ángeles."
+                },
+                {
+                  "icono": "🏳️",
+                  "texto": "Tras la disolución de la URSS, en 1992 los ex-soviéticos participaron como 'Equipo Unificado' bajo la bandera olímpica. Desde 1996, Rusia y las antiguas repúblicas soviéticas compitieron con sus propias banderas como estados independientes."
+                }
               ]
             }
           ]
@@ -541,8 +884,14 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🇺🇸", "texto": "EE.UU. respondió incrementando los gastos militares e inició una política exterior agresiva que se comprometía a combatir a la URSS y a sus aliados. El presidente Reagan identificó al comunismo como el 'imperio del mal'." },
-                { "icono": "🛡️", "texto": "1984: EE.UU. creó la Iniciativa de Defensa Estratégica (SDI), conocida como 'guerra de las galaxias': un programa de defensa con tecnología antimisiles que los soviéticos no podían igualar. Fue cancelado a mediados de los 80 tras acuerdos para reducir el armamento nuclear." }
+                {
+                  "icono": "🇺🇸",
+                  "texto": "EE.UU. respondió incrementando los gastos militares e inició una política exterior agresiva que se comprometía a combatir a la URSS y a sus aliados. El presidente Reagan identificó al comunismo como el 'imperio del mal'."
+                },
+                {
+                  "icono": "🛡️",
+                  "texto": "1984: EE.UU. creó la Iniciativa de Defensa Estratégica (SDI), conocida como 'guerra de las galaxias': un programa de defensa con tecnología antimisiles que los soviéticos no podían igualar. Fue cancelado a mediados de los 80 tras acuerdos para reducir el armamento nuclear."
+                }
               ]
             }
           ]
@@ -583,9 +932,18 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🕊️", "texto": "Gorbachov ordenó el retiro de tropas soviéticas de Afganistán." },
-                { "icono": "🤝", "texto": "Se iniciaron diálogos con EE.UU. para limitar la carrera armamentista, cuya carga económica ya era insostenible." },
-                { "icono": "🗽", "texto": "Moscú otorgó mayores libertades políticas a los países que integraban su bloque. Esto provocó movimientos anticomunistas que desembocaron en la caída del Muro de Berlín y la reunificación alemana (1990)." }
+                {
+                  "icono": "🕊️",
+                  "texto": "Gorbachov ordenó el retiro de tropas soviéticas de Afganistán."
+                },
+                {
+                  "icono": "🤝",
+                  "texto": "Se iniciaron diálogos con EE.UU. para limitar la carrera armamentista, cuya carga económica ya era insostenible."
+                },
+                {
+                  "icono": "🗽",
+                  "texto": "Moscú otorgó mayores libertades políticas a los países que integraban su bloque. Esto provocó movimientos anticomunistas que desembocaron en la caída del Muro de Berlín y la reunificación alemana (1990)."
+                }
               ]
             }
           ]
@@ -612,21 +970,66 @@
     },
     "recordar": {
       "flashcards": [
-        { "pregunta": "¿Qué fue la Guerra Fría?", "respuesta": "El enfrentamiento entre los bloques capitalista (liderado por EE.UU.) y comunista (liderado por la URSS) durante más de cuarenta años. Sin conflictos militares directos entre ambas potencias, pero con una constante lucha ideológica, política, económica, científica, tecnológica y propagandística." },
-        { "pregunta": "¿Qué fue el Bloqueo de Berlín (1948-1949)?", "respuesta": "La URSS bloqueó las vías terrestres hacia Berlín Occidental para presionar a las potencias occidentales. EE.UU. respondió con un 'puente aéreo' que abasteció a la ciudad durante casi un año. Al fracasar el bloqueo, la URSS lo levantó. Alemania quedó dividida en RFA (Occidental) y RDA (Oriental)." },
-        { "pregunta": "¿Qué fue el Plan Marshall?", "respuesta": "Proyecto de ayuda económica de EE.UU. (1948) para reconstruir Europa tras la guerra. Ofrecía créditos y mercaderías. Objetivos: reactivar industrias, frenar el avance del socialismo y asegurar mercados para productos estadounidenses. La URSS lo rechazó." },
-        { "pregunta": "¿Qué fueron la OTAN y el Pacto de Varsovia?", "respuesta": "OTAN (1949): alianza militar liderada por EE.UU. con Europa Occidental. Pacto de Varsovia (1955): alianza militar liderada por la URSS con Europa Oriental. La OTAN sigue existiendo; el Pacto de Varsovia se disolvió en 1991." },
-        { "pregunta": "¿Cómo fue la Guerra de Corea?", "respuesta": "Corea del Norte (comunista) atacó Corea del Sur (capitalista) en 1950. EE.UU. lideró fuerzas de la ONU; China apoyó a Corea del Norte. En 1953 se firmó un armisticio que restableció la frontera en el paralelo 38° N con una zona desmilitarizada." },
-        { "pregunta": "¿Qué fue la Revolución Cubana?", "respuesta": "En 1959, Fidel Castro, Raúl Castro y el Che Guevara derrocaron al dictador Batista. Implementaron reformas sociales y una reforma agraria. En 1961 Castro declaró el carácter socialista de la Revolución. EE.UU. impuso un bloqueo económico." },
-        { "pregunta": "¿Qué fue la Crisis de los Misiles (1962)?", "respuesta": "La URSS instaló misiles nucleares en Cuba. Durante 13 días de octubre de 1962 el mundo estuvo al borde de una guerra nuclear. Se resolvió con el retiro de los misiles soviéticos a cambio de la promesa de EE.UU. de no atacar Cuba." },
-        { "pregunta": "¿Qué fue el Muro de Berlín?", "respuesta": "Construido en 1961 por la RDA para evitar la fuga de ciudadanos hacia Occidente. 155 km, 3 metros de altura, torres de vigilancia. Aprox. 5000 personas escaparon; 200 murieron intentándolo. Cayó el 9 de noviembre de 1989." },
-        { "pregunta": "¿Cuáles fueron los hitos de la carrera espacial?", "respuesta": "Sputnik, primer satélite (URSS, 1957). Laika, primer ser vivo en el espacio (URSS, 1957). Gagarin, primer hombre en el espacio (URSS, 1961). Apolo 11, llegada a la Luna (EE.UU., 1969). Armstrong, primer humano en suelo lunar." },
-        { "pregunta": "¿Qué fue la Guerra de Vietnam?", "respuesta": "Conflicto entre Vietnam del Norte (comunista) y del Sur (capitalista). El Vietcong luchó contra la dictadura survietnamita y la intervención de EE.UU. Consecuencias: más de 4 millones de muertos, derrota de EE.UU. y unificación comunista de Vietnam." },
-        { "pregunta": "¿Cómo se manifestó la Guerra Fría en el deporte?", "respuesta": "Los Juegos Olímpicos se convirtieron en un campo de batalla pacífico. El medallero era indicador del éxito de cada sistema. EE.UU. boicoteó Moscú 1980; la URSS boicoteó Los Ángeles 1984." },
-        { "pregunta": "¿Qué fue la invasión soviética a Afganistán?", "respuesta": "En 1979, la URSS invadió Afganistán para apoyar facciones comunistas. No logró pacificar el país. EE.UU. respondió con mayor gasto militar. Gorbachov retiró las tropas en 1989. Fue uno de los conflictos más intensos de la 'segunda Guerra Fría'." },
-        { "pregunta": "¿Qué fueron la Perestroika y la Glasnost?", "respuesta": "Reformas de Gorbachov (1985). Perestroika: reestructuración económica (autonomía empresarial, actividad privada, libertad de precios). Glasnost: apertura política (libertad de expresión, liberación de presos políticos, transparencia)." },
-        { "pregunta": "¿Qué hechos marcaron el fin de la Guerra Fría?", "respuesta": "Caída del Muro de Berlín (1989), reunificación de Alemania (1990), disolución del Pacto de Varsovia, disolución de la URSS (1991) y declaración oficial del fin de la Guerra Fría." },
-        { "pregunta": "¿Qué fue el COMECON?", "respuesta": "Consejo de Ayuda Mutua Económica: la respuesta soviética al Plan Marshall. Promovía la cooperación económica entre los países del bloque comunista." }
+        {
+          "pregunta": "¿Qué fue la Guerra Fría?",
+          "respuesta": "El enfrentamiento entre los bloques capitalista (liderado por EE.UU.) y comunista (liderado por la URSS) durante más de cuarenta años. Sin conflictos militares directos entre ambas potencias, pero con una constante lucha ideológica, política, económica, científica, tecnológica y propagandística."
+        },
+        {
+          "pregunta": "¿Qué fue el Bloqueo de Berlín (1948-1949)?",
+          "respuesta": "La URSS bloqueó las vías terrestres hacia Berlín Occidental para presionar a las potencias occidentales. EE.UU. respondió con un 'puente aéreo' que abasteció a la ciudad durante casi un año. Al fracasar el bloqueo, la URSS lo levantó. Alemania quedó dividida en RFA (Occidental) y RDA (Oriental)."
+        },
+        {
+          "pregunta": "¿Qué fue el Plan Marshall?",
+          "respuesta": "Proyecto de ayuda económica de EE.UU. (1948) para reconstruir Europa tras la guerra. Ofrecía créditos y mercaderías. Objetivos: reactivar industrias, frenar el avance del socialismo y asegurar mercados para productos estadounidenses. La URSS lo rechazó."
+        },
+        {
+          "pregunta": "¿Qué fueron la OTAN y el Pacto de Varsovia?",
+          "respuesta": "OTAN (1949): alianza militar liderada por EE.UU. con Europa Occidental. Pacto de Varsovia (1955): alianza militar liderada por la URSS con Europa Oriental. La OTAN sigue existiendo; el Pacto de Varsovia se disolvió en 1991."
+        },
+        {
+          "pregunta": "¿Cómo fue la Guerra de Corea?",
+          "respuesta": "Corea del Norte (comunista) atacó Corea del Sur (capitalista) en 1950. EE.UU. lideró fuerzas de la ONU; China apoyó a Corea del Norte. En 1953 se firmó un armisticio que restableció la frontera en el paralelo 38° N con una zona desmilitarizada."
+        },
+        {
+          "pregunta": "¿Qué fue la Revolución Cubana?",
+          "respuesta": "En 1959, Fidel Castro, Raúl Castro y el Che Guevara derrocaron al dictador Batista. Implementaron reformas sociales y una reforma agraria. En 1961 Castro declaró el carácter socialista de la Revolución. EE.UU. impuso un bloqueo económico."
+        },
+        {
+          "pregunta": "¿Qué fue la Crisis de los Misiles (1962)?",
+          "respuesta": "La URSS instaló misiles nucleares en Cuba. Durante 13 días de octubre de 1962 el mundo estuvo al borde de una guerra nuclear. Se resolvió con el retiro de los misiles soviéticos a cambio de la promesa de EE.UU. de no atacar Cuba."
+        },
+        {
+          "pregunta": "¿Qué fue el Muro de Berlín?",
+          "respuesta": "Construido en 1961 por la RDA para evitar la fuga de ciudadanos hacia Occidente. 155 km, 3 metros de altura, torres de vigilancia. Aprox. 5000 personas escaparon; 200 murieron intentándolo. Cayó el 9 de noviembre de 1989."
+        },
+        {
+          "pregunta": "¿Cuáles fueron los hitos de la carrera espacial?",
+          "respuesta": "Sputnik, primer satélite (URSS, 1957). Laika, primer ser vivo en el espacio (URSS, 1957). Gagarin, primer hombre en el espacio (URSS, 1961). Apolo 11, llegada a la Luna (EE.UU., 1969). Armstrong, primer humano en suelo lunar."
+        },
+        {
+          "pregunta": "¿Qué fue la Guerra de Vietnam?",
+          "respuesta": "Conflicto entre Vietnam del Norte (comunista) y del Sur (capitalista). El Vietcong luchó contra la dictadura survietnamita y la intervención de EE.UU. Consecuencias: más de 4 millones de muertos, derrota de EE.UU. y unificación comunista de Vietnam."
+        },
+        {
+          "pregunta": "¿Cómo se manifestó la Guerra Fría en el deporte?",
+          "respuesta": "Los Juegos Olímpicos se convirtieron en un campo de batalla pacífico. El medallero era indicador del éxito de cada sistema. EE.UU. boicoteó Moscú 1980; la URSS boicoteó Los Ángeles 1984."
+        },
+        {
+          "pregunta": "¿Qué fue la invasión soviética a Afganistán?",
+          "respuesta": "En 1979, la URSS invadió Afganistán para apoyar facciones comunistas. No logró pacificar el país. EE.UU. respondió con mayor gasto militar. Gorbachov retiró las tropas en 1989. Fue uno de los conflictos más intensos de la 'segunda Guerra Fría'."
+        },
+        {
+          "pregunta": "¿Qué fueron la Perestroika y la Glasnost?",
+          "respuesta": "Reformas de Gorbachov (1985). Perestroika: reestructuración económica (autonomía empresarial, actividad privada, libertad de precios). Glasnost: apertura política (libertad de expresión, liberación de presos políticos, transparencia)."
+        },
+        {
+          "pregunta": "¿Qué hechos marcaron el fin de la Guerra Fría?",
+          "respuesta": "Caída del Muro de Berlín (1989), reunificación de Alemania (1990), disolución del Pacto de Varsovia, disolución de la URSS (1991) y declaración oficial del fin de la Guerra Fría."
+        },
+        {
+          "pregunta": "¿Qué fue el COMECON?",
+          "respuesta": "Consejo de Ayuda Mutua Económica: la respuesta soviética al Plan Marshall. Promovía la cooperación económica entre los países del bloque comunista."
+        }
       ]
     },
     "practicar": {

@@ -10,9 +10,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "Según el material del Eje 1, ¿qué significa la palabra 'Historia' y qué estudia?",
       "opciones": [
-        { "id": "a", "texto": "Proviene del latín 'historiae' y estudia exclusivamente las guerras y batallas del pasado." },
-        { "id": "b", "texto": "Proviene del griego y significa 'investigación'. Estudia los acontecimientos y hechos del pasado para comprender el presente de la humanidad." },
-        { "id": "c", "texto": "Proviene del árabe y significa 'crónica'. Estudia solo los hechos políticos de las civilizaciones antiguas." }
+        {
+          "id": "a",
+          "texto": "Proviene del latín 'historiae' y estudia exclusivamente las guerras y batallas del pasado."
+        },
+        {
+          "id": "b",
+          "texto": "Proviene del griego y significa 'investigación'. Estudia los acontecimientos y hechos del pasado para comprender el presente de la humanidad."
+        },
+        {
+          "id": "c",
+          "texto": "Proviene del árabe y significa 'crónica'. Estudia solo los hechos políticos de las civilizaciones antiguas."
+        }
       ],
       "correcta": "b"
     },
@@ -21,9 +30,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Quién fue Heródoto y por qué es importante para la Historia?",
       "opciones": [
-        { "id": "a", "texto": "Fue un filósofo griego que escribió sobre la mitología. Es considerado el padre de la filosofía." },
-        { "id": "b", "texto": "Fue un emperador romano que ordenó escribir la primera enciclopedia de Historia." },
-        { "id": "c", "texto": "Fue un historiador griego considerado el 'padre de la Historia' por ser el primero en redactar los hechos acaecidos en el mundo antiguo." }
+        {
+          "id": "a",
+          "texto": "Fue un filósofo griego que escribió sobre la mitología. Es considerado el padre de la filosofía."
+        },
+        {
+          "id": "b",
+          "texto": "Fue un emperador romano que ordenó escribir la primera enciclopedia de Historia."
+        },
+        {
+          "id": "c",
+          "texto": "Fue un historiador griego considerado el 'padre de la Historia' por ser el primero en redactar los hechos acaecidos en el mundo antiguo."
+        }
       ],
       "correcta": "c"
     },
@@ -32,9 +50,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué es el tiempo cronológico según el material del Eje 1?",
       "opciones": [
-        { "id": "a", "texto": "Es la interpretación subjetiva que cada sociedad hace del paso del tiempo." },
-        { "id": "b", "texto": "Es la división de la Historia en edades: Antigua, Media, Moderna y Contemporánea." },
-        { "id": "c", "texto": "Es la medición del tiempo secuencial en días, meses, años, décadas, siglos y milenios. Permite ubicar los hechos históricos en una fecha precisa." }
+        {
+          "id": "a",
+          "texto": "Es la interpretación subjetiva que cada sociedad hace del paso del tiempo."
+        },
+        {
+          "id": "b",
+          "texto": "Es la división de la Historia en edades: Antigua, Media, Moderna y Contemporánea."
+        },
+        {
+          "id": "c",
+          "texto": "Es la medición del tiempo secuencial en días, meses, años, décadas, siglos y milenios. Permite ubicar los hechos históricos en una fecha precisa."
+        }
       ],
       "correcta": "c"
     },
@@ -43,9 +70,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué es el tiempo histórico y para qué sirve la periodización?",
       "opciones": [
-        { "id": "a", "texto": "El tiempo histórico permite ubicar y explicar los procesos históricos en edades, períodos o etapas. La periodización es el conjunto de esos períodos en que se divide la Historia." },
-        { "id": "b", "texto": "El tiempo histórico es lo mismo que el tiempo cronológico. La periodización es un calendario de fechas importantes." },
-        { "id": "c", "texto": "El tiempo histórico mide las horas del día en que ocurrieron los hechos. La periodización divide el día en mañana, tarde y noche." }
+        {
+          "id": "a",
+          "texto": "El tiempo histórico permite ubicar y explicar los procesos históricos en edades, períodos o etapas. La periodización es el conjunto de esos períodos en que se divide la Historia."
+        },
+        {
+          "id": "b",
+          "texto": "El tiempo histórico es lo mismo que el tiempo cronológico. La periodización es un calendario de fechas importantes."
+        },
+        {
+          "id": "c",
+          "texto": "El tiempo histórico mide las horas del día en que ocurrieron los hechos. La periodización divide el día en mañana, tarde y noche."
+        }
       ],
       "correcta": "a"
     },
@@ -54,9 +90,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Cuál es la periodización tradicional de la Historia establecida por los historiadores europeos del siglo XIX?",
       "opciones": [
-        { "id": "a", "texto": "Edad de Piedra, Edad de Bronce, Edad de Hierro y Edad Digital." },
-        { "id": "b", "texto": "Prehistoria, Edad Antigua, Edad Media, Edad Moderna y Edad Contemporánea." },
-        { "id": "c", "texto": "Era Primaria, Era Secundaria, Era Terciaria y Era Cuaternaria." }
+        {
+          "id": "a",
+          "texto": "Edad de Piedra, Edad de Bronce, Edad de Hierro y Edad Digital."
+        },
+        {
+          "id": "b",
+          "texto": "Prehistoria, Edad Antigua, Edad Media, Edad Moderna y Edad Contemporánea."
+        },
+        {
+          "id": "c",
+          "texto": "Era Primaria, Era Secundaria, Era Terciaria y Era Cuaternaria."
+        }
       ],
       "correcta": "b"
     },
@@ -64,14 +109,43 @@
       "id": "vf_periodos",
       "tipo": "verdadero_falso",
       "consigna": "Marcá V o F sobre los períodos de la Historia.",
-      "labels": { "verdadero": "V", "falso": "F" },
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
       "items": [
-        { "id": "i1", "afirmacion": "La Prehistoria es la etapa más larga de la Historia: abarca desde el origen de la humanidad hasta la invención de la escritura (aproximadamente 3000 a.C.).", "respuesta": true },
-        { "id": "i2", "afirmacion": "La Edad Antigua comienza con la invención de la escritura en el 3000 a.C. y finaliza con la caída del Imperio Romano de Occidente en el 476 d.C.", "respuesta": true },
-        { "id": "i3", "afirmacion": "La Edad Media abarca desde la caída del Imperio Romano de Occidente (476) hasta la Revolución Francesa (1789).", "respuesta": false, "correccion": "La Edad Media abarca desde la caída del Imperio Romano de Occidente (476) hasta la caída del Imperio Romano de Oriente (1453). La Revolución Francesa marca el fin de la Edad Moderna." },
-        { "id": "i4", "afirmacion": "La Edad Moderna va desde la caída del Imperio Romano de Oriente (1453) hasta la Revolución Francesa (1789).", "respuesta": true },
-        { "id": "i5", "afirmacion": "La Edad Contemporánea comienza con la Revolución Francesa (1789) y llega hasta la actualidad.", "respuesta": true },
-        { "id": "i6", "afirmacion": "Los períodos de la Historia están completamente separados unos de otros, sin ninguna relación entre ellos.", "respuesta": false, "correccion": "Si bien se dividen para facilitar el estudio, los períodos NO están completamente separados. Hay continuidades y transiciones entre ellos." }
+        {
+          "id": "i1",
+          "afirmacion": "La Prehistoria es la etapa más larga de la Historia: abarca desde el origen de la humanidad hasta la invención de la escritura (aproximadamente 3000 a.C.).",
+          "respuesta": true
+        },
+        {
+          "id": "i2",
+          "afirmacion": "La Edad Antigua comienza con la invención de la escritura en el 3000 a.C. y finaliza con la caída del Imperio Romano de Occidente en el 476 d.C.",
+          "respuesta": true
+        },
+        {
+          "id": "i3",
+          "afirmacion": "La Edad Media abarca desde la caída del Imperio Romano de Occidente (476) hasta la Revolución Francesa (1789).",
+          "respuesta": false,
+          "correccion": "La Edad Media abarca desde la caída del Imperio Romano de Occidente (476) hasta la caída del Imperio Romano de Oriente (1453). La Revolución Francesa marca el fin de la Edad Moderna."
+        },
+        {
+          "id": "i4",
+          "afirmacion": "La Edad Moderna va desde la caída del Imperio Romano de Oriente (1453) hasta la Revolución Francesa (1789).",
+          "respuesta": true
+        },
+        {
+          "id": "i5",
+          "afirmacion": "La Edad Contemporánea comienza con la Revolución Francesa (1789) y llega hasta la actualidad.",
+          "respuesta": true
+        },
+        {
+          "id": "i6",
+          "afirmacion": "Los períodos de la Historia están completamente separados unos de otros, sin ninguna relación entre ellos.",
+          "respuesta": false,
+          "correccion": "Si bien se dividen para facilitar el estudio, los períodos NO están completamente separados. Hay continuidades y transiciones entre ellos."
+        }
       ]
     },
     {
@@ -79,9 +153,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué elemento utiliza el historiador para ubicar los hechos en el espacio y qué tipos de mapas puede emplear?",
       "opciones": [
-        { "id": "a", "texto": "Utiliza la brújula y la orientación geográfica. Solo emplea mapas físicos." },
-        { "id": "b", "texto": "Utiliza la cartografía (mapas), que pueden ser mapas físicos, mapas políticos o mapas antiguos." },
-        { "id": "c", "texto": "Utiliza fotografías satelitales exclusivamente. No necesita mapas." }
+        {
+          "id": "a",
+          "texto": "Utiliza la brújula y la orientación geográfica. Solo emplea mapas físicos."
+        },
+        {
+          "id": "b",
+          "texto": "Utiliza la cartografía (mapas), que pueden ser mapas físicos, mapas políticos o mapas antiguos."
+        },
+        {
+          "id": "c",
+          "texto": "Utiliza fotografías satelitales exclusivamente. No necesita mapas."
+        }
       ],
       "correcta": "b"
     },
@@ -90,36 +173,100 @@
       "tipo": "unir_flechas",
       "consigna": "Uní cada tipo de fuente histórica con sus ejemplos correctos según el material del Eje 1.",
       "izquierda": [
-        { "id": "escrita", "texto": "Fuentes escritas" },
-        { "id": "material", "texto": "Fuentes materiales" },
-        { "id": "oral", "texto": "Fuentes orales" },
-        { "id": "audiovisual", "texto": "Fuentes audiovisuales" }
+        {
+          "id": "escrita",
+          "texto": "Fuentes escritas"
+        },
+        {
+          "id": "material",
+          "texto": "Fuentes materiales"
+        },
+        {
+          "id": "oral",
+          "texto": "Fuentes orales"
+        },
+        {
+          "id": "audiovisual",
+          "texto": "Fuentes audiovisuales"
+        }
       ],
       "derecha": [
-        { "id": "d1", "texto": "Actas, diarios, cartas, registros, periódicos, entre otros." },
-        { "id": "d2", "texto": "Materiales muebles (cerámicas, herramientas, monedas, armas, vestimenta) e inmuebles (monumentos, edificios, ruinas, pirámides)." },
-        { "id": "d3", "texto": "Leyendas, mitos, relatos de protagonistas, entre otros." },
-        { "id": "d4", "texto": "Pinturas, dibujos, películas, fotografías, grabaciones, entre otros." }
+        {
+          "id": "d1",
+          "texto": "Actas, diarios, cartas, registros, periódicos, entre otros."
+        },
+        {
+          "id": "d2",
+          "texto": "Materiales muebles (cerámicas, herramientas, monedas, armas, vestimenta) e inmuebles (monumentos, edificios, ruinas, pirámides)."
+        },
+        {
+          "id": "d3",
+          "texto": "Leyendas, mitos, relatos de protagonistas, entre otros."
+        },
+        {
+          "id": "d4",
+          "texto": "Pinturas, dibujos, películas, fotografías, grabaciones, entre otros."
+        }
       ],
       "pares": [
-        { "izquierda_id": "escrita", "derecha_id": "d1" },
-        { "izquierda_id": "material", "derecha_id": "d2" },
-        { "izquierda_id": "oral", "derecha_id": "d3" },
-        { "izquierda_id": "audiovisual", "derecha_id": "d4" }
+        {
+          "izquierda_id": "escrita",
+          "derecha_id": "d1"
+        },
+        {
+          "izquierda_id": "material",
+          "derecha_id": "d2"
+        },
+        {
+          "izquierda_id": "oral",
+          "derecha_id": "d3"
+        },
+        {
+          "izquierda_id": "audiovisual",
+          "derecha_id": "d4"
+        }
       ]
     },
     {
       "id": "vf_fuentes",
       "tipo": "verdadero_falso",
       "consigna": "Marcá V o F sobre la clasificación de fuentes históricas.",
-      "labels": { "verdadero": "V", "falso": "F" },
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
       "items": [
-        { "id": "i1", "afirmacion": "Las fuentes materiales se dividen en muebles (cerámicas, herramientas) e inmuebles (monumentos, edificios).", "respuesta": true },
-        { "id": "i2", "afirmacion": "Una pirámide egipcia es un ejemplo de fuente material inmueble.", "respuesta": true },
-        { "id": "i3", "afirmacion": "Los periódicos antiguos son fuentes materiales, no escritas.", "respuesta": false, "correccion": "Los periódicos son fuentes escritas. Si bien el papel es un soporte material, el contenido y la información que proporcionan los clasifica como fuentes escritas." },
-        { "id": "i4", "afirmacion": "Los relatos de protagonistas de un hecho histórico son fuentes orales.", "respuesta": true },
-        { "id": "i5", "afirmacion": "Una fotografía de la Primera Guerra Mundial puede considerarse tanto fuente audiovisual como fuente primaria de ese período.", "respuesta": true },
-        { "id": "i6", "afirmacion": "Las leyendas y los mitos transmitidos de generación en generación son fuentes orales.", "respuesta": true }
+        {
+          "id": "i1",
+          "afirmacion": "Las fuentes materiales se dividen en muebles (cerámicas, herramientas) e inmuebles (monumentos, edificios).",
+          "respuesta": true
+        },
+        {
+          "id": "i2",
+          "afirmacion": "Una pirámide egipcia es un ejemplo de fuente material inmueble.",
+          "respuesta": true
+        },
+        {
+          "id": "i3",
+          "afirmacion": "Los periódicos antiguos son fuentes materiales, no escritas.",
+          "respuesta": false,
+          "correccion": "Los periódicos son fuentes escritas. Si bien el papel es un soporte material, el contenido y la información que proporcionan los clasifica como fuentes escritas."
+        },
+        {
+          "id": "i4",
+          "afirmacion": "Los relatos de protagonistas de un hecho histórico son fuentes orales.",
+          "respuesta": true
+        },
+        {
+          "id": "i5",
+          "afirmacion": "Una fotografía de la Primera Guerra Mundial puede considerarse tanto fuente audiovisual como fuente primaria de ese período.",
+          "respuesta": true
+        },
+        {
+          "id": "i6",
+          "afirmacion": "Las leyendas y los mitos transmitidos de generación en generación son fuentes orales.",
+          "respuesta": true
+        }
       ]
     },
     {
@@ -127,9 +274,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "Un historiador encuentra el diario personal de un soldado que combatió en la Primera Guerra Mundial, escrito entre 1914 y 1918. Además, analiza la tapa de un periódico del 8 de mayo de 1945 que anuncia el fin de la Segunda Guerra. ¿Cómo clasificarías ambas fuentes?",
       "opciones": [
-        { "id": "a", "texto": "El diario es fuente material y el periódico es fuente oral." },
-        { "id": "b", "texto": "Ambos son fuentes audiovisuales porque contienen información visual." },
-        { "id": "c", "texto": "Ambos son fuentes escritas. El diario es una fuente escrita personal y el periódico es una fuente escrita periodística. Ambos pueden funcionar como fuentes primarias de sus respectivos hechos." }
+        {
+          "id": "a",
+          "texto": "El diario es fuente material y el periódico es fuente oral."
+        },
+        {
+          "id": "b",
+          "texto": "Ambos son fuentes audiovisuales porque contienen información visual."
+        },
+        {
+          "id": "c",
+          "texto": "Ambos son fuentes escritas. El diario es una fuente escrita personal y el periódico es una fuente escrita periodística. Ambos pueden funcionar como fuentes primarias de sus respectivos hechos."
+        }
       ],
       "correcta": "c"
     },
@@ -169,34 +325,106 @@
       "tipo": "unir_flechas",
       "consigna": "Uní cada ciencia auxiliar con lo que estudia, según el material del Eje 1.",
       "izquierda": [
-        { "id": "geo", "texto": "Geografía" },
-        { "id": "socio", "texto": "Sociología" },
-        { "id": "arqueo", "texto": "Arqueología" },
-        { "id": "antro", "texto": "Antropología" },
-        { "id": "paleo", "texto": "Paleontología" },
-        { "id": "poli", "texto": "Política" },
-        { "id": "numi", "texto": "Numismática" },
-        { "id": "econ", "texto": "Economía" }
+        {
+          "id": "geo",
+          "texto": "Geografía"
+        },
+        {
+          "id": "socio",
+          "texto": "Sociología"
+        },
+        {
+          "id": "arqueo",
+          "texto": "Arqueología"
+        },
+        {
+          "id": "antro",
+          "texto": "Antropología"
+        },
+        {
+          "id": "paleo",
+          "texto": "Paleontología"
+        },
+        {
+          "id": "poli",
+          "texto": "Política"
+        },
+        {
+          "id": "numi",
+          "texto": "Numismática"
+        },
+        {
+          "id": "econ",
+          "texto": "Economía"
+        }
       ],
       "derecha": [
-        { "id": "d1", "texto": "Estudia el espacio geográfico como resultado de la interacción entre la naturaleza y la sociedad." },
-        { "id": "d2", "texto": "Estudia el comportamiento social de los seres humanos, los diferentes grupos y organizaciones que componen la sociedad." },
-        { "id": "d3", "texto": "Estudia las sociedades antiguas a partir de los restos materiales." },
-        { "id": "d4", "texto": "Estudia los aspectos físicos y las manifestaciones sociales y culturales de los grupos humanos." },
-        { "id": "d5", "texto": "Estudia los restos fósiles de seres vivos." },
-        { "id": "d6", "texto": "Estudia el poder, la autoridad y los distintos sistemas de gobierno." },
-        { "id": "d7", "texto": "Ciencia que estudia monedas y medallas." },
-        { "id": "d8", "texto": "Estudia los modelos de producción, la distribución de la riqueza y las políticas económicas." }
+        {
+          "id": "d1",
+          "texto": "Estudia el espacio geográfico como resultado de la interacción entre la naturaleza y la sociedad."
+        },
+        {
+          "id": "d2",
+          "texto": "Estudia el comportamiento social de los seres humanos, los diferentes grupos y organizaciones que componen la sociedad."
+        },
+        {
+          "id": "d3",
+          "texto": "Estudia las sociedades antiguas a partir de los restos materiales."
+        },
+        {
+          "id": "d4",
+          "texto": "Estudia los aspectos físicos y las manifestaciones sociales y culturales de los grupos humanos."
+        },
+        {
+          "id": "d5",
+          "texto": "Estudia los restos fósiles de seres vivos."
+        },
+        {
+          "id": "d6",
+          "texto": "Estudia el poder, la autoridad y los distintos sistemas de gobierno."
+        },
+        {
+          "id": "d7",
+          "texto": "Ciencia que estudia monedas y medallas."
+        },
+        {
+          "id": "d8",
+          "texto": "Estudia los modelos de producción, la distribución de la riqueza y las políticas económicas."
+        }
       ],
       "pares": [
-        { "izquierda_id": "geo", "derecha_id": "d1" },
-        { "izquierda_id": "socio", "derecha_id": "d2" },
-        { "izquierda_id": "arqueo", "derecha_id": "d3" },
-        { "izquierda_id": "antro", "derecha_id": "d4" },
-        { "izquierda_id": "paleo", "derecha_id": "d5" },
-        { "izquierda_id": "poli", "derecha_id": "d6" },
-        { "izquierda_id": "numi", "derecha_id": "d7" },
-        { "izquierda_id": "econ", "derecha_id": "d8" }
+        {
+          "izquierda_id": "geo",
+          "derecha_id": "d1"
+        },
+        {
+          "izquierda_id": "socio",
+          "derecha_id": "d2"
+        },
+        {
+          "izquierda_id": "arqueo",
+          "derecha_id": "d3"
+        },
+        {
+          "izquierda_id": "antro",
+          "derecha_id": "d4"
+        },
+        {
+          "izquierda_id": "paleo",
+          "derecha_id": "d5"
+        },
+        {
+          "izquierda_id": "poli",
+          "derecha_id": "d6"
+        },
+        {
+          "izquierda_id": "numi",
+          "derecha_id": "d7"
+        },
+        {
+          "izquierda_id": "econ",
+          "derecha_id": "d8"
+        }
       ]
     },
     {
@@ -204,9 +432,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "Un historiador quiere investigar cómo estaba organizada la sociedad en el antiguo Egipto: qué grupos la componían y qué rol cumplía cada uno. ¿Qué ciencia auxiliar le resultará más útil?",
       "opciones": [
-        { "id": "a", "texto": "La Numismática, porque puede analizar las monedas egipcias." },
-        { "id": "b", "texto": "La Sociología, porque estudia el comportamiento social, los grupos y las organizaciones que componen una sociedad." },
-        { "id": "c", "texto": "La Paleontología, porque estudia los restos fósiles." }
+        {
+          "id": "a",
+          "texto": "La Numismática, porque puede analizar las monedas egipcias."
+        },
+        {
+          "id": "b",
+          "texto": "La Sociología, porque estudia el comportamiento social, los grupos y las organizaciones que componen una sociedad."
+        },
+        {
+          "id": "c",
+          "texto": "La Paleontología, porque estudia los restos fósiles."
+        }
       ],
       "correcta": "b"
     },
@@ -214,14 +451,43 @@
       "id": "vf_ciencias",
       "tipo": "verdadero_falso",
       "consigna": "Marcá V o F sobre las ciencias auxiliares de la Historia.",
-      "labels": { "verdadero": "V", "falso": "F" },
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
       "items": [
-        { "id": "i1", "afirmacion": "La Historia recurre a otras ciencias para profundizar el conocimiento de los procesos históricos.", "respuesta": true },
-        { "id": "i2", "afirmacion": "La Arqueología estudia las sociedades antiguas a partir de los restos materiales que dejaron.", "respuesta": true },
-        { "id": "i3", "afirmacion": "La Antropología estudia exclusivamente los restos fósiles de seres vivos.", "respuesta": false, "correccion": "La Antropología estudia los aspectos físicos y las manifestaciones sociales y culturales de los grupos humanos. La que estudia restos fósiles es la Paleontología." },
-        { "id": "i4", "afirmacion": "La Economía ayuda al historiador a comprender cómo producían, distribuían la riqueza y comerciaban las sociedades del pasado.", "respuesta": true },
-        { "id": "i5", "afirmacion": "La Política como ciencia auxiliar estudia el poder, la autoridad y los distintos sistemas de gobierno.", "respuesta": true },
-        { "id": "i6", "afirmacion": "La Geografía solo sirve para ubicar países en un mapa actual, no aporta a la Historia.", "respuesta": false, "correccion": "La Geografía es fundamental para la Historia porque estudia el espacio geográfico como resultado de la interacción entre naturaleza y sociedad, ayudando a entender cómo el entorno influyó en el desarrollo de las civilizaciones." }
+        {
+          "id": "i1",
+          "afirmacion": "La Historia recurre a otras ciencias para profundizar el conocimiento de los procesos históricos.",
+          "respuesta": true
+        },
+        {
+          "id": "i2",
+          "afirmacion": "La Arqueología estudia las sociedades antiguas a partir de los restos materiales que dejaron.",
+          "respuesta": true
+        },
+        {
+          "id": "i3",
+          "afirmacion": "La Antropología estudia exclusivamente los restos fósiles de seres vivos.",
+          "respuesta": false,
+          "correccion": "La Antropología estudia los aspectos físicos y las manifestaciones sociales y culturales de los grupos humanos. La que estudia restos fósiles es la Paleontología."
+        },
+        {
+          "id": "i4",
+          "afirmacion": "La Economía ayuda al historiador a comprender cómo producían, distribuían la riqueza y comerciaban las sociedades del pasado.",
+          "respuesta": true
+        },
+        {
+          "id": "i5",
+          "afirmacion": "La Política como ciencia auxiliar estudia el poder, la autoridad y los distintos sistemas de gobierno.",
+          "respuesta": true
+        },
+        {
+          "id": "i6",
+          "afirmacion": "La Geografía solo sirve para ubicar países en un mapa actual, no aporta a la Historia.",
+          "respuesta": false,
+          "correccion": "La Geografía es fundamental para la Historia porque estudia el espacio geográfico como resultado de la interacción entre naturaleza y sociedad, ayudando a entender cómo el entorno influyó en el desarrollo de las civilizaciones."
+        }
       ]
     },
     {
@@ -248,9 +514,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "Según el material del Eje 1, ¿qué son los cambios y las continuidades en los procesos históricos?",
       "opciones": [
-        { "id": "a", "texto": "Los cambios son transformaciones en distintos aspectos (económico, social, cultural, religioso, político). Las continuidades son los elementos que permanecen porque los cambios no implican una transformación total: en todo hecho humano hay rastros de hechos precedentes." },
-        { "id": "b", "texto": "Los cambios son siempre negativos y las continuidades son siempre positivas para una sociedad." },
-        { "id": "c", "texto": "Los cambios son los hechos que ocurren en un día y las continuidades los que ocurren en un año." }
+        {
+          "id": "a",
+          "texto": "Los cambios son transformaciones en distintos aspectos (económico, social, cultural, religioso, político). Las continuidades son los elementos que permanecen porque los cambios no implican una transformación total: en todo hecho humano hay rastros de hechos precedentes."
+        },
+        {
+          "id": "b",
+          "texto": "Los cambios son siempre negativos y las continuidades son siempre positivas para una sociedad."
+        },
+        {
+          "id": "c",
+          "texto": "Los cambios son los hechos que ocurren en un día y las continuidades los que ocurren en un año."
+        }
       ],
       "correcta": "a"
     },
@@ -259,9 +534,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué es la multicausalidad según el material del Eje 1?",
       "opciones": [
-        { "id": "a", "texto": "Es la teoría de que los hechos históricos tienen una sola causa principal." },
-        { "id": "b", "texto": "Es el concepto que explica que son varias las causas las que generan los cambios y permanencias en todo proceso histórico. Ningún acontecimiento tiene una sola causa." },
-        { "id": "c", "texto": "Es la idea de que todo hecho histórico es inevitable y no puede ser modificado." }
+        {
+          "id": "a",
+          "texto": "Es la teoría de que los hechos históricos tienen una sola causa principal."
+        },
+        {
+          "id": "b",
+          "texto": "Es el concepto que explica que son varias las causas las que generan los cambios y permanencias en todo proceso histórico. Ningún acontecimiento tiene una sola causa."
+        },
+        {
+          "id": "c",
+          "texto": "Es la idea de que todo hecho histórico es inevitable y no puede ser modificado."
+        }
       ],
       "correcta": "b"
     },
@@ -270,9 +554,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Qué es el contexto histórico y para qué sirve según el material del Eje 1?",
       "opciones": [
-        { "id": "a", "texto": "Es la lista de fechas en que ocurrieron los hechos. Sirve para memorizar." },
-        { "id": "b", "texto": "Es el marco de referencia que abarca aspectos políticos, sociales, culturales y económicos dentro del cual ocurre un hecho. Todas las acciones humanas suceden dentro de un contexto histórico, y conocerlo facilita la comprensión del hecho." },
-        { "id": "c", "texto": "Es el nombre del lugar donde ocurrió un hecho. Sirve para ubicarlo geográficamente." }
+        {
+          "id": "a",
+          "texto": "Es la lista de fechas en que ocurrieron los hechos. Sirve para memorizar."
+        },
+        {
+          "id": "b",
+          "texto": "Es el marco de referencia que abarca aspectos políticos, sociales, culturales y económicos dentro del cual ocurre un hecho. Todas las acciones humanas suceden dentro de un contexto histórico, y conocerlo facilita la comprensión del hecho."
+        },
+        {
+          "id": "c",
+          "texto": "Es el nombre del lugar donde ocurrió un hecho. Sirve para ubicarlo geográficamente."
+        }
       ],
       "correcta": "b"
     },
@@ -280,14 +573,43 @@
       "id": "vf_cambios",
       "tipo": "verdadero_falso",
       "consigna": "Marcá V o F sobre cambios, continuidades y multicausalidad.",
-      "labels": { "verdadero": "V", "falso": "F" },
+      "labels": {
+        "verdadero": "V",
+        "falso": "F"
+      },
       "items": [
-        { "id": "i1", "afirmacion": "Los cambios en la Historia pueden ser de tipo económico, social, cultural, religioso y/o político.", "respuesta": true },
-        { "id": "i2", "afirmacion": "Cuando se produce un cambio histórico, todo lo anterior desaparece por completo.", "respuesta": false, "correccion": "Los cambios no significan una transformación total. En todo hecho humano hay rastros de hechos precedentes. Los cambios y las continuidades coexisten." },
-        { "id": "i3", "afirmacion": "La multicausalidad significa que varias causas generan los cambios y permanencias en un proceso histórico.", "respuesta": true },
-        { "id": "i4", "afirmacion": "Todo proceso y acontecimiento histórico tiene consecuencias, es decir, efectos posteriores que son visibles con el tiempo.", "respuesta": true },
-        { "id": "i5", "afirmacion": "Establecer y explicar las causas de los procesos históricos es sencillo porque cada hecho tiene una sola causa evidente.", "respuesta": false, "correccion": "No es sencillo precisamente porque todo acontecimiento histórico no tiene una sola causa, sino múltiples causas interrelacionadas (multicausalidad)." },
-        { "id": "i6", "afirmacion": "El contexto histórico brinda información sobre los aspectos políticos, sociales, culturales y económicos que rodean un hecho.", "respuesta": true }
+        {
+          "id": "i1",
+          "afirmacion": "Los cambios en la Historia pueden ser de tipo económico, social, cultural, religioso y/o político.",
+          "respuesta": true
+        },
+        {
+          "id": "i2",
+          "afirmacion": "Cuando se produce un cambio histórico, todo lo anterior desaparece por completo.",
+          "respuesta": false,
+          "correccion": "Los cambios no significan una transformación total. En todo hecho humano hay rastros de hechos precedentes. Los cambios y las continuidades coexisten."
+        },
+        {
+          "id": "i3",
+          "afirmacion": "La multicausalidad significa que varias causas generan los cambios y permanencias en un proceso histórico.",
+          "respuesta": true
+        },
+        {
+          "id": "i4",
+          "afirmacion": "Todo proceso y acontecimiento histórico tiene consecuencias, es decir, efectos posteriores que son visibles con el tiempo.",
+          "respuesta": true
+        },
+        {
+          "id": "i5",
+          "afirmacion": "Establecer y explicar las causas de los procesos históricos es sencillo porque cada hecho tiene una sola causa evidente.",
+          "respuesta": false,
+          "correccion": "No es sencillo precisamente porque todo acontecimiento histórico no tiene una sola causa, sino múltiples causas interrelacionadas (multicausalidad)."
+        },
+        {
+          "id": "i6",
+          "afirmacion": "El contexto histórico brinda información sobre los aspectos políticos, sociales, culturales y económicos que rodean un hecho.",
+          "respuesta": true
+        }
       ]
     },
     {
@@ -314,9 +636,18 @@
       "tipo": "seleccion_multiple",
       "consigna": "¿Por qué el material del Eje 1 afirma que 'todo proceso y acontecimiento histórico tiene consecuencias'?",
       "opciones": [
-        { "id": "a", "texto": "Porque los historiadores necesitan rellenar sus libros con más páginas." },
-        { "id": "b", "texto": "Porque los hechos históricos producen transformaciones y efectos posteriores que son visibles con el tiempo. Nada ocurre de manera aislada y sin repercusiones." },
-        { "id": "c", "texto": "Porque todos los hechos históricos terminan con una guerra o un conflicto." }
+        {
+          "id": "a",
+          "texto": "Porque los historiadores necesitan rellenar sus libros con más páginas."
+        },
+        {
+          "id": "b",
+          "texto": "Porque los hechos históricos producen transformaciones y efectos posteriores que son visibles con el tiempo. Nada ocurre de manera aislada y sin repercusiones."
+        },
+        {
+          "id": "c",
+          "texto": "Porque todos los hechos históricos terminan con una guerra o un conflicto."
+        }
       ],
       "correcta": "b"
     },
@@ -325,28 +656,82 @@
       "tipo": "unir_flechas",
       "consigna": "Uní cada concepto clave del Eje 1 con su definición correcta.",
       "izquierda": [
-        { "id": "t_cron", "texto": "Tiempo cronológico" },
-        { "id": "t_hist", "texto": "Tiempo histórico" },
-        { "id": "period", "texto": "Periodización" },
-        { "id": "carto", "texto": "Cartografía" },
-        { "id": "multi", "texto": "Multicausalidad" },
-        { "id": "context", "texto": "Contexto histórico" }
+        {
+          "id": "t_cron",
+          "texto": "Tiempo cronológico"
+        },
+        {
+          "id": "t_hist",
+          "texto": "Tiempo histórico"
+        },
+        {
+          "id": "period",
+          "texto": "Periodización"
+        },
+        {
+          "id": "carto",
+          "texto": "Cartografía"
+        },
+        {
+          "id": "multi",
+          "texto": "Multicausalidad"
+        },
+        {
+          "id": "context",
+          "texto": "Contexto histórico"
+        }
       ],
       "derecha": [
-        { "id": "d1", "texto": "Medición secuencial del tiempo en días, meses, años, décadas, siglos y milenios." },
-        { "id": "d2", "texto": "Permite ubicar y explicar los procesos en edades, períodos o etapas." },
-        { "id": "d3", "texto": "Conjunto de los períodos en que se divide la Historia para su estudio." },
-        { "id": "d4", "texto": "Ciencia de los mapas; permite al historiador ubicar los hechos en el espacio." },
-        { "id": "d5", "texto": "Principio que sostiene que varias causas generan los cambios y permanencias en todo proceso histórico." },
-        { "id": "d6", "texto": "Marco de aspectos políticos, sociales, culturales y económicos en el que ocurre un hecho." }
+        {
+          "id": "d1",
+          "texto": "Medición secuencial del tiempo en días, meses, años, décadas, siglos y milenios."
+        },
+        {
+          "id": "d2",
+          "texto": "Permite ubicar y explicar los procesos en edades, períodos o etapas."
+        },
+        {
+          "id": "d3",
+          "texto": "Conjunto de los períodos en que se divide la Historia para su estudio."
+        },
+        {
+          "id": "d4",
+          "texto": "Ciencia de los mapas; permite al historiador ubicar los hechos en el espacio."
+        },
+        {
+          "id": "d5",
+          "texto": "Principio que sostiene que varias causas generan los cambios y permanencias en todo proceso histórico."
+        },
+        {
+          "id": "d6",
+          "texto": "Marco de aspectos políticos, sociales, culturales y económicos en el que ocurre un hecho."
+        }
       ],
       "pares": [
-        { "izquierda_id": "t_cron", "derecha_id": "d1" },
-        { "izquierda_id": "t_hist", "derecha_id": "d2" },
-        { "izquierda_id": "period", "derecha_id": "d3" },
-        { "izquierda_id": "carto", "derecha_id": "d4" },
-        { "izquierda_id": "multi", "derecha_id": "d5" },
-        { "izquierda_id": "context", "derecha_id": "d6" }
+        {
+          "izquierda_id": "t_cron",
+          "derecha_id": "d1"
+        },
+        {
+          "izquierda_id": "t_hist",
+          "derecha_id": "d2"
+        },
+        {
+          "izquierda_id": "period",
+          "derecha_id": "d3"
+        },
+        {
+          "izquierda_id": "carto",
+          "derecha_id": "d4"
+        },
+        {
+          "izquierda_id": "multi",
+          "derecha_id": "d5"
+        },
+        {
+          "izquierda_id": "context",
+          "derecha_id": "d6"
+        }
       ]
     },
     {
@@ -354,15 +739,51 @@
       "tipo": "ordenar_secuencia",
       "consigna": "Ordená cronológicamente los períodos de la Historia. Usá las flechas ↑ ↓ para subir o bajar cada evento.",
       "eventos": [
-        { "id": "p1", "texto": "Prehistoria: etapa más larga. Desde el origen de la humanidad hasta la invención de la escritura.", "orden": 1 },
-        { "id": "p2", "texto": "Invención de la escritura (aproximadamente 3000 a.C.).", "orden": 2 },
-        { "id": "p3", "texto": "Edad Antigua: desde la escritura hasta la caída del Imperio Romano de Occidente (476 d.C.).", "orden": 3 },
-        { "id": "p4", "texto": "Caída del Imperio Romano de Occidente (476 d.C.).", "orden": 4 },
-        { "id": "p5", "texto": "Edad Media: desde 476 hasta la caída del Imperio Romano de Oriente (1453).", "orden": 5 },
-        { "id": "p6", "texto": "Caída del Imperio Romano de Oriente (1453).", "orden": 6 },
-        { "id": "p7", "texto": "Edad Moderna: desde 1453 hasta la Revolución Francesa (1789).", "orden": 7 },
-        { "id": "p8", "texto": "Revolución Francesa (1789).", "orden": 8 },
-        { "id": "p9", "texto": "Edad Contemporánea: desde 1789 hasta la actualidad.", "orden": 9 }
+        {
+          "id": "p1",
+          "texto": "Prehistoria: etapa más larga. Desde el origen de la humanidad hasta la invención de la escritura.",
+          "orden": 1
+        },
+        {
+          "id": "p2",
+          "texto": "Invención de la escritura.",
+          "orden": 2
+        },
+        {
+          "id": "p3",
+          "texto": "Edad Antigua: desde la escritura hasta la caída del Imperio Romano de Occidente.",
+          "orden": 3
+        },
+        {
+          "id": "p4",
+          "texto": "Caída del Imperio Romano de Occidente.",
+          "orden": 4
+        },
+        {
+          "id": "p5",
+          "texto": "Edad Media: desde 476 hasta la caída del Imperio Romano de Oriente.",
+          "orden": 5
+        },
+        {
+          "id": "p6",
+          "texto": "Caída del Imperio Romano de Oriente.",
+          "orden": 6
+        },
+        {
+          "id": "p7",
+          "texto": "Edad Moderna: desde la caída del Imperio Romano de Oriente hasta la Revolución Francesa.",
+          "orden": 7
+        },
+        {
+          "id": "p8",
+          "texto": "Revolución Francesa.",
+          "orden": 8
+        },
+        {
+          "id": "p9",
+          "texto": "Edad Contemporánea: desde la Revolución Francesa hasta la actualidad.",
+          "orden": 9
+        }
       ]
     }
   ],
@@ -449,11 +870,26 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "🦴", "texto": "Prehistoria: etapa más larga. Desde el origen de la humanidad hasta la invención de la escritura (≈3000 a.C.)." },
-                { "icono": "🏛️", "texto": "Edad Antigua: desde la invención de la escritura (3000 a.C.) hasta la caída del Imperio Romano de Occidente (476 d.C.)." },
-                { "icono": "🏰", "texto": "Edad Media: desde la caída del Imperio Romano de Occidente (476) hasta la caída del Imperio Romano de Oriente (1453)." },
-                { "icono": "🎨", "texto": "Edad Moderna: desde la caída del Imperio Romano de Oriente (1453) hasta la Revolución Francesa (1789)." },
-                { "icono": "🏭", "texto": "Edad Contemporánea: desde la Revolución Francesa (1789) hasta la actualidad." }
+                {
+                  "icono": "🦴",
+                  "texto": "Prehistoria: etapa más larga. Desde el origen de la humanidad hasta la invención de la escritura (≈3000 a.C.)."
+                },
+                {
+                  "icono": "🏛️",
+                  "texto": "Edad Antigua: desde la invención de la escritura (3000 a.C.) hasta la caída del Imperio Romano de Occidente (476 d.C.)."
+                },
+                {
+                  "icono": "🏰",
+                  "texto": "Edad Media: desde la caída del Imperio Romano de Occidente (476) hasta la caída del Imperio Romano de Oriente (1453)."
+                },
+                {
+                  "icono": "🎨",
+                  "texto": "Edad Moderna: desde la caída del Imperio Romano de Oriente (1453) hasta la Revolución Francesa (1789)."
+                },
+                {
+                  "icono": "🏭",
+                  "texto": "Edad Contemporánea: desde la Revolución Francesa (1789) hasta la actualidad."
+                }
               ]
             }
           ]
@@ -473,10 +909,22 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "📝", "texto": "Fuentes escritas: actas, diarios, cartas, registros, periódicos, entre otros." },
-                { "icono": "🏺", "texto": "Fuentes materiales: se dividen en muebles (cerámicas, herramientas, monedas, armas, vestimenta) e inmuebles (monumentos, edificios, ruinas, pirámides)." },
-                { "icono": "🎙️", "texto": "Fuentes orales: leyendas, mitos, relatos de protagonistas, entre otros." },
-                { "icono": "🎥", "texto": "Fuentes audiovisuales: pinturas, dibujos, películas, fotografías, grabaciones, entre otros." }
+                {
+                  "icono": "📝",
+                  "texto": "Fuentes escritas: actas, diarios, cartas, registros, periódicos, entre otros."
+                },
+                {
+                  "icono": "🏺",
+                  "texto": "Fuentes materiales: se dividen en muebles (cerámicas, herramientas, monedas, armas, vestimenta) e inmuebles (monumentos, edificios, ruinas, pirámides)."
+                },
+                {
+                  "icono": "🎙️",
+                  "texto": "Fuentes orales: leyendas, mitos, relatos de protagonistas, entre otros."
+                },
+                {
+                  "icono": "🎥",
+                  "texto": "Fuentes audiovisuales: pinturas, dibujos, películas, fotografías, grabaciones, entre otros."
+                }
               ]
             }
           ]
@@ -539,9 +987,18 @@
             {
               "tipo": "lista",
               "items": [
-                { "icono": "⚡", "texto": "Cambios: transformaciones en aspectos económicos, sociales, culturales, religiosos y/o políticos generadas por la acción humana." },
-                { "icono": "🏛️", "texto": "Continuidades: los cambios no significan una transformación total. En todo hecho humano hay rastros de hechos precedentes que permanecen." },
-                { "icono": "📊", "texto": "Consecuencias: todo proceso y acontecimiento histórico tiene consecuencias, es decir, efectos posteriores que son visibles con el tiempo." }
+                {
+                  "icono": "⚡",
+                  "texto": "Cambios: transformaciones en aspectos económicos, sociales, culturales, religiosos y/o políticos generadas por la acción humana."
+                },
+                {
+                  "icono": "🏛️",
+                  "texto": "Continuidades: los cambios no significan una transformación total. En todo hecho humano hay rastros de hechos precedentes que permanecen."
+                },
+                {
+                  "icono": "📊",
+                  "texto": "Consecuencias: todo proceso y acontecimiento histórico tiene consecuencias, es decir, efectos posteriores que son visibles con el tiempo."
+                }
               ]
             }
           ]
@@ -573,21 +1030,66 @@
     },
     "recordar": {
       "flashcards": [
-        { "pregunta": "¿Qué significa la palabra 'Historia' y de dónde proviene?", "respuesta": "Proviene del griego y significa 'investigación'. Hace referencia al pasado de los seres humanos y a la ciencia que lo estudia." },
-        { "pregunta": "¿Quién fue Heródoto?", "respuesta": "Un historiador griego considerado el 'padre de la Historia' por ser el primero en redactar los hechos acaecidos en el mundo antiguo." },
-        { "pregunta": "¿Cuáles son los dos elementos fundamentales para estudiar Historia?", "respuesta": "El tiempo y el espacio. El tiempo combina el tiempo cronológico y el tiempo histórico. El espacio se estudia mediante la cartografía (mapas)." },
-        { "pregunta": "¿Qué es el tiempo cronológico?", "respuesta": "La medición del tiempo secuencial en días, meses, años, décadas, siglos y milenios. Permite ubicar hechos en una fecha precisa." },
-        { "pregunta": "¿Qué es el tiempo histórico?", "respuesta": "Permite ubicar y explicar los procesos históricos en edades, períodos o etapas. El conjunto de esos períodos se llama periodización." },
-        { "pregunta": "¿Cuáles son los 5 períodos de la Historia?", "respuesta": "Prehistoria (hasta ≈3000 a.C.), Edad Antigua (3000 a.C. - 476 d.C.), Edad Media (476 - 1453), Edad Moderna (1453 - 1789) y Edad Contemporánea (1789 - actualidad)." },
-        { "pregunta": "¿Qué acontecimiento marca el fin de la Edad Antigua y el inicio de la Edad Media?", "respuesta": "La caída del Imperio Romano de Occidente en el año 476 d.C." },
-        { "pregunta": "¿Qué acontecimiento marca el fin de la Edad Moderna y el inicio de la Edad Contemporánea?", "respuesta": "La Revolución Francesa en el año 1789." },
-        { "pregunta": "¿Cuáles son los 4 tipos de fuentes históricas?", "respuesta": "1) Fuentes escritas (actas, diarios, cartas, periódicos). 2) Fuentes materiales: muebles (cerámicas, monedas) e inmuebles (monumentos, pirámides). 3) Fuentes orales (leyendas, mitos, relatos de protagonistas). 4) Fuentes audiovisuales (pinturas, películas, fotografías)." },
-        { "pregunta": "¿Qué ciencias auxiliares ayudan al trabajo del historiador? Mencioná al menos 4.", "respuesta": "Geografía, Sociología, Arqueología, Antropología, Paleontología, Política, Numismática y Economía." },
-        { "pregunta": "¿Qué estudia la Arqueología?", "respuesta": "Las sociedades antiguas a partir de los restos materiales que dejaron." },
-        { "pregunta": "¿Qué estudia la Geografía y cómo ayuda a la Historia?", "respuesta": "Estudia el espacio geográfico como resultado de la interacción entre naturaleza y sociedad. Ayuda a entender cómo el entorno influyó en las civilizaciones." },
-        { "pregunta": "¿Qué es la multicausalidad?", "respuesta": "El concepto que sostiene que son varias las causas las que generan los cambios y permanencias en todo proceso histórico. Ningún acontecimiento tiene una sola causa." },
-        { "pregunta": "¿Qué son los cambios y las continuidades?", "respuesta": "Los cambios son transformaciones en lo económico, social, cultural, religioso y/o político. Las continuidades son los elementos que permanecen, porque los cambios no implican una transformación total." },
-        { "pregunta": "¿Qué es el contexto histórico?", "respuesta": "El marco de aspectos políticos, sociales, culturales y económicos dentro del cual ocurre un hecho. Todas las acciones humanas suceden dentro de un contexto histórico." }
+        {
+          "pregunta": "¿Qué significa la palabra 'Historia' y de dónde proviene?",
+          "respuesta": "Proviene del griego y significa 'investigación'. Hace referencia al pasado de los seres humanos y a la ciencia que lo estudia."
+        },
+        {
+          "pregunta": "¿Quién fue Heródoto?",
+          "respuesta": "Un historiador griego considerado el 'padre de la Historia' por ser el primero en redactar los hechos acaecidos en el mundo antiguo."
+        },
+        {
+          "pregunta": "¿Cuáles son los dos elementos fundamentales para estudiar Historia?",
+          "respuesta": "El tiempo y el espacio. El tiempo combina el tiempo cronológico y el tiempo histórico. El espacio se estudia mediante la cartografía (mapas)."
+        },
+        {
+          "pregunta": "¿Qué es el tiempo cronológico?",
+          "respuesta": "La medición del tiempo secuencial en días, meses, años, décadas, siglos y milenios. Permite ubicar hechos en una fecha precisa."
+        },
+        {
+          "pregunta": "¿Qué es el tiempo histórico?",
+          "respuesta": "Permite ubicar y explicar los procesos históricos en edades, períodos o etapas. El conjunto de esos períodos se llama periodización."
+        },
+        {
+          "pregunta": "¿Cuáles son los 5 períodos de la Historia?",
+          "respuesta": "Prehistoria (hasta ≈3000 a.C.), Edad Antigua (3000 a.C. - 476 d.C.), Edad Media (476 - 1453), Edad Moderna (1453 - 1789) y Edad Contemporánea (1789 - actualidad)."
+        },
+        {
+          "pregunta": "¿Qué acontecimiento marca el fin de la Edad Antigua y el inicio de la Edad Media?",
+          "respuesta": "La caída del Imperio Romano de Occidente en el año 476 d.C."
+        },
+        {
+          "pregunta": "¿Qué acontecimiento marca el fin de la Edad Moderna y el inicio de la Edad Contemporánea?",
+          "respuesta": "La Revolución Francesa en el año 1789."
+        },
+        {
+          "pregunta": "¿Cuáles son los 4 tipos de fuentes históricas?",
+          "respuesta": "1) Fuentes escritas (actas, diarios, cartas, periódicos). 2) Fuentes materiales: muebles (cerámicas, monedas) e inmuebles (monumentos, pirámides). 3) Fuentes orales (leyendas, mitos, relatos de protagonistas). 4) Fuentes audiovisuales (pinturas, películas, fotografías)."
+        },
+        {
+          "pregunta": "¿Qué ciencias auxiliares ayudan al trabajo del historiador? Mencioná al menos 4.",
+          "respuesta": "Geografía, Sociología, Arqueología, Antropología, Paleontología, Política, Numismática y Economía."
+        },
+        {
+          "pregunta": "¿Qué estudia la Arqueología?",
+          "respuesta": "Las sociedades antiguas a partir de los restos materiales que dejaron."
+        },
+        {
+          "pregunta": "¿Qué estudia la Geografía y cómo ayuda a la Historia?",
+          "respuesta": "Estudia el espacio geográfico como resultado de la interacción entre naturaleza y sociedad. Ayuda a entender cómo el entorno influyó en las civilizaciones."
+        },
+        {
+          "pregunta": "¿Qué es la multicausalidad?",
+          "respuesta": "El concepto que sostiene que son varias las causas las que generan los cambios y permanencias en todo proceso histórico. Ningún acontecimiento tiene una sola causa."
+        },
+        {
+          "pregunta": "¿Qué son los cambios y las continuidades?",
+          "respuesta": "Los cambios son transformaciones en lo económico, social, cultural, religioso y/o político. Las continuidades son los elementos que permanecen, porque los cambios no implican una transformación total."
+        },
+        {
+          "pregunta": "¿Qué es el contexto histórico?",
+          "respuesta": "El marco de aspectos políticos, sociales, culturales y económicos dentro del cual ocurre un hecho. Todas las acciones humanas suceden dentro de un contexto histórico."
+        }
       ]
     },
     "practicar": {
