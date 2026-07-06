@@ -11,16 +11,16 @@
       "consigna": "¿Qué factores explican el camino hacia la Segunda Guerra Mundial según el Eje 5?",
       "opciones": [
         {
-          "id": "a",
-          "texto": "La firma del Tratado de Versalles que benefició a Alemania y la alianza entre todos los países europeos."
-        },
-        {
           "id": "b",
-          "texto": "Las duras condiciones del Tratado de Versalles, la crisis de 1929, el ascenso de regímenes fascistas y nacionalistas en Alemania e Italia, la política de apaciguamiento de Francia y Gran Bretaña, y el expansionismo japonés en Asia."
+          "texto": "Las duras condiciones del Tratado de Versalles, la crisis de 1929, el ascenso de regímenes fascistas en Alemania e Italia, la política de apaciguamiento de Francia y Gran Bretaña, y el expansionismo japonés en Asia."
         },
         {
           "id": "c",
-          "texto": "El ataque japonés a Pearl Harbor fue la única causa del inicio de la guerra."
+          "texto": "La rivalidad entre Stalin y Trotsky por el control de la URSS, que debilito al comunismo y permitio el avance aleman sobre Europa oriental sin oposicion."
+        },
+        {
+          "id": "a",
+          "texto": "La carrera armamentista naval entre Inglaterra y Alemania, la anexion de Austria por parte de Hitler y la invasión japonesa a China."
         }
       ],
       "correcta": "b"
@@ -31,16 +31,16 @@
       "consigna": "¿Cómo llegó Benito Mussolini al poder en Italia?",
       "opciones": [
         {
-          "id": "a",
-          "texto": "Ganó las elecciones democráticas de 1922 con el 80% de los votos."
-        },
-        {
           "id": "b",
-          "texto": "Mediante la Marcha sobre Roma en 1922: el Partido Nacional Fascista tomó el poder y Mussolini fue designado Primer Ministro. En 1925 inició un régimen de partido único, cerrando la cámara de legisladores y persiguiendo a opositores."
+          "texto": "Mediante la Marcha sobre Roma en 1922: el Partido Nacional Fascista tomo el poder por la fuerza y Mussolini fue designado Primer Ministro. En 1925 consolido un regimen de partido unico, cerro el parlamento y persiguio a la oposicion."
         },
         {
           "id": "c",
-          "texto": "Fue nombrado por el rey de Italia sin ninguna movilización política previa."
+          "texto": "Fue elegido por un colegio electoral de notables tras la renuncia del rey Victor Manuel III, quien abdico por presion de los industriales del norte de Italia."
+        },
+        {
+          "id": "a",
+          "texto": "Gano las elecciones democraticas de 1922 con una aplastante mayoria gracias al descontento popular con la monarquia italiana."
         }
       ],
       "correcta": "b"
@@ -51,16 +51,16 @@
       "consigna": "¿Qué medidas tomó Hitler al asumir como Canciller de Alemania en 1933?",
       "opciones": [
         {
-          "id": "a",
-          "texto": "Restauró la democracia y firmó tratados de paz con todos sus vecinos."
+          "id": "b",
+          "texto": "Comenzo a desplegar una politica expansionista para recuperar los territorios perdidos en Versalles, proclamando la necesidad del espacio vital (Lebensraum) para la raza aria y denunciando el tratado como una imposicion injusta."
         },
         {
-          "id": "b",
-          "texto": "Comenzó a desplegar una política expansionista para recuperar territorios perdidos por el Tratado de Versalles, proclamando la necesidad del 'espacio vital' y la superioridad de la 'raza aria'."
+          "id": "a",
+          "texto": "Inicio un programa de alianzas con Francia y Gran Bretana para aislar a la URSS, mientras reconstruia la economia alemana mediante acuerdos comerciales con Estados Unidos."
         },
         {
           "id": "c",
-          "texto": "Se alió inmediatamente con la Unión Soviética para invadir Polonia."
+          "texto": "Restauro la monarquia alemana y se proclamo emperador, iniciando una politica de reconciliacion con las potencias vencedoras de la Primera Guerra Mundial."
         }
       ],
       "correcta": "b"
@@ -109,18 +109,18 @@
       "opciones": [
         {
           "id": "a",
-          "texto": "El ataque japonés a Pearl Harbor el 7 de diciembre de 1941."
-        },
-        {
-          "id": "b",
           "texto": "La invasión alemana a Polonia el 1 de septiembre de 1939. Dos días después, Francia y Gran Bretaña le declararon la guerra a Alemania."
         },
         {
+          "id": "b",
+          "texto": "La firma del Pacto Tripartito entre Alemania, Italia y Japón en 1940, que formalizó la alianza militar entre las tres potencias."
+        },
+        {
           "id": "c",
-          "texto": "La firma del Pacto Tripartito entre Alemania, Italia y Japón en 1940."
+          "texto": "La anexión de Austria por parte de Alemania en 1938, que fue considerada por Gran Bretaña como una violación intolerable de la soberanía europea."
         }
       ],
-      "correcta": "b"
+      "correcta": "a"
     },
     {
       "id": "sm_blitzkrieg",
@@ -129,18 +129,18 @@
       "opciones": [
         {
           "id": "a",
-          "texto": "Consistía en una guerra defensiva, fortificando las fronteras alemanas."
+          "texto": "Consistia en la rapida conquista de los paises invadidos mediante ataques coordinados por tierra y aire, utilizando luego sus recursos para continuar el avance. Asi cayeron Noruega, Dinamarca, Holanda, Belgica y Francia en pocas semanas."
         },
         {
           "id": "b",
-          "texto": "Consistía en la rápida conquista de los países invadidos mediante ataques coordinados y sorpresivos, utilizando sus recursos para continuar el avance. Así cayeron Noruega, Dinamarca, Holanda, Bélgica y Francia."
+          "texto": "Era una estrategia de desgaste economico: Alemania bloqueaba los puertos enemigos con su flota de submarinos para cortar el suministro de alimentos y forzar la rendicion por hambre."
         },
         {
           "id": "c",
-          "texto": "Era una estrategia naval para bloquear los puertos enemigos."
+          "texto": "Consistia en negociar la rendicion pacifica de cada pais mediante amenazas diplomaticas y demostraciones de fuerza, evitando el combate directo siempre que fuera posible."
         }
       ],
-      "correcta": "b"
+      "correcta": "a"
     },
     {
       "id": "sm_1941",
@@ -148,16 +148,16 @@
       "consigna": "¿Qué hechos modificaron el curso de la guerra en 1941?",
       "opciones": [
         {
-          "id": "a",
-          "texto": "Alemania y la URSS firmaron una alianza permanente contra Estados Unidos."
+          "id": "b",
+          "texto": "Hitler invadio la URSS (Operacion Barbarroja) abriendo el frente oriental con tres millones de soldados; Japon ataco Pearl Harbor y EE.UU. ingreso a la guerra; se conformo la Gran Alianza Antifascista entre EE.UU., Gran Bretana y la URSS."
         },
         {
-          "id": "b",
-          "texto": "Hitler invadió la URSS (Operación Barbarroja) abriendo el frente oriental; Japón atacó Pearl Harbor y Estados Unidos ingresó a la guerra; se conformó la Gran Alianza Antifascista entre EE.UU., Gran Bretaña y la URSS."
+          "id": "a",
+          "texto": "Italia invadio Grecia y Alemania debio acudir en su auxilio, retrasando la invasion a la URSS y permitiendo que los sovieticos se prepararan mejor para la defensa de Moscu."
         },
         {
           "id": "c",
-          "texto": "Italia abandonó la guerra y se alió con Francia."
+          "texto": "Stalin rompio el Pacto Molotov-Ribbentrop invadiendo Alemania desde el este, tomando por sorpresa a Hitler y forzando a los nazis a luchar en dos frentes simultaneamente."
         }
       ],
       "correcta": "b"
@@ -169,18 +169,18 @@
       "opciones": [
         {
           "id": "a",
-          "texto": "Porque fue la primera batalla naval de la guerra."
-        },
-        {
-          "id": "b",
           "texto": "Porque el Ejército Rojo soviético derrotó a las fuerzas alemanas y desde allí comenzó un avance imparable que finalizó con su entrada a Berlín en 1945."
         },
         {
+          "id": "b",
+          "texto": "Porque fue la primera vez que los Aliados occidentales y los soviéticos combatieron juntos en una misma batalla, consolidando la Gran Alianza."
+        },
+        {
           "id": "c",
-          "texto": "Porque en esa batalla se usaron bombas atómicas por primera vez."
+          "texto": "Porque en esa batalla las fuerzas alemanas utilizaron por primera vez tanques pesados Tiger, que resultaron decisivos pero insuficientes por la falta de combustible."
         }
       ],
-      "correcta": "b"
+      "correcta": "a"
     },
     {
       "id": "sm_desembarco",
@@ -189,18 +189,18 @@
       "opciones": [
         {
           "id": "a",
-          "texto": "El ingreso de tropas soviéticas a Berlín para derrotar a Hitler."
+          "texto": "El desembarco de tropas aliadas (norteamericanas, canadienses y britanicas) en la costa francesa de Normandia en junio de 1944. Desde alli fueron recuperando las zonas ocupadas por los nazis, liberaron Francia y avanzaron hacia Alemania."
         },
         {
           "id": "b",
-          "texto": "El desembarco de fuerzas aliadas (norteamericanos, canadienses y británicos) en la costa francesa de Normandía, desde donde fueron recuperando las zonas ocupadas por los nazis y avanzaron hacia Alemania."
+          "texto": "La invasion de Italia por el sur a traves de Sicilia en 1943, que permitio a los Aliados tomar Roma y usar la peninsula italica como base para bombardear el sur de Alemania."
         },
         {
           "id": "c",
-          "texto": "La invasión japonesa a Hawái."
+          "texto": "El cruce del Rin por las tropas sovieticas en enero de 1945, que rodeo Berlin y forzo la rendicion alemana sin necesidad de combatir casa por casa en la capital."
         }
       ],
-      "correcta": "b"
+      "correcta": "a"
     },
     {
       "id": "sm_fin_guerra",
@@ -208,19 +208,19 @@
       "consigna": "¿Cómo finalizó la Segunda Guerra Mundial?",
       "opciones": [
         {
+          "id": "c",
+          "texto": "La muerte de Hitler en su bunker provoco que Alemania se rindiera incondicionalmente, y Japon hizo lo mismo una semana despues por temor a una invasion sovietica de sus islas desde el norte."
+        },
+        {
           "id": "a",
-          "texto": "Con la firma del Tratado de Versalles en 1945."
+          "texto": "La rendicion de Alemania tras la Batalla de Berlin en mayo de 1945, y la rendicion de Japon en septiembre de 1945 despues de que EE.UU. lanzara bombas atomicas sobre Hiroshima y Nagasaki."
         },
         {
           "id": "b",
-          "texto": "Con la rendición de Alemania tras la Batalla de Berlín y la rendición de Japón después de que EE.UU. arrojara bombas atómicas sobre Hiroshima y Nagasaki en agosto de 1945."
-        },
-        {
-          "id": "c",
-          "texto": "Con un empate entre las potencias del Eje y los Aliados."
+          "texto": "La firma del Tratado de Potsdam en julio de 1945 entre todas las potencias beligerantes, que establecio las condiciones de paz definitivas y las nuevas fronteras del continente europeo."
         }
       ],
-      "correcta": "b"
+      "correcta": "c"
     },
     {
       "id": "sm_bombas",
@@ -229,18 +229,18 @@
       "opciones": [
         {
           "id": "a",
-          "texto": "Solo afectaron a instalaciones militares sin víctimas civiles."
-        },
-        {
-          "id": "b",
           "texto": "Provocaron la muerte de aproximadamente 200.000 personas, afectaron el medio ambiente y ocasionaron graves consecuencias para la población que sufrió por muchos años los efectos de la radiación nuclear."
         },
         {
+          "id": "b",
+          "texto": "Destruyeron exclusivamente objetivos militares y no causaron víctimas civiles significativas, según los informes oficiales norteamericanos de la época."
+        },
+        {
           "id": "c",
-          "texto": "Fueron un aviso sin consecuencias reales, Japón ya se había rendido antes."
+          "texto": "Obligaron a Japón a rendirse pero también provocaron que la URSS declarara la guerra a Estados Unidos, iniciando un nuevo conflicto que duró hasta 1950."
         }
       ],
-      "correcta": "b"
+      "correcta": "a"
     },
     {
       "id": "sm_conferencias",
@@ -312,7 +312,7 @@
       "opciones": [
         {
           "id": "a",
-          "texto": "Juicios donde los nazis juzgaron a los líderes aliados por crímenes de guerra."
+          "texto": "Fueron las negociaciones de paz entre Alemania y los Aliados."
         },
         {
           "id": "b",
@@ -320,7 +320,7 @@
         },
         {
           "id": "c",
-          "texto": "Fueron las negociaciones de paz entre Alemania y los Aliados."
+          "texto": "Juicios donde los nazis juzgaron a los líderes aliados por crímenes de guerra."
         }
       ],
       "correcta": "b"
@@ -332,18 +332,18 @@
       "opciones": [
         {
           "id": "a",
-          "texto": "Perón asumió como presidente por elecciones democráticas."
+          "texto": "Los jefes del ejército realizaron un golpe de Estado y derrocaron al presidente Castillo. El nuevo gobierno militar disolvió partidos políticos, persiguió militantes e intervino las universidades."
         },
         {
           "id": "b",
-          "texto": "Los jefes del ejército realizaron un golpe de Estado y derrocaron al presidente Castillo. El nuevo gobierno militar disolvió partidos políticos, persiguió militantes e intervino las universidades."
+          "texto": "Perón asumió como presidente por elecciones democráticas."
         },
         {
           "id": "c",
           "texto": "Argentina le declaró la guerra a Alemania."
         }
       ],
-      "correcta": "b"
+      "correcta": "a"
     },
     {
       "id": "sm_medidas_peron",
@@ -352,18 +352,18 @@
       "opciones": [
         {
           "id": "a",
-          "texto": "Redujo los salarios y eliminó las vacaciones pagas para aumentar la productividad."
-        },
-        {
-          "id": "b",
           "texto": "Aguinaldo, vacaciones pagas, indemnización por despido, convenciones colectivas de trabajo, tribunales laborales, salario mínimo, Estatuto del Peón rural, extensión de la jubilación y medicina laboral."
         },
         {
+          "id": "b",
+          "texto": "Aguinaldo y vacaciones pagas, pero también flexibilización laboral para atraer inversiones extranjeras y reducción de aportes patronales."
+        },
+        {
           "id": "c",
-          "texto": "Privatizó las empresas estatales y redujo los derechos sindicales."
+          "texto": "Creación de sindicatos obligatorios controlados por el Estado, eliminación del derecho a huelga y reducción de la jornada laboral a cambio de menores salarios."
         }
       ],
-      "correcta": "b"
+      "correcta": "a"
     },
     {
       "id": "sm_17_octubre",
@@ -376,14 +376,14 @@
         },
         {
           "id": "b",
-          "texto": "Miles de trabajadores se movilizaron a la Plaza de Mayo para pedir la libertad de Perón, que había sido detenido y enviado a la isla Martín García. Las autoridades militares cedieron y Perón fue liberado, dirigiendo un discurso a las masas. Este día marcó el nacimiento del peronismo como movimiento político de masas."
+          "texto": "Se firmó la declaración de guerra de Argentina contra las potencias del Eje."
         },
         {
           "id": "c",
-          "texto": "Se firmó la declaración de guerra de Argentina contra las potencias del Eje."
+          "texto": "Miles de trabajadores se movilizaron a la Plaza de Mayo para pedir la libertad de Perón, que había sido detenido y enviado a la isla Martín García. Las autoridades militares cedieron y Perón fue liberado, dirigiendo un discurso a las masas. Este día marcó el nacimiento del peronismo como movimiento político de masas."
         }
       ],
-      "correcta": "b"
+      "correcta": "c"
     },
     {
       "id": "vf_argentina_5",
