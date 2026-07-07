@@ -187,6 +187,11 @@ export default function Completar({
           ) : (
             ej.items.map((it, i) => (
             <div key={it.id}>
+              {"imagen" in it && (it as any).imagen && (
+                <div className="mb-2">
+                  <img src={(it as any).imagen} alt={it.pregunta} className="max-w-full rounded-lg border border-borde" style={{ maxHeight: "300px" }} />
+                </div>
+              )}
               <p className="text-sm text-grafito mb-1.5">{it.pregunta}</p>
 
               {"figura2" in ej && ej.figura2 && i === 0 && (
