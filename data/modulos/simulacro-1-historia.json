@@ -25,59 +25,16 @@
       ]
     },
     {
-      "id": "anios-dorados-a",
-      "tipo": "seleccion_multiple",
-      "consigna": "EJERCICIO Nº 2 - LOS AÑOS DORADOS\na. Durante la década de 1920, la economía norteamericana se encontraba:",
-      "opciones": [
-        { "id": "a", "texto": "En pleno desarrollo" },
-        { "id": "b", "texto": "En pleno estancamiento" },
-        { "id": "c", "texto": "En plena decadencia" }
-      ],
-      "correcta": "a"
-    },
-    {
-      "id": "anios-dorados-b",
-      "tipo": "seleccion_multiple",
-      "consigna": "EJERCICIO Nº 2 - LOS AÑOS DORADOS\nb. Por esos años, la industria norteamericana se amplió y consolidó. Una de las ramas de mayor crecimiento fue:",
-      "opciones": [
-        { "id": "a", "texto": "La fabricación de alimentos y bebidas" },
-        { "id": "b", "texto": "La fabricación de automóviles y electrodomésticos" },
-        { "id": "c", "texto": "La fabricación de textiles e hilados" }
-      ],
-      "correcta": "b"
-    },
-    {
-      "id": "anios-dorados-c",
-      "tipo": "seleccion_multiple",
-      "consigna": "EJERCICIO Nº 2 - LOS AÑOS DORADOS\nc. Durante los \"años dorados\", los principales centros financieros del mundo se ubicaron en:",
-      "opciones": [
-        { "id": "a", "texto": "Francia" },
-        { "id": "b", "texto": "Alemania" },
-        { "id": "c", "texto": "Estados Unidos" }
-      ],
-      "correcta": "c"
-    },
-    {
-      "id": "anios-dorados-d",
-      "tipo": "seleccion_multiple",
-      "consigna": "EJERCICIO Nº 2 - LOS AÑOS DORADOS\nd. El poder adquisitivo de la población norteamericana era:",
-      "opciones": [
-        { "id": "a", "texto": "Más alto que en otros países desarrollados" },
-        { "id": "b", "texto": "Más bajo que en otros países desarrollados" },
-        { "id": "c", "texto": "Igual que en otros países desarrollados" }
-      ],
-      "correcta": "a"
-    },
-    {
-      "id": "anios-dorados-e",
-      "tipo": "seleccion_multiple",
-      "consigna": "EJERCICIO Nº 2 - LOS AÑOS DORADOS\ne. El desarrollo del consumo se favoreció por:",
-      "opciones": [
-        { "id": "a", "texto": "Elevados precios de los productos" },
-        { "id": "b", "texto": "Venta con créditos, cuotas y publicidad" },
-        { "id": "c", "texto": "Bajos salarios" }
-      ],
-      "correcta": "b"
+      "id": "anios-dorados",
+      "tipo": "completar",
+      "consigna": "EJERCICIO Nº 2 - LOS AÑOS DORADOS\nSeleccioná la opción correcta para cada pregunta.",
+      "items": [
+        { "id": "ad_a", "subtipo": "select", "pregunta": "a. Durante la década de 1920, la economía norteamericana se encontraba:", "opciones": ["En pleno desarrollo", "En pleno estancamiento", "En plena decadencia"], "respuesta": "En pleno desarrollo" },
+        { "id": "ad_b", "subtipo": "select", "pregunta": "b. Por esos años, la industria norteamericana se amplió y consolidó. Una de las ramas de mayor crecimiento fue:", "opciones": ["La fabricación de alimentos y bebidas", "La fabricación de automóviles y electrodomésticos", "La fabricación de textiles e hilados"], "respuesta": "La fabricación de automóviles y electrodomésticos" },
+        { "id": "ad_c", "subtipo": "select", "pregunta": "c. Durante los \"años dorados\", los principales centros financieros del mundo se ubicaron en:", "opciones": ["Francia", "Alemania", "Estados Unidos"], "respuesta": "Estados Unidos" },
+        { "id": "ad_d", "subtipo": "select", "pregunta": "d. El poder adquisitivo de la población norteamericana era:", "opciones": ["Más alto que en otros países desarrollados", "Más bajo que en otros países desarrollados", "Igual que en otros países desarrollados"], "respuesta": "Más alto que en otros países desarrollados" },
+        { "id": "ad_e", "subtipo": "select", "pregunta": "e. El desarrollo del consumo se favoreció por:", "opciones": ["Elevados precios de los productos", "Venta con créditos, cuotas y publicidad", "Bajos salarios"], "respuesta": "Venta con créditos, cuotas y publicidad" }
+      ]
     },
     {
       "id": "gran-depresion-vf",
@@ -95,18 +52,19 @@
     {
       "id": "gran-depresion-completar",
       "tipo": "completar",
-      "consigna": "EJERCICIO Nº 3 - LA GRAN DEPRESIÓN\nParte 2: Completá los espacios punteados del texto seleccionando el número del enunciado que corresponde.\n\nEnunciados:\n1. Subsidios y créditos al sector industrial y agrario.\n2. Se extendió y agudizó.\n3. Gran depresión.\n4. Intervención del Estado en materia económica y social.\n5. No funcionaban.\n6. La reelección.\n7. Seguro de desempleo.\n8. La reactivación económica y generación de empleo.\n9. Liberalismo económico.\n10. New Deal.",
+      "consigna": "EJERCICIO Nº 3 - LA GRAN DEPRESIÓN\nParte 2: Completá los espacios punteados del texto seleccionando el número del enunciado que corresponde.\n\n1. Subsidios y créditos al sector industrial y agrario.\n2. Se extendió y agudizó.\n3. Gran depresión.\n4. Intervención del Estado en materia económica y social.\n5. No funcionaban.\n6. La reelección.\n7. Seguro de desempleo.\n8. La reactivación económica y generación de empleo.\n9. Liberalismo económico.\n10. New Deal.",
+      "texto": "La gran depresión de 1930 {gd_f1} debido a que las políticas económicas implementadas para la recuperación {gd_f2}. En 1933, la llegada a la presidencia de EE.UU. de Franklin Roosevelt significó un profundo cambio. Para hacer frente a la crisis, implementó un programa conocido como {gd_f3}. Su principal objetivo era {gd_f4}. Roosevelt abandonó las políticas del {gd_f5} impulsando la {gd_f6}. Algunas de las medidas de su programa fueron: {gd_f7}, realización de obras públicas, barreras arancelarias y la creación de un {gd_f8}. Si recibió críticas, su implementación logró el mejoramiento de la situación económica y social de EE.UU. El país había salido de la {gd_f9} y la buena gestión de Roosevelt le valió {gd_f10} en las siguientes elecciones presidenciales.",
       "items": [
-        { "id": "gd_f1", "subtipo": "select", "pregunta": "\"La gran depresión de 1930 _______ debido a las políticas económicas implementadas para la recuperación...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "2" },
-        { "id": "gd_f2", "subtipo": "select", "pregunta": "\"...las políticas económicas implementadas para la recuperación _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "5" },
-        { "id": "gd_f3", "subtipo": "select", "pregunta": "\"...implementó un programa conocido como _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "10" },
-        { "id": "gd_f4", "subtipo": "select", "pregunta": "\"Su principal objetivo era _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "8" },
-        { "id": "gd_f5", "subtipo": "select", "pregunta": "\"Roosevelt abandonó las políticas del _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "9" },
-        { "id": "gd_f6", "subtipo": "select", "pregunta": "\"...impulsando la _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "4" },
-        { "id": "gd_f7", "subtipo": "select", "pregunta": "\"Algunas de las medidas de su programa fueron: _______, realización de obras públicas...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "1" },
-        { "id": "gd_f8", "subtipo": "select", "pregunta": "\"...barreras arancelarias y la creación de un _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "7" },
-        { "id": "gd_f9", "subtipo": "select", "pregunta": "\"El país había salido de la _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "3" },
-        { "id": "gd_f10", "subtipo": "select", "pregunta": "\"...la buena gestión de Roosevelt le valió _______ en las siguientes elecciones presidenciales.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "6" }
+        { "id": "gd_f1", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "2" },
+        { "id": "gd_f2", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "5" },
+        { "id": "gd_f3", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "10" },
+        { "id": "gd_f4", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "8" },
+        { "id": "gd_f5", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "9" },
+        { "id": "gd_f6", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "4" },
+        { "id": "gd_f7", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "1" },
+        { "id": "gd_f8", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "7" },
+        { "id": "gd_f9", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "3" },
+        { "id": "gd_f10", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "6" }
       ]
     },
     {
@@ -167,24 +125,25 @@
     {
       "id": "plan-marshall-completar",
       "tipo": "completar",
-      "consigna": "EJERCICIO Nº 6 - SEGUNDA GUERRA MUNDIAL\nParte 3: Completá las palabras o frases faltantes seleccionando el número que corresponde.\n\nEnunciados:\n1. Socialismo\n2. Plan Marshall\n3. Maquinarias y vehículos\n4. Bloque\n5. Ayuda\n6. Europa\n7. Mercaderías\n8. Rechazó\n9. Grave crisis\n10. Economías europeas\n11. Créditos a bajo interés\n12. Barrera\n13. Comerciales\n14. Guerra\n15. Estadounidenses\n16. COMECON",
+      "consigna": "EJERCICIO Nº 6 - SEGUNDA GUERRA MUNDIAL\nParte 3: Completá las palabras o frases faltantes seleccionando el número que corresponde.\n\n1. Socialismo  2. Plan Marshall  3. Maquinarias y vehículos  4. Bloque  5. Ayuda  6. Europa  7. Mercaderías  8. Rechazó  9. Grave crisis  10. Economías europeas  11. Créditos a bajo interés  12. Barrera  13. Comerciales  14. Guerra  15. Estadounidenses  16. COMECON",
+      "texto": "En 1947, el secretario de Estado norteamericano propuso un proyecto de {pm1} para recomponer las {pm2} arrasadas por la {pm3}. El plan fue conocido como {pm4} y fue ofrecido a toda {pm5}. Entre los objetivos económicos del plan se pueden mencionar: reactivar las industrias con el otorgamiento de {pm6} y entrega de {pm7} (alimentos, combustibles, materias primas industriales, {pm8}). Superar la {pm9} económica y social en los estados europeos y formar una {pm10} para frenar el avance del {pm11} en Europa Occidental. Asegurarse los mercados europeos para los productos {pm12}. La URSS {pm13} este programa de ayuda para sí y para todos los países que quedaban bajo su órbita. La alternativa soviética frente al Plan Marshall fue el {pm14}, con el objetivo de fomentar las relaciones {pm15} entre los países que conformaban el {pm16} comunista.",
       "items": [
-        { "id": "pm1", "subtipo": "select", "pregunta": "1. \"En 1947, el secretario de Estado norteamericano propuso un proyecto de _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "5" },
-        { "id": "pm2", "subtipo": "select", "pregunta": "2. \"...para recomponer las _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "10" },
-        { "id": "pm3", "subtipo": "select", "pregunta": "3. \"...arrasadas por la _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "14" },
-        { "id": "pm4", "subtipo": "select", "pregunta": "4. \"El plan fue conocido como _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "2" },
-        { "id": "pm5", "subtipo": "select", "pregunta": "5. \"...y fue ofrecido a toda _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "6" },
-        { "id": "pm6", "subtipo": "select", "pregunta": "6. \"...reactivar las industrias con el otorgamiento de _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "11" },
-        { "id": "pm7", "subtipo": "select", "pregunta": "7. \"...y entrega de _______ (alimentos, combustibles, materias primas industriales, ...)\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "7" },
-        { "id": "pm8", "subtipo": "select", "pregunta": "8. \"...(alimentos, combustibles, materias primas industriales, _______).\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "3" },
-        { "id": "pm9", "subtipo": "select", "pregunta": "9. \"Superar la _______ económica y social en los estados europeos...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "9" },
-        { "id": "pm10", "subtipo": "select", "pregunta": "10. \"...y formar una _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "12" },
-        { "id": "pm11", "subtipo": "select", "pregunta": "11. \"...para frenar el avance del _______ en Europa Occidental.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "1" },
-        { "id": "pm12", "subtipo": "select", "pregunta": "12. \"Asegurarse los mercados europeos para los productos _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "15" },
-        { "id": "pm13", "subtipo": "select", "pregunta": "13. \"La URSS _______ este programa de ayuda para sí y para todos los países que quedaban bajo su órbita.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "8" },
-        { "id": "pm14", "subtipo": "select", "pregunta": "14. \"La alternativa soviética frente al Plan Marshall fue el _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "16" },
-        { "id": "pm15", "subtipo": "select", "pregunta": "15. \"...con el objetivo de fomentar las relaciones _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "13" },
-        { "id": "pm16", "subtipo": "select", "pregunta": "16. \"...entre los países que conformaban el _______ comunista.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "4" }
+        { "id": "pm1", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "5" },
+        { "id": "pm2", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "10" },
+        { "id": "pm3", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "14" },
+        { "id": "pm4", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "2" },
+        { "id": "pm5", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "6" },
+        { "id": "pm6", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "11" },
+        { "id": "pm7", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "7" },
+        { "id": "pm8", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "3" },
+        { "id": "pm9", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "9" },
+        { "id": "pm10", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "12" },
+        { "id": "pm11", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "1" },
+        { "id": "pm12", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "15" },
+        { "id": "pm13", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "8" },
+        { "id": "pm14", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "16" },
+        { "id": "pm15", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "13" },
+        { "id": "pm16", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "4" }
       ]
     },
     {

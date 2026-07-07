@@ -143,6 +143,7 @@ export type ReescrituraNormativa = EjercicioBase & {
 
 export type Completar = EjercicioBase & {
   tipo: "completar";
+  texto?: string;
   items: {
     id: string;
     subtipo: "texto" | "select";
