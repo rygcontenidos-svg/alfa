@@ -1,0 +1,243 @@
+{
+  "id": "simulacro-1-historia",
+  "materia": "historia",
+  "titulo": "Simulacro 1: Ejes 4, 5 y 6",
+  "descripcion": "Simulacro integrador de Historia (BACP) que abarca: Primera Guerra Mundial, Años Dorados, Gran Depresión, Revolución Rusa, Argentina entre 1880 y 1930, Segunda Guerra Mundial, Holocausto, Guerra Fría y Argentina entre 1938 y 1945.",
+  "tipo": "simulacro",
+  "duracion_min": 90,
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "acrostico-pgm",
+      "tipo": "completar",
+      "consigna": "EJERCICIO Nº 1 - PRIMERA GUERRA MUNDIAL\nResuelve el acróstico. Escribí la palabra completa que corresponde a cada letra de la palabra \"GRAN GUERRA\".",
+      "items": [
+        { "id": "g1", "subtipo": "texto", "pregunta": "G. Potencia marítima integrante de la Triple Entente.", "respuesta": "Gran Bretaña" },
+        { "id": "r1", "subtipo": "texto", "pregunta": "R. Denominación del período que va desde 1871 a 1914.", "respuesta": "Paz Armada" },
+        { "id": "a1", "subtipo": "texto", "pregunta": "A. Región compuesta por naciones eslavas aliadas con Rusia.", "respuesta": "Balcanes" },
+        { "id": "n1", "subtipo": "texto", "pregunta": "N. Triple pacto conformado por Gran Bretaña, Francia y Rusia, al que se sumó EE.UU. en 1917.", "respuesta": "Entente" },
+        { "id": "g2", "subtipo": "texto", "pregunta": "G. Poder ejercido por un Estado o pueblo sobre otro considerado inferior.", "respuesta": "Hegemonía" },
+        { "id": "u1", "subtipo": "texto", "pregunta": "U. País que se retiró de la Gran Guerra en 1917.", "respuesta": "Rusia" },
+        { "id": "e1", "subtipo": "texto", "pregunta": "E. Ciudad de los Balcanes en la que fue asesinado el heredero al trono austrohúngaro Francisco Fernando en 1914.", "respuesta": "Sarajevo" },
+        { "id": "r2", "subtipo": "texto", "pregunta": "R. Acuerdo que firman los países enfrentados en un conflicto bélico cuando deciden dejar de luchar.", "respuesta": "Armisticio" },
+        { "id": "r3", "subtipo": "texto", "pregunta": "R. Líneas de miles de kilómetros cavadas en la tierra en donde se ubicaban los soldados.", "respuesta": "Trincheras" },
+        { "id": "a2", "subtipo": "texto", "pregunta": "A. País asiático que se involucró en la Primera Guerra Mundial.", "respuesta": "Japón" }
+      ]
+    },
+    {
+      "id": "anios-dorados-a",
+      "tipo": "seleccion_multiple",
+      "consigna": "EJERCICIO Nº 2 - LOS AÑOS DORADOS\na. Durante la década de 1920, la economía norteamericana se encontraba:",
+      "opciones": [
+        { "id": "a", "texto": "En pleno desarrollo" },
+        { "id": "b", "texto": "En pleno estancamiento" },
+        { "id": "c", "texto": "En plena decadencia" }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "anios-dorados-b",
+      "tipo": "seleccion_multiple",
+      "consigna": "EJERCICIO Nº 2 - LOS AÑOS DORADOS\nb. Por esos años, la industria norteamericana se amplió y consolidó. Una de las ramas de mayor crecimiento fue:",
+      "opciones": [
+        { "id": "a", "texto": "La fabricación de alimentos y bebidas" },
+        { "id": "b", "texto": "La fabricación de automóviles y electrodomésticos" },
+        { "id": "c", "texto": "La fabricación de textiles e hilados" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "anios-dorados-c",
+      "tipo": "seleccion_multiple",
+      "consigna": "EJERCICIO Nº 2 - LOS AÑOS DORADOS\nc. Durante los \"años dorados\", los principales centros financieros del mundo se ubicaron en:",
+      "opciones": [
+        { "id": "a", "texto": "Francia" },
+        { "id": "b", "texto": "Alemania" },
+        { "id": "c", "texto": "Estados Unidos" }
+      ],
+      "correcta": "c"
+    },
+    {
+      "id": "anios-dorados-d",
+      "tipo": "seleccion_multiple",
+      "consigna": "EJERCICIO Nº 2 - LOS AÑOS DORADOS\nd. El poder adquisitivo de la población norteamericana era:",
+      "opciones": [
+        { "id": "a", "texto": "Más alto que en otros países desarrollados" },
+        { "id": "b", "texto": "Más bajo que en otros países desarrollados" },
+        { "id": "c", "texto": "Igual que en otros países desarrollados" }
+      ],
+      "correcta": "a"
+    },
+    {
+      "id": "anios-dorados-e",
+      "tipo": "seleccion_multiple",
+      "consigna": "EJERCICIO Nº 2 - LOS AÑOS DORADOS\ne. El desarrollo del consumo se favoreció por:",
+      "opciones": [
+        { "id": "a", "texto": "Elevados precios de los productos" },
+        { "id": "b", "texto": "Venta con créditos, cuotas y publicidad" },
+        { "id": "c", "texto": "Bajos salarios" }
+      ],
+      "correcta": "b"
+    },
+    {
+      "id": "gran-depresion-vf",
+      "tipo": "verdadero_falso",
+      "consigna": "EJERCICIO Nº 3 - LA GRAN DEPRESIÓN\nParte 1: Señalá si las siguientes afirmaciones son Correctas (C) o Incorrectas (I).",
+      "labels": { "verdadero": "C", "falso": "I" },
+      "items": [
+        { "id": "gd_a", "afirmacion": "A comienzos de 1929, la gente dejó de comprar tantos autos y electrodomésticos porque estos productos eran muy duraderos y no necesitaban ser reemplazados rápido.", "respuesta": true },
+        { "id": "gd_b", "afirmacion": "El sector agrícola vivía una época de gran prosperidad y todos los agricultores ganaban mucho dinero con sus tierras.", "respuesta": false },
+        { "id": "gd_c", "afirmacion": "Los bancos daban créditos y préstamos de manera muy fácil y sin pedir demasiadas condiciones a las personas.", "respuesta": true },
+        { "id": "gd_d", "afirmacion": "Nadie utilizaba los préstamos del banco para comprar acciones en la Bolsa, ya que solo se usaban para comprar comida.", "respuesta": false },
+        { "id": "gd_e", "afirmacion": "La especulación con las acciones de la Bolsa de Wall Street fue uno de los factores que desencadenó el \"crack\" de 1929.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "gran-depresion-completar",
+      "tipo": "completar",
+      "consigna": "EJERCICIO Nº 3 - LA GRAN DEPRESIÓN\nParte 2: Completá los espacios punteados del texto seleccionando el número del enunciado que corresponde.\n\nEnunciados:\n1. Subsidios y créditos al sector industrial y agrario.\n2. Se extendió y agudizó.\n3. Gran depresión.\n4. Intervención del Estado en materia económica y social.\n5. No funcionaban.\n6. La reelección.\n7. Seguro de desempleo.\n8. La reactivación económica y generación de empleo.\n9. Liberalismo económico.\n10. New Deal.",
+      "items": [
+        { "id": "gd_f1", "subtipo": "select", "pregunta": "\"La gran depresión de 1930 _______ debido a las políticas económicas implementadas para la recuperación...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "2" },
+        { "id": "gd_f2", "subtipo": "select", "pregunta": "\"...las políticas económicas implementadas para la recuperación _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "5" },
+        { "id": "gd_f3", "subtipo": "select", "pregunta": "\"...implementó un programa conocido como _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "10" },
+        { "id": "gd_f4", "subtipo": "select", "pregunta": "\"Su principal objetivo era _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "8" },
+        { "id": "gd_f5", "subtipo": "select", "pregunta": "\"Roosevelt abandonó las políticas del _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "9" },
+        { "id": "gd_f6", "subtipo": "select", "pregunta": "\"...impulsando la _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "4" },
+        { "id": "gd_f7", "subtipo": "select", "pregunta": "\"Algunas de las medidas de su programa fueron: _______, realización de obras públicas...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "1" },
+        { "id": "gd_f8", "subtipo": "select", "pregunta": "\"...barreras arancelarias y la creación de un _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "7" },
+        { "id": "gd_f9", "subtipo": "select", "pregunta": "\"El país había salido de la _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "3" },
+        { "id": "gd_f10", "subtipo": "select", "pregunta": "\"...la buena gestión de Roosevelt le valió _______ en las siguientes elecciones presidenciales.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "6" }
+      ]
+    },
+    {
+      "id": "revolucion-rusa-cuadro",
+      "tipo": "completar_cuadro",
+      "consigna": "EJERCICIO Nº 4 - LA REVOLUCIÓN RUSA\nUbicá en el cuadro los acontecimientos que correspondan a los años indicados.",
+      "columnas": ["1898", "1903", "1905", "1917"],
+      "filas": [
+        { "id": "rr1", "celdas": ["Fundación del Partido Obrero Social Demócrata Ruso", "División del Partido Obrero en mencheviques y bolcheviques", "Represión del gobierno zarista conocido como \"Domingo Sangriento\". Formación de los soviets", "Lenin lleva al poder al Partido Bolchevique. Inicio del Estado Socialista. El zar Nicolás II abdica al trono. \"Todo el poder a los soviets\". \"Pan y Paz\""] }
+      ]
+    },
+    {
+      "id": "argentina-1880-cuadro",
+      "tipo": "completar_cuadro",
+      "consigna": "EJERCICIO Nº 5 - ARGENTINA ENTRE 1880 y 1930\nTranscribí en el cuadro los siguientes hechos y/o acontecimientos de acuerdo al período que correspondan.",
+      "columnas": ["Período Histórico", "Hechos / Acontecimientos"],
+      "filas": [
+        { "id": "ar_olig", "celdas": ["Período oligárquico (1880-1916)", "En 1880 se impuso como presidente de la Nación el Gral. Roca. La Argentina se inserta en el mercado mundial como productor de materias primas y alimentos. Políticas inmigratorias. Fraude electoral. Crisis del régimen oligárquico y ampliación de la democracia."] },
+        { "id": "ar_1912", "celdas": ["1912", "Sanción de la ley electoral conocida como Ley Sáenz Peña."] },
+        { "id": "ar_yrig1", "celdas": ["Primera presidencia de Yrigoyen (1916-1922)", "Caída de las exportaciones debido a los efectos de la Primera Guerra Mundial. Reforma Universitaria. Neutralidad frente a la Primera Guerra Mundial."] },
+        { "id": "ar_alv", "celdas": ["Presidencia de Alvear (1922-1928)", "Personalistas y antipersonalistas. Incremento de inversiones extranjeras no orientadas al modelo agroexportador. Regulación del trabajo infantil y femenino."] },
+        { "id": "ar_yrig2", "celdas": ["Segunda presidencia de Yrigoyen (1928-1930)", "Caída de la Bolsa de Wall Street. Primer golpe militar."] }
+      ]
+    },
+    {
+      "id": "sgm-ordenar",
+      "tipo": "ordenar_secuencia",
+      "consigna": "EJERCICIO Nº 6 - SEGUNDA GUERRA MUNDIAL\nParte 1: Ordená cronológicamente los siguientes hechos. Usá 1 para el más antiguo y 11 para el más reciente.",
+      "eventos": [
+        { "id": "sgm1", "texto": "Hitler proclamó su discurso antisemita y la superioridad de la raza aria (1920)", "orden": 1 },
+        { "id": "sgm2", "texto": "Marcha sobre Roma liderada por Mussolini (1922)", "orden": 2 },
+        { "id": "sgm3", "texto": "Hitler accede al cargo de Canciller de Alemania (1933)", "orden": 3 },
+        { "id": "sgm4", "texto": "Leyes de Nuremberg (1935)", "orden": 4 },
+        { "id": "sgm5", "texto": "Golpe de Estado en España contra el gobierno republicano (1936)", "orden": 5 },
+        { "id": "sgm6", "texto": "Noche de los cristales rotos (1938)", "orden": 6 },
+        { "id": "sgm7", "texto": "Triunfo del General Francisco Franco en España (1939)", "orden": 7 },
+        { "id": "sgm8", "texto": "Stalin ocupa las repúblicas de Estonia, Lituania y Letonia (1940)", "orden": 8 },
+        { "id": "sgm9", "texto": "Desembarco en Normandía (1944)", "orden": 9 },
+        { "id": "sgm10", "texto": "Conferencia de Yalta (1945)", "orden": 10 },
+        { "id": "sgm11", "texto": "Juicios de Nuremberg (1945-1946)", "orden": 11 }
+      ]
+    },
+    {
+      "id": "holocausto-preguntas",
+      "tipo": "completar",
+      "consigna": "EJERCICIO Nº 6 - SEGUNDA GUERRA MUNDIAL\nParte 2: Leé el siguiente fragmento sobre el Holocausto y respondé las preguntas.\n\n\"Desde que empezó a difundir sus ideas políticas en pequeñas reuniones a inicios de la década de 1920, Adolf Hitler proclamó su odio hacia el pueblo judío, basado en biologicismo racial que proclamaba la superioridad de la 'raza aria'. A partir de 1933, cuando asumió como Canciller de Alemania, comenzó a poner en práctica sus ideas a través de medidas de gobierno cada vez más agresivas contra la comunidad judía, que también eran ciudadanos alemanes. Además de construir al pueblo judío como 'enemigo de la nación alemana', el nazismo tuvo como blanco de sus ataques a otras comunidades y grupos de opositores, principalmente comunistas, gitanos, homosexuales y personas con discapacidad.\"",
+      "items": [
+        { "id": "hol1", "subtipo": "texto", "pregunta": "1. ¿En qué consistía el \"biologicismo racista\" que caracterizaba las ideas políticas de Adolf Hitler?", "respuesta": "Teoría racista que proclamaba la superioridad de la raza aria" },
+        { "id": "hol2", "subtipo": "texto", "pregunta": "2. ¿Qué eran las SA?", "respuesta": "Grupos callejeros, de combate callejero del partido nazi" },
+        { "id": "hol3", "subtipo": "texto", "pregunta": "3. ¿Cuál fue el rol que tuvieron las medidas antisemitas tomadas por Hitler a partir de 1933?", "respuesta": "Agredir a los judíos, expropiar sus bienes hasta considerarlos 'enemigos de la nación alemana'" },
+        { "id": "hol4", "subtipo": "texto", "pregunta": "4. ¿Qué otras comunidades y grupos políticos fueron víctimas de los ataques nazis durante el gobierno de Hitler?", "respuesta": "Comunistas, gitanos, homosexuales y personas con discapacidad" },
+        { "id": "hol5", "subtipo": "texto", "pregunta": "5. ¿A qué se llamó la \"solución final\" y cuál fue su consecuencia?", "respuesta": "Asesinar de manera masiva y rápida a judíos en cámaras de gas. La consecuencia fue el asesinato de miles de judíos" }
+      ]
+    },
+    {
+      "id": "plan-marshall-completar",
+      "tipo": "completar",
+      "consigna": "EJERCICIO Nº 6 - SEGUNDA GUERRA MUNDIAL\nParte 3: Completá las palabras o frases faltantes seleccionando el número que corresponde.\n\nEnunciados:\n1. Socialismo\n2. Plan Marshall\n3. Maquinarias y vehículos\n4. Bloque\n5. Ayuda\n6. Europa\n7. Mercaderías\n8. Rechazó\n9. Grave crisis\n10. Economías europeas\n11. Créditos a bajo interés\n12. Barrera\n13. Comerciales\n14. Guerra\n15. Estadounidenses\n16. COMECON",
+      "items": [
+        { "id": "pm1", "subtipo": "select", "pregunta": "1. \"En 1947, el secretario de Estado norteamericano propuso un proyecto de _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "5" },
+        { "id": "pm2", "subtipo": "select", "pregunta": "2. \"...para recomponer las _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "10" },
+        { "id": "pm3", "subtipo": "select", "pregunta": "3. \"...arrasadas por la _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "14" },
+        { "id": "pm4", "subtipo": "select", "pregunta": "4. \"El plan fue conocido como _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "2" },
+        { "id": "pm5", "subtipo": "select", "pregunta": "5. \"...y fue ofrecido a toda _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "6" },
+        { "id": "pm6", "subtipo": "select", "pregunta": "6. \"...reactivar las industrias con el otorgamiento de _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "11" },
+        { "id": "pm7", "subtipo": "select", "pregunta": "7. \"...y entrega de _______ (alimentos, combustibles, materias primas industriales, ...)\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "7" },
+        { "id": "pm8", "subtipo": "select", "pregunta": "8. \"...(alimentos, combustibles, materias primas industriales, _______).\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "3" },
+        { "id": "pm9", "subtipo": "select", "pregunta": "9. \"Superar la _______ económica y social en los estados europeos...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "9" },
+        { "id": "pm10", "subtipo": "select", "pregunta": "10. \"...y formar una _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "12" },
+        { "id": "pm11", "subtipo": "select", "pregunta": "11. \"...para frenar el avance del _______ en Europa Occidental.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "1" },
+        { "id": "pm12", "subtipo": "select", "pregunta": "12. \"Asegurarse los mercados europeos para los productos _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "15" },
+        { "id": "pm13", "subtipo": "select", "pregunta": "13. \"La URSS _______ este programa de ayuda para sí y para todos los países que quedaban bajo su órbita.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "8" },
+        { "id": "pm14", "subtipo": "select", "pregunta": "14. \"La alternativa soviética frente al Plan Marshall fue el _______.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "16" },
+        { "id": "pm15", "subtipo": "select", "pregunta": "15. \"...con el objetivo de fomentar las relaciones _______...\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "13" },
+        { "id": "pm16", "subtipo": "select", "pregunta": "16. \"...entre los países que conformaban el _______ comunista.\"", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "4" }
+      ]
+    },
+    {
+      "id": "muro-berlin-vf",
+      "tipo": "verdadero_falso",
+      "consigna": "EJERCICIO Nº 6 - SEGUNDA GUERRA MUNDIAL\nParte 4: Señalá si las siguientes afirmaciones sobre el Muro de Berlín son Correctas (C) o Incorrectas (I).",
+      "labels": { "verdadero": "C", "falso": "I" },
+      "items": [
+        { "id": "mb_a", "afirmacion": "Para evitar las fugas, el gobierno de la República Democrática Alemana decidió levantar un muro que separa la libre circulación en las dos zonas de Berlín.", "respuesta": true },
+        { "id": "mb_b", "afirmacion": "El muro de Berlín fue construido en agosto de 1962.", "respuesta": false, "correccion": "El Muro de Berlín fue construido en agosto de 1961." },
+        { "id": "mb_c", "afirmacion": "La construcción del muro de Berlín no interrumpió el transporte público entre las dos zonas de la ciudad.", "respuesta": false },
+        { "id": "mb_d", "afirmacion": "El Muro de Berlín fue el símbolo de la Guerra Fría que separaba el capitalismo liderado por EE.UU. y el comunismo liderado por la URSS.", "respuesta": true },
+        { "id": "mb_e", "afirmacion": "Entre 1950 y 1960 el sector occidental de Berlín vivió un despegue económico.", "respuesta": true },
+        { "id": "mb_f", "afirmacion": "Alrededor de 200 personas murieron tratando de cruzar el Muro de Berlín.", "respuesta": true },
+        { "id": "mb_g", "afirmacion": "El Muro de Berlín era una zona neutral.", "respuesta": false },
+        { "id": "mb_h", "afirmacion": "En 1989, ante las protestas de los ciudadanos alemanes, el gobierno de la República Democrática levantó las restricciones para los viajes hacia Berlín occidental.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "argentina-1938-ordenar",
+      "tipo": "ordenar_secuencia",
+      "consigna": "EJERCICIO Nº 7 - ARGENTINA ENTRE 1938 Y 1945\nParte 1: Ordená cronológicamente los siguientes hechos y presidentes. Comenzá por el más antiguo.",
+      "eventos": [
+        { "id": "ar71", "texto": "Presidente Julio Argentino Roca (1880-1886)", "orden": 1 },
+        { "id": "ar72", "texto": "Surgimiento del radicalismo (1890)", "orden": 2 },
+        { "id": "ar73", "texto": "Presidente Roque Sáenz Peña (1912)", "orden": 3 },
+        { "id": "ar74", "texto": "Primera presidencia de Hipólito Yrigoyen (1916-1922)", "orden": 4 },
+        { "id": "ar75", "texto": "Reforma universitaria (1918)", "orden": 5 },
+        { "id": "ar76", "texto": "Presidencia de Marcelo Torcuato de Alvear (1922-1928)", "orden": 6 },
+        { "id": "ar77", "texto": "Golpe de Estado de 1930", "orden": 7 },
+        { "id": "ar78", "texto": "Golpe de Estado dado por el GOU (1943)", "orden": 8 },
+        { "id": "ar79", "texto": "17 de octubre de 1945", "orden": 9 }
+      ]
+    },
+    {
+      "id": "peron-medidas-vf",
+      "tipo": "verdadero_falso",
+      "consigna": "EJERCICIO Nº 7 - ARGENTINA ENTRE 1938 Y 1945\nParte 2: Desde la Secretaría de Trabajo, Perón tomó una serie de medidas para mejorar las condiciones de vida del sector trabajador. Señalá cuáles son Correctas (C) o Incorrectas (I).",
+      "labels": { "verdadero": "C", "falso": "I" },
+      "items": [
+        { "id": "per_a", "afirmacion": "Jubilaciones para docentes y bancarios", "respuesta": true },
+        { "id": "per_b", "afirmacion": "Paritarias de salarios", "respuesta": true },
+        { "id": "per_c", "afirmacion": "Medicina laboral", "respuesta": true },
+        { "id": "per_d", "afirmacion": "Estatuto del Peón", "respuesta": true },
+        { "id": "per_e", "afirmacion": "Vacaciones pagas", "respuesta": true },
+        { "id": "per_f", "afirmacion": "Impuestos al trabajo", "respuesta": false }
+      ]
+    },
+    {
+      "id": "fuentes-primarias",
+      "tipo": "completar",
+      "consigna": "EJERCICIO Nº 7 - ARGENTINA ENTRE 1938 Y 1945\nParte 3: Indicá el tipo de fuente primaria que corresponde a cada caso.",
+      "items": [
+        { "id": "fuente1", "subtipo": "select", "pregunta": "1. Publicidad del 1° Plan Quinquenal (1947-1951). Tipo de fuente:", "opciones": ["Escrita", "Oral", "Material", "Audiovisual"], "respuesta": "Audiovisual" },
+        { "id": "fuente2", "subtipo": "select", "pregunta": "2. \"El gaucho Martín Fierro\" (poema publicado en 1871, autor José Hernández). Tipo de fuente:", "opciones": ["Escrita", "Oral", "Material", "Audiovisual"], "respuesta": "Escrita" }
+      ]
+    }
+  ]
+}
