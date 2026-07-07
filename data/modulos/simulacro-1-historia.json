@@ -39,7 +39,7 @@
     {
       "id": "gran-depresion-vf",
       "tipo": "verdadero_falso",
-      "consigna": "LA GRAN DEPRESIÓN\n\nParte 1: Señalá si las siguientes afirmaciones son Correctas (C) o Incorrectas (I).",
+      "consigna": "LA GRAN DEPRESIÓN\n\nParte 1\n\nSeñalá si las siguientes afirmaciones son Correctas (C) o Incorrectas (I).",
       "labels": { "verdadero": "C", "falso": "I" },
       "items": [
         { "id": "gd_a", "afirmacion": "A comienzos de 1929, la gente dejó de comprar tantos autos y electrodomésticos porque estos productos eran muy duraderos y no necesitaban ser reemplazados rápido.", "respuesta": true },
@@ -52,7 +52,7 @@
     {
       "id": "gran-depresion-completar",
       "tipo": "completar",
-      "consigna": "LA GRAN DEPRESIÓN\n\nParte 2: Completá los espacios punteados del texto seleccionando el número del enunciado que corresponde.\n\n1. Subsidios y créditos al sector industrial y agrario.\n2. Se extendió y agudizó.\n3. Gran depresión.\n4. Intervención del Estado en materia económica y social.\n5. No funcionaban.\n6. La reelección.\n7. Seguro de desempleo.\n8. La reactivación económica y generación de empleo.\n9. Liberalismo económico.\n10. New Deal.",
+      "consigna": "LA GRAN DEPRESIÓN\n\nParte 2\n\nCompletá los espacios punteados del texto seleccionando el número del enunciado que corresponde.\n\n1. Subsidios y créditos al sector industrial y agrario.\n2. Se extendió y agudizó.\n3. Gran depresión.\n4. Intervención del Estado en materia económica y social.\n5. No funcionaban.\n6. La reelección.\n7. Seguro de desempleo.\n8. La reactivación económica y generación de empleo.\n9. Liberalismo económico.\n10. New Deal.",
       "texto": "La gran depresión de 1930 {gd_f1} debido a que las políticas económicas implementadas para la recuperación {gd_f2}. En 1933, la llegada a la presidencia de EE.UU. de Franklin Roosevelt significó un profundo cambio. Para hacer frente a la crisis, implementó un programa conocido como {gd_f3}. Su principal objetivo era {gd_f4}. Roosevelt abandonó las políticas del {gd_f5} impulsando la {gd_f6}. Algunas de las medidas de su programa fueron: {gd_f7}, realización de obras públicas, barreras arancelarias y la creación de un {gd_f8}. Si recibió críticas, su implementación logró el mejoramiento de la situación económica y social de EE.UU. El país había salido de la {gd_f9} y la buena gestión de Roosevelt le valió {gd_f10} en las siguientes elecciones presidenciales.",
       "items": [
         { "id": "gd_f1", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10"], "respuesta": "2" },
@@ -95,7 +95,7 @@
     {
       "id": "sgm-ordenar",
       "tipo": "ordenar_secuencia",
-      "consigna": "SEGUNDA GUERRA MUNDIAL\n\nParte 1: Ordená cronológicamente los siguientes hechos. Usá 1 para el más antiguo y 11 para el más reciente.",
+      "consigna": "SEGUNDA GUERRA MUNDIAL\n\nParte 1\n\nOrdená cronológicamente los siguientes hechos. Usá 1 para el más antiguo y 11 para el más reciente.",
       "eventos": [
         { "id": "sgm1", "texto": "Hitler proclamó su discurso antisemita y la superioridad de la raza aria (1920)", "orden": 1 },
         { "id": "sgm2", "texto": "Marcha sobre Roma liderada por Mussolini (1922)", "orden": 2 },
@@ -113,7 +113,7 @@
     {
       "id": "holocausto-preguntas",
       "tipo": "completar",
-      "consigna": "SEGUNDA GUERRA MUNDIAL\n\nParte 2: Leé el siguiente fragmento sobre el Holocausto y respondé las preguntas.\n\n\"Desde que empezó a difundir sus ideas políticas en pequeñas reuniones a inicios de la década de 1920, Adolf Hitler proclamó su odio hacia el pueblo judío, basado en biologicismo racial que proclamaba la superioridad de la 'raza aria'. A partir de 1933, cuando asumió como Canciller de Alemania, comenzó a poner en práctica sus ideas a través de medidas de gobierno cada vez más agresivas contra la comunidad judía, que también eran ciudadanos alemanes. Además de construir al pueblo judío como 'enemigo de la nación alemana', el nazismo tuvo como blanco de sus ataques a otras comunidades y grupos de opositores, principalmente comunistas, gitanos, homosexuales y personas con discapacidad.\"",
+      "consigna": "SEGUNDA GUERRA MUNDIAL\n\nParte 2\n\nLeé el siguiente fragmento sobre el Holocausto y respondé las preguntas.\n\n\"Desde que empezó a difundir sus ideas políticas en pequeñas reuniones a inicios de la década de 1920, Adolf Hitler proclamó su odio hacia el pueblo judío, basado en biologicismo racial que proclamaba la superioridad de la 'raza aria'. A partir de 1933, cuando asumió como Canciller de Alemania, comenzó a poner en práctica sus ideas a través de medidas de gobierno cada vez más agresivas contra la comunidad judía, que también eran ciudadanos alemanes. Además de construir al pueblo judío como 'enemigo de la nación alemana', el nazismo tuvo como blanco de sus ataques a otras comunidades y grupos de opositores, principalmente comunistas, gitanos, homosexuales y personas con discapacidad.\"",
       "items": [
         { "id": "hol1", "subtipo": "texto", "pregunta": "1. ¿En qué consistía el \"biologicismo racista\" que caracterizaba las ideas políticas de Adolf Hitler?", "respuesta": "Teoría racista que proclamaba la superioridad de la raza aria" },
         { "id": "hol2", "subtipo": "texto", "pregunta": "2. ¿Qué eran las SA?", "respuesta": "Grupos callejeros, de combate callejero del partido nazi" },
@@ -125,7 +125,7 @@
     {
       "id": "plan-marshall-completar",
       "tipo": "completar",
-      "consigna": "SEGUNDA GUERRA MUNDIAL\n\nParte 3: Completá las palabras o frases faltantes seleccionando el número que corresponde.\n\n1. Socialismo  2. Plan Marshall  3. Maquinarias y vehículos  4. Bloque  5. Ayuda  6. Europa  7. Mercaderías  8. Rechazó  9. Grave crisis  10. Economías europeas  11. Créditos a bajo interés  12. Barrera  13. Comerciales  14. Guerra  15. Estadounidenses  16. COMECON",
+      "consigna": "SEGUNDA GUERRA MUNDIAL\n\nParte 3\n\nCompletá las palabras o frases faltantes seleccionando el número que corresponde.\n\n1. Socialismo  2. Plan Marshall  3. Maquinarias y vehículos  4. Bloque  5. Ayuda  6. Europa  7. Mercaderías  8. Rechazó  9. Grave crisis  10. Economías europeas  11. Créditos a bajo interés  12. Barrera  13. Comerciales  14. Guerra  15. Estadounidenses  16. COMECON",
       "texto": "En 1947, el secretario de Estado norteamericano propuso un proyecto de {pm1} para recomponer las {pm2} arrasadas por la {pm3}. El plan fue conocido como {pm4} y fue ofrecido a toda {pm5}. Entre los objetivos económicos del plan se pueden mencionar: reactivar las industrias con el otorgamiento de {pm6} y entrega de {pm7} (alimentos, combustibles, materias primas industriales, {pm8}). Superar la {pm9} económica y social en los estados europeos y formar una {pm10} para frenar el avance del {pm11} en Europa Occidental. Asegurarse los mercados europeos para los productos {pm12}. La URSS {pm13} este programa de ayuda para sí y para todos los países que quedaban bajo su órbita. La alternativa soviética frente al Plan Marshall fue el {pm14}, con el objetivo de fomentar las relaciones {pm15} entre los países que conformaban el {pm16} comunista.",
       "items": [
         { "id": "pm1", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "5" },
@@ -149,7 +149,7 @@
     {
       "id": "muro-berlin-vf",
       "tipo": "verdadero_falso",
-      "consigna": "SEGUNDA GUERRA MUNDIAL\n\nParte 4: Señalá si las siguientes afirmaciones sobre el Muro de Berlín son Correctas (C) o Incorrectas (I).",
+      "consigna": "SEGUNDA GUERRA MUNDIAL\n\nParte 4\n\nSeñalá si las siguientes afirmaciones sobre el Muro de Berlín son Correctas (C) o Incorrectas (I).",
       "labels": { "verdadero": "C", "falso": "I" },
       "items": [
         { "id": "mb_a", "afirmacion": "Para evitar las fugas, el gobierno de la República Democrática Alemana decidió levantar un muro que separa la libre circulación en las dos zonas de Berlín.", "respuesta": true },
@@ -165,7 +165,7 @@
     {
       "id": "argentina-1938-ordenar",
       "tipo": "ordenar_secuencia",
-      "consigna": "ARGENTINA ENTRE 1938 Y 1945\n\nParte 1: Ordená cronológicamente los siguientes hechos y presidentes. Comenzá por el más antiguo.",
+      "consigna": "ARGENTINA ENTRE 1938 Y 1945\n\nParte 1\n\nOrdená cronológicamente los siguientes hechos y presidentes. Comenzá por el más antiguo.",
       "eventos": [
         { "id": "ar71", "texto": "Presidente Julio Argentino Roca (1880-1886)", "orden": 1 },
         { "id": "ar72", "texto": "Surgimiento del radicalismo (1890)", "orden": 2 },
@@ -181,7 +181,7 @@
     {
       "id": "peron-medidas-vf",
       "tipo": "verdadero_falso",
-      "consigna": "ARGENTINA ENTRE 1938 Y 1945\n\nParte 2: Desde la Secretaría de Trabajo, Perón tomó una serie de medidas para mejorar las condiciones de vida del sector trabajador. Señalá cuáles son Correctas (C) o Incorrectas (I).",
+      "consigna": "ARGENTINA ENTRE 1938 Y 1945\n\nParte 2\n\nDesde la Secretaría de Trabajo, Perón tomó una serie de medidas para mejorar las condiciones de vida del sector trabajador. Señalá cuáles son Correctas (C) o Incorrectas (I).",
       "labels": { "verdadero": "C", "falso": "I" },
       "items": [
         { "id": "per_a", "afirmacion": "Jubilaciones para docentes y bancarios", "respuesta": true },
@@ -195,7 +195,7 @@
     {
       "id": "fuentes-primarias",
       "tipo": "completar",
-      "consigna": "ARGENTINA ENTRE 1938 Y 1945\n\nParte 3: Observá las imágenes e indicá el tipo de fuente primaria que corresponde a cada caso.",
+      "consigna": "ARGENTINA ENTRE 1938 Y 1945\n\nParte 3\n\nObservá las imágenes e indicá el tipo de fuente primaria que corresponde a cada caso.",
       "items": [
         { "id": "fuente1", "subtipo": "select", "pregunta": "1. Observá la imagen. ¿Qué tipo de fuente primaria es?", "opciones": ["Escrita", "Oral", "Material", "Audiovisual"], "respuesta": "Audiovisual", "imagen": "/simulacro-foto1.png" },
         { "id": "fuente2", "subtipo": "select", "pregunta": "2. Observá la imagen. ¿Qué tipo de fuente primaria es?", "opciones": ["Escrita", "Oral", "Material", "Audiovisual"], "respuesta": "Escrita", "imagen": "/simulacro-foto2.png" }
