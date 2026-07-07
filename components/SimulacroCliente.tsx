@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { Modulo, TextoLectura } from "@/lib/tipos";
 import EjercicioRouter from "./EjercicioRouter";
@@ -27,7 +27,25 @@ export default function SimulacroCliente({
   const [restante, setRestante] = useState(duracionMs);
   const [finalizado, setFinalizado] = useState(false);
   const [revelado, setRevelado] = useState(false);
+  const [puntaje, setPuntaje] = useState<number | null>(null);
   const timer = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const puntajeData = useMemo(() => {
+    let totalMax = 0;
+    const pesos: Record<string, number> = {};
+    for (const ej of ejercicios) {
+      let p = 0;
+      if (ej.tipo === "verdadero_falso") p = ej.items.length;
+      else if (ej.tipo === "completar") {
+        for (const it of ej.items) p += it.subtipo === "texto" ? 2 : 1;
+      } else if (ej.tipo === "completar_cuadro") {
+        p = ej.filas.reduce((s, f) => s + (f.celdas.length - 1) * 3, 0);
+      } else if (ej.tipo === "ordenar_secuencia") p = ej.eventos.length * 2;
+      pesos[ej.id] = p;
+      totalMax += p;
+    }
+    return { pesos, totalMax };
+  }, [ejercicios]);
 
   useEffect(() => {
     if (inicio === null) return;
@@ -38,6 +56,7 @@ export default function SimulacroCliente({
         if (timer.current) clearInterval(timer.current);
         setFinalizado(true);
         setRevelado(true);
+        setTimeout(() => calcularPuntaje(), 100);
       } else {
         setRestante(r);
       }
@@ -51,10 +70,51 @@ export default function SimulacroCliente({
   const ss = String(Math.floor((restante % 60000) / 1000)).padStart(2, "0");
   const agotado = restante <= 0;
 
+  function calcularPuntaje() {
+    let obtenido = 0;
+    for (const ej of ejercicios) {
+      const raw = sessionStorage.getItem(`simulacro-${modulo.id}-${ej.id}`);
+      if (!raw) continue;
+      try {
+        const resp = JSON.parse(raw);
+        if (ej.tipo === "verdadero_falso") {
+          for (const it of ej.items) {
+            if (resp[it.id] === it.respuesta) obtenido += 1;
+          }
+        } else if (ej.tipo === "completar") {
+          for (const it of ej.items) {
+            const v = (resp[it.id] || "").trim().toLowerCase();
+            const c = (it.respuesta || "").trim().toLowerCase();
+            if (v && v === c) obtenido += it.subtipo === "texto" ? 2 : 1;
+          }
+        } else if (ej.tipo === "completar_cuadro") {
+          for (const fila of ej.filas) {
+            for (let j = 1; j < fila.celdas.length; j++) {
+              const key = `${fila.id}_${j}`;
+              const v = (resp[key] || "").trim().toLowerCase();
+              const c = fila.celdas[j].trim().toLowerCase();
+              if (v && v === c) obtenido += 3;
+            }
+          }
+        } else if (ej.tipo === "ordenar_secuencia") {
+          const orden = Array.isArray(resp) ? resp : [];
+          const correcto = [...ej.eventos].sort((a, b) => a.orden - b.orden);
+          orden.forEach((id, i) => {
+            if (id === correcto[i]?.id) obtenido += 2;
+          });
+        }
+      } catch { /* ignore parse errors */ }
+    }
+    const max = puntajeData.totalMax;
+    const nota = max > 0 ? Math.round((obtenido / max) * 150) : 0;
+    setPuntaje(nota);
+  }
+
   function finalizar() {
     if (timer.current) clearInterval(timer.current);
     setFinalizado(true);
     setRevelado(true);
+    calcularPuntaje();
   }
 
   if (inicio === null) {
@@ -180,18 +240,13 @@ export default function SimulacroCliente({
           <Card titulo="Resultado final">
             <div className="text-center py-4">
               <p className="text-sm text-grafito mb-2">Simulacro completado</p>
-              <p className="text-4xl font-bold text-azul">150</p>
-              <p className="text-xs text-gris mt-1">puntos máximos · {ejercicios.length} ejercicios</p>
+              <p className="text-4xl font-bold" style={{ color: puntaje !== null && puntaje >= 105 ? "#16a34a" : puntaje !== null && puntaje >= 75 ? "#FFAE00" : "#EF4444" }}>
+                {puntaje !== null ? puntaje : "—"}
+              </p>
+              <p className="text-xs text-gris mt-1">de 150 puntos · {ejercicios.length} ejercicios</p>
               <p className="text-xs text-gris mt-3">Revisá cada ejercicio abajo. Las respuestas correctas están en verde.</p>
             </div>
           </Card>
-          {modulo.metodo?.mejorar.explicaciones.map((exp, i) => (
-            <Card key={i} titulo={exp.titulo}>
-              <p className="text-sm text-gris whitespace-pre-line">
-                {exp.detalle}
-              </p>
-            </Card>
-          ))}
         </div>
       )}
     </div>

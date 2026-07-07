@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { OrdenarSecuencia as T } from "@/lib/tipos";
 import { EjercicioShell } from "./EjercicioShell";
 
@@ -43,6 +43,12 @@ export default function OrdenarSecuencia({
   function comprobar() {
     setComprobado(true);
   }
+
+  useEffect(() => {
+    if (simulacro && moduloId) {
+      sessionStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(ordenActual));
+    }
+  }, [ordenActual, simulacro, moduloId, ej.id]);
 
   function reiniciar() {
     setOrdenActual(shuffle(ej.eventos.map((e) => e.id)));

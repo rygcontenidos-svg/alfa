@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { VerdaderoFalso as T } from "@/lib/tipos";
 import { EjercicioShell } from "./EjercicioShell";
 
@@ -27,6 +27,12 @@ export default function VerdaderoFalso({
   function comprobar() {
     setComprobado(true);
   }
+
+  useEffect(() => {
+    if (simulacro && moduloId) {
+      sessionStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(respuestas));
+    }
+  }, [respuestas, simulacro, moduloId, ej.id]);
 
   function reiniciar() {
     setRespuestas({});

@@ -54,6 +54,12 @@ export default function Completar({
     if (forzarRevelado) { setMostrar(true); setComprobado(true); }
   }, [forzarRevelado]);
 
+  useEffect(() => {
+    if (simulacro && moduloId) {
+      sessionStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(selecciones));
+    }
+  }, [selecciones, simulacro, moduloId, ej.id]);
+
   function handleInput(id: string, valor: string) {
     setSelecciones((s) => {
       if (s[id] === valor) {

@@ -29,6 +29,12 @@ export default function CompletarCuadro({ ej, moduloId, simulacro = false, forza
     if (forzarRevelado) { setMostrar(true); setComprobado(true); }
   }, [forzarRevelado]);
 
+  useEffect(() => {
+    if (simulacro && moduloId) {
+      sessionStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(respuestas));
+    }
+  }, [respuestas, simulacro, moduloId, ej.id]);
+
   function handleInput(filaId: string, colIdx: number, valor: string) {
     setRespuestas(s => ({ ...s, [`${filaId}_${colIdx}`]: valor }));
     setComprobado(false);
