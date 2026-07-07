@@ -68,7 +68,7 @@ export default function SimulacroCliente({
             {modulo.titulo}
           </h1>
           <p className="text-xs text-gris">
-            Lengua · Examen · 90 minutos · CNBA 2026
+            Historia · Simulacro · {modulo.duracion_min ?? 90} minutos · BACP 2026
           </p>
         </div>
         <Card titulo="Simulacro">
@@ -117,8 +117,8 @@ export default function SimulacroCliente({
           {modulo.titulo}
         </h1>
         <p className="text-xs text-gris">
-          Lengua · Examen · CNBA 2026
-        </p>
+            Historia · Simulacro · BACP 2026
+          </p>
       </div>
 
       <div
@@ -170,18 +170,20 @@ export default function SimulacroCliente({
         {ejercicios.map((ej, i) => (
           <div key={ej.id}>
             <p className="text-[11px] font-semibold text-gris mb-1">Ejercicio {i + 1}</p>
-            <EjercicioRouter ej={ej} moduloId={modulo.id} />
+            <EjercicioRouter ej={ej} moduloId={modulo.id} simulacro={true} forzarRevelado={revelado} />
           </div>
         ))}
       </div>
 
       {finalizado && (
         <div className="mt-6 space-y-4">
-          <Card titulo="Corrección y explicaciones">
-            <p className="text-sm text-grafito mb-4">
-              Revisá cada ejercicio con las respuestas. Marcá cómo te fue para
-              saber qué temas necesitás repasar.
-            </p>
+          <Card titulo="Resultado final">
+            <div className="text-center py-4">
+              <p className="text-sm text-grafito mb-2">Simulacro completado</p>
+              <p className="text-4xl font-bold text-azul">150</p>
+              <p className="text-xs text-gris mt-1">puntos máximos · {ejercicios.length} ejercicios</p>
+              <p className="text-xs text-gris mt-3">Revisá cada ejercicio abajo. Las respuestas correctas están en verde.</p>
+            </div>
           </Card>
           {modulo.metodo?.mejorar.explicaciones.map((exp, i) => (
             <Card key={i} titulo={exp.titulo}>

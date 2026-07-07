@@ -9,7 +9,7 @@ async function fetchSinRespuestas(): Promise<string[]> {
   catch { return []; }
 }
 
-export default function CompletarCuadro({ ej, moduloId }: { ej: CompletarCuadroType; moduloId: string }) {
+export default function CompletarCuadro({ ej, moduloId, simulacro = false, forzarRevelado = false }: { ej: CompletarCuadroType; moduloId: string; simulacro?: boolean; forzarRevelado?: boolean }) {
   const [mostrar, setMostrar] = useState(false);
   const [comprobado, setComprobado] = useState(false);
   const [respuestas, setRespuestas] = useState<Record<string, string>>({});
@@ -24,6 +24,10 @@ export default function CompletarCuadro({ ej, moduloId }: { ej: CompletarCuadroT
   }, [usuario]);
 
   useEffect(() => { verificar(); }, [verificar]);
+
+  useEffect(() => {
+    if (forzarRevelado) { setMostrar(true); setComprobado(true); }
+  }, [forzarRevelado]);
 
   function handleInput(filaId: string, colIdx: number, valor: string) {
     setRespuestas(s => ({ ...s, [`${filaId}_${colIdx}`]: valor }));
@@ -88,7 +92,7 @@ export default function CompletarCuadro({ ej, moduloId }: { ej: CompletarCuadroT
             </tbody>
           </table>
         </div>
-        {!mostrar && (
+        {!simulacro && !mostrar && (
           <div className="mt-3 flex items-center gap-2 flex-wrap">
             <button type="button" onClick={comprobar} disabled={comprobado} className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-verde text-white hover:bg-verde/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
               Comprobar

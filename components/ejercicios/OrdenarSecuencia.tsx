@@ -16,9 +16,13 @@ function shuffle<T>(arr: T[]): T[] {
 export default function OrdenarSecuencia({
   ej,
   moduloId,
+  simulacro = false,
+  forzarRevelado = false,
 }: {
   ej: T;
   moduloId: string;
+  simulacro?: boolean;
+  forzarRevelado?: boolean;
 }) {
   const ordenMezclado = useMemo(
     () => shuffle(ej.eventos.map((e) => e.id)),
@@ -48,7 +52,7 @@ export default function OrdenarSecuencia({
   const esCorrecto = comprobado && ordenActual.every((id, i) => id === ordenCorrecto[i].id);
 
   return (
-    <EjercicioShell consigna={ej.consigna} moduloId={moduloId} ejercicioId={ej.id}>
+    <EjercicioShell consigna={ej.consigna} moduloId={moduloId} ejercicioId={ej.id} forzarRevelado={forzarRevelado} simulacro={simulacro}>
       {(revelado) => (
         <div>
           <ol className="space-y-2">
@@ -108,7 +112,7 @@ export default function OrdenarSecuencia({
             })}
           </ol>
 
-          {!revelado && (
+          {!simulacro && !revelado && (
             <div className="mt-3 flex items-center gap-2 flex-wrap">
               <button type="button" onClick={comprobar} disabled={comprobado} className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-verde text-white hover:bg-verde/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
                 Comprobar

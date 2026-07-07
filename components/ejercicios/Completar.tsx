@@ -27,9 +27,13 @@ type ItemConExplicacion = {
 export default function Completar({
   ej,
   moduloId,
+  simulacro = false,
+  forzarRevelado = false,
 }: {
   ej: CompletarType & { items?: ItemConExplicacion[]; bancoPalabras?: string[] };
   moduloId: string;
+  simulacro?: boolean;
+  forzarRevelado?: boolean;
 }) {
   const [mostrar, setMostrar] = useState(false);
   const [selecciones, setSelecciones] = useState<Record<string, string>>({});
@@ -45,6 +49,10 @@ export default function Completar({
   }, [usuario]);
 
   useEffect(() => { verificar(); }, [verificar]);
+
+  useEffect(() => {
+    if (forzarRevelado) { setMostrar(true); setComprobado(true); }
+  }, [forzarRevelado]);
 
   function handleInput(id: string, valor: string) {
     setSelecciones((s) => {
@@ -264,7 +272,7 @@ export default function Completar({
           )}
         </div>
 
-        {!mostrar && (
+        {!simulacro && !mostrar && (
           <div className="mt-3 flex items-center gap-2 flex-wrap">
             <button type="button" onClick={comprobar} disabled={comprobado} className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-verde text-white hover:bg-verde/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
               Comprobar
@@ -280,7 +288,7 @@ export default function Completar({
 
       <div className="border-t border-borde px-4 py-3 flex justify-between items-center gap-3">
         <span className="text-[10px] text-gris uppercase tracking-wide">{moduloId}</span>
-        {!sinRespuestas && (
+        {!simulacro && !sinRespuestas && (
           <button type="button" onClick={() => setMostrar((v) => !v)} className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors ${mostrar ? "bg-gray-100 text-grafito" : "bg-azul text-white hover:bg-azul-claro"}`}>
             {mostrar ? "Ocultar respuestas" : "Ver respuestas"}
           </button>

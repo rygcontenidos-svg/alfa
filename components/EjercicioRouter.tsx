@@ -24,15 +24,19 @@ import RectaNumerica from "./ejercicios/RectaNumerica";
 export default function EjercicioRouter({
   ej,
   moduloId,
+  simulacro = false,
+  forzarRevelado = false,
 }: {
   ej: Ejercicio;
   moduloId: string;
+  simulacro?: boolean;
+  forzarRevelado?: boolean;
 }) {
   switch (ej.tipo) {
     case "seleccion_multiple":
       return <SeleccionMultiple ej={ej} moduloId={moduloId} />;
     case "verdadero_falso":
-      return <VerdaderoFalso ej={ej} moduloId={moduloId} />;
+      return <VerdaderoFalso ej={ej} moduloId={moduloId} simulacro={simulacro} forzarRevelado={forzarRevelado} />;
     case "circuito_comunicacion":
       return <CircuitoComunicacion ej={ej} moduloId={moduloId} />;
     case "tildacion_general":
@@ -54,15 +58,15 @@ export default function EjercicioRouter({
     case "tipo_textual":
       return <TipoTextual ej={ej} moduloId={moduloId} />;
     case "ordenar_secuencia":
-      return <OrdenarSecuencia ej={ej} moduloId={moduloId} />;
+      return <OrdenarSecuencia ej={ej} moduloId={moduloId} simulacro={simulacro} forzarRevelado={forzarRevelado} />;
     case "coherencia_cohesion":
       return <CoherenciaCohesion ej={ej} moduloId={moduloId} />;
     case "reescritura_normativa":
       return <ReescrituraNormativa ej={ej} moduloId={moduloId} />;
     case "completar":
-      return <Completar ej={ej} moduloId={moduloId} />;
+      return <Completar ej={ej} moduloId={moduloId} simulacro={simulacro} forzarRevelado={forzarRevelado} />;
     case "completar_cuadro":
-      return <CompletarCuadro ej={ej} moduloId={moduloId} />;
+      return <CompletarCuadro ej={ej} moduloId={moduloId} simulacro={simulacro} forzarRevelado={forzarRevelado} />;
     case "unir_flechas":
       return <UnirFlechas ej={ej} moduloId={moduloId} />;
     case "recta_numerica":

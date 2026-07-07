@@ -21,12 +21,16 @@ export function EjercicioShell({
   ejercicioId,
   guia,
   children,
+  simulacro = false,
+  forzarRevelado = false,
 }: {
   consigna: string;
   moduloId: string;
   ejercicioId: string;
   guia?: string;
   children: (revelado: boolean) => React.ReactNode;
+  simulacro?: boolean;
+  forzarRevelado?: boolean;
 }) {
   const { usuario } = useAuth();
   const [revelado, setRevelado] = useState(false);
@@ -51,6 +55,10 @@ export function EjercicioShell({
     setCheckState(leerCheck(moduloId, ejercicioId, usuario));
   }, [moduloId, ejercicioId, usuario]);
 
+  useEffect(() => {
+    if (forzarRevelado) { setRevelado(true); }
+  }, [forzarRevelado]);
+
   function autocheck(v: "bien" | "repasar") {
     const nuevo = check === v ? null : v;
     setCheckState(nuevo);
@@ -62,7 +70,7 @@ export function EjercicioShell({
       {children(revelado)}
 
       <div className="mt-4 border-t border-borde pt-3 flex items-center justify-between gap-3 flex-wrap">
-        {revelado ? (
+        {!simulacro && revelado ? (
           <div className="flex items-center gap-2">
             <span className="text-xs text-gris">¿Cómo te fue?</span>
             <button type="button" onClick={() => autocheck("bien")} className={`px-3 py-1 rounded-md text-xs font-semibold border transition-colors ${check === "bien" ? "bg-verde text-white border-verde" : "border-verde text-verde hover:bg-verde-claro"}`}>
@@ -73,10 +81,10 @@ export function EjercicioShell({
             </button>
           </div>
         ) : (
-          <span className="text-xs text-grafito">Respondé directamente en pantalla.</span>
+          !simulacro && <span className="text-xs text-grafito">Respondé directamente en pantalla.</span>
         )}
         <div className="flex items-center gap-2">
-          {!sinRespuestas && !cargandoPermisos && (
+          {!simulacro && !sinRespuestas && !cargandoPermisos && (
             <button type="button" onClick={() => setRevelado((v) => !v)} className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors ${revelado ? "bg-gray-100 text-grafito" : "bg-azul text-white hover:bg-azul-claro"}`}>
               {revelado ? "Ocultar respuestas" : "Ver respuestas"}
             </button>

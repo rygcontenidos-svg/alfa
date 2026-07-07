@@ -7,9 +7,13 @@ import { EjercicioShell } from "./EjercicioShell";
 export default function VerdaderoFalso({
   ej,
   moduloId,
+  simulacro = false,
+  forzarRevelado = false,
 }: {
   ej: T;
   moduloId: string;
+  simulacro?: boolean;
+  forzarRevelado?: boolean;
 }) {
   const labels = ej.labels ?? { verdadero: "V", falso: "F" };
   const [respuestas, setRespuestas] = useState<Record<string, boolean | null>>({});
@@ -34,7 +38,7 @@ export default function VerdaderoFalso({
   const total = ej.items.length;
 
   return (
-    <EjercicioShell consigna={ej.consigna} moduloId={moduloId} ejercicioId={ej.id}>
+    <EjercicioShell consigna={ej.consigna} moduloId={moduloId} ejercicioId={ej.id} forzarRevelado={forzarRevelado} simulacro={simulacro}>
       {(revelado) => (
         <div>
           <ul className="space-y-2.5">
@@ -106,7 +110,7 @@ export default function VerdaderoFalso({
             })}
           </ul>
 
-          {!revelado && (
+          {!simulacro && !revelado && (
             <div className="mt-3 flex items-center gap-2 flex-wrap">
               <button type="button" onClick={comprobar} disabled={comprobado} className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-verde text-white hover:bg-verde/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
                 Comprobar{todosRespondidos ? "" : ` (${ej.items.filter((it) => respuestas[it.id] !== undefined && respuestas[it.id] !== null).length}/${total})`}
