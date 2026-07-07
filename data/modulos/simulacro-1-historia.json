@@ -10,7 +10,7 @@
     {
       "id": "acrostico-pgm",
       "tipo": "completar",
-      "consigna": "EJERCICIO Nº 1 - PRIMERA GUERRA MUNDIAL\nResuelve el acróstico. Escribí la palabra completa que corresponde a cada letra de la palabra \"GRAN GUERRA\".",
+      "consigna": "EJERCICIO Nº 1 - PRIMERA GUERRA MUNDIAL\nCompletá con la palabra o expresión correcta según cada definición. Las iniciales forman el acróstico \"GRAN GUERRA\".",
       "items": [
         { "id": "g1", "subtipo": "texto", "pregunta": "G. Potencia marítima integrante de la Triple Entente.", "respuesta": "Gran Bretaña" },
         { "id": "r1", "subtipo": "texto", "pregunta": "R. Denominación del período que va desde 1871 a 1914.", "respuesta": "Paz Armada" },
