@@ -112,10 +112,13 @@
     {
       "id": "revolucion-rusa-cuadro",
       "tipo": "completar_cuadro",
-      "consigna": "EJERCICIO Nº 4 - LA REVOLUCIÓN RUSA\nUbicá en el cuadro los acontecimientos que correspondan a los años indicados.",
-      "columnas": ["1898", "1903", "1905", "1917"],
+      "consigna": "EJERCICIO Nº 4 - LA REVOLUCIÓN RUSA\nUbicá en el cuadro los acontecimientos que correspondan a los años indicados. Hacé clic en \"Ver respuestas\" para controlar.",
+      "columnas": ["Año", "Acontecimientos"],
       "filas": [
-        { "id": "rr1", "celdas": ["Fundación del Partido Obrero Social Demócrata Ruso", "División del Partido Obrero en mencheviques y bolcheviques", "Represión del gobierno zarista conocido como \"Domingo Sangriento\". Formación de los soviets", "Lenin lleva al poder al Partido Bolchevique. Inicio del Estado Socialista. El zar Nicolás II abdica al trono. \"Todo el poder a los soviets\". \"Pan y Paz\""] }
+        { "id": "rr1898", "celdas": ["1898", "Fundación del Partido Obrero Social Demócrata Ruso"] },
+        { "id": "rr1903", "celdas": ["1903", "División del Partido Obrero en mencheviques y bolcheviques"] },
+        { "id": "rr1905", "celdas": ["1905", "Represión del gobierno zarista conocido como \"Domingo Sangriento\". Formación de los soviets"] },
+        { "id": "rr1917", "celdas": ["1917", "Lenin lleva al poder al Partido Bolchevique. Inicio del Estado Socialista. El zar Nicolás II abdica al trono. \"Todo el poder a los soviets\". \"Pan y Paz\""] }
       ]
     },
     {
