@@ -86,7 +86,7 @@ export default function Completar({
     const sel = selecciones[it.id];
     const esCorrecto = mostrar && it.respuesta && sel === it.respuesta;
     const esError = mostrar && sel && sel !== it.respuesta;
-    if (mostrar) {
+    if (mostrar || (comprobado && it.respuesta)) {
       return (
         <span key={it.id} className="inline-flex items-center mx-0.5">
           <span className={`px-2 py-0.5 rounded text-xs font-semibold border ${
@@ -95,6 +95,7 @@ export default function Completar({
             "bg-verde-claro text-verde border-verde"
           }`}>
             {it.respuesta}
+            {esError && sel && <span className="ml-1 text-red-500 line-through text-[10px]">(pusiste: {sel})</span>}
           </span>
         </span>
       );
@@ -104,7 +105,7 @@ export default function Completar({
         key={it.id}
         value={sel ?? ""}
         onChange={(e) => handleInput(it.id, e.target.value)}
-        disabled={mostrar}
+        disabled={mostrar || comprobado}
         className={`mx-0.5 px-2 py-0.5 rounded text-xs font-semibold border ${
           comprobado && esCorrecto
             ? "bg-verde-claro text-verde border-verde"

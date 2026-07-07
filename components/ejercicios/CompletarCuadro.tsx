@@ -75,8 +75,10 @@ export default function CompletarCuadro({ ej, moduloId }: { ej: CompletarCuadroT
                               : "border-borde"
                           }`}
                         />
-                        {esError && (
-                          <p className="mt-0.5 text-[10px] text-verde font-medium">Correcta: {celda}</p>
+                        {comprobado && (
+                          <p className={`mt-0.5 text-[10px] font-medium ${esCorrecto ? "text-verde" : "text-verde"}`}>
+                            {esCorrecto ? "¡Correcto!" : `Correcta: ${celda}`}
+                          </p>
                         )}
                       </td>
                     );
