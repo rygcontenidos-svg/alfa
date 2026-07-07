@@ -30,7 +30,7 @@ export default function VerdaderoFalso({
 
   useEffect(() => {
     if (simulacro && moduloId) {
-      sessionStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(respuestas));
+      localStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(respuestas));
     }
   }, [respuestas, simulacro, moduloId, ej.id]);
 

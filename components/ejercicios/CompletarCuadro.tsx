@@ -31,7 +31,7 @@ export default function CompletarCuadro({ ej, moduloId, simulacro = false, forza
 
   useEffect(() => {
     if (simulacro && moduloId) {
-      sessionStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(respuestas));
+      localStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(respuestas));
     }
   }, [respuestas, simulacro, moduloId, ej.id]);
 

@@ -46,7 +46,7 @@ export default function OrdenarSecuencia({
 
   useEffect(() => {
     if (simulacro && moduloId) {
-      sessionStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(ordenActual));
+      localStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(ordenActual));
     }
   }, [ordenActual, simulacro, moduloId, ej.id]);
 

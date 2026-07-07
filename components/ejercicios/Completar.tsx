@@ -56,7 +56,7 @@ export default function Completar({
 
   useEffect(() => {
     if (simulacro && moduloId) {
-      sessionStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(selecciones));
+      localStorage.setItem(`simulacro-${moduloId}-${ej.id}`, JSON.stringify(selecciones));
     }
   }, [selecciones, simulacro, moduloId, ej.id]);
 

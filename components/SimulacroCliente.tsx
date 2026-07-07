@@ -73,7 +73,7 @@ export default function SimulacroCliente({
   function calcularPuntaje() {
     let obtenido = 0;
     for (const ej of ejercicios) {
-      const raw = sessionStorage.getItem(`simulacro-${modulo.id}-${ej.id}`);
+      const raw = localStorage.getItem(`simulacro-${modulo.id}-${ej.id}`);
       if (!raw) continue;
       try {
         const resp = JSON.parse(raw);
@@ -156,7 +156,7 @@ export default function SimulacroCliente({
           )}
           <button
             type="button"
-            onClick={() => setInicio(Date.now())}
+            onClick={() => { for (const ej of ejercicios) localStorage.removeItem(`simulacro-${modulo.id}-${ej.id}`); setInicio(Date.now()); }}
             className="w-full rounded-lg bg-azul text-white font-semibold py-3 hover:bg-azul-claro transition-colors"
           >
             <i className="fa-solid fa-stopwatch mr-2" />
