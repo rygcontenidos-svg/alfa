@@ -54,20 +54,20 @@ export default function VerdaderoFalso({
                       <span className={`shrink-0 px-3 py-1 rounded-md text-sm font-bold ${it.respuesta ? "bg-verde text-white" : "bg-red-500 text-white"}`}>
                         {it.respuesta ? labels.verdadero : labels.falso}
                       </span>
-                    ) : (
+                    )                      : (
                       <div className="flex items-center gap-1.5 shrink-0">
                         <button
                           type="button"
                           onClick={() => responder(it.id, true)}
                           disabled={comprobado}
                           className={`px-3 py-1 rounded-md text-xs font-semibold border transition-colors ${
-                            r === true
-                              ? comprobado && correcto
-                                ? "border-verde bg-verde text-white"
-                                : comprobado && incorrecto
-                                  ? "border-red-500 bg-red-500 text-white"
-                                  : "border-azul bg-azul text-white"
-                              : "border-gray-300 text-grafito hover:bg-gray-50"
+                            comprobado && it.respuesta === true
+                              ? "border-verde bg-verde text-white"
+                              : comprobado && r === true && it.respuesta !== true
+                                ? "border-red-500 bg-red-500 text-white"
+                                : r === true
+                                  ? "border-azul bg-azul text-white"
+                                  : "border-gray-300 text-grafito hover:bg-gray-50"
                           }`}
                         >
                           {labels.verdadero}
@@ -77,13 +77,13 @@ export default function VerdaderoFalso({
                           onClick={() => responder(it.id, false)}
                           disabled={comprobado}
                           className={`px-3 py-1 rounded-md text-xs font-semibold border transition-colors ${
-                            r === false
-                              ? comprobado && correcto
-                                ? "border-verde bg-verde text-white"
-                                : comprobado && incorrecto
-                                  ? "border-red-500 bg-red-500 text-white"
-                                  : "border-azul bg-azul text-white"
-                              : "border-gray-300 text-grafito hover:bg-gray-50"
+                            comprobado && it.respuesta === false
+                              ? "border-verde bg-verde text-white"
+                              : comprobado && r === false && it.respuesta !== false
+                                ? "border-red-500 bg-red-500 text-white"
+                                : r === false
+                                  ? "border-azul bg-azul text-white"
+                                  : "border-gray-300 text-grafito hover:bg-gray-50"
                           }`}
                         >
                           {labels.falso}
