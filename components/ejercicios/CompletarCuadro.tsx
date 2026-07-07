@@ -11,6 +11,8 @@ async function fetchSinRespuestas(): Promise<string[]> {
 
 export default function CompletarCuadro({ ej, moduloId }: { ej: CompletarCuadroType; moduloId: string }) {
   const [mostrar, setMostrar] = useState(false);
+  const [comprobado, setComprobado] = useState(false);
+  const [respuestas, setRespuestas] = useState<Record<string, string>>({});
   const { usuario } = useAuth();
   const [sinRespuestas, setSinRespuestas] = useState(true);
 
@@ -22,6 +24,14 @@ export default function CompletarCuadro({ ej, moduloId }: { ej: CompletarCuadroT
   }, [usuario]);
 
   useEffect(() => { verificar(); }, [verificar]);
+
+  function handleInput(filaId: string, colIdx: number, valor: string) {
+    setRespuestas(s => ({ ...s, [`${filaId}_${colIdx}`]: valor }));
+    setComprobado(false);
+  }
+
+  function comprobar() { setComprobado(true); }
+  function reiniciar() { setRespuestas({}); setComprobado(false); setMostrar(false); }
 
   return (
     <div className="rounded-xl border border-borde bg-white overflow-hidden">
@@ -35,14 +45,59 @@ export default function CompletarCuadro({ ej, moduloId }: { ej: CompletarCuadroT
                 <tr key={fila.id}>
                   {fila.celdas.map((celda, j) => {
                     const esDato = j === 0;
-                    const visible = esDato || mostrar;
-                    return <td key={j} className={`border border-borde px-3 py-2 ${!celda ? "text-gris/50 italic" : visible ? "text-verde font-medium" : "text-grafito"}`}>{visible ? (celda || "______") : "______"}</td>;
+                    const clave = `${fila.id}_${j}`;
+                    const valor = respuestas[clave] ?? "";
+                    const correcta = celda.trim();
+                    const esCorrecto = comprobado && valor.trim().toLowerCase() === correcta.toLowerCase();
+                    const esError = comprobado && valor.trim() && !esCorrecto;
+
+                    if (esDato || mostrar) {
+                      return (
+                        <td key={j} className="border border-borde px-3 py-2 text-verde font-medium whitespace-pre-wrap">
+                          {celda || "______"}
+                        </td>
+                      );
+                    }
+
+                    return (
+                      <td key={j} className="border border-borde px-3 py-1.5 align-top">
+                        <textarea
+                          value={valor}
+                          onChange={(e) => handleInput(fila.id, j, e.target.value)}
+                          disabled={mostrar}
+                          placeholder="Escribí tu respuesta..."
+                          rows={Math.max(2, celda.split(". ").length, celda.split("\n").length)}
+                          className={`w-full rounded border px-2 py-1 text-xs placeholder:text-gris/40 focus:outline-none focus:border-azul resize-y ${
+                            esCorrecto
+                              ? "border-verde bg-verde-claro text-verde"
+                              : esError
+                              ? "border-red-300 bg-red-50 text-red-500"
+                              : "border-borde"
+                          }`}
+                        />
+                        {esError && (
+                          <p className="mt-0.5 text-[10px] text-verde font-medium">Correcta: {celda}</p>
+                        )}
+                      </td>
+                    );
                   })}
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
+        {!mostrar && (
+          <div className="mt-3 flex items-center gap-2 flex-wrap">
+            <button type="button" onClick={comprobar} disabled={comprobado} className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-verde text-white hover:bg-verde/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
+              Comprobar
+            </button>
+            {comprobado && (
+              <button type="button" onClick={reiniciar} className="text-xs font-semibold px-3 py-1.5 rounded-lg border border-borde text-grafito hover:bg-gray-50 transition-colors">
+                Reiniciar
+              </button>
+            )}
+          </div>
+        )}
       </div>
       <div className="border-t border-borde px-4 py-3 flex justify-between items-center gap-3">
         <span className="text-[10px] text-gris uppercase tracking-wide">{moduloId}</span>
