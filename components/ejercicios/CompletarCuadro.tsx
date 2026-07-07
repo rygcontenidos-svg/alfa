@@ -36,7 +36,7 @@ export default function CompletarCuadro({ ej, moduloId }: { ej: CompletarCuadroT
   return (
     <div className="rounded-xl border border-borde bg-white overflow-hidden">
       <div className="p-4 sm:p-5">
-        <p className="text-sm font-semibold text-grafito mb-3 leading-relaxed">{ej.consigna}</p>
+        <p className="text-sm font-semibold text-grafito mb-3 leading-relaxed whitespace-pre-line">{ej.consigna}</p>
         <div className="overflow-x-auto">
           <table className="w-full text-sm border-collapse">
             <thead><tr>{ej.columnas.map((col, i) => <th key={i} className="border border-borde bg-gray-50 px-3 py-2 text-left font-semibold text-grafito">{col}</th>)}</tr></thead>

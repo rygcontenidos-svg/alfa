@@ -152,7 +152,7 @@ export default function Completar({
   return (
     <div className="rounded-xl border border-borde bg-white overflow-hidden">
       <div className="p-4 sm:p-5">
-        <p className="text-sm font-semibold text-grafito mb-3 leading-relaxed">{ej.consigna}</p>
+        <p className="text-sm font-semibold text-grafito mb-3 leading-relaxed whitespace-pre-line">{ej.consigna}</p>
 
         {"figura" in ej && ej.figura && (
           <FiguraMatematica def={ej.figura} />
