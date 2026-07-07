@@ -108,8 +108,8 @@ export default function VerdaderoFalso({
 
           {!revelado && (
             <div className="mt-3 flex items-center gap-2 flex-wrap">
-              <button type="button" onClick={comprobar} disabled={!todosRespondidos || comprobado} className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-verde text-white hover:bg-verde/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
-                Comprobar
+              <button type="button" onClick={comprobar} disabled={comprobado} className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-verde text-white hover:bg-verde/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
+                Comprobar{todosRespondidos ? "" : ` (${ej.items.filter((it) => respuestas[it.id] !== undefined && respuestas[it.id] !== null).length}/${total})`}
               </button>
               {comprobado && (
                 <>

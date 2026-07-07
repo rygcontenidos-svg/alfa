@@ -85,7 +85,7 @@
       "consigna": "ARGENTINA ENTRE 1880 y 1930\n\nA partir de los acontecimientos, completá a qué período histórico corresponde cada uno.",
       "columnas": ["Hechos / Acontecimientos", "Período Histórico"],
       "filas": [
-        { "id": "ar_olig", "celdas": ["En 1880 se impuso como presidente de la Nación el Gral. Roca. La Argentina se inserta en el mercado mundial como productor de materias primas y alimentos. Políticas inmigratorias. Fraude electoral. Crisis del régimen oligárquico y ampliación de la democracia.", "Período oligárquico (1880-1916)"] },
+        { "id": "ar_olig", "celdas": ["En 1880 se impuso como presidente de la Nación el Gral. Roca. La Argentina se inserta en el mercado mundial como productor de materias primas y alimentos. Políticas inmigratorias. Fraude electoral.", "Período oligárquico (1880-1916)"] },
         { "id": "ar_1912", "celdas": ["Sanción de la ley electoral conocida como Ley Sáenz Peña.", "Crisis del régimen oligárquico y ampliación de la democracia (1912)"] },
         { "id": "ar_yrig1", "celdas": ["Caída de las exportaciones debido a los efectos de la Primera Guerra Mundial. Reforma Universitaria. Neutralidad frente a la Primera Guerra Mundial.", "Primera presidencia de Yrigoyen (1916-1922)"] },
         { "id": "ar_alv", "celdas": ["Personalistas y antipersonalistas. Incremento de inversiones extranjeras no orientadas al modelo agroexportador. Regulación del trabajo infantil y femenino.", "Presidencia de Alvear (1922-1928)"] },
@@ -103,8 +103,8 @@
         { "id": "sgm4", "texto": "Leyes de Nuremberg (1935)", "orden": 4 },
         { "id": "sgm5", "texto": "Golpe de Estado en España contra el gobierno republicano (1936)", "orden": 5 },
         { "id": "sgm6", "texto": "Noche de los cristales rotos (1938)", "orden": 6 },
-        { "id": "sgm7", "texto": "Triunfo del General Francisco Franco en España (1939)", "orden": 7 },
-        { "id": "sgm8", "texto": "Stalin ocupa las repúblicas de Estonia, Lituania y Letonia (1940)", "orden": 8 },
+        { "id": "sgm7", "texto": "Stalin ocupa las repúblicas de Estonia, Lituania y Letonia (1940)", "orden": 7 },
+        { "id": "sgm8", "texto": "Triunfo del General Francisco Franco en España (1939)", "orden": 8 },
         { "id": "sgm9", "texto": "Desembarco en Normandía (1944)", "orden": 9 },
         { "id": "sgm10", "texto": "Conferencia de Yalta (1945)", "orden": 10 },
         { "id": "sgm11", "texto": "Juicios de Nuremberg (1945-1946)", "orden": 11 }
