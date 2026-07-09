@@ -113,7 +113,7 @@ export default function CompletarCuadro({ ej, moduloId, simulacro = false, forza
       </div>
       <div className="border-t border-borde px-4 py-3 flex justify-between items-center gap-3">
         <span className="text-[10px] text-gris uppercase tracking-wide">{moduloId}</span>
-        {!sinRespuestas && (
+        {!simulacro && !sinRespuestas && (
           <button type="button" onClick={() => setMostrar((v) => !v)} className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors ${mostrar ? "bg-gray-100 text-grafito" : "bg-azul text-white hover:bg-azul-claro"}`}>{mostrar ? "Ocultar respuestas" : "Ver respuestas"}</button>
         )}
       </div>
