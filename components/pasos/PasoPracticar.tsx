@@ -12,7 +12,7 @@ export default function PasoPracticar({
   modulo: Modulo;
   onCompletar: () => void;
 }) {
-  const ids = modulo.metodo!.practicar.ejercicios_ids;
+  const ids = modulo.metodo?.practicar?.ejercicios_ids ?? [];
   const ejercicios = ids
     .map((id) => modulo.ejercicios?.find((e) => e.id === id))
     .filter(Boolean) as NonNullable<Modulo["ejercicios"]>;
