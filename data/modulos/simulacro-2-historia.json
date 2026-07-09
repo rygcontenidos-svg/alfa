@@ -104,6 +104,78 @@
         { "id": "pm15", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "13" },
         { "id": "pm16", "subtipo": "select", "pregunta": "", "opciones": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"], "respuesta": "4" }
       ]
+    },
+    {
+      "id": "guerra-fria-ordenar",
+      "tipo": "ordenar_secuencia",
+      "consigna": "GUERRA FRÍA - Parte 1\n\nOrdená cronológicamente los siguientes hechos del 1 al 8 según corresponda.",
+      "eventos": [
+        { "id": "gf1", "texto": "Marcha sobre Roma liderada por Mussolini", "orden": 1 },
+        { "id": "gf2", "texto": "Hitler accede al cargo de Canciller de Alemania", "orden": 2 },
+        { "id": "gf3", "texto": "Golpe de Estado en España contra el gobierno republicano", "orden": 3 },
+        { "id": "gf4", "texto": "\"Noche de los cristales rotos\"", "orden": 4 },
+        { "id": "gf5", "texto": "Stalin ocupa las repúblicas de Estonia, Lituania y Letonia", "orden": 5 },
+        { "id": "gf6", "texto": "Conferencia de Teherán", "orden": 6 },
+        { "id": "gf7", "texto": "Desembarco en Normandía", "orden": 7 },
+        { "id": "gf8", "texto": "Conferencia de Yalta", "orden": 8 }
+      ]
+    },
+    {
+      "id": "guerra-fria-acrostico",
+      "tipo": "completar",
+      "consigna": "GUERRA FRÍA - Parte 2\n\nCompletá el siguiente acróstico con la palabra o expresión correcta según cada definición.",
+      "items": [
+        { "id": "g1", "subtipo": "texto", "pregunta": "G. Primer astronauta ruso que llegó al espacio en 1961.", "respuesta": "Gagarin" },
+        { "id": "u1", "subtipo": "texto", "pregunta": "U. Régimen político y económico que implementó la URSS.", "respuesta": "Comunismo" },
+        { "id": "e1", "subtipo": "texto", "pregunta": "E. País líder capitalista.", "respuesta": "EE.UU." },
+        { "id": "r1", "subtipo": "texto", "pregunta": "R. Nombre que recibió la división del mundo durante la Guerra Fría.", "respuesta": "Bipolar" },
+        { "id": "r2", "subtipo": "texto", "pregunta": "R. País líder comunista.", "respuesta": "URSS" },
+        { "id": "a1", "subtipo": "texto", "pregunta": "A. País donde hubo el primer enfrentamiento de la Guerra Fría en 1950.", "respuesta": "Corea" },
+        { "id": "f1", "subtipo": "texto", "pregunta": "F. País invadido por la URSS en 1979 para sostener a un gobierno aliado.", "respuesta": "Afganistán" },
+        { "id": "r3", "subtipo": "texto", "pregunta": "R. Apellido del líder de la Revolución Cubana que gobernó desde 1959 hasta su muerte.", "respuesta": "Castro" },
+        { "id": "i1", "subtipo": "texto", "pregunta": "Í. Tensión entre Kruschev (URSS) y Kennedy (EE.UU.) en la Bahía de los Cochinos en 1962.", "respuesta": "Crisis de los misiles" },
+        { "id": "a2", "subtipo": "texto", "pregunta": "A. Alianza política y militar creada en 1949 con el objetivo principal de garantizar la seguridad colectiva de sus países miembros.", "respuesta": "OTAN" }
+      ]
+    },
+    {
+      "id": "guerra-fria-vf",
+      "tipo": "verdadero_falso",
+      "consigna": "GUERRA FRÍA - Parte 3\n\nSeñalá si las siguientes afirmaciones son Correctas (C) o Incorrectas (I).",
+      "labels": { "verdadero": "C", "falso": "I" },
+      "items": [
+        { "id": "gfv_a", "afirmacion": "Hacia 1985 la URSS se encontraba atravesando un período de florecimiento económico.", "respuesta": false },
+        { "id": "gfv_b", "afirmacion": "El líder soviético Gorbachov impulsó una serie de reformas conocidas como perestroika y glasnost.", "respuesta": true },
+        { "id": "gfv_c", "afirmacion": "La perestroika fue un conjunto de medidas para recuperar y modernizar la economía soviética.", "respuesta": true },
+        { "id": "gfv_d", "afirmacion": "Entre las medidas tomadas en el marco de la perestroika podemos mencionar: se permitió la actividad privada en el pequeño comercio y actividades artesanales.", "respuesta": true },
+        { "id": "gfv_e", "afirmacion": "Entre las medidas tomadas en el marco de la perestroika podemos mencionar: el Estado controló todos los precios.", "respuesta": false },
+        { "id": "gfv_f", "afirmacion": "La glasnost fue una reforma en lo político, social y cultural.", "respuesta": true },
+        { "id": "gfv_g", "afirmacion": "Los cambios introducidos por la glasnost incluyeron: se permitió la actividad política.", "respuesta": true },
+        { "id": "gfv_h", "afirmacion": "Los cambios introducidos por la glasnost incluyeron: se controlaron completamente los medios de comunicación y las manifestaciones culturales.", "respuesta": false },
+        { "id": "gfv_i", "afirmacion": "A pesar de los cambios introducidos en la URSS, no se otorgaron mayores libertades a los países de Europa Oriental que integraban su bloque.", "respuesta": false },
+        { "id": "gfv_j", "afirmacion": "En el marco de las transformaciones políticas, se produjo la caída del Muro de Berlín y la reunificación de Alemania en 1990.", "respuesta": true }
+      ]
+    },
+    {
+      "id": "argentina-periodos",
+      "tipo": "completar",
+      "consigna": "EN ARGENTINA\n\nIndicá en los hechos enunciados a continuación a cuál de los períodos corresponden. Colocá el número del período.\n\n1. Gobiernos Radicales\n2. Década Infame (1932-1943)\n3. El ascenso de Perón en el nuevo gobierno militar",
+      "items": [
+        { "id": "ar_a", "subtipo": "select", "pregunta": "Los trabajadores se reunieron en la Plaza de Mayo para pedir la liberación de Perón.", "opciones": ["1","2","3"], "respuesta": "3" },
+        { "id": "ar_b", "subtipo": "select", "pregunta": "Caída de la Bolsa de Wall Street.", "opciones": ["1","2","3"], "respuesta": "1" },
+        { "id": "ar_c", "subtipo": "select", "pregunta": "Yrigoyen sostuvo buenas relaciones con la FORA IX (organización obrera con mayoría sindicalista).", "opciones": ["1","2","3"], "respuesta": "1" },
+        { "id": "ar_d", "subtipo": "select", "pregunta": "Gobierno de Agustín P. Justo.", "opciones": ["1","2","3"], "respuesta": "2" },
+        { "id": "ar_e", "subtipo": "select", "pregunta": "La Concordancia, alianza política que gobernó durante 10 años.", "opciones": ["1","2","3"], "respuesta": "3" },
+        { "id": "ar_f", "subtipo": "select", "pregunta": "Intento de reformar el sistema político para terminar con las prácticas del fraude.", "opciones": ["1","2","3"], "respuesta": "2" },
+        { "id": "ar_g", "subtipo": "select", "pregunta": "Golpe de Estado realizado por el GOU.", "opciones": ["1","2","3"], "respuesta": "3" },
+        { "id": "ar_h", "subtipo": "select", "pregunta": "División de la Unión Cívica Radical.", "opciones": ["1","2","3"], "respuesta": "1" },
+        { "id": "ar_i", "subtipo": "select", "pregunta": "Implementación del fraude electoral.", "opciones": ["1","2","3"], "respuesta": "2" },
+        { "id": "ar_j", "subtipo": "select", "pregunta": "Marcha de la Constitución y la Libertad.", "opciones": ["1","2","3"], "respuesta": "3" },
+        { "id": "ar_k", "subtipo": "select", "pregunta": "Presidencia de Marcelo T. de Alvear.", "opciones": ["1","2","3"], "respuesta": "1" },
+        { "id": "ar_l", "subtipo": "select", "pregunta": "Estatuto del Peón.", "opciones": ["1","2","3"], "respuesta": "3" },
+        { "id": "ar_m", "subtipo": "select", "pregunta": "Época caracterizada por el fraude patriótico, negociados y corrupción.", "opciones": ["1","2","3"], "respuesta": "2" },
+        { "id": "ar_n", "subtipo": "select", "pregunta": "José Félix Uriburu llegó a la presidencia con intenciones de reformar la Constitución Nacional pero no tuvo apoyo.", "opciones": ["1","2","3"], "respuesta": "2" },
+        { "id": "ar_o", "subtipo": "select", "pregunta": "Gobiernos de Ortiz y Castillo.", "opciones": ["1","2","3"], "respuesta": "2" }
+      ]
     }
   ]
 }
