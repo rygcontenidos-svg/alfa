@@ -1,0 +1,48 @@
+{
+  "id": "simulacro-2-historia",
+  "materia": "historia",
+  "titulo": "Simulacro 2: Integrador Historia",
+  "descripcion": "Simulacro integrador de Historia (BACP) que abarca: Historia como ciencia, Primera Guerra Mundial, Crisis del liberalismo de 1930, Plan Marshall, Guerra Fría, Argentina, y La historia en imágenes.",
+  "tipo": "simulacro",
+  "duracion_min": 90,
+  "estado": "completo",
+  "ejercicios": [
+    {
+      "id": "fuentes-primarias-tipo",
+      "tipo": "completar",
+      "consigna": "EJERCICIO Nº 1 - HISTORIA COMO CIENCIA\n\nParte 1\n\nIndicá en cada caso el tipo de fuente primaria.",
+      "items": [
+        { "id": "fp_a", "subtipo": "select", "pregunta": "a. \"Es difícil en tiempos como estos: los ideales, los sueños y las esperanzas más queridas surgen en nosotros, solo para ser aplastados por la dura realidad. Sin embargo, me aferro a ellos porque todavía creo, a pesar de todo, que las personas son realmente buenas de corazón.\"\nDiario de Ana Frank, 15 de julio de 1944\n\nTipo de fuente primaria:", "opciones": ["Escrita", "Oral", "Audiovisual", "Material mueble"], "respuesta": "Escrita" },
+        { "id": "fp_b", "subtipo": "select", "pregunta": "b. La leyenda guaraní cuenta que Yasí, la luna, bajó a la Tierra con Araí, la nube, para conocer la selva. Un yaguareté intentó atacarlas, pero un anciano guaraní las salvó. En agradecimiento, hicieron brotar la yerba mate, una planta sagrada que desde entonces simboliza la amistad.\n\nTipo de fuente primaria:", "opciones": ["Escrita", "Oral", "Audiovisual", "Material mueble"], "respuesta": "Oral" },
+        { "id": "fp_c", "subtipo": "select", "pregunta": "c. Observá la imagen.\n\nMapa del Mundo de Lopo Homem, 1554. Terra Argétea, primer antecedente del nombre Argentina.\n\nTipo de fuente primaria:", "opciones": ["Escrita", "Oral", "Audiovisual", "Material mueble"], "respuesta": "Audiovisual", "imagen": "/simulacro2-foto1.png" },
+        { "id": "fp_d", "subtipo": "select", "pregunta": "d. Observá la imagen.\n\nSombrero bicornio del emperador Napoleón.\n\nTipo de fuente primaria:", "opciones": ["Escrita", "Oral", "Audiovisual", "Material mueble"], "respuesta": "Material mueble", "imagen": "/simulacro2-foto2.png" }
+      ]
+    },
+    {
+      "id": "definiciones-terminos",
+      "tipo": "completar",
+      "consigna": "EJERCICIO Nº 1 - HISTORIA COMO CIENCIA\n\nParte 2\n\nAgregá a las siguientes definiciones el término definido que corresponda.",
+      "items": [
+        { "id": "def_a", "subtipo": "select", "pregunta": "a. Los historiadores analizan los indicios de las acciones humanas del pasado, que constituyen testimonios de una época.", "opciones": ["Fuentes primarias", "Procesos históricos", "Tiempo cronológico", "Contexto histórico", "Multicausalidad", "Tiempo histórico"], "respuesta": "Fuentes primarias" },
+        { "id": "def_b", "subtipo": "select", "pregunta": "b. Los historiadores organizan en un relato un conjunto de acontecimientos y cambios de la sociedad que están relacionados entre sí para estudiar sus causas y consecuencias, cambios y permanencias a lo largo del tiempo.", "opciones": ["Fuentes primarias", "Procesos históricos", "Tiempo cronológico", "Contexto histórico", "Multicausalidad", "Tiempo histórico"], "respuesta": "Procesos históricos" },
+        { "id": "def_c", "subtipo": "select", "pregunta": "c. Se refiere a la medición secuencial de días, meses, años, siglos.", "opciones": ["Fuentes primarias", "Procesos históricos", "Tiempo cronológico", "Contexto histórico", "Multicausalidad", "Tiempo histórico"], "respuesta": "Tiempo cronológico" },
+        { "id": "def_d", "subtipo": "select", "pregunta": "d. La función es brindar información sobre aspectos políticos, sociales, económicos, culturales y religiosos de la historia que influyen en un hecho, a fin de facilitar su comprensión.", "opciones": ["Fuentes primarias", "Procesos históricos", "Tiempo cronológico", "Contexto histórico", "Multicausalidad", "Tiempo histórico"], "respuesta": "Contexto histórico" },
+        { "id": "def_e", "subtipo": "select", "pregunta": "e. Los historiadores estudian las causas que generan cambios y permanencias en el tiempo y espacio.", "opciones": ["Fuentes primarias", "Procesos históricos", "Tiempo cronológico", "Contexto histórico", "Multicausalidad", "Tiempo histórico"], "respuesta": "Multicausalidad" },
+        { "id": "def_f", "subtipo": "select", "pregunta": "f. Periodización de la historia.", "opciones": ["Fuentes primarias", "Procesos históricos", "Tiempo cronológico", "Contexto histórico", "Multicausalidad", "Tiempo histórico"], "respuesta": "Tiempo histórico" }
+      ]
+    },
+    {
+      "id": "interdisciplinariedad-vf",
+      "tipo": "verdadero_falso",
+      "consigna": "EJERCICIO Nº 1 - HISTORIA COMO CIENCIA\n\nParte 3\n\nLa interdisciplinariedad de la Historia\n\nDeterminá si las siguientes oraciones son Correctas (C) o Incorrectas (I).",
+      "labels": { "verdadero": "C", "falso": "I" },
+      "items": [
+        { "id": "int_a", "afirmacion": "La Geografía es una ciencia que estudia los comportamientos y las actividades de los seres humanos.", "respuesta": false, "correccion": "La Geografía estudia el espacio geográfico como resultado de la interacción entre la naturaleza y la sociedad." },
+        { "id": "int_b", "afirmacion": "La Sociología estudia los restos fósiles de seres vivos.", "respuesta": false, "correccion": "La Sociología estudia el comportamiento social de los seres humanos, sus relaciones y organizaciones." },
+        { "id": "int_c", "afirmacion": "La política estudia el poder, la autoridad, y los distintos sistemas de gobierno.", "respuesta": true },
+        { "id": "int_d", "afirmacion": "La numismática estudia el espacio geográfico como resultado de la interacción sociedad-naturaleza.", "respuesta": false, "correccion": "La numismática estudia las monedas y las medallas." },
+        { "id": "int_e", "afirmacion": "La Historia estudia a las sociedades antiguas a partir de los restos materiales.", "respuesta": false, "correccion": "La Historia estudia los hechos y acontecimientos del pasado." }
+      ]
+    }
+  ]
+}

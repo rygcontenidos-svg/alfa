@@ -25,6 +25,7 @@ import historiaEje4 from "@/data/modulos/historia-eje-4.json";
 import historiaEje5 from "@/data/modulos/historia-eje-5.json";
 import historiaEje6 from "@/data/modulos/historia-eje-6.json";
 import simulacro1Historia from "@/data/modulos/simulacro-1-historia.json";
+import simulacro2Historia from "@/data/modulos/simulacro-2-historia.json";
 
 const MODULOS_JSON: Record<string, Modulo> = {
   "comunicacion-funciones-lenguaje":
@@ -77,6 +78,8 @@ const MODULOS_JSON: Record<string, Modulo> = {
     historiaEje6 as unknown as Modulo,
   "simulacro-1-historia":
     simulacro1Historia as unknown as Modulo,
+  "simulacro-2-historia":
+    simulacro2Historia as unknown as Modulo,
 };
 
 const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
@@ -281,6 +284,14 @@ const MODULOS_META: Omit<Modulo, "ejercicios" | "metodo" | "textos_ids">[] = [
     titulo: "Simulacro 1: Ejes 4, 5 y 6",
     descripcion:
       "Simulacro integrador de Historia (BACP) que abarca: Primera Guerra Mundial, Años Dorados, Gran Depresión, Revolución Rusa, Argentina entre 1880 y 1930, Segunda Guerra Mundial, Holocausto, Guerra Fría y Argentina entre 1938 y 1945.",
+    estado: "completo",
+  },
+  {
+    id: "simulacro-2-historia",
+    materia: "historia",
+    titulo: "Simulacro 2: Integrador Historia",
+    descripcion:
+      "Simulacro integrador de Historia (BACP) que abarca: Historia como ciencia, Primera Guerra Mundial, Crisis del liberalismo de 1930, Plan Marshall, Guerra Fría, Argentina, y La historia en imágenes.",
     estado: "completo",
   },
 ];

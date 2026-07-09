@@ -48,9 +48,9 @@ export async function iniciarSesion(email: string, password: string): Promise<st
     .from("profiles")
     .select("username")
     .eq("id", data.user.id)
-    .single();
+    .maybeSingle();
 
-  return profile?.username ?? email;
+  return profile?.username ?? email.split("@")[0];
 }
 
 export async function cerrarSesion() {
@@ -65,7 +65,7 @@ export async function sesionActual(): Promise<string | null> {
     .from("profiles")
     .select("username")
     .eq("id", data.session.user.id)
-    .single();
+    .maybeSingle();
 
   return profile?.username ?? null;
 }
