@@ -16,8 +16,14 @@ export default function PasoMejorar({
 }) {
   const { usuario } = useAuth();
   const router = useRouter();
-  const { explicaciones } = modulo.metodo?.mejorar ?? {};
-  if (!explicaciones?.length) {
+  const { explicaciones = [] } = modulo.metodo?.mejorar ?? {};
+  const [repasar, setRepasar] = useState<string[]>([]);
+
+  useEffect(() => {
+    setRepasar(listarRepasar(modulo.id, usuario));
+  }, [modulo.id, usuario]);
+
+  if (!explicaciones.length) {
     return (
       <div className="text-center py-6">
         <p className="text-sm text-gris">No hay explicaciones para este módulo.</p>
@@ -25,11 +31,6 @@ export default function PasoMejorar({
       </div>
     );
   }
-  const [repasar, setRepasar] = useState<string[]>([]);
-
-  useEffect(() => {
-    setRepasar(listarRepasar(modulo.id, usuario));
-  }, [modulo.id, usuario]);
 
   const ejerciciosRepasar = repasar
     .map((id) => modulo.ejercicios?.find((e) => e.id === id))

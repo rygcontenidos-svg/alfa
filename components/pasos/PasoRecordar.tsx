@@ -11,8 +11,11 @@ export default function PasoRecordar({
   modulo: Modulo;
   onCompletar: () => void;
 }) {
-  const { flashcards } = modulo.metodo?.recordar ?? {};
-  if (!flashcards?.length) {
+  const { flashcards = [] } = modulo.metodo?.recordar ?? {};
+  const [i, setI] = useState(0);
+  const [volteada, setVolteada] = useState(false);
+
+  if (!flashcards.length) {
     return (
       <div className="text-center py-6">
         <p className="text-sm text-gris">No hay flashcards para este módulo.</p>
@@ -20,8 +23,6 @@ export default function PasoRecordar({
       </div>
     );
   }
-  const [i, setI] = useState(0);
-  const [volteada, setVolteada] = useState(false);
 
   const carta = flashcards[i];
   const esUltima = i === flashcards.length - 1;
