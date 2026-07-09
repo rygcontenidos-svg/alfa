@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, FormEvent, useEffect } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useAuth } from "@/app/AuthProvider";
 import { supabase } from "@/lib/supabase";
@@ -9,7 +9,6 @@ import { supabase } from "@/lib/supabase";
 export default function LoginPage() {
   const { login, register } = useAuth();
   const router = useRouter();
-  const searchParams = useSearchParams();
   const [modo, setModo] = useState<"login" | "register" | "reset">("login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
