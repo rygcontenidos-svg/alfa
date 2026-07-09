@@ -54,6 +54,32 @@
         { "id": "pg_c", "subtipo": "texto", "pregunta": "c. ¿A qué alianza de países considerás que pertenece el soldado? Justificá tu respuesta.", "respuesta": "A la Triple Entente, porque dice que las tropas alemanas les tiraron un proyectil lacrimógeno" },
         { "id": "pg_d", "subtipo": "texto", "pregunta": "d. El testimonio da cuenta de la vida en el frente de batalla. ¿En cuántos frentes se desarrolló la Gran Guerra? Mencioná algunos de los países que participaron.", "respuesta": "Se desarrolló en Europa occidental y Europa oriental. También participaron países americanos como EE.UU, países sudamericanos (Brasil, Cuba) y dominios coloniales" }
       ]
+    },
+    {
+      "id": "crisis-29-completar",
+      "tipo": "completar",
+      "consigna": "CRISIS DEL LIBERALISMO 1930 - Parte 1\n\nCompletá las siguientes frases.",
+      "items": [
+        { "id": "c29_a", "subtipo": "texto", "pregunta": "a. La crisis económica mundial se inició en octubre de 1929, al producirse la...", "respuesta": "Caída de la Bolsa de Wall Street" },
+        { "id": "c29_b", "subtipo": "texto", "pregunta": "b. La crisis que se desencadenó en 1929 tiene como principales componentes la... y el agotamiento del modelo de producción de bienes durables y en serie.", "respuesta": "Especulación financiera" },
+        { "id": "c29_c", "subtipo": "texto", "pregunta": "c. En el plano interno, la Gran Depresión generó cierre de..., quiebre de... y despidos masivos.", "respuesta": "Industrias, bancos" },
+        { "id": "c29_d", "subtipo": "texto", "pregunta": "d. EE.UU. les exigió a los países europeos pagar sus... y restringió el otorgamiento de nuevos... lo que detuvo la producción y generó un gran desempleo y miseria.", "respuesta": "Deudas, créditos" }
+      ]
+    },
+    {
+      "id": "crisis-29-columnas",
+      "tipo": "completar",
+      "consigna": "CRISIS DEL LIBERALISMO 1930 - Parte 2\n\nCompletá la columna B con el número de la columna A que corresponda.\n\nColumna A\n1. Crack de Wall Street\n2. Gran Depresión\n3. Estado de Bienestar\n4. Franklin D. Roosevelt\n5. New Deal\n6. Black Tuesday (martes negro)\n7. Alemania\n8. Keynesianismo\n\nSeleccioná el número correcto para cada descripción de la columna B.",
+      "items": [
+        { "id": "col_1", "subtipo": "select", "pregunta": "Propuso la intervención del Estado y aumento del gasto público para reactivar la economía a partir de 1930 en EE.UU.", "opciones": ["1","2","3","4","5","6","7","8"], "respuesta": "4" },
+        { "id": "col_2", "subtipo": "select", "pregunta": "Programa de gobierno de Roosevelt inspirado en Keynes.", "opciones": ["1","2","3","4","5","6","7","8"], "respuesta": "5" },
+        { "id": "col_3", "subtipo": "select", "pregunta": "Caída de la Bolsa de Nueva York que originó la crisis mundial.", "opciones": ["1","2","3","4","5","6","7","8"], "respuesta": "1" },
+        { "id": "col_4", "subtipo": "select", "pregunta": "Período de crisis económica mundial iniciado en 1929.", "opciones": ["1","2","3","4","5","6","7","8"], "respuesta": "2" },
+        { "id": "col_5", "subtipo": "select", "pregunta": "País europeo muy afectado por el retiro de préstamos estadounidenses.", "opciones": ["1","2","3","4","5","6","7","8"], "respuesta": "7" },
+        { "id": "col_6", "subtipo": "select", "pregunta": "Corriente económica que cuestionó la idea de un mercado que se autorregula.", "opciones": ["1","2","3","4","5","6","7","8"], "respuesta": "8" },
+        { "id": "col_7", "subtipo": "select", "pregunta": "Día de inicio de la crisis, 24 de octubre de 1929.", "opciones": ["1","2","3","4","5","6","7","8"], "respuesta": "6" },
+        { "id": "col_8", "subtipo": "select", "pregunta": "Modelo estatal que surge como respuesta a la Gran Depresión.", "opciones": ["1","2","3","4","5","6","7","8"], "respuesta": "3" }
+      ]
     }
   ]
 }
