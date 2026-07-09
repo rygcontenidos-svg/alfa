@@ -493,14 +493,30 @@
           ]
         }
       ]
-    },
-    "practicar": {
-      "notas": [
-        { "titulo": "Recordá la línea cronológica", "detalle": "Los acontecimientos previos (1933-1939) son tan importantes como el desarrollo de la guerra misma (1939-1945). El contexto explica las causas." },
-        { "titulo": "El Holocausto no fue solo alemán", "detalle": "El régimen nazi contó con la colaboración de gobiernos y sociedades de muchos países europeos ocupados. Fue un fenómeno continental." },
-        { "titulo": "Argentina: de la neutralidad al peronismo", "detalle": "La posición neutral argentina fue consistente en ambas guerras mundiales. El golpe de 1943 abre un nuevo ciclo político que desemboca en el peronismo." },
-        { "titulo": "Las bombas atómicas: una decisión controvertida", "detalle": "Japón ya estaba prácticamente derrotado. EE.UU. justificó las bombas para evitar una invasión terrestre que costaría más vidas, pero las consecuencias humanas y ambientales fueron devastadoras. Hiroshima y Nagasaki siguen siendo los únicos casos de uso de armas nucleares en guerra." }
+    },    "practicar": {
+      "ejercicios_ids": [
+        "com_camino_guerra",
+        "vf_expansionismo",
+        "com_inicio_fases",
+        "com_1941_desenlace",
+        "com_fin_guerra",
+        "vf_holocausto",
+        "com_argentina_eje5",
+        "vf_argentina_5",
+        "ord_segunda_guerra",
+        "ord_argentina_5",
+        "unir_potencias"
       ]
+    },
+    "ponerse_a_prueba": {
+      "ejercicios_ids": [
+        "ord_segunda_guerra",
+        "ord_argentina_5",
+        "unir_potencias",
+        "vf_holocausto",
+        "com_fin_guerra"
+      ],
+      "duracion_min": 30
     }
   }
 }
