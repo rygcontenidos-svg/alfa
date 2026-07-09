@@ -517,6 +517,35 @@
         "com_fin_guerra"
       ],
       "duracion_min": 30
+    },
+    "recordar": {
+      "flashcards": [
+        { "pregunta": "¿Cómo llegó Mussolini al poder?", "respuesta": "Mediante la Marcha sobre Roma en 1922. El Partido Nacional Fascista tomó el poder por la fuerza y Mussolini fue designado Primer Ministro. En 1925 consolidó un régimen de partido único." },
+        { "pregunta": "¿Qué política expansionista inició Hitler al asumir como Canciller en 1933?", "respuesta": "Proclamó la necesidad del espacio vital (Lebensraum) para la raza aria, denunció el Tratado de Versalles y comenzó a anexar territorios (Austria, Sudetes)." },
+        { "pregunta": "¿En qué consistió la política de apaciguamiento?", "respuesta": "Francia y Gran Bretaña no generaron resistencia y fueron cediendo a las pretensiones de Hitler para evitar un nuevo conflicto. Esta política demostró la ineficacia de la Sociedad de las Naciones." },
+        { "pregunta": "¿Qué fue el Pacto Molotov-Ribbentrop?", "respuesta": "Acuerdo de no agresión entre Alemania y la URSS firmado en agosto de 1939. En un apartado secreto acordaron la división de Polonia." },
+        { "pregunta": "¿Qué hecho marcó el inicio de la Segunda Guerra Mundial?", "respuesta": "La invasión alemana a Polonia el 1 de septiembre de 1939. Dos días después, Francia y Gran Bretaña le declararon la guerra." },
+        { "pregunta": "¿En qué consistió la Blitzkrieg?", "respuesta": "Estrategia de 'guerra relámpago': rápida conquista de países mediante ataques coordinados por tierra y aire. Así cayeron Noruega, Dinamarca, Holanda, Bélgica y Francia." },
+        { "pregunta": "¿Qué hechos modificaron el curso de la guerra en 1941?", "respuesta": "Hitler invadió la URSS (Operación Barbarroja), Japón atacó Pearl Harbor y EE.UU. ingresó a la guerra. Se conformó la Gran Alianza Antifascista entre EE.UU., Gran Bretaña y la URSS." },
+        { "pregunta": "¿Por qué fue decisiva la Batalla de Stalingrado?", "respuesta": "El Ejército Rojo derrotó a las fuerzas alemanas. Desde allí comenzó un avance imparable que finalizó con la entrada soviética a Berlín en 1945." },
+        { "pregunta": "¿Qué fue el Desembarco en Normandía?", "respuesta": "En junio de 1944, tropas aliadas desembarcaron en la costa francesa. Desde allí recuperaron las zonas ocupadas por los nazis, liberaron Francia y avanzaron hacia Alemania." },
+        { "pregunta": "¿Cómo finalizó la Segunda Guerra Mundial?", "respuesta": "Rendición de Alemania tras la Batalla de Berlín (mayo 1945). Rendición de Japón tras las bombas atómicas sobre Hiroshima y Nagasaki (septiembre 1945)." },
+        { "pregunta": "¿Qué fueron las conferencias de paz de los Aliados?", "respuesta": "Teherán (1943): programó el desembarco en Normandía. Yalta (1945): división de Alemania en 4 zonas. Potsdam (1945): reconstrucción europea, desnazificación y juicios a criminales nazis." },
+        { "pregunta": "¿Qué fueron las Leyes de Nuremberg?", "respuesta": "Leyes de 1935 que establecieron una diferenciación legal entre ciudadanos alemanes 'arios' y judíos, quitándoles a estos últimos derechos y la condición de ciudadanía." },
+        { "pregunta": "¿En qué consistió la 'solución final'?", "respuesta": "Plan nazi de exterminio sistemático de todos los judíos de la Europa ocupada (1942). Construyeron campos de exterminio con cámaras de gas. Fueron asesinadas seis millones de personas." },
+        { "pregunta": "¿Qué medidas laborales impulsó Perón desde la Secretaría de Trabajo?", "respuesta": "Aguinaldo, vacaciones pagas, indemnización por despido, convenciones colectivas, tribunales laborales, salario mínimo, Estatuto del Peón rural, extensión de la jubilación y medicina laboral." },
+        { "pregunta": "¿Qué ocurrió el 17 de octubre de 1945?", "respuesta": "Miles de trabajadores se movilizaron a la Plaza de Mayo para pedir la liberación de Perón, que había sido detenido. Las autoridades cedieron y Perón fue liberado. Nació el peronismo como movimiento político de masas." }
+      ]
+    },
+    "mejorar": {
+      "explicaciones": [
+        { "titulo": "Recordá la línea cronológica", "detalle": "Los acontecimientos previos (1933-1939) son tan importantes como el desarrollo de la guerra misma (1939-1945). El contexto explica las causas." },
+        { "titulo": "El Holocausto no fue solo alemán", "detalle": "El régimen nazi contó con la colaboración de gobiernos y sociedades de muchos países europeos ocupados. Fue un fenómeno continental." },
+        { "titulo": "Argentina: de la neutralidad al peronismo", "detalle": "La posición neutral argentina fue consistente en ambas guerras mundiales. El golpe de 1943 abre un nuevo ciclo político que desemboca en el peronismo." },
+        { "titulo": "Las bombas atómicas: una decisión controvertida", "detalle": "Japón ya estaba prácticamente derrotado. EE.UU. justificó las bombas para evitar una invasión terrestre que costaría más vidas, pero las consecuencias humanas y ambientales fueron devastadoras." },
+        { "titulo": "No confundas conferencias", "detalle": "Teherán (1943) = planificar Normandía. Yalta (1945) = dividir Alemania. Potsdam (1945) = reconstrucción y juicios. Cada una con un propósito distinto." },
+        { "titulo": "El genocidio como proceso", "detalle": "No es solo el aniquilamiento físico, sino también la destrucción de la identidad cultural y las tradiciones de un grupo. Hubo múltiples actores sociales involucrados, no solo Hitler." }
+      ]
     }
   }
 }
