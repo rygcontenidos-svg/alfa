@@ -10,7 +10,7 @@
     {
       "id": "fuentes-primarias-tipo",
       "tipo": "completar",
-      "consigna": "Parte 1\n\nIndicá en cada caso el tipo de fuente primaria.",
+      "consigna": "HISTORIA COMO CIENCIA - Parte 1\n\nIndicá en cada caso el tipo de fuente primaria.",
       "items": [
         { "id": "fp_a", "subtipo": "select", "pregunta": "a. \"Es difícil en tiempos como estos: los ideales, los sueños y las esperanzas más queridas surgen en nosotros, solo para ser aplastados por la dura realidad. Sin embargo, me aferro a ellos porque todavía creo, a pesar de todo, que las personas son realmente buenas de corazón.\"\nDiario de Ana Frank, 15 de julio de 1944\n\nTipo de fuente primaria:", "opciones": ["Escrita", "Oral", "Audiovisual", "Material mueble"], "respuesta": "Escrita" },
         { "id": "fp_b", "subtipo": "select", "pregunta": "b. La leyenda guaraní cuenta que Yasí, la luna, bajó a la Tierra con Araí, la nube, para conocer la selva. Un yaguareté intentó atacarlas, pero un anciano guaraní las salvó. En agradecimiento, hicieron brotar la yerba mate, una planta sagrada que desde entonces simboliza la amistad.\n\nTipo de fuente primaria:", "opciones": ["Escrita", "Oral", "Audiovisual", "Material mueble"], "respuesta": "Oral" },
@@ -21,7 +21,7 @@
     {
       "id": "definiciones-terminos",
       "tipo": "completar",
-      "consigna": "Parte 2\n\nAgregá a las siguientes definiciones el término definido que corresponda.",
+      "consigna": "HISTORIA COMO CIENCIA - Parte 2\n\nAgregá a las siguientes definiciones el término definido que corresponda.",
       "items": [
         { "id": "def_a", "subtipo": "select", "pregunta": "a. Los historiadores analizan los indicios de las acciones humanas del pasado, que constituyen testimonios de una época.", "opciones": ["Fuentes primarias", "Procesos históricos", "Tiempo cronológico", "Contexto histórico", "Multicausalidad", "Tiempo histórico"], "respuesta": "Fuentes primarias" },
         { "id": "def_b", "subtipo": "select", "pregunta": "b. Los historiadores organizan en un relato un conjunto de acontecimientos y cambios de la sociedad que están relacionados entre sí para estudiar sus causas y consecuencias, cambios y permanencias a lo largo del tiempo.", "opciones": ["Fuentes primarias", "Procesos históricos", "Tiempo cronológico", "Contexto histórico", "Multicausalidad", "Tiempo histórico"], "respuesta": "Procesos históricos" },
@@ -34,7 +34,7 @@
     {
       "id": "interdisciplinariedad-vf",
       "tipo": "verdadero_falso",
-      "consigna": "Parte 3\n\nLa interdisciplinariedad de la Historia\n\nDeterminá si las siguientes oraciones son Correctas (C) o Incorrectas (I).",
+      "consigna": "HISTORIA COMO CIENCIA - Parte 3\n\nLa interdisciplinariedad de la Historia\n\nDeterminá si las siguientes oraciones son Correctas (C) o Incorrectas (I).",
       "labels": { "verdadero": "C", "falso": "I" },
       "items": [
         { "id": "int_a", "afirmacion": "La Geografía es una ciencia que estudia los comportamientos y las actividades de los seres humanos.", "respuesta": false, "correccion": "La Geografía estudia el espacio geográfico como resultado de la interacción entre la naturaleza y la sociedad." },
@@ -42,6 +42,17 @@
         { "id": "int_c", "afirmacion": "La política estudia el poder, la autoridad, y los distintos sistemas de gobierno.", "respuesta": true },
         { "id": "int_d", "afirmacion": "La numismática estudia el espacio geográfico como resultado de la interacción sociedad-naturaleza.", "respuesta": false, "correccion": "La numismática estudia las monedas y las medallas." },
         { "id": "int_e", "afirmacion": "La Historia estudia a las sociedades antiguas a partir de los restos materiales.", "respuesta": false, "correccion": "La Historia estudia los hechos y acontecimientos del pasado." }
+      ]
+    },
+    {
+      "id": "primera-guerra-diario",
+      "tipo": "completar",
+      "consigna": "PRIMERA GUERRA\n\nLeé el siguiente fragmento del diario personal de un soldado que participó de la Gran Guerra y respondé las preguntas.\n\n\"El sábado 1° de julio salimos hacia las trincheras a las 10 de la mañana. Tan pronto como llegamos a la carretera, vimos algo horrible, ya que había cientos de hombres heridos que venían del frente. Cuando íbamos por el pantano, los proyectiles alemanes caían por todas partes, pero ninguno de nosotros fue alcanzado. Luego llegamos a una trinchera de comunicación. Pero antes de que tuviéramos tiempo de entrar en él, las tropas alemanas nos enviaron un proyectil lacrimógeno. Esa fue la primera vez que nos enfrentábamos al gas.\n\nNo habíamos ido muy lejos en la trinchera antes de encontrarnos con tres de nuestros propios muchachos muertos. Sus cabezas habían sido dañadas gravemente por un proyectil.\"\n\nHutchinson, W. (2007) \"Extended extracts. Diary from the Some\". The Telegraph, 21 de febrero.",
+      "items": [
+        { "id": "pg_a", "subtipo": "texto", "pregunta": "a. ¿A qué fase de la guerra se refiere el soldado?", "respuesta": "A la segunda fase, la guerra de trincheras" },
+        { "id": "pg_b", "subtipo": "texto", "pregunta": "b. ¿Cuáles eran las características de esa fase?", "respuesta": "Fue la fase más larga y de mayor desgaste, supuso un cambio respecto a la fase anterior porque inmovilizó a los ejércitos en las líneas de trincheras" },
+        { "id": "pg_c", "subtipo": "texto", "pregunta": "c. ¿A qué alianza de países considerás que pertenece el soldado? Justificá tu respuesta.", "respuesta": "A la Triple Entente, porque dice que las tropas alemanas les tiraron un proyectil lacrimógeno" },
+        { "id": "pg_d", "subtipo": "texto", "pregunta": "d. El testimonio da cuenta de la vida en el frente de batalla. ¿En cuántos frentes se desarrolló la Gran Guerra? Mencioná algunos de los países que participaron.", "respuesta": "Se desarrolló en Europa occidental y Europa oriental. También participaron países americanos como EE.UU, países sudamericanos (Brasil, Cuba) y dominios coloniales" }
       ]
     }
   ]
