@@ -6,420 +6,103 @@
   "estado": "completo",
   "ejercicios": [
     {
-      "id": "sm_camino_guerra",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué factores explican el camino hacia la Segunda Guerra Mundial según el Eje 5?",
-      "opciones": [
-        {
-          "id": "b",
-          "texto": "Las duras condiciones del Tratado de Versalles, la crisis de 1929, el ascenso de regímenes fascistas en Alemania e Italia, la política de apaciguamiento de Francia y Gran Bretaña, y el expansionismo japonés en Asia."
-        },
-        {
-          "id": "c",
-          "texto": "La rivalidad entre Stalin y Trotsky por el control de la URSS, que debilito al comunismo y permitio el avance aleman sobre Europa oriental sin oposicion."
-        },
-        {
-          "id": "a",
-          "texto": "La carrera armamentista naval entre Inglaterra y Alemania, la anexion de Austria por parte de Hitler y la invasión japonesa a China."
-        }
-      ],
-      "correcta": "b"
-    },
-    {
-      "id": "sm_mussolini",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Cómo llegó Benito Mussolini al poder en Italia?",
-      "opciones": [
-        {
-          "id": "b",
-          "texto": "Mediante la Marcha sobre Roma en 1922: el Partido Nacional Fascista tomo el poder por la fuerza y Mussolini fue designado Primer Ministro. En 1925 consolido un regimen de partido unico, cerro el parlamento y persiguio a la oposicion."
-        },
-        {
-          "id": "c",
-          "texto": "Fue elegido por un colegio electoral de notables tras la renuncia del rey Victor Manuel III, quien abdico por presion de los industriales del norte de Italia."
-        },
-        {
-          "id": "a",
-          "texto": "Gano las elecciones democraticas de 1922 con una aplastante mayoria gracias al descontento popular con la monarquia italiana."
-        }
-      ],
-      "correcta": "b"
-    },
-    {
-      "id": "sm_hitler_ascenso",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué medidas tomó Hitler al asumir como Canciller de Alemania en 1933?",
-      "opciones": [
-        {
-          "id": "b",
-          "texto": "Comenzo a desplegar una politica expansionista para recuperar los territorios perdidos en Versalles, proclamando la necesidad del espacio vital (Lebensraum) para la raza aria y denunciando el tratado como una imposicion injusta."
-        },
-        {
-          "id": "a",
-          "texto": "Inicio un programa de alianzas con Francia y Gran Bretana para aislar a la URSS, mientras reconstruia la economia alemana mediante acuerdos comerciales con Estados Unidos."
-        },
-        {
-          "id": "c",
-          "texto": "Restauro la monarquia alemana y se proclamo emperador, iniciando una politica de reconciliacion con las potencias vencedoras de la Primera Guerra Mundial."
-        }
-      ],
-      "correcta": "b"
+      "id": "com_camino_guerra",
+      "tipo": "completar",
+      "consigna": "CAMINO HACIA LA SEGUNDA GUERRA MUNDIAL\n\nCompletá el texto seleccionando la opción correcta para cada espacio.",
+      "texto": "El camino hacia la Segunda Guerra Mundial se explica por múltiples factores: las duras condiciones del Tratado de Versalles, la crisis de 1929, el ascenso de regímenes fascistas, la política de apaciguamiento y el expansionismo japonés en Asia. En Italia, Benito Mussolini llegó al poder mediante {mussolini}. En 1925 consolidó un régimen de partido único, cerró el parlamento y persiguió a la oposición. En Alemania, Adolf Hitler asumió como Canciller en 1933 y desplegó una política expansionista basada en {hitler}. La Guerra Civil Española (1936-1939) terminó con el triunfo de Franco, apoyado por {franco}, e instaló una dictadura hasta 1975. La política de apaciguamiento de Francia y Gran Bretaña consistió en {apaciguamiento}, cediendo a las pretensiones de Hitler para evitar otro conflicto. En 1938 Alemania anexó Austria y, mediante el Tratado de Munich, obtuvo la región de los {sudetes}. Todo este escenario demostró la ineficacia de la Sociedad de las Naciones y preparó el camino hacia la guerra.",
+      "items": [
+        { "id": "mussolini", "subtipo": "select", "pregunta": "", "opciones": ["La Marcha sobre Roma, tomando el poder por la fuerza", "Elecciones democráticas con amplia mayoría popular", "Un golpe palaciego del rey Víctor Manuel III"], "respuesta": "La Marcha sobre Roma, tomando el poder por la fuerza" },
+        { "id": "hitler", "subtipo": "select", "pregunta": "", "opciones": ["La superioridad de la raza aria y el espacio vital (Lebensraum)", "Una alianza militar con Francia y Gran Bretaña", "La restauración de la monarquía alemana"], "respuesta": "La superioridad de la raza aria y el espacio vital (Lebensraum)" },
+        { "id": "franco", "subtipo": "select", "pregunta": "", "opciones": ["Hitler y Mussolini con armas y soldados", "La Sociedad de las Naciones con tropas de paz", "Francia y Gran Bretaña con apoyo diplomático"], "respuesta": "Hitler y Mussolini con armas y soldados" },
+        { "id": "apaciguamiento", "subtipo": "select", "pregunta": "", "opciones": ["No generar resistencia y ceder ante los nazis", "Enfrentar militarmente a Hitler desde el comienzo", "Formar una alianza defensiva con la URSS"], "respuesta": "No generar resistencia y ceder ante los nazis" },
+        { "id": "sudetes", "subtipo": "select", "pregunta": "", "opciones": ["Sudetes (Checoslovaquia)", "Alsacia y Lorena (Francia)", "Prusia Oriental (Polonia)"], "respuesta": "Sudetes (Checoslovaquia)" }
+      ]
     },
     {
       "id": "vf_expansionismo",
       "tipo": "verdadero_falso",
       "consigna": "Marcá V o F sobre los acontecimientos previos a la Segunda Guerra Mundial.",
-      "labels": {
-        "verdadero": "V",
-        "falso": "F"
-      },
+      "labels": { "verdadero": "V", "falso": "F" },
       "items": [
-        {
-          "id": "i1",
-          "afirmacion": "La Guerra Civil Española (1936-1939) terminó con el triunfo de Francisco Franco y el establecimiento de una dictadura que duró hasta 1975.",
-          "respuesta": true
-        },
-        {
-          "id": "i2",
-          "afirmacion": "Alemania e Italia apoyaron al bando franquista durante la Guerra Civil Española con armas y soldados.",
-          "respuesta": true
-        },
-        {
-          "id": "i3",
-          "afirmacion": "La 'política de apaciguamiento' de Francia y Gran Bretaña consistió en enfrentar militarmente a Hitler desde el primer momento.",
-          "respuesta": false,
-          "correccion": "La política de apaciguamiento consistió precisamente en lo contrario: no generar resistencia y ceder a las pretensiones de los nazis para evitar un nuevo conflicto bélico."
-        },
-        {
-          "id": "i4",
-          "afirmacion": "En 1938 Alemania anexó Austria y, mediante el Tratado de Munich, Francia y Gran Bretaña cedieron a Hitler la región de los Sudetes (Checoslovaquia).",
-          "respuesta": true
-        },
-        {
-          "id": "i5",
-          "afirmacion": "El Pacto Molotov-Ribbentrop (1939) fue un acuerdo de no agresión entre Alemania y la Unión Soviética que incluía un apartado secreto para dividir Polonia.",
-          "respuesta": true
-        }
+        { "id": "i1", "afirmacion": "La Guerra Civil Española (1936-1939) terminó con el triunfo de Francisco Franco y el establecimiento de una dictadura que duró hasta 1975.", "respuesta": true },
+        { "id": "i2", "afirmacion": "Alemania e Italia apoyaron al bando franquista durante la Guerra Civil Española con armas y soldados.", "respuesta": true },
+        { "id": "i3", "afirmacion": "La 'política de apaciguamiento' de Francia y Gran Bretaña consistió en enfrentar militarmente a Hitler desde el primer momento.", "respuesta": false, "correccion": "La política de apaciguamiento consistió precisamente en lo contrario: no generar resistencia y ceder a las pretensiones de los nazis para evitar un nuevo conflicto bélico." },
+        { "id": "i4", "afirmacion": "En 1938 Alemania anexó Austria y, mediante el Tratado de Munich, Francia y Gran Bretaña cedieron a Hitler la región de los Sudetes (Checoslovaquia).", "respuesta": true },
+        { "id": "i5", "afirmacion": "El Pacto Molotov-Ribbentrop (1939) fue un acuerdo de no agresión entre Alemania y la Unión Soviética que incluía un apartado secreto para dividir Polonia.", "respuesta": true }
       ]
     },
     {
-      "id": "sm_inicio_guerra",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué hecho marcó el inicio de la Segunda Guerra Mundial?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "La invasión alemana a Polonia el 1 de septiembre de 1939. Dos días después, Francia y Gran Bretaña le declararon la guerra a Alemania."
-        },
-        {
-          "id": "b",
-          "texto": "La firma del Pacto Tripartito entre Alemania, Italia y Japón en 1940, que formalizó la alianza militar entre las tres potencias."
-        },
-        {
-          "id": "c",
-          "texto": "La anexión de Austria por parte de Alemania en 1938, que fue considerada por Gran Bretaña como una violación intolerable de la soberanía europea."
-        }
-      ],
-      "correcta": "a"
+      "id": "com_inicio_fases",
+      "tipo": "completar",
+      "consigna": "INICIO Y FASES DE LA GUERRA\n\nCompletá el texto seleccionando la opción correcta para cada espacio.",
+      "texto": "La Segunda Guerra Mundial comenzó el 1 de septiembre de 1939 cuando Alemania invadió {inicio}. Dos días después, Francia y Gran Bretaña le declararon la guerra. Alemania aplicó la estrategia de guerra relámpago (Blitzkrieg), que consistía en {blitzkrieg}. Así cayeron Noruega, Dinamarca, Holanda, Bélgica y Francia en pocas semanas. Tras la invasión alemana, Francia quedó dividida: el norte bajo control nazi y en el sur se estableció un gobierno colaboracionista en la ciudad de {vichy}, liderado por el mariscal Pétain. Gran Bretaña quedó como la única resistencia frente al nazismo.",
+      "items": [
+        { "id": "inicio", "subtipo": "select", "pregunta": "", "opciones": ["Polonia", "Francia", "La Unión Soviética"], "respuesta": "Polonia" },
+        { "id": "blitzkrieg", "subtipo": "select", "pregunta": "", "opciones": ["La rápida conquista mediante ataques coordinados por tierra y aire", "El bloqueo naval de puertos enemigos con submarinos", "La negociación diplomática y rendición pacífica de cada país"], "respuesta": "La rápida conquista mediante ataques coordinados por tierra y aire" },
+        { "id": "vichy", "subtipo": "select", "pregunta": "", "opciones": ["Vichy", "París", "Marsella"], "respuesta": "Vichy" }
+      ]
     },
     {
-      "id": "sm_blitzkrieg",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿En qué consistió la estrategia alemana de 'guerra relámpago' (Blitzkrieg)?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Consistia en la rapida conquista de los paises invadidos mediante ataques coordinados por tierra y aire, utilizando luego sus recursos para continuar el avance. Asi cayeron Noruega, Dinamarca, Holanda, Belgica y Francia en pocas semanas."
-        },
-        {
-          "id": "b",
-          "texto": "Era una estrategia de desgaste economico: Alemania bloqueaba los puertos enemigos con su flota de submarinos para cortar el suministro de alimentos y forzar la rendicion por hambre."
-        },
-        {
-          "id": "c",
-          "texto": "Consistia en negociar la rendicion pacifica de cada pais mediante amenazas diplomaticas y demostraciones de fuerza, evitando el combate directo siempre que fuera posible."
-        }
-      ],
-      "correcta": "a"
+      "id": "com_1941_desenlace",
+      "tipo": "completar",
+      "consigna": "1941 Y EL DESENLACE DE LA GUERRA\n\nCompletá el texto seleccionando la opción correcta para cada espacio.",
+      "texto": "En 1941 se produjeron hechos decisivos que cambiaron el curso de la guerra. Hitler, incumpliendo el pacto con Stalin, invadió la URSS mediante la {barbarroja} con tres millones de soldados. A fines de ese año, Japón atacó la base naval de {pearlharbor} y Estados Unidos ingresó a la guerra. Se conformó entonces la Gran Alianza Antifascista entre EE.UU., Gran Bretaña y la URSS. Un enfrentamiento decisivo fue la Batalla de {stalingrado}, donde el Ejército Rojo derrotó a las fuerzas alemanas y desde allí comenzó un avance imparable hacia Berlín. En junio de 1944, las tropas aliadas realizaron el {normandia} en la costa francesa, liberaron Francia y avanzaron hacia Alemania. La guerra en Europa finalizó con la Batalla de Berlín y la rendición alemana en mayo de 1945.",
+      "items": [
+        { "id": "barbarroja", "subtipo": "select", "pregunta": "", "opciones": ["Operación Barbarroja", "Operación Valquiria", "Operación Tormenta del Desierto"], "respuesta": "Operación Barbarroja" },
+        { "id": "pearlharbor", "subtipo": "select", "pregunta": "", "opciones": ["Pearl Harbor (Hawái)", "Guadalcanal (Islas Salomón)", "Midway (Pacífico central)"], "respuesta": "Pearl Harbor (Hawái)" },
+        { "id": "stalingrado", "subtipo": "select", "pregunta": "", "opciones": ["Stalingrado (1942-1943)", "Moscú (1941)", "Leningrado (1941-1944)"], "respuesta": "Stalingrado (1942-1943)" },
+        { "id": "normandia", "subtipo": "select", "pregunta": "", "opciones": ["Desembarco en Normandía (Día D)", "Desembarco en Sicilia", "Desembarco en Anzio"], "respuesta": "Desembarco en Normandía (Día D)" }
+      ]
     },
     {
-      "id": "sm_1941",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué hechos modificaron el curso de la guerra en 1941?",
-      "opciones": [
-        {
-          "id": "b",
-          "texto": "Hitler invadio la URSS (Operacion Barbarroja) abriendo el frente oriental con tres millones de soldados; Japon ataco Pearl Harbor y EE.UU. ingreso a la guerra; se conformo la Gran Alianza Antifascista entre EE.UU., Gran Bretana y la URSS."
-        },
-        {
-          "id": "a",
-          "texto": "Italia invadio Grecia y Alemania debio acudir en su auxilio, retrasando la invasion a la URSS y permitiendo que los sovieticos se prepararan mejor para la defensa de Moscu."
-        },
-        {
-          "id": "c",
-          "texto": "Stalin rompio el Pacto Molotov-Ribbentrop invadiendo Alemania desde el este, tomando por sorpresa a Hitler y forzando a los nazis a luchar en dos frentes simultaneamente."
-        }
-      ],
-      "correcta": "b"
-    },
-    {
-      "id": "sm_stalingrado",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Por qué la Batalla de Stalingrado fue un acontecimiento decisivo en la Segunda Guerra Mundial?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Porque el Ejército Rojo soviético derrotó a las fuerzas alemanas y desde allí comenzó un avance imparable que finalizó con su entrada a Berlín en 1945."
-        },
-        {
-          "id": "b",
-          "texto": "Porque fue la primera vez que los Aliados occidentales y los soviéticos combatieron juntos en una misma batalla, consolidando la Gran Alianza."
-        },
-        {
-          "id": "c",
-          "texto": "Porque en esa batalla las fuerzas alemanas utilizaron por primera vez tanques pesados Tiger, que resultaron decisivos pero insuficientes por la falta de combustible."
-        }
-      ],
-      "correcta": "a"
-    },
-    {
-      "id": "sm_desembarco",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué fue el Desembarco en Normandía (Día D) de 1944?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "El desembarco de tropas aliadas (norteamericanas, canadienses y britanicas) en la costa francesa de Normandia en junio de 1944. Desde alli fueron recuperando las zonas ocupadas por los nazis, liberaron Francia y avanzaron hacia Alemania."
-        },
-        {
-          "id": "b",
-          "texto": "La invasion de Italia por el sur a traves de Sicilia en 1943, que permitio a los Aliados tomar Roma y usar la peninsula italica como base para bombardear el sur de Alemania."
-        },
-        {
-          "id": "c",
-          "texto": "El cruce del Rin por las tropas sovieticas en enero de 1945, que rodeo Berlin y forzo la rendicion alemana sin necesidad de combatir casa por casa en la capital."
-        }
-      ],
-      "correcta": "a"
-    },
-    {
-      "id": "sm_fin_guerra",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Cómo finalizó la Segunda Guerra Mundial?",
-      "opciones": [
-        {
-          "id": "c",
-          "texto": "La muerte de Hitler en su bunker provoco que Alemania se rindiera incondicionalmente, y Japon hizo lo mismo una semana despues por temor a una invasion sovietica de sus islas desde el norte."
-        },
-        {
-          "id": "a",
-          "texto": "La rendicion de Alemania tras la Batalla de Berlin en mayo de 1945, y la rendicion de Japon en septiembre de 1945 despues de que EE.UU. lanzara bombas atomicas sobre Hiroshima y Nagasaki."
-        },
-        {
-          "id": "b",
-          "texto": "La firma del Tratado de Potsdam en julio de 1945 entre todas las potencias beligerantes, que establecio las condiciones de paz definitivas y las nuevas fronteras del continente europeo."
-        }
-      ],
-      "correcta": "c"
-    },
-    {
-      "id": "sm_bombas",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué consecuencias tuvieron las bombas atómicas sobre Hiroshima y Nagasaki?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Provocaron la muerte de aproximadamente 200.000 personas, afectaron el medio ambiente y ocasionaron graves consecuencias para la población que sufrió por muchos años los efectos de la radiación nuclear."
-        },
-        {
-          "id": "b",
-          "texto": "Destruyeron exclusivamente objetivos militares y no causaron víctimas civiles significativas, según los informes oficiales norteamericanos de la época."
-        },
-        {
-          "id": "c",
-          "texto": "Obligaron a Japón a rendirse pero también provocaron que la URSS declarara la guerra a Estados Unidos, iniciando un nuevo conflicto que duró hasta 1950."
-        }
-      ],
-      "correcta": "a"
-    },
-    {
-      "id": "sm_conferencias",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Cuáles fueron las tres conferencias de paz de los Aliados y qué acordaron?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Conferencia de París, de Londres y de Roma: acordaron repartirse las colonias alemanas."
-        },
-        {
-          "id": "b",
-          "texto": "Teherán (1943): organizar el desembarco en Normandía. Yalta (1945): desmilitarizar Alemania, dividirla en 4 zonas. Potsdam (1945): reconstrucción europea, desnazificación, juicios a criminales nazis."
-        },
-        {
-          "id": "c",
-          "texto": "Conferencia de Berlín, de Moscú y de Washington: acordaron crear la ONU."
-        }
-      ],
-      "correcta": "b"
+      "id": "com_fin_guerra",
+      "tipo": "completar",
+      "consigna": "FIN DE LA GUERRA Y POSGUERRA\n\nCompletá el texto seleccionando la opción correcta para cada espacio.",
+      "texto": "La rendición de Alemania se produjo tras la Batalla de Berlín en mayo de 1945. En el Pacífico, Japón se rindió en septiembre de 1945 después de que EE.UU. lanzara bombas atómicas sobre {bombas}. Las bombas provocaron la muerte de aproximadamente 200.000 personas y graves consecuencias por la radiación nuclear. Durante la guerra, los líderes aliados se reunieron en tres conferencias: en {teheran} (1943) se programó el desembarco en Normandía; en Yalta (1945) se acordó la división de Alemania en {zonas} zonas; y en Potsdam (1945) se definió la reconstrucción europea y la desnazificación. Al finalizar la guerra, los principales responsables nazis fueron juzgados en los {nuremberg} por crímenes contra la paz, contra la humanidad y crímenes de guerra.",
+      "items": [
+        { "id": "bombas", "subtipo": "select", "pregunta": "", "opciones": ["Hiroshima y Nagasaki", "Tokio y Osaka", "Pekín y Shanghái"], "respuesta": "Hiroshima y Nagasaki" },
+        { "id": "teheran", "subtipo": "select", "pregunta": "", "opciones": ["Teherán (Irán)", "Ginebra (Suiza)", "Viena (Austria)"], "respuesta": "Teherán (Irán)" },
+        { "id": "zonas", "subtipo": "select", "pregunta": "", "opciones": ["4", "2", "6"], "respuesta": "4" },
+        { "id": "nuremberg", "subtipo": "select", "pregunta": "", "opciones": ["Juicios de Nuremberg", "Juicios de La Haya", "Juicios de Tokio"], "respuesta": "Juicios de Nuremberg" }
+      ]
     },
     {
       "id": "vf_holocausto",
       "tipo": "verdadero_falso",
       "consigna": "Marcá V o F sobre la persecución nazi y el Holocausto.",
-      "labels": {
-        "verdadero": "V",
-        "falso": "F"
-      },
+      "labels": { "verdadero": "V", "falso": "F" },
       "items": [
-        {
-          "id": "i1",
-          "afirmacion": "Las Leyes de Nuremberg (1935) establecieron una diferenciación legal entre ciudadanos alemanes 'arios' y judíos, quitándoles a estos últimos derechos y la condición de ciudadanía.",
-          "respuesta": true
-        },
-        {
-          "id": "i2",
-          "afirmacion": "La 'Noche de los cristales rotos' (1938) fue un ataque coordinado contra comercios, sinagogas y casas de la población judía en Alemania.",
-          "respuesta": true
-        },
-        {
-          "id": "i3",
-          "afirmacion": "Los guetos eran barrios donde los judíos podían vivir libremente y salir cuando quisieran.",
-          "respuesta": false,
-          "correccion": "Los guetos eran zonas o barrios aislados del resto de la ciudad con alambres de púa, donde los judíos eran obligados a vivir hacinados, sin poder salir ni tener contacto con otras personas."
-        },
-        {
-          "id": "i4",
-          "afirmacion": "La 'solución final' (1942) fue el plan nazi de exterminio sistemático de todos los judíos de la Europa ocupada mediante campos de exterminio con cámaras de gas.",
-          "respuesta": true
-        },
-        {
-          "id": "i5",
-          "afirmacion": "El Holocausto fue responsabilidad exclusiva de Hitler, sin participación de otros sectores de la sociedad alemana.",
-          "respuesta": false,
-          "correccion": "El Holocausto fue un proceso planificado que contó con el apoyo de las Fuerzas Armadas alemanas, sectores profesionales, medios de comunicación, grandes empresarios y la complicidad o el silencio de gran parte de la sociedad."
-        },
-        {
-          "id": "i6",
-          "afirmacion": "Un genocidio no es solo el aniquilamiento físico, sino también la destrucción de la identidad cultural y las tradiciones de un grupo.",
-          "respuesta": true
-        }
+        { "id": "i1", "afirmacion": "Las Leyes de Nuremberg (1935) establecieron una diferenciación legal entre ciudadanos alemanes 'arios' y judíos, quitándoles a estos últimos derechos y la condición de ciudadanía.", "respuesta": true },
+        { "id": "i2", "afirmacion": "La 'Noche de los cristales rotos' (1938) fue un ataque coordinado contra comercios, sinagogas y casas de la población judía en Alemania.", "respuesta": true },
+        { "id": "i3", "afirmacion": "Los guetos eran barrios donde los judíos podían vivir libremente y salir cuando quisieran.", "respuesta": false, "correccion": "Los guetos eran zonas o barrios aislados del resto de la ciudad con alambres de púa, donde los judíos eran obligados a vivir hacinados, sin poder salir ni tener contacto con otras personas." },
+        { "id": "i4", "afirmacion": "La 'solución final' (1942) fue el plan nazi de exterminio sistemático de todos los judíos de la Europa ocupada mediante campos de exterminio con cámaras de gas.", "respuesta": true },
+        { "id": "i5", "afirmacion": "El Holocausto fue responsabilidad exclusiva de Hitler, sin participación de otros sectores de la sociedad alemana.", "respuesta": false, "correccion": "El Holocausto fue un proceso planificado que contó con el apoyo de las Fuerzas Armadas alemanas, sectores profesionales, medios de comunicación, grandes empresarios y la complicidad o el silencio de gran parte de la sociedad." },
+        { "id": "i6", "afirmacion": "Un genocidio no es solo el aniquilamiento físico, sino también la destrucción de la identidad cultural y las tradiciones de un grupo.", "respuesta": true }
       ]
     },
     {
-      "id": "sm_juicios",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué fueron los Juicios de Nuremberg (1945-1946)?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Fueron las negociaciones de paz entre Alemania y los Aliados."
-        },
-        {
-          "id": "b",
-          "texto": "Procesos judiciales en la ciudad alemana de Nuremberg donde los principales responsables del régimen nazi fueron juzgados por crímenes contra la paz, contra la humanidad (genocidio) y crímenes de guerra."
-        },
-        {
-          "id": "c",
-          "texto": "Juicios donde los nazis juzgaron a los líderes aliados por crímenes de guerra."
-        }
-      ],
-      "correcta": "b"
-    },
-    {
-      "id": "sm_golpe_43",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué ocurrió en Argentina el 4 de junio de 1943?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Los jefes del ejército realizaron un golpe de Estado y derrocaron al presidente Castillo. El nuevo gobierno militar disolvió partidos políticos, persiguió militantes e intervino las universidades."
-        },
-        {
-          "id": "b",
-          "texto": "Perón asumió como presidente por elecciones democráticas."
-        },
-        {
-          "id": "c",
-          "texto": "Argentina le declaró la guerra a Alemania."
-        }
-      ],
-      "correcta": "a"
-    },
-    {
-      "id": "sm_medidas_peron",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué medidas laborales impulsó Perón desde la Secretaría de Trabajo que le dieron amplio apoyo obrero?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Aguinaldo, vacaciones pagas, indemnización por despido, convenciones colectivas de trabajo, tribunales laborales, salario mínimo, Estatuto del Peón rural, extensión de la jubilación y medicina laboral."
-        },
-        {
-          "id": "b",
-          "texto": "Aguinaldo y vacaciones pagas, pero también flexibilización laboral para atraer inversiones extranjeras y reducción de aportes patronales."
-        },
-        {
-          "id": "c",
-          "texto": "Creación de sindicatos obligatorios controlados por el Estado, eliminación del derecho a huelga y reducción de la jornada laboral a cambio de menores salarios."
-        }
-      ],
-      "correcta": "a"
-    },
-    {
-      "id": "sm_17_octubre",
-      "tipo": "seleccion_multiple",
-      "consigna": "¿Qué ocurrió el 17 de octubre de 1945 en Argentina?",
-      "opciones": [
-        {
-          "id": "a",
-          "texto": "Perón renunció a todos sus cargos y se exilió en Uruguay."
-        },
-        {
-          "id": "b",
-          "texto": "Se firmó la declaración de guerra de Argentina contra las potencias del Eje."
-        },
-        {
-          "id": "c",
-          "texto": "Miles de trabajadores se movilizaron a la Plaza de Mayo para pedir la libertad de Perón, que había sido detenido y enviado a la isla Martín García. Las autoridades militares cedieron y Perón fue liberado, dirigiendo un discurso a las masas. Este día marcó el nacimiento del peronismo como movimiento político de masas."
-        }
-      ],
-      "correcta": "c"
+      "id": "com_argentina_eje5",
+      "tipo": "completar",
+      "consigna": "MIENTRAS TANTO EN ARGENTINA... (1938-1945)\n\nCompletá el texto seleccionando la opción correcta para cada espacio.",
+      "texto": "Al comienzo de la Segunda Guerra Mundial, Argentina sostuvo la misma posición {neutral} que había manifestado durante la Primera Guerra. El 4 de junio de 1943, los jefes del ejército realizaron un {golpe43} y derrocaron al presidente Castillo. El nuevo gobierno militar disolvió partidos políticos, persiguió militantes e intervino universidades. En ese contexto, Perón fue ganando poder progresivamente: primero se hizo cargo del Departamento de Trabajo, luego fue Secretario de Trabajo, ministro de Guerra y vicepresidente. Desde la Secretaría de Trabajo impulsó medidas como {medidas}. Estas medidas generaron malestar en sectores conservadores y universitarios. En 1945, Perón fue detenido y enviado a la isla Martín García. El {octubre} de 1945, miles de trabajadores se movilizaron a la Plaza de Mayo para pedir su liberación. Las autoridades cedieron y Perón fue liberado, marcando el nacimiento del peronismo como movimiento político de masas.",
+      "items": [
+        { "id": "neutral", "subtipo": "select", "pregunta": "", "opciones": ["Neutral", "Aliada de EE.UU.", "Aliada del Eje"], "respuesta": "Neutral" },
+        { "id": "golpe43", "subtipo": "select", "pregunta": "", "opciones": ["Golpe de Estado", "Plebiscito popular", "Elecciones anticipadas"], "respuesta": "Golpe de Estado" },
+        { "id": "medidas", "subtipo": "select", "pregunta": "", "opciones": ["Aguinaldo, vacaciones pagas, indemnización por despido, Estatuto del Peón, tribunales laborales y jubilación", "Flexibilización laboral, reducción de salarios y privatizaciones", "Eliminación de sindicatos y control estatal de huelgas"], "respuesta": "Aguinaldo, vacaciones pagas, indemnización por despido, Estatuto del Peón, tribunales laborales y jubilación" },
+        { "id": "octubre", "subtipo": "select", "pregunta": "", "opciones": ["17 de octubre", "9 de julio", "25 de mayo"], "respuesta": "17 de octubre" }
+      ]
     },
     {
       "id": "vf_argentina_5",
       "tipo": "verdadero_falso",
       "consigna": "Marcá V o F sobre la historia argentina durante la Segunda Guerra Mundial.",
-      "labels": {
-        "verdadero": "V",
-        "falso": "F"
-      },
+      "labels": { "verdadero": "V", "falso": "F" },
       "items": [
-        {
-          "id": "i1",
-          "afirmacion": "Argentina mantuvo la misma posición neutral ante la Segunda Guerra Mundial que había manifestado durante la Primera Guerra Mundial.",
-          "respuesta": true
-        },
-        {
-          "id": "i2",
-          "afirmacion": "El GOU (Grupo de Oficiales Unidos) era un grupo de militares con ideas nacionalistas que sostenía la importancia de mantener la neutralidad ante la guerra.",
-          "respuesta": true
-        },
-        {
-          "id": "i3",
-          "afirmacion": "El gobierno militar de 1943 estableció la enseñanza religiosa obligatoria en las escuelas públicas.",
-          "respuesta": true
-        },
-        {
-          "id": "i4",
-          "afirmacion": "Perón ocupó el cargo de presidente apenas ocurrió el golpe de 1943.",
-          "respuesta": false,
-          "correccion": "Perón fue ganando poder progresivamente: primero se hizo cargo del Departamento de Trabajo, luego fue Secretario de Trabajo, ministro de Guerra y vicepresidente. Su ascenso fue gradual dentro del gobierno militar."
-        },
-        {
-          "id": "i5",
-          "afirmacion": "Las medidas laborales de Perón generaron malestar en los sectores conservadores y en los universitarios, que en 1945 organizaron la 'Marcha de la Constitución y la Libertad' en su contra.",
-          "respuesta": true
-        }
+        { "id": "i1", "afirmacion": "Argentina mantuvo la misma posición neutral ante la Segunda Guerra Mundial que había manifestado durante la Primera Guerra Mundial.", "respuesta": true },
+        { "id": "i2", "afirmacion": "El GOU (Grupo de Oficiales Unidos) era un grupo de militares con ideas nacionalistas que sostenía la importancia de mantener la neutralidad ante la guerra.", "respuesta": true },
+        { "id": "i3", "afirmacion": "El gobierno militar de 1943 estableció la enseñanza religiosa obligatoria en las escuelas públicas.", "respuesta": true },
+        { "id": "i4", "afirmacion": "Perón ocupó el cargo de presidente apenas ocurrió el golpe de 1943.", "respuesta": false, "correccion": "Perón fue ganando poder progresivamente: primero se hizo cargo del Departamento de Trabajo, luego fue Secretario de Trabajo, ministro de Guerra y vicepresidente. Su ascenso fue gradual dentro del gobierno militar." },
+        { "id": "i5", "afirmacion": "Las medidas laborales de Perón generaron malestar en los sectores conservadores y en los universitarios, que en 1945 organizaron la 'Marcha de la Constitución y la Libertad' en su contra.", "respuesta": true }
       ]
     },
     {
@@ -427,66 +110,18 @@
       "tipo": "ordenar_secuencia",
       "consigna": "Ordená cronológicamente estos acontecimientos de la Segunda Guerra Mundial. Usá las flechas ↑ ↓ para subir o bajar cada evento.",
       "eventos": [
-        {
-          "id": "e1",
-          "texto": "Hitler asume como Canciller de Alemania.",
-          "orden": 1
-        },
-        {
-          "id": "e2",
-          "texto": "Guerra Civil Española: Franco recibe apoyo de Hitler y Mussolini.",
-          "orden": 2
-        },
-        {
-          "id": "e3",
-          "texto": "Alemania anexa Austria y ocupa los Sudetes.",
-          "orden": 3
-        },
-        {
-          "id": "e4",
-          "texto": "Pacto Molotov-Ribbentrop: acuerdo de no agresión entre Alemania y la URSS.",
-          "orden": 4
-        },
-        {
-          "id": "e5",
-          "texto": "Alemania invade Polonia. Inicio de la Segunda Guerra Mundial.",
-          "orden": 5
-        },
-        {
-          "id": "e6",
-          "texto": "Blitzkrieg: Alemania conquista Noruega, Dinamarca, Holanda, Bélgica y Francia.",
-          "orden": 6
-        },
-        {
-          "id": "e7",
-          "texto": "Operación Barbarroja: Hitler invade la URSS, abriendo el frente oriental.",
-          "orden": 7
-        },
-        {
-          "id": "e8",
-          "texto": "Japón ataca Pearl Harbor. EE.UU. ingresa a la guerra.",
-          "orden": 8
-        },
-        {
-          "id": "e9",
-          "texto": "Batalla de Stalingrado: derrota alemana decisiva.",
-          "orden": 9
-        },
-        {
-          "id": "e10",
-          "texto": "Desembarco en Normandía: los Aliados liberan Francia.",
-          "orden": 10
-        },
-        {
-          "id": "e11",
-          "texto": "Batalla de Berlín y rendición de Alemania.",
-          "orden": 11
-        },
-        {
-          "id": "e12",
-          "texto": "Bombas atómicas sobre Hiroshima y Nagasaki. Rendición de Japón.",
-          "orden": 12
-        }
+        { "id": "e1", "texto": "Hitler asume como Canciller de Alemania.", "orden": 1 },
+        { "id": "e2", "texto": "Guerra Civil Española: Franco recibe apoyo de Hitler y Mussolini.", "orden": 2 },
+        { "id": "e3", "texto": "Alemania anexa Austria y ocupa los Sudetes.", "orden": 3 },
+        { "id": "e4", "texto": "Pacto Molotov-Ribbentrop: acuerdo de no agresión entre Alemania y la URSS.", "orden": 4 },
+        { "id": "e5", "texto": "Alemania invade Polonia. Inicio de la Segunda Guerra Mundial.", "orden": 5 },
+        { "id": "e6", "texto": "Blitzkrieg: Alemania conquista Noruega, Dinamarca, Holanda, Bélgica y Francia.", "orden": 6 },
+        { "id": "e7", "texto": "Operación Barbarroja: Hitler invade la URSS, abriendo el frente oriental.", "orden": 7 },
+        { "id": "e8", "texto": "Japón ataca Pearl Harbor. EE.UU. ingresa a la guerra.", "orden": 8 },
+        { "id": "e9", "texto": "Batalla de Stalingrado: derrota alemana decisiva.", "orden": 9 },
+        { "id": "e10", "texto": "Desembarco en Normandía: los Aliados liberan Francia.", "orden": 10 },
+        { "id": "e11", "texto": "Batalla de Berlín y rendición de Alemania.", "orden": 11 },
+        { "id": "e12", "texto": "Bombas atómicas sobre Hiroshima y Nagasaki. Rendición de Japón.", "orden": 12 }
       ]
     },
     {
@@ -494,51 +129,15 @@
       "tipo": "ordenar_secuencia",
       "consigna": "Mientras tanto en Argentina... Ordená cronológicamente estos acontecimientos. Usá las flechas ↑ ↓.",
       "eventos": [
-        {
-          "id": "a1",
-          "texto": "Ortiz asume la presidencia e intenta terminar con el fraude electoral.",
-          "orden": 1
-        },
-        {
-          "id": "a2",
-          "texto": "Castillo asume tras la licencia y muerte de Ortiz. Vuelve el fraude electoral.",
-          "orden": 2
-        },
-        {
-          "id": "a3",
-          "texto": "Argentina mantiene la neutralidad frente a la Segunda Guerra Mundial.",
-          "orden": 3
-        },
-        {
-          "id": "a4",
-          "texto": "Golpe de Estado: el GOU derroca a Castillo.",
-          "orden": 4
-        },
-        {
-          "id": "a5",
-          "texto": "Perón se hace cargo del Departamento de Trabajo y comienza su ascenso político.",
-          "orden": 5
-        },
-        {
-          "id": "a6",
-          "texto": "Perón impulsa medidas laborales: aguinaldo, vacaciones pagas, tribunales de trabajo, Estatuto del Peón rural.",
-          "orden": 6
-        },
-        {
-          "id": "a7",
-          "texto": "Marcha de la Constitución y la Libertad: oposición a Perón.",
-          "orden": 7
-        },
-        {
-          "id": "a8",
-          "texto": "Perón es detenido y enviado a la isla Martín García.",
-          "orden": 8
-        },
-        {
-          "id": "a9",
-          "texto": "Movilización obrera a Plaza de Mayo exigiendo la liberación de Perón. Nace el peronismo.",
-          "orden": 9
-        }
+        { "id": "a1", "texto": "Ortiz asume la presidencia e intenta terminar con el fraude electoral.", "orden": 1 },
+        { "id": "a2", "texto": "Castillo asume tras la licencia y muerte de Ortiz. Vuelve el fraude electoral.", "orden": 2 },
+        { "id": "a3", "texto": "Argentina mantiene la neutralidad frente a la Segunda Guerra Mundial.", "orden": 3 },
+        { "id": "a4", "texto": "Golpe de Estado: el GOU derroca a Castillo.", "orden": 4 },
+        { "id": "a5", "texto": "Perón se hace cargo del Departamento de Trabajo y comienza su ascenso político.", "orden": 5 },
+        { "id": "a6", "texto": "Perón impulsa medidas laborales: aguinaldo, vacaciones pagas, tribunales de trabajo, Estatuto del Peón rural.", "orden": 6 },
+        { "id": "a7", "texto": "Marcha de la Constitución y la Libertad: oposición a Perón.", "orden": 7 },
+        { "id": "a8", "texto": "Perón es detenido y enviado a la isla Martín García.", "orden": 8 },
+        { "id": "a9", "texto": "Movilización obrera a Plaza de Mayo exigiendo la liberación de Perón. Nace el peronismo.", "orden": 9 }
       ]
     },
     {
@@ -546,70 +145,25 @@
       "tipo": "unir_flechas",
       "consigna": "Uní cada país o bloque con su rol durante la Segunda Guerra Mundial.",
       "izquierda": [
-        {
-          "id": "aliados",
-          "texto": "Gran Alianza Antifascista (Aliados)"
-        },
-        {
-          "id": "eje",
-          "texto": "Potencias del Eje"
-        },
-        {
-          "id": "urss",
-          "texto": "Unión Soviética (URSS)"
-        },
-        {
-          "id": "eeuu",
-          "texto": "Estados Unidos"
-        },
-        {
-          "id": "francia",
-          "texto": "Francia"
-        }
+        { "id": "aliados", "texto": "Gran Alianza Antifascista (Aliados)" },
+        { "id": "eje", "texto": "Potencias del Eje" },
+        { "id": "urss", "texto": "Unión Soviética (URSS)" },
+        { "id": "eeuu", "texto": "Estados Unidos" },
+        { "id": "francia", "texto": "Francia" }
       ],
       "derecha": [
-        {
-          "id": "d1",
-          "texto": "Estados Unidos, Gran Bretaña y la Unión Soviética unidos contra el fascismo."
-        },
-        {
-          "id": "d2",
-          "texto": "Alemania, Italia y Japón. Firmaron el Pacto Tripartito en 1940."
-        },
-        {
-          "id": "d3",
-          "texto": "Fue invadida por Alemania en 1941 (Operación Barbarroja). El Ejército Rojo derrotó a los nazis en Stalingrado y llegó a Berlín en 1945."
-        },
-        {
-          "id": "d4",
-          "texto": "Ingresó a la guerra en 1941 tras el ataque japonés a Pearl Harbor. Lanzó las bombas atómicas sobre Hiroshima y Nagasaki."
-        },
-        {
-          "id": "d5",
-          "texto": "Fue invadida por Alemania en 1940. Su gobierno colaboracionista de Vichy, liderado por Pétain, se alineó con los nazis."
-        }
+        { "id": "d1", "texto": "Estados Unidos, Gran Bretaña y la Unión Soviética unidos contra el fascismo." },
+        { "id": "d2", "texto": "Alemania, Italia y Japón. Firmaron el Pacto Tripartito en 1940." },
+        { "id": "d3", "texto": "Fue invadida por Alemania en 1941 (Operación Barbarroja). El Ejército Rojo derrotó a los nazis en Stalingrado y llegó a Berlín en 1945." },
+        { "id": "d4", "texto": "Ingresó a la guerra en 1941 tras el ataque japonés a Pearl Harbor. Lanzó las bombas atómicas sobre Hiroshima y Nagasaki." },
+        { "id": "d5", "texto": "Fue invadida por Alemania en 1940. Su gobierno colaboracionista de Vichy, liderado por Pétain, se alineó con los nazis." }
       ],
       "pares": [
-        {
-          "izquierda_id": "aliados",
-          "derecha_id": "d1"
-        },
-        {
-          "izquierda_id": "eje",
-          "derecha_id": "d2"
-        },
-        {
-          "izquierda_id": "urss",
-          "derecha_id": "d3"
-        },
-        {
-          "izquierda_id": "eeuu",
-          "derecha_id": "d4"
-        },
-        {
-          "izquierda_id": "francia",
-          "derecha_id": "d5"
-        }
+        { "izquierda_id": "aliados", "derecha_id": "d1" },
+        { "izquierda_id": "eje", "derecha_id": "d2" },
+        { "izquierda_id": "urss", "derecha_id": "d3" },
+        { "izquierda_id": "eeuu", "derecha_id": "d4" },
+        { "izquierda_id": "francia", "derecha_id": "d5" }
       ]
     }
   ],
@@ -638,22 +192,10 @@
             {
               "tipo": "lista",
               "items": [
-                {
-                  "icono": "🇮🇹",
-                  "texto": "En Italia, Benito Mussolini lideró la Marcha sobre Roma en 1922 y tomó el poder. En 1925, el 'Duce' consolidó un régimen de partido único (Partido Nacional Fascista), cerró la cámara de legisladores y persiguió a comunistas y socialistas con el apoyo de las fuerzas de seguridad."
-                },
-                {
-                  "icono": "🇩🇪",
-                  "texto": "En Alemania, Adolf Hitler construyó su partido desde los años 20. En 1933 asumió como Canciller y comenzó a desplegar una política expansionista basada en la superioridad de la 'raza aria', proclamando la necesidad del 'espacio vital' (Lebensraum) y denunciando el 'Tratado de Versalles mutilado'."
-                },
-                {
-                  "icono": "🇯🇵",
-                  "texto": "Japón había comenzado su expansión en Asia desde 1931, cuando ocupó Manchuria. Luego avanzó sobre China con el objetivo de dominar el sudeste asiático y el Pacífico."
-                },
-                {
-                  "icono": "🇪🇸",
-                  "texto": "La Guerra Civil Española (1936-1939): un golpe de Estado contra la República dio inicio a una guerra civil. Hitler y Mussolini apoyaron al bando franquista con armas, soldados y aviación. Franco triunfó en 1939 e instaló una dictadura que duró hasta 1975."
-                }
+                { "icono": "🇮🇹", "texto": "En Italia, Benito Mussolini lideró la Marcha sobre Roma en 1922 y tomó el poder. En 1925, el 'Duce' consolidó un régimen de partido único (Partido Nacional Fascista), cerró la cámara de legisladores y persiguió a comunistas y socialistas con el apoyo de las fuerzas de seguridad." },
+                { "icono": "🇩🇪", "texto": "En Alemania, Adolf Hitler construyó su partido desde los años 20. En 1933 asumió como Canciller y comenzó a desplegar una política expansionista basada en la superioridad de la 'raza aria', proclamando la necesidad del 'espacio vital' (Lebensraum) y denunciando el 'Tratado de Versalles mutilado'." },
+                { "icono": "🇯🇵", "texto": "Japón había comenzado su expansión en Asia desde 1931, cuando ocupó Manchuria. Luego avanzó sobre China con el objetivo de dominar el sudeste asiático y el Pacífico." },
+                { "icono": "🇪🇸", "texto": "La Guerra Civil Española (1936-1939): un golpe de Estado contra la República dio inicio a una guerra civil. Hitler y Mussolini apoyaron al bando franquista con armas, soldados y aviación. Franco triunfó en 1939 e instaló una dictadura que duró hasta 1975." }
               ]
             }
           ]
@@ -671,22 +213,10 @@
             {
               "tipo": "lista",
               "items": [
-                {
-                  "icono": "🇪🇹",
-                  "texto": "1935: Italia invadió Etiopía (Abisinia) en África, buscando territorios que le habían sido negados después de la Primera Guerra. Este hecho terminó de sellar la unión entre Alemania e Italia (Eje Roma-Berlín)."
-                },
-                {
-                  "icono": "🇦🇹",
-                  "texto": "1938: Alemania anexó Austria (Anschluss), incorporándola como parte de su territorio."
-                },
-                {
-                  "icono": "🇨🇿",
-                  "texto": "1938: Tratado de Munich — Francia y Gran Bretaña cedieron a Hitler la región de los Sudetes, ubicada en Checoslovaquia."
-                },
-                {
-                  "icono": "🇨🇿",
-                  "texto": "1939: Los alemanes tomaron Praga, la capital de Checoslovaquia. Esta acción provocó la desaparición del Estado checo. Quedó en evidencia la fragilidad de la paz mundial."
-                }
+                { "icono": "🇪🇹", "texto": "1935: Italia invadió Etiopía (Abisinia) en África, buscando territorios que le habían sido negados después de la Primera Guerra. Este hecho terminó de sellar la unión entre Alemania e Italia (Eje Roma-Berlín)." },
+                { "icono": "🇦🇹", "texto": "1938: Alemania anexó Austria (Anschluss), incorporándola como parte de su territorio." },
+                { "icono": "🇨🇿", "texto": "1938: Tratado de Munich — Francia y Gran Bretaña cedieron a Hitler la región de los Sudetes, ubicada en Checoslovaquia." },
+                { "icono": "🇨🇿", "texto": "1939: Los alemanes tomaron Praga, la capital de Checoslovaquia. Esta acción provocó la desaparición del Estado checo. Quedó en evidencia la fragilidad de la paz mundial." }
               ]
             }
           ]
@@ -730,22 +260,10 @@
             {
               "tipo": "lista",
               "items": [
-                {
-                  "icono": "🇫🇷",
-                  "texto": "Francia fue invadida. Los alemanes ingresaron triunfantes en París e impusieron su dominio en el norte del país. En el sur, en la ciudad de Vichy, se estableció un gobierno colaboracionista liderado por el Mariscal Philippe Pétain, con un perfil nacionalista, autoritario y antisemita que coincidía con las ideas de Hitler."
-                },
-                {
-                  "icono": "🇬🇧",
-                  "texto": "Gran Bretaña quedó como la única resistencia frente al nazismo. En 1940, Winston Churchill asumió como primer ministro. Los bombardeos alemanes sobre centros industriales ingleses eran respondidos con ataques británicos sobre Berlín. Fue la Batalla de Inglaterra."
-                },
-                {
-                  "icono": "🤝",
-                  "texto": "En 1940, Alemania, Italia y Japón firmaron el Pacto Tripartito: un acuerdo de alianza con compromiso de ayuda mutua en caso de ataque externo por parte de países no participantes en la guerra."
-                },
-                {
-                  "icono": "🇭🇺",
-                  "texto": "Hungría, Rumania y Croacia se convirtieron en países aliados del invasor nazi con gobiernos nacionalistas, autoritarios y antisemitas. Fueron conocidos como 'colaboracionistas'. Irlanda, Suiza y Suecia se declararon neutrales."
-                }
+                { "icono": "🇫🇷", "texto": "Francia fue invadida. Los alemanes ingresaron triunfantes en París e impusieron su dominio en el norte del país. En el sur, en la ciudad de Vichy, se estableció un gobierno colaboracionista liderado por el Mariscal Philippe Pétain, con un perfil nacionalista, autoritario y antisemita que coincidía con las ideas de Hitler." },
+                { "icono": "🇬🇧", "texto": "Gran Bretaña quedó como la única resistencia frente al nazismo. En 1940, Winston Churchill asumió como primer ministro. Los bombardeos alemanes sobre centros industriales ingleses eran respondidos con ataques británicos sobre Berlín. Fue la Batalla de Inglaterra." },
+                { "icono": "🤝", "texto": "En 1940, Alemania, Italia y Japón firmaron el Pacto Tripartito: un acuerdo de alianza con compromiso de ayuda mutua en caso de ataque externo por parte de países no participantes en la guerra." },
+                { "icono": "🇭🇺", "texto": "Hungría, Rumania y Croacia se convirtieron en países aliados del invasor nazi con gobiernos nacionalistas, autoritarios y antisemitas. Fueron conocidos como 'colaboracionistas'. Irlanda, Suiza y Suecia se declararon neutrales." }
               ]
             }
           ]
@@ -763,26 +281,11 @@
             {
               "tipo": "lista",
               "items": [
-                {
-                  "icono": "🇮🇹",
-                  "texto": "Italia ingresó como contrincante buscando posicionarse en el norte de África para obtener los territorios que le habían sido negados al final de la Primera Guerra Mundial."
-                },
-                {
-                  "icono": "🪖",
-                  "texto": "OPERACIÓN BARBARROJA: Hitler, incumpliendo el Pacto Molotov-Ribbentrop, invadió la Unión Soviética. Tres millones de soldados alemanes ingresaron por el norte, el centro y el sur del territorio soviético de forma extremadamente violenta, atacando a la población y saqueando sus recursos. Stalin fue tomado por sorpresa y en 1942 ordenó a sus tropas '¡Ni un paso atrás!'."
-                },
-                {
-                  "icono": "🇯🇵",
-                  "texto": "Japón firmó un Pacto de No Agresión con la Unión Soviética y concentró sus fuerzas en la expansión sobre Asia oriental y el Océano Pacífico."
-                },
-                {
-                  "icono": "🇺🇸",
-                  "texto": "Estados Unidos inició su participación en la guerra luego de que Japón atacara su base naval de Pearl Harbor, en Hawái, a fines de ese año (7 de diciembre de 1941)."
-                },
-                {
-                  "icono": "🤝",
-                  "texto": "Se conformó la GRAN ALIANZA ANTIFASCISTA entre Estados Unidos, Gran Bretaña y la Unión Soviética. Hasta entonces, las potencias occidentales se habían mostrado contrarias a asociarse con los soviéticos. La historiadora María Dolores Béjar plantea que temían más al comunismo que al nazismo, pero la invasión de Hitler a la URSS los unió contra el enemigo común."
-                }
+                { "icono": "🇮🇹", "texto": "Italia ingresó como contrincante buscando posicionarse en el norte de África para obtener los territorios que le habían sido negados al final de la Primera Guerra Mundial." },
+                { "icono": "🪖", "texto": "OPERACIÓN BARBARROJA: Hitler, incumpliendo el Pacto Molotov-Ribbentrop, invadió la Unión Soviética. Tres millones de soldados alemanes ingresaron por el norte, el centro y el sur del territorio soviético de forma extremadamente violenta, atacando a la población y saqueando sus recursos. Stalin fue tomado por sorpresa y en 1942 ordenó a sus tropas '¡Ni un paso atrás!'." },
+                { "icono": "🇯🇵", "texto": "Japón firmó un Pacto de No Agresión con la Unión Soviética y concentró sus fuerzas en la expansión sobre Asia oriental y el Océano Pacífico." },
+                { "icono": "🇺🇸", "texto": "Estados Unidos inició su participación en la guerra luego de que Japón atacara su base naval de Pearl Harbor, en Hawái, a fines de ese año (7 de diciembre de 1941)." },
+                { "icono": "🤝", "texto": "Se conformó la GRAN ALIANZA ANTIFASCISTA entre Estados Unidos, Gran Bretaña y la Unión Soviética. Hasta entonces, las potencias occidentales se habían mostrado contrarias a asociarse con los soviéticos. La historiadora María Dolores Béjar plantea que temían más al comunismo que al nazismo, pero la invasión de Hitler a la URSS los unió contra el enemigo común." }
               ]
             }
           ]
@@ -802,22 +305,10 @@
             {
               "tipo": "lista",
               "items": [
-                {
-                  "icono": "🇮🇹",
-                  "texto": "Los norteamericanos y los ingleses avanzaron desde el norte de África hacia Italia y provocaron la caída del régimen de Mussolini."
-                },
-                {
-                  "icono": "🏖️",
-                  "texto": "DESEMBARCO EN NORMANDÍA (junio 1944): fuerzas aliadas compuestas por soldados norteamericanos, canadienses y británicos desembarcaron en la costa francesa de Normandía. Desde allí fueron recuperando las zonas ocupadas por los nazis y liberaron Francia. Comenzaron su avance hacia Alemania."
-                },
-                {
-                  "icono": "🇯🇵",
-                  "texto": "Estados Unidos ocupó la isla de Iwo Jima, en territorio japonés (1945)."
-                },
-                {
-                  "icono": "🏁",
-                  "texto": "BATALLA DE BERLÍN (abril-mayo 1945): una de las más cruentas de la guerra, con luchas cuerpo a cuerpo en calles y casas. Las Fuerzas Armadas alemanas se rindieron ante el Ejército Rojo soviético, que plantó su bandera en la torre del parlamento alemán (Reichstag) simbolizando la caída del régimen nazi."
-                }
+                { "icono": "🇮🇹", "texto": "Los norteamericanos y los ingleses avanzaron desde el norte de África hacia Italia y provocaron la caída del régimen de Mussolini." },
+                { "icono": "🏖️", "texto": "DESEMBARCO EN NORMANDÍA (junio 1944): fuerzas aliadas compuestas por soldados norteamericanos, canadienses y británicos desembarcaron en la costa francesa de Normandía. Desde allí fueron recuperando las zonas ocupadas por los nazis y liberaron Francia. Comenzaron su avance hacia Alemania." },
+                { "icono": "🇯🇵", "texto": "Estados Unidos ocupó la isla de Iwo Jima, en territorio japonés (1945)." },
+                { "icono": "🏁", "texto": "BATALLA DE BERLÍN (abril-mayo 1945): una de las más cruentas de la guerra, con luchas cuerpo a cuerpo en calles y casas. Las Fuerzas Armadas alemanas se rindieron ante el Ejército Rojo soviético, que plantó su bandera en la torre del parlamento alemán (Reichstag) simbolizando la caída del régimen nazi." }
               ]
             }
           ]
@@ -896,22 +387,10 @@
             {
               "tipo": "lista",
               "items": [
-                {
-                  "icono": "📋",
-                  "texto": "Crímenes contra la paz: por instigar la guerra."
-                },
-                {
-                  "icono": "💀",
-                  "texto": "Crímenes contra la Humanidad: por genocidio."
-                },
-                {
-                  "icono": "⚔️",
-                  "texto": "Crímenes de guerra: por la violación de las leyes y usos de la guerra."
-                },
-                {
-                  "icono": "🔗",
-                  "texto": "Planificación y conspiración para cometer dichos crímenes."
-                }
+                { "icono": "📋", "texto": "Crímenes contra la paz: por instigar la guerra." },
+                { "icono": "💀", "texto": "Crímenes contra la Humanidad: por genocidio." },
+                { "icono": "⚔️", "texto": "Crímenes de guerra: por la violación de las leyes y usos de la guerra." },
+                { "icono": "🔗", "texto": "Planificación y conspiración para cometer dichos crímenes." }
               ]
             }
           ]
@@ -929,18 +408,9 @@
             {
               "tipo": "lista",
               "items": [
-                {
-                  "icono": "1️⃣",
-                  "texto": "Boicot a comercios judíos (abril 1933): los miembros de las fuerzas de combate callejero del partido nazi (SA) impedían la entrada a los negocios de la comunidad judía y amenazaban a sus profesionales con pintadas antisemitas en las puertas de sus oficinas."
-                },
-                {
-                  "icono": "2️⃣",
-                  "texto": "Leyes de Nuremberg (1935): establecieron una diferenciación entre ciudadanos alemanes 'arios' y judíos. Estos perdieron derechos y la condición de ciudadanía que habían tenido hasta entonces: no podían ejercer cargos públicos, votar ni relacionarse con el 'pueblo alemán'."
-                },
-                {
-                  "icono": "3️⃣",
-                  "texto": "Noche de los cristales rotos (1938): miembros de las SA y civiles alemanes atacaron comercios, escuelas, oficinas, templos y casas de la población judía. Ocasionaron decenas de muertes y cientos de judíos fueron detenidos y luego deportados a campos de concentración."
-                }
+                { "icono": "1️⃣", "texto": "Boicot a comercios judíos (abril 1933): los miembros de las fuerzas de combate callejero del partido nazi (SA) impedían la entrada a los negocios de la comunidad judía y amenazaban a sus profesionales con pintadas antisemitas en las puertas de sus oficinas." },
+                { "icono": "2️⃣", "texto": "Leyes de Nuremberg (1935): establecieron una diferenciación entre ciudadanos alemanes 'arios' y judíos. Estos perdieron derechos y la condición de ciudadanía que habían tenido hasta entonces: no podían ejercer cargos públicos, votar ni relacionarse con el 'pueblo alemán'." },
+                { "icono": "3️⃣", "texto": "Noche de los cristales rotos (1938): miembros de las SA y civiles alemanes atacaron comercios, escuelas, oficinas, templos y casas de la población judía. Ocasionaron decenas de muertes y cientos de judíos fueron detenidos y luego deportados a campos de concentración." }
               ]
             },
             {
@@ -992,22 +462,10 @@
             {
               "tipo": "lista",
               "items": [
-                {
-                  "icono": "⚖️",
-                  "texto": "Al comienzo de la Segunda Guerra Mundial, Argentina sostuvo la misma posición neutral que había manifestado durante la Primera Guerra. Estados Unidos comenzó a presionar a los países de América Latina para que se integraran a la lucha contra las potencias del Eje."
-                },
-                {
-                  "icono": "🪖",
-                  "texto": "Castillo, simpatizante de la causa aliada, siguió manteniendo la neutralidad. Como su sucesor en las elecciones de 1943 apoyó a un candidato que representaba a los sectores políticos más conservadores y proclives a las ideas nacionalistas."
-                },
-                {
-                  "icono": "🎖️",
-                  "texto": "EL GOU (Grupo de Oficiales Unidos): grupo de militares con ideas nacionalistas formado a principios de los años 40. Cuestionaba el sistema político vigente y sostenía la importancia de mantener la neutralidad ante la guerra, sin ceder a las presiones norteamericanas."
-                },
-                {
-                  "icono": "⚔️",
-                  "texto": "4 DE JUNIO DE 1943: los jefes del ejército realizaron un golpe de Estado y derrocaron a Castillo. El nuevo gobierno militar disolvió los partidos políticos, persiguió a militantes (especialmente comunistas), intervino las universidades y estableció la enseñanza religiosa obligatoria en las escuelas públicas."
-                }
+                { "icono": "⚖️", "texto": "Al comienzo de la Segunda Guerra Mundial, Argentina sostuvo la misma posición neutral que había manifestado durante la Primera Guerra. Estados Unidos comenzó a presionar a los países de América Latina para que se integraran a la lucha contra las potencias del Eje." },
+                { "icono": "🪖", "texto": "Castillo, simpatizante de la causa aliada, siguió manteniendo la neutralidad. Como su sucesor en las elecciones de 1943 apoyó a un candidato que representaba a los sectores políticos más conservadores y proclives a las ideas nacionalistas." },
+                { "icono": "🎖️", "texto": "EL GOU (Grupo de Oficiales Unidos): grupo de militares con ideas nacionalistas formado a principios de los años 40. Cuestionaba el sistema político vigente y sostenía la importancia de mantener la neutralidad ante la guerra, sin ceder a las presiones norteamericanas." },
+                { "icono": "⚔️", "texto": "4 DE JUNIO DE 1943: los jefes del ejército realizaron un golpe de Estado y derrocaron a Castillo. El nuevo gobierno militar disolvió los partidos políticos, persiguió a militantes (especialmente comunistas), intervino las universidades y estableció la enseñanza religiosa obligatoria en las escuelas públicas." }
               ]
             }
           ]
@@ -1020,211 +478,28 @@
           "bloques": [
             {
               "tipo": "parrafo",
-              "texto": "Entre los dirigentes del gobierno militar empezó a tener un lugar cada vez más destacado el coronel Juan Domingo Perón, quien primero se hizo cargo del Departamento de Trabajo y luego, a medida que crecía su poder, ocupó los cargos de titular de la Secretaría de Trabajo, ministro de Guerra y vicepresidente de la Nación."
+              "texto": "Tras el golpe de 1943, Juan Domingo Perón fue ganando poder progresivamente en el gobierno militar. Primero se hizo cargo del Departamento de Trabajo —que luego transformó en Secretaría—, fue nombrado ministro de Guerra y más tarde vicepresidente. Desde estos cargos comenzó a tejer vínculos con los trabajadores y los sectores sindicales."
             },
             {
               "tipo": "tarjeta_destacada",
-              "titulo": "Medidas laborales que le dieron apoyo obrero",
-              "texto": "Las medidas adoptadas desde la Secretaría de Trabajo determinaban mejoras en las condiciones de vida de los trabajadores y le proporcionaron a Perón un amplio apoyo sindical:",
-              "color": "verde"
-            },
-            {
-              "tipo": "lista",
-              "items": [
-                {
-                  "icono": "💰",
-                  "texto": "Aguinaldo: un salario más al año, pagado en dos veces (junio y diciembre)."
-                },
-                {
-                  "icono": "🏖️",
-                  "texto": "Vacaciones pagas para todos los trabajadores."
-                },
-                {
-                  "icono": "📋",
-                  "texto": "Indemnización para despidos sin causa."
-                },
-                {
-                  "icono": "🤝",
-                  "texto": "Convenciones colectivas de trabajo (paritarias): encuentros entre patrones y trabajadores para discutir y acordar salarios y condiciones laborales."
-                },
-                {
-                  "icono": "⚖️",
-                  "texto": "Tribunales de trabajo: dedicados específicamente a tratar los problemas propios de ámbitos laborales."
-                },
-                {
-                  "icono": "💵",
-                  "texto": "Salario mínimo, vital y móvil."
-                },
-                {
-                  "icono": "🏥",
-                  "texto": "Medicina laboral."
-                },
-                {
-                  "icono": "🌾",
-                  "texto": "Estatuto del Peón rural: establecía condiciones dignas de trabajo, descanso dominical, vacaciones y estabilidad laboral para los trabajadores rurales."
-                },
-                {
-                  "icono": "👴",
-                  "texto": "Extensión de la jubilación a todos los trabajadores."
-                }
-              ]
-            },
-            {
-              "tipo": "parrafo",
-              "texto": "Estas medidas comenzaron a generar malestar entre los sectores conservadores y los universitarios. En septiembre de 1945, estos sectores protagonizaron la 'Marcha de la Constitución y la Libertad' para manifestar su oposición a las políticas de Perón y pedir el traspaso del gobierno a la Corte Suprema."
-            }
-          ]
-        },
-        {
-          "id": "17-octubre-detallado",
-          "titulo": "El 17 de octubre de 1945: nace el peronismo",
-          "icono": "✊",
-          "color": "azul",
-          "bloques": [
-            {
-              "tipo": "parrafo",
-              "texto": "Los sectores del propio gobierno militar también comenzaron a objetar el creciente poder de Perón. Lo obligaron a renunciar, lo detuvieron y lo enviaron prisionero a la isla Martín García. Pero entonces sucedieron rápidamente muchos hechos. Como lo describe el historiador Juan Carlos Torre:"
-            },
-            {
-              "tipo": "ejemplo",
-              "cita": "El anuncio de su renuncia y su posterior encarcelamiento hicieron cundir la inquietud en las fábricas y los barrios obreros. Contra este telón de fondo, el 16 de octubre los dirigentes sindicales se reunieron en la CGT y declararon la huelga general, luego de un largo debate y bajo el acicate del estado de agitación de los trabajadores. En la mañana del 17, columnas de manifestantes comenzaron a afluir desde los suburbios a la Plaza de Mayo con la consigna de la libertad a Perón.",
-              "explicacion": "Juan Carlos Torre — historiador argentino, describe la movilización obrera del 17 de octubre de 1945."
-            },
-            {
-              "tipo": "tarjeta_destacada",
-              "titulo": "La movilización que cambió la historia",
-              "texto": "El 17 de octubre de 1945, miles de trabajadores de la ciudad de Buenos Aires y de distintas localidades bonaerenses se reunieron en la Plaza de Mayo para pedir la libertad de Perón y defender los derechos que habían obtenido. Ante esa multitud, las autoridades militares debieron ceder y por la noche Perón volvió a la Casa de Gobierno, desde donde dirigió un discurso a las masas movilizadas. Ese día inició una nueva etapa en la historia argentina que tendría a los trabajadores como protagonistas centrales de la vida política.",
+              "titulo": "Medidas laborales de Perón",
+              "texto": "Aguinaldo, vacaciones pagas, indemnización por despido, convenciones colectivas de trabajo, tribunales laborales, salario mínimo, Estatuto del Peón rural, extensión de la jubilación a diversos gremios y medicina laboral. Estas medidas le dieron a Perón un amplio y sólido apoyo entre los trabajadores, pero generaron malestar en los sectores conservadores, los grandes empresarios y los universitarios.",
               "color": "azul"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "La oposición a Perón creció y en 1945 se organizó la 'Marcha de la Constitución y la Libertad', una manifestación en su contra. En octubre de ese año, Perón fue obligado a renunciar a sus cargos y fue detenido, siendo enviado a la isla Martín García. Pero la CGT, las organizaciones gremiales y miles de trabajadores se movilizaron hacia la Plaza de Mayo el 17 de octubre de 1945 para exigir su liberación. Las autoridades militares cedieron, Perón fue liberado y esa misma noche dirigió un discurso a las masas desde el balcón de la Casa Rosada. Este acontecimiento marcó el nacimiento del peronismo como movimiento político de masas."
             }
           ]
-        }
-      ]
-    },
-    "recordar": {
-      "flashcards": [
-        {
-          "pregunta": "¿Cuándo comenzó la Segunda Guerra Mundial y qué hecho la desencadenó?",
-          "respuesta": "El 1 de septiembre de 1939, cuando Alemania invadió Polonia. Dos días después, Francia y Gran Bretaña le declararon la guerra a Alemania."
-        },
-        {
-          "pregunta": "¿Qué fue la 'guerra relámpago' (Blitzkrieg)?",
-          "respuesta": "La estrategia alemana de rápida conquista de países mediante ataques sorpresivos y coordinados. Así cayeron Noruega, Dinamarca, Holanda, Bélgica y Francia."
-        },
-        {
-          "pregunta": "¿Qué fue la Operación Barbarroja?",
-          "respuesta": "La invasión alemana a la Unión Soviética en 1941, rompiendo el Pacto Molotov-Ribbentrop. Abrió el frente oriental de la guerra con tres millones de soldados alemanes."
-        },
-        {
-          "pregunta": "¿Por qué Estados Unidos entró en la Segunda Guerra Mundial?",
-          "respuesta": "Por el ataque japonés a la base naval de Pearl Harbor (Hawái) el 7 de diciembre de 1941."
-        },
-        {
-          "pregunta": "¿Qué fue la Batalla de Stalingrado?",
-          "respuesta": "Un enfrentamiento decisivo (1942-1943) donde el Ejército Rojo soviético derrotó a las fuerzas alemanas, marcando el inicio del avance soviético hacia Berlín."
-        },
-        {
-          "pregunta": "¿Qué fue el Desembarco en Normandía?",
-          "respuesta": "En junio de 1944, fuerzas aliadas (EE.UU., Canadá, Gran Bretaña) desembarcaron en la costa francesa de Normandía para recuperar Europa del dominio nazi y avanzar hacia Alemania."
-        },
-        {
-          "pregunta": "¿Cómo terminó la guerra en el Pacífico?",
-          "respuesta": "Estados Unidos lanzó bombas atómicas sobre Hiroshima (6 de agosto) y Nagasaki (9 de agosto) de 1945. Japón se rindió, finalizando la Segunda Guerra Mundial."
-        },
-        {
-          "pregunta": "¿Qué fueron las Leyes de Nuremberg (1935)?",
-          "respuesta": "Leyes nazis que establecieron una diferenciación legal entre ciudadanos 'arios' y judíos, quitándoles a estos últimos derechos, ciudadanía y prohibiéndoles votar y ocupar cargos públicos."
-        },
-        {
-          "pregunta": "¿Qué fue la 'Noche de los cristales rotos'?",
-          "respuesta": "El ataque coordinado de 1938 contra comercios, sinagogas, escuelas y hogares de la población judía en Alemania, con decenas de muertos y cientos de judíos deportados a campos de concentración."
-        },
-        {
-          "pregunta": "¿Qué fue la 'solución final'?",
-          "respuesta": "El plan nazi de 1942 para el exterminio sistemático de todos los judíos de la Europa ocupada mediante campos de exterminio con cámaras de gas. Fueron asesinadas seis millones de personas."
-        },
-        {
-          "pregunta": "¿Cuáles fueron las tres conferencias de paz de los Aliados?",
-          "respuesta": "Teherán (1943): planificar el desembarco en Normandía. Yalta (1945): dividir Alemania en 4 zonas. Potsdam (1945): desnazificación, juicios de Nuremberg y reconstrucción europea."
-        },
-        {
-          "pregunta": "¿Qué fue el GOU?",
-          "respuesta": "El Grupo de Oficiales Unidos, un grupo de militares argentinos con ideas nacionalistas que derrocó a Castillo el 4 de junio de 1943."
-        },
-        {
-          "pregunta": "¿Qué medidas laborales impulsó Perón desde la Secretaría de Trabajo?",
-          "respuesta": "Aguinaldo, vacaciones pagas, indemnización por despido, convenciones colectivas, tribunales de trabajo, salario mínimo, Estatuto del Peón rural y extensión de la jubilación."
-        },
-        {
-          "pregunta": "¿Qué ocurrió el 17 de octubre de 1945?",
-          "respuesta": "Miles de trabajadores se movilizaron a Plaza de Mayo para pedir la libertad de Perón. Las autoridades militares cedieron, Perón fue liberado y dio un discurso a las masas. Marcó el nacimiento del peronismo."
-        },
-        {
-          "pregunta": "¿Qué eran los guetos durante el Holocausto?",
-          "respuesta": "Zonas o barrios aislados con alambres de púa donde los judíos eran obligados a vivir hacinados, sin poder salir ni tener contacto con otras personas."
         }
       ]
     },
     "practicar": {
-      "ejercicios_ids": [
-        "sm_camino_guerra",
-        "sm_mussolini",
-        "sm_hitler_ascenso",
-        "vf_expansionismo",
-        "sm_inicio_guerra",
-        "sm_blitzkrieg",
-        "sm_1941",
-        "sm_stalingrado",
-        "sm_desembarco",
-        "sm_fin_guerra",
-        "sm_bombas",
-        "sm_conferencias",
-        "vf_holocausto",
-        "sm_juicios",
-        "sm_golpe_43",
-        "sm_medidas_peron",
-        "sm_17_octubre",
-        "vf_argentina_5",
-        "ord_segunda_guerra",
-        "ord_argentina_5",
-        "unir_potencias"
-      ]
-    },
-    "ponerse_a_prueba": {
-      "ejercicios_ids": [
-        "ord_segunda_guerra",
-        "ord_argentina_5",
-        "unir_potencias",
-        "vf_holocausto",
-        "vf_argentina_5"
-      ],
-      "duracion_min": 30
-    },
-    "mejorar": {
-      "explicaciones": [
-        {
-          "titulo": "No confundir las dos guerras mundiales",
-          "detalle": "La Primera Guerra Mundial (1914-1918) fue entre la Triple Entente y la Triple Alianza. La Segunda Guerra Mundial (1939-1945) fue entre los Aliados (Gran Alianza) y las Potencias del Eje. El Tratado de Versalles fue después de la Primera, no de la Segunda."
-        },
-        {
-          "titulo": "Pacto Molotov-Ribbentrop: Alemania y URSS no eran aliadas",
-          "detalle": "Fue un pacto de no agresión, no una alianza. Hitler lo rompió en 1941 al invadir la URSS. La URSS luego se unió a los Aliados en la Gran Alianza Antifascista."
-        },
-        {
-          "titulo": "Holocausto: no fue solo culpa de Hitler",
-          "detalle": "El genocidio fue posible por la participación de las Fuerzas Armadas alemanas, profesionales, medios de comunicación, empresarios y la complicidad o silencio de gran parte de la sociedad alemana. No fue obra de una sola persona."
-        },
-        {
-          "titulo": "Golpe de 1930 vs. Golpe de 1943",
-          "detalle": "En 1930, Uriburu derrocó a Yrigoyen (primer golpe). En 1943, el GOU derrocó a Castillo. Son dos golpes distintos: el primero inició la Década Infame, el segundo llevó al ascenso de Perón."
-        },
-        {
-          "titulo": "17 de octubre: no fue un feriado ni planeado",
-          "detalle": "Fue una movilización espontánea de trabajadores desde los suburbios hacia Plaza de Mayo exigiendo la libertad de Perón. No fue organizada por el gobierno ni por Perón. Marcó el nacimiento del peronismo como movimiento de masas."
-        },
-        {
-          "titulo": "Las bombas atómicas: una decisión controvertida",
-          "detalle": "Japón ya estaba prácticamente derrotado. EE.UU. justificó las bombas para evitar una invasión terrestre que costaría más vidas, pero las consecuencias humanas y ambientales fueron devastadoras. Hiroshima y Nagasaki siguen siendo los únicos casos de uso de armas nucleares en guerra."
-        }
+      "notas": [
+        { "titulo": "Recordá la línea cronológica", "detalle": "Los acontecimientos previos (1933-1939) son tan importantes como el desarrollo de la guerra misma (1939-1945). El contexto explica las causas." },
+        { "titulo": "El Holocausto no fue solo alemán", "detalle": "El régimen nazi contó con la colaboración de gobiernos y sociedades de muchos países europeos ocupados. Fue un fenómeno continental." },
+        { "titulo": "Argentina: de la neutralidad al peronismo", "detalle": "La posición neutral argentina fue consistente en ambas guerras mundiales. El golpe de 1943 abre un nuevo ciclo político que desemboca en el peronismo." },
+        { "titulo": "Las bombas atómicas: una decisión controvertida", "detalle": "Japón ya estaba prácticamente derrotado. EE.UU. justificó las bombas para evitar una invasión terrestre que costaría más vidas, pero las consecuencias humanas y ambientales fueron devastadoras. Hiroshima y Nagasaki siguen siendo los únicos casos de uso de armas nucleares en guerra." }
       ]
     }
   }
