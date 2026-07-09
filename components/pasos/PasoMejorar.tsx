@@ -16,7 +16,15 @@ export default function PasoMejorar({
 }) {
   const { usuario } = useAuth();
   const router = useRouter();
-  const { explicaciones } = modulo.metodo!.mejorar;
+  const { explicaciones } = modulo.metodo?.mejorar ?? {};
+  if (!explicaciones?.length) {
+    return (
+      <div className="text-center py-6">
+        <p className="text-sm text-gris">No hay explicaciones para este módulo.</p>
+        <button type="button" onClick={onCompletar} className="mt-3 w-full rounded-lg bg-verde text-white font-semibold py-3 hover:bg-verde/90 transition-colors">Completar paso</button>
+      </div>
+    );
+  }
   const [repasar, setRepasar] = useState<string[]>([]);
 
   useEffect(() => {

@@ -11,7 +11,15 @@ export default function PasoRecordar({
   modulo: Modulo;
   onCompletar: () => void;
 }) {
-  const { flashcards } = modulo.metodo!.recordar;
+  const { flashcards } = modulo.metodo?.recordar ?? {};
+  if (!flashcards?.length) {
+    return (
+      <div className="text-center py-6">
+        <p className="text-sm text-gris">No hay flashcards para este módulo.</p>
+        <button type="button" onClick={onCompletar} className="mt-3 w-full rounded-lg bg-verde text-white font-semibold py-3 hover:bg-verde/90 transition-colors">Completar paso</button>
+      </div>
+    );
+  }
   const [i, setI] = useState(0);
   const [volteada, setVolteada] = useState(false);
 
