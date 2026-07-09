@@ -123,18 +123,18 @@
     {
       "id": "guerra-fria-acrostico",
       "tipo": "completar",
-      "consigna": "GUERRA FRÍA - Parte 2\n\nCompletá el siguiente acróstico con la palabra o expresión correcta según cada definición.",
+      "consigna": "GUERRA FRÍA - Parte 2\n\nCompletá el acróstico con la palabra o expresión correcta según cada definición. La letra destacada forma parte de la frase vertical \"GUERRA FRÍA\".",
       "items": [
-        { "id": "g1", "subtipo": "texto", "pregunta": "G. Primer astronauta ruso que llegó al espacio en 1961.", "respuesta": "Gagarin" },
-        { "id": "u1", "subtipo": "texto", "pregunta": "U. Régimen político y económico que implementó la URSS.", "respuesta": "Comunismo" },
-        { "id": "e1", "subtipo": "texto", "pregunta": "E. País líder capitalista.", "respuesta": "EE.UU." },
-        { "id": "r1", "subtipo": "texto", "pregunta": "R. Nombre que recibió la división del mundo durante la Guerra Fría.", "respuesta": "Bipolar" },
-        { "id": "r2", "subtipo": "texto", "pregunta": "R. País líder comunista.", "respuesta": "URSS" },
-        { "id": "a1", "subtipo": "texto", "pregunta": "A. País donde hubo el primer enfrentamiento de la Guerra Fría en 1950.", "respuesta": "Corea" },
-        { "id": "f1", "subtipo": "texto", "pregunta": "F. País invadido por la URSS en 1979 para sostener a un gobierno aliado.", "respuesta": "Afganistán" },
-        { "id": "r3", "subtipo": "texto", "pregunta": "R. Apellido del líder de la Revolución Cubana que gobernó desde 1959 hasta su muerte.", "respuesta": "Castro" },
-        { "id": "i1", "subtipo": "texto", "pregunta": "Í. Tensión entre Kruschev (URSS) y Kennedy (EE.UU.) en la Bahía de los Cochinos en 1962.", "respuesta": "Crisis de los misiles" },
-        { "id": "a2", "subtipo": "texto", "pregunta": "A. Alianza política y militar creada en 1949 con el objetivo principal de garantizar la seguridad colectiva de sus países miembros.", "respuesta": "OTAN" }
+        { "id": "g1", "subtipo": "texto", "pregunta": "G _ _ _ _ _ _ (7 letras)\nPrimer astronauta ruso que llegó al espacio en 1961.", "respuesta": "Gagarin" },
+        { "id": "u1", "subtipo": "texto", "pregunta": "_ _ _ U _ _ _ _ _ (9 letras)\nRégimen político y económico que implementó la URSS.", "respuesta": "Comunismo" },
+        { "id": "e1", "subtipo": "texto", "pregunta": "E _ _ _ (4 letras)\nPaís líder capitalista.", "respuesta": "EEUU" },
+        { "id": "r1", "subtipo": "texto", "pregunta": "_ _ _ _ _ _ R (7 letras)\nNombre que recibió la división del mundo durante la Guerra Fría.", "respuesta": "Bipolar" },
+        { "id": "r2", "subtipo": "texto", "pregunta": "_ R _ _ (4 letras)\nPaís líder comunista.", "respuesta": "URSS" },
+        { "id": "a1", "subtipo": "texto", "pregunta": "_ _ _ _ A (5 letras)\nPaís donde hubo el primer enfrentamiento de la Guerra Fría en 1950.", "respuesta": "Corea" },
+        { "id": "f1", "subtipo": "texto", "pregunta": "_ F _ _ _ _ _ _ _ _ (10 letras)\nPaís invadido por la URSS en 1979 para sostener a un gobierno aliado.", "respuesta": "Afganistán" },
+        { "id": "r3", "subtipo": "texto", "pregunta": "_ _ _ _ R _ (6 letras)\nApellido del líder de la Revolución Cubana que gobernó desde 1959 hasta su muerte.", "respuesta": "Castro" },
+        { "id": "i1", "subtipo": "texto", "pregunta": "C r i s Í s   d e   l o s   m i s i l e s\nTensión entre Kruschev (URSS) y Kennedy (EE.UU.) en 1962.", "respuesta": "Crisis de los misiles" },
+        { "id": "a2", "subtipo": "texto", "pregunta": "_ _ _ A (4 letras)\nAlianza política y militar creada en 1949 para garantizar la seguridad colectiva de sus países miembros.", "respuesta": "OTAN" }
       ]
     },
     {
