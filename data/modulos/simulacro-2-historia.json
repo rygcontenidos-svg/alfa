@@ -214,6 +214,15 @@
         { "id": "ar_n", "subtipo": "select", "pregunta": "José Félix Uriburu llegó a la presidencia con intenciones de reformar la Constitución Nacional pero no tuvo apoyo.", "opciones": ["1","2","3"], "respuesta": "2" },
         { "id": "ar_o", "subtipo": "select", "pregunta": "Gobiernos de Ortiz y Castillo.", "opciones": ["1","2","3"], "respuesta": "2" }
       ]
+    },
+    {
+      "id": "historia-imagenes",
+      "tipo": "completar",
+      "consigna": "LA HISTORIA EN IMÁGENES\n\nAgregá un epígrafe a cada imagen que permita entender a qué se refiere.",
+      "items": [
+        { "id": "img1", "subtipo": "texto", "pregunta": "Imagen 1\n\nObservá la imagen y redactá un epígrafe.", "respuesta": "Publicidad de la URSS de los planes quinquenales de Stalin. El Estado comunista intervenía en la planificación económica en planes de 5 años que incentivaba el sector industrial.", "imagen": "/simulacro2-ej7-foto1.png" },
+        { "id": "img2", "subtipo": "texto", "pregunta": "Imagen 2\n\nObservá la imagen y redactá un epígrafe.", "respuesta": "El diario El Orden da la primicia del primer golpe de Estado el 6 de septiembre de 1930 que depuso al presidente radical Hipólito Yrigoyen. El golpe fue encabezado por el militar Félix Uriburu.", "imagen": "/simulacro2-ej7-foto2.png" }
+      ]
     }
   ]
 }
