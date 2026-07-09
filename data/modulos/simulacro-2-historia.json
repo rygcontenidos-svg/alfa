@@ -121,26 +121,9 @@
       ]
     },
     {
-      "id": "guerra-fria-acrostico",
-      "tipo": "completar",
-      "consigna": "GUERRA FRÍA - Parte 2\n\nCompletá cada definición con la palabra o expresión correcta. Las iniciales forman la frase \"GUERRA FRÍA\".",
-      "items": [
-        { "id": "g1", "subtipo": "texto", "pregunta": "G. Primer astronauta ruso que llegó al espacio en 1961.", "respuesta": "Gagarin" },
-        { "id": "u1", "subtipo": "texto", "pregunta": "U. Régimen político y económico que implementó la URSS.", "respuesta": "Comunismo" },
-        { "id": "e1", "subtipo": "texto", "pregunta": "E. País líder capitalista.", "respuesta": "EEUU" },
-        { "id": "r1", "subtipo": "texto", "pregunta": "R. Nombre que recibió la división del mundo durante la Guerra Fría.", "respuesta": "Bipolar" },
-        { "id": "r2", "subtipo": "texto", "pregunta": "R. País líder comunista.", "respuesta": "URSS" },
-        { "id": "a1", "subtipo": "texto", "pregunta": "A. País donde hubo el primer enfrentamiento de la Guerra Fría en 1950.", "respuesta": "Corea" },
-        { "id": "f1", "subtipo": "texto", "pregunta": "F. País invadido por la URSS en 1979 para sostener a un gobierno aliado.", "respuesta": "Afganistán" },
-        { "id": "r3", "subtipo": "texto", "pregunta": "R. Apellido del líder de la Revolución Cubana que gobernó desde 1959 hasta su muerte.", "respuesta": "Castro" },
-        { "id": "i1", "subtipo": "texto", "pregunta": "Í. Tensión entre Kruschev (URSS) y Kennedy (EE.UU.) en 1962.", "respuesta": "Crisis de los misiles" },
-        { "id": "a2", "subtipo": "texto", "pregunta": "A. Alianza política y militar creada en 1949 para garantizar la seguridad colectiva de sus países miembros.", "respuesta": "OTAN" }
-      ]
-    },
-    {
       "id": "guerra-fria-vf",
       "tipo": "verdadero_falso",
-      "consigna": "GUERRA FRÍA - Parte 3\n\nSeñalá si las siguientes afirmaciones son Correctas (C) o Incorrectas (I).",
+      "consigna": "GUERRA FRÍA - Parte 2\n\nSeñalá si las siguientes afirmaciones son Correctas (C) o Incorrectas (I).",
       "labels": { "verdadero": "C", "falso": "I" },
       "items": [
         { "id": "gfv_a", "afirmacion": "Hacia 1985 la URSS se encontraba atravesando un período de florecimiento económico.", "respuesta": false },
