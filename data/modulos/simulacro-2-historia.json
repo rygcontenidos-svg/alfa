@@ -10,7 +10,7 @@
     {
       "id": "fuentes-primarias-tipo",
       "tipo": "completar",
-      "consigna": "EJERCICIO Nº 1 - HISTORIA COMO CIENCIA\n\nParte 1\n\nIndicá en cada caso el tipo de fuente primaria.",
+      "consigna": "Parte 1\n\nIndicá en cada caso el tipo de fuente primaria.",
       "items": [
         { "id": "fp_a", "subtipo": "select", "pregunta": "a. \"Es difícil en tiempos como estos: los ideales, los sueños y las esperanzas más queridas surgen en nosotros, solo para ser aplastados por la dura realidad. Sin embargo, me aferro a ellos porque todavía creo, a pesar de todo, que las personas son realmente buenas de corazón.\"\nDiario de Ana Frank, 15 de julio de 1944\n\nTipo de fuente primaria:", "opciones": ["Escrita", "Oral", "Audiovisual", "Material mueble"], "respuesta": "Escrita" },
         { "id": "fp_b", "subtipo": "select", "pregunta": "b. La leyenda guaraní cuenta que Yasí, la luna, bajó a la Tierra con Araí, la nube, para conocer la selva. Un yaguareté intentó atacarlas, pero un anciano guaraní las salvó. En agradecimiento, hicieron brotar la yerba mate, una planta sagrada que desde entonces simboliza la amistad.\n\nTipo de fuente primaria:", "opciones": ["Escrita", "Oral", "Audiovisual", "Material mueble"], "respuesta": "Oral" },
@@ -21,7 +21,7 @@
     {
       "id": "definiciones-terminos",
       "tipo": "completar",
-      "consigna": "EJERCICIO Nº 1 - HISTORIA COMO CIENCIA\n\nParte 2\n\nAgregá a las siguientes definiciones el término definido que corresponda.",
+      "consigna": "Parte 2\n\nAgregá a las siguientes definiciones el término definido que corresponda.",
       "items": [
         { "id": "def_a", "subtipo": "select", "pregunta": "a. Los historiadores analizan los indicios de las acciones humanas del pasado, que constituyen testimonios de una época.", "opciones": ["Fuentes primarias", "Procesos históricos", "Tiempo cronológico", "Contexto histórico", "Multicausalidad", "Tiempo histórico"], "respuesta": "Fuentes primarias" },
         { "id": "def_b", "subtipo": "select", "pregunta": "b. Los historiadores organizan en un relato un conjunto de acontecimientos y cambios de la sociedad que están relacionados entre sí para estudiar sus causas y consecuencias, cambios y permanencias a lo largo del tiempo.", "opciones": ["Fuentes primarias", "Procesos históricos", "Tiempo cronológico", "Contexto histórico", "Multicausalidad", "Tiempo histórico"], "respuesta": "Procesos históricos" },
@@ -34,7 +34,7 @@
     {
       "id": "interdisciplinariedad-vf",
       "tipo": "verdadero_falso",
-      "consigna": "EJERCICIO Nº 1 - HISTORIA COMO CIENCIA\n\nParte 3\n\nLa interdisciplinariedad de la Historia\n\nDeterminá si las siguientes oraciones son Correctas (C) o Incorrectas (I).",
+      "consigna": "Parte 3\n\nLa interdisciplinariedad de la Historia\n\nDeterminá si las siguientes oraciones son Correctas (C) o Incorrectas (I).",
       "labels": { "verdadero": "C", "falso": "I" },
       "items": [
         { "id": "int_a", "afirmacion": "La Geografía es una ciencia que estudia los comportamientos y las actividades de los seres humanos.", "respuesta": false, "correccion": "La Geografía estudia el espacio geográfico como resultado de la interacción entre la naturaleza y la sociedad." },
